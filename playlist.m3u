@@ -111,3 +111,7 @@ http://baskhd.ddns.net:40/live/MihrabTV/chunklist_w1291413404.m3u8
 https://cdn-live.gemgroup.tv/live/gemtv.m3u8
 #EXTINF:-1 tvg-name="TRT Documentary" tvg-logo="https://kurdtvs.net/uploads/files/25-02-2017-3c46bf19-trt-belgesel-kurdtvs-net.png" group-title="Documentary Turkish",TRT Documentary
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Movies",Spider-Man: Brand New Day
+https://mv.andam.uk/movie/1py9t-spider-man-brand-new-day
+#EXTINF:-1 group-title="Series",The Guest
+https://mv.andam.uk/tv/9cqww-the-guest
