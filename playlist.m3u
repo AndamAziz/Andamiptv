@@ -1,5 +1,5 @@
  #EXTM3U
-#EXTINF:-1 tvg-name="AVA TV" tvg-logo="https://i.postimg.cc/TPfZQ2B9/Ava.jpg" group-title=" ,AVA MEDIA TV
+#EXTINF:-1 tvg-name="AVA TV" tvg-logo="https://i.postimg.cc/TPfZQ2B9/Ava.jpg" group-title="" ,AVA MEDIA TV
 https://ava2.store/upload/ava.m3u8
 #EXTINF:-1 tvg-name="Kurdsat Tv" tvg-logo="https://kurdtvs.net/uploads/kurdsat.png" group-title="News General Local",Kurdsat Tv
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
