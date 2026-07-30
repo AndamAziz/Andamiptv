@@ -1,8 +1,4 @@
  #EXTM3U
-#EXTINF:-1 tvg-name="Kurdmax Sorani" tvg-logo="https://kurdtvs.net/uploads/kurdmax.png" group-title="Music General Local",Kurdmax Sorani
-https://stream.kurdmax.tv/app/kurdmax-sorani1/ts:playlist.m3u8
-#EXTINF:-1 tvg-name="Kurdmax Kurmanci" tvg-logo="https://kurdtvs.net/uploads/kurdmax.png" group-title="Music General Local",Kurdmax Kurmanci
-https://stream.kurdmax.tv/app/kurdmax-kurmanji2/ts:playlist.m3u8
 #EXTINF:-1 tvg-name="Kurdsat Tv" tvg-logo="https://kurdtvs.net/uploads/kurdsat.png" group-title="News General Local",Kurdsat Tv
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 #EXTINF:-1 tvg-name="Kurdsat Tv" tvg-logo="https://kurdtvs.net/uploads/kurdsat.png" group-title="News General Local",Kurdsat Tv (Alt 2)
