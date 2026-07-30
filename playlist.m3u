@@ -1,4 +1,6 @@
  #EXTM3U
+#EXTINF:-1 tvg-name="AVA TV" tvg-logo="https://i.postimg.cc/TPfZQ2B9/Ava.jpg" group-title="Local, news",AVA TV
+https://ava2.store/upload/ava.m3u8
 #EXTINF:-1 tvg-name="Kurdsat Tv" tvg-logo="https://kurdtvs.net/uploads/kurdsat.png" group-title="News General Local",Kurdsat Tv
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 #EXTINF:-1 tvg-name="NRT TV HD" tvg-logo="https://kurdtvs.net/uploads/nrttvhd.png" group-title="News General Local",NRT TV HD
@@ -9,8 +11,6 @@ https://live.rudaw.net/hls/rudaw-tv/master.m3u8
 https://stream.kurdmaxshow.tv/app/kurdmaxshow-sorani/llhls.m3u8
 #EXTINF:-1 tvg-name="Nrt2 HD" tvg-logo="https://kurdtvs.net/uploads/files/23-04-2016-c02c9b27-nrt2-hd-live-kurdtvs.png" group-title="Music Local General",Nrt2 HD
 https://media.streambrothers.com:1936/8226/8226/playlist.m3u8
-#EXTINF:-1 tvg-name="AVA TV" tvg-logo="https://kurdtvs.net/uploads/files/22-04-2019-c52af58b-avatv.png" group-title="Local, news",AVA TV
-https://ava2.store/upload/ava.m3u8
 #EXTINF:-1 tvg-name="Amozhgary TV" tvg-logo="https://kurdtvs.net/uploads/amozhgary.png" group-title="Kurdistan Documentary General",Amozhgary TV
 https://app-live.org/live/3268334b/index.m3u8
 #EXTINF:-1 tvg-name="Kurdmax Show Kurmanci" tvg-logo="https://kurdtvs.net/uploads/files/03-10-2017-b83282e7-Kurdmaxshow.png" group-title="Music Local General",Kurdmax Show Kurmanci
