@@ -27,7 +27,7 @@ jobs:
         run: npm install iptv-checker
 
       - name: Check and clean playlist
-        run: node check-dead-channels.mjs
+        run: node check-dead-channels.js
 
       - name: Commit and Push Changes
         run: |
