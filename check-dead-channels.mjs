@@ -1,27 +1,46 @@
-import { IPTVChecker } from 'iptv-checker'
-import fs from 'fs'
+import pkg from 'iptv-checker';
+import fs from 'fs';
 
-const PLAYLIST_FILE = 'playlist.m3u'
+async function cleanPlaylist() {
+  console.log("Checking channels in playlist.m3u...");
+  
+  try {
+    // دەستنیشانکردنی شێوازی فەنکشنی iptv-checker بە شێوەی ئۆتۆماتیک
+    const checkFn = typeof pkg === 'function' 
+      ? pkg 
+      : (pkg.default || pkg.check || pkg.checkM3u || pkg.checkFile);
 
-const checker = new IPTVChecker({
-  timeout: 15000, // ١٥ چرکە — کورتتر لەوە زۆرێک لە stream دروستەکان بە هەڵە dead دەکات
-  parallel: 8,
-  retry: 1
-})
+    if (typeof checkFn !== 'function') {
+      console.log("Package structure:", pkg);
+      throw new Error("Could not resolve checker function from iptv-checker module.");
+    }
 
-console.log('پشکنینی چەنالەکان دەستپێدەکات...')
+    const config = {
+      timeout: 5000,
+      parallel: 5
+    };
 
-const results = await checker.checkPlaylist(PLAYLIST_FILE)
-const working = results.items.filter(item => item.status.ok)
-const dead = results.items.filter(item => !item.status.ok)
+    const results = await checkFn('playlist.m3u', config);
 
-let output = (results.header.raw || '#EXTM3U') + '\n'
-for (const item of working) {
-  output += item.raw.trim() + '\n'
+    // فلتەرکردنی تەنها ئەو چەناڵانەی کار دەکەن (Status OK)
+    const aliveChannels = (results.items || results || []).filter(item => item.status && item.status.ok);
+
+    let newM3uContent = '#EXTM3U\n';
+    aliveChannels.forEach(item => {
+      const tvgId = item.tvg && item.tvg.id ? item.tvg.id : '';
+      const tvgName = item.tvg && item.tvg.name ? item.tvg.name : '';
+      const tvgLogo = item.tvg && item.tvg.logo ? item.tvg.logo : '';
+      const groupTitle = item.group && item.group.title ? item.group.title : '';
+
+      newM3uContent += `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-logo="${tvgLogo}" group-title="${groupTitle}",${item.name || item.title || ''}\n${item.url}\n`;
+    });
+
+    fs.writeFileSync('playlist.m3u', newM3uContent);
+    console.log(`Done! Kept ${aliveChannels.length} active channels.`);
+  } catch (error) {
+    console.error("Error checking playlist:", error);
+    process.exit(1);
+  }
 }
 
-fs.writeFileSync(PLAYLIST_FILE, output)
-
-console.log(`✅ ${working.length} چەناڵی کارا هێشتەوە`)
-console.log(`❌ ${dead.length} چەناڵی مردوو سڕایەوە:`)
-dead.forEach(item => console.log(`   - ${item.name}`))
+cleanPlaylist();
