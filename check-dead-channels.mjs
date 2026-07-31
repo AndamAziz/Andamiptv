@@ -1,8 +1,5 @@
-import { createRequire } from 'module';
-import fs from 'fs';
-
-const require = createRequire(import.meta.url);
 const iptvChecker = require('iptv-checker');
+const fs = require('fs');
 
 async function cleanPlaylist() {
   console.log("Checking channels in playlist.m3u...");
@@ -13,15 +10,15 @@ async function cleanPlaylist() {
       parallel: 5
     };
 
-    // ڕاستەوخۆ بەکارهێنانی require
+    // ڕاستەوخۆ کارکردن بە CommonJS
     const results = await iptvChecker('playlist.m3u', config);
 
     if (!results || !results.items) {
-      console.log("No items found or unexpected result structure:", results);
+      console.log("No items returned from checker.");
       return;
     }
 
-    // فلتەرکردنی تەنها ئەو چەناڵانەی کار دەکەن (Status OK)
+    // فلتەرکردنی تەنها ئەو چەناڵانەی کار دەکەن
     const aliveChannels = results.items.filter(item => item.status && item.status.ok);
 
     let newM3uContent = '#EXTM3U\n';
