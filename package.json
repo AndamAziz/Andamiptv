@@ -1,0 +1,8 @@
+{
+  "name": "m3u-checker",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "iptv-checker": "^0.3.0"
+  }
+}
