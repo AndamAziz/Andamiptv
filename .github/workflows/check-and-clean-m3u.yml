@@ -15,16 +15,11 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Check and clean playlist
-        run: node check-dead-channels.js
+      - name: Run Python IPTV Checker
+        run: python3 check.py
 
       - name: Commit and Push Changes
         run: |
