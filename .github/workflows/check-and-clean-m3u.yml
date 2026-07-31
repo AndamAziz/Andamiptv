@@ -23,9 +23,6 @@ jobs:
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Install dependencies
-        run: npm install iptv-checker
-
       - name: Check and clean playlist
         run: node check-dead-channels.js
 
