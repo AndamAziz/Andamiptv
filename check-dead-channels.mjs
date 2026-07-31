@@ -1,29 +1,28 @@
-import pkg from 'iptv-checker';
+import { createRequire } from 'module';
 import fs from 'fs';
+
+const require = createRequire(import.meta.url);
+const iptvChecker = require('iptv-checker');
 
 async function cleanPlaylist() {
   console.log("Checking channels in playlist.m3u...");
   
   try {
-    // دەستنیشانکردنی شێوازی فەنکشنی iptv-checker بە شێوەی ئۆتۆماتیک
-    const checkFn = typeof pkg === 'function' 
-      ? pkg 
-      : (pkg.default || pkg.check || pkg.checkM3u || pkg.checkFile);
-
-    if (typeof checkFn !== 'function') {
-      console.log("Package structure:", pkg);
-      throw new Error("Could not resolve checker function from iptv-checker module.");
-    }
-
     const config = {
       timeout: 5000,
       parallel: 5
     };
 
-    const results = await checkFn('playlist.m3u', config);
+    // ڕاستەوخۆ بەکارهێنانی require
+    const results = await iptvChecker('playlist.m3u', config);
+
+    if (!results || !results.items) {
+      console.log("No items found or unexpected result structure:", results);
+      return;
+    }
 
     // فلتەرکردنی تەنها ئەو چەناڵانەی کار دەکەن (Status OK)
-    const aliveChannels = (results.items || results || []).filter(item => item.status && item.status.ok);
+    const aliveChannels = results.items.filter(item => item.status && item.status.ok);
 
     let newM3uContent = '#EXTM3U\n';
     aliveChannels.forEach(item => {
@@ -36,7 +35,7 @@ async function cleanPlaylist() {
     });
 
     fs.writeFileSync('playlist.m3u', newM3uContent);
-    console.log(`Done! Kept ${aliveChannels.length} active channels.`);
+    console.log(`Done! Kept ${aliveChannels.length} active channels out of ${results.items.length}.`);
   } catch (error) {
     console.error("Error checking playlist:", error);
     process.exit(1);
