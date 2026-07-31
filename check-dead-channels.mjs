@@ -1,36 +1,33 @@
-import { IPTVChecker } from 'iptv-checker'
-import fs from 'fs'
+import pkg from 'iptv-checker';
+const IPTVChecker = pkg.default || pkg;
+import fs from 'fs';
 
-const PLAYLIST_FILE = 'playlist.m3u'
-
-async function runChecker() {
-  const checker = new IPTVChecker({
-    timeout: 15000,
-    parallel: 8,
-    retry: 1
-  })
-
-  console.log('پشکنینی چەنالەکان دەستپێدەکات...')
-
+async function cleanPlaylist() {
+  console.log("Checking channels in playlist.m3u...");
+  
   try {
-    const results = await checker.checkPlaylist(PLAYLIST_FILE)
-    const working = results.items.filter(item => item.status.ok)
-    const dead = results.items.filter(item => !item.status.ok)
-
-    let output = (results.header?.raw || '#EXTM3U') + '\n\n'
-    for (const item of working) {
-      output += item.raw.trim() + '\n\n'
-    }
-
-    fs.writeFileSync(PLAYLIST_FILE, output)
-
-    console.log(`✅ ${working.length} چەناڵی کارا هێشتەوە`)
-    console.log(`❌ ${dead.length} چەناڵی مردوو سڕایەوە:`)
-    dead.forEach(item => console.log(`   - ${item.name}`))
-  } catch (err) {
-    console.error('هەڵەیەک ڕوویدا لە کاتی پشکنیندا:', err)
-    process.exit(1)
+    const config = {
+      timeout: 5000,
+      parallel: 5
+    };
+    
+    const checker = new IPTVChecker(config);
+    const results = await checker.checkFile('playlist.m3u');
+    
+    // فلتەرکردنی تەنها ئەو چەناڵانەی کە کار دەکەن (Status OK)
+    const aliveChannels = results.items.filter(item => item.status && item.status.ok);
+    
+    let newM3uContent = '#EXTM3U\n';
+    aliveChannels.forEach(item => {
+      newM3uContent += `#EXTINF:-1 tvg-id="${item.tvg.id || ''}" tvg-name="${item.tvg.name || ''}" tvg-logo="${item.tvg.logo || ''}" group-title="${item.group.title || ''}",${item.name}\n${item.url}\n`;
+    });
+    
+    fs.writeFileSync('playlist.m3u', newM3uContent);
+    console.log(`Done! Kept ${aliveChannels.length} active channels out of ${results.items.length}.`);
+  } catch (error) {
+    console.error("Error checking playlist:", error);
+    process.exit(1);
   }
 }
 
-runChecker()
+cleanPlaylist();
