@@ -2,8 +2,12 @@ name: Update M3U Playlist Automatically
 
 on:
   schedule:
-    - cron: '0 0 * * *' # هەموو شەوێک کاتژمێر 12ی شەو بەخۆکار بەگەڕ دەکەوێت
-  workflow_dispatch: # ڕێگەت پێدەدات لە بەشی Actions خۆت بەدەستی کلیکی Run بکەیت
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+# 🔹 زیادکردنی ئەم بەشە بۆ پێدانی مۆڵەتی نووسین
+permissions:
+  contents: write
 
 jobs:
   build:
