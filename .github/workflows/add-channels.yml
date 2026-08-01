@@ -1,0 +1,29 @@
+name: Add Channels From External Source
+on:
+  workflow_dispatch:
+    inputs:
+      source_url:
+        description: 'لینکی M3U ی سەرچاوە'
+        required: true
+        default: 'https://iptv-org.github.io/iptv/languages/kur.m3u'
+permissions:
+  contents: write
+jobs:
+  add-channels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Add channels
+        run: node add-channels.mjs "${{ github.event.inputs.source_url }}"
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add playlist.m3u
+          git commit -m "Add channels from external source" || exit 0
+          git push
