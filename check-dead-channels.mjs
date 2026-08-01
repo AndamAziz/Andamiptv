@@ -1,55 +1,27 @@
-const fs = require('fs');
-const { execSync } = require('child_process');
+import { IPTVChecker } from 'iptv-checker'
+import fs from 'fs'
 
-async function checkUrl(url) {
-  try {
-    // بەکارهێنانی ffmpeg بۆ پشکنینی ڕاستەوخۆی ستریمەکە لە زۆربەی فرێمەکاندا
-    execSync(`ffmpeg -v error -i "${url}" -t 2 -f null -`, { timeout: 8000, stdio: 'ignore' });
-    return true;
-  } catch (e) {
-    return false;
-  }
+const PLAYLIST_FILE = 'playlist.m3u'
+
+const checker = new IPTVChecker({
+  timeout: 15000,
+  parallel: 8,
+  retry: 1
+})
+
+console.log('پشکنینی چەنالەکان دەستپێدەکات...')
+
+const results = await checker.checkPlaylist(PLAYLIST_FILE)
+const working = results.items.filter(item => item.status.ok)
+const dead = results.items.filter(item => !item.status.ok)
+
+let output = (results.header.raw || '#EXTM3U') + '\n'
+for (const item of working) {
+  output += item.raw.trim() + '\n'
 }
 
-async function cleanPlaylist() {
-  console.log("Starting IPTV playlist check...");
-  
-  if (!fs.existsSync('playlist.m3u')) {
-    console.error("playlist.m3u file not found!");
-    process.exit(1);
-  }
+fs.writeFileSync(PLAYLIST_FILE, output)
 
-  const content = fs.readFileSync('playlist.m3u', 'utf-8');
-  const lines = content.split('\n');
-  
-  let aliveContent = '#EXTM3U\n';
-  let currentExtinf = '';
-  let checkedCount = 0;
-  let aliveCount = 0;
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
-    
-    if (line.startsWith('#EXTINF:')) {
-      currentExtinf = line;
-    } else if (line.startsWith('http://') || line.startsWith('https://')) {
-      checkedCount++;
-      console.log(`Checking [${checkedCount}]: ${line}`);
-      
-      const isAlive = await checkUrl(line);
-      if (isAlive) {
-        console.log(` -> ACTIVE ✅`);
-        aliveContent += `${currentExtinf}\n${line}\n`;
-        aliveCount++;
-      } else {
-        console.log(` -> DEAD ❌`);
-      }
-      currentExtinf = '';
-    }
-  }
-
-  fs.writeFileSync('playlist.m3u', aliveContent);
-  console.log(`\nFinished! Active channels: ${aliveCount} / Total: ${checkedCount}`);
-}
-
-cleanPlaylist();
+console.log(`✅ ${working.length} چەناڵی کارا هێشتەوە`)
+console.log(`❌ ${dead.length} چەناڵی مردوو سڕایەوە:`)
+dead.forEach(item => console.log(`   - ${item.name}`))
