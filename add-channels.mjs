@@ -1,12 +1,17 @@
 import fs from 'fs'
 
 const PLAYLIST_FILE = 'playlist.m3u'
-const sourceUrl = process.argv[2]
+const rawInput = process.argv[2]
 
-if (!sourceUrl) {
-  console.error('پێویستە لینکی سەرچاوە بدەیت')
+if (!rawInput) {
+  console.error('پێویستە لینک بدەیت')
   process.exit(1)
 }
+
+const sourceUrls = rawInput
+  .split(/[\n,]+/)
+  .map(u => u.trim())
+  .filter(Boolean)
 
 function parseM3U(text) {
   const lines = text.split(/\r?\n/)
@@ -26,24 +31,31 @@ function parseM3U(text) {
   return channels
 }
 
-console.log(`وەرگرتنی playlist لە: ${sourceUrl}`)
-const res = await fetch(sourceUrl)
-const sourceText = await res.text()
-const newChannels = parseM3U(sourceText)
-
 const existingText = fs.readFileSync(PLAYLIST_FILE, 'utf8')
 const existingChannels = parseM3U(existingText)
-const existingUrls = new Set(existingChannels.map(ch => ch.url))
+const seenUrls = new Set(existingChannels.map(ch => ch.url))
 
-const toAdd = newChannels.filter(ch => !existingUrls.has(ch.url))
+let allNew = []
 
-console.log(`${newChannels.length} چەناڵ لە سەرچاوەکەدا هەیە`)
-console.log(`${toAdd.length} چەناڵی نوێ زیاد دەکرێت (${newChannels.length - toAdd.length} پێشتر هەبوون)`)
+for (const url of sourceUrls) {
+  console.log(`\nوەرگرتن لە: ${url}`)
+  try {
+    const res = await fetch(url)
+    const text = await res.text()
+    const channels = parseM3U(text)
+    const fresh = channels.filter(ch => !seenUrls.has(ch.url))
+    fresh.forEach(ch => seenUrls.add(ch.url))
+    allNew.push(...fresh)
+    console.log(`${channels.length} چەناڵ هەیە، ${fresh.length}ی نوێن`)
+  } catch (err) {
+    console.log(`❌ هەڵە لە وەرگرتنی ئەم سەرچاوەیە: ${err.message}`)
+  }
+}
 
 let output = existingText.trimEnd() + '\n'
-for (const ch of toAdd) {
+for (const ch of allNew) {
   output += ch.extinf + '\n' + ch.url + '\n'
 }
 
 fs.writeFileSync(PLAYLIST_FILE, output)
-console.log('تەواو بوو ✅')
+console.log(`\n✅ کۆی گشتی ${allNew.length} چەناڵی نوێ زیادکرا`)
