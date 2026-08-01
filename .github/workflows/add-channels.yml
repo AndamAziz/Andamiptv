@@ -2,8 +2,8 @@ name: Add Channels From External Source
 on:
   workflow_dispatch:
     inputs:
-      source_url:
-        description: 'لینکی M3U ی سەرچاوە'
+      source_urls:
+        description: 'یەک یان چەند لینکی M3U (بە کاما یان هێڵی نوێ لێک جیا بکەرەوە)'
         required: true
         default: 'https://iptv-org.github.io/iptv/languages/kur.m3u'
 permissions:
@@ -19,11 +19,11 @@ jobs:
         with:
           node-version: '20'
       - name: Add channels
-        run: node add-channels.mjs "${{ github.event.inputs.source_url }}"
+        run: node add-channels.mjs "${{ github.event.inputs.source_urls }}"
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add playlist.m3u
-          git commit -m "Add channels from external source" || exit 0
+          git commit -m "Add channels from external sources" || exit 0
           git push
