@@ -24,7 +24,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Check and clean playlist
-        run: node check-dead-channels.js
+        run: node check-dead-channels.mjs
 
       - name: Commit and Push Changes
         run: |
