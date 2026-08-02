@@ -115,9 +115,6 @@ def process_master_playlist(input_file=INPUT_PLAYLIST):
                 # 4. پاککردنەوەی ناوی کەناڵەکان
                 extinf_line = clean_name_and_meta(extinf_line)
 
-                # 5. بەڕێوەبردنی لۆگۆ
-                extinf_line = smart_manage_logo(extinf_line)
-
                 seen_urls.add(clean_url)
                 
                 # پاشەکەوتکردن لە لیستدا بۆ ڕیزکردن
