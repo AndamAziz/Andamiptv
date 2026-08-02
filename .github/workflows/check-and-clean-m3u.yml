@@ -11,6 +11,8 @@ permissions:
 jobs:
   check-playlist:
     runs-on: ubuntu-latest
+    timeout-minutes: 45  # لێرەدا مۆڵەتی 45 خولەک دەدەینە پڕۆسەکە تا بە ئارامی تەواو ببێت
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
