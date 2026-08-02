@@ -1,69 +1,75 @@
-import fs from 'fs'
+import fs from 'fs';
+import fetch from 'node-fetch';
 
-const PLAYLIST_FILE = 'playlist.m3u'
-const TIMEOUT_MS = 15000
-const CONCURRENCY = 10
-
-const content = fs.readFileSync(PLAYLIST_FILE, 'utf8')
-const lines = content.split(/\r?\n/)
-
-const channels = []
-let currentExtinf = null
-
-for (const line of lines) {
-  const trimmed = line.trim()
-  if (trimmed.startsWith('#EXTINF')) {
-    currentExtinf = line
-  } else if (trimmed && !trimmed.startsWith('#')) {
-    if (currentExtinf) {
-      channels.push({ extinf: currentExtinf, url: trimmed })
-      currentExtinf = null
-    }
-  }
-}
+const PLAYLIST_FILE = 'playlist.m3u';
+const TIMEOUT = 5000; // 5 چرکە بۆ هەر کەناڵێک
+const CONCURRENCY = 50; // لە یەک کاتدا 50 کەناڵ دەپشکنێت
 
 async function checkUrl(url) {
-  const controller = new AbortController()
-  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS)
-  try {
-    const res = await fetch(url, {
-      signal: controller.signal,
-      headers: { 'User-Agent': 'VLC/3.0.20 LibVLC/3.0.20' }
-    })
-    res.body?.cancel?.()
-    return res.status < 400
-  } catch {
-    return false
-  } finally {
-    clearTimeout(timer)
-  }
+    try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), TIMEOUT);
+        
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: { 'User-Agent': 'VLC/3.0.16' },
+            signal: controller.signal
+        });
+        
+        clearTimeout(timeoutId);
+        return response.ok;
+    } catch (e) {
+        return false;
+    }
 }
 
-console.log(`پشکنینی ${channels.length} چەناڵ دەستپێدەکات...`)
+async function processPlaylist() {
+    if (!fs.existsSync(PLAYLIST_FILE)) {
+        console.log('Playlist file not found!');
+        return;
+    }
 
-const results = new Array(channels.length)
-let index = 0
+    const content = fs.readFileSync(PLAYLIST_FILE, 'utf8');
+    const lines = content.split('\n');
+    
+    let entries = [];
+    let currentInf = '';
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (line.startsWith('#EXTINF:')) {
+            currentInf = line;
+        } else if (line && !line.startsWith('#') && currentInf) {
+            entries.push({ inf: currentInf, url: line });
+            currentInf = '';
+        }
+    }
 
-async function worker() {
-  while (index < channels.length) {
-    const i = index++
-    results[i] = await checkUrl(channels[i].url)
-    console.log(`${results[i] ? '✅' : '❌'} ${channels[i].extinf.split(',').pop()}`)
-  }
+    console.log(`Total channels to check: ${entries.length}`);
+    let validEntries = [];
+    
+    // پشکنین بە شێوەی بەکۆمەڵ (Batch)
+    for (let i = 0; i < entries.length; i += CONCURRENCY) {
+        const batch = entries.slice(i, i + CONCURRENCY);
+        const results = await Promise.all(
+            batch.map(async (entry) => {
+                const isValid = await checkUrl(entry.url);
+                return isValid ? entry : null;
+            })
+        );
+        
+        validEntries.push(...results.filter(Boolean));
+        console.log(`Checked ${Math.min(i + CONCURRENCY, entries.length)} / ${entries.length}`);
+    }
+
+    // دروستکردنەوەی فایلی M3U ی پاکژکراوە
+    let newM3U = '#EXTM3U\n';
+    validEntries.forEach(entry => {
+        newM3U += `${entry.inf}\n${entry.url}\n`;
+    });
+
+    fs.writeFileSync(PLAYLIST_FILE, newM3U, 'utf8');
+    console.log(`Cleanup complete. Valid channels remaining: ${validEntries.length}`);
 }
 
-await Promise.all(Array.from({ length: CONCURRENCY }, worker))
-
-let output = '#EXTM3U\n'
-let deadCount = 0
-for (let i = 0; i < channels.length; i++) {
-  if (results[i]) {
-    output += channels[i].extinf + '\n' + channels[i].url + '\n'
-  } else {
-    deadCount++
-  }
-}
-
-fs.writeFileSync(PLAYLIST_FILE, output)
-console.log(`\n✅ ${channels.length - deadCount} چەناڵی کارا هێشتەوە`)
-console.log(`❌ ${deadCount} چەناڵی مردوو سڕدرانەوە`)
+processPlaylist();
