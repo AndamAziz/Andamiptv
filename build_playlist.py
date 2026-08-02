@@ -12,12 +12,10 @@ def categorize_channel(extinf_line):
     """پۆلێنکردنی خۆکار بۆ کەناڵەکان بە پێی ناوەکەیان"""
     extinf_lower = extinf_line.lower()
     
-    # پۆلێنی کەناڵە کوردییەکان
     kurdish_keywords = ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "gkurd", "zagros"]
     if any(kw in extinf_lower for kw in kurdish_keywords):
         return "Kurdish Channels"
         
-    # پۆلێنی وەرزشی
     sports_keywords = ["bein", "ssc", "sport", "channellive", "bt sport", "espn"]
     if any(kw in extinf_lower for kw in sports_keywords):
         return "Sports"
@@ -35,10 +33,21 @@ def clean_name_and_meta(extinf_line):
         return f"{meta},{cleaned_name}\n"
     return extinf_line
 
-def add_channel_logo(extinf_line):
-    """دابینکردن و زیادکردنی لۆگۆی فەرمی بۆ کەناڵە دیارەکان"""
+def smart_manage_logo(extinf_line):
+    """
+    ئەگەر لۆگۆ هەبوو (بێکێشە بوو) -> سکیپی دەکات (دەستکاری ناکات).
+    ئەگەر لۆگۆ نەبوو یان بەتاڵ بوو -> لۆگۆی فەرمی بۆ دابین دەکات.
+    """
     extinf_lower = extinf_line.lower()
     
+    # پشکنین ئایا کەناڵەکە پێشوەختە tvg-logoـی هەیە و بەتاڵ نییە
+    has_logo = "tvg-logo=" in extinf_line and 'tvg-logo=""' not in extinf_line and 'tvg-logo=" "' not in extinf_line
+    
+    # ئەگەر لۆگۆی هەبوو، کەواتە بێکێشەیە و دەستکاری مەکە (Skip)
+    if has_logo:
+        return extinf_line
+        
+    # لیستی لۆگۆ فەرمییەکان بۆ ئەو کەناڵانەی لۆگۆیان نییە
     logos = {
         "rudaw": "https://upload.wikimedia.org/wikipedia/commons/2/29/Rudaw_Media_Network_logo.png",
         "k24": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kurdistan24_logo.png",
@@ -46,17 +55,18 @@ def add_channel_logo(extinf_line):
         "trt kurdi": "https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_Kurd%C3%AE_logo_2021.png"
     }
     
+    # ئەگەر لۆگۆی نەبوو، یەکێکی بۆ زیاد بکە ئەگەر لە لیستەکەدا هەبوو
     for key, logo_url in logos.items():
         if key in extinf_lower:
-            if "tvg-logo=" in extinf_line:
-                extinf_line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{logo_url}"', extinf_line)
+            if "group-title=" in extinf_line:
+                extinf_line = extinf_line.replace('group-title="', f'tvg-logo="{logo_url}" group-title="')
             else:
                 extinf_line = extinf_line.replace("#EXTINF:", f'#EXTINF:-1 tvg-logo="{logo_url}"')
             break
+            
     return extinf_line
 
 def clean_playlist(input_file="playlist.m3u"):
-    """پاککردنەوە، پۆلێنکردن، ڕێکخستنی ناوەکان و زیادکردنی لۆگۆ"""
     blocklist = load_blocklist()
     print(f"ژمارەی وشە قەدەغەکراوەکان: {len(blocklist)}")
 
@@ -102,7 +112,7 @@ def clean_playlist(input_file="playlist.m3u"):
                     i += 2
                     continue
                     
-                # 3. پۆلێنکردنی خۆکار (Group Title)
+                # 3. پۆلێنکردنی خۆکار
                 category = categorize_channel(extinf_line)
                 if category:
                     if "group-title=" in extinf_line:
@@ -113,8 +123,8 @@ def clean_playlist(input_file="playlist.m3u"):
                 # 4. پاککردنەوەی ناوی کەناڵەکان
                 extinf_line = clean_name_and_meta(extinf_line)
 
-                # 5. زیادکردنی لۆگۆی فەرمی
-                extinf_line = add_channel_logo(extinf_line)
+                # 5. بەڕێوەبردنی زیرەکی لۆگۆ (ئەگەر هەبوو سکیپ، ئەگەر نەبوو پڕکردنەوە)
+                extinf_line = smart_manage_logo(extinf_line)
 
                 seen_urls.add(clean_url)
                 new_lines.append(extinf_line)
@@ -129,7 +139,7 @@ def clean_playlist(input_file="playlist.m3u"):
     with open(input_file, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
-    print(f"سەرکەوتبوو: {skipped_blocked} بلوککراو، {skipped_duplicates} دووبارە سڕرانەوە، ناوەکان پاککرانەوە و لۆگۆکان دابین کران.")
+    print(f"سەرکەوتبوو: تابلۆکە پاککراوەوە و لۆگۆکان بە شێوازی زیرەک ڕێکخران.")
 
 if __name__ == "__main__":
     clean_playlist()
