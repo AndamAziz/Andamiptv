@@ -28,7 +28,7 @@ jobs:
           node-version: '20'
 
       - name: Run Blocklist Filter
-        run: python build_playlist.py
+        run: python build_playlist.py --overwrite
 
       - name: Check and clean playlist
         run: node check-dead-channels.mjs
