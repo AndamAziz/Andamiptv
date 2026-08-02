@@ -1,5 +1,4 @@
 import fs from 'fs';
-import fetch from 'node-fetch';
 
 const PLAYLIST_FILE = 'playlist.m3u';
 const TIMEOUT = 5000; // 5 چرکە بۆ هەر کەناڵێک
