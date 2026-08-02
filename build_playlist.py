@@ -1,32 +1,52 @@
 import os
 import re
 
-def load_blocklist(filepath="blocklist.txt"):
-    """خوێندنەوەی وشە قەدەغەکراوەکان لە فایلی blocklist.txt"""
+# ==========================================
+# 🛠️ بەشی ڕێکخستنی سەرەکی (Configuration)
+# دەتوانیت لە ئایندەدا بە ئاسانی لێرە گۆڕانکاری بکەیت
+# ==========================================
+BLOCKLIST_FILE = "blocklist.txt"
+INPUT_PLAYLIST = "playlist.m3u"
+
+# لیستی لۆگۆ ڕەسەنەکان (دەتوانیت هەرکاتێک ویستت لێرە لۆگۆی نوێ زیاد بکەیت)
+LOGOS = {
+    "rudaw": "https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/photo_2026-08-02_06-39-02.jpg",
+    "k24": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kurdistan24_logo.png",
+    "nrt": "https://upload.wikimedia.org/wikipedia/commons/7/74/NRT_Logo.png",
+    "trt kurdi": "https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_Kurd%C3%AE_logo_2021.png"
+}
+
+# پۆلێنکردنی کەناڵەکان بە پێی وشەی کلیدی
+CATEGORIES = {
+    "Kurdish Channels": ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "gkurd", "zagros"],
+    "Sky Channels": ["sky cinema", "sky history", "sky arts", "sky nature", "sky kids", "sky one", "sky two", "sky sports"],
+    "Sports": ["bein", "ssc", "sport", "channellive", "bt sport", "espn"]
+}
+
+# ==========================================
+# ⚙️ بەشی لۆژیکی سەرەکی سکریپت (Core Engine)
+# ==========================================
+
+def load_blocklist(filepath=BLOCKLIST_FILE):
+    """خوێندنەوەی وشە قەدەغەکراوەکان لە فایلی دەرەکی"""
     if not os.path.exists(filepath):
         return []
     with open(filepath, "r", encoding="utf-8") as f:
         return [line.strip().lower() for line in f if line.strip() and not line.startswith("#")]
 
 def categorize_channel(extinf_line):
-    """پۆلێنکردنی خۆکار بۆ کەناڵەکان بە پێی ناوەکەیان"""
+    """پۆلێنکردنی خۆکاری کەناڵەکان بە پێی پێکهاتەی ناوەکەیان"""
     extinf_lower = extinf_line.lower()
-    
-    kurdish_keywords = ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "gkurd", "zagros"]
-    if any(kw in extinf_lower for kw in kurdish_keywords):
-        return "Kurdish Channels"
-        
-    sports_keywords = ["bein", "ssc", "sport", "channellive", "bt sport", "espn"]
-    if any(kw in extinf_lower for kw in sports_keywords):
-        return "Sports"
-        
+    for category, keywords in CATEGORIES.items():
+        if any(kw in extinf_lower for kw in keywords):
+            return category
     return "Other"
 
 def clean_name_and_meta(extinf_line):
-    """پاککردنەوەی ناوەکان لە هێما و پاشگرە زیادەکان وەک HD و FHD"""
+    """پاککردنەوەی ناوی کەناڵ لە پاشگرو هێما زیادەکان وەک کواڵیتییەکان"""
     if ',' in extinf_line:
         meta, name = extinf_line.split(',', 1)
-        cleaned_name = re.sub(r'\[.*?\]|\(.*?\)|(1080p|720p|HD|FHD|4K|HEVC|SD)', '', name, flags=re.IGNORECASE)
+        cleaned_name = re.sub(r'\[.*?\]|\(.*?\)|(1080p|720p|HD|FHD|4K|HEVC|SD|60FPS|50FPS)', '', name, flags=re.IGNORECASE)
         cleaned_name = ' '.join(cleaned_name.split())
         if not cleaned_name:
             cleaned_name = name.strip()
@@ -34,21 +54,14 @@ def clean_name_and_meta(extinf_line):
     return extinf_line
 
 def smart_manage_logo(extinf_line):
-    """بەڕێوەبردنی زیرەکی لۆگۆ (ئەگەر هەبوو سکیپ، ئەگەر نەبوو پڕکردنەوە)"""
+    """دانانی لۆگۆی زیرەک بۆ ئەو کەناڵانەی کە لۆگۆیان نییە"""
     extinf_lower = extinf_line.lower()
     has_logo = "tvg-logo=" in extinf_line and 'tvg-logo=""' not in extinf_line and 'tvg-logo=" "' not in extinf_line
     
     if has_logo:
         return extinf_line
         
-    logos = {
-        "rudaw": "https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/photo_2026-08-02_06-39-02.jpg",
-        "k24": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kurdistan24_logo.png",
-        "nrt": "https://upload.wikimedia.org/wikipedia/commons/7/74/NRT_Logo.png",
-        "trt kurdi": "https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_Kurd%C3%AE_logo_2021.png"
-    }
-    
-    for key, logo_url in logos.items():
+    for key, logo_url in LOGOS.items():
         if key in extinf_lower:
             if "group-title=" in extinf_line:
                 extinf_line = extinf_line.replace('group-title="', f'tvg-logo="{logo_url}" group-title="')
@@ -58,9 +71,9 @@ def smart_manage_logo(extinf_line):
             
     return extinf_line
 
-def clean_playlist(input_file="playlist.m3u"):
+def process_master_playlist(input_file=INPUT_PLAYLIST):
     blocklist = load_blocklist()
-    print(f"ژمارەی وشە قەدەغەکراوەکان: {len(blocklist)}")
+    print(f"ژمارەی وشە قەدەغەکراوەکان بارکران: {len(blocklist)}")
 
     if not os.path.exists(input_file):
         print(f"فایلی پڵەیلیست نەدۆزراوەتەوە: {input_file}")
@@ -87,13 +100,12 @@ def clean_playlist(input_file="playlist.m3u"):
                 clean_url = url_line.strip()
                 
                 # 1. پشکنینی بلۆکلیست
-                is_blocked = any(keyword in extinf_lower for keyword in blocklist)
-                if is_blocked:
+                if any(keyword in extinf_lower for keyword in blocklist):
                     skipped_blocked += 1
                     i += 2
                     continue
                     
-                # 2. پشکنینی دووبارە
+                # 2. لابردنی دووبارەکان
                 if clean_url in seen_urls:
                     skipped_duplicates += 1
                     i += 2
@@ -110,12 +122,12 @@ def clean_playlist(input_file="playlist.m3u"):
                 # 4. پاککردنەوەی ناوی کەناڵەکان
                 extinf_line = clean_name_and_meta(extinf_line)
 
-                # 5. بەڕێوەبردنی زیرەکی لۆگۆ
+                # 5. بەڕێوەبردنی لۆگۆ
                 extinf_line = smart_manage_logo(extinf_line)
 
                 seen_urls.add(clean_url)
                 
-                # کۆکردنەوەی کەناڵەکان لە لیستێکدا بۆ ڕیزکردن
+                # پاشەکەوتکردن لە لیستدا بۆ ڕیزکردن
                 channels.append({
                     'extinf': extinf_line,
                     'url': url_line,
@@ -128,15 +140,17 @@ def clean_playlist(input_file="playlist.m3u"):
         else:
             i += 1
 
-    # **ڕیزکردنی هۆشمەند (Sorting):** هێنانی کەناڵە کوردییەکان بۆ سەری سەرەوە
+    # ڕیزکردنی هۆشمەندی پێشکەوتوو (Sorting Priority)
     def sort_priority(ch):
         cat = ch['category']
         if cat == "Kurdish Channels":
-            return 0  # پلەی یەکەم (لوتكە)
-        elif cat == "Sports":
+            return 0  # لووتکە (سەری سەرەوە)
+        elif cat == "Sky Channels":
             return 1  # پلەی دووەم
+        elif cat == "Sports":
+            return 2  # پلەی سێیەم
         else:
-            return 2  # کەناڵەکانی تر لە خوارەوە
+            return 3  # کەناڵەکانی تر
 
     channels.sort(key=sort_priority)
 
@@ -149,7 +163,7 @@ def clean_playlist(input_file="playlist.m3u"):
     with open(input_file, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
-    print(f"سەرکەوتبوو: کەناڵە کوردییەکان هێنرانە سەرەوە و پڵەیلیستەکە ڕێکخرایەوە.")
+    print(f"سەرکەوتوو بوو! کەناڵە بلۆککراوەکان: {skipped_blocked} | دووبارەکان: {skipped_duplicates} | کۆی گشتی ماوەکان: {len(channels)}")
 
 if __name__ == "__main__":
-    clean_playlist()
+    process_master_playlist()
