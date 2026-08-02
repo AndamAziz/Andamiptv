@@ -10,7 +10,7 @@ INPUT_PLAYLIST = "playlist.m3u"
 
 # لیستی لۆگۆ ڕەسەنەکان (دەتوانیت هەرکاتێک ویستت لێرە لۆگۆی نوێ زیاد بکەیت)
 LOGOS = {
-    "rudaw": "https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/photo_2026-08-02_06-39-02.jpg",
+    "rudaw": "https://i.postimg.cc/zv2vTQ1F/Rudaw.jpg",
     "k24": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kurdistan24_logo.png",
     "nrt": "https://upload.wikimedia.org/wikipedia/commons/7/74/NRT_Logo.png",
     "trt kurdi": "https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_Kurd%C3%AE_logo_2021.png"
