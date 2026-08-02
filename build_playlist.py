@@ -20,7 +20,7 @@ def categorize_channel(extinf_line):
     if any(kw in extinf_lower for kw in sports_keywords):
         return "Sports"
         
-    return None
+    return "Other"
 
 def clean_name_and_meta(extinf_line):
     """پاککردنەوەی ناوەکان لە هێما و پاشگرە زیادەکان وەک HD و FHD"""
@@ -34,28 +34,20 @@ def clean_name_and_meta(extinf_line):
     return extinf_line
 
 def smart_manage_logo(extinf_line):
-    """
-    ئەگەر لۆگۆ هەبوو (بێکێشە بوو) -> سکیپی دەکات (دەستکاری ناکات).
-    ئەگەر لۆگۆ نەبوو یان بەتاڵ بوو -> لۆگۆی فەرمی بۆ دابین دەکات.
-    """
+    """بەڕێوەبردنی زیرەکی لۆگۆ (ئەگەر هەبوو سکیپ، ئەگەر نەبوو پڕکردنەوە)"""
     extinf_lower = extinf_line.lower()
-    
-    # پشکنین ئایا کەناڵەکە پێشوەختە tvg-logoـی هەیە و بەتاڵ نییە
     has_logo = "tvg-logo=" in extinf_line and 'tvg-logo=""' not in extinf_line and 'tvg-logo=" "' not in extinf_line
     
-    # ئەگەر لۆگۆی هەبوو، کەواتە بێکێشەیە و دەستکاری مەکە (Skip)
     if has_logo:
         return extinf_line
         
-    # لیستی لۆگۆ فەرمییەکان بۆ ئەو کەناڵانەی لۆگۆیان نییە
     logos = {
-        "rudaw": "https://upload.wikimedia.org/wikipedia/commons/2/29/Rudaw_Media_Network_logo.png",
+        "rudaw": "https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/photo_2026-08-02_06-39-02.jpg",
         "k24": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kurdistan24_logo.png",
         "nrt": "https://upload.wikimedia.org/wikipedia/commons/7/74/NRT_Logo.png",
         "trt kurdi": "https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_Kurd%C3%AE_logo_2021.png"
     }
     
-    # ئەگەر لۆگۆی نەبوو، یەکێکی بۆ زیاد بکە ئەگەر لە لیستەکەدا هەبوو
     for key, logo_url in logos.items():
         if key in extinf_lower:
             if "group-title=" in extinf_line:
@@ -77,7 +69,7 @@ def clean_playlist(input_file="playlist.m3u"):
     with open(input_file, "r", encoding="utf-8", errors="ignore") as f:
         lines = f.readlines()
 
-    new_lines = []
+    channels = []
     skipped_blocked = 0
     skipped_duplicates = 0
     seen_urls = set()
@@ -85,11 +77,6 @@ def clean_playlist(input_file="playlist.m3u"):
     i = 0
     while i < len(lines):
         line = lines[i]
-        
-        if line.startswith("#EXTM3U"):
-            new_lines.append(line)
-            i += 1
-            continue
         
         if line.startswith("#EXTINF:"):
             if i + 1 < len(lines):
@@ -114,7 +101,7 @@ def clean_playlist(input_file="playlist.m3u"):
                     
                 # 3. پۆلێنکردنی خۆکار
                 category = categorize_channel(extinf_line)
-                if category:
+                if category != "Other":
                     if "group-title=" in extinf_line:
                         extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf_line)
                     else:
@@ -123,23 +110,46 @@ def clean_playlist(input_file="playlist.m3u"):
                 # 4. پاککردنەوەی ناوی کەناڵەکان
                 extinf_line = clean_name_and_meta(extinf_line)
 
-                # 5. بەڕێوەبردنی زیرەکی لۆگۆ (ئەگەر هەبوو سکیپ، ئەگەر نەبوو پڕکردنەوە)
+                # 5. بەڕێوەبردنی زیرەکی لۆگۆ
                 extinf_line = smart_manage_logo(extinf_line)
 
                 seen_urls.add(clean_url)
-                new_lines.append(extinf_line)
-                new_lines.append(url_line)
+                
+                # کۆکردنەوەی کەناڵەکان لە لیستێکدا بۆ ڕیزکردن
+                channels.append({
+                    'extinf': extinf_line,
+                    'url': url_line,
+                    'category': category
+                })
+                
                 i += 2
             else:
                 i += 1
         else:
-            new_lines.append(line)
             i += 1
+
+    # **ڕیزکردنی هۆشمەند (Sorting):** هێنانی کەناڵە کوردییەکان بۆ سەری سەرەوە
+    def sort_priority(ch):
+        cat = ch['category']
+        if cat == "Kurdish Channels":
+            return 0  # پلەی یەکەم (لوتكە)
+        elif cat == "Sports":
+            return 1  # پلەی دووەم
+        else:
+            return 2  # کەناڵەکانی تر لە خوارەوە
+
+    channels.sort(key=sort_priority)
+
+    # دروستکردنەوەی فایلی کۆتایی پڵەیلیست
+    new_lines = ["#EXTM3U\n"]
+    for ch in channels:
+        new_lines.append(ch['extinf'])
+        new_lines.append(ch['url'])
 
     with open(input_file, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
-    print(f"سەرکەوتبوو: تابلۆکە پاککراوەوە و لۆگۆکان بە شێوازی زیرەک ڕێکخران.")
+    print(f"سەرکەوتبوو: کەناڵە کوردییەکان هێنرانە سەرەوە و پڵەیلیستەکە ڕێکخرایەوە.")
 
 if __name__ == "__main__":
     clean_playlist()
