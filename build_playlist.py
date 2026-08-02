@@ -7,8 +7,25 @@ def load_blocklist(filepath="blocklist.txt"):
     with open(filepath, "r", encoding="utf-8") as f:
         return [line.strip().lower() for line in f if line.strip() and not line.startswith("#")]
 
+def categorize_channel(extinf_line):
+    """پۆلێنکردنی خۆکار بۆ کەناڵەکان بە پێی ناوەکەیان"""
+    extinf_lower = extinf_line.lower()
+    
+    # پۆلێنی کەناڵە کوردییەکان
+    kurdish_keywords = ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "GKurd", "Zagros"]
+    if any(kw in extinf_lower for kw in kurdish_keywords):
+        return "Kurdish Channels"
+        
+    # پۆلێنی وەرزشی
+    sports_keywords = ["bein", "ssc", "sport", "channellive", "bt sport", "espn"]
+    if any(kw in extinf_lower for kw in sports_keywords):
+        return "Sports"
+        
+    # ئەگەر هیچیان نەبوو، دەتوانێت بچێتە گرووپی گشتی یان ئەوەی خۆی هەیە بێگۆڕان بمێنێت
+    return None
+
 def clean_playlist(input_file="playlist.m3u"):
-    """پاککردنەوەی کەناڵە قەدەغەکراوەکان و سڕینەوەی کەناڵە دووبارەکان"""
+    """پاککردنەوەی کەناڵە قەدەغەکراوەکان و سڕینەوەی کەناڵە دووبارەکان و پۆلێنکردن"""
     blocklist = load_blocklist()
     print(f"ژمارەی وشە قەدەغەکراوەکان: {len(blocklist)}")
 
@@ -57,6 +74,17 @@ def clean_playlist(input_file="playlist.m3u"):
                     i += 2 # تێپەڕاندنی کەناڵی دووبارە
                     continue
                     
+                # 3. پۆلێنکردنی خۆکار (Auto-Categorization) و گۆڕینی group-title
+                category = categorize_channel(extinf_line)
+                if category:
+                    if "group-title=" in extinf_line:
+                        # ئەگەر group-title هەبوو، نوێی بکەرەوە بۆ گرووپی نوێ
+                        import re
+                        extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf_line)
+                    else:
+                        # ئەگەر نەبوو، زیادی بکە بۆ ناو مێتاکە
+                        extinf_line = extinf_line.replace("#EXTINF:", f'#EXTINF:-1 group-title="{category}",')
+
                 # ئەگەر پاک بوو و دووبارە نەبوو، زیادی بکە
                 seen_urls.add(clean_url)
                 new_lines.append(extinf_line)
