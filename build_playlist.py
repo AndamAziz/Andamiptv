@@ -1,4 +1,5 @@
 import os
+import re
 
 def load_blocklist(filepath="blocklist.txt"):
     """خوێندنەوەی وشە قەدەغەکراوەکان لە فایلی blocklist.txt"""
@@ -12,7 +13,7 @@ def categorize_channel(extinf_line):
     extinf_lower = extinf_line.lower()
     
     # پۆلێنی کەناڵە کوردییەکان
-    kurdish_keywords = ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "GKurd", "Zagros"]
+    kurdish_keywords = ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "gkurd", "zagros"]
     if any(kw in extinf_lower for kw in kurdish_keywords):
         return "Kurdish Channels"
         
@@ -21,11 +22,22 @@ def categorize_channel(extinf_line):
     if any(kw in extinf_lower for kw in sports_keywords):
         return "Sports"
         
-    # ئەگەر هیچیان نەبوو، دەتوانێت بچێتە گرووپی گشتی یان ئەوەی خۆی هەیە بێگۆڕان بمێنێت
     return None
 
+def clean_name_and_meta(extinf_line):
+    """پاککردنەوەی ناوەکان لە هێما و پاشگرە زیادەکان وەک HD و FHD"""
+    if ',' in extinf_line:
+        meta, name = extinf_line.split(',', 1)
+        # لابردنی پاشگر و نیشانە ناپێویستەکان لە ناوەکەدا
+        cleaned_name = re.sub(r'\[.*?\]|\(.*?\)|(1080p|720p|HD|FHD|4K|HEVC|SD)', '', name, flags=re.IGNORECASE)
+        cleaned_name = ' '.join(cleaned_name.split()) # ڕێکخستنی مەودای نێوان پیتەکان
+        if not cleaned_name:
+            cleaned_name = name.strip()
+        return f"{meta},{cleaned_name}\n"
+    return extinf_line
+
 def clean_playlist(input_file="playlist.m3u"):
-    """پاککردنەوەی کەناڵە قەدەغەکراوەکان و سڕینەوەی کەناڵە دووبارەکان و پۆلێنکردن"""
+    """پاککردنەوە، پۆلێنکردن و ڕێکخستنی ناوەکانی پڵەیلیست"""
     blocklist = load_blocklist()
     print(f"ژمارەی وشە قەدەغەکراوەکان: {len(blocklist)}")
 
@@ -40,19 +52,17 @@ def clean_playlist(input_file="playlist.m3u"):
     skipped_blocked = 0
     skipped_duplicates = 0
     
-    seen_urls = set() # بۆ گرتنی لینکی کەناڵە دووبارەکان
+    seen_urls = set()
     
     i = 0
     while i < len(lines):
         line = lines[i]
         
-        # گرتنی هێڵی سەرەتایی مێو ئەگەر هەبێت
         if line.startswith("#EXTM3U"):
             new_lines.append(line)
             i += 1
             continue
         
-        # پشکنینی هێڵی زانیاری کەناڵ (#EXTINF)
         if line.startswith("#EXTINF:"):
             if i + 1 < len(lines):
                 extinf_line = line
@@ -61,31 +71,30 @@ def clean_playlist(input_file="playlist.m3u"):
                 extinf_lower = extinf_line.lower()
                 clean_url = url_line.strip()
                 
-                # 1. پشکنینی بلۆکلیست (Blocklist)
+                # 1. پشکنینی بلۆکلیست
                 is_blocked = any(keyword in extinf_lower for keyword in blocklist)
                 if is_blocked:
                     skipped_blocked += 1
-                    i += 2 # تێپەڕاندنی زانیاری و لینکەکە
+                    i += 2
                     continue
                     
-                # 2. پشکنینی کەناڵی دووبارە (Duplicates بە پێی لینکەکەیان)
+                # 2. پشکنینی دووبارە
                 if clean_url in seen_urls:
                     skipped_duplicates += 1
-                    i += 2 # تێپەڕاندنی کەناڵی دووبارە
+                    i += 2
                     continue
                     
-                # 3. پۆلێنکردنی خۆکار (Auto-Categorization) و گۆڕینی group-title
+                # 3. پۆلێنکردنی خۆکار (Group Title)
                 category = categorize_channel(extinf_line)
                 if category:
                     if "group-title=" in extinf_line:
-                        # ئەگەر group-title هەبوو، نوێی بکەرەوە بۆ گرووپی نوێ
-                        import re
                         extinf_line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', extinf_line)
                     else:
-                        # ئەگەر نەبوو، زیادی بکە بۆ ناو مێتاکە
                         extinf_line = extinf_line.replace("#EXTINF:", f'#EXTINF:-1 group-title="{category}",')
 
-                # ئەگەر پاک بوو و دووبارە نەبوو، زیادی بکە
+                # 4. پاککردنەوەی ناوی کەناڵەکان
+                extinf_line = clean_name_and_meta(extinf_line)
+
                 seen_urls.add(clean_url)
                 new_lines.append(extinf_line)
                 new_lines.append(url_line)
@@ -96,11 +105,10 @@ def clean_playlist(input_file="playlist.m3u"):
             new_lines.append(line)
             i += 1
 
-    # نووسینەوەی فایلی پاککراوەوە
     with open(input_file, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
-    print(f"سەرکەوتبوو: {skipped_blocked} کەناڵی بلوککراو و {skipped_duplicates} کەناڵی دووبارە سڕرانەوە.")
+    print(f"سەرکەوتبوو: {skipped_blocked} بلوککراو و {skipped_duplicates} دووبارە سڕرانەوە، و ناوەکان پاککرانەوە.")
 
 if __name__ == "__main__":
     clean_playlist()
