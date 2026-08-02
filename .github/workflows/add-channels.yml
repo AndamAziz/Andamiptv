@@ -5,7 +5,7 @@ on:
       source_urls:
         description: 'یەک یان چەند لینکی M3U (بە کاما یان هێڵی نوێ لێک جیا بکەرەوە)'
         required: true
-        default: 'https://iptv-org.github.io/iptv/languages/kur.m3u'
+        default: 'https://iptv-org.github.io/iptv/index.m3u'
 permissions:
   contents: write
 jobs:
