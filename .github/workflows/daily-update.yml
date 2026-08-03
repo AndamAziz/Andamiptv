@@ -20,6 +20,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Pull latest changes first
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -42,7 +48,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions"
-          git pull origin main --rebase
           git add .
           git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]" || exit 0
           git push origin main
