@@ -31,7 +31,6 @@ jobs:
           node-version: '20'
 
       # Step 1: dedupe, blocklist-filter, categorize, clean names.
-      # --overwrite writes straight back to playlist.m3u (a .bak backup is made automatically).
       - name: Clean & categorize playlist
         run: python build_playlist.py --overwrite
 
@@ -42,7 +41,8 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add playlist.m3u
+          git config --local user.name "GitHub Actions"
+          git pull origin main --rebase
+          git add .
           git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]" || exit 0
-          git push
+          git push origin main
