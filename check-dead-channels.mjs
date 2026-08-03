@@ -1,45 +1,70 @@
-name: Daily Playlist Update (Clean + Check + Commit)
+import fs from 'fs';
 
-on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+const PLAYLIST_FILE = 'playlist.m3u';
+const TIMEOUT = 5000;
+const CONCURRENCY = 50;
 
-permissions:
-  contents: write
+async function checkUrl(url) {
+    try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), TIMEOUT);
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: { 'User-Agent': 'VLC/3.0.16' },
+            signal: controller.signal
+        });
+        clearTimeout(timeoutId);
+        return response.ok;
+    } catch (e) {
+        return false;
+    }
+}
 
-concurrency:
-  group: playlist-write
-  cancel-in-progress: false
+async function processPlaylist() {
+    if (!fs.existsSync(PLAYLIST_FILE)) {
+        console.log('Playlist file not found!');
+        process.exitCode = 1;
+        return;
+    }
+    const content = fs.readFileSync(PLAYLIST_FILE, 'utf8');
+    const lines = content.split('\n');
+    let entries = [];
+    let currentInf = '';
+    let extras = [];
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (line.startsWith('#EXTINF:')) {
+            currentInf = line;
+            extras = [];
+        } else if (line.startsWith('#') && currentInf) {
+            extras.push(line);
+        } else if (line && !line.startsWith('#') && currentInf) {
+            entries.push({ inf: currentInf, extras, url: line });
+            currentInf = '';
+            extras = [];
+        }
+    }
+    console.log(`Total channels to check: ${entries.length}`);
+    let validEntries = [];
+    for (let i = 0; i < entries.length; i += CONCURRENCY) {
+        const batch = entries.slice(i, i + CONCURRENCY);
+        const results = await Promise.all(
+            batch.map(async (entry) => {
+                const isValid = await checkUrl(entry.url);
+                return isValid ? entry : null;
+            })
+        );
+        validEntries.push(...results.filter(Boolean));
+        console.log(`Checked ${Math.min(i + CONCURRENCY, entries.length)} / ${entries.length}`);
+    }
+    let newM3U = '#EXTM3U\n';
+    validEntries.forEach(entry => {
+        newM3U += `${entry.inf}\n`;
+        entry.extras.forEach(e => { newM3U += `${e}\n`; });
+        newM3U += `${entry.url}\n`;
+    });
+    fs.writeFileSync(PLAYLIST_FILE, newM3U, 'utf8');
+    console.log(`Cleanup complete. Valid channels remaining: ${validEntries.length} / ${entries.length}`);
+}
 
-jobs:
-  update-playlist:
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Clean & categorize playlist
-        run: python build_playlist.py --overwrite
-
-      - name: Remove dead channels
-        run: node check-dead-channels.mjs
-
-      - name: Commit and Push Changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add playlist.m3u
-          git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]" || exit 0
-          git push
+processPlaylist();

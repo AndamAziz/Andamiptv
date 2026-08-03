@@ -1,8 +1,11 @@
 {
-  "name": "m3u-checker",
+  "name": "m3u-playlist-manager",
   "version": "1.0.0",
   "type": "module",
-  "dependencies": {
-    "iptv-checker": "^0.3.0"
-  }
+  "description": "IPTV M3U playlist cleaning, categorization, and dead-channel checking automation",
+  "scripts": {
+    "check-dead": "node check-dead-channels.mjs",
+    "add-channels": "node add-channels.mjs"
+  },
+  "dependencies": {}
 }
