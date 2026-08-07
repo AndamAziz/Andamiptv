@@ -1,13 +1,13 @@
-M3U Cleaner report - 2026-08-07 01:37:40
+M3U Cleaner report - 2026-08-07 01:54:13
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  7670
+Total channels kept:  7165
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
-  Kurdish Channels: 49
+  Kurdish Channels: 48
   Sky Channels: 3
-  Sports: 472
-  Other: 7146
+  Sports: 457
+  Other: 6657
