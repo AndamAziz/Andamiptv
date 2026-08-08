@@ -1,14 +1,24 @@
 #EXTM3U
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-07-e9bc4454-6cbd-49dc-9227-13a1f5eb6413.jpg",AVA TV
 https://ava2.store/upload/ava.m3u8
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-f3a84d97-6bce-4445-bded-c5648035dc7f.jpg",NRT TV
+https://live20.bozztv.com/giatv/giatv-nrt/nrt/chunks.m3u8
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-c8f7cdfa-288b-45a8-a30f-65c970f86388.jpg",Kurdmax TV
+https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8|Referer=https://www.kurdmax.tv/
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/kurdsat.png",Kurdsat TV
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.postimg.cc/zv2vTQ1F/Rudaw.jpg",Rudaw TV
 https://live.rudaw.net/hls/rudaw-tv/master.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/kurdistantv.png",Kurdistan TV
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/peyamtv.png",Payam TV
-https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-bd425783-e411-4ee0-919c-338526170dc4.jpg",Payam TV
+https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-13bcb8f7-3e62-4424-8d52-158ae4afd92a.jpg",GK Kurdistan TV
+https://live.host247.net/gk/gksat/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-7bff6f64-c9ae-4d61-abd0-ca1f9af5a4d4.jpg",AVA SPORT TV
+https://live.kurdtips.uno/proxy.php?url=http%3A%2F%2Fline.127-cloudfront.xyz%2Flive%2Faeb4df2522%2Fdcee39b551%2F1858987.m3u8&ext=.m3u8
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-1a71526f-237b-42ad-9fae-875a7195bf15.jpg",NRT SPORT TV
+http://line.127-cloudfront.xyz/live/aeb4df2522/dcee39b551/1858985.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/files/25-02-2016-6b2f13a2-waartv.png",Waar TV
 https://live.kwikmotion.com/waarmedialive/waarmedia.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/zagros.png",Zagros TV
@@ -23,13 +33,13 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 https://live-hls-web-aja.getaj.net/AJA/02.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/files/28-03-2019-26b94a89-mbc-iraq-kurdtvs-live_.png",MBC Iraq
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/manifest/video/720p1750kbps/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/74/NRT_Logo.png",Sky News Arabia
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-6e0e01cd-8598-4df9-8153-4761b428f5c9.png",Sky News Arabia
 https://stream.skynewsarabia.com/hls/sna.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_Kurd%C3%AE_logo_2021.png",TRT Kurdi
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/files/29-05-2017-e292f206-dw-english-kurdtvs.net.png",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://www.aparatchi.com/images/chanells-logo/4kurd.svg",4 Kurd
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-48468b86-fdbd-4aae-b91e-35f7018401a1.jpg",4 Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://gateway.esite-lab.com/file-storage/api/v1/public/uploads/2025/3/8/7a8a2548d8e5850e87066d2e573796189.png",Al Iraqia Kurdish
 https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8
@@ -39,7 +49,7 @@ https://avr.host247.net/live/AvarTv/playlist.m3u8
 https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/xPwzad9.png",Kurd Channel
 https://kurdchhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/9QWs2ms.png",Kurdistan 24
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-70b6dfa8-36be-412f-8a5d-a50f49a8df33.jpg",Kurdistan 24
 https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/F3XRwkt.png",Kurdsat News
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
@@ -1061,49 +1071,6 @@ https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 https://h.jcp.live.opencaster.com/play_src/index.m3u8
 #EXTINF:-1 group-title="03. کوردی - وەرزش" tvg-logo="https://i.imgur.com/7suDpSK.png",MSG Plus
 https://gpuserver3.tier1streams.com/MSG_PLUS/index.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/CZy4Cqi.png",وازم لێبێنە - ئەڵقەی 1
-https://vz-436f3b70-ee3.b-cdn.net/0ab58245-1ed3-4c90-9071-1476e589c297/1280x720/video.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/FJBL6zI.png",وازم لێبێنە - ئەڵقەی 2
-https://vz-436f3b70-ee3.b-cdn.net/4bcd62ef-354d-429c-802b-ed8e94ef5bcc/1280x720/video.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/YRiulCU.png",وازم لێبێنە - ئەڵقەی 3
-https://vz-436f3b70-ee3.b-cdn.net/10e8d5b6-e32f-435c-8c48-82814ecbe248/1280x720/video.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/5KlJk5n.png",وازم لێبێنە - ئەڵقەی 4
-https://vz-436f3b70-ee3.b-cdn.net/8df17fbe-4414-444e-bb51-3de1efcddf38/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/SyXVJdM.png",وازم لێبێنە - ئەڵقەی 5
-https://vz-436f3b70-ee3.b-cdn.net/69cf7ba1-56b7-4a22-b5ea-f34fb8c93808/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/7CN1zfD.png",وازم لێبێنە - ئەڵقەی 6
-https://vz-436f3b70-ee3.b-cdn.net/120f9af3-0a07-42da-80f6-05012017cfe0/1280x720/video.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/auWTg2E.png",وازم لێبێنە - ئەڵقەی 7
-https://vz-436f3b70-ee3.b-cdn.net/d2ea33fe-f87a-448e-880a-4fd194b5c209/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/ADQkn9l.png",وازم لێبێنە - ئەڵقەی 8
-https://vz-436f3b70-ee3.b-cdn.net/5e355cd6-743a-4c5f-b6f0-34ec6f120d91/1280x720/video.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/zmnSoBA.png",وازم لێبێنە - ئەڵقەی 9
-https://vz-436f3b70-ee3.b-cdn.net/3ec1063d-246b-4e61-a67b-dbaf8230edd4/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/06/Network_10_2018.svg/revision/latest/scale-to-width-down/512",وازم لێبێنە - ئەڵقەی 10
-https://vz-436f3b70-ee3.b-cdn.net/f8849354-b526-4cd9-a82c-837baafd6972/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/0Ey0nMc.png",وازم لێبێنە - ئەڵقەی 11
-https://vz-436f3b70-ee3.b-cdn.net/855a6178-e95f-42a0-8ce8-6df722b7855a/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/OA9hm6e.png",وازم لێبێنە - ئەڵقەی 12
-https://vz-436f3b70-ee3.b-cdn.net/f02e9edb-e0c4-4cc8-a455-896a6cd84967/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/FvEp1S2.png",وازم لێبێنە - ئەڵقەی 13
-https://vz-436f3b70-ee3.b-cdn.net/ca080689-246d-422c-b562-4178f15364a0/1280x720/video.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/pHpFGeg.png",وازم لێبێنە - ئەڵقەی 14
-https://vz-436f3b70-ee3.b-cdn.net/1a41aa26-89b6-4764-b45f-298704ff9b7a/1280x720/video.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/UK8NMaD.png",وازم لێبێنە - ئەڵقەی 15
-https://vz-436f3b70-ee3.b-cdn.net/b7e3e395-0eb0-4cd7-933c-3bb47c69d166/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/7tNDKHe.png",وازم لێبێنە - ئەڵقەی 16
-https://vz-436f3b70-ee3.b-cdn.net/a1964a05-552f-4e07-96e3-41567a5c0126/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://i.imgur.com/N4meE8I.png",وازم لێبێنە - ئەڵقەی 17
-https://vz-436f3b70-ee3.b-cdn.net/a38ea49d-ec2c-4d32-87c8-90696f318876/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://www.tvchinese.net/uploads/tv/njsbpd.jpg",وازم لێبێنە - ئەڵقەی 18
-https://vz-436f3b70-ee3.b-cdn.net/e79b558a-4884-4ef9-a0ea-bcf0935eea51/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" ,وازم لێبێنە - ئەڵقەی 19
-https://vz-436f3b70-ee3.b-cdn.net/94244e20-6dd2-4a77-b27b-4f3ec809091d/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/960px-20_Mediaset_2018.svg.png",وازم لێبێنە - ئەڵقەی 20
-https://vz-436f3b70-ee3.b-cdn.net/a2efb070-d866-425e-8b64-3c369cfe12e7/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRO7jWKujUVD6jbcgA0vraQnkAtls50WlO11pwnQ3FlKTGpvVcIYzyl2kQfOUDrJMMPmc&usqp=CAU",وازم لێبێنە - ئەڵقەی 21
-https://vz-436f3b70-ee3.b-cdn.net/b178f7d2-e586-44d4-bd75-73e7549588be/playlist.m3u8
-#EXTINF:-1 group-title="05. کوردی - دراما و زنجیرە" ,وازم لێبێنە - ئەڵقەی 22
 https://vz-436f3b70-ee3.b-cdn.net/caa87a84-46d3-48ad-8a93-3f190bfba5a4/playlist.m3u8
 #EXTINF:-1 group-title="06. کوردی - کەلتوور" tvg-logo="https://i.imgur.com/37ajg2j.png",Jin TV
 https://live.jintv.org/medialive/jintv.m3u8
@@ -1997,11 +1964,57 @@ http://88.212.15.19/live/viasat_film/index.m3u8
 https://videosolu-w4freemovies-samsunguk-jpmp3.amagi.tv/playlist/videosolu-w4freemovies-samsunguk/playlist.m3u8
 #EXTINF:-1 group-title="11. Movies" tvg-id="YesMoviesAction.il@SD" tvg-logo="https://i.imgur.com/Bgz7p5F.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/130.0.0.0 Safari/537.36",Yes Movies Action
 http://stream.mcquack.net/380/index.m3u8
-#EXTINF:-1 group-title="11. Movies" ,Bitter Dream
+# --- ئەڵقەکانی وازم لێبێنە ---
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 1
+https://vz-436f3b70-ee3.b-cdn.net/0ab58245-1ed3-4c90-9071-1476e589c297/1280x720/video.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 2
+https://vz-436f3b70-ee3.b-cdn.net/4bcd62ef-354d-429c-802b-ed8e94ef5bcc/1280x720/video.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 3
+https://vz-436f3b70-ee3.b-cdn.net/10e8d5b6-e32f-435c-8c48-82814ecbe248/1280x720/video.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 4
+https://vz-436f3b70-ee3.b-cdn.net/8df17fbe-4414-444e-bb51-3de1efcddf38/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 5
+https://vz-436f3b70-ee3.b-cdn.net/69cf7ba1-56b7-4a22-b5ea-f34fb8c93808/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 6
+https://vz-436f3b70-ee3.b-cdn.net/120f9af3-0a07-42da-80f6-05012017cfe0/1280x720/video.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 7
+https://vz-436f3b70-ee3.b-cdn.net/d2ea33fe-f87a-448e-880a-4fd194b5c209/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 8
+https://vz-436f3b70-ee3.b-cdn.net/5e355cd6-743a-4c5f-b6f0-34ec6f120d91/1280x720/video.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 9
+https://vz-436f3b70-ee3.b-cdn.net/3ec1063d-246b-4e61-a67b-dbaf8230edd4/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 10
+https://vz-436f3b70-ee3.b-cdn.net/f8849354-b526-4cd9-a82c-837baafd6972/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 11
+https://vz-436f3b70-ee3.b-cdn.net/855a6178-e95f-42a0-8ce8-6df722b7855a/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 12
+https://vz-436f3b70-ee3.b-cdn.net/f02e9edb-e0c4-4cc8-a455-896a6cd84967/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 13
+https://vz-436f3b70-ee3.b-cdn.net/ca080689-246d-422c-b562-4178f15364a0/1280x720/video.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 14
+https://vz-436f3b70-ee3.b-cdn.net/1a41aa26-89b6-4764-b45f-298704ff9b7a/1280x720/video.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 15
+https://vz-436f3b70-ee3.b-cdn.net/b7e3e395-0eb0-4cd7-933c-3bb47c69d166/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 16
+https://vz-436f3b70-ee3.b-cdn.net/a1964a05-552f-4e07-96e3-41567a5c0126/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 17
+https://vz-436f3b70-ee3.b-cdn.net/a38ea49d-ec2c-4d32-87c8-90696f318876/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 18
+https://vz-436f3b70-ee3.b-cdn.net/e79b558a-4884-4ef9-a0ea-bcf0935eea51/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 19
+https://vz-436f3b70-ee3.b-cdn.net/94244e20-6dd2-4a77-b27b-4f3ec809091d/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 20
+https://vz-436f3b70-ee3.b-cdn.net/a2efb070-d866-425e-8b64-3c369cfe12e7/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 21
+https://vz-436f3b70-ee3.b-cdn.net/b178f7d2-e586-44d4-bd75-73e7549588be/playlist.m3u8
+#EXTINF:-1 group-title="Kurdish Movies" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 22
+https://vz-436f3b70-ee3.b-cdn.net/caa87a84-46d3-48ad-8a93-3f190bfba5a4/playlist.m3u8
+# --- فلیمەکان ---
+#EXTINF:-1 group-title="Kurdish Movies" ,Bitter Dream
 http://45.86.191.12:2082/movie/162360837276/6a69c61558b80/22828.mp4?token=zaUfc.ybzUf.X.X.yHXybzbzyH.X.y.GB.mp4.38f3a63d3e6d9a1280c87bd87dc0cb03b037a75a3371fd5a389f40ae310c0d2d
-#EXTINF:-1 group-title="11. Movies" ,Bitter Dream
+#EXTINF:-1 group-title="Kurdish Movies" ,Bitter Dream
 http://212.86.126.73:8080/movie/162360837276/6a69c61558b80/134470.mp4?token=zaUfc.abdzzdz.X.X.yHXybHHczH.X.y.GB.mp4.2b485c5f4770aa4dc79c8dc5f8a4702e8b14d057625b93be0b9d280f06a7badb
-#EXTINF:-1 group-title="11. Movies" ,Bitter Dream
+#EXTINF:-1 group-title="Kurdish Movies" ,Bitter Dream
 http://5.183.209.101:8080/movie/162360837276/6a69c61558b80/66002.mp4?token=zaUfc.fUUXyac.X.X.yHXybHzUHy.X.y.GB.mp4.aba9121841a61ac9fe160f0ffdcb7db505c556df1f93ff488f311cc5a6712e45
 #EXTINF:-1 group-title="11. Movies - United Kingdom" tvg-id="RakutenTV-UK_family-rakuten-tv" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/08fcdbf5-ca4f-4c6a-b3a8-35993f655aff.jpeg",Family - Rakuten TV
 https://family-rakuten-tv-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_year=1970&ads.did=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=12&ads.rtv_channel_id=6203&ads.rtv_channel_name=family-rakuten-tv_uk&ads.rtv_content_id=6203&ads.rtv_content_language=en&ads.rtv_language=en&ads.rtvid=271858&ads.streaming_id=19c5d1d7-60de-494d-8002-5ca7cf0416b9&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6203&publishing_platform_id=5&tenant_identifier=rtv
