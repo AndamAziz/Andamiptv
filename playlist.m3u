@@ -3801,8 +3801,6 @@ https://rpn.bozztv.com/gusa/gusa-TVSFlashback/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsvintage/index.m3u8
 #EXTINF:-1 group-title="15. Entertainment" tvg-id="WipeoutXtra.us@SD" tvg-logo="https://i.imgur.com/UDeCRW1.png",Wipeout Xtra
 https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8
-#EXTINF:-1 group-title="15. Entertainment" tvg-id="WWONTVChannel48.us@SD" tvg-logo="https://i.imgur.com/l4qHAq6.png",WWON TV CH 48
-https://tv2.fastcast4u.com:3943/stream/play.m3u8
 #EXTINF:-1 group-title="15. Entertainment" tvg-id="YTATV.us@SD" tvg-logo="https://i.imgur.com/UDpDJ7v.png",YTA TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16767
 #EXTINF:-1 group-title="15. Entertainment" tvg-id="1KZNTV.za@SD" tvg-logo="https://admango.cdn.mangomolo.com/analytics/uploads/188/6544bebaae.jpg",1KZN TV
@@ -6569,10 +6567,6 @@ https://live-evg7.tv360.bitel.com.pe/bitel/andestvSRT/playlist.m3u8
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 group-title="19. Religious" tvg-id="AngelTV.in@India" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV
 https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
-#EXTINF:-1 group-title="19. Religious" tvg-id="AngelTV.in@FarEast" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV FarEast
-https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8
-#EXTINF:-1 group-title="19. Religious" tvg-id="AngelTV.in@Spanish" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV Spanish
-https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious" tvg-id="ApostolTV.hu@SD" tvg-logo="https://i.imgur.com/C43Cc9N.png",Apostol TV
 https://live.apostoltv.hu/live/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious" tvg-id="ApprovalTV.ng@HD" tvg-logo="https://storage.approvaltv.com/2026/03/approvallogo.png" http-referrer="https://live.approvaltv.com/",Approval TV
@@ -8061,8 +8055,6 @@ https://jmp2.uk/stvp-US130000639
 https://jmp2.uk/stvp-USBD1200022S1
 #EXTINF:-1 group-title="25. Lifestyle & Travel" channel-id="USBB32000251N" tvg-id="USBB32000251N" tvg-chno="2914" tvg-name="TODAY All Day" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20240924T225021SQUARE.png",TODAY All Day
 https://jmp2.uk/stvp-USBB32000251N
-#EXTINF:-1 group-title="25. Lifestyle & Travel" channel-id="USBB1500001GD" tvg-id="USBB1500001GD" tvg-chno="2922" tvg-name="USA Today" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1500001GD_20250325T020255SQUARE.png",USA Today
-https://jmp2.uk/stvp-USBB1500001GD
 #EXTINF:-1 group-title="25. Lifestyle & Travel" channel-id="USBB1900006NY" tvg-id="USBB1900006NY" tvg-chno="2938" tvg-name="VICE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1900006NY_20240520T214721SQUARE.png",VICE
 https://jmp2.uk/stvp-USBB1900006NY
 #EXTINF:-1 group-title="25. Lifestyle & Travel" channel-id="US700005ID" tvg-id="US700005ID" tvg-chno="2904" tvg-name="WWE Superstar Central" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700005ID_20250408T020812SQUARE.png",WWE Superstar Central
@@ -8263,8 +8255,6 @@ https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af78
 https://dash2.antik.sk/live/test_tridsatsest_hd_atktv/playlist.m3u8
 #EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="AntenaMonden.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Antena_Monden_2022.png/revision/latest/scale-to-width-down/300",Antena Monden
 https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
-#EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="ArubaTV.aw@SD" tvg-logo="https://i.imgur.com/9fWY09U.png",Aruba.TV
-https://cdn01.setar.aw/Canal49/canal49/playlist.m3u8
 #EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="AyushTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142692_ld_h15_aa.png?lock=720x540",Ayush TV
 https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
 #EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="BiznetLifestyle.id@SD" tvg-logo="https://i.imgur.com/XqUfQKA.png",Biznet Lifestyle
@@ -11285,8 +11275,6 @@ https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8
 https://edge-f.swagit.com/live/carlsbadca/live-3-a-1/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="CBS.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png",CBS
 http://stream.cammonitorplus.net/1783/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="CBS.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png",CBS West
-http://stream.cammonitorplus.net/1798/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="CelebritySceneTV.us@SD" tvg-logo="https://i.imgur.com/n36jriB.png",Celebrity Scene TV
 https://rpn.bozztv.com/gusa/gusa-celebrityscene/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="CerritosTV3.us@SD" tvg-logo="https://i.imgur.com/huCBOIy.png",Cerritos TV3
@@ -11669,8 +11657,6 @@ https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3
 http://31.148.48.15/7TV/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="8LaMarinaTV.es@SD" tvg-logo="https://i.imgur.com/BTJvvBK.png",8 La Marina TV
 https://streaming005.gestec-video.com/hls/canal24.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="8NTV.mx@SD" tvg-logo="https://i.imgur.com/7ecgGIG.png",8NTV
-https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/66/8_out_of_10_acts.png/250px-8_out_of_10_acts.png",8 Out Of 10 Cats
 https://d1l7vcuh4hn9ei.cloudfront.net/8OutOf10Cats_GB.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="12tv.es@SD" tvg-logo="https://i.imgur.com/VSTgXsh.png" http-referrer="https://player.streamingconnect.com/",12TV Alicante
@@ -11729,8 +11715,6 @@ https://acheloostv.streamings.gr/live/stream/index.m3u8
 https://d25ms2fshb3tcf.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="ACTV.be@SD" tvg-logo="https://files.catbox.moe/8v2y8m.png",ACTV
 https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/4db788c7/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="AdaTV.cy@SD" tvg-logo="https://i.imgur.com/YWmkUWU.png",Ada TV
-https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="AdessoTV.br@SD" tvg-logo="https://i.imgur.com/KgetM8j.png",Adesso TV
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="AdinkraTV.gh@SD" tvg-logo="https://i.imgur.com/uwuSXJ8.png",Adinkra TV
@@ -12729,8 +12713,6 @@ https://crtvg-europa.flumotion.cloud/playlist.m3u8
 http://45.224.97.181:9999/Gamavision/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Game & Fish TV
 https://d32bh11mbsmi60.cloudfront.net/Game_Fish_TV.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="GarabitoTV.cr@SD" tvg-logo="https://i.imgur.com/sAYNKJ8.png",Garabito TV
-https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Gardening With Monty Don
 https://aegis-cloudfront-1.tubi.video/b82a751c-18e0-417c-92c1-d476319da423/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Gardening with Monty Don
@@ -12755,52 +12737,6 @@ https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 https://ott.god.tv/live/us/master.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="Golden.mx@Panregional" tvg-logo="https://i.imgur.com/NNd1lYl.png",Golden
 http://38.19.41.46:8081/MTV/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH9 愛+好醫生 短版
-https://live.streamingfast.net/osmflivech9.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH12 維他命施
-https://live.streamingfast.net/osmflivech12.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH14 真情部落格
-https://live.streamingfast.net/osmflivech14.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH15 真情之夜
-https://live.streamingfast.net/osmflivech15.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH16 葉光明
-https://live.streamingfast.net/osmflivech16.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH17 大衛鮑森
-https://live.streamingfast.net/osmflivech17.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH18 國際講員
-https://live.streamingfast.net/osmflivech18.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH20 恩典時分
-https://live.streamingfast.net/osmflivech20.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH21 華語講員
-https://live.streamingfast.net/osmflivech21.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH24 劉三講古
-https://live.streamingfast.net/osmflivech24.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH27 空中聖經學院
-https://live.streamingfast.net/osmflivech27.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH28 現代詩歌
-https://live.streamingfast.net/osmflivech28.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH29 經典音樂河
-https://live.streamingfast.net/osmflivech29.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH30 天堂敬拜
-https://live.streamingfast.net/osmflivech30.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH31 福音佈道音樂會
-https://live.streamingfast.net/osmflivech31.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH32 特會系列：禱告與轉化
-https://live.streamingfast.net/osmflivech32.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH33 特會系列：研經培靈
-https://live.streamingfast.net/osmflivech33.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH38 特會系列：青年特會
-https://live.streamingfast.net/osmflivech38.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH40 家庭8點檔轉轉發現愛
-https://live.streamingfast.net/osmflivech40.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH45 卡通
-https://live.streamingfast.net/osmflivech45.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH47 牧者頻道
-https://live.streamingfast.net/osmflivech47.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH49 禱告頻道
-https://live.streamingfast.net/osmflivech49.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",GOOD TV CH50 國際講員 中文發音
-https://live.streamingfast.net/osmflivech50.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Graham Norton Germany
 https://amg00654-itv-amg00654c37-rakuten-de-7600.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Great British Menu
@@ -13171,8 +13107,6 @@ https://ad2ef2da.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://ms7.mx-cd.net/dtv-09/246-2090022/Linq_Media_TV.smil/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="LitoralAtlanticoHD.hn@SD" tvg-logo="https://i.imgur.com/UXsgEPX.png",Litoral Atlántico
 https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="LittleGuyanaTV.us@SD" tvg-logo="https://i.imgur.com/b475xOT.jpg",Little Guyana TV
-https://video1.getstreamhosting.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Live PD Presents
 https://amg26277-amg26277c11-samsung-gb-11286.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Live PD Presents
@@ -13829,8 +13763,6 @@ http://88.212.15.19/live/test_tv_4_hun_atk_1200/playlist.m3u8
 http://5.9.121.178/tv5monde/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="TV5MondeEurope.fr@SD" tvg-logo="https://i.imgur.com/rPAbMSu.png",TV5Monde Europe
 http://45.14.84.37/tv5monde/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="TV5QuebecCanada.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/TV5_%28logo%29.svg/960px-TV5_%28logo%29.svg.png",TV5 Quebec Canada
-http://23.133.220.149/TV5/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="TVBarrandov.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Logo_TV_Barrandov.png/960px-Logo_TV_Barrandov.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/130.0.0.0 Safari/537.36",TV Barrandov
 http://88.212.15.19/live/test_barrandov/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="BelleAmie.rs@SD" tvg-logo="https://i.imgur.com/tOlN5Rz.png",TV Belle Amie
