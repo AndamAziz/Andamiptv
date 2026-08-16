@@ -43,7 +43,6 @@ AfroLand Nollywood
 AfroLand Romance
 Afroland Featured
 Al Loba
-Alberto Sordi & Co
 Alerte Cobra
 Alfred Hitchcock Presents
 Alien Nation
@@ -78,7 +77,6 @@ BBC Top Gear Italy
 BET x Tyler Perry Comedy
 BET x Tyler Perry Drama
 BRB
-Baby Einstein
 Bad Girls Club
 Beach Bonfire Vibes
 Best Thriller TV
@@ -89,12 +87,12 @@ Beyond Paranormal
 Big 12 Studios
 Bigtime - Películas Gratis
 Biography The Icons
-Bitter Dream
 BizaarTV
 Black Enterprise Streaming Network
 Black Enterprise Streaming Television
 Bleav Football
 Blippi
+Bloodline Detectives
 Bondi Vet
 Born to Kill
 Brave Wilderness
@@ -136,7 +134,6 @@ Chili Velvet
 Chrono
 Chukker
 Cigar TV
-Cine Aliens
 Cine Friki Latino
 Cine Maliza
 Cine Peplum
@@ -246,6 +243,29 @@ FrankenPlus
 FreeTV Estelar
 G-eye TV
 GG Good Game
+GOOD TV CH12 維他命施
+GOOD TV CH14 真情部落格
+GOOD TV CH15 真情之夜
+GOOD TV CH16 葉光明
+GOOD TV CH17 大衛鮑森
+GOOD TV CH18 國際講員
+GOOD TV CH20 恩典時分
+GOOD TV CH21 華語講員
+GOOD TV CH24 劉三講古
+GOOD TV CH27 空中聖經學院
+GOOD TV CH28 現代詩歌
+GOOD TV CH29 經典音樂河
+GOOD TV CH30 天堂敬拜
+GOOD TV CH31 福音佈道音樂會
+GOOD TV CH32 特會系列：禱告與轉化
+GOOD TV CH33 特會系列：研經培靈
+GOOD TV CH38 特會系列：青年特會
+GOOD TV CH40 家庭8點檔轉轉發現愛
+GOOD TV CH45 卡通
+GOOD TV CH47 牧者頻道
+GOOD TV CH49 禱告頻道
+GOOD TV CH50 國際講員 中文發音
+GOOD TV CH9 愛+好醫生 短版
 Gaki no Tsukai
 Galanes
 Game & Fish TV
@@ -359,10 +379,8 @@ Les Z amours
 Let's Make A Deal Classic
 Lidia's Kitchen
 Life Downunder
-Life Minute
 Lifetime Movie Favorites
 Lifetime Movies Love & Drama
-LifevisionTV
 Lindenstrasse
 Little House on the Prairie
 Little Women: LA
@@ -370,7 +388,6 @@ Live PD Presents
 Location Location Location
 LooLoo Kids
 LooLoo Kids TV
-Los Gipsy Kings
 Love 2 Hate TV
 Love Crime and History Spain
 LoveWorld USA
@@ -397,7 +414,6 @@ Moconomy - Wirtschaft und Finanzen Infotainment
 Modern Marvels
 MotoGP TV
 Motus la chaine
-MovieDome Family
 Muslim Network TV
 MyZen Wellbeing TV
 Mytime
@@ -412,7 +428,6 @@ News 18 Madhya Pradesh Geo
 News 18 Uttarakhand Geo
 Ninja Warriors
 Northern Exposure
-Nosey other
 Nothin' But 90s
 Novo Tempo
 One Championship WL
@@ -429,7 +444,6 @@ Persiana Series
 Persiana Turkiye
 PickleballTV
 Plenitude TV
-Plovdivska Pravoslavna TV
 Plus TLT
 Pocoyo
 Pointless UK
@@ -479,7 +493,6 @@ Sessao Trash
 Setareh TV
 Shade TV
 Shark TV
-Sikh Ratnavali
 Silent Witness and New Tricks
 Sky Sports Classics
 Sky Sports Stories
@@ -541,7 +554,6 @@ Swamp People
 Swerve Combat
 TLN Media Chicago
 TLN Media San Francisco
-TSTV
 TV Globo Rio de Janeiro
 TVS Music Network
 TVS Select Network
@@ -554,7 +566,6 @@ TeenVee
 TeenVee Spanish
 Televisa: Les riches pleurent aussi
 TennisChannel 2
-That's 80s
 That's ROCK
 The Archive
 The Bionic Woman
@@ -640,12 +651,6 @@ douyu44
 douyu9
 icnet 3
 leffetpapillon
-like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",Channel Fight
-like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",FEVA MUSIC
-like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",FITE 24/7
-like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",Sports First TV
-like Gecko) Chrome/149.0.0.0 Safari/537.36",Armenia Premium
 myTV San Antonio TX
 Ça Chauffe en Cuisine
 Éxitos del Momento
-Кухня ТВ
