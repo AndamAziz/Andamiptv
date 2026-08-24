@@ -81,7 +81,7 @@ https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/lakehavasucity/G0643_003/playlist.m3u8
 https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-id="AVAFamily.ir@SD" tvg-logo="",AVA Family
 https://familyhls.avatv.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Kurdish Drama" tvg-id="AVASeries.ir@SD" tvg-logo="https://i.imgur.com/8AfAfZE.png",AVA Series
+#EXTINF:-1 group-title="Kurdish Channels" tvg-id="AVASeries.ir@SD" tvg-logo="https://i.imgur.com/8AfAfZE.png",AVA Series
 https://avaserieshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-id="" tvg-logo="",AVAZ
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=13411
@@ -105,49 +105,49 @@ https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
 https://straume.vdtv.lv/vdtv2/index.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-id="ZagrosTV.iq@SD" tvg-logo="https://i.imgur.com/9Mspf32.png",Zagros TV
 https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 1
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 1
 https://vz-436f3b70-ee3.b-cdn.net/0ab58245-1ed3-4c90-9071-1476e589c297/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 2
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 2
 https://vz-436f3b70-ee3.b-cdn.net/4bcd62ef-354d-429c-802b-ed8e94ef5bcc/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 3
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 3
 https://vz-436f3b70-ee3.b-cdn.net/10e8d5b6-e32f-435c-8c48-82814ecbe248/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 4
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 4
 https://vz-436f3b70-ee3.b-cdn.net/8df17fbe-4414-444e-bb51-3de1efcddf38/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 5
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 5
 https://vz-436f3b70-ee3.b-cdn.net/69cf7ba1-56b7-4a22-b5ea-f34fb8c93808/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 6
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 6
 https://vz-436f3b70-ee3.b-cdn.net/120f9af3-0a07-42da-80f6-05012017cfe0/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 7
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 7
 https://vz-436f3b70-ee3.b-cdn.net/d2ea33fe-f87a-448e-880a-4fd194b5c209/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 8
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 8
 https://vz-436f3b70-ee3.b-cdn.net/5e355cd6-743a-4c5f-b6f0-34ec6f120d91/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 9
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 9
 https://vz-436f3b70-ee3.b-cdn.net/3ec1063d-246b-4e61-a67b-dbaf8230edd4/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 10
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 10
 https://vz-436f3b70-ee3.b-cdn.net/f8849354-b526-4cd9-a82c-837baafd6972/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 11
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 11
 https://vz-436f3b70-ee3.b-cdn.net/855a6178-e95f-42a0-8ce8-6df722b7855a/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 12
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 12
 https://vz-436f3b70-ee3.b-cdn.net/f02e9edb-e0c4-4cc8-a455-896a6cd84967/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 13
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 13
 https://vz-436f3b70-ee3.b-cdn.net/ca080689-246d-422c-b562-4178f15364a0/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 14
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 14
 https://vz-436f3b70-ee3.b-cdn.net/1a41aa26-89b6-4764-b45f-298704ff9b7a/1280x720/video.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 15
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 15
 https://vz-436f3b70-ee3.b-cdn.net/b7e3e395-0eb0-4cd7-933c-3bb47c69d166/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 16
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 16
 https://vz-436f3b70-ee3.b-cdn.net/a1964a05-552f-4e07-96e3-41567a5c0126/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 17
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 17
 https://vz-436f3b70-ee3.b-cdn.net/a38ea49d-ec2c-4d32-87c8-90696f318876/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 18
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 18
 https://vz-436f3b70-ee3.b-cdn.net/e79b558a-4884-4ef9-a0ea-bcf0935eea51/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 19
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 19
 https://vz-436f3b70-ee3.b-cdn.net/94244e20-6dd2-4a77-b27b-4f3ec809091d/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 20
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 20
 https://vz-436f3b70-ee3.b-cdn.net/a2efb070-d866-425e-8b64-3c369cfe12e7/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 21
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 21
 https://vz-436f3b70-ee3.b-cdn.net/b178f7d2-e586-44d4-bd75-73e7549588be/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 22
+#EXTINF:-1 group-title="Kurdish Drama" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-57bfe980-e901-4ba7-8a33-c90c3a8bc5b8.jpg",وازم لێبێنە - ئەڵقەی 22
 https://vz-436f3b70-ee3.b-cdn.net/caa87a84-46d3-48ad-8a93-3f190bfba5a4/playlist.m3u8
 #EXTINF:-1 group-title="Sky Channels" ,Sky Sports Classics
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887723/hls/master.m3u8?ads.xumo_channelId=88887723&ads.xumo_streamId=88887723&ads.csid=sitesection:FAST:VIDAA:SkySportsClassics&ads.xumo_channelName=skysportsclassics&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7524
