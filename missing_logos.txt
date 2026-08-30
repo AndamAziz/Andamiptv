@@ -25,7 +25,6 @@ ARD Plus Lindenstraße
 ARTFLIX - Filmklassiker
 ARTFLIX - Películas Clásicas
 ARTN TV
-AVA Family
 AVAZ
 Aap ki Adalat
 Absinthe TV
@@ -80,7 +79,6 @@ BRB
 Baby Einstein
 Bad Girls Club
 Beach Bonfire Vibes
-Best Thriller TV
 Best of Standup Comedy
 Beyblade
 Beyblade en Español
@@ -132,9 +130,6 @@ Chili Hip Hop TV
 Chili Indimenticabili
 Chili Rock TV
 Chili Velvet
-Chrono
-Chukker
-Cigar TV
 Cine Friki Latino
 Cine Maliza
 Cine Peplum
@@ -169,13 +164,10 @@ Curiosity Animales
 Curiosity Explora
 Curiosity Motores
 Cutlers Court
-Cà Mau TV
 DEFA TV
 Dance Moms
 DanceTV Algorhythm
-DanceTV EDM Mainstage
 DanceTV Minimal Tech
-Danger Vision
 Deal Masters
 Deal Zone
 Death Valley Days
@@ -222,8 +214,10 @@ Fatos Desconhecidos
 FilmGold
 FilmGold Germany
 FilmRise Binge Watch France
+FilmRise Crímenes verdaderos
 FilmRise DeGrassi la nouvelle génération
 FilmRise Les Routes du Paradis
+FilmRise Series gratis Mexico
 FilmRise Séries France
 FilmRise Z Nation France
 Films Romantiques - Rakuten TV
@@ -238,7 +232,6 @@ Fluss Monster
 Forensic Files Poland
 Four in a Bed
 France 24 FAST English
-FrankenPlus
 FreeTV Estelar
 G-eye TV
 GG Good Game
@@ -283,7 +276,8 @@ Grand Cinema
 Grandes Parejas
 Grandi Nomi
 Great British Menu
-Greensboro TV
+Grjngo - Filmes De Faroeste
+Grjngo - Films de Western
 Grjngo - Películas Del Oeste
 Grjngo Films de Western
 Grjngo Italy
@@ -294,10 +288,8 @@ Hagerty
 Harcore Pawn
 Harvest USA
 He-Man & Masters Of The Universe
-HeartFelt TV
 Hell's Kitchen Germany
 Hercules: The Legendary Journeys
-Heritage Tourism
 Highway Thru Hell
 Hip-Hop/R&B
 History & Warfare Now
@@ -321,7 +313,6 @@ I Survived
 I Survived…
 ICC Plus
 INA Ardivision
-ITSF
 Ice Pilots NTW In Spanish
 Ice Road Truckers
 Icon Film Channel
@@ -333,9 +324,6 @@ In Depth with Graham Bensinger
 Inazuma Eleven Collection
 Inazuma Eleven Go Italy
 India TV Yoga
-InfoWars The Alex Jones Show
-InfoWars The American Journal
-InfoWars War Room With Owen Shroyer
 Inside Outside
 Intervention
 Ironside
@@ -345,12 +333,10 @@ JAJAJA
 Jack Hanna
 Jacksonville Freedom Fountain Camera Live
 Jodha Akbar
-Jupiter TV
 Kiddo+
 Kids Street
 Krimi
 KultKrimi
-Kung Fu+
 LADbible
 La Fiebre del Jade
 La Maison France 5
@@ -376,6 +362,7 @@ Les Z amours
 Let's Make A Deal Classic
 Lidia's Kitchen
 Life Downunder
+Lifetime Movie Favorites
 Lifetime Movies Love & Drama
 LifevisionTV
 Lindenstrasse
@@ -385,10 +372,8 @@ Live PD Presents
 Location Location Location
 LooLoo Kids
 LooLoo Kids TV
-Love 2 Hate TV
 Love Crime and History Spain
 LoveWorld USA
-Luxury Dreams TV
 MHz Mysteries
 MSG SportsZone
 Mango TV Geo
@@ -435,10 +420,10 @@ Pequeños Gigantes
 Perform
 Persiana Docs
 Persiana Folk
+Persiana Medical
 Persiana Series
 Persiana Turkiye
-PickleballTV
-Plenitude TV
+Plus TLT
 Pocoyo
 Pointless UK
 Project Runway
@@ -473,7 +458,6 @@ Saga Music Haryanvi
 Sardari TV
 Schitt’s Creek Channel
 Sci-Fi - Rakuten TV
-Sci-Fi World
 Sci-fi - Rakuten TV
 Seaquest
 Sender Neu Jerusalem
@@ -512,14 +496,11 @@ Sony One | Shark Tank
 Sony One | Éxitos
 Sorrisi
 Soul Storm
-Space Series
 Spark TV Luz & Amor
 Sparkle Movies
-Speed News
 Speed Sport 1
 SpiegelTV Konflikte
 Spooks
-Sport Fishing TV
 Sport Outdoor TV
 Sportoutdoor.tv
 Starke Frauen
@@ -546,7 +527,6 @@ Surfer
 Surfing+
 Survivor Mexico
 Swamp People
-Swerve Combat
 TLN Media Chicago
 TLN Media San Francisco
 TV Globo Rio de Janeiro
@@ -610,13 +590,11 @@ Viggo and Supporo
 Vita da Strega
 Vivax TV
 Vogue Europe
-WATC Harmony Gospel Music TV
 WITI-DT1
 WLNG Radio
 WWE Superstar Central
 Wasabi La Chaine Anime Geo
 Watch Mojo
-WeShort
 WedoAmor Piel Salvaje
 Wendy Williams
 Western Bound
