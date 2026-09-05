@@ -7,8 +7,6 @@ https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-bd425783-e411-4ee0-919c-338526170dc4.jpg",Payam TV
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-f3a84d97-6bce-4445-bded-c5648035dc7f.jpg",NRT TV
-https://live20.bozztv.com/giatv/giatv-nrt/nrt/chunks.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/files/25-02-2016-6b2f13a2-waartv.png",Waar TV
 https://live.kwikmotion.com/waarmedialive/waarmedia.smil/playlist.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://kurdtvs.net/uploads/zagros.png",Zagros TV
@@ -93,8 +91,6 @@ https://d3o0lv2x93e6yf.cloudfront.net/31004/88887723/hls/master.m3u8?ads.xumo_ch
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887725/hls/master.m3u8?ads.xumo_channelId=88887725&ads.xumo_streamId=88887725&ads.csid=sitesection:FAST:VIDAA:SkyArtistOfTheYear&ads.xumo_channelName=skyartistoftheyear&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7367
 #EXTINF:-1 group-title="Sky Channels" ,Sky Sports Vault
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887726/hls/master.m3u8?ads.xumo_channelId=88887726&ads.xumo_streamId=88887726&ads.csid=sitesection:FAST:VIDAA:SkySportsVault&ads.xumo_channelName=skysportsvault&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7526
-#EXTINF:-1 group-title="Sports" tvg-logo="https://i.imgur.com/U8cHMOt.png",ACI Sport TV
-https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.imgur.com/fBpLsbC.png",Bahrain Sports 1
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.imgur.com/ZkuZmIo.png",Bahrain Sports 2
@@ -1735,8 +1731,6 @@ http://stream.mcquack.net/381/index.m3u8
 https://aenetworks-insidecrime-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="12. Series & Drama" tvg-id="LatinaClasicos.pe" tvg-logo="https://i.imgur.com/q0dAWyj.png",Latina Clasicos
 http://45.171.108.253:8888/LATINA/index.m3u8
-#EXTINF:-1 group-title="12. Series & Drama" tvg-id="Mireasa.ro@SD" tvg-logo="https://i.imgur.com/k0VO0LH.png",Mireasa
-https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8
 #EXTINF:-1 group-title="12. Series & Drama" tvg-id="PersianaSeries.fr@HD" tvg-logo="",Persiana Series
 https://onehls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 group-title="12. Series & Drama" tvg-id="Saphire.ru@SD" tvg-logo="https://i.imgur.com/NMOBvle.png",Saphire
@@ -1841,8 +1835,6 @@ https://s11host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60
 https://s11host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config14/playlist.m3u8?ads.cdnhost=s11host3.localnow.api.cms.amdvids.com&ads.playbackid=066D3CDB-3E22-41A6-B041-C7F85793BE7E&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=066D3CDB-3E22-41A6-B041-C7F85793BE7E&ads.n4=content_name&ads.v4=ION%20Mystery&ads.n21=content_custom_2_param&ads.v21=AMDB013703&ads.n22=channel_company_id&ads.v22=AMDP500574&ads.n23=did&ads.v23=&ads.n24=content_livestream&ads.v24=1&ads.n25=channel_ext_id&ads.v25=&ads.n26=channel_id&ads.v26=066D3CDB-3E22-41A6-B041-C7F85793BE7E&ads.n27=ua&ads.v27=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n28=dnt&ads.v28=&ads.n29=channel_genre&ads.v29=Drama&ads.n30=content_type&ads.v30=channel&ads.n31=gpp&ads.v31=&ads.n32=app_store_url&ads.v32=&ads.n33=ifa_type&ads.v33=&ads.n34=pos&ads.v34=midroll&ads.n35=channel_brand_id&ads.v35=AMDB013703&ads.n36=app_version&ads.v36=0.0.0&ads.n37=url&ads.v37=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n38=channel_rating&ads.v38=TV-PG&ads.n39=content_producer_name&ads.v39=ION%20Media%20Networks&ads.n40=device_make&ads.v40=&ads.n41=channel_title&ads.v41=ION%20Mystery&ads.n42=device_model&ads.v42=&ads.n43=app_bundle&ads.v43=&ads.n44=device_type&ads.v44=&ads.n45=network_name&ads.v45=ion-mystery&ads.n46=us_privacy&ads.v46=1YNY&ads.n47=h&ads.v47=1080&ads.n48=cust_devicename&ads.v48=desktop_web&ads.n49=content_custom_3_param&ads.v49=channel&ads.n50=ip&ads.v50=185.217.168.164&ads.n51=w&ads.v51=1920&ads.n52=channel_name&ads.v52=ION%20Mystery&ads.n53=channel_language&ads.v53=en&ads.n54=channel_corp&ads.v54=ION%20Media%20Networks&ads.n55=app_name&ads.v55=&ads.n56=content_custom_1_param&ads.v56=066D3CDB-3E22-41A6-B041-C7F85793BE7E&ads.n57=content_provider&ads.v57=ion-mystery&ads.n58=gpp_sid&ads.v58=
 #EXTINF:-1 group-title="12. Series & Drama - United States" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/070DBBBE-4502-42F7-AC75-7F6B08D83FA5/3-1x1.png" tvg-id="LN_070DBBBE-4502-42F7-AC75-7F6B08D83FA5",ION Plus
 https://s11host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config14/playlist.m3u8?ads.cdnhost=s11host3.localnow.api.cms.amdvids.com&ads.playbackid=070DBBBE-4502-42F7-AC75-7F6B08D83FA5&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=070DBBBE-4502-42F7-AC75-7F6B08D83FA5&ads.n4=content_name&ads.v4=ION%20Plus&ads.n21=h&ads.v21=1080&ads.n22=channel_ext_id&ads.v22=&ads.n23=channel_genre&ads.v23=Drama&ads.n24=channel_name&ads.v24=ION%20Plus&ads.n25=channel_language&ads.v25=en&ads.n26=ua&ads.v26=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n27=app_store_url&ads.v27=&ads.n28=us_privacy&ads.v28=1YNY&ads.n29=channel_corp&ads.v29=ION%20Media%20Networks&ads.n30=device_model&ads.v30=&ads.n31=channel_company_id&ads.v31=AMDP500574&ads.n32=pos&ads.v32=midroll&ads.n33=did&ads.v33=&ads.n34=channel_id&ads.v34=070DBBBE-4502-42F7-AC75-7F6B08D83FA5&ads.n35=channel_title&ads.v35=ION%20Plus&ads.n36=content_livestream&ads.v36=1&ads.n37=content_custom_3_param&ads.v37=channel&ads.n38=channel_rating&ads.v38=TV-PG&ads.n39=channel_brand_id&ads.v39=AMDB013704&ads.n40=content_provider&ads.v40=ion-plus&ads.n41=dnt&ads.v41=&ads.n42=w&ads.v42=1920&ads.n43=device_make&ads.v43=&ads.n44=device_type&ads.v44=&ads.n45=url&ads.v45=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n46=content_type&ads.v46=channel&ads.n47=app_name&ads.v47=&ads.n48=gpp&ads.v48=&ads.n49=app_bundle&ads.v49=&ads.n50=content_producer_name&ads.v50=ION%20Media%20Networks&ads.n51=content_custom_1_param&ads.v51=070DBBBE-4502-42F7-AC75-7F6B08D83FA5&ads.n52=ip&ads.v52=185.217.168.164&ads.n53=gpp_sid&ads.v53=&ads.n54=ifa_type&ads.v54=&ads.n55=network_name&ads.v55=ion-plus&ads.n56=content_custom_2_param&ads.v56=AMDB013704&ads.n57=app_version&ads.v57=0.0.0&ads.n58=cust_devicename&ads.v58=desktop_web
-#EXTINF:-1 group-title="12. Series & Drama - United States" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/A2206C2C-DD1C-423A-9290-99E6B308C3CB/3-1x1.png" tvg-id="LN_A2206C2C-DD1C-423A-9290-99E6B308C3CB",21 Jump Street
-https://s9host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config12/dist/localnow/915/hls/master/playlist.m3u8?ads.cdnhost=s9host5.localnow.api.cms.amdvids.com&ads.playbackid=A2206C2C-DD1C-423A-9290-99E6B308C3CB&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=A2206C2C-DD1C-423A-9290-99E6B308C3CB&ads.n4=content_name&ads.v4=21%20Jump%20Street&ads.n21=content_custom_2_param&ads.v21=AMDB013565&ads.n22=url&ads.v22=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n23=channel_language&ads.v23=en&ads.n24=network_name&ads.v24=21-jump-street&ads.n25=channel_ext_id&ads.v25=&ads.n26=channel_company_id&ads.v26=AMDP500152&ads.n27=app_name&ads.v27=&ads.n28=content_producer_name&ads.v28=Shout%21%20Factory%20LLC&ads.n29=us_privacy&ads.v29=1YNY&ads.n30=content_custom_3_param&ads.v30=channel&ads.n31=content_custom_1_param&ads.v31=A2206C2C-DD1C-423A-9290-99E6B308C3CB&ads.n32=channel_name&ads.v32=21%20Jump%20Street&ads.n33=app_version&ads.v33=0.0.0&ads.n34=channel_brand_id&ads.v34=AMDB013565&ads.n35=app_bundle&ads.v35=&ads.n36=app_store_url&ads.v36=&ads.n37=dnt&ads.v37=&ads.n38=channel_genre&ads.v38=Drama&ads.n39=content_livestream&ads.v39=1&ads.n40=channel_title&ads.v40=21%20Jump%20Street&ads.n41=ifa_type&ads.v41=&ads.n42=h&ads.v42=1080&ads.n43=ip&ads.v43=185.217.168.164&ads.n44=w&ads.v44=1920&ads.n45=device_type&ads.v45=&ads.n46=content_provider&ads.v46=21-jump-street&ads.n47=device_model&ads.v47=&ads.n48=gpp_sid&ads.v48=&ads.n49=device_make&ads.v49=&ads.n50=pos&ads.v50=midroll&ads.n51=content_type&ads.v51=channel&ads.n52=did&ads.v52=&ads.n53=channel_rating&ads.v53=TV-PG&ads.n54=ua&ads.v54=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n55=channel_id&ads.v55=A2206C2C-DD1C-423A-9290-99E6B308C3CB&ads.n56=channel_corp&ads.v56=Shout%21%20Factory%20LLC&ads.n57=gpp&ads.v57=&ads.n58=cust_devicename&ads.v58=desktop_web
 #EXTINF:-1 group-title="12. Series & Drama - United States" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/A48FFE37-5FF8-486F-B048-D8793F969F26/3-1x1.png" tvg-id="LN_A48FFE37-5FF8-486F-B048-D8793F969F26",Hunter
 https://s9host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config11/dist/localnow/914/hls/master/playlist.m3u8?ads.cdnhost=s9host5.localnow.api.cms.amdvids.com&ads.playbackid=A48FFE37-5FF8-486F-B048-D8793F969F26&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=A48FFE37-5FF8-486F-B048-D8793F969F26&ads.n4=content_name&ads.v4=Hunter&ads.n21=url&ads.v21=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n22=dnt&ads.v22=&ads.n23=device_model&ads.v23=&ads.n24=ua&ads.v24=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n25=ip&ads.v25=185.217.168.164&ads.n26=channel_brand_id&ads.v26=AMDB013564&ads.n27=us_privacy&ads.v27=1YNY&ads.n28=channel_company_id&ads.v28=AMDP500152&ads.n29=app_bundle&ads.v29=&ads.n30=gpp_sid&ads.v30=&ads.n31=h&ads.v31=1080&ads.n32=device_make&ads.v32=&ads.n33=channel_name&ads.v33=Hunter&ads.n34=network_name&ads.v34=hunter&ads.n35=content_livestream&ads.v35=1&ads.n36=channel_title&ads.v36=Hunter&ads.n37=content_producer_name&ads.v37=Shout%21%20Factory%20LLC&ads.n38=channel_id&ads.v38=A48FFE37-5FF8-486F-B048-D8793F969F26&ads.n39=channel_rating&ads.v39=TV-PG&ads.n40=channel_genre&ads.v40=Action%2FAdventure&ads.n41=device_type&ads.v41=&ads.n42=w&ads.v42=1920&ads.n43=app_version&ads.v43=0.0.0&ads.n44=channel_language&ads.v44=en&ads.n45=content_type&ads.v45=channel&ads.n46=cust_devicename&ads.v46=desktop_web&ads.n47=channel_corp&ads.v47=Shout%21%20Factory%20LLC&ads.n48=did&ads.v48=&ads.n49=content_custom_3_param&ads.v49=channel&ads.n50=app_name&ads.v50=&ads.n51=content_custom_1_param&ads.v51=A48FFE37-5FF8-486F-B048-D8793F969F26&ads.n52=app_store_url&ads.v52=&ads.n53=channel_ext_id&ads.v53=&ads.n54=gpp&ads.v54=&ads.n55=ifa_type&ads.v55=&ads.n56=pos&ads.v56=midroll&ads.n57=content_custom_2_param&ads.v57=AMDB013564&ads.n58=content_provider&ads.v58=hunter
 #EXTINF:-1 group-title="12. Series & Drama - United States" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/720A158D-FCF3-4A78-B0C9-D65CB40FACE0/3-1x1.png" tvg-id="LN_720A158D-FCF3-4A78-B0C9-D65CB40FACE0",The Bold and the Beautiful
@@ -1945,18 +1937,12 @@ https://live-manifest.production-public.tubi.io/live/f1147482-67ba-41fc-89c7-306
 https://live-manifest.production-public.tubi.io/live/264b8144-f7b8-4845-823a-9ad20274a379/playlist.m3u8
 #EXTINF:-1 group-title="13. News" tvg-id="685307" tvg-logo="https://canvas-lb.tubitv.com/opts/5QPONnYGmxuokg==/ce41ca1f-0891-40c7-a0dc-f9d13e99e750/CHgQeDoFMS4xLjlAAQ==",KSBY News California
 https://live-manifest.production-public.tubi.io/live/8a54bc66-f8c5-4118-a5ca-01e903feca80/playlist.m3u8
-#EXTINF:-1 group-title="13. News" tvg-id="644781" tvg-logo="https://canvas-lb.tubitv.com/opts/3L7TJr0xXaHO9w==/991de5a1-427b-4ed5-a594-8951c59897fc/CHgQeDoFMS4xLjlAAQ==",KXTV Sacramento ABC10
-https://live-manifest.production-public.tubi.io/live/5dbca8cd-ea37-4522-92e3-1a9519821c6e/playlist.m3u8
 #EXTINF:-1 group-title="13. News" tvg-id="555127" tvg-logo="https://canvas-lb.tubitv.com/opts/T8yaEtMuJkd6MA==/f71c682e-37f8-4719-aa89-546d1c4c8bfe/CHgQeDoFMS4xLjlAAQ==",LiveNOW from FOX
 https://live-manifest.production-public.tubi.io/live/8127bb63-a43e-4859-8681-7c1ad6192796/playlist.m3u8
 #EXTINF:-1 group-title="13. News" tvg-id="618763" tvg-logo="https://canvas-lb.tubitv.com/opts/IsFWFfNoNmVF-A==/577b5b8e-307a-4535-a8fc-e18563a11950/CHgQeDoFMS4xLjlAAQ==",Localish
 https://live-manifest.production-public.tubi.io/live/ed84a986-071d-484d-b835-e6f0585bff83/playlist.m3u8
 #EXTINF:-1 group-title="13. News" tvg-id="556174" tvg-logo="https://canvas-lb.tubitv.com/opts/1MnyiPLY889fxg==/dd770066-df10-4187-b8d5-c31d0b9c0a1f/CHgQeDoFMS4xLjlAAQ==",NBC News NOW
 https://live-manifest.production-public.tubi.io/live/df3e4d3f-fb37-4cf0-8bdb-ec9035d41d3b/playlist.m3u8
-#EXTINF:-1 group-title="13. News" tvg-id="578086" tvg-logo="https://canvas-lb.tubitv.com/opts/W-Z-xUm9GB3tRQ==/d7933070-b9eb-4ce4-9c59-9631dd5815be/CHgQeDoFMS4xLjlAAQ==",Scripps News
-https://live-manifest.production-public.tubi.io/live/95479c29-c997-4f1d-9feb-b5a4981504aa/playlist.m3u8
-#EXTINF:-1 group-title="13. News" tvg-id="597678" tvg-logo="https://canvas-lb.tubitv.com/opts/evVIud42yl9aiQ==/bf04720c-d113-4728-a69a-a0ebc800e7b3/CHgQeDoFMS4xLjlAAQ==",Today All Day
-https://live-manifest.production-public.tubi.io/live/d51de949-6ef0-4e1e-a370-4602eaf9f466/playlist.m3u8
 #EXTINF:-1 group-title="13. News" tvg-logo="https://images.vizio.com/v4/btv/1/1656084728/1/267/150/0.jpg",Newsmax2
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/vizioAAAA-newsmax-vizio/playlist.m3u8?did=%7bADID%7d&us_privacy=%7bUSPRIVACY%7d&ifa_type=%7bIFATYPE%7d&lmt=%7bLMT%7d&app_name=%7bAPP_NAME%7d&app_bundle=%7bAPP_BUNDLE%7d&app_store_url=%7bAPP_STORE_URL%7d&url=%7bDOMAIN%7d&dnt=%7bDNT%7d&coppa=%7bCOPPA%7d&device_make=%7bDEVICE_MAKE%7d&w=%7bWIDTH%7d&h=%7bHEIGHT%7d&skip=%7bSKIPPABLE%7d&vizdartoken=eyJhdWQiOiI5MyIsIndmcGNpZCI6MzAwMTA4MjAwOH0
 #EXTINF:-1 group-title="13. News" tvg-logo="https://images.vizio.com/v4/btv/1/1646513361/1/267/150/0.jpg",Real America's Voice
@@ -2361,8 +2347,6 @@ https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8
 http://118.107.85.4:1935/live/smil:DNTV1.smil/chunklist.m3u8
 #EXTINF:-1 group-title="13. News" tvg-id="DottoTV.ro@SD" tvg-logo="https://i.imgur.com/pfs882Z.png",Dotto TV
 https://live.dottotv.ro/index.m3u8
-#EXTINF:-1 group-title="13. News" tvg-id="DVBTV.mm@SD" tvg-logo="https://i.imgur.com/VdezHOv.png",DVB TV
-https://live-stream.dvb.no/hls/stream_src/index.m3u8
 #EXTINF:-1 group-title="13. News" tvg-id="DW.de@Arabic" tvg-logo="https://i.imgur.com/8MRNFb9.png",DW Arabic
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
 #EXTINF:-1 group-title="13. News" tvg-id="DW.de@English" tvg-logo="https://i.imgur.com/8MRNFb9.png",DW English
@@ -5145,8 +5129,6 @@ http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
 https://d3k5y954fiztgy.cloudfront.net/FREECAST/CTN-2b0dd347-f7b0-e7ed-9096-68966d29db50/index.m3u8
 #EXTINF:-1 group-title="19. Religious" tvg-id="DaystarTVEspanol.us@SD" tvg-logo="https://i.imgur.com/4nP7j4M.png",Daystar Español
 https://live-mcl.cdn01.net/smarttv/64wj6m6d8/playlist.m3u8
-#EXTINF:-1 group-title="19. Religious" tvg-id="DaystarTV.us@SD" tvg-logo="https://i.imgur.com/IjzCv8f.png",Daystar TV
-https://live-mcl.cdn01.net/smarttv/48vy43564/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious" tvg-id="DrGeneScott.us@SD" tvg-logo="https://i.imgur.com/Db3EI19.png",Dr. Gene Scott
 https://wescottcc.piksel.tech/hls/live/2041478/adp/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious" tvg-id="ElbesharaGTV.us@SD" tvg-logo="https://i.imgur.com/b0Wx7pE.png",Elbeshara GTV
@@ -6857,8 +6839,6 @@ https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
 #EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="366TV.ua@SD" tvg-logo="https://i.imgur.com/sC0K5BZ.png",36.6 TV
 https://dash2.antik.sk/live/test_tridsatsest_hd_atktv/playlist.m3u8
-#EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="AntenaMonden.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Antena_Monden_2022.png/revision/latest/scale-to-width-down/300",Antena Monden
-https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
 #EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="ArubaTV.aw@SD" tvg-logo="https://i.imgur.com/9fWY09U.png",Aruba.TV
 https://cdn01.setar.aw/Canal49/canal49/playlist.m3u8
 #EXTINF:-1 group-title="25. Lifestyle & Travel" tvg-id="AyushTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142692_ld_h15_aa.png?lock=720x540",Ayush TV
@@ -9623,8 +9603,6 @@ https://reflect-montgomerycommunitymedia.cablecast.tv/live-8/live/stream-3/live.
 https://rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net/transmuxv1/streams/f08fcd45-1d04-9a8c-39ca-f56091820e5c.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="AccessNashua.us@SD" tvg-logo="https://i.imgur.com/iv9Vfcb.png",Access Nashua
 https://livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="AccessSacramentoChannel17.us@SD" tvg-logo="https://i.imgur.com/j0UC4ke.png",Access Sacramento Channel 17
-https://reflect-access-sacramento.cablecast.tv/live-7/live/live.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="AccessVisionChannel16.us@SD" tvg-logo="https://i.imgur.com/vi4TCdb.png",AccessVision Channel 16
 https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="AFTV.us@SD" tvg-logo="https://i.imgur.com/UoiUwFj.png",AFTV
@@ -9865,8 +9843,6 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="TVSSelectNetwork.us@SD" tvg-logo="",TVS Select Network
 https://rpn.bozztv.com/gusa/gusa-tvsselect/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="UniMas.us@Central" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/960px-Logo_UniM%C3%A1s_2021.svg.png",UniMas Central
-http://190.197.41.183/Unimas/mono.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="UniMas.us@Mountain" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/960px-Logo_UniM%C3%A1s_2021.svg.png",UniMas Mountain
 http://168.228.44.241:9997/play/a09e/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="VBSTV.us@SD" tvg-logo="https://i.imgur.com/OkslYzP.png",VBS TV
@@ -10345,8 +10321,6 @@ https://srvx1.selftv.video/cafe/live/playlist.m3u8
 https://d2mshoh3usf646.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="Caillou.fr@SD" tvg-logo="https://i.imgur.com/RgKaoe4.png",Caillou
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="CalabriaTV.it@SD" tvg-logo="https://i.imgur.com/noTgJJp.png",Calabria TV
-https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Campfire Vibes
 https://d1bcz21zn68he1.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="CampoAbiertoTV.cl@SD" tvg-logo="https://i.imgur.com/KL6pgaL.png",Campo Abierto TV
@@ -10403,8 +10377,6 @@ http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
 https://nlb2-live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="CanaldoBoi.br@SD" tvg-logo="https://i.imgur.com/pVM5MhS.png",Canal do Boi
 http://45.162.64.114/CANAL_DO_BOI/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="CanalDos.co@SD" tvg-logo="https://i.imgur.com/BYsyNHZ.jpg",Canal Dos Yopal
-http://131.221.41.94/hls/canal2.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="CanalDTV.do@SD" tvg-logo="https://i.imgur.com/JO5yuNC.png",Canal DTV
 https://s.emisoras.tv:8081/dtv/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="CanalInstitucional.co@SD" tvg-logo="https://i.imgur.com/hqfQVrU.png",Canal Institucional
@@ -10471,8 +10443,6 @@ https://ch14.tv/live/ch4teen1/playlist.m3u8
 https://ch14.tv/live/ch4teenclip/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="" tvg-logo="",Challenge Accepted
 https://d1vy897y7cwgcv.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized" tvg-id="Channel5.th@SD" tvg-logo="https://i.imgur.com/wOIaqg7.png",Channel 5
-https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="Channel5International.ru@SD" tvg-logo="https://i.imgur.com/KPXMa3U.png",Channel 5 International
 http://178.134.1.158:8081/5channel/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="Channel7Kazakhstan.kz@SD" tvg-logo="https://i.imgur.com/LebKU09.png",Channel 7 Kazakhstan
