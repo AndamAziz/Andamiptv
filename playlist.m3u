@@ -11945,5 +11945,5 @@ http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized" tvg-id="LDPRTV.ru@SD" tvg-logo="https://i.imgur.com/gCmCRfe.png",ЛДПР ТВ
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
-#EXTINF:-1 group-title="Movies",Cheshm O Goosh Baste (چشم و گوش بسته)
+#EXTINF:-1 group-title="Movies" tvg-logo="https://cdn.phototourl.com/free/2026-09-06-2df9e713-cac0-4b36-88be-b30c09d539e7.jpg",Cheshm O Goosh Baste (چشم و گوش بسته)
 https://streaming.imvbox.com/media/4223/4223.m3u8
