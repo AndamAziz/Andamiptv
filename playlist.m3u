@@ -3,3 +3,23 @@
 https://streaming.imvbox.com/media/4223/4223.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-07-0cf6bd6d-e392-4853-ae58-10d15306aa95.jpg" group-title="Kurdish Channels",kkkk
 https://mediaserver.abnvideos.com/streams/abnsat.m3u8
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0250.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0251.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0252.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0253.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0254.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0255.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0256.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0257.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0258.ts
+#EXTINF:6,
+https://s3.us-east-005.backblazeb2.com/abnvideos/7300fa7f-249f-4acf-a023-a12d8f03a76e/segment_360p_0259.ts
