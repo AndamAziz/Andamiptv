@@ -2,7 +2,7 @@ name: Daily Playlist Update (Clean + Check + Commit)
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'   # ڕۆژانە کاتژمێر 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -20,6 +20,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Pull latest changes first
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -30,16 +36,18 @@ jobs:
         with:
           node-version: '20'
 
+      # Step 1: dedupe, blocklist-filter, categorize, clean names.
       - name: Clean & categorize playlist
         run: python build_playlist.py --overwrite
 
+      # Step 2: drop channels whose stream URL is no longer reachable.
       - name: Remove dead channels
         run: node check-dead-channels.mjs
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add playlist.m3u
+          git config --local user.name "GitHub Actions"
+          git add .
           git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]" || exit 0
-          git push
+          git push origin main

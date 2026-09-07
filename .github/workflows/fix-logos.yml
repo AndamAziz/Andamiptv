@@ -1,0 +1,35 @@
+name: Fix Missing Channel Logos
+
+on:
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+  schedule:
+    - cron: "0 3 * * 0"     # also runs automatically every Sunday at 03:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  fix-logos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run logo fixer
+        run: python3 fix_m3u_logos.py playlist.m3u
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions-user@users.noreply.github.com"
+          git add playlist.m3u playlist.m3u.prelogo.bak missing_logos.txt
+          git diff --cached --quiet || git commit -m "Auto-fix channel logos [skip ci]"
+          git push
