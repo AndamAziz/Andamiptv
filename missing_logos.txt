@@ -22,7 +22,6 @@ ARD Plus Krimi
 ARD Plus Lindenstraße
 ARTFLIX - Filmklassiker
 ARTFLIX - Películas Clásicas
-ARTN TV
 AVAZ
 Aap ki Adalat
 Absinthe TV
@@ -87,7 +86,6 @@ Biography The Icons
 BizaarTV
 Black Enterprise Streaming Network
 Black Enterprise Streaming Television
-Bleav Football
 Blippi
 Bloodline Detectives
 Bondi Vet
@@ -165,7 +163,6 @@ Cutlers Court
 DEFA TV
 Dance Moms
 DanceTV Algorhythm
-DanceTV Minimal Tech
 Deal Masters
 Deal Zone
 Death Valley Days
@@ -279,7 +276,6 @@ Grjngo - Películas Del Oeste
 Grjngo Films de Western
 Grjngo Italy
 Grjngo Spain
-H20 TV
 H2O & Friends
 Hagerty
 Harcore Pawn
