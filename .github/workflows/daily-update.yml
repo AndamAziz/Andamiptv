@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 360
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -64,7 +64,6 @@ jobs:
 
       # Step 2: drop channels whose stream URL is no longer reachable.
       - name: Remove dead channels
-        timeout-minutes: 20
         run: node check-dead-channels.mjs
 
       - name: Check for changes
