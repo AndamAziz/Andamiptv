@@ -25,7 +25,17 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+
+      - name: Install Node dependencies (if any)
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm install
+          else
+            echo "No package.json, skipping."
+          fi
 
       - name: Add channels
         run: node add-channels.mjs "${{ github.event.inputs.source_urls }}"
@@ -35,5 +45,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add playlist.m3u
-          git commit -m "Add channels from external sources" || exit 0
+          git diff --cached --quiet || git commit -m "Add channels from external sources"
+          git pull origin main --rebase
           git push
