@@ -2707,8 +2707,6 @@ https://live1.acangroup.org:1929/publiclive/crtv_news/playlist.m3u8
 http://88.212.15.19/live/test_ct24_hevc/playlist.m3u8
 #EXTINF:-1 group-title="13. News - هەواڵ" tvg-id="DDNews.in@HD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png",DD News
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8
-#EXTINF:-1 group-title="13. News - هەواڵ" tvg-id="DHA.tr@SD" tvg-logo="https://i.imgur.com/VZhag2x.png",DHA
-https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 #EXTINF:-1 group-title="13. News - هەواڵ" tvg-id="DidgahTV.us@SD" tvg-logo="https://i.imgur.com/3SeAyBS.png",Didgah TV
 https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
 #EXTINF:-1 group-title="13. News - هەواڵ" tvg-id="Digi24.ro@SD" tvg-logo="https://i.imgur.com/qmRnD0M.png",Digi 24
@@ -5349,8 +5347,6 @@ https://live.legitpro.co.in/anandtv/index.m3u8
 https://live-evg7.tv360.bitel.com.pe/bitel/andestvSRT/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="AndoTV.cn@SD" tvg-logo="https://i.imgur.com/EpTsFVu.png",Ando TV
 http://play.kankanlive.com/live/1711956137852982.m3u8
-#EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="AngelTV.in@FarEast" tvg-logo="https://i.imgur.com/qKLEGU7.png",Angel TV FarEast
-https://janya-digimix.akamaized.net/vglive-sk-438760/fareast/ngrp:angelfareast_all/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="ApostolTV.hu@SD" tvg-logo="https://i.imgur.com/C43Cc9N.png",Apostol TV
 https://live.apostoltv.hu/live/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="ArkTV.ug@SD" tvg-logo="https://i.imgur.com/yCHNZXD.png",Ark TV
@@ -5555,8 +5551,6 @@ https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
 https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="QuoVadisTV.ca@SD" tvg-logo="https://i.imgur.com/pEqDDHl.png",Quo Vadis TV
 https://tgn.bozztv.com/qvtv/qvtv-web/playlist.m3u8
-#EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="RadioElSembrador.cl@SD" tvg-logo="https://i.imgur.com/gBpMAc3.png",Radio El Sembrador
-https://tv.arkeo.cl:1936/elsembrador/elsembrador/playlist.m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="RadioHogar.pa@SD" tvg-logo="https://i.imgur.com/P4A1Zwl.jpg",Radio Hogar
 https://www.streaming507.net:19360/videoradiohogar/videoradiohogar.m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" tvg-id="RadioSublimeGraciaTV.ar@SD" tvg-logo="https://i.ibb.co/P9jgTz4/c49b986afb751882bcbee57f9c9b20d7-350x210.png",Radio Sublime Gracia TV
@@ -10673,8 +10667,6 @@ https://d3p03mkvhnk6ll.cloudfront.net/playlist.m3u8
 https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="Diaspora24.sn@SD" tvg-logo="https://i.imgur.com/4devfx1.png",Diaspora 24
 https://vdo3.pro-fhi.net:3218/stream/play.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="DigitalVision63.do@SD" tvg-logo="https://i.imgur.com/FQkLIMR.png",Digital Vision 63
-https://ss2.tvrdomi.com:1936/digitalvision/digitalvision/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="DIM.ua@SD" tvg-logo="https://i.imgur.com/3cjaXIF.png",DIM
 https://dash2.antik.sk/live/telekanal_dim/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="" tvg-logo="https://i.imgur.com/zeTgPIx.png",Dinos 24/7
@@ -11109,8 +11101,6 @@ https://edge.enhdtv.com/8206/index.m3u8
 https://tv.arkeo.cl:1936/enlacetv1/enlacetv1/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="LaReinaTV.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3386-294x165-FFFFFF.jpg",La Reina TV
 https://cloud2.streaminglivehd.com:1936/lareinatv/lareinatv/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="LaRutaTV.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2896-294x165-FFFFFF.jpg",La Ruta TV
-https://streamunoapp.com:3983/live/larutatvlive.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="LaTR3Marsala.it@SD" tvg-logo="https://i.imgur.com/R4sqZQu.png",La TR3 Marsala
 https://tsw.streamingwebtv24.it:1936/eslife1/eslife1/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="" tvg-logo="",LADbible
