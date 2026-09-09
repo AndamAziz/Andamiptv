@@ -70,7 +70,7 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
-          if [ -n "$(git status --porcelain -- playlist.m3u playlist.m3u.bak playlist_report.txt)" ]; then
+          if [ -n "$(git status --porcelain -- playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -79,7 +79,7 @@ jobs:
       - name: Commit and push changes
         if: steps.git_status.outputs.changed == 'true'
         run: |
-          git add playlist.m3u playlist.m3u.bak playlist_report.txt
+          git add playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json
           git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]"
           git pull origin main --rebase
           git push origin main
