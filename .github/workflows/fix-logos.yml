@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: playlist-write
+  cancel-in-progress: false
+
 jobs:
   fix-logos:
     runs-on: ubuntu-latest
@@ -32,4 +36,5 @@ jobs:
           git config user.email "actions-user@users.noreply.github.com"
           git add playlist.m3u playlist.m3u.prelogo.bak missing_logos.txt
           git diff --cached --quiet || git commit -m "Auto-fix channel logos [skip ci]"
+          git pull origin main --rebase
           git push
