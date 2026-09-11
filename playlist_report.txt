@@ -1,13 +1,36 @@
-M3U Cleaner report - 2026-09-11 01:32:13
+M3U Cleaner report - 2026-09-11 03:26:29
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10221
+Total channels kept:  10189
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
   Kurdish Channels: 91
-  Sky Channels: 4
-  Sports: 491
-  Other: 9635
+  Sports: 492
+  11. Movies - فیلم: 539
+  12. Series & Drama - زنجیرە و دراما: 258
+  18. Documentary - دۆکیومێنتاری: 251
+  13. News - هەواڵ: 1096
+  15. Entertainment - سەرگەرمی: 610
+  16. Music - مۆسیقا: 762
+  17. Kids & Family - منداڵان و خێزان: 339
+  19. Religious - ئایینی: 615
+  20. Comedy - کۆمیدی: 96
+  21. Crime & Mystery - تاوان و نهێنی: 141
+  22. Reality & Game Shows - ڕیالیتی و یاری: 131
+  23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک: 58
+  24. Classic & Western - کلاسیک و وێستەرن: 102
+  25. Lifestyle & Travel - شێوازی ژیان و گەشتوگوزار: 285
+  26. Culture - کەلتوور: 125
+  27. Education - پەروەردە: 128
+  28. Business - بازرگانی: 55
+  29. Shopping - کڕین: 71
+  30. Weather - کەشوهەوا: 10
+  31. Legislative & Public - یاسادانان و گشتی: 171
+  32. Anime & Gaming - ئەنیمە و یاری: 9
+  33. Local Channels - کەناڵە ناوخۆییەکان: 22
+  34. Smart TV Channels - کەناڵی سمارت تیڤی: 536
+  35. General - گشتی: 1453
+  36. Uncategorized - نەپۆلێنکراو: 1743
