@@ -14171,7 +14171,7 @@ https://jmp2.uk/plu-5f5141c1605ddf000748eb1b.m3u8
 https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithAfrica.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FaithTV.us@SD" tvg-logo="https://i.imgur.com/lUBnKK1.png" group-title="Religious",Faith TV
 https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FaithTV.za@SD" tvg-logo="" group-title="Undefined",Faith TV
+#EXTINF:-1 tvg-id="FaithTV.za@SD" tvg-logo="https://i.imgur.com/i3PnPcW.png" group-title="Undefined",Faith TV
 https://cdn.freevisiontv.co.za/sttv/smil:faith.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FaithUK.uk@SD" tvg-logo="https://i.imgur.com/mn8I2wt.png" group-title="Religious",Faith UK
 https://faithnow-hls.secdn.net/faithnow-c-channel/play/FaithUK.smil/playlist.m3u8
@@ -16821,7 +16821,7 @@ https://mc.servidor.stream:19360/8244/8244.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3PRIME9NEWS/index.m3u8
 #EXTINF:-1 tvg-id="Primocanale.it@SD" tvg-logo="https://i.imgur.com/eunZ2Sa.png" group-title="Undefined",Primocanale
 https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="PROTVNews.ro@SD" tvg-logo="" group-title="News",Pro TV News
+#EXTINF:-1 tvg-id="PROTVNews.ro@SD" tvg-logo="https://i.ibb.co/zGQpM3Y/download-7.png" group-title="News",Pro TV News
 https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0
 #EXTINF:-1 tvg-id="ProbashiTVNews.ca@SD" tvg-logo="https://i.imgur.com/7oTsfQ4.png" group-title="News",Probashi TV News
 http://158.69.24.53:8080/probashi_tv/index.m3u8
@@ -18981,7 +18981,7 @@ https://stream3.camara.gov.br/tv1/manifest.m3u8
 https://eu1.servers10.com:8081/8032/index.m3u8
 #EXTINF:-1 tvg-id="TVCanal72.ar@SD" tvg-logo="https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png" group-title="General",TV Canal 72
 https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCanalSur.do@SD" tvg-logo="" group-title="Entertainment",TV Canal Sur
+#EXTINF:-1 tvg-id="TVCanalSur.do@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a1/Andaluc%C3%ADa_TV_2018_logo.svg" group-title="Entertainment",TV Canal Sur
 https://streamtvs.tvcanalsur.com.do/hls/index_720.m3u8
 #EXTINF:-1 tvg-id="TVCanindeyu.py@SD" tvg-logo="https://i.imgur.com/cateqjx.jpeg" group-title="General",TV Canindeyu
 https://video.hostingcaaguazu.com:19360/tvcanindeyu/tvcanindeyu.m3u8

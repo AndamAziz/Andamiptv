@@ -22,6 +22,7 @@ ARD Plus Krimi
 ARD Plus Lindenstraße
 ARTFLIX - Filmklassiker
 ARTFLIX - Películas Clásicas
+AVA Family
 AVAZ
 Aap ki Adalat
 Absinthe TV
@@ -76,6 +77,7 @@ BRB
 Baby Einstein
 Bad Girls Club
 Beach Bonfire Vibes
+Bebeto TV
 Best of Standup Comedy
 Beyblade
 Beyblade en Español
@@ -104,6 +106,7 @@ CBC Murdoch Mysteries
 CBC News BC
 CBC News Explore
 CBC News Toronto
+CBS 21 Harrisburg PA
 CBS News Texas
 CFJC Kamloops BC
 CG Grandi Film
@@ -120,12 +123,14 @@ Cash in the Attic
 Challenge Accepted
 Chaos Cam by AE
 Chaos on Cam
+Charlotte County CC-TV
 Chili Alta Tensione
 Chili Buonumore
 Chili Hip Hop TV
 Chili Indimenticabili
 Chili Rock TV
 Chili Velvet
+Chosen TV English
 Cine Friki Latino
 Cine Maliza
 Cine Peplum
@@ -135,6 +140,7 @@ Cinema Yoruba
 Cirque du Soleil
 Classic Car Auctions
 Classic Rock
+Classic TV
 Come Dine With Me
 Comedy Tadka
 Como Dice el Dicho
@@ -160,6 +166,7 @@ Curiosity Animales
 Curiosity Explora
 Curiosity Motores
 Cutlers Court
+Cà Mau TV
 DEFA TV
 Dance Moms
 DanceTV Algorhythm
@@ -202,6 +209,7 @@ FAST Channel The Incredible Dr Pol
 FAST Channel The Practice
 FAST Channel To Catch a Smuggler
 FAST Channel Wipeout
+FX TV 1
 Famille - Rakuten TV
 Familles En Scene
 Family Affair Channel
@@ -221,6 +229,7 @@ Filter Copy
 Fireplace Vibes
 First 48
 FitDance
+Flash Haber TV
 Flashback 70's
 Flipping Nation
 Fluss Monster
@@ -261,6 +270,7 @@ Gardening with Monty Don
 General Hospital
 Ghaint Punjab
 Ghost Stories
+Giovanni Paolo TV
 GlitchPlus
 Gold Star
 GoldStar TV – Alles Schlager
@@ -277,6 +287,7 @@ Grjngo Films de Western
 Grjngo Italy
 Grjngo Spain
 H2O & Friends
+HAHA TV
 Hagerty
 Harcore Pawn
 Harvest USA
@@ -319,12 +330,15 @@ Inazuma Eleven Go Italy
 India TV Yoga
 Inside Outside
 Intervention
+Iran National Revolution TV
 Ironside
 Island Vibes
 It’s Anime
 JAJAJA
 Jack Hanna
+Jewelry TV 2
 Jodha Akbar
+Kanal 32
 Kiddo+
 Kids Street
 Krimi
@@ -369,12 +383,14 @@ LoveWorld USA
 MHz Mysteries
 MSG SportsZone
 Mango TV Geo
+Manoranjan Prime
 Manual do Mundo
 Married To Medicine
 MasterChef Brasil
 Masterchef Brasil Geo
 Matched Married Meet
 Mayday: Catastrophe Aérienne
+Medjugorje Italia TV
 Meta Film TV
 Metal.Rocks
 Mi Casa
@@ -393,28 +409,43 @@ MyZen Wellbeing TV
 Mytime
 Mytime Movies
 Más Pasiones" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png",Todo Novelas Más Pasiones
+NBC 4 Albuquerque NM
 NBC Chicago News
 NEW KFOOD
 NHL
 Nature Time C14
 News 18 Madhya Pradesh Geo
 News 18 Uttarakhand Geo
+News1
+Nigbati
 Ninja Warriors
 Northern Exposure
 Nothin' But 90s
+Noticias 16
 Novo Tempo
+Omroep Brabant Radio
 One Championship WL
 Outdoor Action
+PAT La Paz
+PBS KET2
 PBS Science
 PICK Monkey Rescue
+PMC Royale
+PRIDEtv LATAM
 Pelimex
 Pequeños Gigantes
 Perform
 Persiana Docs
+Persiana Fight
 Persiana Folk
 Persiana Medical
 Persiana Series
+Persiana Travel
 Persiana Turkiye
+Persiana Vibe
+Plenitude TV
+Plovdivska Pravoslavna TV
+Plus TLT
 Pocoyo
 Pointless UK
 Project Runway
@@ -425,10 +456,12 @@ Qui Veut Gagner des Millions?
 Qui veut gagner des millions Geo
 ROMCOM K-Drama
 RTV Arnhem
+Radio Weser TV Bremen
 Rede Seculo 21
 Reelz Famous & Infamous
 Remember the 80s
 Rev and Roll
+Revry Queer
 Risate Dal Sud
 Risate al Sud
 Rise Financial
@@ -441,11 +474,13 @@ Royalworld - Nobility & Dynasties
 Royalworld - Nobleza y Dinastias
 Royalworld - Nobreza e Dinastias
 Royalworld Germany
+Rugby Pass TV
 Runn Action
 Runn Thrillers
 SLVR
 SURFER TV
 Saga Music Haryanvi
+Sardari TV
 Schitt’s Creek Channel
 Sci-Fi - Rakuten TV
 Sci-fi - Rakuten TV
@@ -516,11 +551,14 @@ Surfer
 Surfing+
 Survivor Mexico
 Swamp People
+TL Estrella
 TLN Media Chicago
 TLN Media San Francisco
-TV Globo Rio de Janeiro
+TSTV
 TVS Music Network
 TVS Select Network
+TVS Sports Bureau
+TVS Television Network
 Tarotéame
 Tastemade Home
 Tastemade International Canada
@@ -528,6 +566,8 @@ Team USA TV
 Teen Vee English
 TeenVee
 TeenVee Spanish
+Tele Fe Bolivia
+Tele One 16
 Televisa: Les riches pleurent aussi
 TennisChannel 2
 That's 80s
@@ -556,9 +596,12 @@ Travel XP alt
 Triton Poker
 U&Laughs
 U&Transport
+UNews
 Un Village Français
 Un Villages Francais
 UnXplained Zone
+Unitel La Paz
+Unitel Santa Cruz
 Universal Westerns
 Univision 24/7 News
 Unleashed by DOGTV
@@ -577,8 +620,12 @@ Viggo and Supporo
 Vita da Strega
 Vivax TV
 Vogue Europe
+WGAL-DT3
 WITI-DT1
+WLNG Radio
+WRUA-DT1
 WWE Superstar Central
+WWXY-DT3
 Wasabi La Chaine Anime Geo
 Watch Mojo
 WedoAmor Piel Salvaje
@@ -596,10 +643,14 @@ World of Love Island
 X-Factor: Das Unfassbare
 XITE 80s Flashback
 Xena Warrior Princess
+Xezer TV
 Xploration Station
 Xtreme Outdoor Presented by HISTORY
 Xumo Películas Gratis
+ZAZ
+Zainabia Channel
 Zarin TV
+Zed TV
 Zona TUDN
 batteryPOP
 douyu15
@@ -611,7 +662,9 @@ douyu44
 douyu9
 icnet 3
 leffetpapillon
+like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Music",TV Rodina
 like Gecko) Chrome/149.0.0.0 Safari/537.36",Armenia Premium
 myTV San Antonio TX
 Ça Chauffe en Cuisine
 Éxitos del Momento
+Đà Nẵng TV2
