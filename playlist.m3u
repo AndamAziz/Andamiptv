@@ -7625,8 +7625,6 @@ https://live-evg8.tv360.bitel.com.pe/bitel/andinatvSRT/playlist.m3u8
 https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8
 #EXTINF:-1 tvg-id="ArabicaTV.lb@SD" tvg-logo="https://i.imgur.com/sTOoDy1.png" group-title="16. Music - مۆسیقا",Arabica TV
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
-#EXTINF:-1 tvg-id="ATNMusic.bd@SD" tvg-logo="https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681" group-title="16. Music - مۆسیقا",ATN Music
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AXSTV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/960px-AXS_TV_logo.svg.png" group-title="16. Music - مۆسیقا",AXS TV
 http://23.239.31.26:8989/axstv/index.m3u8
 #EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="16. Music - مۆسیقا",Azahares Radio Multimedia
@@ -15179,8 +15177,6 @@ https://ncdn.telewebion.ir/ilam/live/playlist.m3u8
 https://secure3.todostreaming.es/live/imastv-livestream.m3u8
 #EXTINF:-1 tvg-id="ImediTV.ge@SD" tvg-logo="https://i.imgur.com/94hNyxZ.png" group-title="35. General - گشتی",Imedi TV
 https://tv.cdn.xsg.ge/imedihd/index.m3u8
-#EXTINF:-1 tvg-id="ImperialTV.bo@SD" tvg-logo="https://i.ibb.co/8XHSVWY/IMG-20210613-153444.png" group-title="35. General - گشتی",Imperial TV
-https://tv.centaurychile.com/imperial/streams/EnCyCiwNLsqEQ2kv2852222720686498.m3u8
 #EXTINF:-1 tvg-id="InformeTV.do@HD" tvg-logo="https://imgur.com/TmJaXrO.jpg" group-title="35. General - گشتی",Informe TV
 https://edge.essastream.com/informetv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="InooroTV.ke@SD" tvg-logo="https://i.imgur.com/5qFJtmo.png" group-title="35. General - گشتی",Inooro TV
@@ -16111,8 +16107,6 @@ https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 #EXTINF:-1 tvg-id="SIPSETV81.mx@SD" tvg-logo="https://i.imgur.com/123P7dV.png" group-title="35. General - گشتی",SIPSE TV 8.1
 https://webprod.sipse.com.mx:8080/show/merida.m3u8
-#EXTINF:-1 tvg-id="SIPSETVCUN81.mx@SD" tvg-logo="https://i.imgur.com/uiTgClU.png" group-title="35. General - گشتی",SIPSE TVCUN 8.1
-https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
 #EXTINF:-1 tvg-id="SiTV.do@SD" tvg-logo="https://i.imgur.com/f8bDccF.png" group-title="35. General - گشتی",SiTV
 http://190.122.104.210:5080/LiveApp/streams/sitv2.m3u8
 #EXTINF:-1 tvg-id="XHZHZTDT.mx@SD" tvg-logo="https://i.imgur.com/RxhABeK.png" group-title="35. General - گشتی",SIZART Canal 24
@@ -20111,8 +20105,6 @@ https://jmp2.uk/plu-61bb2814ac085a00074309a6.m3u8
 http://4.30.180.36:8420/wfutdt/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="UniNettunoUniversityTV.it@SD" tvg-logo="https://i.imgur.com/c9So8nf.png" group-title="36. Uncategorized - نەپۆلێنکراو",UniNettuno University TV
 https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
-#EXTINF:-1 tvg-id="UnitelLaPaz.bo@SD" tvg-logo="" group-title="36. Uncategorized - نەپۆلێنکراو",Unitel La Paz
-https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8
 #EXTINF:-1 tvg-id="UnitelSantaCruz.bo@SD" tvg-logo="" group-title="36. Uncategorized - نەپۆلێنکراو",Unitel Santa Cruz
 https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
 #EXTINF:-1 tvg-id="Uniteve.ar@SD" tvg-logo="https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg" group-title="36. Uncategorized - نەپۆلێنکراو",Uniteve

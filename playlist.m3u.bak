@@ -1525,8 +1525,6 @@ http://stream.mcquack.net/278/index.m3u8
 https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="KuriakosCine.pt@SD" tvg-logo="https://i.imgur.com/CZViCwB.jpg",Kuriakos Cine
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
-#EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="LifetimeMovies.us@East" tvg-logo="https://i.imgur.com/BWmqYTO.png",Lifetime Movies
-http://23.237.104.106:8080/USA_LMN/index.m3u8
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="LollywoodHDTV.cd@SD" tvg-logo="https://i.imgur.com/fQhrsdr.png",Lollywood TV
 https://stream.berosat.live/hls/lollywood-hd/lollywood-hd.m3u8
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="MaahTV.my@SD" tvg-logo="https://i.imgur.com/FkyueH6.png",Maah TV
@@ -4761,8 +4759,6 @@ https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/921cca59-daee-4f89-8c38-7ffe8de44f4c/index.m3u8
 #EXTINF:-1 tvg-id="Guatevision.gt@SD" tvg-logo="https://i.imgur.com/mbmHPnO.png" group-title="13. News - هەواڵ",Guatevision
 https://mdstrm.com/live-stream-playlist/69f8df22a762c9b1ab3eabca.m3u8
-#EXTINF:-1 tvg-id="GugbangTV.kr@SD" tvg-logo="https://i.imgur.com/f1tz5fg.png" group-title="13. News - هەواڵ",Gugbang TV
-http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="GujaratFirst.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Gujarat_First_24x7.png" group-title="13. News - هەواڵ",Gujarat First
 https://mumt03.tangotv.in/Dsly5z3HGUJARATFIRST/index.m3u8
 #EXTINF:-1 tvg-id="GuneydoguTV.tr@SD" tvg-logo="https://i.imgur.com/JT5pp3Y.png" group-title="13. News - هەواڵ",Guneydogu TV
@@ -5347,8 +5343,6 @@ https://edge.essastream.com/vozzmedia/index.m3u8
 https://lowa8026-cmyk.github.io/tvpvod/399731.m3u8
 #EXTINF:-1 tvg-id="TVRInfo.ro@SD" tvg-logo="https://i.imgur.com/7oE7ThR.png" group-title="13. News - هەواڵ",TVR Info
 https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="UMSATVULP.bo@SD" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412" group-title="13. News - هەواڵ",UMSA TVU LP
-https://edge.enhdtv.com/8190/index.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us@SD" tvg-logo="https://i.imgur.com/UcAwBep.png" group-title="13. News - هەواڵ",UN Web TV
 https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-id="UNETV.hn@SD" tvg-logo="https://i.imgur.com/V9Fpd3Y.png" group-title="13. News - هەواڵ",UNE TV
@@ -7613,8 +7607,6 @@ https://9xjio.wiseplayout.com/9XM/master.m3u8
 https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
 #EXTINF:-1 tvg-id="VivaLatino.ua@SD" tvg-logo="https://i.imgur.com/KRakHAq.png" group-title="16. Music - مۆسیقا",¡Viva Latino!
 http://stream.mcquack.net/285/index.m3u8
-#EXTINF:-1 tvg-id="A2iMusic.sn@SD" tvg-logo="https://i.imgur.com/Fykhzxh.jpg" group-title="16. Music - مۆسیقا",A2i Music
-https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="ACECountryRadio.us@KPVMLD" tvg-logo="https://i.imgur.com/iPtuku6.png" group-title="16. Music - مۆسیقا",ACE Country Radio KPVM-LD
 https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
 #EXTINF:-1 tvg-id="AdriaMusicTelevision.de@SD" tvg-logo="https://i.imgur.com/QoDpnKg.png" group-title="16. Music - مۆسیقا",Adria Music Television
@@ -8257,8 +8249,6 @@ https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="Naruto.us@US" tvg-logo="https://i.imgur.com/M8X3Kvc.png",Naruto
 https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="Nickelodeon.us@East" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="NinjaKidzTV.us@SD" tvg-logo="https://i.imgur.com/7EngqUi.png",Ninja Kidz
 https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="Placid.us@EastHD" tvg-logo="https://static.wikitide.net/indietvwiki/0/03/Placid_(2026).svg",Placid
@@ -9613,8 +9603,6 @@ https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playli
 https://faithnow-hls.secdn.net/faithnow-c-channel/play/FaithUK.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FaithWorldTV.uk@SD" tvg-logo="https://i.imgur.com/RLHRjQ3.png" group-title="19. Religious - ئایینی",Faith World TV
 https://faithworldtv.abs.tv/1826926230/index.m3u8
-#EXTINF:-1 tvg-id="FamiliaVisionHD.pr@SD" tvg-logo="https://i.imgur.com/uqTH7m5.jpg" group-title="19. Religious - ئایینی",Familia Visión
-https://584097344c1f0.streamlock.net/29/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="FarodeSantidadTV.pr@SD" tvg-logo="https://i.imgur.com/GoNBFzI.png" group-title="19. Religious - ئایینی",Faro de Santidad TV
 https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist.m3u8
 #EXTINF:-1 tvg-id="FatehTV.in@SD" tvg-logo="https://i.imgur.com/c4ItNkB.png" group-title="19. Religious - ئایینی",Fateh TV
@@ -14515,8 +14503,6 @@ https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 https://ncdn.telewebion.ir/aflak/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AfroturkTV.tr@SD" tvg-logo="https://i.imgur.com/fWlLvRA.png" group-title="35. General - گشتی",Afroturk TV
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="AIONTV.do@SD" tvg-logo="https://i.imgur.com/DBvm7YS.png" group-title="35. General - گشتی",AION TV
-https://edge.essastream.com/aiontelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="AjmanTV.ae@SD" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="35. General - گشتی",Ajman TV
 https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIraqia.iq@SD" tvg-logo="https://i.imgur.com/8qQouTW.jpg" group-title="35. General - گشتی",Al Iraqia
