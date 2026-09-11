@@ -14,6 +14,8 @@ Features:
 - Sorts channels by category priority, optionally alphabetically within category
 - Writes to a NEW output file by default (never silently overwrites your source)
 - Detailed run report (counts + per-category breakdown) saved next to the output
+- Unmatched channels are relabeled to a single bilingual "Uncategorized" group
+  instead of being left with whatever raw group-title they arrived with
 """
 
 from __future__ import annotations
@@ -32,6 +34,12 @@ DEFAULT_INPUT = "playlist.m3u"
 DEFAULT_OUTPUT = "playlist_clean.m3u"
 DEFAULT_BLOCKLIST_FILE = "blocklist.txt"
 DEFAULT_CATEGORIES_FILE = "categories.json"
+
+# Internal priority key for anything that matches no category keyword.
+# Always sorts last. The label actually written into group-title is
+# UNCATEGORIZED_LABEL below, not this raw key.
+UNCATEGORIZED_KEY = "Other"
+UNCATEGORIZED_LABEL = "36. Uncategorized - نەپۆلێنکراو"
 
 DEFAULT_CATEGORIES = {
     "Kurdish Channels": ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "gkurd", "zagros"],
@@ -75,7 +83,7 @@ def categorize_channel(extinf_line: str, categories: dict) -> str:
     for category, keywords in categories.items():
         if any(kw in extinf_lower for kw in keywords):
             return category
-    return "Other"
+    return UNCATEGORIZED_KEY
 
 
 def clean_name(extinf_line: str) -> str:
@@ -175,14 +183,14 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         seen_urls.add(clean_url)
 
         category = categorize_channel(extinf_line, categories)
-        if category != "Other":
-            extinf_line = set_group_title(extinf_line, category)
+        display_label = UNCATEGORIZED_LABEL if category == UNCATEGORIZED_KEY else category
+        extinf_line = set_group_title(extinf_line, display_label)
         extinf_line = clean_name(extinf_line)
 
         channels.append({"extinf": extinf_line, "extras": extras, "url": url_line, "category": category})
 
     priority = {name: idx for idx, name in enumerate(categories.keys())}
-    priority["Other"] = len(priority)
+    priority[UNCATEGORIZED_KEY] = len(priority)
 
     def sort_key(ch):
         name_part = ch["extinf"].split(",", 1)[-1].strip().lower() if sort_alpha else ""
@@ -212,7 +220,8 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         f.write(f"Duplicates removed:   {skipped_duplicates}\n")
         f.write(f"Malformed/skipped:    {skipped_malformed}\n\n")
         for cat, count in sorted(by_cat.items(), key=lambda kv: priority.get(kv[0], 999)):
-            f.write(f"  {cat}: {count}\n")
+            label = UNCATEGORIZED_LABEL if cat == UNCATEGORIZED_KEY else cat
+            f.write(f"  {label}: {count}\n")
 
     log.info(f"Done. Kept {len(channels)} channels -> {output_file}")
     log.info(f"Blocked: {skipped_blocked} | Duplicates: {skipped_duplicates} | Malformed: {skipped_malformed}")
