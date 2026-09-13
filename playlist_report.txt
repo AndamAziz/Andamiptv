@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-09-12 01:38:44
+M3U Cleaner report - 2026-09-13 01:28:47
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10158
+Total channels kept:  10139
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
@@ -10,12 +10,12 @@ Malformed/skipped:    0
   Kurdish Channels: 90
   Sports: 492
   11. Movies - فیلم: 538
-  12. Series & Drama - زنجیرە و دراما: 258
-  18. Documentary - دۆکیومێنتاری: 250
-  13. News - هەواڵ: 1092
-  15. Entertainment - سەرگەرمی: 608
+  12. Series & Drama - زنجیرە و دراما: 257
+  18. Documentary - دۆکیومێنتاری: 249
+  13. News - هەواڵ: 1089
+  15. Entertainment - سەرگەرمی: 605
   16. Music - مۆسیقا: 758
-  17. Kids & Family - منداڵان و خێزان: 338
+  17. Kids & Family - منداڵان و خێزان: 336
   19. Religious - ئایینی: 613
   20. Comedy - کۆمیدی: 96
   21. Crime & Mystery - تاوان و نهێنی: 141
@@ -23,7 +23,7 @@ Malformed/skipped:    0
   23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک: 58
   24. Classic & Western - کلاسیک و وێستەرن: 102
   25. Lifestyle & Travel - شێوازی ژیان و گەشتوگوزار: 285
-  26. Culture - کەلتوور: 125
+  26. Culture - کەلتوور: 123
   27. Education - پەروەردە: 128
   28. Business - بازرگانی: 55
   29. Shopping - کڕین: 71
@@ -32,5 +32,5 @@ Malformed/skipped:    0
   32. Anime & Gaming - ئەنیمە و یاری: 9
   33. Local Channels - کەناڵە ناوخۆییەکان: 22
   34. Smart TV Channels - کەناڵی سمارت تیڤی: 536
-  35. General - گشتی: 1446
-  36. Uncategorized - نەپۆلێنکراو: 1735
+  35. General - گشتی: 1444
+  36. Uncategorized - نەپۆلێنکراو: 1730
