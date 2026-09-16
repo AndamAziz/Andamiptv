@@ -1451,8 +1451,6 @@ https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8
 https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="Evrokino.ru@HD" tvg-logo="https://i.imgur.com/8LPtPf6.png",Evrokino
 http://stream.mcquack.net/385/index.m3u8
-#EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="FilmBox.nl@Netherlands" tvg-logo="https://i.imgur.com/VyaslIY.png",FilmBox
-http://46.149.191.219:9100/play/a015
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="FILMBOXPlusFestival.pl" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bfestival.png",FILMBOX+ Festival
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-id="FilmRiseWestern.us@SD" tvg-logo="https://i.imgur.com/8j2npVc.png",FilmRise Westerns
@@ -2887,8 +2885,6 @@ http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8
 https://edge.enhdtv.com/8026/index.m3u8
 #EXTINF:-1 group-title="18. Documentary - دۆکیومێنتاری" tvg-id="Unidentified.us@SD" tvg-logo="https://i.imgur.com/naYszow.jpg",Unidentified
 https://d3ify425qsio2d.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="18. Documentary - دۆکیومێنتاری" tvg-id="ViasatExplore.tr@SD" tvg-logo="https://i.imgur.com/DyT5pKB.png",Viasat Explore
-https://tv.arectv29.sbs/live/viasathistory.m3u8
 #EXTINF:-1 group-title="18. Documentary - دۆکیومێنتاری" tvg-id="vijuExplore.ru@SD" tvg-logo="https://i.imgur.com/EGIpLPu.png",viju Explore
 http://stream.mcquack.net/239/index.m3u8
 #EXTINF:-1 group-title="18. Documentary - دۆکیومێنتاری" tvg-id="vijuHistory.ru@SD" tvg-logo="https://i.imgur.com/FqWkeXb.png",viju History
@@ -5883,8 +5879,6 @@ https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8
 https://soportedvb.click:3891/live/visionndvlive.m3u8
 #EXTINF:-1 group-title="15. Entertainment - سەرگەرمی" tvg-id="VoprosyiOtvety.ru@SD" tvg-logo="https://i.imgur.com/yjETxk1.png",Voprosy i Otvety
 http://stream.mcquack.net/76/index.m3u8
-#EXTINF:-1 group-title="15. Entertainment - سەرگەرمی" tvg-id="YourTimeTV.ir@SD" tvg-logo="https://i.imgur.com/X38vWJ1.png",YourTime TV
-https://hls.yourtime.live/hls/stream.m3u8
 #EXTINF:-1 group-title="15. Entertainment - سەرگەرمی" tvg-id="ZeeBanglaSonar.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540",Zee Bangla Sonar
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 #EXTINF:-1 group-title="15. Entertainment - سەرگەرمی" tvg-id="ZeeOne.uk@UK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png",Zee One
@@ -6253,8 +6247,6 @@ https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-somos.smil/playlist.m3
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/ln/ln.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LaTele.pe@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png" group-title="15. Entertainment - سەرگەرمی",La Tele
 http://190.93.224.42/LA-TELE/index.m3u8
-#EXTINF:-1 tvg-id="LaraenRedes.ve@SD" tvg-logo="https://laraenredes.com/wp-content/uploads/elementor/thumbs/LOGO-LARA-EN-REDES-2025-r768xu4o4gvkigl9v1lorc3aq3n35710u0g7cah8e0.jpg" group-title="15. Entertainment - سەرگەرمی",Lara en Redes
-https://streamtv.laraenredes.com:3020/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="LATV.us@SD" tvg-logo="https://i.imgur.com/fJxySUg.png" group-title="15. Entertainment - سەرگەرمی",LATV
 https://amg00779-latv-amg00779c1-cineverse-us-1746.playouts.now.amagi.tv/playlist/amg00779-latvnetworkllc-latv-cineverseus/playlist.m3u8
 #EXTINF:-1 tvg-id="LietuvosRytasTV.lt@SD" tvg-logo="https://i.imgur.com/5wpxVI0.png" group-title="15. Entertainment - سەرگەرمی",Lietuvos Rytas TV
@@ -6343,8 +6335,6 @@ https://oitnhls.wns.live/hls/stream.m3u8
 https://live.ekamraott.com/onepaschima/onepaschima/index.m3u8
 #EXTINF:-1 tvg-id="Oruzhie.ru@SD" tvg-logo="https://i.imgur.com/lfJQJqa.png" group-title="15. Entertainment - سەرگەرمی",Oruzhie
 https://fs.uplink.kz/oruzhie/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="OTV.gh@SD" tvg-logo="https://pbs.twimg.com/profile_images/1034118312437919744/emeWo-ag_400x400.jpg" group-title="15. Entertainment - سەرگەرمی",OTV
-https://5dcabf026b188.streamlock.net/OceansTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="Oxygen.us@East" tvg-logo="https://i.imgur.com/GPoucaV.png" group-title="15. Entertainment - سەرگەرمی",Oxygen
 http://198.58.104.90:8989/oxygen/index.m3u8
 #EXTINF:-1 tvg-id="ParanormalState.us@UK" tvg-logo="https://i.imgur.com/NmxhvAE.png" group-title="15. Entertainment - سەرگەرمی",Paranormal State
@@ -6355,8 +6345,6 @@ https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerMaxRadioTV.ar@SD" tvg-logo="https://i.ibb.co/qgZLYDj/channels4-profile-6.jpg" group-title="15. Entertainment - سەرگەرمی",Power Max Radio TV
 https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
-#EXTINF:-1 tvg-id="PRIDEtvLATAM.cl@HD" tvg-logo="" group-title="15. Entertainment - سەرگەرمی",PRIDEtv LATAM
-https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
 #EXTINF:-1 tvg-id="PronemsTV.do@SD" tvg-logo="https://i.imgur.com/a9ORO1G.png" group-title="15. Entertainment - سەرگەرمی",Pronems TV
 https://fox.hostlagarto.com:8081/pronemstv/playlist.m3u8
 #EXTINF:-1 tvg-id="Public4KTV.np@HD" tvg-logo="https://i.imgur.com/JxEzgDP.png" group-title="15. Entertainment - سەرگەرمی",Public TV
@@ -7801,8 +7789,6 @@ https://pmcrohls.wns.live/hls/stream.m3u8
 https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
 #EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="16. Music - مۆسیقا",Power Dance
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerHitRadio.lt@SD" tvg-logo="https://i.imgur.com/GOlQbfC.png" group-title="16. Music - مۆسیقا",Power Hit Radio
-https://cdnlb.tvplayhome.lt/live/eds/PWR_LTU_Live/GO3_LIVE_HLS/PWR_LTU_Live.m3u8
 #EXTINF:-1 tvg-id="PowerLove.tr@SD" tvg-logo="https://i.imgur.com/0RzUswR.png" group-title="16. Music - مۆسیقا",Power Love
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkAkustik.tr@SD" tvg-logo="https://i.imgur.com/driabBO.png" group-title="16. Music - مۆسیقا",Power Türk Akustik
@@ -11615,8 +11601,6 @@ https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_011/playlist.m3u8
 https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8
 #EXTINF:-1 group-title="26. Culture - کەلتوور" tvg-id="AfroMagicChannel.ci@SD" tvg-logo="https://i.imgur.com/yQzXErU.png",Afro Magic Channel
 https://video1.getstreamhosting.com:1936/8306/8306/playlist.m3u8
-#EXTINF:-1 group-title="26. Culture - کەلتوور" tvg-id="AmaniTV.sn@SD" tvg-logo="https://i.imgur.com/0cY4K7G.png",Amani TV
-https://goccn.cloud/hls/amanitv/index.m3u8
 #EXTINF:-1 group-title="26. Culture - کەلتوور" tvg-id="ART.ru@SD" tvg-logo="https://optim.tildacdn.com/tild3134-3836-4338-a138-666666653363/-/format/webp/__.png.webp",ART
 http://89.104.114.24:8080/art/index.m3u8
 #EXTINF:-1 group-title="26. Culture - کەلتوور" tvg-id="Arte1.br@SD" tvg-logo="https://i.imgur.com/Ivnk7A6.png",Arte 1
@@ -11715,8 +11699,6 @@ https://rtmpcontrol.com:1936/balchitv/balchitv/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CMalayalamTV.ca@SD" tvg-logo="https://i.imgur.com/rpg0bQA.png" group-title="26. Culture - کەلتوور",C Malayalam TV
 https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
-#EXTINF:-1 tvg-id="ChannelS.bd@SD" tvg-logo="https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png" group-title="26. Culture - کەلتوور",Channel S
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ChannelS.uk@SD" tvg-logo="https://i.imgur.com/hJxFLvF.png" group-title="26. Culture - کەلتوور",Channel S
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ChiloeRed25.cl@SD" tvg-logo="https://i.imgur.com/3tqrImm.png" group-title="26. Culture - کەلتوور",Chiloe Red 25
@@ -14567,8 +14549,6 @@ https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 https://tvmaxsa.com.py/hls/FB-430927919930380-0-AbzjnbAzAIR0NaFg.m3u8
 #EXTINF:-1 tvg-id="Canal6.sv@SD" tvg-logo="https://i.imgur.com/M4muPLK.png" group-title="35. General - گشتی",Canal 6
 http://45.167.2.101:8000/play/a0qs/index.m3u8
-#EXTINF:-1 tvg-id="Canal7Neuquen.ar@SD" tvg-logo="https://i.ibb.co/BrvQsWm/C7neuquenlogo2023.png" group-title="35. General - گشتی",Canal 7 Neuquén
-https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal7TalangaVision.hn@SD" tvg-logo="https://i.ibb.co/0cqcyz4/Logo-2020-azul-El-lider-de-la-zona.png" group-title="35. General - گشتی",Canal 7 Talanga Vision
 https://amixtv.com:8081/talangavision/index.m3u8
 #EXTINF:-1 tvg-id="Canal8.cr@SD" tvg-logo="https://i.imgur.com/nefPi2Y.png" group-title="35. General - گشتی",Canal 8
@@ -16275,8 +16255,6 @@ https://cdn1.live-tv.cloud/rivne1/rivne1-abr/playlist.m3u8
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSaoRaimundo.br@SD" tvg-logo="https://i.imgur.com/f34CQIG.png" group-title="35. General - گشتی",TV São Raimundo
 https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
-#EXTINF:-1 tvg-id="TVShowFortaleza.br@SD" tvg-logo="https://static.wixstatic.com/media/9af6b8_e963e864c8fb40d3954f5c1c8cab1b40~mv2.png" group-title="35. General - گشتی",TV Show Fortaleza
-https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamororo1908/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSpravedlivaBulgariya.bg@SD" tvg-logo="https://tvsb.bg/theme/images/logo.png" group-title="35. General - گشتی",TV Spravedliva Bulgariya
 https://tv.tvsb.bg/112.m3u8
 #EXTINF:-1 tvg-id="TVWest.ug@SD" tvg-logo="https://i.imgur.com/EiJzkIz.png" group-title="35. General - گشتی",TV West
@@ -18487,8 +18465,6 @@ http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8
 http://88.212.15.19/live/test_super_tv2_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="" tvg-logo="",Super TV Brescia
 http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="SuperTV.ba@SD" tvg-logo="https://i.imgur.com/XYWgd3E.png",Super TV Media
-https://mirtv.club/live/mirtv/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="" tvg-logo="",Supermarket Sweep
 https://aegis-cloudfront-1.tubi.video/4541ec70-497a-4a92-87cf-50258fbab999/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="SuperSix.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/SuperSix_TV_Logo.png",SuperSix Lombardia
@@ -18593,8 +18569,6 @@ http://45.162.64.114/TV_CULTURA/index.m3u8
 http://45.162.64.114/GAZETA/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="TVJustica.br@SD" tvg-logo="https://i.imgur.com/rOQKiMO.png",TV Justica
 http://45.162.64.114/TV_JUSTICA/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="TVLiptov.sk@SD" tvg-logo="https://i.imgur.com/CkvB3af.png",TV Liptov
-http://95.105.255.137:1935/tvturiec/tvliptov.stream/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="TVSenado.br@SD" tvg-logo="https://i.imgur.com/duy6waL.png",TV Senado
 http://45.162.64.114/TV_SENADO/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="TVTeuta.me@SD" tvg-logo="https://i.imgur.com/sWVqBuW.png",TV Teuta
@@ -19785,8 +19759,6 @@ http://fms.tvavicenza.it:1935/live/diretta_1/playlist.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_1080.m3u8
 #EXTINF:-1 tvg-id="TVEBahia.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png" group-title="36. Uncategorized - نەپۆلێنکراو",TVE RS
 http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
-#EXTINF:-1 tvg-id="TVKU.id@SD" tvg-logo="https://i.imgur.com/BAklJGy.png" group-title="36. Uncategorized - نەپۆلێنکراو",TVKU
-https://tvku.tv/hlsstream/hls/live.m3u8
 #EXTINF:-1 tvg-id="XHGVTDT.mx@SD" tvg-logo="https://i.imgur.com/15kcNRb.png" group-title="36. Uncategorized - نەپۆلێنکراو",TVMÁS
 https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNET.lv@SD" tvg-logo="https://i.imgur.com/jzv1ssE.png" group-title="36. Uncategorized - نەپۆلێنکراو",TVNET
