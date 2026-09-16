@@ -20001,3 +20001,5 @@ http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
 http://stream0.tv41.ru/live.m3u8
 #EXTINF:-1 tvg-id="UgraTV.ru@SD" tvg-logo="https://i.imgur.com/561FRwI.png" group-title="36. Uncategorized - نەپۆلێنکراو",Югра
 https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-ff800a85-594e-4c63-ba94-b9fa13f9a853.webp" group-title="Kurdish Channels - کەناڵە کوردییەکان",NAT GEO HD
+http://api.353505.xyz:80/live/123/123/528.ts
