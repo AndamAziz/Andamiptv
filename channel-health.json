@@ -1,622 +1,954 @@
 {
-  "https://live20.bozztv.com/giatv/giatv-nrt/nrt/chunks.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T01:51:28.086Z"
-  },
-  "https://tvsen7.aynascope.net/foxsports2/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T01:53:02.075Z"
-  },
-  "https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T01:54:04.166Z"
-  },
-  "http://tvsen5.aynascope.net/willowhd/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T01:55:02.485Z"
-  },
-  "http://tvsen7.aynascope.net/hbo2/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T01:56:51.387Z"
-  },
-  "https://reflect-stream-bronxnet.cablecast.tv/live-8/live/stream-4/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:01:04.113Z"
-  },
-  "https://d37d7pfp7vjqhh.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264_cloud_in/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:01:16.407Z"
-  },
-  "https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:02:12.604Z"
-  },
-  "https://tvsen6.aynaott.com/cp24/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:02:37.969Z"
-  },
-  "https://edge.essastream.com/vozzmedia/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:06:39.821Z"
-  },
-  "https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:08:18.695Z"
-  },
-  "https://lbgo.bozztv.com/ssh101/ssh101/nortenatv1234/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:09:39.660Z"
-  },
-  "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:11:15.422Z"
-  },
-  "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:11:54.362Z"
-  },
-  "https://stream.d6-pro.com/tunes6music/live/video.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:13:21.042Z"
-  },
-  "https://cloud37.ecuatel.com/vostv/live/manifest.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:13:31.326Z"
-  },
-  "https://tvsen6.aynaott.com/ytv/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:15:04.267Z"
-  },
-  "http://tvsen7.aynascope.net/nicklodean/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:15:20.750Z"
-  },
-  "http://tvsen7.aynascope.net/teennick/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:15:35.267Z"
-  },
-  "https://reflect-stream-bronxnet.cablecast.tv/live-18/live/stream-7/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:16:23.445Z"
-  },
-  "https://alaimma.tv/live/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:17:12.386Z"
-  },
-  "http://tvsen7.aynascope.net/laff/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:20:11.252Z"
-  },
-  "https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:21:51.853Z"
-  },
-  "https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:21:51.853Z"
-  },
-  "https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:21:51.853Z"
-  },
-  "http://41.205.93.154/CNBC/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:23:29.718Z"
-  },
-  "https://reflect-monroe-mi-ci.cablecast.tv/live-1/live/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:23:55.747Z"
-  },
-  "https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:24:23.866Z"
-  },
-  "https://wurlrainbowmedia.global.transmit.live/hls/68c87c330d9e3b5fb3957d88/playlist.m3u8?wurl_channel=1228&wurl_name=AMCenEspanol&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:25:31.737Z"
-  },
-  "https://playworksdigital-brb-1-eu.xiaomi.wurl.tv/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:26:10.021Z"
-  },
-  "https://xemzi.short.gy/1000001": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:27:35.533Z"
-  },
-  "http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:28:54.619Z"
-  },
-  "https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:30:25.032Z"
-  },
-  "https://secure3.todostreaming.es/live/imastv-livestream.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:30:35.803Z"
-  },
-  "https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:31:50.652Z"
-  },
-  "http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:33:43.926Z"
-  },
-  "https://telecosta.botlife.app/memfs/6ba9dc9a-aff4-4e4e-9466-a9f0c714b60b.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:34:11.252Z"
-  },
-  "https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:35:51.602Z"
-  },
-  "https://tvsen6.aynaott.com/skynature/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:37:10.636Z"
-  },
-  "https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:37:24.013Z"
-  },
-  "https://reflect-pomona.cablecast.tv/live-1/live/live.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:37:50.513Z"
-  },
-  "http://190.211.140.91:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:41:30.753Z"
-  },
-  "https://5bf8041cb3fed.streamlock.net/mastvpr/mastvpr/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:42:03.299Z"
-  },
-  "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:42:26.998Z"
-  },
-  "https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:42:42.867Z"
-  },
-  "https://videohd.live:19360/8016/8016.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-09-17T02:44:51.398Z"
-  },
   "https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:51:41.922Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:10:11.810Z"
   },
   "https://jmp2.uk/rok-2d9aed2049f3c762acbed39bf6b9cc9f.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:51:59.720Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:10:49.234Z"
   },
   "https://jmp2.uk/rok-f66aa243a9465896ac3e7eaef7cba3fd.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:52:09.179Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:10:56.858Z"
   },
   "http://45.162.193.35/AMC/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:55:20.266Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:12:30.269Z"
   },
   "http://45.162.193.35/STAR_CHANNEL/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:55:41.248Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:12:49.627Z"
   },
   "http://45.162.193.35/CINECANAL/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:56:41.919Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:13:05.734Z"
   },
   "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_011/Stream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:56:59.278Z"
-  },
-  "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T01:58:09.441Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:13:15.768Z"
   },
   "http://45.162.193.35/DOCU/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:08.007Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:14:25.532Z"
   },
   "https://jmp2.uk/rok-50b18dea9c5c51568c1343fcd3d88ec9.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:26.254Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:14:55.552Z"
   },
   "https://jmp2.uk/rok-ec2faed50af3503e934f0c342a7952fe.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:26.254Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:14:55.552Z"
   },
   "https://jmp2.uk/rok-307cbde3d30957828ff68b3b979d6958.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:26.254Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:15:02.363Z"
   },
   "https://jmp2.uk/rok-d0d9af56b7735c318b66afe21089d028.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:26.254Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:15:02.363Z"
   },
   "https://jmp2.uk/rok-e8f8972f377a598590592ecd079e7cc4.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:32.970Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:15:02.363Z"
   },
   "https://jmp2.uk/rok-5dedf641315cd44f0f2ec96b99855110.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:32.970Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:15:02.363Z"
   },
   "https://jmp2.uk/rok-0b285303dd2fbf7a851db13ce53d5d1f.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:00:32.970Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:15:02.363Z"
   },
   "https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:02:02.116Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:16:31.802Z"
   },
   "https://cdn.live.br1.jmvstream.com/w/LVW-11668/ngrp:LVW11668_wiJpjbMrks_all/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:02:22.244Z"
-  },
-  "https://ztnr.rtve.es/ztnr/4952053.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:02:28.336Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:16:57.743Z"
   },
   "https://lencatelevision.com/hls/stream.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:03:27.858Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:18:34.606Z"
   },
   "https://edge.essastream.com/noticias16/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:05:00.366Z"
-  },
-  "https://www.streaming.radartv.co.id/hls/test.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:05:43.474Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:20:16.192Z"
   },
   "https://server.zillarbarta.com/zillarbarta/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:06:53.660Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:22:02.391Z"
   },
   "https://jmp2.uk/rok-43623368b9c3704a5ea138fbaac14735.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:07:07.806Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:22:23.293Z"
   },
   "https://jmp2.uk/rok-be0ab85669d41bc5f60de22bace4ac5a.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:07:07.806Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:22:23.293Z"
   },
   "https://jmp2.uk/rok-34beeb8efcb656f08d91298bb94e1815.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:07:16.056Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:22:30.952Z"
   },
   "http://45.162.193.35/FX/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:07:37.886Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:22:52.706Z"
   },
   "http://45.162.193.35/PASIONESHD/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:07:48.750Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:23:03.478Z"
   },
   "https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:08:18.695Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:23:18.990Z"
   },
   "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:09:11.191Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:23:58.147Z"
   },
   "https://maximatv.net/hls/stream.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:09:24.888Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:24:13.199Z"
   },
   "https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:10:28.883Z"
-  },
-  "https://v2.tustreaming.cl/fmplus/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:10:28.883Z"
-  },
-  "https://livestream2.bokradio.co.za/hls/Bok5c.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:11:28.185Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:25:26.311Z"
   },
   "https://lbgo.bozztv.com/ssh101/ssh101/d3tvnet/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:11:34.991Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:26:17.817Z"
   },
   "https://tv.arkeo.cl:1936/8002/8002/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:11:47.339Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:26:29.365Z"
   },
   "http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:11:54.362Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:26:36.147Z"
   },
   "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:12:13.909Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:26:55.940Z"
   },
   "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:12:58.319Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:27:09.433Z"
   },
   "https://www.idealfm104-7.com/hls/0/stream.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:12:58.319Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:27:45.566Z"
   },
   "https://streaming.imagenfm105-1.com/hls/stream.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:12:58.319Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:27:45.566Z"
   },
   "http://45.162.193.35/RUMBATV/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:13:09.547Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:27:55.040Z"
   },
   "http://181.78.8.199:8000/play/a0dn/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:13:52.362Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:28:38.622Z"
   },
   "https://reflect-npa.cablecast.tv/live-9/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:14:08.137Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:28:52.954Z"
   },
   "http://181.78.14.26:4000/play/a073/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:14:55.445Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:29:03.487Z"
   },
   "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:15:11.053Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:29:18.939Z"
   },
   "https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:18:43.435Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:32:13.689Z"
   },
   "https://mahaasintv.livebox.co.in/mahaasintvhls/mahaasintv.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:18:58.780Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:32:32.734Z"
   },
   "https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:19:28.775Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:32:52.089Z"
   },
   "https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:19:39.053Z"
-  },
-  "https://server.zillarbarta.com/zbbhakti/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:19:54.882Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:33:00.235Z"
   },
   "https://jmp2.uk/rok-f862a66d14ccfdde7ba6a14ef412d033.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:20:57.702Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:33:58.989Z"
   },
   "https://streaming5.globalhostla.com/rtplive/unamirad/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:21:43.353Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:34:32.538Z"
   },
   "https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:22:02.691Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:34:55.079Z"
   },
   "http://45.162.193.35/ARTV/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:22:11.387Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:35:02.014Z"
   },
   "https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:22:28.767Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:35:09.410Z"
   },
   "https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:22:43.444Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:35:49.542Z"
   },
   "https://reflect-broadcast-psdschools.cablecast.tv/live-6/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:22:49.839Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:35:56.004Z"
   },
   "https://buenapark.cablecast.tv/live/stream-1/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:23:55.747Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:36:57.914Z"
   },
   "https://reflect-lakefront-leesburgflorida.cablecast.tv/live-6/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:24:02.224Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:37:04.356Z"
   },
   "https://reflect-npa.cablecast.tv/live-8/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:24:02.224Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:37:10.531Z"
   },
   "https://reflect-contra-costa.cablecast.tv/live-7/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:24:23.866Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:37:20.792Z"
   },
   "https://irctv.cablecast.tv/live/stream-1/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:24:30.043Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:37:26.959Z"
   },
   "https://edge-f.swagit.com/live/sanantoniotx/live-2-a/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:24:54.750Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:37:44.875Z"
   },
   "https://amg01416-amg01416c4-lg-us-4203.playouts.now.amagi.tv/playlist/amg01416-faststudios-usatvall-lgus/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.givn=[NONCE]&ads.dmake=[DEVICE_MAKE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:25:21.860Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:37:52.948Z"
   },
   "https://live-evg10.tv360.bitel.com.pe/bitel/36tvSRT/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:26:52.162Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:39:08.504Z"
   },
   "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:27:15.340Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:39:30.473Z"
   },
   "https://envivo.arica.tv/hls/Live2025AricaTV.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:27:15.340Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:39:36.903Z"
   },
   "https://vs20.live.opencaster.com/canalchd2025_8d99626c/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:28:17.142Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:40:28.903Z"
   },
   "https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:29:30.718Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:41:23.401Z"
   },
   "https://goliveafrica.media:9998/live/625965017ed69/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:29:40.304Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:41:38.819Z"
   },
   "https://reflect-vod-fcgov.cablecast.tv/live-9/live/stream-1/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:30:17.722Z"
-  },
-  "http://khkbh.dk:8080/hls/livestream/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:31:22.252Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:41:54.063Z"
   },
   "https://playtv4k.live/live/kassouatv/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:31:28.612Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:42:32.344Z"
   },
   "https://sistemastr.tropicalmoonmedia.com/live/2C7CA6CECC9B8F8C3A07315FDA110936/21.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:32:30.703Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:44:29.570Z"
   },
   "https://2-fss-1.streamhoster.com/pl_148/201830-1293592-1/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:32:45.704Z"
-  },
-  "http://45.171.108.253:8888/PANAMERICANA/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:32:56.835Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:44:44.034Z"
   },
   "https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:33:05.441Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:44:53.935Z"
   },
   "https://player.qtv.gm/hls/live.stream.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:33:17.485Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:45:04.360Z"
   },
   "https://tv.telselec.cl:3376/live/nublefmlive.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:33:24.355Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:45:10.927Z"
   },
   "https://v4.tustreaming.cl/sannicolastv/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:33:43.926Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:45:36.911Z"
   },
   "https://reflect-scvtv.cablecast.tv/live-2/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:33:50.197Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:45:43.292Z"
   },
   "http://168.228.44.241:9997/play/a07g/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:34:17.944Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:46:09.831Z"
   },
   "https://angelistic.live:3785/live/tvoficiallive.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:34:29.342Z"
-  },
-  "https://play.once.net.ec/telerama/live.tv/538.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:34:29.342Z"
-  },
-  "https://rpn.bozztv.com/gusa/gusa-tvstn/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:35:05.429Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:46:09.831Z"
   },
   "https://cdn.vivamediosni.com/viva_720p/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:35:51.602Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:47:15.592Z"
   },
   "https://edge.essastream.com/xtratv/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:36:36.273Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:47:55.689Z"
   },
   "https://zns-edge1.streamcomedia.cloud/znstv13/zns1080p_stream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:36:44.990Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:48:05.162Z"
   },
   "https://reflect-montgomerycommunitymedia.cablecast.tv/live-8/live/stream-3/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:37:16.968Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:48:28.564Z"
   },
   "https://reflect-access-sacramento.cablecast.tv/live-7/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:37:16.968Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:48:28.564Z"
   },
   "https://reflect-golden-co.cablecast.tv/live-3/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:37:30.941Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:48:41.794Z"
   },
   "https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:37:37.908Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:48:48.611Z"
   },
   "https://reflect-npa.cablecast.tv/live-6/live/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:37:44.242Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:48:54.787Z"
   },
   "http://124.109.47.101/hls/stream1.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:38:48.105Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:49:58.789Z"
   },
   "https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:39:18.815Z"
-  },
-  "http://138.117.4.70:8075/channel9/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:39:36.784Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:50:16.046Z"
   },
   "https://5c46fa289c89f.streamlock.net/pub2live/myStream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:40:16.246Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:50:59.502Z"
   },
   "http://181.78.8.199:8000/play/a0bt/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:40:38.354Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:51:15.818Z"
   },
   "https://amg26269-amg26269c2-distrotv-us-8939.playouts.now.amagi.tv/playlist/amg26269-dogtv-unleashedbydogtv-distrotvus/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:41:53.177Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:52:32.997Z"
   },
   "http://45.162.193.35/ZONALATINA/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:42:03.299Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:52:41.437Z"
   },
   "http://192.151.150.154/live/cctv8k.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:42:35.103Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:53:05.004Z"
   },
   "http://94.155.93.182/POBEDA_HD/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:43:44.766Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:53:34.196Z"
   },
   "https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:44:16.894Z"
-  },
-  "https://164475.gvideo.io/mpegts/164475_650646/master_mpegts.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:44:44.771Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:53:57.763Z"
   },
   "http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:45:23.795Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:54:48.184Z"
   },
   "https://stream1.aswifi.it/radioyes/live/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:45:31.220Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:54:55.033Z"
   },
   "https://stream.twoja.tv/ttv_hls/live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-09-17T02:45:40.496Z"
+    "fails": 2,
+    "lastFailedAt": "2026-09-17T03:55:01.908Z"
   },
-  "https://wazobia.live:8333/channel/wmaxph.m3u8": {
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324572.ts": {
     "fails": 1,
-    "lastFailedAt": "2026-09-17T02:46:04.021Z"
+    "lastFailedAt": "2026-09-17T03:10:23.929Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/182.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:23.929Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/818054.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:23.929Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/818053.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:23.929Z"
+  },
+  "https://lbgo.bozztv.com/ssh101/ssh101/kurd26/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:23.929Z"
+  },
+  "http://avrstream.com:1935/live/Kurd7HD/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:23.929Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/995918.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:23.929Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/156.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.922Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324575.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.922Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324577.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.922Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859074.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.922Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859053.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.922Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859045.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.922Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324608.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.923Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/167.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.923Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858987.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.923Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858993.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:30.923Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/197.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:37.968Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/152.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:37.968Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4362.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:37.968Z"
+  },
+  "https://jmp2.uk/rok-a361d429db9e46665be277da42af89a4.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:49.234Z"
+  },
+  "https://jmp2.uk/rok-82bd10ceb52152a7adb6bdc5d776e794.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:56.858Z"
+  },
+  "https://jmp2.uk/rok-c5e8a74546771de365652cd053f73351.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:10:56.858Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/149.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:11:59.557Z"
+  },
+  "http://72321912.vipma.site:80/live/Q23U45Y4/24558261/1275547.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:11:59.557Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987920.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:08.906Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858986.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:08.906Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5585.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:08.906Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4767.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:08.906Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/213.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:08.906Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/3908.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:08.906Z"
+  },
+  "http://iptvhouse.pro:80/live/7598066813/503118f6f7/544476.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:08.906Z"
+  },
+  "http://iptvhouse.pro:80/live/7598066813/503118f6f7/544474.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:16.041Z"
+  },
+  "http://iptvhouse.pro:80/live/7598066813/503118f6f7/544473.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:12:16.041Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/172.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:13:34.957Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5542.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:13:34.957Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5587.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:13:34.957Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858950.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:14:06.599Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/186.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:14:55.552Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4688.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:14:55.552Z"
+  },
+  "https://edge.fastpublish.me/live/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:16:38.987Z"
+  },
+  "https://mumt05.tangotv.in/87NeALx2INDIAAHEAD/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:17:56.524Z"
+  },
+  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:19:36.126Z"
+  },
+  "https://live-evg7.tv360.bitel.com.pe/bitel/radiounotv/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:20:29.778Z"
+  },
+  "https://jmp2.uk/rok-e3a9171a7b9155ca89ba9f7f3e1a6bde.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:22:16.975Z"
+  },
+  "https://mumt03.tangotv.in/Dsly5z3HANDYHARYANA/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:26:10.052Z"
+  },
+  "https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:28:18.471Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324595.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:28:27.198Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/110.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:29:51.256Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/128.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:29:51.257Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/209.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:30:28.032Z"
+  },
+  "https://iptv-link.short.gy/Gewher_Kids.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:30:28.032Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/193.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:30:28.032Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5593.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:30:28.032Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5598.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:30:28.032Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/204.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:30:28.032Z"
+  },
+  "http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667801&extension=ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:30:28.032Z"
+  },
+  "https://2nbyj587d53k-hls-live.5centscdn.com/09/25b94ec89b2aa708c3c4ad0014b09845.sdp/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:32:24.483Z"
+  },
+  "https://vidl.misatv.ro:5050/MSTV/romanian_720p_baseline/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:32:40.654Z"
+  },
+  "https://moymir.ru/hls/onair.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:36:46.290Z"
+  },
+  "https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:39:21.671Z"
+  },
+  "http://186.33.26.18:8000/play/a0qp/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:40:09.750Z"
+  },
+  "http://186.33.26.18:8000/play/a0s4/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:40:16.104Z"
+  },
+  "http://186.33.26.18:8000/play/a0nw/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:40:22.457Z"
+  },
+  "https://stream.ontvmx.com/ontv/CNMLXR0Z6FPtGdjcI4/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:41:06.384Z"
+  },
+  "http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:42:24.455Z"
+  },
+  "https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:42:58.706Z"
+  },
+  "http://45.167.2.138:8000/play/a0o4/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:43:41.912Z"
+  },
+  "https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:43:41.912Z"
+  },
+  "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:45:19.429Z"
+  },
+  "https://videoserver.tmcreativos.com:19360/cvmhbyrcat/cvmhbyrcat.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:45:27.886Z"
+  },
+  "https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:45:27.886Z"
+  },
+  "http://185.9.2.18/chid_247/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:49:15.813Z"
+  },
+  "https://sc3.wasidata.com/Genios2_1902/video.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:50:43.324Z"
+  },
+  "https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:51:31.355Z"
+  },
+  "http://45.167.2.101:8000/play/a07n/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:52:22.651Z"
+  },
+  "https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:25.827Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324587.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:45.754Z"
+  },
+  "https://live.kirkuklive.live/hls/stream/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/88.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/99.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/102.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/104.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/107.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/108.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/124.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/126.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:55:53.047Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/169.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/196.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/198.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/203.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/3904.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/223.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/199.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4694.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/192.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/3900.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:00.432Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/161.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:08.488Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987958.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:08.488Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324667.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:08.488Z"
+  },
+  "http://51.89.152.180:80/live/BahraHD/chunks.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:08.488Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987905.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:08.488Z"
+  },
+  "https://iptv-link.short.gy/Gewher.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:45.782Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859024.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:45.782Z"
+  },
+  "https://livetv.canbroadcast.com:7443/canlican/tv.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:45.782Z"
+  },
+  "http://naqshi-media.com:1935/live/NaqshiMedia/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:45.782Z"
+  },
+  "http://avrstream.com:1935/live/SoranEntertainment/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:45.782Z"
+  },
+  "http://baskhd.ddns.net:40/live/baskhd/yusfstore.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:52.759Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858968.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:52.759Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324589.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:52.759Z"
+  },
+  "https://183.bozztv.com/giatv/giatv-zhintv/zhintv/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:52.759Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/187.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:52.759Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4326.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:52.759Z"
+  },
+  "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:59.691Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/159.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:59.691Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987962.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:59.692Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324677.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:59.692Z"
+  },
+  "http://cdn.karwan.tv/WALAQURAN/index.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:59.692Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858961.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:56:59.692Z"
+  },
+  "https://live20.bozztv.com/giatv/giatv-esraquran_kamalblbas/esraquran_kamalblbas/chunks.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:06.966Z"
+  },
+  "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:13.960Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/163.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:13.960Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4075.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:13.960Z"
+  },
+  "http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858954.ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5591.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/221.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4726.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5588.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5581.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5541.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/4724.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5574.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:21.247Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5575.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.531Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/171.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.532Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/112.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.532Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/113.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.532Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/92.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.532Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/5013.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.532Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/3302.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.532Z"
+  },
+  "http://185.95.184.33:25461/live/120541/20364/3899.m3u8": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:28.532Z"
+  },
+  "http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667804&extension=ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:35.362Z"
+  },
+  "http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=638690&extension=ts": {
+    "fails": 1,
+    "lastFailedAt": "2026-09-17T03:57:35.362Z"
   }
 }
