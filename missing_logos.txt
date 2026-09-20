@@ -38,6 +38,7 @@ Acorn TV Mysteries
 Action Hollywood Movies
 Adrenaline Movies
 Adrenaline+
+Afarin Radio
 Afra Film
 AfroLand African
 AfroLand Faith
@@ -68,6 +69,7 @@ Arko TV
 Arous Beiru
 Artist of the Year
 Arvan TV
+Ashti Quran
 Automotion
 Autostop Per Il Cielo
 Ax Men
@@ -88,6 +90,7 @@ Beyblade en Español
 Beyond Paranormal
 Big 12 Studios
 Bigtime - Películas Gratis
+Biner TV Zaxo
 Biography The Icons
 BizaarTV
 Black Enterprise Streaming Network
@@ -178,7 +181,10 @@ Deal Zone
 Death Valley Days
 Dej TV
 Demand Drama
+Dengi Quran
+Dengi islam Slemani
 Dennis and Gnasher
+Derin
 Desimpedidos
 Dhar Mann TV
 Divorce Court
@@ -191,6 +197,9 @@ Drive + Speed
 Drive TV La Chaine Auto Geo
 Drool
 Dude Perfect
+DunyaTV
+ESRA
+ESRA 2
 EWTN Ukraine
 Easy Listening
 Emergency 24/7
@@ -198,6 +207,7 @@ Enquetes de choc
 Enquêtes de Choc
 Envoy FAST
 Euro Hits
+Eurokurd
 Euronews EN DIRECT
 Evolution Earth
 FAST Channel Extreme Makeover Home Edition
@@ -270,6 +280,9 @@ Game & Fish TV
 Gardening With Monty Don
 Gardening with Monty Don
 General Hospital
+Gewher Family
+Gewher Kids
+Gewher Sport
 Ghaint Punjab
 Ghost Stories
 Giovanni Paolo TV
@@ -290,6 +303,7 @@ Grjngo Italy
 Grjngo Spain
 H2O & Friends
 HAHA TV
+HALABJA TV
 Hagerty
 Harcore Pawn
 Harvest USA
@@ -318,7 +332,11 @@ Hunter x Hunter
 I Survived
 I Survived…
 ICC Plus
+IMK TV
 INA Ardivision
+IRIB Kermanshah
+IRIB Kordestan
+IRIB Mahabad
 Ice Pilots NTW In Spanish
 Ice Road Truckers
 Icon Film Channel
@@ -340,6 +358,8 @@ JAJAJA
 Jack Hanna
 Jewelry TV 2
 Jodha Akbar
+KHAK
+KHAK FM
 KU | ACADEMY AMOZHGARI TV
 KU | AFARIN TV
 KU | ALKASS TV
@@ -364,6 +384,7 @@ KU | BARIN MOVIES TV
 KU | BARIN QURAN TV
 KU | BASK KIDS TV
 KU | BASK TV
+KU | BEFRIN TV
 KU | BEIN SPORT 1 8K
 KU | BEIN SPORT 2 8K
 KU | BMC TV
@@ -372,10 +393,11 @@ KU | CHANNEL 8
 KU | CN ARABIA TV
 KU | CNN TV
 KU | DASINYA KIDS
+KU | DASINYA KIDS TV
 KU | DASINYA MUSIC
+KU | DASINYA MUSIC TV
 KU | DASINYA SPORT
 KU | DASINYA TV
-KU | DELAL TV
 KU | DERWAZA TV
 KU | DEVER TV
 KU | DIMEN TV
@@ -390,11 +412,11 @@ KU | GEWHER SPORT TV
 KU | GEWHER TV
 KU | GK+ TV
 KU | HALABJA TV
-KU | HOMZHYAR TV
 KU | IKURD TV
 KU | IMK QURAN TV
 KU | IMK TV
 KU | JK TV
+KU | KELGA TV
 KU | KHAK TV
 KU | KIDCO TV
 KU | KIRKUK TV
@@ -446,6 +468,7 @@ KU | PARWARDAYI SLEMANI TV
 KU | PAYAM TV
 KU | PELISTANK TV
 KU | PESHANG TV
+KU | PESHMARGA TV
 KU | QALLAM TV
 KU | QALLAM TV ISLAMIC
 KU | QELLAT TV
@@ -485,10 +508,12 @@ KU | ZED PLUS+ TV
 KU | ZHIN FILM TV
 KU | ZNAR TV
 Kanal 32
+Kidco
 Kiddo+
 Kids Street
 Krimi
 KultKrimi
+Kurd Mix _ Sweden
 LADbible
 La Fiebre del Jade
 La Maison France 5
@@ -527,9 +552,13 @@ LooLoo Kids TV
 Love Crime and History Spain
 LoveWorld USA
 MHz Mysteries
+MMN Action
+MMN Quran
+MMN SHOW
 MSG SportsZone
 Mango TV Geo
 Manual do Mundo
+Maraya Kids
 Married To Medicine
 MasterChef Brasil
 Masterchef Brasil Geo
@@ -542,6 +571,7 @@ Mi Casa
 Mi Miedo Canal
 Mi Raza Canal
 Mi Raza Canal Plus
+Mihrab FM
 Military Heroes
 Million Dollar Listing Vault
 Moconomy - Economía y Finanzas
@@ -558,15 +588,16 @@ NBC 4 Albuquerque NM
 NBC Chicago News
 NEW KFOOD
 NHL
+NUC TV
 Nature Time C14
 News 18 Madhya Pradesh Geo
 News 18 Uttarakhand Geo
 News1
 Nigbati
 Ninja Warriors
+Niroj
 Northern Exposure
 Nothin' But 90s
-Noticias 16
 Novo Tempo
 Omroep Brabant Radio
 One Championship WL
@@ -575,6 +606,7 @@ PBS KET2
 PBS Science
 PICK Monkey Rescue
 PMC Royale
+Parwardayi Hawler
 Pelimex
 Pequeños Gigantes
 Perform
@@ -596,8 +628,11 @@ Quantum Leap
 Qui Veut Gagner des Millions
 Qui Veut Gagner des Millions?
 Qui veut gagner des millions Geo
+ROJHELAT
 ROMCOM K-Drama
 RTV Arnhem
+Radio Nawa Kurdi
+Radio Sunnat
 Radio Weser TV Bremen
 Rede Seculo 21
 Reelz Famous & Infamous
@@ -616,9 +651,12 @@ Royalworld - Nobility & Dynasties
 Royalworld - Nobleza y Dinastias
 Royalworld - Nobreza e Dinastias
 Royalworld Germany
+Rudaw Radio
 Rugby Pass TV
 Runn Action
 Runn Thrillers
+SHNA TV
+SPI
 SURFER TV
 Saga Music Haryanvi
 Sardari TV
@@ -637,6 +675,7 @@ Sessao Trash
 Setareh TV
 Shade TV
 Shark TV
+Shna Doc
 Sikh Ratnavali
 Silent Witness and New Tricks
 Sky Sports Classics
@@ -787,9 +826,12 @@ Xploration Station
 Xtreme Outdoor Presented by HISTORY
 Xumo Películas Gratis
 ZAZ
+Zagros 24
 Zainabia Channel
 Zarin TV
+Zarok Kids
 Zed TV
+Zhin Film
 Zona TUDN
 batteryPOP
 douyu15
@@ -807,3 +849,101 @@ myTV San Antonio TX
 Ça Chauffe en Cuisine
 Éxitos del Momento
 Đà Nẵng TV2
+┃KURD DVB-T┃ 4 KURD TV
+┃KURD DVB-T┃ 4 PLUS+ TV
+┃KURD DVB-T┃ AFARIN
+┃KURD DVB-T┃ AFARIN BAXCHA
+┃KURD DVB-T┃ ALA TV
+┃KURD DVB-T┃ ASHTI FAMILY
+┃KURD DVB-T┃ ASHTI QURAN
+┃KURD DVB-T┃ ASMAN
+┃KURD DVB-T┃ ASO SPORT
+┃KURD DVB-T┃ ASO Sport
+┃KURD DVB-T┃ ASTERA BABY
+┃KURD DVB-T┃ ASTERA CULTURE
+┃KURD DVB-T┃ ASTERA DOCUMENTARY
+┃KURD DVB-T┃ ASTERA FAMILY
+┃KURD DVB-T┃ ASTERA MOVIES
+┃KURD DVB-T┃ ASTERA SHOW
+┃KURD DVB-T┃ ATV 2✦
+┃KURD DVB-T┃ ATV✦
+┃KURD DVB-T┃ AVA SPORT
+┃KURD DVB-T┃ AVA Sport
+┃KURD DVB-T┃ AZADI
+┃KURD DVB-T┃ BABOLLY
+┃KURD DVB-T┃ BANGXWAZEN BADINAN
+┃KURD DVB-T┃ BARIN
+┃KURD DVB-T┃ BARIN MOVIES
+┃KURD DVB-T┃ BARIN QURAN
+┃KURD DVB-T┃ BASK
+┃KURD DVB-T┃ BASK+
+┃KURD DVB-T┃ BINAR
+┃KURD DVB-T┃ BMC
+┃KURD DVB-T┃ BNAR
+┃KURD DVB-T┃ BNAR MOVIES
+┃KURD DVB-T┃ CIHAN TV
+┃KURD DVB-T┃ DANGI QURAN
+┃KURD DVB-T┃ DASINYA SPORT
+┃KURD DVB-T┃ DELAL
+┃KURD DVB-T┃ DERIN
+┃KURD DVB-T┃ DERWAZA
+┃KURD DVB-T┃ DERWAZA MUSIC
+┃KURD DVB-T┃ DIMEN
+┃KURD DVB-T┃ DUHOK SPORT
+┃KURD DVB-T┃ DUNYA TV
+┃KURD DVB-T┃ EMAN TV
+┃KURD DVB-T┃ ESTA
+┃KURD DVB-T┃ EURO KURD TV
+┃KURD DVB-T┃ EVIN TV
+┃KURD DVB-T┃ FAMILY BOX INFO
+┃KURD DVB-T┃ FAMILY RAPARIN
+┃KURD DVB-T┃ KHAK
+┃KURD DVB-T┃ NEWLINE 1
+┃KURD DVB-T┃ NEWLINE 2
+┃KURD DVB-T┃ NIGA FAMILY
+┃KURD DVB-T┃ NIGA KIDS
+┃KURD DVB-T┃ NIGA MOVIES
+┃KURD DVB-T┃ RASAN
+┃KURD DVB-T┃ RENG DOCUMENTARY
+┃KURD DVB-T┃ RENG FAMILY
+┃KURD DVB-T┃ RENG KIDS
+┃KURD DVB-T┃ RENG MUSIC
+┃KURD DVB-T┃ RENG SPORT
+┃KURD DVB-T┃ ZED
+┃KURD DVB-T┃ ZED+
+┃KURD-SAT┃ AMOZHGARY TV
+┃KURD-SAT┃ ARYEN TV
+┃KURD-SAT┃ AVA
+┃KURD-SAT┃ BANGAWAZ TV
+┃KURD-SAT┃ CIRA TV
+┃KURD-SAT┃ GALI KURDISTAN TV
+┃KURD-SAT┃ IRAQIA KURDISH TV
+┃KURD-SAT┃ JIN
+┃KURD-SAT┃ K24
+┃KURD-SAT┃ KIRKUK TV
+┃KURD-SAT┃ KOMAL
+┃KURD-SAT┃ KURD CHANNEL
+┃KURD-SAT┃ KURDISTAN TV
+┃KURD-SAT┃ KURDMAX KURMANJI
+┃KURD-SAT┃ KURDMAX SHOW KURMANJI
+┃KURD-SAT┃ KURDMAX SHOW SORANI
+┃KURD-SAT┃ KURDMAX SORANI
+┃KURD-SAT┃ KURDSAT NEWS
+┃KURD-SAT┃ KURDSAT TV
+┃KURD-SAT┃ MED MUSIC TV
+┃KURD-SAT┃ NRT 1
+┃KURD-SAT┃ NRT 2
+┃KURD-SAT┃ NRT 3 KIDS
+┃KURD-SAT┃ NRT 4
+┃KURD-SAT┃ PAYAM TV
+┃KURD-SAT┃ ROJAVA
+┃KURD-SAT┃ ROJHELAT
+┃KURD-SAT┃ RONAHI TV
+┃KURD-SAT┃ RUDAW
+┃KURD-SAT┃ SAHAR KURDI TV
+┃KURD-SAT┃ SPEDA
+┃KURD-SAT┃ STERK TV
+┃KURD-SAT┃ TRT KURDI
+┃KURD-SAT┃ WAAR TV
+┃KURD-SAT┃ ZAGROS
+┃KURD-SAT┃ ZAROK TV
