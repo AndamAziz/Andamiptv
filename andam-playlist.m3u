@@ -685,3 +685,187 @@ http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667704&
 http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667747&extension=ts
 #EXTINF:-1 group-title="┃KURD┃ KURDISH DVB-T",┃KURD DVB-T┃ FAMILY BOX INFO HD
 http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667677&extension=ts
+#EXTINF:-1 group-title="Kurdish TV",ZNAR KIDS
+http://api.353505.xyz:80/live/123/123/539.ts
+#EXTINF:-1 group-title="Kurdish TV",Rudaw Radio
+http://api.353505.xyz:80/live/123/123/158.ts
+#EXTINF:-1 group-title="Kurdish TV",Parwardayi Hawler
+http://api.353505.xyz:80/live/123/123/620.ts
+#EXTINF:-1 group-title="Kurdish TV",KURDsat
+http://api.353505.xyz:80/live/123/123/2894.ts
+#EXTINF:-1 group-title="Kurdish TV",KURDSAT NEWS
+http://api.353505.xyz:80/live/123/123/2895.ts
+#EXTINF:-1 group-title="Kurdish TV",Dengi Gali Kurdistan
+http://api.353505.xyz:80/live/123/123/160.ts
+#EXTINF:-1 group-title="Kurdish TV",Eman TV
+http://api.353505.xyz:80/live/123/123/560.ts
+#EXTINF:-1 group-title="Kurdish TV",RUDAW 4K
+http://api.353505.xyz:80/live/123/123/2896.ts
+#EXTINF:-1 group-title="Kurdish TV",ESRA
+http://api.353505.xyz:80/live/123/123/562.ts
+#EXTINF:-1 group-title="Kurdish TV",NRT
+http://api.353505.xyz:80/live/123/123/2897.ts
+#EXTINF:-1 group-title="Kurdish TV",Radio Nawa Kurdi
+http://api.353505.xyz:80/live/123/123/162.ts
+#EXTINF:-1 group-title="Kurdish TV",Sports .tv
+http://api.353505.xyz:80/live/123/123/268.ts
+#EXTINF:-1 group-title="Kurdish TV",ESRA 2
+http://api.353505.xyz:80/live/123/123/563.ts
+#EXTINF:-1 group-title="Kurdish TV",Channel 8
+http://api.353505.xyz:80/live/123/123/2898.ts
+#EXTINF:-1 group-title="Kurdish TV",Afarin Baxcha
+http://api.353505.xyz:80/live/123/123/614.ts
+#EXTINF:-1 group-title="Kurdish TV",WAAR TV
+http://api.353505.xyz:80/live/123/123/2900.ts
+#EXTINF:-1 group-title="Kurdish TV",Iraqia Kurdi
+http://api.353505.xyz:80/live/123/123/2901.ts
+#EXTINF:-1 group-title="Kurdish TV",KHAK FM
+http://api.353505.xyz:80/live/123/123/166.ts
+#EXTINF:-1 group-title="Kurdish TV",AVA Media
+http://api.353505.xyz:80/live/123/123/2902.ts
+#EXTINF:-1 group-title="Kurdish TV",welat
+http://api.353505.xyz:80/live/123/123/2903.ts
+#EXTINF:-1 group-title="Kurdish TV",PAYAM TV
+http://api.353505.xyz:80/live/123/123/2904.ts
+#EXTINF:-1 group-title="Kurdish TV",Kurd Mix _ Sweden
+http://api.353505.xyz:80/live/123/123/169.ts
+#EXTINF:-1 group-title="Kurdish TV",Zagros 24
+http://api.353505.xyz:80/live/123/123/2905.ts
+#EXTINF:-1 group-title="Kurdish TV",Gali Kurdistan
+http://api.353505.xyz:80/live/123/123/2906.ts
+#EXTINF:-1 group-title="Kurdish TV",KERKUK TV
+http://api.353505.xyz:80/live/123/123/2907.ts
+#EXTINF:-1 group-title="Kurdish TV",Kurdistan 24
+http://api.353505.xyz:80/live/123/123/2908.ts
+#EXTINF:-1 group-title="Kurdish TV",ROJHELAT
+http://api.353505.xyz:80/live/123/123/2909.ts
+#EXTINF:-1 group-title="Kurdish TV",KURD CHANNEL
+http://api.353505.xyz:80/live/123/123/2910.ts
+#EXTINF:-1 group-title="Kurdish TV",IRIB Kordestan
+http://api.353505.xyz:80/live/123/123/2911.ts
+#EXTINF:-1 group-title="Kurdish TV",IRIB Mahabad
+http://api.353505.xyz:80/live/123/123/2912.ts
+#EXTINF:-1 group-title="Kurdish TV",IRIB Kermanshah
+http://api.353505.xyz:80/live/123/123/2913.ts
+#EXTINF:-1 group-title="Kurdish TV",SHAMS
+http://api.353505.xyz:80/live/123/123/400.ts
+#EXTINF:-1 group-title="Kurdish TV",STERK TV
+http://api.353505.xyz:80/live/123/123/2915.ts
+#EXTINF:-1 group-title="Kurdish TV",Kurdmax sorani
+http://api.353505.xyz:80/live/123/123/2917.ts
+#EXTINF:-1 group-title="Kurdish TV",Kurdmax Show  Sorani
+http://api.353505.xyz:80/live/123/123/2918.ts
+#EXTINF:-1 group-title="Kurdish TV",Kurdistan TV
+http://api.353505.xyz:80/live/123/123/2921.ts
+#EXTINF:-1 group-title="Kurdish TV",TRT KURDi
+http://api.353505.xyz:80/live/123/123/2922.ts
+#EXTINF:-1 group-title="Kurdish TV",ZAGROS TV
+http://api.353505.xyz:80/live/123/123/2923.ts
+#EXTINF:-1 group-title="Kurdish TV",Zhin Film
+http://api.353505.xyz:80/live/123/123/2924.ts
+#EXTINF:-1 group-title="Kurdish TV",ZNAR TV
+http://api.353505.xyz:80/live/123/123/2925.ts
+#EXTINF:-1 group-title="Kurdish TV",AVAR
+http://api.353505.xyz:80/live/123/123/2926.ts
+#EXTINF:-1 group-title="Kurdish TV",Eurokurd
+http://api.353505.xyz:80/live/123/123/2927.ts
+#EXTINF:-1 group-title="Kurdish TV",SADA
+http://api.353505.xyz:80/live/123/123/2928.ts
+#EXTINF:-1 group-title="Kurdish TV",TravelXP HD
+http://api.353505.xyz:80/live/123/123/517.ts
+#EXTINF:-1 group-title="Kurdish TV",HALABJA TV
+http://api.353505.xyz:80/live/123/123/2929.ts
+#EXTINF:-1 group-title="Kurdish TV",KHAK
+http://api.353505.xyz:80/live/123/123/2930.ts
+#EXTINF:-1 group-title="Kurdish TV",Soran Entertainment
+http://api.353505.xyz:80/live/123/123/2931.ts
+#EXTINF:-1 group-title="Kurdish TV",SHNA TV
+http://api.353505.xyz:80/live/123/123/2932.ts
+#EXTINF:-1 group-title="Kurdish TV",Shna Doc
+http://api.353505.xyz:80/live/123/123/2933.ts
+#EXTINF:-1 group-title="Kurdish TV",DunyaTV
+http://api.353505.xyz:80/live/123/123/2934.ts
+#EXTINF:-1 group-title="Kurdish TV",Mix Kurdy
+http://api.353505.xyz:80/live/123/123/2935.ts
+#EXTINF:-1 group-title="Kurdish TV",Afarin Kids
+http://api.353505.xyz:80/live/123/123/2936.ts
+#EXTINF:-1 group-title="Kurdish TV",Afarin Radio
+http://api.353505.xyz:80/live/123/123/2937.ts
+#EXTINF:-1 group-title="Kurdish TV",Mihrab FM
+http://api.353505.xyz:80/live/123/123/2938.ts
+#EXTINF:-1 group-title="Kurdish TV",IMK TV
+http://api.353505.xyz:80/live/123/123/2939.ts
+#EXTINF:-1 group-title="Kurdish TV",Dengi islam Slemani
+http://api.353505.xyz:80/live/123/123/208.ts
+#EXTINF:-1 group-title="Kurdish TV",ONE PLUS
+http://api.353505.xyz:80/live/123/123/2944.ts
+#EXTINF:-1 group-title="Kurdish TV",Alla Tv
+http://api.353505.xyz:80/live/123/123/2946.ts
+#EXTINF:-1 group-title="Kurdish TV",GK +
+http://api.353505.xyz:80/live/123/123/2947.ts
+#EXTINF:-1 group-title="Kurdish TV",Radio Sunnat
+http://api.353505.xyz:80/live/123/123/212.ts
+#EXTINF:-1 group-title="Kurdish TV",Derin
+http://api.353505.xyz:80/live/123/123/2948.ts
+#EXTINF:-1 group-title="Kurdish TV",Dengi Quran
+http://api.353505.xyz:80/live/123/123/213.ts
+#EXTINF:-1 group-title="Kurdish TV",SHAR Family
+http://api.353505.xyz:80/live/123/123/2949.ts
+#EXTINF:-1 group-title="Kurdish TV",Zarok Kids
+http://api.353505.xyz:80/live/123/123/2950.ts
+#EXTINF:-1 group-title="Kurdish TV",Kidco
+http://api.353505.xyz:80/live/123/123/2951.ts
+#EXTINF:-1 group-title="Kurdish TV",Biner TV Zaxo
+http://api.353505.xyz:80/live/123/123/2952.ts
+#EXTINF:-1 group-title="Kurdish TV",infinity TV
+http://api.353505.xyz:80/live/123/123/2953.ts
+#EXTINF:-1 group-title="Kurdish TV",ROJAVA TV
+http://api.353505.xyz:80/live/123/123/2955.ts
+#EXTINF:-1 group-title="Kurdish TV",MMN SHOW
+http://api.353505.xyz:80/live/123/123/2956.ts
+#EXTINF:-1 group-title="Kurdish TV",MMN NEWS
+http://api.353505.xyz:80/live/123/123/2957.ts
+#EXTINF:-1 group-title="Kurdish TV",MMN Drama
+http://api.353505.xyz:80/live/123/123/2958.ts
+#EXTINF:-1 group-title="Kurdish TV",MMN Action
+http://api.353505.xyz:80/live/123/123/2959.ts
+#EXTINF:-1 group-title="Kurdish TV",MMN Movies
+http://api.353505.xyz:80/live/123/123/2960.ts
+#EXTINF:-1 group-title="Kurdish TV",MMN Quran
+http://api.353505.xyz:80/live/123/123/2961.ts
+#EXTINF:-1 group-title="Kurdish TV",MMN Documentary
+http://api.353505.xyz:80/live/123/123/2962.ts
+#EXTINF:-1 group-title="Kurdish TV",Jin TV
+http://api.353505.xyz:80/live/123/123/2968.ts
+#EXTINF:-1 group-title="Kurdish TV",RED TV
+http://api.353505.xyz:80/live/123/123/2969.ts
+#EXTINF:-1 group-title="Kurdish TV",SPI HD
+http://api.353505.xyz:80/live/123/123/2970.ts
+#EXTINF:-1 group-title="Kurdish TV",Gewher Sport
+http://api.353505.xyz:80/live/123/123/2971.ts
+#EXTINF:-1 group-title="Kurdish TV",Gewher Kids
+http://api.353505.xyz:80/live/123/123/2972.ts
+#EXTINF:-1 group-title="Kurdish TV",NUC TV
+http://api.353505.xyz:80/live/123/123/2973.ts
+#EXTINF:-1 group-title="Kurdish TV",Niroj
+http://api.353505.xyz:80/live/123/123/2974.ts
+#EXTINF:-1 group-title="Kurdish TV",Gewher Family
+http://api.353505.xyz:80/live/123/123/2975.ts
+#EXTINF:-1 group-title="Kurdish TV",SOZ Movies
+http://api.353505.xyz:80/live/123/123/2976.ts
+#EXTINF:-1 group-title="Kurdish TV",Ashti Quran
+http://api.353505.xyz:80/live/123/123/2978.ts
+#EXTINF:-1 group-title="Kurdish TV",Ashti family
+http://api.353505.xyz:80/live/123/123/2979.ts
+#EXTINF:-1 group-title="Kurdish TV",TV Sunnat
+http://api.353505.xyz:80/live/123/123/3009.ts
+#EXTINF:-1 group-title="Kurdish TV",ONE KIDS
+http://api.353505.xyz:80/live/123/123/3043.ts
+#EXTINF:-1 group-title="Kurdish TV",PBS Kids
+http://api.353505.xyz:80/live/123/123/3047.ts
+#EXTINF:-1 group-title="Kurdish TV",Maraya Kids
+http://api.353505.xyz:80/live/123/123/3048.ts
+#EXTINF:-1 group-title="Kurdish TV",Roya Kids
+http://api.353505.xyz:80/live/123/123/3049.ts
+#EXTINF:-1 group-title="Kurdish TV",Super Kids
+http://api.353505.xyz:80/live/123/123/3050.ts
