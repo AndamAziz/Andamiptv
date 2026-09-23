@@ -1,36 +1,36 @@
-M3U Cleaner report - 2026-09-22 01:56:54
+M3U Cleaner report - 2026-09-23 01:52:54
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10171
+Total channels kept:  10014
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
-  Kurdish Channels: 310
-  Sports: 490
-  11. Movies - فیلم: 518
+  Kurdish Channels: 280
+  Sports: 480
+  11. Movies - فیلم: 504
   12. Series & Drama - زنجیرە و دراما: 253
-  18. Documentary - دۆکیومێنتاری: 246
-  13. News - هەواڵ: 1072
-  15. Entertainment - سەرگەرمی: 574
-  16. Music - مۆسیقا: 748
-  17. Kids & Family - منداڵان و خێزان: 337
-  19. Religious - ئایینی: 597
-  20. Comedy - کۆمیدی: 95
+  18. Documentary - دۆکیومێنتاری: 241
+  13. News - هەواڵ: 1071
+  15. Entertainment - سەرگەرمی: 571
+  16. Music - مۆسیقا: 745
+  17. Kids & Family - منداڵان و خێزان: 329
+  19. Religious - ئایینی: 596
+  20. Comedy - کۆمیدی: 94
   21. Crime & Mystery - تاوان و نهێنی: 141
   22. Reality & Game Shows - ڕیالیتی و یاری: 131
   23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک: 58
-  24. Classic & Western - کلاسیک و وێستەرن: 100
-  25. Lifestyle & Travel - شێوازی ژیان و گەشتوگوزار: 280
-  26. Culture - کەلتوور: 115
-  27. Education - پەروەردە: 119
-  28. Business - بازرگانی: 53
-  29. Shopping - کڕین: 70
+  24. Classic & Western - کلاسیک و وێستەرن: 99
+  25. Lifestyle & Travel - شێوازی ژیان و گەشتوگوزار: 279
+  26. Culture - کەلتوور: 113
+  27. Education - پەروەردە: 118
+  28. Business - بازرگانی: 52
+  29. Shopping - کڕین: 69
   30. Weather - کەشوهەوا: 10
-  31. Legislative & Public - یاسادانان و گشتی: 154
+  31. Legislative & Public - یاسادانان و گشتی: 151
   32. Anime & Gaming - ئەنیمە و یاری: 10
   33. Local Channels - کەناڵە ناوخۆییەکان: 15
   34. Smart TV Channels - کەناڵی سمارت تیڤی: 534
-  35. General - گشتی: 1359
-  36. Uncategorized - نەپۆلێنکراو: 1782
+  35. General - گشتی: 1349
+  36. Uncategorized - نەپۆلێنکراو: 1721
