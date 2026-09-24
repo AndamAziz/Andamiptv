@@ -181,220 +181,14 @@ https://streaming.televizor-24-tochka.ru/live/29.m3u8
 http://api.353505.xyz:80/live/123/123/528.ts
 #EXTINF:-1 group-title="Kurdish Channels",KU | RUDAW TV
 https://live.rudaw.net/hls/rudaw-tv/master.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/9QWs2ms.png",KU | KURDISTAN 24 TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324572.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | NRT TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/818054.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | NRT TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/818053.ts
 #EXTINF:-1 group-title="Kurdish Channels",KU | EURO KURD TV
 http://baskhd.ddns.net:40/live/Eurokurd/index.m3u8
 #EXTINF:-1 group-title="Kurdish Channels",KU | KURD7 TV
 http://avrstream.com:1935/live/Kurd7HD/playlist.m3u8
-#EXTINF:-1 group-title="Kurdish Channels",KU | KURD CHANNEL TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/995918.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | KURDMAX TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324575.ts
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/XTmyGmL.png",KU | KURDMAX SHOW TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324577.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | KURDCINEMA ACTION 1 TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859074.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | KURDCIMENA KIDS1 TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859053.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | KURDCINEMA COMEDY TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859045.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | NRT3 TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324608.ts
-#EXTINF:-1 group-title="Kurdish Channels",KU | AVA SPORT TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858987.ts
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/otnIdEu.png",KU | KURDMAX MUSIC TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858993.ts
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://gateway.esite-lab.com/file-storage/api/v1/public/uploads/2025/3/8/7a8a2548d8e5850e87066d2e573796189.png",KU | IRAQIA KURDISH
 https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ FAMILY RAPARIN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667682&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ 4 KURD TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667723&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ZED
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667684&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ZED+
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667685&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ NIGA MOVIES
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667775&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ NIGA FAMILY
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667686&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ NIGA KIDS
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667745&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ RENG SPORT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667739&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ RENG SPORT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667728&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ RENG FAMILY
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667687&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ RENG DOCUMENTARY
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667718&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ RENG MUSIC
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667722&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ NEWLINE 1
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667688&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ NEWLINE 2
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667689&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASTERA MOVIES
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667773&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASTERA SHOW
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667774&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASTERA FAMILY
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667690&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASTERA DOCUMENTARY
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667716&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASTERA CULTURE
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667717&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASTERA BABY
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667743&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ RASAN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667691&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BMC
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667692&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ KHAK
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667693&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DASINYA SPORT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667735&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ AFARIN BAXCHA
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667742&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ AFARIN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667741&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ALA TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667795&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASMAN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667772&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASO Sport
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667733&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ASO SPORT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667730&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ATV✦
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667788&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ AVA Sport
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667734&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ AZADI
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667797&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BABOLLY
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667798&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BARIN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667703&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BARIN MOVIES
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667785&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BARIN QURAN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667783&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BASK+
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667754&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BASK
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667753&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BNAR
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667711&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ BNAR MOVIES
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667782&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ CIHAN TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667799&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DANGI QURAN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667705&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DERIN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667715&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DERWAZA
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667805&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DERWAZA MUSIC
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667806&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DIMEN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667808&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DUHOK SPORT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667695&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ DUHOK SPORT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667696&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ ESTA
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667700&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ EURO KURD TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667704&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD DVB-T┃ FAMILY BOX INFO
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667677&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ RUDAW
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666437&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ K24
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666438&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/UAbSwYA.png",┃KURD-SAT┃ CHANNEL 8
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666439&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ NRT 1
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666440&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ NRT 2
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666441&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURDSAT TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666442&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURDSAT NEWS
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666443&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURDISTAN TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666444&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ GALI KURDISTAN TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666445&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KIRKUK TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666446&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ ZAGROS
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666448&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ PAYAM TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666449&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ SPEDA
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666450&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ AMOZHGARY TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666452&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ BANGAWAZ TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666453&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ NRT 4
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666454&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURDMAX SORANI
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666455&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURDMAX KURMANJI
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666456&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURDMAX SHOW KURMANJI
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666458&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURDMAX SHOW SORANI
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666457&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ AVA
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666436&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ NRT 3 KIDS
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666459&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ ZAROK TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666460&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ TRT KURDI
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666461&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ IRAQIA KURDISH TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666462&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ SAHAR KURDI TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666463&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ MED MUSIC TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666464&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ WAAR TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666465&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ STERK TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666467&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ ARYEN TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666468&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ RONAHI TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666469&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ CIRA TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666470&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ ROJAVA
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666471&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ JIN
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666472&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/F3XRwkt.png",┃KURD-SAT┃ NEU TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666473&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KURD CHANNEL
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666474&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ KOMAL
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666451&extension=ts
-#EXTINF:-1 group-title="Kurdish Channels",┃KURD-SAT┃ ROJHELAT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666466&extension=ts
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/9QWs2ms.png",KU | KURDISTAN 24 TV
 https://hlspackager.akamaized.net/live/DB/K24/HLS/K24-avc1_2500000=10002.m3u8
-#EXTINF:-1 group-title="Kurdish Channels",KU | KURDMAX TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=638748&extension=m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/OkPqFNY.png",ZNAR KIDS
 http://api.353505.xyz:80/live/123/123/539.ts
 #EXTINF:-1 group-title="Kurdish Channels",Rudaw Radio
@@ -1513,12 +1307,6 @@ https://iptv-link.short.gy/Gewher_Sport.m3u8
 http://mmn.mypsx.net:1935/live/mmnhdsport/playlist.m3u8
 #EXTINF:-1 group-title="Sports",KU | ZAYTOUN SPORT TV
 https://barham.short.gy/zvgsport.m3u8
-#EXTINF:-1 group-title="Sports",KU | DUHOK SPORT TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987920.ts
-#EXTINF:-1 group-title="Sports" tvg-logo="https://i.imgur.com/OlED6mf.png",KU | 4SPORT TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858986.ts
-#EXTINF:-1 group-title="Sports",KU | DASINYA SPORT
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667803&extension=ts
 #EXTINF:-1 group-title="11. Movies - فیلم" channel-id="USBD700011RE" tvg-id="USBD700011RE" tvg-chno="1260" tvg-name="Gravitas Movies" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700011RE_20241203T004808SQUARE.png",Gravitas Movies
 https://jmp2.uk/stvp-USBD700011RE
 #EXTINF:-1 group-title="11. Movies - فیلم" channel-id="USAJ3000007MT" tvg-id="USAJ3000007MT" tvg-chno="1285" tvg-name="Maverick Black Cinema" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3000007MT_20251028T010959SQUARE.png",Maverick Black Cinema
@@ -1723,16 +1511,12 @@ https://amg26277-amg26277c12-vidaa-gb-11245.playouts.now.amagi.tv/ts-eu-w1-n2/pl
 https://amg00276-amg00276c28-vidaa-us-11223.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00276-aetelevisionnetworksfast-lifetimemovieslovedrama-vidaaus/playlist.m3u8?ads.dnt=REPLACEME&ads.app_bundle=REPLACEME&ads.brand_name=REPLACEME&ads.ifa=REPLACEME&ads.ifa_type=REPLACEME&ads.vauth=REPLACEME&ads.device_type=REPLACEME&ads.device_country=REPLACEME&ads.device_language=REPLACEME&ads.device_osv=REPLACEME&ads.app_name=REPLACEME&ads.app_store_url=REPLACEME&ads.us_privacy=REPLACEME&ads.gdpr=REPLACEME&ads.gdpr_consent=REPLACEME&ads.w=REPLACEME&ads.h=REPLACEME&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10692
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-logo="https://i.imgur.com/0sfk3yp.png",MovieSphere by Lionsgate
 https://di4chcy8fb6ab.cloudfront.net/11002/88817803/hls/playlist.m3u8?ads.xumo_channelId=88817803&ads.csid=hisensechannels_us_moviesphere_ssai&ads.caid=MoviesphereLionsgate&ads.asnw=&ads._fw_content_language=en&ads._fw_content_category=IAB1-5&ads._fw_content_genre=movies&ads._fw_coppa=0&ads.xumo_contentId=3955&ads.xumo_contentName=LionsgateMovieSphere&ads.xumo_providerId=3955&ads.xumo_providerName=LionsgateMovieSphere&ads._fw_content_rating=TV-14&ads.xumo_streamId=88817803&ads._fw_h_x_country=%7BADS.DEVICE_COUNTRY%7D&ads.platform=%5BPLATFORM%5D&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_player_width=1920&ads._fw_player_height=1080&ads._fw_is_lat=%5BIS_LAT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads.gpp=%5BGPP%5D&ads.gpp_sid=%5BGPP_SID%5D&ads._fw_app_bundle=%5BAPP_BUNDLE%5D&ads.appVersion=%5BAPP_VERSION%5D&ads.appName=%5BAPP_NAME%5D&ads.vauth=%5BVAUTH%5D&ads.client_section=xumo_moviesphere_by_lionsgate&ads.vidaa_providername=xumo&ads._fw_app_store_url=%5BAPP_STORE_URL%5D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9166
-#EXTINF:-1 group-title="11. Movies - فیلم" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/p_pktflm.png",Pocket Films
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,pocketfilmsvidaa2.m3u8?yo.up=https://vidaa-pktflm.cdn.runn.tv/runntv/stream/p_pktflm/manifest/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1wa3RmbG0uY2RuLnJ1bm4udHYvcnVubnR2L3N0cmVhbS9wX3BrdGZsbS9wbGF5bGlzdC5tM3U4&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="11. Movies - فیلم" ,Sony One | Film divertenti
 https://ssai.aniview.com/api/v1/mpd/stream.mpd?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68f926ff072e210cb4090419&AV_CONTENT_LANGUAGE=it&AV_CONTENT_GENRE=Comedy&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-MA&AV_CLIENT_SECTION=Culver_Digital_Distribution_Inc_824-it-sonyonefilmdivertenti&content_channel_name=824-it-sonyonefilmdivertenti&content_livestream=1&AV_CONTENT_PROVIDER=Culver_Digital_Distribution_Inc&ads.vidaa_ads_param=1199898630
 #EXTINF:-1 group-title="11. Movies - فیلم" ,Sony One | Film d’azione
 https://ssai.aniview.com/api/v1/mpd/stream.mpd?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68f926b363e6036c0001e28a&AV_CONTENT_LANGUAGE=it&AV_CONTENT_GENRE=Action&AV_CONTENT_CAT=IAB1-1&AV_CONTENT_RATING=TV-MA&AV_CLIENT_SECTION=Culver_Digital_Distribution_Inc_823-it-sonyonefilmdazione&content_channel_name=823-it-sonyonefilmdazione&content_livestream=1&AV_CONTENT_PROVIDER=Culver_Digital_Distribution_Inc&ads.vidaa_ads_param=1199898630
 #EXTINF:-1 group-title="11. Movies - فیلم" ,Supercinema - San Valentino
 https://amg02512-amg02512c3-vidaa-gb-7413.playouts.now.amagi.tv/playlist/amg02512-nexodigital-ibellissimi-vidaagb/playlist.m3u8?ads.dnt=REPLACEME&ads.did=REPLACEME&ads.app_bundle=REPLACEME&ads.brand_name=REPLACEME&ads.ifa=REPLACEME&ads.ifa_type=REPLACEME&ads.vauth=REPLACEME&ads.device_type=REPLACEME&ads.device_country=REPLACEME&ads.device_language=REPLACEME&ads.device_osv=REPLACEME&ads.app_name=REPLACEME&ads.app_store_url=REPLACEME&ads.us_privacy=REPLACEME&ads.gdpr=REPLACEME&ads.gdpr_consent=REPLACEME&ads.w=REPLACEME&ads.h=REPLACEME&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=8351
-#EXTINF:-1 group-title="11. Movies - فیلم" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/p_supjio.png",Superfine Films
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,superfinehindividaa.m3u8?yo.up=https%3A//vidaa-supflm.cdn.runn.tv/runntv/stream/p_supjio/manifest/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1zdXBmbG0uY2RuLnJ1bm4udHYvcnVubnR2L3N0cmVhbS9wX3N1cGppby9wbGF5bGlzdC5tM3U4&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="11. Movies - فیلم" ,Top Filme
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6931817486bc56db460e0b44&AV_CONTENT_LANGUAGE=de&AV_CONTENT_GENRE=Drama&AV_CONTENT_CAT=IAB1-5&AV_CONTENT_RATING=6&AV_CLIENT_SECTION=Palatin%20Media_GmbH_Top%20Filme&content_channel_name=Top%20Filme&content_livestream=1&AV_CONTENT_PROVIDER=Palatin%20Media&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10352
 #EXTINF:-1 group-title="11. Movies - فیلم" tvg-logo="https://i.imgur.com/5KRsqeF.png",wedo movies
@@ -2791,8 +2575,6 @@ https://amg00658-amg00658c99-lg-us-7506.playouts.now.amagi.tv/playlist/amg00658-
 https://amg00793-amg00793c42-vidaa-gb-7814.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramafrance-vidaagb/playlist.m3u8?ads.dnt=REPLACEME&ads.app_bundle=REPLACEME&ads.brand_name=REPLACEME&ads.ifa=REPLACEME&ads.ifa_type=REPLACEME&ads.vauth=REPLACEME&ads.device_type=REPLACEME&ads.device_country=REPLACEME&ads.device_language=REPLACEME&ads.device_osv=REPLACEME&ads.app_name=REPLACEME&ads.app_store_url=REPLACEME&ads.us_privacy=REPLACEME&ads.gdpr=REPLACEME&ads.gdpr_consent=REPLACEME&ads.w=REPLACEME&ads.h=REPLACEME&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=8482
 #EXTINF:-1 group-title="12. Series & Drama - زنجیرە و دراما" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/bc/Be_S%C3%A9ries_logo.png/960px-Be_S%C3%A9ries_logo.png",BBC Series
 https://amg00793-amg00793c41-vidaa-gb-7950.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramaitaly-vidaagb/playlist.m3u8?ads.dnt=REPLACEME&ads.app_bundle=REPLACEME&ads.brand_name=REPLACEME&ads.ifa=REPLACEME&ads.ifa_type=REPLACEME&ads.vauth=REPLACEME&ads.device_type=REPLACEME&ads.device_country=REPLACEME&ads.device_language=REPLACEME&ads.device_osv=REPLACEME&ads.app_name=REPLACEME&ads.app_store_url=REPLACEME&ads.us_privacy=REPLACEME&ads.gdpr=REPLACEME&ads.gdpr_consent=REPLACEME&ads.w=REPLACEME&ads.h=REPLACEME&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=8498
-#EXTINF:-1 group-title="12. Series & Drama - زنجیرە و دراما" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png",Mr Bean
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,mrbeanvidaa.m3u8?yo.up=https%3A//vidaa-mrbeanus.cdn.runn.tv/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1tcmJlYW51cy5jZG4ucnVubi50di9tYXN0ZXIubTN1OA==&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="12. Series & Drama - زنجیرە و دراما" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png",Mr.Bean Animated
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d10e09bca2aa42305e098&AV_CONTENT_LANGUAGE=es&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=AA&AV_CLIENT_SECTION=BanijayUK_Mr.BeanAnimated&content_channel_name=Mr.BeanAnimated&content_livestream=1&AV_CONTENT_PROVIDER=Banijay%20UK&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=8984
 #EXTINF:-1 group-title="12. Series & Drama - زنجیرە و دراما" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png",Mr.Bean Animated
@@ -3025,8 +2807,6 @@ https://cityeden.catcast.tv/content/38354/index.m3u8
 https://cityeden.catcast.tv/content/46209/index.m3u8
 #EXTINF:-1 tvg-id="SmotrimChestnyyDetektiv.ru@SD" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/svg/444/241/8.svg" group-title="12. Series & Drama - زنجیرە و دراما",Смотрим Честный Детектив
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
-#EXTINF:-1 group-title="12. Series & Drama - زنجیرە و دراما",KU | SPEDA DRAMA TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858950.ts
 #EXTINF:-1 group-title="12. Series & Drama - زنجیرە و دراما",KU | NETFLIX DRAMA 1
 http://vip2.sharkhost.xyz:80/live/9143315182/7352465335/487994.m3u8
 #EXTINF:-1 group-title="12. Series & Drama - زنجیرە و دراما",KU | NETFLIX DRAMA 2
@@ -3475,8 +3255,6 @@ https://jmp2.uk/plu-62cd971cec90c20007081050.m3u8
 https://ptravelhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PolsatViasatHistory.pl@SD" tvg-logo="https://i.imgur.com/X16UGUf.png" group-title="18. Documentary - دۆکیومێنتاری",Polsat Viasat History
 http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8
-#EXTINF:-1 tvg-id="Reelz.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/960px-Reelz.svg.png" group-title="18. Documentary - دۆکیومێنتاری",Reelz
-http://23.237.104.106:8080/USA_REELZ/index.m3u8
 #EXTINF:-1 tvg-id="RLPROTV.cd@SD" tvg-logo="https://i.imgur.com/PIBtCEN.jpeg" group-title="18. Documentary - دۆکیومێنتاری",RL PRO TV
 https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru@English" tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="18. Documentary - دۆکیومێنتاری",RT Documentary English
@@ -8283,12 +8061,6 @@ https://cityeden.catcast.tv/content/47400/index.m3u8
 https://cityeden.catcast.tv/content/46421/index.m3u8
 #EXTINF:-1 tvg-id="StranaFM.ru@SD" tvg-logo="https://i.imgur.com/WsPlKJJ.png" group-title="16. Music - مۆسیقا",Страна ФМ
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
-#EXTINF:-1 group-title="16. Music - مۆسیقا",KU | MED MUSIC TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324595.ts
-#EXTINF:-1 group-title="16. Music - مۆسیقا",KU | DASINYA MUSIC
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667802&extension=ts
-#EXTINF:-1 group-title="16. Music - مۆسیقا",KU | DASINYA MUSIC TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667802&extension=m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" channel-id="USBD3300019OU" tvg-id="USBD3300019OU" tvg-chno="3669" tvg-name="All Babies Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300019OU_20250121T101053SQUARE.png",All Babies Channel
 https://jmp2.uk/stvp-USBD3300019OU
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" channel-id="USBD3300016AK" tvg-id="USBD3300016AK" tvg-chno="3663" tvg-name="Rev and Roll" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300016AK_20250121T101111SQUARE.png",Rev and Roll
@@ -8349,8 +8121,6 @@ http://138.121.15.230:9002/BABY-TV/index.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="ChristianYouthChannelCYC.us@SD" tvg-logo="https://i.imgur.com/61eV77C.png",Christian Youth Channel
 http://media3.smc-host.com:1935/cycnow.com/smil:cyc.smil/playlist.m3u8
-#EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="DisneyJunior.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Junior
-http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="DoveChannel.us@SD" tvg-logo="",Dove Channel
 https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان" tvg-id="FilmRiseAnime.us@SD" tvg-logo="https://i.imgur.com/3wqeGXM.png",FilmRise Anime
@@ -8833,8 +8603,6 @@ http://185.227.34.179:8080/jimjam/index.m3u8
 https://ncdn.telewebion.ir/pooya/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PooyaTVPlus.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png" group-title="17. Kids & Family - منداڵان و خێزان",Pooya TV Plus
 https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RUTVKids.ru@SD" tvg-logo="https://rutvkids.ru/brand/logo-kids.png" group-title="17. Kids & Family - منداڵان و خێزان",RU.TV Kids
-https://rutvkids.ru/live/efir/index.m3u8
 #EXTINF:-1 tvg-id="Ryzhiy.ru@SD" tvg-logo="https://i.imgur.com/acrU2IE.png" group-title="17. Kids & Family - منداڵان و خێزان",Ryzhiy
 https://stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="STomSings.us@HD" tvg-logo="https://i.postimg.cc/5tfB3Ktv/In-Shot-20260818-133542271.png" group-title="17. Kids & Family - منداڵان و خێزان",S Tom Sings
@@ -8939,14 +8707,10 @@ http://baskhd.ddns.net:40/live/BarinfamilyHD/mono.m3u8
 https://cdn.karwan.tv/bnar-family/index.m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان",KU | MARAYA KIDS TV
 https://live.kwikmotion.com/smckidslive/tjkids1.smil/smckidspublish/tjkids1_source/chunks.m3u8
-#EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان",KU | DASINYA KIDS
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667801&extension=ts
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان",KU | NETFLIX KIDS
 http://vip2.sharkhost.xyz:80/live/9143315182/7352465335/487967.m3u8
 #EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان",KU | GEWHER KIDS TV
 https://iptv-link.short.gy/Gewher_Kids.m3u8
-#EXTINF:-1 group-title="17. Kids & Family - منداڵان و خێزان",KU | DASINYA KIDS TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667801&extension=m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" channel-id="d93912b4b21158fd95af2ceb8979c586" tvg-id="d93912b4b21158fd95af2ceb8979c586" tvg-chno="276" tvg-name="Dove" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d93912b4b21158fd95af2ceb8979c586/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738599967209_DoveRefresh_RokuLinear_260X147.png",Dove
 https://jmp2.uk/rok-d93912b4b21158fd95af2ceb8979c586.m3u8
 #EXTINF:-1 group-title="19. Religious - ئایینی" tvg-logo="https://images.vizio.com/v4/btv/1/1646848044/1/267/150/0.jpg",Trinity Broadcasting Network
@@ -10919,8 +10683,6 @@ https://live-manifest.production-public.tubi.io/live/8fa6f1c5-c602-426c-999d-865
 https://live-manifest.production-public.tubi.io/live/ab6d635a-6d89-4228-93a6-c3a98980450c/playlist.m3u8
 #EXTINF:-1 group-title="23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک" ,Horror Club
 https://stream.ads.ottera.tv/playlist.m3u8?vauth=%5BADS.VAUTH%5D&did=%5BADS.IFA%5D&ifa_type=dpid&device_type=%5BADS.DEVICE_TYPE%5D&brand_name=%5BADS.BRAND_NAME%5D&device_country=%5BADS.DEVICE_COUNTRY%5D&device_osv=%5BADS.DEVICE_OSV%5D&device_language=%5BADS.DEVICE_LANGUAGE%5D&dnt=%5BADS.DNT%5D&gdpr=%5BADS.GDPR%5D&consent=%5BADS.GDPR_CONSENT%5D&us_privacy=%5BADS.US_PRIVACY%5D&width=%5BADS.W%5D&height=%5BADS.H%5D&app_bundle=%5BADS.APP_BUNDLE%5D&app_name=%5BADS.APP_NAME%5D&app_store_url=%5BADS.APP_STORE_URL%5D&network_id=15875&avod=1&coppa=0&is_lat=0&td=6&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&custom_12=0&custom_15=en&custom_16=EN&custom_17=it&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ads.vidaa_ads_param=1188363858&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7995
-#EXTINF:-1 group-title="23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک" ,Runn Thrillers
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,runnthrillervidaa.m3u8?yo.up=https%3A//vidaa-runthr.cdn.runn.tv/runntv/stream/p_runthr/manifest/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1ydW50aHIuY2RuLnJ1bm4udHYvcnVubnR2L3N0cmVhbS9wX3J1bnRoci9wbGF5bGlzdC5tM3U4&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک" ,Sci-fi - Rakuten TV
 https://sci-fi-rakuten-tv-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6241/master.m3u8?ads.market=uk&ads.platform=hisense_vidaatv&ads.pod_type=playerpage_midroll&ads.rtv_channel_name=sci-fi-rakuten-tv_uk&ads.rtv_content_id=6241&ads.rtv_language=eng&channel_id=6241&disable_subtitles=true&publishing_platform_id=4&ads.vidaa_ads_param=1191940658&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7570
 #EXTINF:-1 group-title="23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک" tvg-logo="https://i.imgur.com/RVS8LDj.png",Sony One | Thriller TV
@@ -12963,18 +12725,6 @@ https://di4chcy8fb6ab.cloudfront.net/11002/88817993/hls/playlist.m3u8?ads.xumo_c
 https://fcb95633.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VmlkYWEtZ2JfNjBEYXlzSW5JTlRMX0hMUw/playlist.m3u8?ads.wurl_channel=2077&ads.wurl_name=60DaysInINTL&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10586
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,80 Anni - 2a Guerra Mondiale
 https://8f92dff9c2ef4f9fa309ee99b74cd61e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa-it_80Anni2aGuerraMondiale/playlist.m3u8?ads.wurl_channel=1993&ads.wurl_name=80Anni2aGuerraMondiale&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.w=&ads.h=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9312
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/qubgOi5.png",9X Jalwa
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,9xjalwavidaa2.m3u8?yo.up=https%3A//vidaa-9x.cdn.runn.tv/9X_Jalwa/&yo.eb.fb=aHR0cHM6Ly92aWRhYS05eC5jZG4ucnVubi50di85WF9KYWx3YS9tYXN0ZXIubTN1OA==&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://dtil.tmsimg.com/assets/s77447_ld_h15_aa.png?lock=720x540",9XM
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,9xmvidaa2.m3u8?yo.up=https%3A//vidaa-9x.cdn.runn.tv/9XM/&yo.eb.fb=aHR0cHM6Ly92aWRhYS05eC5jZG4ucnVubi50di85WE0vbWFzdGVyLm0zdTg=&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Aap ki Adalat
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,aapkiadaalatvidaa2.m3u8?yo.up=https%3A//vidaa-indiatv.cdn.runn.tv/v1/vglive-sk-912213/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1pbmRpYXR2LmNkbi5ydW5uLnR2L3YxL3ZnbGl2ZS1zay05MTIyMTMvbWFpbi5tM3U4&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://dtil.tmsimg.com/assets/s142518_ld_h15_aa.png?lock=720x540",ABP Ananda
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,abpbanglavidaa.m3u8?yo.up=https%3A//vidaa-abpnews.cdn.runn.tv/2042873/ananda/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1hYnBuZXdzLmNkbi5ydW5uLnR2LzIwNDI4NzMvYW5hbmRhL21hc3Rlci5tM3U4&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://dtil.tmsimg.com/assets/s142519_ld_h15_aa.png?lock=720x540",ABP Asmita
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,abpasmitavidaa2.m3u8?yo.up=https%3A//vidaa-abpnews.cdn.runn.tv/2042876/asmita/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1hYnBuZXdzLmNkbi5ydW5uLnR2LzIwNDI4NzYvYXNtaXRhL21hc3Rlci5tM3U4&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://dtil.tmsimg.com/assets/s142521_ld_h15_aa.png?lock=720x540",ABP Majha
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,abpmajhavidaa2.m3u8?yo.up=https%3A//vidaa-abpnews.cdn.runn.tv/2042872/majha/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1hYnBuZXdzLmNkbi5ydW5uLnR2LzIwNDI4NzIvbWFqaGEvbWFzdGVyLm0zdTg=&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/V6Kaqha.png",ACC Digital Network
 https://di4chcy8fb6ab.cloudfront.net/11002/88817869/hls/playlist.m3u8?ads.xumo_channelId=88817869&ads.csid=hisensechannels_us_accdigitalnetwork_ssai&ads.caid=ACCDigitalNetwork&ads.asnw=&ads._fw_content_language=en&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_coppa=0&ads.xumo_contentId=&ads.xumo_contentName=&ads.xumo_providerId=0&ads.xumo_providerName=0&ads._fw_content_rating=TV-14&ads.xumo_streamId=88817869&ads._fw_h_x_country=US&ads.platform=%5BPLATFORM%5D&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_player_width=1920&ads._fw_player_height=1080&ads._fw_is_lat=%5BIS_LAT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads.gpp=%5BGPP%5D&ads.gpp_sid=%5BGPP_SID%5D&ads._fw_app_bundle=%5BAPP_BUNDLE%5D&ads.appVersion=%5BAPP_VERSION%5D&ads.appName=%5BAPP_NAME%5D&ads.vauth=%5BVAUTH%5D&ads._fw_app_store_url=%5BAPP_STORE_URL%5D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9582
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,According to Jim
@@ -12999,8 +12749,6 @@ https://cef2ae680c7148dd822546457b99609b.mediatailor.us-east-1.amazonaws.com/v1/
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6948095a0da03d5baa0a5415&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Movies&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra%20Nova%20Distribution%20Limited_Afriwood%20Blockbuster&content_channel_name=Afriwood%20Blockbuster&content_livestream=1&AV_CONTENT_PROVIDER=Terra%20Nova%20Distribution%20Limited&ads.vidaa_ads_param=1190602996
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Al Loba
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6893257d610d02f6720df76f&AV_CONTENT_LANGUAGE=ara&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=MBC_Al_Loba&content_channel_name=Al%20Loba&content_livestream=1&AV_CONTENT_PROVIDER=MBC%20FZ-LLC&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9570
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/alrght.png",Alright
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,alrightvidaa.m3u8?yo.up=https%3A//vidaa-ruskmedia.cdn.runn.tv/ruskmedia/stream/alrght/manifest/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1ydXNrbWVkaWEuY2RuLnJ1bm4udHYvcnVza21lZGlhL3N0cmVhbS9hbHJnaHQvcGxheWxpc3QubTN1OA==&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Alta Tensione
 https://d0e2648614664a3992da675f06c04479.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa-it_AltaTensione/playlist.m3u8?ads.wurl_channel=1145&ads.wurl_name=AltaTensione&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=8671
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Ancient Aliens
@@ -13119,10 +12867,6 @@ https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W
 https://7925bcda.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VmlkYWEtdXNfRGVhbFpPbmVfSExT/playlist.m3u8?ads.wurl_channel=1099&ads.wurl_name=DealZOne&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10588
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Desimpedidos
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68aaf340cb9c5f033202b3a8&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_Desimpedidos&content_channel_name=Desimpedidos&content_livestream=1&AV_CONTENT_PROVIDER=Off%20Grif&ads.vidaa_ads_param=1188363858&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9633
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/0PCeppS.jpeg",Dice Media
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,dicemediavidaa.m3u8?yo.up=https%3A//vidaa-dicemedia.cdn.runn.tv/pocketaces/stream/dicmed/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1kaWNlbWVkaWEuY2RuLnJ1bm4udHYvcG9ja2V0YWNlcy9zdHJlYW0vZGljbWVkL3BsYXlsaXN0Lm0zdTg=&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DivyaBhajan.png",Divya Bhajan
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,divyabhajanvidaa2.m3u8?yo.up=https%3A//vg-pitaaratvlive.akamaized.net&yo.eb.fb=aHR0cHM6Ly9qYW55YS1waXRhYXJhbGl2ZS5ha2FtYWl6ZWQubmV0L3B0bnItUlVOTlRWL3RpdGxlLURpdnlhX0JoYWphbl9OT05TU0FJL3YxL3ZnbGl2ZS1zay05ODc4MDUvcGxheWxpc3QubTN1OA==&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/VNirxxn.png",docstory
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c11ed423527dc14d0b8a0b&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Docstory&content_channel_name=Docstory&content_livestream=1&AV_CONTENT_PROVIDER=FAST%20Media%20GmbH&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9722
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Docsville
@@ -13201,8 +12945,6 @@ https://evrideo.g-mana.live/media/205bceec-4d9c-408f-b163-5b3c7f8045e6/mainManif
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68ac9cf92c791225d6062609&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Lifestyle&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_sera&content_channel_name=Sera&content_livestream=1&AV_CONTENT_PROVIDER=Off%20Grif&ads.vidaa_ads_param=1188363858&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9668
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/CIYnLWz.png",Fear Factor
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d130ffa3281e77b03d64b&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=GameShow&AV_CONTENT_CAT=IAB17-6&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=BanijayUK_Fear_Factor&content_channel_name=Fear%20Factor&content_livestream=1&AV_CONTENT_PROVIDER=Banijay%20UK&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=8757
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Filter Copy
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,filtercopyvidaa.m3u8?yo.up=https%3A//vidaa-filtercopy.cdn.runn.tv/pocketaces/stream/fltrcopy/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1maWx0ZXJjb3B5LmNkbi5ydW5uLnR2L3BvY2tldGFjZXMvc3RyZWFtL2ZsdHJjb3B5L3BsYXlsaXN0Lm0zdTg=&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,First 48
 https://6d64b5de.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VmlkYWEtdXNfRmlyc3Q0OF9ITFM/playlist.m3u8?ads.wurl_channel=1853&ads.wurl_name=First48&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10589
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,FitDance
@@ -13249,14 +12991,10 @@ https://c11f2708746a4223b5e17ec66f269d0b.mediatailor.us-east-1.amazonaws.com/v1/
 https://di4chcy8fb6ab.cloudfront.net/11002/88817910/hls/master.m3u8?ads.xumo_channelId=88817910&ads.csid=hisensechannels_us_greatamericanadventures_ssai&ads.caid=GreatAmericanAdventures&ads.asnw=&ads._fw_content_language=en&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_coppa=0&ads.xumo_contentId=3752&ads.xumo_contentName=GreatAmericanChannels&ads.xumo_providerId=3752&ads.xumo_providerName=GreatAmericanChannels&ads._fw_content_rating=TV-PG&ads.xumo_streamId=88817910&ads._fw_h_x_country=%7BADS.DEVICE_COUNTRY%7D&ads.platform=%5BPLATFORM%5D&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_player_width=1920&ads._fw_player_height=1080&ads._fw_is_lat=%5BIS_LAT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads.gpp=%5BGPP%5D&ads.gpp_sid=%5BGPP_SID%5D&ads._fw_app_bundle=%5BAPP_BUNDLE%5D&ads.appVersion=%5BAPP_VERSION%5D&ads.appName=%5BAPP_NAME%5D&ads.vauth=%5BVAUTH%5D&ads.client_section=xumo_pure_flix&ads.vidaa_providername=xumo&ads._fw_app_store_url=%5BAPP_STORE_URL%5D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9708
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Great British Menu
 https://7640b93014104d96bfc946ae8810114f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa-gb_GreatBritishMenu/playlist.m3u8?ads.wurl_channel=1231&ads.wurl_name=GreatBritishMenu&ads.coppa=0&ads.vidaa_ads_param=1190406319&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=6215
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/UEg6mJd.jpg",Green Gold TV
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,greengoldvidaa.m3u8?yo.up=https://vidaa-grngld.cdn.runn.tv/greengold/stream/grngld/manifest/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1ncm5nbGQuY2RuLnJ1bm4udHYvZ3JlZW5nb2xkL3N0cmVhbS9ncm5nbGQvcGxheWxpc3QubTN1OA==&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Grjngo - Películas Del Oeste
 https://1db30ae18d0149a992013815191ea6c5.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Vidaa_GrjngoPeliculasDelOeste/playlist.m3u8?ads.wurl_channel=1239&ads.wurl_name=GrjngoPeliculasDelOeste&ads.coppa=0&ads.vidaa_ads_param=1190406319&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=6222
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Grjngo - Películas Del Oeste
 https://a05699e001444125aad693c16d90ab0a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa_GrjngoPeliculasDelOesteES/playlist.m3u8?ads.wurl_channel=1906&ads.wurl_name=GrjngoPeliculasDelOesteES&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.w=&ads.h=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9151
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://media.thegtcnetwork.com/uploads/gtc-pujabin-s.jpg",GTC Punjabi
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,gtcpunjabividaa.m3u8?yo.up=https%3A//gtc.ottlive.co.in/gtcpunjabi/&yo.eb.fb=aHR0cHM6Ly9ndGMub3R0bGl2ZS5jby5pbi9ndGNwdW5qYWJpL2luZGV4Lm0zdTg=&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Harcore Pawn
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d1ebceb3cfa42b8008036&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment%20%C2%A0&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=BanijayUK_hardcore_pawn&content_channel_name=Hardcore%20Pawn%C2%A0&content_livestream=1&AV_CONTENT_PROVIDER=Banijay%20UK&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7961
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/uhEn9SF.png",Haunt TV
@@ -13315,10 +13053,6 @@ https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68cc1b8046daae9bef049de6&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=ADME_CY_LTD_ImaginePlayworldEnglish&content_channel_name=ImaginePlayworldEnglish&content_livestream=1&AV_CONTENT_PROVIDER=ADME%20CY%20LTD&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9964
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Inazuma Eleven Collection
 https://42a0cfe3d3a5470b824c66dd32ff641d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa-it_InazumaElevenGo/playlist.m3u8?ads.wurl_channel=1850&ads.wurl_name=InazumaElevenGo&ads.coppa=0&ads.device_id=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=8191
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/xDVcDOc.png",INDIA TV
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,indiatvvidaa2.m3u8?yo.up=https%3A//vidaa-indiatv.cdn.runn.tv&yo.eb.fb=aHR0cHM6Ly92aWRhYS1pbmRpYXR2LmNkbi5ydW5uLnR2L3YxL3ZnbGl2ZS1zay0yNzQ5MDYvbWFpbi5tM3U4&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,India TV Yoga
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,indiatvyogavidaa2.m3u8?yo.up=https%3A//vidaa-indiatv.cdn.runn.tv/v1/vglive-sk-385006/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1pbmRpYXR2LmNkbi5ydW5uLnR2L3YxL3ZnbGl2ZS1zay0zODUwMDYvbWFpbi5tM3U4&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Intervention
 https://amg26277-amg26277c5-vidaa-au-11233.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg26277-aeusainternational-interventionsubfeedint-vidaaau/playlist.m3u8?ads.dnt=REPLACEME&ads.app_bundle=REPLACEME&ads.brand_name=REPLACEME&ads.ifa=REPLACEME&ads.ifa_type=REPLACEME&ads.vauth=REPLACEME&ads.device_type=REPLACEME&ads.device_country=REPLACEME&ads.device_language=REPLACEME&ads.device_osv=REPLACEME&ads.app_name=REPLACEME&ads.app_store_url=REPLACEME&ads.us_privacy=REPLACEME&ads.gdpr=REPLACEME&ads.gdpr_consent=REPLACEME&ads.w=REPLACEME&ads.h=REPLACEME&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10834
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Intervention
@@ -13451,10 +13185,6 @@ https://negociostv-negociostv-vidaa.amagi.tv/hls/amagi_hls_data_vidaaAAAA-negoci
 https://ads.its-newid.net/api/manifest.m3u8?tp=VIDAA&channel_name=newkfood&channel_id=newid_002&apikey=23209ca0-4375-4db7-4240-995b1653a02c&auth=f65dcb3e-5a33243b-29d6c010-955302b8&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[ADS.IFA]&ads.ifa_type=[ADS.IFA_TYPE]&ads.lat=[LMT]&ads.dnt=[ADS.DNT]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[ADS.GDPR]&ads.gdpr_consent=[ADS.GDPR_CONSENT]&ads.device_country=[ADS.DEVICE_COUNTRY]&ads.app_store_url=[ADS.APP_STORE_URL]&ads.app_bundle=[ADS.APP_BUNDLE]&ads.app_name=[ADS.APP_NAME]&ads.appversion=[ADS.APP_VERSION]&ads.device_type=[ADS.DEVICE_TYPE]&ads.brand_name=[ADS.BRAND_NAME]&ads.device_osv=[ADS.DEVICE_OSV]&ads.targetad=[TARGETAD_ALLOWED]&ads.us_privacy=[ADS.US_PRIVACY]&ads.vauth=[ADS.VAUTH]&ads.device_language=[ADS.DEVICE_LANGUAGE]&ads.w=[ADS.W]&ads.h=[ADS.H]&ads.content_title=[PROGRAM_TITLE]&ads.content_series=[SERIES_TITLE]&ads.content_season=[SEASON_TITLE]&ads.content_episode=[EPISODE_NO]&ads.content_length=[CONTENT_LENGTH]&ads.vidaa_ads_param=1201659876
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/B7ILXMc.png",NEW KPOP
 https://ads.its-newid.net/api/manifest.m3u8?tp=VIDAA&channel_name=newkpop&channel_id=newid_125&apikey=23209ca0-4375-4db7-4240-995b1653a02c&auth=4c8654cd-74816efd-7a753b79-bbe1487e&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[ADS.IFA]&ads.ifa_type=[ADS.IFA_TYPE]&ads.lat=[LMT]&ads.dnt=[ADS.DNT]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[ADS.GDPR]&ads.gdpr_consent=[ADS.GDPR_CONSENT]&ads.device_country=[ADS.DEVICE_COUNTRY]&ads.app_store_url=[ADS.APP_STORE_URL]&ads.app_bundle=[ADS.APP_BUNDLE]&ads.app_name=[ADS.APP_NAME]&ads.appversion=[ADS.APP_VERSION]&ads.device_type=[ADS.DEVICE_TYPE]&ads.brand_name=[ADS.BRAND_NAME]&ads.device_osv=[ADS.DEVICE_OSV]&ads.targetad=[TARGETAD_ALLOWED]&ads.us_privacy=[ADS.US_PRIVACY]&ads.vauth=[ADS.VAUTH]&ads.device_language=[ADS.DEVICE_LANGUAGE]&ads.w=[ADS.W]&ads.h=[ADS.H]&ads.content_title=[PROGRAM_TITLE]&ads.content_series=[SERIES_TITLE]&ads.content_season=[SEASON_TITLE]&ads.content_episode=[EPISODE_NO]&ads.content_length=[CONTENT_LENGTH]&ads.vidaa_ads_param=1201659876
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.ibb.co/x9PsrMy/NH-BOLLYGOLD.png",NH BollyGold
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,nhbollygoldvidaa2.m3u8?yo.up=https%3A//nh-vidaa-blygld.cdn.runn.tv/nhstdz/stream/blygld/manifest/&yo.eb.fb=aHR0cHM6Ly9uaC12aWRhYS1ibHlnbGQuY2RuLnJ1bm4udHYvbmhzdGR6L3N0cmVhbS9ibHlnbGQvcGxheWxpc3QubTN1OA==&ads.vidaa_ads_param=1191723366
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.ibb.co/BKB9mv1K/NH-Bolly-Raga.png",NH BollyRaga
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,nhbollyragavidaa2.m3u8?yo.up=https://nh-vidaa-blyrag.cdn.runn.tv/nhstdz/stream/blyrag/manifest/&yo.eb.fb=aHR0cHM6Ly9uaC12aWRhYS1ibHlyYWcuY2RuLnJ1bm4udHYvbmhzdGR6L3N0cmVhbS9ibHlyYWcvcGxheWxpc3QubTN1OA==&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Ninja Warriors
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6853a474db726471230dd1d4&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=ITV_Studios_Global_Ninja_Warrior&content_channel_name=Ninja%20Warrior&content_livestream=1&AV_CONTENT_PROVIDER=ITV%20Studios%20Global&ads.vidaa_ads_param=1190602996&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9016
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Northern Exposure
@@ -13477,8 +13207,6 @@ https://d3o0lv2x93e6yf.cloudfront.net/31004/88887722/hls/master.m3u8?ads.xumo_ch
 https://di4chcy8fb6ab.cloudfront.net/11002/88817998/hls/playlist.m3u8?ads.xumo_channelId=88817998&ads.csid=hisensechannels_us_sinclairtennischannelpickleballtv_ssai&ads.caid=SinclairTennisChannelPickleballTV&ads.asnw=&ads._fw_content_language=en&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_coppa=0&ads.xumo_contentId=4198&ads.xumo_contentName=SinclairTennisChannelPickleballTV&ads.xumo_providerId=4198&ads.xumo_providerName=SinclairTennisChannelPickleballTV&ads._fw_content_rating=TV-PG&ads.xumo_streamId=88817998&ads._fw_h_x_country=US&ads.platform=%5BPLATFORM%5D&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_player_width=1920&ads._fw_player_height=1080&ads._fw_is_lat=%5BIS_LAT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads.gpp=%5BGPP%5D&ads.gpp_sid=%5BGPP_SID%5D&ads._fw_app_bundle=%5BAPP_BUNDLE%5D&ads.appVersion=%5BAPP_VERSION%5D&ads.appName=%5BAPP_NAME%5D&ads.vauth=%5BVAUTH%5D&ads._fw_app_store_url=%5BAPP_STORE_URL%5D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9578
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/jguTO8E.png",PowerNation
 https://di4chcy8fb6ab.cloudfront.net/11002/88817934/hls/master.m3u8?ads.xumo_channelId=88817934&ads.csid=hisensechannels_us_powernation_ssai&ads.caid=PowerNation&ads.asnw=&ads._fw_content_language=en&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_coppa=0&ads.xumo_contentId=&ads.xumo_contentName=&ads.xumo_providerId=0&ads.xumo_providerName=0&ads._fw_content_rating=TV-PG&ads.xumo_streamId=88817934&ads._fw_h_x_country=US&ads.platform=%5BPLATFORM%5D&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_player_width=1920&ads._fw_player_height=1080&ads._fw_is_lat=%5BIS_LAT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads.gpp=%5BGPP%5D&ads.gpp_sid=%5BGPP_SID%5D&ads._fw_app_bundle=%5BAPP_BUNDLE%5D&ads.appVersion=%5BAPP_VERSION%5D&ads.appName=%5BAPP_NAME%5D&ads.vauth=%5BVAUTH%5D&ads._fw_app_store_url=%5BAPP_STORE_URL%5D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9580
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://www.thegtcnetwork.com/punjabi-shorts.jpg",Punjabi Shorts
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,punjabishortsvidaa.m3u8?yo.up=https%3A//gtc.ottlive.co.in/punjabshort/&yo.eb.fb=aHR0cHM6Ly9ndGMub3R0bGl2ZS5jby5pbi9wdW5qYWJzaG9ydC9pbmRleC5tM3U4&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Quantum Leap
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=699cae189c6c3ed28f09eae7&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Reality%20TV&AV_CONTENT_CAT=IAB1-7&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=UNIVERSAL%20CITY%20STUDIOS%20%C2%A0PRODUCTIONS%20LLP_Top%20Chef&content_channel_name=Top%20Chef&content_livestream=1&AV_CONTENT_PROVIDER=UNIVERSAL%20CITY%20STUDIOS%20%C2%A0PRODUCTIONS%20LLP&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10202
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Qui Veut Gagner des Millions
@@ -13539,8 +13267,6 @@ https://88b57e5cfe8c419e9e14eed6c1327455.mediatailor.us-east-1.amazonaws.com/v1/
 https://0d52ebebf45d42fbb3e5bf57eba27157.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa_RoyalworldNoblezayDinastias/playlist.m3u8?ads.wurl_channel=1622&ads.wurl_name=RoyalworldNoblezayDinastias&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.w=&ads.h=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9288
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Royalworld - Nobreza e Dinastias
 https://59653e27f1654324ae32c846a5c4d175.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa-br_Royalworld/playlist.m3u8?ads.wurl_channel=1840&ads.wurl_name=Royalworld&ads.coppa=0&ads.vidaa_ads_param=1190406319&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7096
-#EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Runn Action
-https://csm-e-runntvprdlive-eb.runnads.runn.media/csm/extlive/runntvprd01,runnactionvidaa.m3u8?yo.up=https%3A//vidaa-runact.cdn.runn.tv/runntv/stream/p_runact/manifest/&yo.eb.fb=aHR0cHM6Ly92aWRhYS1ydW5hY3QuY2RuLnJ1bm4udHYvcnVubnR2L3N0cmVhbS9wX3J1bmFjdC9wbGF5bGlzdC5tM3U4&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" tvg-logo="https://i.imgur.com/tGmKbil.png",Scream IN
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67d18c7a44cf05164e09235a&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=Horror%20%26%20Thriller&AV_CONTENT_CAT=IAB1-13&AV_CONTENT_RATING=R&AV_CLIENT_SECTION=zylo_screamin&content_channel_name=screamin&content_livestream=1&AV_CONTENT_PROVIDER=Zylo&ads.vidaa_ads_param=1191723366
 #EXTINF:-1 group-title="34. Smart TV Channels - کەناڵی سمارت تیڤی" ,Seaquest
@@ -14489,8 +14215,6 @@ https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
 https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
 #EXTINF:-1 tvg-id="ArgesTV.ro@SD" tvg-logo="https://i.imgur.com/qufz6nk.png" group-title="35. General - گشتی",Arges TV
 https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3cy.m3u8
-#EXTINF:-1 tvg-id="AricaTV.cl@SD" tvg-logo="https://i.imgur.com/I67WOgT.png" group-title="35. General - گشتی",Arica TV
-https://envivo.arica.tv/hls/Live2025AricaTV.m3u8
 #EXTINF:-1 tvg-id="Asgabat.tm@SD" tvg-logo="https://i.imgur.com/EzjR1vo.png" group-title="35. General - گشتی",Aşgabat
 https://alpha.tv.online.tm/hls/ch006.m3u8
 #EXTINF:-1 tvg-id="AssenTV.nl@SD" tvg-logo="https://i.imgur.com/upik15D.png" group-title="35. General - گشتی",Assen TV
@@ -16407,8 +16131,6 @@ https://cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com/live/c1804a4c-
 https://live-evg8.tv360.bitel.com.pe/bitel/visionsur/playlist.m3u8
 #EXTINF:-1 tvg-id="VivaNicaraguaCanal13.ni@SD" tvg-logo="https://i.imgur.com/9q7Ajz4.png" group-title="35. General - گشتی",Viva Nicaragua Canal 13
 https://cdn.vivamediosni.com/viva_720p/index.m3u8
-#EXTINF:-1 tvg-id="ViveTV.co@SD" tvg-logo="https://i.imgur.com/25CFHpB.png" group-title="35. General - گشتی",Vive TV Colombia
-http://192.144.113.132:1935/live/ViveTV/playlist.m3u8
 #EXTINF:-1 tvg-id="VizionPlus.al@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/960px-Vizion_Plus.svg.png" group-title="35. General - گشتی",Vizion Plus
 https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 #EXTINF:-1 tvg-id="VTVCanal32.do@SD" tvg-logo="https://i.imgur.com/qjm4B0J.png" group-title="35. General - گشتی",VTV Canal 32
@@ -17353,8 +17075,6 @@ https://ch14.tv/live/ch4teen1/playlist.m3u8
 https://ch14.tv/live/ch4teenclip/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="" tvg-logo="",Challenge Accepted
 https://d1vy897y7cwgcv.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="Channel5.th@SD" tvg-logo="https://i.imgur.com/wOIaqg7.png",Channel 5
-https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="Channel5International.ru@SD" tvg-logo="https://i.imgur.com/KPXMa3U.png",Channel 5 International
 http://178.134.1.158:8081/5channel/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="Channel7Kazakhstan.kz@SD" tvg-logo="https://i.imgur.com/LebKU09.png",Channel 7 Kazakhstan
@@ -17649,8 +17369,6 @@ https://frankentv.iptv-playoutcenter.de/frankentv/frankentv.stream_1/playlist.m3
 https://v2.tustreaming.cl/frecuencia7/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="" tvg-logo="",FreeTV Estelar
 https://d38sud5af047z8.cloudfront.net/ftveu.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="Frikanalen.no@SD" tvg-logo="https://i.imgur.com/rY3Owxl.png",Frikanalen
-https://frikanalen.no/stream/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="FuerteventuraTV.es@SD" tvg-logo="https://i.ibb.co/MpvjCzC/Fuerteventura-tv-service-webtv-488969d1-1.png",Fuerteventura TV
 https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-id="FutureTV.lb@SD" tvg-logo="https://i.imgur.com/OaqEpwe.png",Future TV
@@ -19885,20 +19603,12 @@ http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
 http://stream0.tv41.ru/live.m3u8
 #EXTINF:-1 tvg-id="UgraTV.ru@SD" tvg-logo="https://i.imgur.com/561FRwI.png" group-title="36. Uncategorized - نەپۆلێنکراو",Югра
 https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | SPEDA TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324587.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | NUÇÊ TV
 https://hlspackager.akamaized.net/live/DB/NU_TV/HLS/NU_TV.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | CHANNEL 8
 https://live.channel8.com/Channel8-Kurdish/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | ZAXO TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987958.ts
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | U TV HEWLER
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324667.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | SHAR TV
 http://avrstream.com:1935/live/SHARTV/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | BASK TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987905.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | GK+ TV
 https://live.host247.net/gk/gkplus/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | PESHANG TV
@@ -19907,8 +19617,6 @@ https://stream.forcaroo.com/stream/hls/desktop.m3u8
 http://avrstream.com:1935/live/REDTV/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | GEWHER TV
 https://iptv-link.short.gy/Gewher.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | KHAK TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1859024.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | PAYAM TV
 https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | AlTERNATIVE SHARAY TV
@@ -19921,10 +19629,6 @@ http://avrstream.com:1935/live/Mix-kurdy/playlist.m3u8
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Sony_TV_new.png/960px-Sony_TV_new.png",KU | SORAN ENTERTAIMENT TV
 http://avrstream.com:1935/live/SoranEntertainment/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | SADA TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858968.ts
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | SAHAR TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324589.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | NEW ACTION TV
 https://cdn.karwan.tv/bnar-action/index.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | MMN ART TV
@@ -19935,16 +19639,10 @@ http://mmn.mypsx.net:1935/live/mmnhdaction/playlist.m3u8
 https://zindisorani.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | KIDCO TV
 http://avrstream.com:1935/live/kidcohd/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | TASAWF TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987962.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | BANGAWAZ TV
 http://bangawaztv.ddns.net:40/live/bangawaztv/playlist.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | AMOZHGARI TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324677.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | ACADEMY AMOZHGARI TV
 https://app-live.org/live/a267c1b3/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | IMK TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858961.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | IMK QURAN TV
 http://avrstream.com:1935/live/IMKQURANHD/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | ESRA TV
@@ -19981,28 +19679,14 @@ https://parwarda.unitedmixmedia.tv/Parwarda/tracks-v2a1/mono.m3u8
 https://parwarda.unitedmixmedia.tv/Parwardayi_Duhok/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | PARWARDAYI HEWLER TV
 https://parwarda.unitedmixmedia.tv/Parwardayi_Hawler/tracks-v2a1/mono.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | ASMAN TV
-http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858954.ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | CNN TV
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | DASINYA TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667800&extension=ts
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | DEVER TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667807&extension=ts
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | DUHOK TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667694&extension=ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | NETFLIX ACTION
 http://vip2.sharkhost.xyz:80/live/9143315182/7352465335/487989.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | NETFLIX ACTION 2
 http://vip2.sharkhost.xyz:80/live/9143315182/7352465335/487986.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | NETFLIX ACTION 3
 http://vip2.sharkhost.xyz:80/live/9143315182/7352465335/487985.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | SHAMS TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1666447&extension=ts
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | ATV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=196714&extension=ts
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو" tvg-logo="https://i.imgur.com/15ILp0P.png",KU | KANAL D
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=196712&extension=ts
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | SPEDA TV
 https://speda1.site/upload/images/spedahd.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | BASK TV
@@ -20021,9 +19705,3 @@ https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | BEFRIN TV
 https://cdn.karwan.tv/befrin-tv/index.m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | DASINYA TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667800&extension=m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | DEVER TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667807&extension=m3u8
-#EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | DUHOK TV
-http://main.light-ott.net:80/play/live.php?mac=00:1B:79:00:01:02&stream=1667694&extension=m3u8
