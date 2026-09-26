@@ -19581,3 +19581,5 @@ https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 https://cdn.karwan.tv/befrin-tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-26-d649574c-0000-4562-9542-745d69409397.png" group-title="Kurdish Channels - کەناڵە کوردییەکان",AVA Radio
 https://ava.nodeict.online/;?type=http&nocache=1
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-26-0b0a5a54-fa61-4333-a4c7-d94a0f87a4fe.webp" group-title="Kurdish Channels - کەناڵە کوردییەکان",AVAR TV
+https://avr.host247.net/live/AvarTv/tracks-v1a1/mono.m3u8
