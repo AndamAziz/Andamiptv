@@ -8,10 +8,16 @@ https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m
 https://live.rudaw.net/hls/rudaw-tv/stream_720p.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-11-60d4658d-8bca-4151-8e5c-839da2ffd16c.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdsat TV
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-46dd409b-5dd4-4d22-a955-66aff61ea2cd.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdsat News
+https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-11-04ba5cac-ea4d-4941-9001-e90fbeaf2618.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdistan TV
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-08-70b6dfa8-36be-412f-8a5d-a50f49a8df33.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdistan 24
+https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-08-bd425783-e411-4ee0-919c-338526170dc4.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Payam TV
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Channel 8 Kurdish
+https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://kurdtvs.net/uploads/files/25-02-2016-6b2f13a2-waartv.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Waar TV
 https://live.kwikmotion.com/waarmedialive/waarmedia.smil/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://kurdtvs.net/uploads/zagros.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Zagros TV
@@ -30,14 +36,8 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-07-0085bb1c-4e4c-499e-9b64-bf3f5e72c202.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Avar TV
 https://avr.host247.net/live/AvarTv/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Channel 8 Kurdish
-https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/xPwzad9.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurd Channel
 https://kurdchhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-08-70b6dfa8-36be-412f-8a5d-a50f49a8df33.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdistan 24
-https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-46dd409b-5dd4-4d22-a955-66aff61ea2cd.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdsat News
-https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/WHeH5i7.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Mixkurdy
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/42noysO.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rojava TV
