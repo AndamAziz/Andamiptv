@@ -28,7 +28,7 @@ https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/manifest/video/720p1750kbps/video.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-08-6e0e01cd-8598-4df9-8153-4761b428f5c9.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Sky News Arabia
 https://stream.skynewsarabia.com/hls/sna.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_Kurd%C3%AE_logo_2021.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",TRT Kurdi
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-b997307f-b6f1-4e4f-bc95-dc296a23cec8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",TRT Kurdi
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://kurdtvs.net/uploads/files/29-05-2017-e292f206-dw-english-kurdtvs.net.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
