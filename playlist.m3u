@@ -19579,3 +19579,5 @@ https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | BEFRIN TV
 https://cdn.karwan.tv/befrin-tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public" group-title="Kurdish Channels",Rudaw tv SD
+https://live.rudaw.net/hls/rudaw-tv/stream_720p.m3u8
