@@ -19579,3 +19579,5 @@ https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | BEFRIN TV
 https://cdn.karwan.tv/befrin-tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-26-d649574c-0000-4562-9542-745d69409397.png" group-title="Kurdish Channels - کەناڵە کوردییەکان",AVA Radio
+https://ava.nodeict.online/;?type=http&nocache=1
