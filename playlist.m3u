@@ -40,7 +40,7 @@ https://avr.host247.net/live/AvarTv/playlist.m3u8
 https://kurdchhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-bef72c96-2e85-4459-a271-90593bbdfdff.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Mixkurdy
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/42noysO.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rojava TV
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-da172007-1d49-4e39-a12a-36c8e497b5db.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rojava TV
 https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-d768de55-bfef-41b1-a6ff-d315394533bc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw TV
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
