@@ -31,7 +31,7 @@ https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 https://kurdchhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/free/2026-08-08-70b6dfa8-36be-412f-8a5d-a50f49a8df33.jpg",Kurdistan 24
 https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/F3XRwkt.png",Kurdsat News
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/member/2026-09-26-46dd409b-5dd4-4d22-a955-66aff61ea2cd.jpg",Kurdsat News
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/WHeH5i7.png",Mixkurdy
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
@@ -197,7 +197,7 @@ http://api.353505.xyz:80/live/123/123/158.ts
 http://api.353505.xyz:80/live/123/123/620.ts
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/UAbSwYA.png",KURDsat
 http://api.353505.xyz:80/live/123/123/2894.ts
-#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/F3XRwkt.png",KURDSAT NEWS
+#EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://cdn.phototourl.com/member/2026-09-26-46dd409b-5dd4-4d22-a955-66aff61ea2cd.jpg",KURDSAT NEWS
 http://api.353505.xyz:80/live/123/123/2895.ts
 #EXTINF:-1 group-title="Kurdish Channels" tvg-logo="https://i.imgur.com/Jd9DywP.png",Dengi Gali Kurdistan
 http://api.353505.xyz:80/live/123/123/160.ts
@@ -19579,5 +19579,5 @@ https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 #EXTINF:-1 group-title="36. Uncategorized - نەپۆلێنکراو",KU | BEFRIN TV
 https://cdn.karwan.tv/befrin-tv/index.m3u8
-#EXTINF:-1 tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public" group-title="Kurdish Channels",Rudaw tv SD
+#EXTINF:-1 tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public" group-title="Kurdish Channels",Rudaw TV SD
 https://live.rudaw.net/hls/rudaw-tv/stream_720p.m3u8
