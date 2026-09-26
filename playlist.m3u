@@ -19582,4 +19582,5 @@ https://cdn.karwan.tv/befrin-tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public" group-title="Kurdish Channels",Rudaw TV SD
 https://live.rudaw.net/hls/rudaw-tv/stream_720p.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg" group-title="Kurdish Channels",Kurdmax Sorani TV
+#EXTVLCOPT:http-referrer=https://www.kurdmax.tv/
 https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
