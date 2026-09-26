@@ -36,9 +36,9 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-07-0085bb1c-4e4c-499e-9b64-bf3f5e72c202.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Avar TV
 https://avr.host247.net/live/AvarTv/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/xPwzad9.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurd Channel
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-a4d34948-12d9-4a11-8f5a-d85742ff70f1.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurd Channel
 https://kurdchhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/WHeH5i7.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Mixkurdy
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-bef72c96-2e85-4459-a271-90593bbdfdff.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Mixkurdy
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/42noysO.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rojava TV
 https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8
