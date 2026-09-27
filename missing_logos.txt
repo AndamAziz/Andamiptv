@@ -17,20 +17,13 @@ ABN Freedom of Speech
 ABN I AM
 ABN Son of God
 AFV with Alfonso Ribeiro
-AR | BEIN MOVIES 2 TV
-AR | BEIN NEWS TV
-AR | MAKKAH TV
-AR | MBC 2 TV
 AR | QATAR TV
-AR | SHAMS TV
-AR | THAMANYAH TV
 ARD Plus Krimi
 ARD Plus Lindenstraße
 ARTFLIX - Filmklassiker
 ARTFLIX - Películas Clásicas
 AVA Family
 AVAZ
-Aap ki Adalat
 Absinthe TV
 According to Jim
 Acelerados
@@ -66,6 +59,7 @@ Ancient Aliens
 Aqui y Ahora
 Arax TV
 Arko TV
+Armenia Premium
 Arous Beiru
 Artist of the Year
 Arvan TV
@@ -90,7 +84,6 @@ Beyblade en Español
 Beyond Paranormal
 Big 12 Studios
 Bigtime - Películas Gratis
-Biner TV Zaxo
 Biography The Icons
 BizaarTV
 Black Enterprise Streaming Network
@@ -237,7 +230,6 @@ FilmRise Séries France
 FilmRise Z Nation France
 Films Romantiques - Rakuten TV
 Films d'Action - Rakuten TV
-Filter Copy
 Fireplace Vibes
 First 48
 FitDance
@@ -281,7 +273,6 @@ Gardening With Monty Don
 Gardening with Monty Don
 General Hospital
 Gewher Family
-Gewher Kids
 Gewher Sport
 Ghaint Punjab
 Ghost Stories
@@ -347,7 +338,6 @@ Imagine Playword
 In Depth with Graham Bensinger
 Inazuma Eleven Collection
 Inazuma Eleven Go Italy
-India TV Yoga
 Inside Outside
 Intervention
 Iran National Revolution TV
@@ -361,84 +351,34 @@ Jodha Akbar
 KHAK
 KHAK FM
 KU | ACADEMY AMOZHGARI TV
-KU | AFARIN TV
-KU | ALKASS TV
-KU | ALWAN SPORT TV
-KU | ALWAN Z TV
-KU | AMOZHGARI TV
-KU | ARO FAMILY TV
 KU | ASHTI QURAN TV
-KU | ASMAN TV
-KU | ASTERA KULTUR TV
-KU | ASTERA MOVIES TV
-KU | ASTERA SPORT TV
-KU | ATV
-KU | AVA SPORT TV
-KU | AZADI TV
 KU | AlTERNATIVE SHARAY TV
-KU | BAHA TV
-KU | BAHRA TV
 KU | BANGAWAZ TV
 KU | BARIN FAMILY TV
 KU | BARIN MOVIES TV
-KU | BARIN QURAN TV
-KU | BASK KIDS TV
 KU | BASK TV
-KU | BEFRIN TV
-KU | BEIN SPORT 1 8K
-KU | BEIN SPORT 2 8K
-KU | BMC TV
-KU | CAN TV
 KU | CHANNEL 8
-KU | CN ARABIA TV
 KU | CNN TV
-KU | DASINYA KIDS
-KU | DASINYA KIDS TV
-KU | DASINYA MUSIC
-KU | DASINYA MUSIC TV
-KU | DASINYA SPORT
-KU | DASINYA TV
-KU | DERWAZA TV
-KU | DEVER TV
-KU | DIMEN TV
-KU | DUHOK SPORT TV
-KU | DUHOK TV
-KU | ESRA QURAN TV
 KU | ESRA TV
 KU | ESRA TV 2
 KU | EURO KURD TV
-KU | GEWHER KIDS TV
 KU | GEWHER SPORT TV
 KU | GEWHER TV
 KU | GK+ TV
-KU | HALABJA TV
-KU | IKURD TV
 KU | IMK QURAN TV
 KU | IMK TV
-KU | JK TV
 KU | KELGA TV
 KU | KHAK TV
 KU | KIDCO TV
-KU | KIRKUK TV
-KU | KURD CHANNEL TV
 KU | KURD7 TV
-KU | KURDCIMENA KIDS1 TV
-KU | KURDCINEMA ACTION 1 TV
-KU | KURDCINEMA COMEDY TV
-KU | KURDMAX PEPULE
-KU | KURDMAX TV
 KU | MARAYA KIDS TV
-KU | MED MUSIC TV
 KU | MIHRAB FM
 KU | MIX TV
 KU | MMN ACTION TV
 KU | MMN ART TV
 KU | MMN DOCUMENTARY TV
-KU | MMN KIDS TV
 KU | MMN NEWS TV
-KU | MMN QURAN TV
 KU | MMN SPORT TV
-KU | NAQSHI MEDIA TV
 KU | NETFLIX ACTION
 KU | NETFLIX ACTION 2
 KU | NETFLIX ACTION 3
@@ -449,64 +389,28 @@ KU | NETFLIX DRAMA 2
 KU | NETFLIX KIDS
 KU | NEW ACTION TV
 KU | NEW FAMILY TV
-KU | NEW LINE 1 TV
-KU | NEW LINE 2 TV
 KU | NEW MOVIES TV
-KU | NIGA FAMILY TV
-KU | NIGA KIDS TV
-KU | NISHTIMANI MN TV
-KU | NRT 2 TV
-KU | NRT SPORT TV
-KU | NRT TV
-KU | NRT3 TV
-KU | NRT4 TV
 KU | NUÇÊ TV
-KU | ONE KIDS
 KU | PARWARDAYI DUHOK TV
 KU | PARWARDAYI HEWLER TV
 KU | PARWARDAYI SLEMANI TV
 KU | PAYAM TV
-KU | PELISTANK TV
 KU | PESHANG TV
 KU | PESHMARGA TV
-KU | QALLAM TV
-KU | QALLAM TV ISLAMIC
-KU | QELLAT TV
-KU | RANYA TV
-KU | RASULULLAH TV
 KU | RAWSHAN TV
 KU | RED TV
 KU | REHBER TV
-KU | RENG DOCUMENTARY TV
-KU | RENG KIDS
-KU | ROYA TV
 KU | RUDAW TV
 KU | SADA TV
-KU | SAHAR TV
-KU | SAUDI QURAN TV
-KU | SAUDI SUNNAH TV
-KU | SHAMS TV
 KU | SHAR TV
 KU | SHNA TV
-KU | SLEMANI TV
 KU | SOZ QURAN TV
 KU | SOZ TV
 KU | SPEDA DRAMA TV
 KU | SPEDA TV
 KU | SPI QURAN TV
-KU | SROSHT TV
-KU | TASAWF TV
-KU | TRAFFIQ FM
-KU | U TV 2
-KU | U TV HEWLER
-KU | UTV DUHOK
-KU | WALLA QURAN TV
 KU | ZAROK TV
-KU | ZAXO TV
 KU | ZAYTOUN SPORT TV
-KU | ZED PLUS+ TV
-KU | ZHIN FILM TV
-KU | ZNAR TV
 Kanal 32
 Kidco
 Kiddo+
@@ -517,7 +421,7 @@ Kurd Mix _ Sweden
 LADbible
 La Fiebre del Jade
 La Maison France 5
-La chaine du fait divers" tvg-logo="" channel-number="769",Homicide, La chaine du fait divers
+La chaine du fait divers"tvg-id="homicide-fast-media"tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",La chaine du fait divers
 Ladykracher powered by myspass
 Lanthung TV
 Las 3 Marias
@@ -583,12 +487,11 @@ Muslim Network TV
 MyZen Wellbeing TV
 Mytime
 Mytime Movies
-Más Pasiones" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png",Todo Novelas Más Pasiones
+Más Pasiones"tvg-id="db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Todo Novelas Más Pasiones
 NBC 4 Albuquerque NM
 NBC Chicago News
 NEW KFOOD
 NHL
-NUC TV
 Nature Time C14
 News 18 Madhya Pradesh Geo
 News 18 Uttarakhand Geo
@@ -653,8 +556,6 @@ Royalworld - Nobreza e Dinastias
 Royalworld Germany
 Rudaw Radio
 Rugby Pass TV
-Runn Action
-Runn Thrillers
 SHNA TV
 SPI
 SURFER TV
@@ -735,10 +636,10 @@ TL Estrella
 TLN Media Chicago
 TLN Media San Francisco
 TSTV
+TV Rodina
 TVS Music Network
 TVS Select Network
 TVS Sports Bureau
-TVS Television Network
 Tarotéame
 Tastemade Home
 Tastemade International Canada
@@ -821,7 +722,6 @@ World of Love Island
 X-Factor: Das Unfassbare
 XITE 80s Flashback
 Xena Warrior Princess
-Xezer TV
 Xploration Station
 Xtreme Outdoor Presented by HISTORY
 Xumo Películas Gratis
@@ -843,107 +743,7 @@ douyu44
 douyu9
 icnet 3
 leffetpapillon
-like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="Music",TV Rodina
-like Gecko) Chrome/149.0.0.0 Safari/537.36",Armenia Premium
 myTV San Antonio TX
 Ça Chauffe en Cuisine
 Éxitos del Momento
 Đà Nẵng TV2
-┃KURD DVB-T┃ 4 KURD TV
-┃KURD DVB-T┃ 4 PLUS+ TV
-┃KURD DVB-T┃ AFARIN
-┃KURD DVB-T┃ AFARIN BAXCHA
-┃KURD DVB-T┃ ALA TV
-┃KURD DVB-T┃ ASHTI FAMILY
-┃KURD DVB-T┃ ASHTI QURAN
-┃KURD DVB-T┃ ASMAN
-┃KURD DVB-T┃ ASO SPORT
-┃KURD DVB-T┃ ASO Sport
-┃KURD DVB-T┃ ASTERA BABY
-┃KURD DVB-T┃ ASTERA CULTURE
-┃KURD DVB-T┃ ASTERA DOCUMENTARY
-┃KURD DVB-T┃ ASTERA FAMILY
-┃KURD DVB-T┃ ASTERA MOVIES
-┃KURD DVB-T┃ ASTERA SHOW
-┃KURD DVB-T┃ ATV 2✦
-┃KURD DVB-T┃ ATV✦
-┃KURD DVB-T┃ AVA SPORT
-┃KURD DVB-T┃ AVA Sport
-┃KURD DVB-T┃ AZADI
-┃KURD DVB-T┃ BABOLLY
-┃KURD DVB-T┃ BANGXWAZEN BADINAN
-┃KURD DVB-T┃ BARIN
-┃KURD DVB-T┃ BARIN MOVIES
-┃KURD DVB-T┃ BARIN QURAN
-┃KURD DVB-T┃ BASK
-┃KURD DVB-T┃ BASK+
-┃KURD DVB-T┃ BINAR
-┃KURD DVB-T┃ BMC
-┃KURD DVB-T┃ BNAR
-┃KURD DVB-T┃ BNAR MOVIES
-┃KURD DVB-T┃ CIHAN TV
-┃KURD DVB-T┃ DANGI QURAN
-┃KURD DVB-T┃ DASINYA SPORT
-┃KURD DVB-T┃ DELAL
-┃KURD DVB-T┃ DERIN
-┃KURD DVB-T┃ DERWAZA
-┃KURD DVB-T┃ DERWAZA MUSIC
-┃KURD DVB-T┃ DIMEN
-┃KURD DVB-T┃ DUHOK SPORT
-┃KURD DVB-T┃ DUNYA TV
-┃KURD DVB-T┃ EMAN TV
-┃KURD DVB-T┃ ESTA
-┃KURD DVB-T┃ EURO KURD TV
-┃KURD DVB-T┃ EVIN TV
-┃KURD DVB-T┃ FAMILY BOX INFO
-┃KURD DVB-T┃ FAMILY RAPARIN
-┃KURD DVB-T┃ KHAK
-┃KURD DVB-T┃ NEWLINE 1
-┃KURD DVB-T┃ NEWLINE 2
-┃KURD DVB-T┃ NIGA FAMILY
-┃KURD DVB-T┃ NIGA KIDS
-┃KURD DVB-T┃ NIGA MOVIES
-┃KURD DVB-T┃ RASAN
-┃KURD DVB-T┃ RENG DOCUMENTARY
-┃KURD DVB-T┃ RENG FAMILY
-┃KURD DVB-T┃ RENG KIDS
-┃KURD DVB-T┃ RENG MUSIC
-┃KURD DVB-T┃ RENG SPORT
-┃KURD DVB-T┃ ZED
-┃KURD DVB-T┃ ZED+
-┃KURD-SAT┃ AMOZHGARY TV
-┃KURD-SAT┃ ARYEN TV
-┃KURD-SAT┃ AVA
-┃KURD-SAT┃ BANGAWAZ TV
-┃KURD-SAT┃ CIRA TV
-┃KURD-SAT┃ GALI KURDISTAN TV
-┃KURD-SAT┃ IRAQIA KURDISH TV
-┃KURD-SAT┃ JIN
-┃KURD-SAT┃ K24
-┃KURD-SAT┃ KIRKUK TV
-┃KURD-SAT┃ KOMAL
-┃KURD-SAT┃ KURD CHANNEL
-┃KURD-SAT┃ KURDISTAN TV
-┃KURD-SAT┃ KURDMAX KURMANJI
-┃KURD-SAT┃ KURDMAX SHOW KURMANJI
-┃KURD-SAT┃ KURDMAX SHOW SORANI
-┃KURD-SAT┃ KURDMAX SORANI
-┃KURD-SAT┃ KURDSAT NEWS
-┃KURD-SAT┃ KURDSAT TV
-┃KURD-SAT┃ MED MUSIC TV
-┃KURD-SAT┃ NRT 1
-┃KURD-SAT┃ NRT 2
-┃KURD-SAT┃ NRT 3 KIDS
-┃KURD-SAT┃ NRT 4
-┃KURD-SAT┃ PAYAM TV
-┃KURD-SAT┃ ROJAVA
-┃KURD-SAT┃ ROJHELAT
-┃KURD-SAT┃ RONAHI TV
-┃KURD-SAT┃ RUDAW
-┃KURD-SAT┃ SAHAR KURDI TV
-┃KURD-SAT┃ SPEDA
-┃KURD-SAT┃ STERK TV
-┃KURD-SAT┃ TRT KURDI
-┃KURD-SAT┃ WAAR TV
-┃KURD-SAT┃ ZAGROS
-┃KURD-SAT┃ ZAROK TV
