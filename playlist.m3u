@@ -1,4 +1,4 @@
-#EXTM3U
+﻿#EXTM3U
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-07-e9bc4454-6cbd-49dc-9227-13a1f5eb6413.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA TV
 http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="https://www.kurdmax.tv/",Kurdmax Sorani TV
@@ -6,6 +6,8 @@ http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
 https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw TV
 https://live.rudaw.net/hls/rudaw-tv/stream_720p.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT Sport
+https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/8JA18y0l44_0AMpCnZGgOPQgft-CsbM541KP9Nb1iBsNL6z5YphLFA1XT269eJFZyDkUDaybf-JAn4x2jhfdCw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-11-60d4658d-8bca-4151-8e5c-839da2ffd16c.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdsat TV
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-46dd409b-5dd4-4d22-a955-66aff61ea2cd.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdsat News
@@ -5448,7 +5450,7 @@ https://jmp2.uk/rok-d12329eda6e3dcc1f42ce2a350a4623d.m3u8
 https://jmp2.uk/rok-5934441271a0583124d84d704f600bcc.m3u8
 #EXTINF:-1 tvg-name="The Masked Singer"tvg-id="34b686f999ecaacfbcd91bb5195c3124"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/34b686f999ecaacfbcd91bb5195c3124/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1739302196547_MS_ROKU_HUD_Logo_2.png"tvg-chno="619"group-title="15. Entertainment - سەرگەرمی":http-referrer="",The Masked Singer
 https://jmp2.uk/rok-34b686f999ecaacfbcd91bb5195c3124.m3u8
-#EXTINF:-1 tvg-name="Todo Novelas group-title="15. Entertainment - سەرگەرمی",Más Pasiones"tvg-id="db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Todo Novelas Más Pasiones
+#EXTINF:-1 tvg-name="Todo Novelas group-title="tvg-id="db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Todo Novelas Más Pasiones
 https://jmp2.uk/rok-db95a237643ea0eea113c6c024515df2.m3u8
 #EXTINF:-1 tvg-name="Top Barça"tvg-id="b3eb95a883bfcd7b458d9ec965cedb35"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b3eb95a883bfcd7b458d9ec965cedb35/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744407060327_Roku_EPS_LogoHUD_260x147__.png"tvg-chno="932"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Top Barça
 https://jmp2.uk/rok-b3eb95a883bfcd7b458d9ec965cedb35.m3u8
@@ -10140,7 +10142,7 @@ https://amg01821-amg01821c23-xiaomi-international-4612.playouts.now.amagi.tv/pla
 https://ixmediasrl-seriallycrime-1-it.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Enquêtes de Choc"tvg-id="enquetes-de-choc-fast-media"tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",Enquêtes de Choc
 https://fastmedia-enquetesdechoc-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-enquetesdechoc-rakuten/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="Homicide group-title="21. Crime & Mystery - تاوان و نهێنی",La chaine du fait divers"tvg-id="homicide-fast-media"tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",La chaine du fait divers
+#EXTINF:-1 tvg-name="Homicide group-title="tvg-id="homicide-fast-media"tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",La chaine du fait divers
 https://fastmedia-homicide-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-homicide-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-name="Into Crime"tvg-id="into-crime"tvg-logo="https://i.imgur.com/43at4M2.png"tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",Into Crime
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist/amg00711-zylofast-intocrime-rakutenfr/playlist.m3u8
@@ -19518,7 +19520,5 @@ http://imkhd.ddns.net:1935/live/imkhd/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | PESHMARGA TV
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-27-5e9a3e6b-c7a1-47f8-82f7-90e6c0fab7fc.jpg" group-title="Darama- Yousuf Payambar",Yousuf Payambar-1
-https://manifest.googlevideo.com/api/manifest/hls_playlist/.../index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Kurdish Channels",1
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT Sport
 https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/8JA18y0l44_0AMpCnZGgOPQgft-CsbM541KP9Nb1iBsNL6z5YphLFA1XT269eJFZyDkUDaybf-JAn4x2jhfdCw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
