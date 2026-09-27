@@ -19534,7 +19534,7 @@ https://live20.bozztv.com/giatv/giatv-ESRAHD/ESRAHD/chunks.m3u8
 https://live20.bozztv.com/giatv/giatv-esra2hd_kamalblbas/esra2hd_kamalblbas/chunks.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | SPI QURAN TV
 https://183.bozztv.com/giatv/giatv-spi_quran_hd/spi_quran_hd/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | MMN QURAN TV
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://postimg.cc/NyPYNDsy"tvg-chno=""group-title="Kurdish Channels":http-referrer="",MMN QURAN TV
 http://mmn.mypsx.net:1935/live/mmnhdquran/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | ASHTI QURAN TV
 http://avrstream.com:1935/live/AshtiTV/playlist.m3u8
