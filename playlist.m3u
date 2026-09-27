@@ -19518,3 +19518,5 @@ http://imkhd.ddns.net:1935/live/imkhd/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | PESHMARGA TV
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-27-5e9a3e6b-c7a1-47f8-82f7-90e6c0fab7fc.jpg" group-title="Darama- Yousuf Payambar",Yousuf Payambar-1
+https://manifest.googlevideo.com/api/manifest/hls_playlist/.../index.m3u8
