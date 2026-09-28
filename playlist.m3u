@@ -19524,3 +19524,5 @@ https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/8JA18y0l44_0AMpCnZGgOPQgft-CsbM541KP9Nb1iBsNL6z5YphLFA1XT269eJFZyDkUDaybf-JAn4x2jhfdCw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg" group-title="درامای یوسفی راستگۆ",پێغەمبەر یوسف 31
 https://streamflow-pro-3.preview.emergentagent.com/api/hls/8a5435c9-4be8-4582-b289-b8654e9d9912/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg" group-title="درامای یوسفی راستگۆ",پێغەمبەر یوسف 1
+https://streamflow-pro-3.preview.emergentagent.com/api/hls/d01db135-45ac-405c-960b-4b92a1abbbbc/master.m3u8
