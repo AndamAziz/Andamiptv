@@ -19522,3 +19522,5 @@ https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT Sport
 https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/8JA18y0l44_0AMpCnZGgOPQgft-CsbM541KP9Nb1iBsNL6z5YphLFA1XT269eJFZyDkUDaybf-JAn4x2jhfdCw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg" group-title="درامای یوسفی راستگۆ",پێغەمبەر یوسف 31
+https://streamflow-pro-3.preview.emergentagent.com/api/hls/8a5435c9-4be8-4582-b289-b8654e9d9912/master.m3u8
