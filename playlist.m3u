@@ -5450,7 +5450,7 @@ https://jmp2.uk/rok-d12329eda6e3dcc1f42ce2a350a4623d.m3u8
 https://jmp2.uk/rok-5934441271a0583124d84d704f600bcc.m3u8
 #EXTINF:-1 tvg-name="The Masked Singer"tvg-id="34b686f999ecaacfbcd91bb5195c3124"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/34b686f999ecaacfbcd91bb5195c3124/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1739302196547_MS_ROKU_HUD_Logo_2.png"tvg-chno="619"group-title="15. Entertainment - سەرگەرمی":http-referrer="",The Masked Singer
 https://jmp2.uk/rok-34b686f999ecaacfbcd91bb5195c3124.m3u8
-#EXTINF:-1 tvg-name="Todo Novelas group-title="tvg-id="db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title="tvg-id=":http-referrer="",Todo Novelas Más Pasiones
+#EXTINF:-1 tvg-name="Todo Novelas group-title="tvg-id="db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title=" tvg-id=":http-referrer="",Todo Novelas Más Pasiones
 https://jmp2.uk/rok-db95a237643ea0eea113c6c024515df2.m3u8
 #EXTINF:-1 tvg-name="Top Barça"tvg-id="b3eb95a883bfcd7b458d9ec965cedb35"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b3eb95a883bfcd7b458d9ec965cedb35/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744407060327_Roku_EPS_LogoHUD_260x147__.png"tvg-chno="932"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Top Barça
 https://jmp2.uk/rok-b3eb95a883bfcd7b458d9ec965cedb35.m3u8
@@ -10142,7 +10142,7 @@ https://amg01821-amg01821c23-xiaomi-international-4612.playouts.now.amagi.tv/pla
 https://ixmediasrl-seriallycrime-1-it.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Enquêtes de Choc"tvg-id="enquetes-de-choc-fast-media"tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",Enquêtes de Choc
 https://fastmedia-enquetesdechoc-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-enquetesdechoc-rakuten/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="Homicide group-title="tvg-id="homicide-fast-media"tvg-logo=""tvg-chno=""group-title="tvg-id=":http-referrer="",La chaine du fait divers
+#EXTINF:-1 tvg-name="Homicide group-title="tvg-id="homicide-fast-media"tvg-logo=""tvg-chno=""group-title=" tvg-id=":http-referrer="",La chaine du fait divers
 https://fastmedia-homicide-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-homicide-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-name="Into Crime"tvg-id="into-crime"tvg-logo="https://i.imgur.com/43at4M2.png"tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",Into Crime
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist/amg00711-zylofast-intocrime-rakutenfr/playlist.m3u8
@@ -19524,6 +19524,12 @@ https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/8JA18y0l44_0AMpCnZGgOPQgft-CsbM541KP9Nb1iBsNL6z5YphLFA1XT269eJFZyDkUDaybf-JAn4x2jhfdCw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 31
 https://hls-dashboard.preview.emergentagent.com/api/hls/6892cd36-fb8c-44ad-b0b0-a07f3ad58af7/master.m3u8?token=7mLmm1ZCuFFXDW7kMPeyBW9tc0DqEBIM
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 8
+https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_59d593/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 7
+https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_b93491/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 6
+https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_2ec90f/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 5
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_c7dea6/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 4
