@@ -19622,3 +19622,5 @@ https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
 #EXTINF:-1 tvg-name="AR | SHARQIA TV"tvg-id=""tvg-logo="https://i.imgur.com/mJIG5IV.png"tvg-chno=""group-title="Uncategorized":http-referrer="",AR | SHARQIA TV
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-7b47ede5-7494-46ba-a80b-c1569f92c92f.jpg" group-title="Kurdish Channels",Asharq Documentary
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/asharqdocumentarypublish/asharqdocumentary_720p/chunks_dvr.m3u8
