@@ -19620,3 +19620,5 @@ https://andam.uk/vod/video_768504/index.m3u8
 https://andam.uk/vod/video_507da1/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg" group-title="Setayesh-ستایش",ستایش - S01E04 (ئەڵقەی ٤)
 https://andam.uk/vod/video_2d0a48/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-f1cedafd-aa76-40b8-984a-cd83fdb3cbef.jpg" group-title="Kurdish Channels",ZDF HD
+https://prod-fastly-us-east-1.video.pscp.tv/Transcoding/v1/hls/E1nqy4pzS2XPviYfVhX0hE1V0FMlAVuJCcGs_nYP4_nxt7Age5gGE5tnbCyItOevbz09oTVqmxiaYew0fVwGdg/non_transcode/us-east-1/periscope-replay-direct-prod-us-east-1-public/master_dynamic_delta.m3u8?type=live
