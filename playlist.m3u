@@ -1,9 +1,6 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-07-e9bc4454-6cbd-49dc-9227-13a1f5eb6413.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA TV
 http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="https://www.kurdmax.tv/",Kurdmax Sorani TV
-#EXTVLCOPT:http-referrer=https://www.kurdmax.tv/
-https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw TV
 https://live.rudaw.net/hls/rudaw-tv/stream_720p.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT Sport
@@ -358,6 +355,8 @@ http://api.353505.xyz:80/live/123/123/3048.ts
 http://api.353505.xyz:80/live/123/123/3049.ts
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://i.imgur.com/mh3ef0l.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Super Kids
 http://api.353505.xyz:80/live/123/123/3050.ts
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-03fec833-625b-4325-9b16-ced793d0d142.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",MMN QURAN TV
+http://mmn.mypsx.net:1935/live/mmnhdquran/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Classics
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887723/hls/master.m3u8?ads.xumo_channelId=88887723&ads.xumo_streamId=88887723&ads.csid=sitesection:FAST:VIDAA:SkySportsClassics&ads.xumo_channelName=skysportsclassics&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7524
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Stories
@@ -890,8 +889,6 @@ http://stream.mcquack.net/353/index.m3u8
 http://ares.mnet.mk/hls/mnet-sport.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="MaincastCybersport.ua@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png"tvg-chno=""group-title="Sports":http-referrer="",Maincast Cybersport
 http://stream.mcquack.net/487/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id="MaincastSport.ua@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png"tvg-chno=""group-title="Sports":http-referrer="",Maincast Sport
-http://stream.mcquack.net/490/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="MatchBoets.ru@SD"tvg-logo="https://i.imgur.com/DogOkA4.png"tvg-chno=""group-title="Sports":http-referrer="",Match! Boets
 http://stream.mcquack.net/112/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="MoreThanSportsTV.de@SD"tvg-logo="https://i.imgur.com/SLrjImc.png"tvg-chno=""group-title="Sports":http-referrer="",More Than Sports TV
@@ -5450,8 +5447,6 @@ https://jmp2.uk/rok-d12329eda6e3dcc1f42ce2a350a4623d.m3u8
 https://jmp2.uk/rok-5934441271a0583124d84d704f600bcc.m3u8
 #EXTINF:-1 tvg-name="The Masked Singer"tvg-id="34b686f999ecaacfbcd91bb5195c3124"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/34b686f999ecaacfbcd91bb5195c3124/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1739302196547_MS_ROKU_HUD_Logo_2.png"tvg-chno="619"group-title="15. Entertainment - سەرگەرمی":http-referrer="",The Masked Singer
 https://jmp2.uk/rok-34b686f999ecaacfbcd91bb5195c3124.m3u8
-#EXTINF:-1 tvg-name="Todo Novelas group-title="tvg-id="db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title=" tvg-id=":http-referrer="",Todo Novelas Más Pasiones
-https://jmp2.uk/rok-db95a237643ea0eea113c6c024515df2.m3u8
 #EXTINF:-1 tvg-name="Top Barça"tvg-id="b3eb95a883bfcd7b458d9ec965cedb35"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b3eb95a883bfcd7b458d9ec965cedb35/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744407060327_Roku_EPS_LogoHUD_260x147__.png"tvg-chno="932"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Top Barça
 https://jmp2.uk/rok-b3eb95a883bfcd7b458d9ec965cedb35.m3u8
 #EXTINF:-1 tvg-name="Unspeakable"tvg-id="11a0e337ea9b53d4b7a9517e219d7f5b"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/11a0e337ea9b53d4b7a9517e219d7f5b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1704849191652_TRC_xumoTile_FilmRiseUnspeakable_HUD_logo_260x147.png"tvg-chno="808"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Unspeakable
@@ -6328,8 +6323,6 @@ https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
 https://fox.hostlagarto.com:8081/pronemstv/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="Public4KTV.np@HD"tvg-logo="https://i.imgur.com/JxEzgDP.png"tvg-chno=""group-title="15. Entertainment - سەرگەرمی":http-referrer="",Public TV
 http://103.180.240.141:8080/hls/main1/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id="PulaTV.do@SD"tvg-logo="https://i.imgur.com/8gSLJ2f.png"tvg-chno=""group-title="15. Entertainment - سەرگەرمی":http-referrer="",Pula TV
-https://fox.hostlagarto.com:8081/pulatv/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="PulariTV.in@SD"tvg-logo="https://i.imgur.com/v5urG30.png"tvg-chno=""group-title="15. Entertainment - سەرگەرمی":http-referrer="",Pulari TV
 https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="QTV.in@SD"tvg-logo="https://www.theq.tv/wp-content/uploads/2023/10/The-Q-new-Logo.png"tvg-chno=""group-title="15. Entertainment - سەرگەرمی":http-referrer="",Q TV
@@ -10142,8 +10135,6 @@ https://amg01821-amg01821c23-xiaomi-international-4612.playouts.now.amagi.tv/pla
 https://ixmediasrl-seriallycrime-1-it.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Enquêtes de Choc"tvg-id="enquetes-de-choc-fast-media"tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",Enquêtes de Choc
 https://fastmedia-enquetesdechoc-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-enquetesdechoc-rakuten/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="Homicide group-title="tvg-id="homicide-fast-media"tvg-logo=""tvg-chno=""group-title=" tvg-id=":http-referrer="",La chaine du fait divers
-https://fastmedia-homicide-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-homicide-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-name="Into Crime"tvg-id="into-crime"tvg-logo="https://i.imgur.com/43at4M2.png"tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",Into Crime
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist/amg00711-zylofast-intocrime-rakutenfr/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",A&E Crime 360
@@ -14268,8 +14259,6 @@ https://live-evg10.tv360.bitel.com.pe/bitel/canal25ayacucho/playlist.m3u8
 https://v1.tustreaming.cl/canal30loncomilla/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="XHIJTDT.mx@SD"tvg-logo="https://i.imgur.com/oRudPXX.png"tvg-chno=""group-title="35. General - گشتی":http-referrer="",Canal 44 Ciudad Juárez
 https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id="Canal99Miramar.ar@SD"tvg-logo="https://i.imgur.com/PblsZxz.jpeg"tvg-chno=""group-title="35. General - گشتی":http-referrer="",Canal 99 Miramar
-https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="CanalCdelZulia.ve@HD"tvg-logo="https://i.imgur.com/ew44KOZ.png"tvg-chno=""group-title="35. General - گشتی":http-referrer="",Canal C del Zulia
 https://calm-forest-3478.cristianbracho904.workers.dev/master.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="CanalCalimaTV.co@SD"tvg-logo="https://i.imgur.com/6YxtyUR.jpeg"tvg-chno=""group-title="35. General - گشتی":http-referrer="",Canal Calima TV
@@ -15534,8 +15523,6 @@ https://ss2.tvrdomi.com:1936/supertv55/supertv55/playlist.m3u8
 http://45.170.130.224:8000/play/a036/index.m3u8?hls
 #EXTINF:-1 tvg-name=""tvg-id="SuramTV.co@SD"tvg-logo="https://i.imgur.com/2N9LCES.png"tvg-chno=""group-title="35. General - گشتی":http-referrer="",Suram TV
 https://us.streaminghd.cl/suramtv/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id="SuspilneKyiv.ua@SD"tvg-logo="https://i.imgur.com/MeR1dJw.png"tvg-chno=""group-title="35. General - گشتی":http-referrer="",Suspilne. Kyiv
-https://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="TabarestanTV.ir@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/960px-IRIB_Mazandaran_Last_Orange_Logo.png"tvg-chno=""group-title="35. General - گشتی":http-referrer="",Tabarestan
 https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="TAMTV.ve@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_TAM.png"tvg-chno=""group-title="35. General - گشتی":http-referrer="",TAM TV
@@ -16162,6 +16149,10 @@ https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 http://trk555.tv:8888/live
 #EXTINF:-1 tvg-name=""tvg-id="BaichengTV.cn@SD"tvg-logo="https://www.tvchinese.net/uploads/tv/baicheng.jpg"tvg-chno=""group-title="35. General - گشتی":http-referrer="",白城新闻综合
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+#EXTINF:-1 tvg-name="Todo Novelas group-title="36. Uncategorized - نەپۆلێنکراو"db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",Todo Novelas Más Pasiones
+https://jmp2.uk/rok-db95a237643ea0eea113c6c024515df2.m3u8
+#EXTINF:-1 tvg-name="Homicide group-title="36. Uncategorized - نەپۆلێنکراو"homicide-fast-media"tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",La chaine du fait divers
+https://fastmedia-homicide-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-fastmedia-homicide-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="AccessHumboldt.us@SD"tvg-logo="https://i.imgur.com/tJl43uM.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",Access Humboldt
 https://rtmp-live-ingest-ap-northeast-2-universe-dacast-com.akamaized.net/transmuxv1/streams/f08fcd45-1d04-9a8c-39ca-f56091820e5c.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="AccessNashua.us@SD"tvg-logo="https://i.imgur.com/iv9Vfcb.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",Access Nashua
@@ -19168,8 +19159,6 @@ https://dash2.antik.sk/live/test_slo1_tizen/playlist.m3u8
 https://dash2.antik.sk/live/test_slo2_tizen/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="TVSolidaria.ar@SD"tvg-logo="https://i.imgur.com/M0fMypR.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",TV Solidaria
 https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
-#EXTINF:-1 tvg-name=""tvg-id="TVSulBahia.br@SD"tvg-logo="https://i.imgur.com/qM6nMWm.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",TV Sul Bahia
-https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="TVSurCanal14.cr@SD"tvg-logo="https://i.imgur.com/OpHYYZA.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",TV Sur Canal 14
 https://k20.usastreams.com:8081/tvsur/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="TVSyri.xk@SD"tvg-logo="https://i.imgur.com/ZQuFosn.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",TV Syri
@@ -19236,8 +19225,6 @@ http://4.30.180.36:8420/wfutdt/mono.m3u8?token=test
 https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="Uniteve.ar@SD"tvg-logo="https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",Uniteve
 https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8
-#EXTINF:-1 tvg-name=""tvg-id="UnivalleTelevision.bo@SD"tvg-logo="https://i.imgur.com/qgrWDIs.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",Univalle Televisión
-https://master.tucableip.com/univalletv/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="UniverTV.ru@SD"tvg-logo="https://i.imgur.com/r3u0mxr.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",Univer TV
 https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="UATV.cl@SD"tvg-logo="https://i.imgur.com/BdZGS66.png"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",Universidad Autónoma Temuco
@@ -19472,8 +19459,6 @@ https://live20.bozztv.com/giatv/giatv-ESRAHD/ESRAHD/chunks.m3u8
 https://live20.bozztv.com/giatv/giatv-esra2hd_kamalblbas/esra2hd_kamalblbas/chunks.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | SPI QURAN TV
 https://183.bozztv.com/giatv/giatv-spi_quran_hd/spi_quran_hd/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-03fec833-625b-4325-9b16-ced793d0d142.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",MMN QURAN TV
-http://mmn.mypsx.net:1935/live/mmnhdquran/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | ASHTI QURAN TV
 http://avrstream.com:1935/live/AshtiTV/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | MIHRAB FM
@@ -19520,101 +19505,97 @@ http://imkhd.ddns.net:1935/live/imkhd/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/live/Kelga/playlist.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",KU | PESHMARGA TV
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT Sport
-https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/8JA18y0l44_0AMpCnZGgOPQgft-CsbM541KP9Nb1iBsNL6z5YphLFA1XT269eJFZyDkUDaybf-JAn4x2jhfdCw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 45
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 45
 https://andam.uk/vod/video_1a813e/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 44
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 44
 https://andam.uk/vod/video_e9fee8/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 43
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 43
 https://andam.uk/vod/video_20f8f4/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 42
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 42
 https://andam.uk/vod/video_54183a/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 41
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 41
 https://andam.uk/vod/video_7c3482/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 40
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 40
 https://andam.uk/vod/video_a6d4cb/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 39
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 39
 https://andam.uk/vod/video_c158f3/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 38
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 38
 https://andam.uk/vod/video_7ccbd6/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 37
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 37
 https://andam.uk/vod/video_238e11/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 36
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 36
 https://andam.uk/vod/video_7b3cf6/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 35
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 35
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_130d25/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 34
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 34
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_9e1bf3/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 33
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 33
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_ce5b3b/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 32
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 32
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_128eff/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 31
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 31
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_961f0c/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 30
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 30
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_460c6e/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 29
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 29
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_0081bd/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 28
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 28
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_9349b1/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 27
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 27
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_f485e4/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 26
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 26
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_e1ca31/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 25
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 25
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_e41bec/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 24
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 24
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_3b7344/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 23
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 23
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_5d0605/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 22
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 22
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_2352ec/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 21
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 21
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_f0aafe/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 20
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 20
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_f149a1/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 19
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 19
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_a2cf4e/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 18
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 18
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_bf0934/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 17
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 17
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_ff20a9/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 16
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 16
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_c1e765/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 15
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 15
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_0bf05b/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 14
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 14
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_c00a41/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 13
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 13
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_9722ff/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 12
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 12
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_a060df/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 11
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 11
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_ccbf90/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 10
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 10
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_93b6a5/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 9
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 9
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_897c6d/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 8
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_59d593/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 7
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 7
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_b93491/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 6
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 6
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_2ec90f/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 5
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 5
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_c7dea6/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 4
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 4
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_c778d6/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 3
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-9ebcb656-5591-4848-9b30-b46e40a9d390.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 3
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_df3e7c/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 2
-https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_df3e7c/index.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""group-title="درامای یوسفی راستگۆ":http-referrer="",پێغەمبەر یوسف 1
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""group-title="36. Uncategorized - نەپۆلێنکراو":http-referrer="",پێغەمبەر یوسف 1
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_063ae6/index.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg" group-title="Setayesh-ستایش",ستایش - S01E01 (ئەڵقەی ١)
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg" group-title="36. Uncategorized - نەپۆلێنکراو",ستایش - S01E01
 https://andam.uk/vod/video_ce452b/index.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg" group-title="Setayesh-ستایش",ستایش - S01E02 (ئەڵقەی ٢)
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg" group-title="36. Uncategorized - نەپۆلێنکراو",ستایش - S01E02
 https://andam.uk/vod/video_768504/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg" group-title="Setayesh-ستایش",ستایش - S01E03 (ئەڵقەی ٣)
 https://andam.uk/vod/video_507da1/index.m3u8

@@ -1,10 +1,10 @@
-M3U Cleaner report - 2026-09-29 02:48:43
+M3U Cleaner report - 2026-10-01 02:31:53
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  9765
+Total channels kept:  9806
 Blocked (blocklist):  0
-Duplicates removed:   1
+Duplicates removed:   2
 Malformed/skipped:    0
 
   Kurdish Channels: 180
@@ -33,4 +33,4 @@ Malformed/skipped:    0
   33. Local Channels - کەناڵە ناوخۆییەکان: 15
   34. Smart TV Channels - کەناڵی سمارت تیڤی: 514
   35. General - گشتی: 1330
-  36. Uncategorized - نەپۆلێنکراو: 1685
+  36. Uncategorized - نەپۆلێنکراو: 1726
