@@ -95,23 +95,14 @@ async function processPlaylist() {
         );
 
         for (const { entry, isValid } of results) {
+            // هەموو کەناڵێک دەهێڵینەوە بێ ئەوەی سڕینەوە ڕووبدات، تەنها لە لۆگەکاندا باسی دەکەین ئەگەر کار نەکات
             if (isValid) {
                 if (state[entry.url]) delete state[entry.url];
                 validEntries.push(entry);
-                continue;
-            }
-
-            const fails = (state[entry.url]?.fails || 0) + 1;
-
-            if (fails >= FAIL_THRESHOLD) {
-                delete state[entry.url];
-                removedCount++;
-                console.log(`REMOVED (failed ${fails} consecutive days): ${entry.url}`);
             } else {
-                state[entry.url] = { fails, lastFailedAt: new Date().toISOString() };
+                // لێرەدا سەرەڕای ئەوەی کار ناکات، بەڵام دیسانەوە دەیخەینەوە ناو فایلی پەیلیستەکەوە و نایسڕینەوە
                 validEntries.push(entry);
-                atRiskCount++;
-                console.log(`AT RISK (${fails}/${FAIL_THRESHOLD} consecutive fails, kept): ${entry.url}`);
+                console.log(`DEAD LINK KEPT (Not Removed): ${entry.url}`);
             }
         }
 
