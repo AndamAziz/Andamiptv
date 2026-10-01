@@ -2938,6 +2938,8 @@ http://stream.mcquack.net/419/index.m3u8
 http://138.121.15.230:9002/NAT-GEO/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="NationalGeographic.ru@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"tvg-chno=""group-title="18. Documentary - دۆکیومێنتاری":http-referrer="",National Geographic
 http://stream.mcquack.net/116/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",National Geographic 8
+http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="NationalGeographic.us@HDEast"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"tvg-chno=""group-title="18. Documentary - دۆکیومێنتاری":http-referrer="",National Geographic East
 http://198.58.104.90:8989/natgeo/index.m3u8
 #EXTINF:-1 tvg-name=""tvg-id="NationalGeographicWild.us@HDEast"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"tvg-chno=""group-title="18. Documentary - دۆکیومێنتاری":http-referrer="",National Geographic Wild East
