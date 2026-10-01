@@ -6,8 +6,8 @@ http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
 https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw TV
 https://live.rudaw.net/hls/rudaw-tv/stream_720p.m3u8
-#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-f1cedafd-aa76-40b8-984a-cd83fdb3cbef.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ZDF HD
-https://prod-fastly-us-east-1.video.pscp.tv/Transcoding/v1/hls/E1nqy4pzS2XPviYfVhX0hE1V0FMlAVuJCcGs_nYP4_nxt7Age5gGE5tnbCyItOevbz09oTVqmxiaYew0fVwGdg/non_transcode/us-east-1/periscope-replay-direct-prod-us-east-1-public/master_dynamic_delta.m3u8?type=live
+#EXTINF:-1 tvg-id="" tvg-name="ZDF HD" tvg-logo="https://cdn.phototourl.com/member/2026-10-01-f1cedafd-aa76-40b8-984a-cd83fdb3cbef.jpg" group-title="Kurdish Channels",ZDF HD
+https://relay.andam.uk:8443/proxy?url=https%3A%2F%2Fprod-fastly-us-east-1.video.pscp.tv%2FTranscoding%2Fv1%2Fhls%2FE1nqy4pzS2XPviYfVhX0hE1V0FMlAVuJCcGs_nYP4_nxt7Age5gGE5tnbCyItOevbz09oTVqmxiaYew0fVwGdg%2Fnon_transcode%2Fus-east-1%2Fperiscope-replay-direct-prod-us-east-1-public%2Fmaster_dynamic_delta.m3u8%3Ftype%3Dlive&token=009c95e9a8c6e50d992b8313bb90b01948b4a58e870bd69504a640b32306a5da
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT Sport
 https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/8JA18y0l44_0AMpCnZGgOPQgft-CsbM541KP9Nb1iBsNL6z5YphLFA1XT269eJFZyDkUDaybf-JAn4x2jhfdCw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
 #EXTINF:-1 tvg-name=""tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-11-60d4658d-8bca-4151-8e5c-839da2ffd16c.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdsat TV
