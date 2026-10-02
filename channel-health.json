@@ -1,31 +1,11 @@
 {
-  "http://api.353505.xyz:80/live/123/123/562.ts": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
   "http://api.353505.xyz:80/live/123/123/563.ts": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T02:32:32.707Z"
   },
-  "http://api.353505.xyz:80/live/123/123/169.ts": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2971.ts": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2975.ts": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
-  },
   "https://kctv.koryofront.org/stream/sports/index.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T02:34:41.977Z"
-  },
-  "http://59.103.38.46:8000/play/a126/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:34:52.946Z"
   },
   "https://live.ipstream.it/etv/etv.stream/playlist.m3u8": {
     "fails": 2,
@@ -38,10 +18,6 @@
   "https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T02:41:09.180Z"
-  },
-  "https://www.streaming.radartv.co.id/hls/test.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:41:16.522Z"
   },
   "http://193.111.198.85:8589/stream/mstv/rtbflaunelive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg": {
     "fails": 2,
@@ -74,10 +50,6 @@
   "https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=ZZDemoIPTVGH": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T02:51:35.930Z"
-  },
-  "https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:52:44.361Z"
   },
   "https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8": {
     "fails": 2,
@@ -127,10 +99,6 @@
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:05:24.757Z"
   },
-  "https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T03:06:06.221Z"
-  },
   "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:08:02.842Z"
@@ -151,341 +119,17 @@
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:13:34.316Z"
   },
-  "https://unlimited1-us.dps.live/inet2/inet2.smil/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T03:13:51.220Z"
-  },
-  "https://live20.bozztv.com/giatv/giatv-ESRAHD/ESRAHD/chunks.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T03:15:21.324Z"
-  },
   "https://live20.bozztv.com/giatv/giatv-esra2hd_kamalblbas/esra2hd_kamalblbas/chunks.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:15:21.324Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/528.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:26.148Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/539.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:26.148Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/158.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:26.148Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/620.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2894.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2895.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/160.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/560.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2896.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2897.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/162.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:32.707Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2898.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.090Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/614.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2900.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2901.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/166.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2902.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2903.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2904.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2905.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:39.091Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2906.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2908.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2909.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2910.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2911.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2912.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2913.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/400.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2915.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2921.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:45.563Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2922.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2923.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2924.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2926.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2927.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2928.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/517.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2929.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2930.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2931.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:51.989Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2932.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2933.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2934.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2935.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2936.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2937.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2938.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2939.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/208.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2946.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:32:58.467Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2947.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/212.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2948.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/213.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2949.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2950.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2951.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2953.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2955.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2956.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:04.848Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2957.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2958.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2959.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2960.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2961.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2962.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2968.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2969.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2970.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:11.207Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2974.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.549Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2976.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/2978.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/3009.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/3047.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/3048.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/3049.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
-  },
-  "http://api.353505.xyz:80/live/123/123/3050.ts": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:17.550Z"
   },
   "https://live-manifest.production-public.tubi.io/live/d8c035df-1076-4aa6-8628-da2ec80781f9/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:33:32.694Z"
   },
-  "http://181.119.66.28:8081/AZTECA-DEPORTES-HD/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:33:52.982Z"
-  },
   "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:34:11.487Z"
-  },
-  "http://170.83.49.66:8083/SPORTV3HD/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:34:41.977Z"
   },
   "http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8": {
     "fails": 1,
@@ -499,29 +143,9 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:36:12.225Z"
   },
-  "https://jmp2.uk/plu-699c1b4c9c3b075ecd513139.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:36:58.518Z"
-  },
-  "https://jmp2.uk/plu-619e1bb3e9af5a0007f235ad.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:37:05.237Z"
-  },
-  "https://jmp2.uk/plu-68bff9a63efb41cd97562e46.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:37:05.238Z"
-  },
   "https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:37:28.149Z"
-  },
-  "https://jmp2.uk/plu-657880c46e4f6a00087404d0.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:37:43.179Z"
-  },
-  "https://jmp2.uk/plu-62cd971cec90c20007081050.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:37:57.495Z"
   },
   "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8": {
     "fails": 1,
@@ -530,18 +154,6 @@
   "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:38:56.107Z"
-  },
-  "https://jmp2.uk/plu-61de96114757070008d33cae.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:40:09.443Z"
-  },
-  "https://lbgo.bozztv.com/ssh101/ssh101/telecauquenestv/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:41:32.753Z"
-  },
-  "https://jmp2.uk/rok-cdfd1ee39343a406984976d2687e894d.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:42:08.578Z"
   },
   "https://fl.biztv.media/biz_tv_720_uni8jhub4h8fub4idejswh8dh3j94finbu4nidj39inwsj92in3d/index.m3u8": {
     "fails": 1,
@@ -555,15 +167,7 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:44:16.655Z"
   },
-  "http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:45:06.345Z"
-  },
   "https://live.tele7music.ro/hls/stream/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:46:00.670Z"
-  },
-  "http://181.119.66.28:8081/TELEHIT-MUSICA/index.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:46:00.670Z"
   },
@@ -587,14 +191,6 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:47:58.174Z"
   },
-  "https://oracle.streaminghd.cl/8126/8126/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:48:12.550Z"
-  },
-  "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:48:20.388Z"
-  },
   "https://oneadriaapp.b-cdn.net/1080p/index.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:48:27.255Z"
@@ -603,17 +199,9 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:48:27.255Z"
   },
-  "http://live.topestrada.com/live/topestrada/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:49:22.370Z"
-  },
   "https://zweiapp.b-cdn.net/1080p/index.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:49:35.275Z"
-  },
-  "http://45.166.93.156:9999/play/a0f3/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:50:23.935Z"
   },
   "https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8": {
     "fails": 1,
@@ -631,17 +219,9 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:51:57.983Z"
   },
-  "https://stream.sen-gt.com/A2iReligion/myStream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:52:14.881Z"
-  },
   "https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_027/Stream/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:52:37.745Z"
-  },
-  "https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision31/iptv.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:53:07.894Z"
   },
   "https://584943999.r.worldssl.net/584943999/_definst_/vzivo/playlist.m3u8": {
     "fails": 1,
@@ -659,25 +239,9 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:54:51.883Z"
   },
-  "https://v2.tustreaming.cl/tnetv/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:54:58.748Z"
-  },
   "https://lbgo.bozztv.com/ssh101/ssh101/visiononline/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:55:33.555Z"
-  },
-  "https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480e8f2e214e5ec101da6e&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Comedy&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra%20Nova%20Distribution%20Limited_Novo%20Comedy&content_channel_name=Novo%20Comedy&content_livestream=1&AV_CONTENT_PROVIDER=Terra%20Nova%20Distribution%20Limited&ads.vidaa_ads_param=1190602996": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:55:44.516Z"
-  },
-  "http://181.119.66.28:8081/DISTRITO-COMEDIA/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:55:54.603Z"
-  },
-  "https://jmp2.uk/rok-cc72c25b76295e07862192d21bbff05b.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:56:05.044Z"
   },
   "https://8e6c868c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0NyaW1lQmVhdF9ITFM/playlist.m3u8": {
     "fails": 1,
@@ -691,14 +255,6 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:57:14.032Z"
   },
-  "https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:58:09.659Z"
-  },
-  "https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:58:09.659Z"
-  },
   "https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:59:29.943Z"
@@ -707,33 +263,13 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:59:37.315Z"
   },
-  "https://www.uvatvhd.com/hls.php?file=live.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:59:58.964Z"
-  },
   "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:01:49.773Z"
   },
-  "http://186.33.26.18:8000/play/a0nw/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:01:59.389Z"
-  },
   "https://hls.tvabierta.net/hls/009.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:02:27.237Z"
-  },
-  "https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:02:47.438Z"
-  },
-  "https://gra1.crystalweb.net:1936/epilogestv/epilogestv/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:02:54.851Z"
-  },
-  "https://online.hechosecuador.com:5443/WebRTCApp/streams/hechosecuador.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:03:12.791Z"
   },
   "https://flv.intechmedia.net/live/ch118.m3u8": {
     "fails": 1,
@@ -743,17 +279,9 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:03:47.772Z"
   },
-  "https://stream.sen-gt.com/Mbacke/myStream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:03:55.120Z"
-  },
   "https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:04:24.205Z"
-  },
-  "https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:04:58.096Z"
   },
   "https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8": {
     "fails": 1,
@@ -763,10 +291,6 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:05:31.516Z"
   },
-  "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:05:38.924Z"
-  },
   "https://vd01.streaminghd.net.ar:3113/hybrid/play.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:05:58.943Z"
@@ -774,10 +298,6 @@
   "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_channelId=88814573": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:06:17.852Z"
-  },
-  "https://alpha.tv.online.tm/hls/ch007.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:06:36.502Z"
   },
   "https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8": {
     "fails": 1,
@@ -787,53 +307,17 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:06:55.662Z"
   },
-  "https://ds.tvabierta.net/memfs/b295f254-7af9-45e4-bfc6-7e0bba41929d.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:07:23.060Z"
-  },
   "https://glorystartv.live/Overcomers/index.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:07:49.255Z"
-  },
-  "https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:08:11.669Z"
   },
   "https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:08:55.097Z"
   },
-  "https://alpha.tv.online.tm/hls/ch000.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:09:13.906Z"
-  },
   "https://ifl01eu-new.bozztv.com/am1abr/index.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:09:13.906Z"
-  },
-  "https://stream.berosat.live/hls/der-tv/der-tv.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:09:49.308Z"
-  },
-  "https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:11:32.719Z"
-  },
-  "http://41.205.93.154/BRAVO/index.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:11:32.719Z"
-  },
-  "https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:11:40.380Z"
-  },
-  "http://arcast.net:1935/mp/mp/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:11:47.724Z"
-  },
-  "https://elche7tv.gestec-video.com/hls/canal2.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:12:02.859Z"
   },
   "http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8": {
     "fails": 1,
@@ -846,22 +330,6 @@
   "http://122.248.43.242:1935/SULTRATV/_definst_/myStream/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:13:44.049Z"
-  },
-  "https://cnn.hostlagarto.com/supercanalhd/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:13:44.049Z"
-  },
-  "https://jmp2.uk/plu-6391cef9edb23c0008598cee.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:14:04.936Z"
-  },
-  "https://stream.pikanal.rs/pikanal/pgm.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:14:25.615Z"
-  },
-  "https://canadaremar2.todostreaming.es/live/argentina-web.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:14:32.868Z"
   },
   "https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8": {
     "fails": 1,
