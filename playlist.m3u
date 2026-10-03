@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#EXTINF:-1 tvg-name="AVA TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-07-e9bc4454-6cbd-49dc-9227-13a1f5eb6413.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA TV
+#EXTINF:-1 tvg-name="AVA TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-d649574c-0000-4562-9542-745d69409397.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA TV
 http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
 #EXTINF:-1 tvg-name="Kurdmax Sorani TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="https://www.kurdmax.tv/",Kurdmax Sorani TV
 #EXTVLCOPT:http-referrer=https://www.kurdmax.tv/
@@ -38,7 +38,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 #EXTINF:-1 tvg-name="4 Kurd"tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-08-48468b86-fdbd-4aae-b91e-35f7018401a1.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",4 Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="Avar TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-08-07-0085bb1c-4e4c-499e-9b64-bf3f5e72c202.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Avar TV
+#EXTINF:-1 tvg-name="Avar TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-0b0a5a54-fa61-4333-a4c7-d94a0f87a4fe.webp"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Avar TV
 https://avr.host247.net/live/AvarTv/playlist.m3u8
 #EXTINF:-1 tvg-name="Kurd Channel"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-a4d34948-12d9-4a11-8f5a-d85742ff70f1.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurd Channel
 https://kurdchhls.wns.live/hls/stream.m3u8
