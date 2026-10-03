@@ -598,24 +598,22 @@ https://d3o0lv2x93e6yf.cloudfront.net/31004/88887723/hls/master.m3u8?ads.xumo_ch
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887725/hls/master.m3u8?ads.xumo_channelId=88887725&ads.xumo_streamId=88887725&ads.csid=sitesection:FAST:VIDAA:SkyArtistOfTheYear&ads.xumo_channelName=skyartistoftheyear&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7367
 #EXTINF:-1 tvg-name="Sky Sports Vault"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8aad803f-2d75-4db7-a83d-8b112f039d0f.jpg"tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Vault
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887726/hls/master.m3u8?ads.xumo_channelId=88887726&ads.xumo_streamId=88887726&ads.csid=sitesection:FAST:VIDAA:SkySportsVault&ads.xumo_channelName=skysportsvault&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7526
-#EXTINF:-1 tvg-name="ACI Sport TV"tvg-id=""tvg-logo="https://i.imgur.com/U8cHMOt.png"tvg-chno=""group-title="Sports":http-referrer="",ACI Sport TV
+#EXTINF:-1 tvg-name="ACI Sport TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-5d9eceea-4d6c-45bb-b5ba-41c6a51ecedd.png"tvg-chno=""group-title="Sports":http-referrer="",ACI Sport TV
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
-#EXTINF:-1 tvg-name="Bahrain Sports 1"tvg-id=""tvg-logo="https://i.imgur.com/fBpLsbC.png"tvg-chno=""group-title="Sports":http-referrer="",Bahrain Sports 1
+#EXTINF:-1 tvg-name="Bahrain Sports 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-2f392834-511a-478e-bfe1-64a86c6b50ba.jpg"tvg-chno=""group-title="Sports":http-referrer="",Bahrain Sports 1
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
-#EXTINF:-1 tvg-name="Bahrain Sports 2"tvg-id=""tvg-logo="https://i.imgur.com/ZkuZmIo.png"tvg-chno=""group-title="Sports":http-referrer="",Bahrain Sports 2
+#EXTINF:-1 tvg-name="Bahrain Sports 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-2f392834-511a-478e-bfe1-64a86c6b50ba.jpg"tvg-chno=""group-title="Sports":http-referrer="",Bahrain Sports 2
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="BEK TV Sports West"tvg-id=""tvg-logo="https://i.imgur.com/1l3t5jd.png"tvg-chno=""group-title="Sports":http-referrer="",BEK TV Sports West
+#EXTINF:-1 tvg-name="BEK TV Sports West"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-5f0c801f-0b68-4f9b-acf1-88dd1119236f.png"tvg-chno=""group-title="Sports":http-referrer="",BEK TV Sports West
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="DD Sports"tvg-id=""tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540"tvg-chno=""group-title="Sports":http-referrer="",DD Sports
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
 #EXTINF:-1 tvg-name="ESPN8 The Ocho"tvg-id=""tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png"tvg-chno=""group-title="Sports":http-referrer="",ESPN8 The Ocho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
-#EXTINF:-1 tvg-name="FTF Sports"tvg-id=""tvg-logo="https://i.imgur.com/yvUjOI3.png"tvg-chno=""group-title="Sports":http-referrer="",FTF Sports
+#EXTINF:-1 tvg-name="FTF Sports"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-11e12877-ac96-43a7-b4ff-7e18edebc39f.jpg"tvg-chno=""group-title="Sports":http-referrer="",FTF Sports
 https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
-#EXTINF:-1 tvg-name="fubo Sports Network"tvg-id=""tvg-logo="https://i.imgur.com/qFNRJLb.png"tvg-chno=""group-title="Sports":http-referrer="",fubo Sports Network
-https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-name="M Sports"tvg-id=""tvg-logo="https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png"tvg-chno=""group-title="Sports":http-referrer="",M Sports
 https://cdn.rabta.stream/M-Sports/index.m3u8
 #EXTINF:-1 tvg-name="MNB Sport"tvg-id=""tvg-logo="https://i.imgur.com/z854PC3.png"tvg-chno=""group-title="Sports":http-referrer="",MNB Sport
