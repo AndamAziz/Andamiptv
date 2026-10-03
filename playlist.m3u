@@ -586,11 +586,17 @@ https://andam.uk/vod/video_507da1/index.m3u8
 https://andam.uk/vod/video_2d0a48/index.m3u8
 #EXTINF:-1 tvg-name="ستایش - S01E05 (ئەڵقەی ٥)"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg"tvg-chno=""group-title="Setayesh":http-referrer="",ستایش - S01E05
 https://andam.uk/vod/video_076535/index.m3u8
-#EXTINF:-1 tvg-name="Sky Sports Classics"tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Classics
+#EXTINF:-1 tvg-name="Saudi Sports 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Saudi Sports 1
+https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/Jy-jJW98PcuclhTKoy_z7bjXx-RLYQ-aaF0K5C2wSV9bXxzncdcMrAObtLfR6IYnqGjFNvy-aEYeks-wKZ77mw/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
+#EXTINF:-1 tvg-name="Saudi Sports 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Saudi Sports 2
+https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/iTAZhczmnHXl1l2AbGD4mr9fg2IIt8BO96OTghEm2A3xhlExYmnPYbGXxnwgmRf28CLpR0EMprJJJYQH4B-4ig/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
+#EXTINF:-1 tvg-name="Saudi Sports 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Saudi Sports 3
+https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/F41vc_GUvFXlO1rDBgqrFNKLePOS0xhUkGsngQetAYO7NeT25kBN2GPXbzY7hiBT-tA-4IM3Bwlsl8xkGkZD0g/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
+#EXTINF:-1 tvg-name="Sky Sports Classics"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-6b6ea0b8-7fd0-437a-a3cb-cabea0bc17c2.jpg"tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Classics
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887723/hls/master.m3u8?ads.xumo_channelId=88887723&ads.xumo_streamId=88887723&ads.csid=sitesection:FAST:VIDAA:SkySportsClassics&ads.xumo_channelName=skysportsclassics&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7524
-#EXTINF:-1 tvg-name="Sky Sports Stories"tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Stories
+#EXTINF:-1 tvg-name="Sky Sports Stories"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-ac3698b1-b36c-4f42-a60b-ee7e7fca67d8.jpg"tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Stories
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887725/hls/master.m3u8?ads.xumo_channelId=88887725&ads.xumo_streamId=88887725&ads.csid=sitesection:FAST:VIDAA:SkyArtistOfTheYear&ads.xumo_channelName=skyartistoftheyear&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7367
-#EXTINF:-1 tvg-name="Sky Sports Vault"tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Vault
+#EXTINF:-1 tvg-name="Sky Sports Vault"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8aad803f-2d75-4db7-a83d-8b112f039d0f.jpg"tvg-chno=""group-title="Sports":http-referrer="",Sky Sports Vault
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887726/hls/master.m3u8?ads.xumo_channelId=88887726&ads.xumo_streamId=88887726&ads.csid=sitesection:FAST:VIDAA:SkySportsVault&ads.xumo_channelName=skysportsvault&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7526
 #EXTINF:-1 tvg-name="ACI Sport TV"tvg-id=""tvg-logo="https://i.imgur.com/U8cHMOt.png"tvg-chno=""group-title="Sports":http-referrer="",ACI Sport TV
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
