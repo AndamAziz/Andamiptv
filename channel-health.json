@@ -67,14 +67,6 @@
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:03:32.737Z"
   },
-  "https://tv.pointville.ag/hls/mystream.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T03:05:06.746Z"
-  },
-  "https://tv.telselec.cl:3376/live/nublefmlive.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T03:05:24.757Z"
-  },
   "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:08:02.842Z"
@@ -82,10 +74,6 @@
   "https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:09:04.421Z"
-  },
-  "https://movil.ejeserver.com/live/nextv.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T03:10:28.093Z"
   },
   "http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg": {
     "fails": 2,
@@ -122,10 +110,6 @@
   "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:38:56.107Z"
-  },
-  "https://v3.siar.us/ficomchannel/live/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:44:16.655Z"
   },
   "https://live.tele7music.ro/hls/stream/index.m3u8": {
     "fails": 1,

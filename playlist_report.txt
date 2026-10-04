@@ -1,14 +1,14 @@
-M3U Cleaner report - 2026-10-03 02:24:52
+M3U Cleaner report - 2026-10-04 02:53:57
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  9814
+Total channels kept:  9816
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
   Kurdish Channels: 243
-  Sports: 470
+  Sports: 472
   11. Movies - فیلم: 491
   12. Series & Drama - زنجیرە و دراما: 247
   18. Documentary - دۆکیومێنتاری: 238
