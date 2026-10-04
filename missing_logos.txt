@@ -16,12 +16,14 @@ ABC 5 St. Paul MN
 ABN Freedom of Speech
 ABN I AM
 ABN Son of God
+ACADEMY AMOZHGARI TV
 AFV with Alfonso Ribeiro
 AR | QATAR TV
 ARD Plus Krimi
 ARD Plus Lindenstraße
 ARTFLIX - Filmklassiker
 ARTFLIX - Películas Clásicas
+ASHTI QURAN TV
 AVA Family
 AVAZ
 Absinthe TV
@@ -40,6 +42,7 @@ AfroLand Nollywood
 AfroLand Romance
 Afroland Featured
 Al Loba
+AlTERNATIVE SHARAY TV
 Alerte Cobra
 Alfred Hitchcock Presents
 Alien Nation
@@ -67,6 +70,7 @@ Ashti Quran
 Automotion
 Autostop Per Il Cielo
 Ax Men
+BANGAWAZ TV
 BBC Drama Italy
 BBC Top Gear
 BBC Top Gear Finland
@@ -193,6 +197,9 @@ Dude Perfect
 DunyaTV
 ESRA
 ESRA 2
+ESRA TV
+ESRA TV 2
+EURO KURD TV
 EWTN Ukraine
 Easy Listening
 Emergency 24/7
@@ -242,6 +249,8 @@ Four in a Bed
 France 24 FAST English
 FreeTV Estelar
 G-eye TV
+GEWHER SPORT TV
+GEWHER TV
 GG Good Game
 GOOD TV CH12 維他命施
 GOOD TV CH14 真情部落格
@@ -323,6 +332,7 @@ Hunter x Hunter
 I Survived
 I Survived…
 ICC Plus
+IMK QURAN TV
 IMK TV
 INA Ardivision
 IRIB Kermanshah
@@ -348,69 +358,11 @@ JAJAJA
 Jack Hanna
 Jewelry TV 2
 Jodha Akbar
+KELGA TV
 KHAK
 KHAK FM
-KU | ACADEMY AMOZHGARI TV
-KU | ASHTI QURAN TV
-KU | AlTERNATIVE SHARAY TV
-KU | BANGAWAZ TV
-KU | BARIN FAMILY TV
-KU | BARIN MOVIES TV
-KU | BASK TV
-KU | CHANNEL 8
-KU | CNN TV
-KU | ESRA TV
-KU | ESRA TV 2
-KU | EURO KURD TV
-KU | GEWHER SPORT TV
-KU | GEWHER TV
-KU | GK+ TV
-KU | IMK QURAN TV
-KU | IMK TV
-KU | KELGA TV
-KU | KHAK TV
-KU | KIDCO TV
-KU | KURD7 TV
-KU | MARAYA KIDS TV
-KU | MIHRAB FM
-KU | MIX TV
-KU | MMN ACTION TV
-KU | MMN ART TV
-KU | MMN DOCUMENTARY TV
-KU | MMN NEWS TV
-KU | MMN SPORT TV
-KU | NETFLIX ACTION
-KU | NETFLIX ACTION 2
-KU | NETFLIX ACTION 3
-KU | NETFLIX ANIME
-KU | NETFLIX COMEDY
-KU | NETFLIX DRAMA 1
-KU | NETFLIX DRAMA 2
-KU | NETFLIX KIDS
-KU | NEW ACTION TV
-KU | NEW FAMILY TV
-KU | NEW MOVIES TV
-KU | NUÇÊ TV
-KU | PARWARDAYI DUHOK TV
-KU | PARWARDAYI HEWLER TV
-KU | PARWARDAYI SLEMANI TV
-KU | PAYAM TV
-KU | PESHANG TV
-KU | PESHMARGA TV
-KU | RAWSHAN TV
-KU | RED TV
-KU | REHBER TV
-KU | RUDAW TV
-KU | SADA TV
-KU | SHAR TV
-KU | SHNA TV
-KU | SOZ QURAN TV
-KU | SOZ TV
-KU | SPEDA DRAMA TV
-KU | SPEDA TV
-KU | SPI QURAN TV
-KU | ZAROK TV
-KU | ZAYTOUN SPORT TV
+KHAK TV
+KIDCO TV
 Kanal 32
 Kidco
 Kiddo+
@@ -421,7 +373,7 @@ Kurd Mix _ Sweden
 LADbible
 La Fiebre del Jade
 La Maison France 5
-La chaine du fait divers"tvg-id="homicide-fast-media"tvg-logo=""tvg-chno=""group-title="21. Crime & Mystery - تاوان و نهێنی":http-referrer="",La chaine du fait divers
+La chaine du fait divers
 Ladykracher powered by myspass
 Lanthung TV
 Las 3 Marias
@@ -455,7 +407,11 @@ LooLoo Kids
 LooLoo Kids TV
 Love Crime and History Spain
 LoveWorld USA
+MARAYA KIDS TV
 MHz Mysteries
+MIHRAB FM
+MMN ACTION TV
+MMN ART TV
 MMN Action
 MMN Quran
 MMN SHOW
@@ -487,11 +443,18 @@ Muslim Network TV
 MyZen Wellbeing TV
 Mytime
 Mytime Movies
-Más Pasiones"tvg-id="db95a237643ea0eea113c6c024515df2"tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/db95a237643ea0eea113c6c024515df2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728506237013_LOGO_TODO_NOVELAS_HUD_260x147SusyGomez.png"tvg-chno="1001"group-title="15. Entertainment - سەرگەرمی":http-referrer="",Todo Novelas Más Pasiones
 NBC 4 Albuquerque NM
 NBC Chicago News
+NETFLIX ACTION
+NETFLIX ACTION 2
+NETFLIX ACTION 3
+NETFLIX ANIME
+NETFLIX COMEDY
+NETFLIX DRAMA 1
+NETFLIX DRAMA 2
 NEW KFOOD
 NHL
+NUÇÊ TV
 Nature Time C14
 News 18 Madhya Pradesh Geo
 News 18 Uttarakhand Geo
@@ -505,8 +468,13 @@ Novo Tempo
 Omroep Brabant Radio
 One Championship WL
 Outdoor Action
+PARWARDAYI DUHOK TV
+PARWARDAYI HEWLER TV
+PARWARDAYI SLEMANI TV
 PBS KET2
 PBS Science
+PESHANG TV
+PESHMARGA TV
 PICK Monkey Rescue
 PMC Royale
 Parwardayi Hawler
@@ -531,6 +499,7 @@ Quantum Leap
 Qui Veut Gagner des Millions
 Qui Veut Gagner des Millions?
 Qui veut gagner des millions Geo
+RAWSHAN TV
 ROJHELAT
 ROMCOM K-Drama
 RTV Arnhem
@@ -557,7 +526,11 @@ Royalworld Germany
 Rudaw Radio
 Rugby Pass TV
 SHNA TV
+SOZ QURAN TV
+SOZ TV
+SPEDA DRAMA TV
 SPI
+SPI QURAN TV
 SURFER TV
 Saga Music Haryanvi
 Sardari TV
@@ -579,9 +552,6 @@ Shark TV
 Shna Doc
 Sikh Ratnavali
 Silent Witness and New Tricks
-Sky Sports Classics
-Sky Sports Stories
-Sky Sports Vault
 Smooth Jazz
 Smosh
 Soap Turco
@@ -725,6 +695,7 @@ Xena Warrior Princess
 Xploration Station
 Xtreme Outdoor Presented by HISTORY
 Xumo Películas Gratis
+ZAYTOUN SPORT TV
 ZAZ
 Zagros 24
 Zainabia Channel
