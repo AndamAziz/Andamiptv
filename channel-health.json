@@ -67,10 +67,6 @@
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:03:32.737Z"
   },
-  "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T03:08:02.842Z"
-  },
   "https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T03:09:04.421Z"
@@ -216,10 +212,6 @@
     "lastFailedAt": "2026-10-01T03:06:17.852Z"
   },
   "https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:06:55.662Z"
-  },
-  "https://live-evg11.tv360.bitel.com.pe/bitel/tvchincha/playlist.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:06:55.662Z"
   },
