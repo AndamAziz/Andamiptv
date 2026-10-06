@@ -7,10 +7,6 @@
     "fails": 2,
     "lastFailedAt": "2026-10-01T02:38:56.107Z"
   },
-  "https://59d39900ebfb8.streamlock.net/untv-720/untv-720/playlist.m3u8": {
-    "fails": 2,
-    "lastFailedAt": "2026-10-01T02:39:15.286Z"
-  },
   "https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8": {
     "fails": 2,
     "lastFailedAt": "2026-10-01T02:41:09.180Z"
