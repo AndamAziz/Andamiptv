@@ -1,4 +1,4 @@
-M3U Cleaner report - 2026-10-07 02:45:55
+M3U Cleaner report - 2026-10-07 19:04:17
 Source: playlist.m3u
 Output: playlist.m3u
 
@@ -7,30 +7,31 @@ Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
+  Kurdish Drama: 50
   Kurdish Channels: 247
   Sports: 472
-  11. Movies - فیلم: 491
-  12. Series & Drama - زنجیرە و دراما: 247
-  18. Documentary - دۆکیومێنتاری: 238
-  13. News - هەواڵ: 1062
-  15. Entertainment - سەرگەرمی: 560
-  16. Music - مۆسیقا: 737
-  17. Kids & Family - منداڵان و خێزان: 317
-  19. Religious - ئایینی: 591
-  20. Comedy - کۆمیدی: 93
-  21. Crime & Mystery - تاوان و نهێنی: 141
-  22. Reality & Game Shows - ڕیالیتی و یاری: 131
-  23. Sci-Fi & Horror - زانستی خەیاڵی و ترسناک: 57
-  24. Classic & Western - کلاسیک و وێستەرن: 99
-  25. Lifestyle & Travel - شێوازی ژیان و گەشتوگوزار: 279
-  26. Culture - کەلتوور: 112
-  27. Education - پەروەردە: 116
-  28. Business - بازرگانی: 52
-  29. Shopping - کڕین: 69
-  30. Weather - کەشوهەوا: 10
-  31. Legislative & Public - یاسادانان و گشتی: 147
-  32. Anime & Gaming - ئەنیمە و یاری: 9
-  33. Local Channels - کەناڵە ناوخۆییەکان: 15
-  34. Smart TV Channels - کەناڵی سمارت تیڤی: 514
-  35. General - گشتی: 1330
-  36. Uncategorized - نەپۆلێنکراو: 1684
+  Movies: 491
+  Series & Drama: 247
+  Documentary: 238
+  News: 1062
+  Entertainment: 560
+  Music: 737
+  Kids & Family: 317
+  Religious: 591
+  Comedy: 93
+  Crime & Mystery: 141
+  Reality & Game Shows: 131
+  Sci-Fi & Horror: 57
+  Classic & Western: 99
+  Lifestyle & Travel: 279
+  Culture: 112
+  Education: 116
+  Business: 52
+  Shopping: 69
+  Weather: 10
+  Legislative & Public: 147
+  Anime & Gaming: 9
+  Local Channels: 15
+  Smart TV Channels: 514
+  General: 1330
+  Uncategorized: 1634
