@@ -80,5 +80,16 @@ jobs:
         run: |
           git add playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json dead-channels.txt
           git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]"
-          git pull origin main --rebase
+          if ! git pull origin main --rebase; then
+            # main moved while this long run was going (e.g. a merged PR) and
+            # playlist.m3u conflicts. The playlist is generated, so rebuild it
+            # on top of the latest main instead of hand-resolving a conflict.
+            git rebase --abort
+            cp dead-channels.txt channel-health.json "$RUNNER_TEMP/"
+            git reset --hard origin/main
+            cp "$RUNNER_TEMP/dead-channels.txt" "$RUNNER_TEMP/channel-health.json" .
+            python build_playlist.py --overwrite
+            git add playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json dead-channels.txt
+            git commit -m "Daily update (rebuilt on latest main): clean, categorize [skip ci]"
+          fi
           git push origin main
