@@ -62,14 +62,14 @@ jobs:
       - name: Clean & categorize playlist
         run: python build_playlist.py --overwrite
 
-      # Step 2: drop channels whose stream URL is no longer reachable.
-      - name: Remove dead channels
+      # Step 2: list unreachable stream URLs in dead-channels.txt. Does not modify playlist.m3u.
+      - name: Report dead channels (report only, never removes)
         run: node check-dead-channels.mjs
 
       - name: Check for changes
         id: git_status
         run: |
-          if [ -n "$(git status --porcelain -- playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json)" ]; then
+          if [ -n "$(git status --porcelain -- playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json dead-channels.txt)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -78,7 +78,7 @@ jobs:
       - name: Commit and push changes
         if: steps.git_status.outputs.changed == 'true'
         run: |
-          git add playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json
+          git add playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json dead-channels.txt
           git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]"
           git pull origin main --rebase
           git push origin main
