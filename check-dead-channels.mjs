@@ -97,12 +97,6 @@ async function processPlaylist() {
             if (isValid) {
                 delete state[entry.url];
             } else {
-                const prev = state[entry.url] || { fails: 0, firstFailedAt: now };
-                state[entry.url] = {
-                    fails: prev.fails + 1,
-                    firstFailedAt: prev.firstFailedAt || prev.lastFailedAt || now,
-                    lastFailedAt: now
-                };
                 deadNow.push(entry);
             }
         }
@@ -112,12 +106,22 @@ async function processPlaylist() {
 
     // playlist.m3u is NEVER modified here. Dead links are only reported
     // (dead-channels.txt) so they can be reviewed and removed by hand.
+    // one line (and one fail count) per URL, even if several entries share it
+    const uniqueDead = [...new Map(deadNow.map(e => [e.url, e])).values()];
+    for (const { url } of uniqueDead) {
+        const prev = state[url] || { fails: 0, firstFailedAt: now };
+        state[url] = {
+            fails: prev.fails + 1,
+            firstFailedAt: prev.firstFailedAt || prev.lastFailedAt || now,
+            lastFailedAt: now
+        };
+    }
     saveState(state);
 
     let report = `Dead link report - ${now}\n`;
-    report += `Checked: ${entries.length} | Not responding today: ${deadNow.length}\n`;
+    report += `Checked: ${entries.length} | Not responding today (unique links): ${uniqueDead.length}\n`;
     report += `NOTHING was removed from playlist.m3u. Test each link yourself before deleting.\n\n`;
-    deadNow
+    uniqueDead
         .sort((a, b) => state[b.url].fails - state[a.url].fails)
         .forEach(entry => {
             const name = entry.inf.split(',').slice(1).join(',').trim();
@@ -126,7 +130,7 @@ async function processPlaylist() {
         });
     fs.writeFileSync(REPORT_FILE, report, 'utf8');
 
-    console.log(`Done. Not responding: ${deadNow.length} / ${entries.length}. Playlist left untouched. See ${REPORT_FILE}`);
+    console.log(`Done. Not responding: ${uniqueDead.length} / ${entries.length}. Playlist left untouched. See ${REPORT_FILE}`);
 }
 
 processPlaylist();
