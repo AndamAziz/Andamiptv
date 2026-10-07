@@ -2,11 +2,11 @@ import fs from 'fs';
 
 const PLAYLIST_FILE = 'playlist.m3u';
 const STATE_FILE = 'channel-health.json';
+const REPORT_FILE = 'dead-channels.txt';
 const TIMEOUT = 15000;       // 15s per attempt
 const CONCURRENCY = 10;      // avoids provider rate-limiting
 const RETRIES = 3;           // attempts within THIS run before calling it a fail today
 const RETRY_DELAY = 3000;    // wait 3s between attempts
-const FAIL_THRESHOLD = 3;    // must fail this many CONSECUTIVE DAILY runs before permanent removal
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -81,9 +81,8 @@ async function processPlaylist() {
     console.log(`Total channels to check: ${entries.length}`);
 
     const state = loadState();
-    let validEntries = [];
-    let removedCount = 0;
-    let atRiskCount = 0;
+    const deadNow = [];
+    const now = new Date().toISOString();
 
     for (let i = 0; i < entries.length; i += CONCURRENCY) {
         const batch = entries.slice(i, i + CONCURRENCY);
@@ -95,33 +94,39 @@ async function processPlaylist() {
         );
 
         for (const { entry, isValid } of results) {
-            // هەموو کەناڵێک دەهێڵینەوە بێ ئەوەی سڕینەوە ڕووبدات، تەنها لە لۆگەکاندا باسی دەکەین ئەگەر کار نەکات
             if (isValid) {
-                if (state[entry.url]) delete state[entry.url];
-                validEntries.push(entry);
+                delete state[entry.url];
             } else {
-                // لێرەدا سەرەڕای ئەوەی کار ناکات، بەڵام دیسانەوە دەیخەینەوە ناو فایلی پەیلیستەکەوە و نایسڕینەوە
-                validEntries.push(entry);
-                console.log(`DEAD LINK KEPT (Not Removed): ${entry.url}`);
+                const prev = state[entry.url] || { fails: 0, firstFailedAt: now };
+                state[entry.url] = {
+                    fails: prev.fails + 1,
+                    firstFailedAt: prev.firstFailedAt || prev.lastFailedAt || now,
+                    lastFailedAt: now
+                };
+                deadNow.push(entry);
             }
         }
 
         console.log(`Checked ${Math.min(i + CONCURRENCY, entries.length)} / ${entries.length}`);
     }
 
-    let newM3U = '#EXTM3U\n';
-    validEntries.forEach(entry => {
-        newM3U += `${entry.inf}\n`;
-        entry.extras.forEach(e => { newM3U += `${e}\n`; });
-        newM3U += `${entry.url}\n`;
-    });
-
-    fs.writeFileSync(PLAYLIST_FILE, newM3U, 'utf8');
+    // playlist.m3u is NEVER modified here. Dead links are only reported
+    // (dead-channels.txt) so they can be reviewed and removed by hand.
     saveState(state);
 
-    console.log(`Cleanup complete. Valid channels remaining: ${validEntries.length} / ${entries.length}`);
-    console.log(`Removed permanently (${FAIL_THRESHOLD}+ consecutive daily fails): ${removedCount}`);
-    console.log(`At risk (failed today, kept pending confirmation): ${atRiskCount}`);
+    let report = `Dead link report - ${now}\n`;
+    report += `Checked: ${entries.length} | Not responding today: ${deadNow.length}\n`;
+    report += `NOTHING was removed from playlist.m3u. Test each link yourself before deleting.\n\n`;
+    deadNow
+        .sort((a, b) => state[b.url].fails - state[a.url].fails)
+        .forEach(entry => {
+            const name = entry.inf.split(',').slice(1).join(',').trim();
+            const st = state[entry.url];
+            report += `[${st.fails} day(s) in a row, since ${st.firstFailedAt.slice(0, 10)}] ${name}\n${entry.url}\n\n`;
+        });
+    fs.writeFileSync(REPORT_FILE, report, 'utf8');
+
+    console.log(`Done. Not responding: ${deadNow.length} / ${entries.length}. Playlist left untouched. See ${REPORT_FILE}`);
 }
 
 processPlaylist();
