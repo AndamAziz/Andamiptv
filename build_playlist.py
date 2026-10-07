@@ -39,7 +39,7 @@ DEFAULT_CATEGORIES_FILE = "categories.json"
 # Always sorts last. The label actually written into group-title is
 # UNCATEGORIZED_LABEL below, not this raw key.
 UNCATEGORIZED_KEY = "Other"
-UNCATEGORIZED_LABEL = "36. Uncategorized - نەپۆلێنکراو"
+UNCATEGORIZED_LABEL = "Uncategorized"
 
 DEFAULT_CATEGORIES = {
     "Kurdish Channels": ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "gkurd", "zagros"],
