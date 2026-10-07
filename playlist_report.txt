@@ -1,16 +1,15 @@
-M3U Cleaner report - 2026-10-07 19:04:17
+M3U Cleaner report - 2026-10-07 22:37:23
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  9820
+Total channels kept:  9821
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
-  Kurdish Drama: 50
   Kurdish Channels: 247
   Sports: 472
-  Movies: 491
+  Movies TV: 491
   Series & Drama: 247
   Documentary: 238
   News: 1062
@@ -35,3 +34,5 @@ Malformed/skipped:    0
   Smart TV Channels: 514
   General: 1330
   Uncategorized: 1634
+  Movies: 1
+  Kurdish Drama: 50
