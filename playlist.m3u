@@ -19640,3 +19640,5 @@ https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
 #EXTINF:-1 tvg-name="AR | SHARQIA TV"tvg-id=""tvg-logo="https://i.imgur.com/mJIG5IV.png"tvg-chno=""group-title="Uncategorized":http-referrer="",AR | SHARQIA TV
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZmY2NjRmNmItYWRhZC00OTgzLWIyYzEtMzhhZjZkYjQ3OWYxXkEyXkFqcGc@._V1_FMjpg_UX718_.jpg" group-title="Movies",The Lizard
+https://streaming.imvbox.com/media/4052/4052.m3u8
