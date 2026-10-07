@@ -86,6 +86,21 @@ def categorize_channel(extinf_line: str, categories: dict) -> str:
     return UNCATEGORIZED_KEY
 
 
+VOD_TYPE_RE = re.compile(r'tvg-type="(movie|series)"', re.IGNORECASE)
+VOD_RANK = {"movie": 0, "series": 1}
+
+
+def vod_type(extinf_line: str):
+    """Return 'movie' / 'series' for VOD entries (tvg-type tag), else None (= live channel)."""
+    m = VOD_TYPE_RE.search(extinf_line)
+    return m.group(1).lower() if m else None
+
+
+def get_group_title(extinf_line: str) -> str:
+    m = re.search(r'group-title="([^"]*)"', extinf_line)
+    return m.group(1) if m else UNCATEGORIZED_LABEL
+
+
 def clean_name(extinf_line: str) -> str:
     """Strip quality/resolution tags and bracketed junk from the display name only."""
     if ',' not in extinf_line:
@@ -182,19 +197,35 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             continue
         seen_urls.add(clean_url)
 
-        category = categorize_channel(extinf_line, categories)
-        display_label = UNCATEGORIZED_LABEL if category == UNCATEGORIZED_KEY else category
-        extinf_line = set_group_title(extinf_line, display_label)
+        vtype = vod_type(extinf_line)
+        if vtype:
+            # Movies / series (tvg-type tag): keep the group-title exactly as written,
+            # never re-categorize by keyword. They are sorted after all live channels.
+            category = get_group_title(extinf_line)
+        else:
+            category = categorize_channel(extinf_line, categories)
+            display_label = UNCATEGORIZED_LABEL if category == UNCATEGORIZED_KEY else category
+            extinf_line = set_group_title(extinf_line, display_label)
         extinf_line = clean_name(extinf_line)
 
-        channels.append({"extinf": extinf_line, "extras": extras, "url": url_line, "category": category})
+        channels.append({"extinf": extinf_line, "extras": extras, "url": url_line,
+                         "category": category, "vod": vtype})
 
     priority = {name: idx for idx, name in enumerate(categories.keys())}
     priority[UNCATEGORIZED_KEY] = len(priority)
 
+    # Live channels first (categories.json order, Uncategorized last), then movies, then series.
+    vod_first_seen: dict[str, int] = {}
+    for ch in channels:
+        if ch["vod"]:
+            vod_first_seen.setdefault(ch["category"], len(vod_first_seen))
+    live_end = len(priority)
+
     def sort_key(ch):
         name_part = ch["extinf"].split(",", 1)[-1].strip().lower() if sort_alpha else ""
-        return (priority.get(ch["category"], 999), name_part)
+        if ch["vod"]:
+            return (live_end + 1 + VOD_RANK[ch["vod"]], vod_first_seen[ch["category"]], "")
+        return (priority.get(ch["category"], live_end), 0, name_part)
 
     channels.sort(key=sort_key)
 
