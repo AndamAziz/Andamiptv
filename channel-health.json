@@ -167,10 +167,6 @@
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:56:24.735Z"
   },
-  "https://5f700d5b2c46f.streamlock.net/chacratv/chacratv/playlist.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T02:57:14.032Z"
-  },
   "https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T02:59:29.943Z"
@@ -190,10 +186,6 @@
   "https://stream.luci.xyz/hls/LTV.m3u8": {
     "fails": 1,
     "lastFailedAt": "2026-10-01T03:03:47.772Z"
-  },
-  "https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8": {
-    "fails": 1,
-    "lastFailedAt": "2026-10-01T03:04:24.205Z"
   },
   "https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8": {
     "fails": 1,
