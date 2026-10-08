@@ -19538,9 +19538,9 @@ https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
 #EXTINF:-1 tvg-name="AR | SHARQIA TV"tvg-id=""tvg-logo="https://i.imgur.com/mJIG5IV.png"tvg-chno=""group-title="Uncategorized":http-referrer="",AR | SHARQIA TV
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
-#EXTINF:-1 tvg-name="Atash bas"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-08-2e234d04-0342-4ac0-8fce-5c2213a8beb7.jpg"tvg-chno=""tvg-type="movie"group-title="Movies":http-referrer="",Atash bas
+#EXTINF:-1 tvg-name="Atash bas"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-08-2e234d04-0342-4ac0-8fce-5c2213a8beb7.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",Atash bas
 https://streaming.imvbox.com/media/2302/1280x720/1280x720.m3u8
-#EXTINF:-1 tvg-name="The Lizard"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BZmY2NjRmNmItYWRhZC00OTgzLWIyYzEtMzhhZjZkYjQ3OWYxXkEyXkFqcGc@._V1_FMjpg_UX718_.jpg"tvg-chno=""tvg-type="movie"group-title="Movies":http-referrer="",The Lizard
+#EXTINF:-1 tvg-name="The Lizard"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BZmY2NjRmNmItYWRhZC00OTgzLWIyYzEtMzhhZjZkYjQ3OWYxXkEyXkFqcGc@._V1_FMjpg_UX718_.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",The Lizard
 https://streaming.imvbox.com/media/4052/1280x720/1280x720.m3u8
 #EXTINF:-1 tvg-name="پێغەمبەر یوسف - S01E01 (ئەڵقەی ١)"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="Kurdish Drama":http-referrer="",پێغەمبەر یوسف - S01E01
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_063ae6/index.m3u8
@@ -19662,5 +19662,5 @@ https://andam.uk/vod/video_21e6d4/index.m3u8
 https://andam.uk/vod/video_588d93/index.m3u8
 #EXTINF:-1 tvg-name="ستایش - S01E15"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-9693ef7f-c3c2-40bc-b4c7-880c996630ef.jpg"tvg-chno=""tvg-type="series"group-title="Kurdish Drama":http-referrer="",ستایش - S01E15
 https://andam.uk/vod/video_de6425/index.m3u8
-#EXTINF:-1 tvg-name="Let Me Live (بگذار زندگی کنم)"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-08-282b25fc-9226-4b5f-8119-cb2e0ebfa2f8.jpg"tvg-chno=""tvg-type="movie"group-title="Movies":http-referrer="",Let Me Live (بگذار زندگی کنم)
+#EXTINF:-1 tvg-name="Let Me Live (بگذار زندگی کنم)"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-08-282b25fc-9226-4b5f-8119-cb2e0ebfa2f8.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",Let Me Live (بگذار زندگی کنم)
 https://streaming.imvbox.com/media/2075/1280x720/1280x720.m3u8
