@@ -19664,3 +19664,5 @@ https://andam.uk/vod/video_588d93/index.m3u8
 https://andam.uk/vod/video_de6425/index.m3u8
 #EXTINF:-1 tvg-name="Let Me Live (بگذار زندگی کنم)"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-08-282b25fc-9226-4b5f-8119-cb2e0ebfa2f8.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",Let Me Live (بگذار زندگی کنم)
 https://streaming.imvbox.com/media/2075/1280x720/1280x720.m3u8
+#EXTINF:-1 tvg-name="Wedding Dinner (شام عروسی)"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-08-a5d11b13-564a-4bf2-bc72-dc9d22386b1d.webp"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",Wedding Dinner (شام عروسی)
+https://streaming.imvbox.com/media/2498/1280x720/1280x720.m3u8
