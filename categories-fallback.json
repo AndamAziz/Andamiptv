@@ -1,6 +1,7 @@
 {
   "Sports": [
-    "n:deporte|f[uú]tbol|footbal|soccer|спорт|\\bgolf|racing|boxing|wrestl|\\bufc|\\bmma\\b|\\bnba|\\bnfl|\\bnhl|\\bmlb|tennis|billiard|cricket|basket|olymp|fight|poker|bowling|surf|ski\\b|hockey|rugby|motorsport|fishing|hunting"
+    "n:deporte|f[uú]tbol|footbal|soccer|спорт|\\bgolf|racing|boxing|wrestl|\\bufc|\\bmma\\b|\\bnba|\\bnfl|\\bnhl|\\bmlb|tennis|billiard|cricket|basket|olymp|fight|poker|bowling|surf|ski\\b|hockey|rugby|motorsport|fishing|hunting",
+    "n:\\bdazn\\b|draftkings|\\bfifa\\b|monster jam"
   ],
   "Movies TV": [
     "n:\\bcine|\\bfilm|kino|\\bmovie|cinema|pel[ií]cula|sinema|bollywood|nollywood|western"
@@ -61,11 +62,13 @@
   ],
   "USA & Canada TV": [
     "id:\\.(us|ca)(@|$)",
-    "n:^[kwc][a-z]{3}(-dt\\d*)?(\\s|$)"
+    "n:^[kwc][a-z]{3}(-dt\\d*)?(\\s|$)",
+    "n:\\bwjcl\\b"
   ],
   "Latin America & Spain": [
     "id:\\.(es|mx|ar|cl|pe|bo|ec|cr|co|do|ve|uy|py|gt|pa|hn|sv|pr|cu|ni)(@|$)",
-    "n:\\b(tele|canal|televisi[oó]n|red)\\b"
+    "n:\\b(tele|canal|televisi[oó]n|red)\\b",
+    "n:monterrico|colimdo"
   ],
   "Russia & CIS": [
     "id:\\.(ru|ua|kz|by|am|ge|az|uz|tm|md|kg|tj)(@|$)",
@@ -75,7 +78,8 @@
     "id:\\.it(@|$)"
   ],
   "Germany - Austria - Switzerland": [
-    "id:\\.(de|at|ch|li)(@|$)"
+    "id:\\.(de|at|ch|li)(@|$)",
+    "n:^zdf\\b|^ard\\b"
   ],
   "France & Belgium": [
     "id:\\.(fr|be|lu|mc)(@|$)"
@@ -96,7 +100,8 @@
   ],
   "Arabic TV": [
     "id:\\.(sa|ae|eg|iq|lb|sy|jo|kw|qa|ly|ps|ma|dz|tn|om|ye|sd|bh)(@|$)",
-    "n:[\\u0600-\\u06ff]|^ar\\b|alwesam|al ?shallal"
+    "n:[\\u0600-\\u06ff]|^ar\\b|alwesam|al ?shallal",
+    "n:^mbc\\b|asharq"
   ],
   "Indonesia & Malaysia": [
     "id:\\.(id|my)(@|$)",
@@ -119,14 +124,16 @@
     "id:\\.(gr|cy)(@|$)"
   ],
   "Africa": [
-    "id:\\.(ng|ke|gh|za|ug|rw|ci|sn|cm|ne|tz|et|zm|zw)(@|$)",
-    "n:afro"
+    "id:\\.(ng|ke|gh|za|ug|rw|ci|sn|cm|ne|tz|et|zm|zw|bf|ml|bj|tg|td|cd|cg|ga|mg|mu|ao|mz|na|bw)(@|$)",
+    "n:afro",
+    "n:^k24\\b"
   ],
   "Nordic Countries": [
     "id:\\.(fi|se|no|dk|is|fo|ee)(@|$)",
     "n:^yle |^nrk|^svt|^tv ?2/"
   ],
   "Free Streaming (FAST)": [
-    "u:wurl\\.(com|tv)|amagi|nbcuni|sofast|klowdtv|ottera|frequency\\.stream|tubi|rakuten|plex\\.tv|fasttvcdn|xumo|samsung|cloudfront\\.net|pluto|stirr|redbox"
+    "u:wurl\\.(com|tv)|amagi|nbcuni|sofast|klowdtv|ottera|frequency\\.stream|tubi|rakuten|plex\\.tv|fasttvcdn|xumo|samsung|cloudfront\\.net|pluto|stirr|redbox",
+    "n:fast&fun"
   ]
 }

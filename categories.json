@@ -1,6 +1,6 @@
 {
   "SKY TV": ["re:\\bsky\\b"],
-  "Kurdish Channels": ["kurd", "rudaw", "nrt", "ava", "kurdistan", "k24", "gkurd", "zagros"],
+  "Kurdish Channels": ["re:group-title=\"kurdish channels\"", "n:kurd", "n:rudaw", "n:^ava\\b", "n:\\bnrt\\b", "n:zagros"],
   "Sports": ["bein", "ssc", "sport", "channellive", "bt sport", "espn"],
   "National Geographic": ["national geographic", "nat geo", "natgeo", "nature"],
   "Movies TV": ["movie", "cinema"],
