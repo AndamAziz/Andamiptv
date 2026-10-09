@@ -201,12 +201,13 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         if vtype:
             # Movies / series (tvg-type tag): keep the group-title exactly as written,
             # never re-categorize by keyword. They are sorted after all live channels.
+            # Their names are curated (e.g. "Title (2006)" for TMDB matching): leave them untouched.
             category = get_group_title(extinf_line)
         else:
             category = categorize_channel(extinf_line, categories)
             display_label = UNCATEGORIZED_LABEL if category == UNCATEGORIZED_KEY else category
             extinf_line = set_group_title(extinf_line, display_label)
-        extinf_line = clean_name(extinf_line)
+            extinf_line = clean_name(extinf_line)
 
         channels.append({"extinf": extinf_line, "extras": extras, "url": url_line,
                          "category": category, "vod": vtype})
