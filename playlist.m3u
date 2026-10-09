@@ -19682,3 +19682,5 @@ https://andam.uk/vod/video_0af703/index.m3u8
 https://andam.uk/vod/video_e07861/index.m3u8
 #EXTINF:-1 tvg-name="KIRKUK TV"tvg-id=""tvg-logo="https://kurdistan.live/wp-content/uploads/2026/04/kerkuktv.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KIRKUK TV
 https://live.kirkuklive.live/hls/stream/index.m3u8
+#EXTINF:-1 tvg-name="BEIN HDR"tvg-id=""tvg-logo="https://i.postimg.cc/gcSFZKqM/file-0000000017f87246a0e08ec0f3feaffe.png"tvg-chno=""group-title="":http-referrer="",BEIN HDR
+https://live-aburayhan1112.telewebion.net/ek/faratar/live/2160p/index.m3u8
