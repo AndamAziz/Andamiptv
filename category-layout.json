@@ -1,0 +1,16 @@
+{
+  "order": {
+    "SKY TV": {
+      "after": "National Geographic"
+    }
+  },
+  "sort": {
+    "SKY TV": [
+      "^sky news(?! arabia)",
+      "^sky sport",
+      "^sky racing",
+      "^sky folk",
+      "^sky news arabia"
+    ]
+  }
+}
