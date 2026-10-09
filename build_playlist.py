@@ -34,6 +34,7 @@ DEFAULT_INPUT = "playlist.m3u"
 DEFAULT_OUTPUT = "playlist_clean.m3u"
 DEFAULT_BLOCKLIST_FILE = "blocklist.txt"
 DEFAULT_CATEGORIES_FILE = "categories.json"
+DEFAULT_LOGOS_FILE = "category-logos.json"   # {"Category": "logo url"} used for live channels with no logo
 
 # Internal priority key for anything that matches no category keyword.
 # Always sorts last. The label actually written into group-title is
@@ -76,6 +77,31 @@ def load_categories(filepath: str) -> dict:
         except (json.JSONDecodeError, OSError) as e:
             log.warning(f"Could not read {filepath} ({e}); using built-in defaults")
     return DEFAULT_CATEGORIES
+
+
+def load_category_logos(filepath: str) -> dict:
+    if not os.path.exists(filepath):
+        return {}
+    try:
+        with open(filepath, "r", encoding="utf-8-sig") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, OSError) as e:
+        log.warning(f"Could not read {filepath} ({e}); no default logos")
+        return {}
+
+
+def apply_default_logo(extinf_line: str, logo_url: str) -> str:
+    """Fill in tvg-logo only when the channel has none (missing or empty)."""
+    m = re.search(r'tvg-logo="([^"]*)"', extinf_line)
+    if m:
+        if m.group(1).strip():
+            return extinf_line
+        return extinf_line.replace(m.group(0), f'tvg-logo="{logo_url}"', 1)
+    if ',' not in extinf_line:
+        return extinf_line
+    prefix, name = extinf_line.split(',', 1)
+    return f'{prefix} tvg-logo="{logo_url}",{name}'
 
 
 def categorize_channel(extinf_line: str, categories: dict) -> str:
@@ -161,6 +187,7 @@ def parse_playlist(lines: list[str]):
 def process_playlist(input_file: str, output_file: str, blocklist_file: str, categories_file: str, sort_alpha: bool):
     blocklist = load_blocklist(blocklist_file)
     categories = load_categories(categories_file)
+    category_logos = load_category_logos(os.path.join(os.path.dirname(os.path.abspath(categories_file)), DEFAULT_LOGOS_FILE))
     log.info(f"Blocked keywords loaded: {len(blocklist)}")
 
     if not os.path.exists(input_file):
@@ -208,6 +235,8 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             display_label = UNCATEGORIZED_LABEL if category == UNCATEGORIZED_KEY else category
             extinf_line = set_group_title(extinf_line, display_label)
             extinf_line = clean_name(extinf_line)
+            if category in category_logos:
+                extinf_line = apply_default_logo(extinf_line, category_logos[category])
 
         channels.append({"extinf": extinf_line, "extras": extras, "url": url_line,
                          "category": category, "vod": vtype})
