@@ -1,4 +1,4 @@
-M3U Cleaner report - 2026-10-09 14:33:16
+M3U Cleaner report - 2026-10-09 14:52:08
 Source: playlist.m3u
 Output: playlist.m3u
 
@@ -7,15 +7,16 @@ Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
-  Kurdish Channels: 246
-  Sports: 473
+  Kurdish Channels: 245
+  Sports: 468
   National Geographic: 54
+  SKY TV: 19
   Movies TV: 491
   Series & Drama: 246
   Documentary: 206
-  News: 1062
+  News: 1050
   Entertainment: 559
-  Music: 732
+  Music: 731
   Kids & Family: 317
   Religious: 591
   Comedy: 93

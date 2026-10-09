@@ -34,6 +34,7 @@ DEFAULT_INPUT = "playlist.m3u"
 DEFAULT_OUTPUT = "playlist_clean.m3u"
 DEFAULT_BLOCKLIST_FILE = "blocklist.txt"
 DEFAULT_CATEGORIES_FILE = "categories.json"
+DEFAULT_LAYOUT_FILE = "category-layout.json"  # display order of groups + sub-order inside a group
 DEFAULT_LOGOS_FILE = "category-logos.json"   # {"Category": "logo url"} used for live channels with no logo
 
 # Internal priority key for anything that matches no category keyword.
@@ -79,6 +80,19 @@ def load_categories(filepath: str) -> dict:
     return DEFAULT_CATEGORIES
 
 
+def load_layout(filepath: str) -> dict:
+    """{"order": {"GROUP": {"after": "OTHER GROUP"}}, "sort": {"GROUP": [regex, ...]}}"""
+    if not os.path.exists(filepath):
+        return {}
+    try:
+        with open(filepath, "r", encoding="utf-8-sig") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, OSError) as e:
+        log.warning(f"Could not read {filepath} ({e}); using categories.json order")
+        return {}
+
+
 def load_category_logos(filepath: str) -> dict:
     if not os.path.exists(filepath):
         return {}
@@ -107,8 +121,12 @@ def apply_default_logo(extinf_line: str, logo_url: str) -> str:
 def categorize_channel(extinf_line: str, categories: dict) -> str:
     extinf_lower = extinf_line.lower()
     for category, keywords in categories.items():
-        if any(kw in extinf_lower for kw in keywords):
-            return category
+        for kw in keywords:
+            if kw.startswith("re:"):
+                if re.search(kw[3:], extinf_lower):
+                    return category
+            elif kw in extinf_lower:
+                return category
     return UNCATEGORIZED_KEY
 
 
@@ -187,6 +205,7 @@ def parse_playlist(lines: list[str]):
 def process_playlist(input_file: str, output_file: str, blocklist_file: str, categories_file: str, sort_alpha: bool):
     blocklist = load_blocklist(blocklist_file)
     categories = load_categories(categories_file)
+    layout = load_layout(os.path.join(os.path.dirname(os.path.abspath(categories_file)), DEFAULT_LAYOUT_FILE))
     category_logos = load_category_logos(os.path.join(os.path.dirname(os.path.abspath(categories_file)), DEFAULT_LOGOS_FILE))
     log.info(f"Blocked keywords loaded: {len(blocklist)}")
 
@@ -241,8 +260,16 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         channels.append({"extinf": extinf_line, "extras": extras, "url": url_line,
                          "category": category, "vod": vtype})
 
-    priority = {name: idx for idx, name in enumerate(categories.keys())}
+    # Display order = categories.json order, except groups listed in layout["order"]
+    # (matching still follows categories.json order, so a group can be matched early but shown later).
+    display = list(categories.keys())
+    for group, rule in layout.get("order", {}).items():
+        if group in display and rule.get("after") in display:
+            display.remove(group)
+            display.insert(display.index(rule["after"]) + 1, group)
+    priority = {name: idx for idx, name in enumerate(display)}
     priority[UNCATEGORIZED_KEY] = len(priority)
+    sub_rules = {g: [re.compile(r, re.IGNORECASE) for r in rules] for g, rules in layout.get("sort", {}).items()}
 
     # Live channels first (categories.json order, Uncategorized last), then movies, then series.
     vod_first_seen: dict[str, int] = {}
@@ -255,6 +282,12 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         name_part = ch["extinf"].split(",", 1)[-1].strip().lower() if sort_alpha else ""
         if ch["vod"]:
             return (live_end + 1 + VOD_RANK[ch["vod"]], vod_first_seen[ch["category"]], "")
+        rules = sub_rules.get(ch["category"])
+        if rules:
+            # same language + same kind of channel stay together, then alphabetical
+            nm = ch["extinf"].split(",", 1)[-1].strip()
+            idx = next((i for i, r in enumerate(rules) if r.search(nm)), len(rules))
+            return (priority.get(ch["category"], live_end), idx, nm.lower())
         return (priority.get(ch["category"], live_end), 0, name_part)
 
     channels.sort(key=sort_key)
