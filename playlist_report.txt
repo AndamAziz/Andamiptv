@@ -1,20 +1,21 @@
-M3U Cleaner report - 2026-10-09 03:10:31
+M3U Cleaner report - 2026-10-09 14:33:16
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  9840
+Total channels kept:  9842
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
   Kurdish Channels: 246
-  Sports: 472
+  Sports: 473
+  National Geographic: 54
   Movies TV: 491
-  Series & Drama: 247
-  Documentary: 238
+  Series & Drama: 246
+  Documentary: 206
   News: 1062
-  Entertainment: 560
-  Music: 737
+  Entertainment: 559
+  Music: 732
   Kids & Family: 317
   Religious: 591
   Comedy: 93
@@ -22,7 +23,7 @@ Malformed/skipped:    0
   Reality & Game Shows: 131
   Sci-Fi & Horror: 57
   Classic & Western: 99
-  Lifestyle & Travel: 279
+  Lifestyle & Travel: 278
   Culture: 112
   Education: 116
   Business: 52
@@ -31,9 +32,9 @@ Malformed/skipped:    0
   Legislative & Public: 147
   Anime & Gaming: 9
   Local Channels: 15
-  Smart TV Channels: 514
-  General: 1330
-  Uncategorized: 1634
+  Smart TV Channels: 506
+  General: 1328
+  Uncategorized: 1631
   FARSI: 6
   KURDISH-ژێرنوس: 2
   KURDISH-دۆبلاژ: 63
