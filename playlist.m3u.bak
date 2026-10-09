@@ -1340,6 +1340,14 @@ https://jmp2.uk/plu-66f137cb483d460008ece053.m3u8
 https://jmp2.uk/plu-59b722526996084038c01e1b.m3u8
 #EXTINF:-1 tvg-name="World Billiards TV"tvg-id="WorldBilliards.pl@SD"tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png"tvg-chno=""group-title="Sports":http-referrer="",World Billiards TV
 https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8
+#EXTINF:-1 tvg-name="DAZN Combat"tvg-id=""tvg-logo="https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png"tvg-chno=""group-title="Sports":http-referrer="",DAZN Combat
+https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8
+#EXTINF:-1 tvg-name="DraftKings Network"tvg-id=""tvg-logo="https://i.imgur.com/SFYhgrt.png"tvg-chno=""group-title="Sports":http-referrer="",DraftKings Network
+https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
+#EXTINF:-1 tvg-name="FIFA+"tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_%282025%29.svg/960px-FIFA%2B_%282025%29.svg.png"tvg-chno=""group-title="Sports":http-referrer="",FIFA+
+https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8
+#EXTINF:-1 tvg-name="Monster Jam"tvg-id=""tvg-logo="https://provider-static.plex.tv/epg/cms/production/23824964-562b-4498-9eaa-d6262cb7e0c3/Monster_Jam_Logo_on_Transparent_1500x1000_Casey_Murawski.png"tvg-chno=""group-title="Sports":http-referrer="",Monster Jam
+https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 #EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-09-16-ff800a85-594e-4c63-ba94-b9fa13f9a853.webp"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
 http://api.353505.xyz:80/live/123/123/528.ts
 #EXTINF:-1 tvg-name="PBS Nature"tvg-id="PBSNature.us@SD"tvg-logo="https://i.imgur.com/Brry7cZ.png"tvg-chno=""group-title="National Geographic":http-referrer="",PBS Nature
@@ -16882,6 +16890,8 @@ https://fl496518-exthls-p1.flovp.com/fl496518/live/live.m3u8
 https://vip.livecastnet.com:3930/live/maranatharadiolive.m3u8
 #EXTINF:-1 tvg-name="WXTV-DT1"tvg-id="UniMas.us@WXTVDT"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/960px-Logo_UniM%C3%A1s_2021.svg.png"tvg-chno=""group-title="USA & Canada TV":http-referrer="",WXTV-DT1
 https://streaming-live-fcdn.api.prd.univisionnow.com/wxtv/wxtv.isml/hls/wxtv.m3u8
+#EXTINF:-1 tvg-name="Very Savannah by WJCL"tvg-id="LN_2E520864-EDFD-43B6-82CE-3F4C9D28D8A7"tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/2E520864-EDFD-43B6-82CE-3F4C9D28D8A7/3-1x1.png"tvg-chno=""group-title="USA & Canada TV":http-referrer="",Very Savannah by WJCL
+https://s3host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config4/ce7bbf81ad544c91b11d39a8f2b0267c/master.m3u8?Key-Pair-Id=K1BEGSWP8YSEGF&Expires=4854278400&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zeW5kaWNhdGlvbi1hdXNlMS5jZi5jZG4udXBseW5rLmNvbS9jZTdiYmY4MWFkNTQ0YzkxYjExZDM5YThmMmIwMjY3Yy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjo0ODU0Mjc4NDAwfX19XX0%3D&Signature=gJwktbuBOwz6QanvvMSRvhEr9bBgUwHx4nOcnxpIPhS57SOiDgmb6gONnF0vUTE9Reu5SWlS%7EG1Y32lZupkk6iBap2r8CU33ApxXiLcq%7EVdtnsLWCcpffuRslHOJeBj9Ism-V3Vc8jNWpZY%7ER2EJ6kkkMyrMvv7X%7EiBcs8q6Yc5EAJZzPpuQ2jHYnzFlKPn1S5I8ECHfYVJo0UOQWNsJwU6uHzRrFU5wTYDqCyoXKtrvg4YH3lMaYc0Sp9Tt9-8RCsHBufonpzW8cgDzb1lbhpl5r4B-OWxA0sPxJb2REoD60lpb0IFduqw6Yz%7EghGCEBtChachsrHlZDIt7Zfgeig__&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=1920&app_version=0.0.0&ccpa_us_privacy=1YNY&device_devicetype=desktop_web&height=1080&ip_addr=185.217.168.164&ads.cdnhost=s3host4.localnow.api.cms.amdvids.com&ads.playbackid=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n4=content_name&ads.v4=EPG%20%7C%20WJCL%20Savannah%2C%20GA&ads.n21=content_producer_name&ads.v21=Hearst%20Corporation&ads.n22=app_bundle&ads.v22=&ads.n23=device_make&ads.v23=&ads.n24=ifa_type&ads.v24=&ads.n25=h&ads.v25=1080&ads.n26=app_store_url&ads.v26=&ads.n27=channel_ext_id&ads.v27=630e89032120c49a3d07110a&ads.n28=content_custom_2_param&ads.v28=AMDB012877&ads.n29=us_privacy&ads.v29=1YNY&ads.n30=url&ads.v30=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n31=network_name&ads.v31=wjcl&ads.n32=channel_company_id&ads.v32=AMDP500425&ads.n33=dnt&ads.v33=&ads.n34=content_type&ads.v34=channel&ads.n35=channel_title&ads.v35=EPG%20%20WJCL%20Savannah%2C%20GA&ads.n36=did&ads.v36=&ads.n37=channel_genre&ads.v37=News&ads.n38=device_type&ads.v38=&ads.n39=channel_rating&ads.v39=TV-PG&ads.n40=content_custom_3_param&ads.v40=channel&ads.n41=channel_name&ads.v41=EPG%20%20WJCL%20Savannah%2C%20GA&ads.n42=content_provider&ads.v42=wjcl&ads.n43=gpp&ads.v43=&ads.n44=cust_devicename&ads.v44=desktop_web&ads.n45=ip&ads.v45=185.217.168.164&ads.n46=content_custom_1_param&ads.v46=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n47=app_name&ads.v47=&ads.n48=channel_brand_id&ads.v48=AMDB012877&ads.n49=device_model&ads.v49=&ads.n50=app_version&ads.v50=0.0.0&ads.n51=channel_id&ads.v51=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n52=gpp_sid&ads.v52=&ads.n53=ua&ads.v53=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n54=channel_language&ads.v54=en&ads.n55=channel_corp&ads.v55=Hearst%20Corporation&ads.n56=pos&ads.v56=midroll&ads.n57=content_livestream&ads.v57=1&ads.n58=w&ads.v58=1920
 #EXTINF:-1 tvg-name="Parranda Vallenata"tvg-id="ParrandaVallenata.co@SD"tvg-logo="https://i.imgur.com/BzBX7Qx.jpeg"tvg-chno=""group-title="Latin America & Spain":http-referrer="",Parranda Vallenata
 https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
 #EXTINF:-1 tvg-name="Navarrete Television"tvg-id="NavarreteTelevision.do@HD"tvg-logo="https://dominicanchannels.com/wp-content/uploads/navarrete.png"tvg-chno=""group-title="Latin America & Spain":http-referrer="",Navarrete Television
@@ -17490,6 +17500,10 @@ https://micanal.ovh/livestreams/515.AUTOOAAZ721F.m3u8
 https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8
 #EXTINF:-1 tvg-name="VTV Valle de Aconcagua"tvg-id="VTVValledeAconcagua.cl@SD"tvg-logo="https://i.imgur.com/0bFVvKj.png"tvg-chno=""group-title="Latin America & Spain":http-referrer="",VTV Valle de Aconcagua
 https://unlimited1-us.dps.live/vtv/vtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="ColimdoT TV"tvg-id=""tvg-logo="https://i.imgur.com/ZeUgLCa.png"tvg-chno=""group-title="Latin America & Spain":http-referrer="",ColimdoT TV
+https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
+#EXTINF:-1 tvg-name="Monterrico TV"tvg-id=""tvg-logo="https://i.imgur.com/SuVO9T7.png"tvg-chno=""group-title="Latin America & Spain":http-referrer="",Monterrico TV
+https://h.jcp.live.opencaster.com/play_src/index.m3u8
 #EXTINF:-1 tvg-name="Луганск 24"tvg-id="Lugansk24.ua@SD"tvg-logo="https://i.imgur.com/AihoVc0.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Луганск 24
 https://streaming.televizor-24-tochka.ru/live/29.m3u8
 #EXTINF:-1 tvg-name="Armenia 1 America"tvg-id="Armenia1.am@America"tvg-logo="https://i.imgur.com/HIwJ4lc.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Armenia 1 America
@@ -17944,6 +17958,8 @@ https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist
 https://tvaktuellr.iptv-playoutcenter.de/tvaktuellr/tvaktuellr.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-name="W24"tvg-id="W24.at@SD"tvg-logo="https://i.imgur.com/FpVNrxk.png"tvg-chno=""group-title="Germany - Austria - Switzerland":http-referrer="",W24
 https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="ZDF HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-f1cedafd-aa76-40b8-984a-cd83fdb3cbef.jpg"tvg-chno=""group-title="Germany - Austria - Switzerland":http-referrer="",ZDF
+https://prod-fastly-us-east-1.video.pscp.tv/Transcoding/v1/hls/E1nqy4pzS2XPviYfVhX0hE1V0FMlAVuJCcGs_nYP4_nxt7Age5gGE5tnbCyItOevbz09oTVqmxiaYew0fVwGdg/non_transcode/us-east-1/periscope-replay-direct-prod-us-east-1-public/master_dynamic_delta.m3u8?type=live
 #EXTINF:-1 tvg-name="20 Minutes TV"tvg-id="20MinutesTV.fr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png"tvg-chno=""group-title="France & Belgium":http-referrer="",20 Minutes TV
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-name="ACTV"tvg-id="ACTV.be@SD"tvg-logo="https://files.catbox.moe/8v2y8m.png"tvg-chno=""group-title="France & Belgium":http-referrer="",ACTV
@@ -18374,6 +18390,14 @@ https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
 #EXTINF:-1 tvg-name="AR | SHARQIA TV"tvg-id=""tvg-logo="https://i.imgur.com/mJIG5IV.png"tvg-chno=""group-title="Arabic TV":http-referrer="",AR | SHARQIA TV
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
+#EXTINF:-1 tvg-name="MBC Chungbuk"tvg-id="HLAODTV.kr@SD"tvg-logo="https://i.imgur.com/uR0gScb.png"tvg-chno=""group-title="Uncategorized":http-referrer="",MBC Chungbuk
+http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
+#EXTINF:-1 tvg-name="MBC Gangwon"tvg-id="HLAQDTV.kr@SD"tvg-logo="https://i.imgur.com/FGsKCH3.png"tvg-chno=""group-title="Uncategorized":http-referrer="",MBC Gangwon
+http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-name="MBC Net"tvg-id="MBCNet.kr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/960px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png"tvg-chno=""group-title="Uncategorized":http-referrer="",MBC Net
+http://mytv.dothome.co.kr/ch/catv/28.php
+#EXTINF:-1 tvg-name="MBC Iraq"tvg-id=""tvg-logo="https://kurdtvs.net/uploads/files/28-03-2019-26b94a89-mbc-iraq-kurdtvs-live_.png"tvg-chno=""group-title="Arabic TV":http-referrer="",MBC Iraq
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/manifest/video/720p1750kbps/video.m3u8
 #EXTINF:-1 tvg-name="TVRI Jawa Barat"tvg-id="TVRI.id@WestJava"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png"tvg-chno=""group-title="Indonesia & Malaysia":http-referrer="",TVRI Jawa Barat
 https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
 #EXTINF:-1 tvg-name="TVRI Jawa Tengah"tvg-id="TVRI.id@CentralJava"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png"tvg-chno=""group-title="Indonesia & Malaysia":http-referrer="",TVRI Jawa Tengah
@@ -18578,10 +18602,6 @@ https://live-us1.thaimomo.com/live-as/chlantung-2/playlist.m3u8
 https://live.baolaocai.vn/channel2/stream.m3u8
 #EXTINF:-1 tvg-name="Lao Net TV"tvg-id="LaoNetTV.la@SD"tvg-logo="https://i.imgur.com/ohbRT05.png"tvg-chno=""group-title="Asia":http-referrer="",Lao Net TV
 https://livefta.malimarcdn.com/ftaedge00/laonet.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="MBC Chungbuk"tvg-id="HLAODTV.kr@SD"tvg-logo="https://i.imgur.com/uR0gScb.png"tvg-chno=""group-title="Asia":http-referrer="",MBC Chungbuk
-http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="MBC Gangwon"tvg-id="HLAQDTV.kr@SD"tvg-logo="https://i.imgur.com/FGsKCH3.png"tvg-chno=""group-title="Asia":http-referrer="",MBC Gangwon
-http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
 #EXTINF:-1 tvg-name="SBS CJB"tvg-id="HLDRDTV.kr@SD"tvg-logo="https://i.imgur.com/zVunmpQ.png"tvg-chno=""group-title="Asia":http-referrer="",SBS CJB
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 #EXTINF:-1 tvg-name="SBS G1"tvg-id="HLCGDTV.kr@SD"tvg-logo="https://i.imgur.com/ABdmZMc.png"tvg-chno=""group-title="Asia":http-referrer="",SBS G1
@@ -18620,8 +18640,6 @@ https://dethich.pw/dongnai3/index.m3u8
 http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
 #EXTINF:-1 tvg-name="Guangdong Satellite TV"tvg-id="GuangdongSatelliteTV.cn@SD"tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg"tvg-chno=""group-title="Asia":http-referrer="",Guangdong Satellite TV
 https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
-#EXTINF:-1 tvg-name="MBC Net"tvg-id="MBCNet.kr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/960px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png"tvg-chno=""group-title="Asia":http-referrer="",MBC Net
-http://mytv.dothome.co.kr/ch/catv/28.php
 #EXTINF:-1 tvg-name="Quảng Ngãi TV1"tvg-id="QuangNgaiTV.vn@HD"tvg-logo="https://i.imgur.com/QckiN3H.png"tvg-chno=""group-title="Asia":http-referrer="",Quảng Ngãi TV1
 https://live.mediatech.vn/live/285aaa79b4b265a457d81bb72bc32e2c114/chunklist.m3u8
 #EXTINF:-1 tvg-name="Rama Channel"tvg-id="RamaChannel.th@SD"tvg-logo="https://i.imgur.com/pnbzE2V.png"tvg-chno=""group-title="Asia":http-referrer="",Rama Channel
@@ -19176,6 +19194,10 @@ https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_015/Stream/playlist.m3u
 https://wazobia.live:8333/channel/wmax.m3u8
 #EXTINF:-1 tvg-name="Wazobia Max TV Port Harcourt"tvg-id="WazobiaMaxTVPortHarcourt.ng@SD"tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png"tvg-chno=""group-title="Africa":http-referrer="",Wazobia Max TV Port Harcourt
 https://wazobia.live:8333/channel/wmaxph.m3u8
+#EXTINF:-1 tvg-name="K24 TV"tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/Kurdistan24_logo.png"tvg-chno=""group-title="Africa":http-referrer="",K24 TV
+https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480fe433f6daadb7098fe7&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG&AV_CLIENT_SECTION=Terra%20Nova%20Distribution%20Limited_K24TV&content_channel_name=K24TV&content_livestream=1&AV_CONTENT_PROVIDER=Terra%20Nova%20Distribution%20Limited&ads.vidaa_ads_param=1190602996
+#EXTINF:-1 tvg-name="Savane TV"tvg-id="SavaneTV.bf@SD"tvg-logo="https://i.imgur.com/mv3S1Zc.png"tvg-chno=""group-title="Africa":http-referrer="",Savane TV
+https://savane24.tv:5443/LiveApp/streams/Y4fyif69Q0ll6MeH2190896734859843.m3u8
 #EXTINF:-1 tvg-name="Navahang TV"tvg-id="NavahangTV.fi@SD"tvg-logo="https://i.imgur.com/YteKXJy.png"tvg-chno=""group-title="Nordic Countries":http-referrer="",Navahang TV
 https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="DRTV"tvg-id="DRTV.dk@SD"tvg-logo="https://i.ibb.co/c6n2vbW/512px-DR-TV-logo-svg.png"tvg-chno=""group-title="Nordic Countries":http-referrer="",DRTV
@@ -19486,32 +19508,10 @@ https://amg00353-amg00353c28-rakuten-us-4895.playouts.now.amagi.tv/playlist.m3u8
 https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="San Marino RTV"tvg-id="SanMarinoRTV.sm@SD"tvg-logo="https://i.imgur.com/ZJSWusT.png"tvg-chno=""group-title="Free Streaming (FAST)":http-referrer="",San Marino RTV
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8
-#EXTINF:-1 tvg-name="ZDF HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-f1cedafd-aa76-40b8-984a-cd83fdb3cbef.jpg"tvg-chno=""group-title="Uncategorized":http-referrer="",ZDF
-https://prod-fastly-us-east-1.video.pscp.tv/Transcoding/v1/hls/E1nqy4pzS2XPviYfVhX0hE1V0FMlAVuJCcGs_nYP4_nxt7Age5gGE5tnbCyItOevbz09oTVqmxiaYew0fVwGdg/non_transcode/us-east-1/periscope-replay-direct-prod-us-east-1-public/master_dynamic_delta.m3u8?type=live
-#EXTINF:-1 tvg-name="MBC Iraq"tvg-id=""tvg-logo="https://kurdtvs.net/uploads/files/28-03-2019-26b94a89-mbc-iraq-kurdtvs-live_.png"tvg-chno=""group-title="Uncategorized":http-referrer="",MBC Iraq
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/manifest/video/720p1750kbps/video.m3u8
-#EXTINF:-1 tvg-name="Very Savannah by WJCL"tvg-id="LN_2E520864-EDFD-43B6-82CE-3F4C9D28D8A7"tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/2E520864-EDFD-43B6-82CE-3F4C9D28D8A7/3-1x1.png"tvg-chno=""group-title="Uncategorized":http-referrer="",Very Savannah by WJCL
-https://s3host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config4/ce7bbf81ad544c91b11d39a8f2b0267c/master.m3u8?Key-Pair-Id=K1BEGSWP8YSEGF&Expires=4854278400&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zeW5kaWNhdGlvbi1hdXNlMS5jZi5jZG4udXBseW5rLmNvbS9jZTdiYmY4MWFkNTQ0YzkxYjExZDM5YThmMmIwMjY3Yy8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjo0ODU0Mjc4NDAwfX19XX0%3D&Signature=gJwktbuBOwz6QanvvMSRvhEr9bBgUwHx4nOcnxpIPhS57SOiDgmb6gONnF0vUTE9Reu5SWlS%7EG1Y32lZupkk6iBap2r8CU33ApxXiLcq%7EVdtnsLWCcpffuRslHOJeBj9Ism-V3Vc8jNWpZY%7ER2EJ6kkkMyrMvv7X%7EiBcs8q6Yc5EAJZzPpuQ2jHYnzFlKPn1S5I8ECHfYVJo0UOQWNsJwU6uHzRrFU5wTYDqCyoXKtrvg4YH3lMaYc0Sp9Tt9-8RCsHBufonpzW8cgDzb1lbhpl5r4B-OWxA0sPxJb2REoD60lpb0IFduqw6Yz%7EghGCEBtChachsrHlZDIt7Zfgeig__&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=1920&app_version=0.0.0&ccpa_us_privacy=1YNY&device_devicetype=desktop_web&height=1080&ip_addr=185.217.168.164&ads.cdnhost=s3host4.localnow.api.cms.amdvids.com&ads.playbackid=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n4=content_name&ads.v4=EPG%20%7C%20WJCL%20Savannah%2C%20GA&ads.n21=content_producer_name&ads.v21=Hearst%20Corporation&ads.n22=app_bundle&ads.v22=&ads.n23=device_make&ads.v23=&ads.n24=ifa_type&ads.v24=&ads.n25=h&ads.v25=1080&ads.n26=app_store_url&ads.v26=&ads.n27=channel_ext_id&ads.v27=630e89032120c49a3d07110a&ads.n28=content_custom_2_param&ads.v28=AMDB012877&ads.n29=us_privacy&ads.v29=1YNY&ads.n30=url&ads.v30=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n31=network_name&ads.v31=wjcl&ads.n32=channel_company_id&ads.v32=AMDP500425&ads.n33=dnt&ads.v33=&ads.n34=content_type&ads.v34=channel&ads.n35=channel_title&ads.v35=EPG%20%20WJCL%20Savannah%2C%20GA&ads.n36=did&ads.v36=&ads.n37=channel_genre&ads.v37=News&ads.n38=device_type&ads.v38=&ads.n39=channel_rating&ads.v39=TV-PG&ads.n40=content_custom_3_param&ads.v40=channel&ads.n41=channel_name&ads.v41=EPG%20%20WJCL%20Savannah%2C%20GA&ads.n42=content_provider&ads.v42=wjcl&ads.n43=gpp&ads.v43=&ads.n44=cust_devicename&ads.v44=desktop_web&ads.n45=ip&ads.v45=185.217.168.164&ads.n46=content_custom_1_param&ads.v46=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n47=app_name&ads.v47=&ads.n48=channel_brand_id&ads.v48=AMDB012877&ads.n49=device_model&ads.v49=&ads.n50=app_version&ads.v50=0.0.0&ads.n51=channel_id&ads.v51=2E520864-EDFD-43B6-82CE-3F4C9D28D8A7&ads.n52=gpp_sid&ads.v52=&ads.n53=ua&ads.v53=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n54=channel_language&ads.v54=en&ads.n55=channel_corp&ads.v55=Hearst%20Corporation&ads.n56=pos&ads.v56=midroll&ads.n57=content_livestream&ads.v57=1&ads.n58=w&ads.v58=1920
-#EXTINF:-1 tvg-name="K24 TV"tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/Kurdistan24_logo.png"tvg-chno=""group-title="Uncategorized":http-referrer="",K24 TV
-https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480fe433f6daadb7098fe7&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG&AV_CLIENT_SECTION=Terra%20Nova%20Distribution%20Limited_K24TV&content_channel_name=K24TV&content_livestream=1&AV_CONTENT_PROVIDER=Terra%20Nova%20Distribution%20Limited&ads.vidaa_ads_param=1190602996
-#EXTINF:-1 tvg-name="ColimdoT TV"tvg-id=""tvg-logo="https://i.imgur.com/ZeUgLCa.png"tvg-chno=""group-title="Uncategorized":http-referrer="",ColimdoT TV
-https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
-#EXTINF:-1 tvg-name="DAZN Combat"tvg-id=""tvg-logo="https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png"tvg-chno=""group-title="Uncategorized":http-referrer="",DAZN Combat
-https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8
-#EXTINF:-1 tvg-name="DraftKings Network"tvg-id=""tvg-logo="https://i.imgur.com/SFYhgrt.png"tvg-chno=""group-title="Uncategorized":http-referrer="",DraftKings Network
-https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
-#EXTINF:-1 tvg-name="Fast&FunBox"tvg-id=""tvg-logo="https://i.imgur.com/a9ZtP17.png"tvg-chno=""group-title="Uncategorized":http-referrer="",Fast&FunBox
+#EXTINF:-1 tvg-name="Fast&FunBox"tvg-id=""tvg-logo="https://i.imgur.com/a9ZtP17.png"tvg-chno=""group-title="Free Streaming (FAST)":http-referrer="",Fast&FunBox
 https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-name="FIFA+"tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_%282025%29.svg/960px-FIFA%2B_%282025%29.svg.png"tvg-chno=""group-title="Uncategorized":http-referrer="",FIFA+
-https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8
 #EXTINF:-1 tvg-name="FTV"tvg-id=""tvg-logo="https://i.imgur.com/YOr1Oac.png"tvg-chno=""group-title="Uncategorized":http-referrer="",FTV
 https://master.tucableip.com/ftvhd/index.m3u8
-#EXTINF:-1 tvg-name="Monster Jam"tvg-id=""tvg-logo="https://provider-static.plex.tv/epg/cms/production/23824964-562b-4498-9eaa-d6262cb7e0c3/Monster_Jam_Logo_on_Transparent_1500x1000_Casey_Murawski.png"tvg-chno=""group-title="Uncategorized":http-referrer="",Monster Jam
-https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
-#EXTINF:-1 tvg-name="Monterrico TV"tvg-id=""tvg-logo="https://i.imgur.com/SuVO9T7.png"tvg-chno=""group-title="Uncategorized":http-referrer="",Monterrico TV
-https://h.jcp.live.opencaster.com/play_src/index.m3u8
-#EXTINF:-1 tvg-name="Savane TV"tvg-id="SavaneTV.bf@SD"tvg-logo="https://i.imgur.com/mv3S1Zc.png"tvg-chno=""group-title="Uncategorized":http-referrer="",Savane TV
-https://savane24.tv:5443/LiveApp/streams/Y4fyif69Q0ll6MeH2190896734859843.m3u8
 #EXTINF:-1 tvg-name="Andorra TV"tvg-id="AndorraTV.ad@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Andorra_Televisi%C3%B3.png"tvg-chno=""group-title="Uncategorized":http-referrer="",Andorra TV
 https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8
 #EXTINF:-1 tvg-name="CBC TV8"tvg-id="CBCTV8.bb@SD"tvg-logo="https://i.imgur.com/WsD83lq.png"tvg-chno=""group-title="Uncategorized":http-referrer="",CBC TV8

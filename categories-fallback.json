@@ -101,7 +101,7 @@
   "Arabic TV": [
     "id:\\.(sa|ae|eg|iq|lb|sy|jo|kw|qa|ly|ps|ma|dz|tn|om|ye|sd|bh)(@|$)",
     "n:[\\u0600-\\u06ff]|^ar\\b|alwesam|al ?shallal",
-    "n:^mbc\\b|asharq"
+    "n:^mbc iraq|asharq"
   ],
   "Indonesia & Malaysia": [
     "id:\\.(id|my)(@|$)",

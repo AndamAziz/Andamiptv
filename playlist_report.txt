@@ -1,4 +1,4 @@
-M3U Cleaner report - 2026-10-09 15:21:50
+M3U Cleaner report - 2026-10-09 15:22:18
 Source: playlist.m3u
 Output: playlist.m3u
 
@@ -45,9 +45,9 @@ Malformed/skipped:    0
   Turkey: 37
   Iran: 27
   India & Pakistan: 39
-  Arabic TV: 38
+  Arabic TV: 35
   Indonesia & Malaysia: 56
-  Asia: 96
+  Asia: 99
   Eastern Europe & Balkans: 129
   Portugal & Brazil: 47
   UK - Ireland - Australia - NZ: 24

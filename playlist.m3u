@@ -18390,12 +18390,6 @@ https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
 #EXTINF:-1 tvg-name="AR | SHARQIA TV"tvg-id=""tvg-logo="https://i.imgur.com/mJIG5IV.png"tvg-chno=""group-title="Arabic TV":http-referrer="",AR | SHARQIA TV
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
-#EXTINF:-1 tvg-name="MBC Chungbuk"tvg-id="HLAODTV.kr@SD"tvg-logo="https://i.imgur.com/uR0gScb.png"tvg-chno=""group-title="Arabic TV":http-referrer="",MBC Chungbuk
-http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-name="MBC Gangwon"tvg-id="HLAQDTV.kr@SD"tvg-logo="https://i.imgur.com/FGsKCH3.png"tvg-chno=""group-title="Arabic TV":http-referrer="",MBC Gangwon
-http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
-#EXTINF:-1 tvg-name="MBC Net"tvg-id="MBCNet.kr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/960px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png"tvg-chno=""group-title="Arabic TV":http-referrer="",MBC Net
-http://mytv.dothome.co.kr/ch/catv/28.php
 #EXTINF:-1 tvg-name="MBC Iraq"tvg-id=""tvg-logo="https://kurdtvs.net/uploads/files/28-03-2019-26b94a89-mbc-iraq-kurdtvs-live_.png"tvg-chno=""group-title="Arabic TV":http-referrer="",MBC Iraq
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/manifest/video/720p1750kbps/video.m3u8
 #EXTINF:-1 tvg-name="TVRI Jawa Barat"tvg-id="TVRI.id@WestJava"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png"tvg-chno=""group-title="Indonesia & Malaysia":http-referrer="",TVRI Jawa Barat
@@ -18510,6 +18504,12 @@ https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
 https://srs.u-channel.tv/live/uchannel-tv.m3u8
 #EXTINF:-1 tvg-name="UGTV"tvg-id="UGTV.id@SD"tvg-logo="https://i.imgur.com/iEKDH26.png"tvg-chno=""group-title="Indonesia & Malaysia":http-referrer="",UGTV
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
+#EXTINF:-1 tvg-name="MBC Chungbuk"tvg-id="HLAODTV.kr@SD"tvg-logo="https://i.imgur.com/uR0gScb.png"tvg-chno=""group-title="Asia":http-referrer="",MBC Chungbuk
+http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
+#EXTINF:-1 tvg-name="MBC Gangwon"tvg-id="HLAQDTV.kr@SD"tvg-logo="https://i.imgur.com/FGsKCH3.png"tvg-chno=""group-title="Asia":http-referrer="",MBC Gangwon
+http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-name="MBC Net"tvg-id="MBCNet.kr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/960px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png"tvg-chno=""group-title="Asia":http-referrer="",MBC Net
+http://mytv.dothome.co.kr/ch/catv/28.php
 #EXTINF:-1 tvg-name="3"tvg-id="3HD.th@SD"tvg-logo="https://i.imgur.com/YRiulCU.png"tvg-chno=""group-title="Asia":http-referrer="",3
 https://live-us1.thaimomo.com/live-as/ch3hd-3/playlist.m3u8
 #EXTINF:-1 tvg-name="Baan Baan TV 73"tvg-id="BaanBaanTV73.th@SD"tvg-logo="https://i.imgur.com/JGLy1Pm.png"tvg-chno=""group-title="Asia":http-referrer="",Baan Baan TV 73
