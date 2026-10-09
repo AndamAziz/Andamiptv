@@ -1,4 +1,4 @@
-M3U Cleaner report - 2026-10-09 15:06:44
+M3U Cleaner report - 2026-10-09 15:22:18
 Source: playlist.m3u
 Output: playlist.m3u
 
@@ -7,24 +7,24 @@ Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
 
-  Kurdish Channels: 245
-  Sports: 476
+  Kurdish Channels: 188
+  Sports: 486
   National Geographic: 54
   SKY TV: 19
   Movies TV: 496
   Series & Drama: 246
-  Documentary: 223
-  News: 1051
+  Documentary: 224
+  News: 1054
   Entertainment: 559
-  Music: 754
-  Kids & Family: 326
-  Religious: 603
+  Music: 757
+  Kids & Family: 327
+  Religious: 604
   Comedy: 95
   Crime & Mystery: 158
   Reality & Game Shows: 144
   Sci-Fi & Horror: 57
   Classic & Western: 100
-  Lifestyle & Travel: 293
+  Lifestyle & Travel: 295
   Culture: 114
   Education: 119
   Business: 52
@@ -35,27 +35,27 @@ Malformed/skipped:    0
   Local Channels: 15
   Smart TV Channels: 506
   General: 1328
-  USA & Canada TV: 190
-  Latin America & Spain: 301
-  Russia & CIS: 119
+  USA & Canada TV: 196
+  Latin America & Spain: 306
+  Russia & CIS: 120
   Italy: 58
-  Germany - Austria - Switzerland: 49
+  Germany - Austria - Switzerland: 50
   France & Belgium: 26
   Netherlands: 52
-  Turkey: 35
-  Iran: 25
-  India & Pakistan: 35
-  Arabic TV: 34
-  Indonesia & Malaysia: 53
+  Turkey: 37
+  Iran: 27
+  India & Pakistan: 39
+  Arabic TV: 35
+  Indonesia & Malaysia: 56
   Asia: 99
-  Eastern Europe & Balkans: 127
+  Eastern Europe & Balkans: 129
   Portugal & Brazil: 47
   UK - Ireland - Australia - NZ: 24
   Greece & Cyprus: 21
-  Africa: 24
-  Nordic Countries: 7
-  Free Streaming (FAST): 144
-  Uncategorized: 15
+  Africa: 27
+  Nordic Countries: 8
+  Free Streaming (FAST): 148
+  Uncategorized: 16
   FARSI: 6
   KURDISH-ژێرنوس: 2
   KURDISH-دۆبلاژ: 63
