@@ -1,4 +1,4 @@
-M3U Cleaner report - 2026-10-09 15:22:18
+M3U Cleaner report - 2026-10-09 15:34:21
 Source: playlist.m3u
 Output: playlist.m3u
 
@@ -8,54 +8,56 @@ Duplicates removed:   0
 Malformed/skipped:    0
 
   Kurdish Channels: 188
-  Sports: 486
+  Sports: 492
   National Geographic: 54
   SKY TV: 19
-  Movies TV: 496
+  Movies TV: 504
   Series & Drama: 246
-  Documentary: 224
-  News: 1054
-  Entertainment: 559
-  Music: 757
-  Kids & Family: 327
-  Religious: 604
-  Comedy: 95
-  Crime & Mystery: 158
-  Reality & Game Shows: 144
+  Documentary: 232
+  News: 1062
+  Entertainment: 563
+  Music: 787
+  Kids & Family: 329
+  Religious: 609
+  Comedy: 96
+  Crime & Mystery: 159
+  Reality & Game Shows: 146
   Sci-Fi & Horror: 57
   Classic & Western: 100
-  Lifestyle & Travel: 295
+  Lifestyle & Travel: 301
   Culture: 114
-  Education: 119
+  Education: 120
   Business: 52
   Shopping: 69
   Weather: 10
-  Legislative & Public: 164
+  Legislative & Public: 170
   Anime & Gaming: 10
   Local Channels: 15
   Smart TV Channels: 506
-  General: 1328
-  USA & Canada TV: 196
-  Latin America & Spain: 306
-  Russia & CIS: 120
-  Italy: 58
-  Germany - Austria - Switzerland: 50
-  France & Belgium: 26
-  Netherlands: 52
-  Turkey: 37
-  Iran: 27
-  India & Pakistan: 39
-  Arabic TV: 35
-  Indonesia & Malaysia: 56
-  Asia: 99
-  Eastern Europe & Balkans: 129
-  Portugal & Brazil: 47
-  UK - Ireland - Australia - NZ: 24
-  Greece & Cyprus: 21
-  Africa: 27
-  Nordic Countries: 8
-  Free Streaming (FAST): 148
-  Uncategorized: 16
+  General: 1
+  USA & Canada TV: 345
+  Latin America & Spain: 718
+  Russia & CIS: 228
+  Italy: 88
+  Germany - Austria - Switzerland: 90
+  France & Belgium: 38
+  Netherlands: 88
+  Turkey: 67
+  Iran: 53
+  India & Pakistan: 71
+  Arabic TV: 65
+  Indonesia & Malaysia: 87
+  Asia: 151
+  Eastern Europe & Balkans: 213
+  Portugal & Brazil: 73
+  UK - Ireland - Australia - NZ: 41
+  Greece & Cyprus: 33
+  Africa: 57
+  Caribbean & Pacific: 17
+  Israel: 7
+  Nordic Countries: 18
+  Free Streaming (FAST): 204
+  Uncategorized: 8
   FARSI: 6
   KURDISH-ژێرنوس: 2
   KURDISH-دۆبلاژ: 63

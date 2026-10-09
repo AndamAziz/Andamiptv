@@ -42,6 +42,7 @@ DEFAULT_LOGOS_FILE = "category-logos.json"   # {"Category": "logo url"} used for
 # Always sorts last. The label actually written into group-title is
 # UNCATEGORIZED_LABEL below, not this raw key.
 UNCATEGORIZED_KEY = "Other"
+REGROUP_KEY = "General"   # catch-all group whose channels also go through the fallback rules
 UNCATEGORIZED_LABEL = "Uncategorized"
 
 DEFAULT_CATEGORIES = {
@@ -284,8 +285,11 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             category = get_group_title(extinf_line)
         else:
             category = categorize_channel(extinf_line, categories, url_line)
-            if category == UNCATEGORIZED_KEY and fallback:
-                category = categorize_channel(extinf_line, fallback, url_line)
+            if category in (UNCATEGORIZED_KEY, REGROUP_KEY) and fallback:
+                # second pass: channels no specific rule placed (Uncategorized) or parked in the catch-all "General"
+                second = categorize_channel(extinf_line, fallback, url_line)
+                if second != UNCATEGORIZED_KEY:
+                    category = second
             display_label = UNCATEGORIZED_LABEL if category == UNCATEGORIZED_KEY else category
             extinf_line = set_group_title(extinf_line, display_label)
             extinf_line = clean_name(extinf_line)
