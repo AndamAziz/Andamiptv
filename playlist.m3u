@@ -19686,3 +19686,5 @@ https://andam.uk/vod/video_0af703/index.m3u8
 https://andam.uk/vod/video_e07861/index.m3u8
 #EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
 https://andam.uk/ytlive/avasport/index.m3u8
+#EXTINF:-1 tvg-name="Daily Quran"tvg-id=""tvg-logo="https://i.ytimg.com/vi/pV5GVlGHYKI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDweV-isRuw8Fj_5LRru9K57WaEzw"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Daily Quran
+https://andam.uk/ytlive/makkahlive/index.m3u8
