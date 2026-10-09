@@ -2,6 +2,9 @@
   "order": {
     "SKY TV": {
       "after": "National Geographic"
+    },
+    "Latin America & Spain": {
+      "after": "USA & Canada TV"
     }
   },
   "sort": {

@@ -60,15 +60,19 @@
   "Anime & Gaming": [
     "n:gaming|\\bgame\\b|esport|\\banime|manga|naruto|pokemon|twitch"
   ],
+  "Latin America & Spain": [
+    "id:\\.(es|mx|ar|cl|pe|bo|ec|cr|co|do|ve|uy|py|gt|pa|hn|sv|pr|cu|ni)(@|$)",
+    "n:\\b(tele|canal|televisión|red)\\b",
+    "n:monterrico|colimdo",
+    "n:en espa[nñ]ol|latino|dramon|escape perfecto|sony one|estrella|telemundo|\\bvix\\b|\\bwapa|canela|galanes|mar[ií]as|asombrosas|bodas|expedientes|qu[eé] culpa|grandes parejas|competencias|coreano|historia\\b|al d[ií]a|\\baccion\\b"
+  ],
   "USA & Canada TV": [
     "id:\\.(us|ca)(@|$)",
     "n:^[kwc][a-z]{3}(-dt\\d*)?(\\s|$)",
-    "n:\\bwjcl\\b"
-  ],
-  "Latin America & Spain": [
-    "id:\\.(es|mx|ar|cl|pe|bo|ec|cr|co|do|ve|uy|py|gt|pa|hn|sv|pr|cu|ni)(@|$)",
-    "n:\\b(tele|canal|televisi[oó]n|red)\\b",
-    "n:monterrico|colimdo"
+    "n:\\bwjcl\\b",
+    "id:^ln_|^us[a-z0-9]{8,}$",
+    "u:localnow",
+    "n:^very\\b|\\bnbc \\d|\\babc local|\\bcbs \\d|\\bnew orleans\\b"
   ],
   "Russia & CIS": [
     "id:\\.(ru|ua|kz|by|am|ge|az|uz|tm|md|kg|tj)(@|$)",
@@ -95,7 +99,7 @@
     "u:telewebion|irib"
   ],
   "India & Pakistan": [
-    "id:\\.(in|pk|bd|lk|np)(@|$)",
+    "id:\\.(in|pk|bd|lk|np|af|mv)(@|$)",
     "n:^dd |doordarshan"
   ],
   "Arabic TV": [
@@ -109,7 +113,8 @@
   ],
   "Asia": [
     "id:\\.(vn|th|cn|kr|jp|tw|hk|kh|la|mn|ph|sg|mm)(@|$)",
-    "n:[\\u3040-\\u30ff\\u3400-\\u9fff\\uac00-\\ud7af]|douyu|huya|cctv"
+    "n:[\\u3040-\\u30ff\\u3400-\\u9fff\\uac00-\\ud7af]|douyu|huya|cctv",
+    "n:korean central"
   ],
   "Eastern Europe & Balkans": [
     "id:\\.(hu|cz|pl|sk|ro|rs|xk|ba|hr|me|si|bg|lt|lv|ee|mk|al)(@|$)"
@@ -124,16 +129,23 @@
     "id:\\.(gr|cy)(@|$)"
   ],
   "Africa": [
-    "id:\\.(ng|ke|gh|za|ug|rw|ci|sn|cm|ne|tz|et|zm|zw|bf|ml|bj|tg|td|cd|cg|ga|mg|mu|ao|mz|na|bw)(@|$)",
+    "id:\\.(ng|ke|gh|za|ug|rw|ci|sn|cm|ne|tz|et|zm|zw|bf|ml|bj|tg|td|cd|cg|ga|mg|mu|ao|mz|na|bw|er|gn|gm|eh)(@|$)",
     "n:afro",
     "n:^k24\\b"
+  ],
+  "Caribbean & Pacific": [
+    "id:\\.(gy|lc|bq|gp|mq|gf|cw|ht|jm|kn|ag|bb|vg|bs|tt|sr|dm|gd|vc|aw|sx|ky|bm|pg|fj|ws|to|vu|sb)(@|$)"
+  ],
+  "Israel": [
+    "id:\\.il(@|$)",
+    "n:^kan \\d|keshet|reshet"
   ],
   "Nordic Countries": [
     "id:\\.(fi|se|no|dk|is|fo|ee)(@|$)",
     "n:^yle |^nrk|^svt|^tv ?2/"
   ],
   "Free Streaming (FAST)": [
-    "u:wurl\\.(com|tv)|amagi|nbcuni|sofast|klowdtv|ottera|frequency\\.stream|tubi|rakuten|plex\\.tv|fasttvcdn|xumo|samsung|cloudfront\\.net|pluto|stirr|redbox",
+    "u:wurl\\.(com|tv)|amagi|nbcuni|sofast|klowdtv|ottera|frequency\\.stream|tubi|rakuten|plex\\.tv|fasttvcdn|xumo|samsung|cloudfront\\.net|pluto|stirr|redbox|transmit\\.live|mediatailor",
     "n:fast&fun"
   ]
 }
