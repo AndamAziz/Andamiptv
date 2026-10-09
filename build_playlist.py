@@ -34,6 +34,7 @@ DEFAULT_INPUT = "playlist.m3u"
 DEFAULT_OUTPUT = "playlist_clean.m3u"
 DEFAULT_BLOCKLIST_FILE = "blocklist.txt"
 DEFAULT_CATEGORIES_FILE = "categories.json"
+DEFAULT_FALLBACK_FILE = "categories-fallback.json"  # second pass: only for channels categories.json could not place
 DEFAULT_LAYOUT_FILE = "category-layout.json"  # display order of groups + sub-order inside a group
 DEFAULT_LOGOS_FILE = "category-logos.json"   # {"Category": "logo url"} used for live channels with no logo
 
@@ -80,6 +81,18 @@ def load_categories(filepath: str) -> dict:
     return DEFAULT_CATEGORIES
 
 
+def load_fallback(filepath: str) -> dict:
+    if not os.path.exists(filepath):
+        return {}
+    try:
+        with open(filepath, "r", encoding="utf-8-sig") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, OSError) as e:
+        log.warning(f"Could not read {filepath} ({e}); no fallback rules")
+        return {}
+
+
 def load_layout(filepath: str) -> dict:
     """{"order": {"GROUP": {"after": "OTHER GROUP"}}, "sort": {"GROUP": [regex, ...]}}"""
     if not os.path.exists(filepath):
@@ -118,14 +131,33 @@ def apply_default_logo(extinf_line: str, logo_url: str) -> str:
     return f'{prefix} tvg-logo="{logo_url}",{name}'
 
 
-def categorize_channel(extinf_line: str, categories: dict) -> str:
+def categorize_channel(extinf_line: str, categories: dict, url: str = "") -> str:
+    """First category (in categories.json order) with a matching keyword wins.
+
+    Keyword forms:  "text"   plain substring of the whole #EXTINF line (lowercase)
+                    "re:..." regex on the whole #EXTINF line
+                    "n:..."  regex on the channel name only
+                    "id:..." regex on the tvg-id (e.g. country suffix ".us@SD")
+                    "u:..."  regex on the stream URL
+    """
     extinf_lower = extinf_line.lower()
+    name_lower = extinf_line.split(",", 1)[-1].strip().lower()
+    m = re.search(r'tvg-id="([^"]*)"', extinf_line)
+    id_lower = m.group(1).lower() if m else ""
+    url_lower = url.strip().lower()
     for category, keywords in categories.items():
         for kw in keywords:
             if kw.startswith("re:"):
-                if re.search(kw[3:], extinf_lower):
-                    return category
-            elif kw in extinf_lower:
+                hit = re.search(kw[3:], extinf_lower)
+            elif kw.startswith("n:"):
+                hit = re.search(kw[2:], name_lower)
+            elif kw.startswith("id:"):
+                hit = re.search(kw[3:], id_lower)
+            elif kw.startswith("u:"):
+                hit = re.search(kw[2:], url_lower)
+            else:
+                hit = kw in extinf_lower
+            if hit:
                 return category
     return UNCATEGORIZED_KEY
 
@@ -205,6 +237,7 @@ def parse_playlist(lines: list[str]):
 def process_playlist(input_file: str, output_file: str, blocklist_file: str, categories_file: str, sort_alpha: bool):
     blocklist = load_blocklist(blocklist_file)
     categories = load_categories(categories_file)
+    fallback = load_fallback(os.path.join(os.path.dirname(os.path.abspath(categories_file)), DEFAULT_FALLBACK_FILE))
     layout = load_layout(os.path.join(os.path.dirname(os.path.abspath(categories_file)), DEFAULT_LAYOUT_FILE))
     category_logos = load_category_logos(os.path.join(os.path.dirname(os.path.abspath(categories_file)), DEFAULT_LOGOS_FILE))
     log.info(f"Blocked keywords loaded: {len(blocklist)}")
@@ -250,7 +283,9 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             # Their names are curated (e.g. "Title (2006)" for TMDB matching): leave them untouched.
             category = get_group_title(extinf_line)
         else:
-            category = categorize_channel(extinf_line, categories)
+            category = categorize_channel(extinf_line, categories, url_line)
+            if category == UNCATEGORIZED_KEY and fallback:
+                category = categorize_channel(extinf_line, fallback, url_line)
             display_label = UNCATEGORIZED_LABEL if category == UNCATEGORIZED_KEY else category
             extinf_line = set_group_title(extinf_line, display_label)
             extinf_line = clean_name(extinf_line)
@@ -262,7 +297,7 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
 
     # Display order = categories.json order, except groups listed in layout["order"]
     # (matching still follows categories.json order, so a group can be matched early but shown later).
-    display = list(categories.keys())
+    display = list(categories.keys()) + [k for k in fallback if k not in categories]
     for group, rule in layout.get("order", {}).items():
         if group in display and rule.get("after") in display:
             display.remove(group)
