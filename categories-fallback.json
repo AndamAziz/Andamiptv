@@ -1,0 +1,132 @@
+{
+  "Sports": [
+    "n:deporte|f[uú]tbol|footbal|soccer|спорт|\\bgolf|racing|boxing|wrestl|\\bufc|\\bmma\\b|\\bnba|\\bnfl|\\bnhl|\\bmlb|tennis|billiard|cricket|basket|olymp|fight|poker|bowling|surf|ski\\b|hockey|rugby|motorsport|fishing|hunting"
+  ],
+  "Movies TV": [
+    "n:\\bcine|\\bfilm|kino|\\bmovie|cinema|pel[ií]cula|sinema|bollywood|nollywood|western"
+  ],
+  "Documentary": [
+    "n:docu|discovery|\\bhistory|\\bwild|animal|planet|\\bscience|explor|outdoor|nature|ancient|biography|archive|\\bnasa"
+  ],
+  "News": [
+    "n:noticia|notícia|haber|nachricht|новост|actualit|journal|\\binfo\\b|\\btg\\b|berita|nyheter|zpr[aá]vy|h[ií]rek|wiadomo|jurnal|akhbar|tin tuc|telediario|informativ|24h|\\bcnn\\b|bbc world|\\bdw\\b|euronews|aljazeera|al jazeera|\\brt\\b"
+  ],
+  "Entertainment": [
+    "n:entertain|novela|\\bvarie|\\bcomedy central"
+  ],
+  "Music": [
+    "n:m[uú]sica|musik|m[uü]zik|\\bhits\\b|\\bradio\\b|\\bfm\\b|\\bmtv|vevo|hip.?hop|jazz|\\brock\\b|\\bpop\\b|beats|karaoke|concert|\\bdj\\b|музык|клип|billboard|\\bhd music|lofi|chill|vibes|\\bsong|country|reggae|salsa|latin hits|blues|classical"
+  ],
+  "Kids & Family": [
+    "n:\\bkids|ni[nñ]os|[cç]ocuk|детск|\\bbaby|\\btoon|cartoon|blippi|caillou|junior|disney|\\bnick\\b|peppa|bluey|sesame|kinder|enfant|infantil|dibujos|animado|\\banime|pocoyo|smurf|dino|bebe|beb[eé]|jr\\b|\\bkid\\b|batterypop|babytv"
+  ],
+  "Religious": [
+    "n:church|christ|jesus|\\bgod\\b|gospel|islam|quran|koran|muslim|mosque|\\bnoor\\b|takbeer|\\bbible|\\bcatholic|faith|ministr|prayer|synagogue|hindu|buddh|dhamma|sikh|iglesia|igreja|mesih|diyanet|ahlulbayt|bhakti|sadhna|sanatan|spirit|\\babn\\b|evangel|jewish|torah|israel|hope|paz\\b|vida|adventist|salvation|miracle|\\bsat7|alkarma|al ?karma|noursat"
+  ],
+  "Comedy": [
+    "n:comed|humor|funny|laugh|stand.?up|sitcom|\\bfails?\\b|\\bafv\\b|\\bcats\\b|prank"
+  ],
+  "Crime & Mystery": [
+    "n:crime|crimen|detective|mystery|mysteries|murder|forensic|paranormal|cold case|ghost|haunt|\\bcops?\\b|\\bjail|police|swat|\\bbad girls|investigat|\\bunsolved|\\bnoir|hitchcock|\\bdetec"
+  ],
+  "Reality & Game Shows": [
+    "n:reality|dating|bachelor|\\bidol|talent|big brother|survivor|ninja|hoarders|ax men|pawn|storage|auction|dine with|come dine|got talent|game show|quiz|wheel|jeopardy|family feud|price is right|\\bshow\\b"
+  ],
+  "Classic & Western": [
+    "n:classic|retro|vintage|\\bold\\b|nostalg|\\b(19[3-9]0|70s|80s|90s)\\b"
+  ],
+  "Lifestyle & Travel": [
+    "n:cook|cocina|\\bfood|\\bchef|recipe|fashion|\\bmoda\\b|\\bhome\\b|garden|travel|viaje|\\bpets?\\b|\\bvet\\b|\\bcars?\\b|motor|\\bauto\\b|\\bdiy\\b|craft|beauty|wellness|\\byoga|fitness|health|\\bsalud|dine\\b|tasty|bake|kitchen|vacation|holiday|\\bgolf"
+  ],
+  "Culture": [
+    "n:cultur|\\barts?\\b|museum|theatre|theater|\\bopera\\b|ballet|\\bdocu"
+  ],
+  "Education": [
+    "n:educa|\\blearn|school|\\buniversity|universidad|academy|escuela|tutorial|\\bedu\\b|\\bcollege|lecture|\\bted\\b|\\bstem\\b"
+  ],
+  "Business": [
+    "n:business|financ|bloomberg|econom|\\bmarket|bolsa|\\bmoney|\\bcnbc|\\bfox business|wealth|\\binvest(ment|or)s?\\b"
+  ],
+  "Shopping": [
+    "n:\\bshop|teleshop|\\bqvc|\\bhsn\\b|ofertas|\\bmall\\b|bazaar|marketplace|\\bbuy\\b"
+  ],
+  "Weather": [
+    "n:weather|\\bclima\\b|meteo|tiempo|\\bwx\\b"
+  ],
+  "Legislative & Public": [
+    "n:parlament|senate|congress|council|assembly|government|\\bgov\\b|municip|ayuntamiento|public access|communit|cmtv|\\bcable access|\\bcity\\b|county|\\bcivic|\\bcan tv|\\bcatv|\\bakaku"
+  ],
+  "Anime & Gaming": [
+    "n:gaming|\\bgame\\b|esport|\\banime|manga|naruto|pokemon|twitch"
+  ],
+  "USA & Canada TV": [
+    "id:\\.(us|ca)(@|$)",
+    "n:^[kwc][a-z]{3}(-dt\\d*)?(\\s|$)"
+  ],
+  "Latin America & Spain": [
+    "id:\\.(es|mx|ar|cl|pe|bo|ec|cr|co|do|ve|uy|py|gt|pa|hn|sv|pr|cu|ni)(@|$)",
+    "n:\\b(tele|canal|televisi[oó]n|red)\\b"
+  ],
+  "Russia & CIS": [
+    "id:\\.(ru|ua|kz|by|am|ge|az|uz|tm|md|kg|tj)(@|$)",
+    "n:[а-яёіїєґ]"
+  ],
+  "Italy": [
+    "id:\\.it(@|$)"
+  ],
+  "Germany - Austria - Switzerland": [
+    "id:\\.(de|at|ch|li)(@|$)"
+  ],
+  "France & Belgium": [
+    "id:\\.(fr|be|lu|mc)(@|$)"
+  ],
+  "Netherlands": [
+    "id:\\.nl(@|$)"
+  ],
+  "Turkey": [
+    "id:\\.tr(@|$)"
+  ],
+  "Iran": [
+    "id:\\.ir(@|$)",
+    "u:telewebion|irib"
+  ],
+  "India & Pakistan": [
+    "id:\\.(in|pk|bd|lk|np)(@|$)",
+    "n:^dd |doordarshan"
+  ],
+  "Arabic TV": [
+    "id:\\.(sa|ae|eg|iq|lb|sy|jo|kw|qa|ly|ps|ma|dz|tn|om|ye|sd|bh)(@|$)",
+    "n:[\\u0600-\\u06ff]|^ar\\b|alwesam|al ?shallal"
+  ],
+  "Indonesia & Malaysia": [
+    "id:\\.(id|my)(@|$)",
+    "n:^tvri"
+  ],
+  "Asia": [
+    "id:\\.(vn|th|cn|kr|jp|tw|hk|kh|la|mn|ph|sg|mm)(@|$)",
+    "n:[\\u3040-\\u30ff\\u3400-\\u9fff\\uac00-\\ud7af]|douyu|huya|cctv"
+  ],
+  "Eastern Europe & Balkans": [
+    "id:\\.(hu|cz|pl|sk|ro|rs|xk|ba|hr|me|si|bg|lt|lv|ee|mk|al)(@|$)"
+  ],
+  "Portugal & Brazil": [
+    "id:\\.(br|pt)(@|$)"
+  ],
+  "UK - Ireland - Australia - NZ": [
+    "id:\\.(uk|gb|ie|au|nz)(@|$)"
+  ],
+  "Greece & Cyprus": [
+    "id:\\.(gr|cy)(@|$)"
+  ],
+  "Africa": [
+    "id:\\.(ng|ke|gh|za|ug|rw|ci|sn|cm|ne|tz|et|zm|zw)(@|$)",
+    "n:afro"
+  ],
+  "Nordic Countries": [
+    "id:\\.(fi|se|no|dk|is|fo|ee)(@|$)",
+    "n:^yle |^nrk|^svt|^tv ?2/"
+  ],
+  "Free Streaming (FAST)": [
+    "u:wurl\\.(com|tv)|amagi|nbcuni|sofast|klowdtv|ottera|frequency\\.stream|tubi|rakuten|plex\\.tv|fasttvcdn|xumo|samsung|cloudfront\\.net|pluto|stirr|redbox"
+  ]
+}
