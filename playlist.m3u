@@ -376,6 +376,12 @@ https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 http://avrstream.com:1935/live/Kurd7HD/playlist.m3u8
 #EXTINF:-1 tvg-name="KIRKUK TV"tvg-id=""tvg-logo="https://kurdistan.live/wp-content/uploads/2026/04/kerkuktv.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KIRKUK TV
 https://live.kirkuklive.live/hls/stream/index.m3u8
+#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
+https://andam.uk/ytlive/avasport/index.m3u8
+#EXTINF:-1 tvg-name="Daily Quran"tvg-id=""tvg-logo="https://i.ytimg.com/vi/pV5GVlGHYKI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDweV-isRuw8Fj_5LRru9K57WaEzw"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Daily Quran
+https://andam.uk/ytlive/makkahlive/index.m3u8
+#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
+https://andam.uk/ytlive/xlive/index.m3u8
 #EXTINF:-1 tvg-name="30A Golf Kingdom"tvg-id=""tvg-logo="https://i.imgur.com/Lv53nh4.png"tvg-chno=""group-title="Sports":http-referrer="",30A Golf Kingdom
 https://30a-tv.com/feeds/vidaa/golf.m3u8
 #EXTINF:-1 tvg-name="FloHockey 24/7"tvg-id=""tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png"tvg-chno=""group-title="Sports":http-referrer="",FloHockey 24/7
@@ -19684,9 +19690,3 @@ https://andam.uk/vod/video_54bf3a/index.m3u8
 https://andam.uk/vod/video_0af703/index.m3u8
 #EXTINF:-1 tvg-name="Bachelors - S01E03"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BNWNkYTlmMWQtYTAwNS00MWQ0LTk1ZmEtOGMxOTk2NzIzMmEzXkEyXkFqcGc@._V1_FMjpg_UX392_.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Bachelors - S01E03
 https://andam.uk/vod/video_e07861/index.m3u8
-#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
-https://andam.uk/ytlive/avasport/index.m3u8
-#EXTINF:-1 tvg-name="Daily Quran"tvg-id=""tvg-logo="https://i.ytimg.com/vi/pV5GVlGHYKI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDweV-isRuw8Fj_5LRru9K57WaEzw"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Daily Quran
-https://andam.uk/ytlive/makkahlive/index.m3u8
-#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
-https://andam.uk/ytlive/xlive/index.m3u8
