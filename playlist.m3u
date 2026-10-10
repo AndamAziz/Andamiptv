@@ -19690,3 +19690,5 @@ https://andam.uk/vod/video_54bf3a/index.m3u8
 https://andam.uk/vod/video_0af703/index.m3u8
 #EXTINF:-1 tvg-name="Bachelors - S01E03"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BNWNkYTlmMWQtYTAwNS00MWQ0LTk1ZmEtOGMxOTk2NzIzMmEzXkEyXkFqcGc@._V1_FMjpg_UX392_.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Bachelors - S01E03
 https://andam.uk/vod/video_e07861/index.m3u8
+#EXTINF:-1 tvg-name="bein sports türkiye"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-2a110304-74ab-4e7e-a458-5e29723b508c.jpg"tvg-chno=""group-title="Sports":http-referrer="",bein sports türkiye
+https://andam.uk/ytlive/beinsport/index.m3u8
