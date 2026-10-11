@@ -200,7 +200,6 @@ ESRA 2
 ESRA TV
 ESRA TV 2
 EURO KURD TV
-EWTN Ukraine
 Easy Listening
 Emergency 24/7
 Enquetes de choc
@@ -214,7 +213,6 @@ FAST Channel Extreme Makeover Home Edition
 FAST Channel Live Below Zero
 FAST Channel Locked Up Abroad
 FAST Channel NYPD Blue
-FAST Channel Nat Geo Sharks
 FAST Channel Shark Tank
 FAST Channel Supernanny
 FAST Channel The Incredible Dr Pol
@@ -455,7 +453,6 @@ NETFLIX DRAMA 2
 NEW KFOOD
 NHL
 NUÇÊ TV
-Nature Time C14
 News 18 Madhya Pradesh Geo
 News 18 Uttarakhand Geo
 News1
@@ -528,7 +525,6 @@ Rugby Pass TV
 SHNA TV
 SOZ QURAN TV
 SOZ TV
-SPEDA DRAMA TV
 SPI
 SPI QURAN TV
 SURFER TV
@@ -686,7 +682,6 @@ Wheels & Steel
 Who Wants to Be a Millionaire?
 Whoa That Was Wild
 Wicked Tuna Germany
-Wild Nature
 Will & Grace
 World of Love Island
 X-Factor: Das Unfassbare
