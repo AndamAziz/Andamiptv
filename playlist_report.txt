@@ -1,4 +1,4 @@
-M3U Cleaner report - 2026-10-11 02:18:25
+M3U Cleaner report - 2026-10-11 11:37:11
 Source: playlist.m3u
 Output: playlist.m3u
 
@@ -9,7 +9,7 @@ Malformed/skipped:    0
 
   Kurdish Channels: 191
   Sports: 472
-  National Geographic: 54
+  National Geographic: 55
   SKY TV: 19
   Movies TV: 504
   Series & Drama: 246
@@ -33,7 +33,7 @@ Malformed/skipped:    0
   Legislative & Public: 170
   Anime & Gaming: 10
   Local Channels: 15
-  Smart TV Channels: 506
+  Smart TV Channels: 505
   General: 1
   USA & Canada TV: 345
   Latin America & Spain: 718
