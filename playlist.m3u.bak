@@ -1434,6 +1434,8 @@ https://dhiy0zcig7ty1.cloudfront.net/scheduler/scheduleMaster/491.m3u8
 https://amg01515-amg01515c17-xumo-us-2489.playouts.now.amagi.tv/bamus-lovenaturespanish-roku/playlist.m3u8
 #EXTINF:-1 tvg-name="Viasat Nature"tvg-id="ViasatNature.ua@SD"tvg-logo="https://i.imgur.com/YY0LfBA.png"tvg-chno=""group-title="National Geographic":http-referrer="",Viasat Nature
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoODQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA3NTMxMTAmc3Q9dTZrbUNadl9LWlpqMllkWVJRbDVBdw%3D%3D&master=77
+#EXTINF:-1 tvg-name="Naruto Geo" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" tvg-chno="" group-title="National Geographic" http-referrer="",Naruto Geo
+https://amg00609-palatinmedia-amg00609c1-xiaomi-international-544.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-naruto-xiaomiinternational/playlist.m3u8
 #EXTINF:-1 tvg-name="Sky News"tvg-id=""tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png"tvg-chno=""group-title="SKY TV":http-referrer="",Sky News
 https://d3o0lv2x93e6yf.cloudfront.net/31004/88887727/hls/master.m3u8?ads.xumo_channelId=88887727&ads.xumo_streamId=88887727&ads.csid=sitesection:FAST:VIDAA:SkyNewsUK&ads.xumo_channelName=skynews&ads.ifa=%7BPSID%7D&ads.gdpr_consent=%7BTC_STRING%7D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=7527
 #EXTINF:-1 tvg-name="Sky News"tvg-id="XUMO_99951223"tvg-logo="https://image.xumo.com/v1/channels/channel/99951223/300x300.webp?type=color_onBlack"tvg-chno=""group-title="SKY TV":http-referrer="",Sky News
@@ -13868,8 +13870,6 @@ https://rightsboosterltd-scl-2-de.xiaomi.wurl.tv/playlist.m3u8
 https://janson-supersimplesongs-1-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="PocketWatch"tvg-id=""tvg-logo="https://i.imgur.com/T0V90Lz.png"tvg-chno=""group-title="Smart TV Channels":http-referrer="",PocketWatch
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00286-pocketwatch-pocketwatch-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-name="Naruto Geo" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" tvg-chno="" group-title="Smart TV Channels" http-referrer="",Naruto Geo
-https://amg00609-palatinmedia-amg00609c1-xiaomi-international-544.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-naruto-xiaomiinternational/playlist.m3u8
 #EXTINF:-1 tvg-name="Young Hollywood"tvg-id=""tvg-logo="https://i.imgur.com/X27MGHd.png"tvg-chno=""group-title="Smart TV Channels":http-referrer="",Young Hollywood
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00143-younghollywoodl-younghollywood-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-name="Watch Mojo"tvg-id=""tvg-logo=""tvg-chno=""group-title="Smart TV Channels":http-referrer="",Watch Mojo
