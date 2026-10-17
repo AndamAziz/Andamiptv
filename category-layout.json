@@ -15,5 +15,10 @@
       "^sky folk",
       "^sky news arabia"
     ]
+  },
+  "pin": {
+    "Sports": [
+      "(?<![a-z])bein(?![a-z])"
+    ]
   }
 }

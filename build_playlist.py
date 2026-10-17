@@ -95,7 +95,7 @@ def load_fallback(filepath: str) -> dict:
 
 
 def load_layout(filepath: str) -> dict:
-    """{"order": {"GROUP": {"after": "OTHER GROUP"}}, "sort": {"GROUP": [regex, ...]}}"""
+    """{"order": {"GROUP": {"after": "OTHER GROUP"}}, "sort": {"GROUP": [regex, ...]}, "pin": {"GROUP": [regex, ...]}}"""
     if not os.path.exists(filepath):
         return {}
     try:
@@ -309,6 +309,9 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
     priority = {name: idx for idx, name in enumerate(display)}
     priority[UNCATEGORIZED_KEY] = len(priority)
     sub_rules = {g: [re.compile(r, re.IGNORECASE) for r in rules] for g, rules in layout.get("sort", {}).items()}
+    # layout["pin"]: {"GROUP": [regex, ...]} -> channels whose name matches go to the top of the group,
+    # everything else keeps its current order (stable sort, no alphabetical re-sorting).
+    pin_rules = {g: [re.compile(r, re.IGNORECASE) for r in rules] for g, rules in layout.get("pin", {}).items()}
 
     # Live channels first (categories.json order, Uncategorized last), then movies, then series.
     vod_first_seen: dict[str, int] = {}
@@ -327,6 +330,11 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             nm = ch["extinf"].split(",", 1)[-1].strip()
             idx = next((i for i, r in enumerate(rules) if r.search(nm)), len(rules))
             return (priority.get(ch["category"], live_end), idx, nm.lower())
+        pins = pin_rules.get(ch["category"])
+        if pins:
+            nm = ch["extinf"].split(",", 1)[-1].strip()
+            pinned = 0 if any(r.search(nm) for r in pins) else 1
+            return (priority.get(ch["category"], live_end), pinned, name_part)
         return (priority.get(ch["category"], live_end), 0, name_part)
 
     channels.sort(key=sort_key)
