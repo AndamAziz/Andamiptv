@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-10-17 19:43:48
+M3U Cleaner report - 2026-10-17 19:54:20
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  9842
+Total channels kept:  9843
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
@@ -57,6 +57,6 @@ Malformed/skipped:    0
   Israel: 7
   Nordic Countries: 18
   Free Streaming (FAST): 204
-  Uncategorized: 8
+  Uncategorized: 9
   FARSI: 6
   KURDISH-دۆبلاژ: 81
