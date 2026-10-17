@@ -19,6 +19,24 @@
   "pin": {
     "Sports": [
       "(?<![a-z])bein(?![a-z])"
+    ],
+    "News": [
+      "^(\\d+\\s+)?bbc (news|world news)$",
+      "^bbc (arabic|persian)$",
+      "^(\\d+\\s+)?cnn( tv| international)?$",
+      "^al jazeera(?! mubasher broadcast)",
+      "^al arabiya( english)?$",
+      "^al hadath$",
+      "^asharq news",
+      "^al mayadeen$",
+      "^france 24 (fast )?(english|arabic)$",
+      "^dw (english|arabic)$",
+      "^euronews( english| live| en direct)?$",
+      "^trt (world|arabi)",
+      "^rt arabic$",
+      "^cgtn$",
+      "^(\\d+\\s+)?(the )?reuters( 60)?$",
+      "^voa persian$"
     ]
   }
 }

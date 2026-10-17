@@ -309,7 +309,7 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
     priority = {name: idx for idx, name in enumerate(display)}
     priority[UNCATEGORIZED_KEY] = len(priority)
     sub_rules = {g: [re.compile(r, re.IGNORECASE) for r in rules] for g, rules in layout.get("sort", {}).items()}
-    # layout["pin"]: {"GROUP": [regex, ...]} -> channels whose name matches go to the top of the group,
+    # layout["pin"]: {"GROUP": [regex, ...]} -> channels whose name matches go to the top of the group (rule order = rank),
     # everything else keeps its current order (stable sort, no alphabetical re-sorting).
     pin_rules = {g: [re.compile(r, re.IGNORECASE) for r in rules] for g, rules in layout.get("pin", {}).items()}
 
@@ -333,7 +333,8 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         pins = pin_rules.get(ch["category"])
         if pins:
             nm = ch["extinf"].split(",", 1)[-1].strip()
-            pinned = 0 if any(r.search(nm) for r in pins) else 1
+            # rank = index of the first matching rule (rules are in order of importance); the rest go after
+            pinned = next((i for i, r in enumerate(pins) if r.search(nm)), len(pins))
             return (priority.get(ch["category"], live_end), pinned, name_part)
         return (priority.get(ch["category"], live_end), 0, name_part)
 
