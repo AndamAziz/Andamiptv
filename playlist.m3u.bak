@@ -380,6 +380,8 @@ http://avrstream.com:1935/live/Kurd7HD/playlist.m3u8
 https://live.kirkuklive.live/hls/stream/index.m3u8
 #EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
 https://andam.uk/ytlive/avasport/index.m3u8
+#EXTINF:-1 tvg-name="AVA SPORT 2"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT 2
+https://kurdtv.org/api/public/hls?u=https%3A%2F%2Fprod-fastly-us-west-2.video.pscp.tv%2FTranscoding%2Fv1%2Fhls%2FjFAxC6muCB84DngrBUZcJoT4kkaMhq5q4YKSjb2jgSyglFrVE0Hr54yYiIB8tHkyUWXaT_0dakyi-Zeg0ZoY4A%2Ftranscode%2Fus-west-2%2Fperiscope-replay-direct-prod-us-west-2-public%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInZlcnNpb24iOiIyIn0.eyJFbmNvZGVyU2V0dGluZyI6ImVuY29kZXJfc2V0dGluZ183MjBwMzBfMTAiLCJIZWlnaHQiOjcyMCwiS2JwcyI6Mjc1MCwiV2lkdGgiOjEyODB9.ldktM4fCFRfkP4ZEBfZPKtlAUNAcTPkoz994YJAzWpE%2Fdynamic_playlist.m3u8%3Ftype%3Dlive
 #EXTINF:-1 tvg-name="Daily Quran"tvg-id=""tvg-logo="https://i.ytimg.com/vi/pV5GVlGHYKI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDweV-isRuw8Fj_5LRru9K57WaEzw"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Daily Quran
 https://andam.uk/ytlive/makkahlive/index.m3u8
 #EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
