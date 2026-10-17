@@ -8,6 +8,8 @@ https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
 #EXTINF:-1 tvg-name="KHAK TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-dde6792e-a3e9-4a20-91f7-6784441da5ec.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KHAK TV
 http://khakhd.ddns.net:1935/stream/khakhd/playlist.m3u8
+#EXTINF:-1 tvg-name="BINER Zaxo"tvg-id=""tvg-logo="https://mytvo.com/storage/channels/logos/biner-zaxo-live-stream-logo.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",BINER Zaxo
+https://lbgo.bozztv.com/ssh101/live/biner-zaxo/playlist.m3u8
 #EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
 https://cdn.karwan.tv/gewher-sport/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Gali Kurdistan+"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-350abf4b-821d-4044-9a91-89349cd36ca5.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gali Kurdistan+
