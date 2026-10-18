@@ -19526,6 +19526,8 @@ https://streaming.imvbox.com/media/2059/1024x768/1024x768.m3u8
 https://streaming.imvbox.com/media/2324/1280x720/1280x720.m3u8
 #EXTINF:-1 tvg-name="The Lord of the Rings The Fellowship of the Ring {tmdb-120}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Fellowship of the Ring {tmdb-120}
 https://andam.uk/vod/video_d336d4/index.m3u8
+#EXTINF:-1 tvg-name="The Lord of the Rings The Return of the King {tmdb-122}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Return of the King {tmdb-122}
+https://andam.uk/vod/video_e7c18c/index.m3u8
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_063ae6/index.m3u8
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02
@@ -19690,5 +19692,5 @@ https://andam.uk/vod/video_9f75ca/index.m3u8
 https://andam.uk/vod/video_50e836/index.m3u8
 #EXTINF:-1 tvg-name="Jumong _ جومۆنگ {tmdb-4734} - S01E04"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BOWNiNmY1OTgtZWQ5OC00NWRiLWIzZTItNmQwOTM0YWIxOWFhXkEyXkFqcGc@._V1_FMjpg_UY3000_.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Jumong _ جومۆنگ {tmdb-4734} - S01E04
 https://andam.uk/vod/video_b9fa13/index.m3u8
-#EXTINF:-1 tvg-name="The Lord of the Rings The Return of the King {tmdb-122}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Return of the King {tmdb-122}
-https://andam.uk/vod/video_e7c18c/index.m3u8
+#EXTINF:-1 tvg-name="The Lord of the Rings The Two Towers {tmdb-121}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Two Towers {tmdb-121}
+https://andam.uk/vod/video_8fef8e/index.m3u8
