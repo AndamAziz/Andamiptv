@@ -1592,7 +1592,7 @@ https://wurltricoast.global.transmit.live/hls/67f032bce3ed1615e41629bf/playlist.
 https://amg00609-palatinmedia-amg00609c4-xiaomi-international-1862.playouts.now.amagi.tv/playlist/amg00609-palatinmediafast-topfilme-xiaomiinternational/playlist.m3u8
 #EXTINF:-1 tvg-name="MovieDome"tvg-id=""tvg-logo="https://i.imgur.com/8c54ycg.png"tvg-chno=""group-title="Movies TV":http-referrer="",MovieDome
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00771-kochfilmsgerman-moviedome-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-name="Action Hollywood Movies"tvg-id=""tvg-logo=""tvg-chno=""group-title="Movies TV":http-referrer="",Action Hollywood Movies
+#EXTINF:-1 tvg-name="Action Hollywood Movies" tvg-id="" tvg-logo="https://papaji.freetvindia.com/media/action_hollywood_movie.png" tvg-chno="" group-title="Movies TV" http-referrer="",Action Hollywood Movies
 https://lightning-actionhollywood-xiaomi.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="B4U Movies"tvg-id=""tvg-logo="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540"tvg-chno=""group-title="Movies TV":http-referrer="",B4U Movies
 https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
@@ -1626,7 +1626,7 @@ https://thriller-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b
 https://top-movies-rakuten-tv-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5986/master.m3u8
 #EXTINF:-1 tvg-name="Top Sci-Fi"tvg-id="top-sci-fi-fra"tvg-logo=""tvg-chno=""group-title="Movies TV":http-referrer="",Top Sci-Fi
 https://amg01796-amg01796c14-rakuten-fr-9691.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01796-fastmediafast-topscifi-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-name="Action Hollywood Movies"tvg-id=""tvg-logo=""tvg-chno=""group-title="Movies TV":http-referrer="",Action Hollywood Movies
+#EXTINF:-1 tvg-name="Action Hollywood Movies" tvg-id="" tvg-logo="https://papaji.freetvindia.com/media/action_hollywood_movie.png" tvg-chno="" group-title="Movies TV" http-referrer="",Action Hollywood Movies
 https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480f0c501e69c2e600b175&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Movies&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra%20Nova%20Distribution%20Limited_Action%20Hollywood%20Movies&content_channel_name=Action%20Hollywood%20Movies&content_livestream=1&AV_CONTENT_PROVIDER=Terra%20Nova%20Distribution%20Limited&ads.vidaa_ads_param=1190602996
 #EXTINF:-1 tvg-name="Adrenaline Movies"tvg-id=""tvg-logo=""tvg-chno=""group-title="Movies TV":http-referrer="",Adrenaline Movies
 https://e9d9892f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VmlkYWEtaXRfQWRyZW5hbGluZU1vdmllc19ITFM/playlist.m3u8?ads.wurl_channel=1244&ads.wurl_name=AdrenalineMovies&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=10994
@@ -2010,9 +2010,9 @@ https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-name="Кино 1 International"tvg-id="Kino1.ru@International"tvg-logo="https://i.imgur.com/zsCPLs4.png"tvg-chno=""group-title="Movies TV":http-referrer="",Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8
-#EXTINF:-1 tvg-name="Action Hollywood Movies"tvg-id=""tvg-logo=""tvg-chno=""group-title="Movies TV":http-referrer="",Action Hollywood Movies
+#EXTINF:-1 tvg-name="Action Hollywood Movies" tvg-id="" tvg-logo="https://papaji.freetvindia.com/media/action_hollywood_movie.png" tvg-chno="" group-title="Movies TV" http-referrer="",Action Hollywood Movies
 https://amg01076-lightningintern-actionhollywood-samsungau-rs69y.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-name="Action Hollywood Movies"tvg-id=""tvg-logo=""tvg-chno=""group-title="Movies TV":http-referrer="",Action Hollywood Movies
+#EXTINF:-1 tvg-name="Action Hollywood Movies" tvg-id="" tvg-logo="https://papaji.freetvindia.com/media/action_hollywood_movie.png" tvg-chno="" group-title="Movies TV" http-referrer="",Action Hollywood Movies
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-name="AMC Europe"tvg-id="AMCEurope.uk@RO"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"tvg-chno=""group-title="Movies TV":http-referrer="",AMC Europe
 https://dokagents.site/live/amc/mono.m3u8

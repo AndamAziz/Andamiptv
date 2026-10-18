@@ -1,8 +1,11 @@
+0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Return of the King {tmdb-122}
+1,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Fellowship of the Ring {tmdb-120}
 100pour100docs
 123 Go
 123 Go Spanish
 123 Go! English
 123 Go! Spanish
+14,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Two Towers {tmdb-121}
 4UV
 5 Minute Craft
 5-Minute Craft
@@ -30,7 +33,6 @@ Absinthe TV
 According to Jim
 Acelerados
 Acorn TV Mysteries
-Action Hollywood Movies
 Adrenaline Movies
 Adrenaline+
 Afarin Radio
