@@ -19706,3 +19706,5 @@ https://ladyboy.ardatvgs.cfd//bein4/tracks-v1a1/mono.m3u8
 https://ml-pull-hwc.myco.io/MixBelAraby/hls/MixBelAraby_H264-720p.m3u8
 #EXTINF:-1 tvg-name="Mix One"tvg-id=""tvg-logo="https://mytvo.com/storage/channels/logos/mix-one-live-stream-logo.jpg"tvg-chno=""group-title="Arabic Tv":http-referrer="",Mix One
 https://ml-pull-hwc.myco.io/MixONE/hls/MixONE_H264-720p.m3u8
+#EXTINF:-1 tvg-name="Mix TV"tvg-id=""tvg-logo="https://mytvo.com/storage/channels/logos/mix-live-stream-logo.jpg"tvg-chno=""group-title="Arabic Tv":http-referrer="",Mix TV
+https://ml-pull-hwc.myco.io/MixTV/hls/MixTV_H264-720p.m3u8
