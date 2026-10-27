@@ -388,6 +388,8 @@ https://andam.uk/ytlive/avasport/index.m3u8
 https://andam.uk/ytlive/makkahlive/index.m3u8
 #EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-27-c18caeb1-0d34-4695-9a77-2a71b7251eed.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
 https://andam.uk/ytlive/nrtsport/index.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-26-fb398a5e-3f83-4d5c-a381-c1dd4268b62f.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
+https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="beIN Sports XTRA ń"tvg-id="US2700004DX"tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2700004DX_20240826T235608SQUARE.png"tvg-chno="3822"group-title="Sports":http-referrer="",beIN Sports XTRA ń
@@ -404,8 +406,6 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991785/hls/playlist.m3u8?ads.xumo_c
 https://live-aburayhan1112.telewebion.net/ek/faratar/live/2160p/index.m3u8
 #EXTINF:-1 tvg-name="bein sports türkiye"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-2a110304-74ab-4e7e-a458-5e29723b508c.jpg"tvg-chno=""group-title="Sports":http-referrer="",bein sports türkiye
 https://andam.uk/ytlive/beinsport/index.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-26-fb398a5e-3f83-4d5c-a381-c1dd4268b62f.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
-https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-name="30A Golf Kingdom"tvg-id=""tvg-logo="https://i.imgur.com/Lv53nh4.png"tvg-chno=""group-title="Sports":http-referrer="",30A Golf Kingdom
 https://30a-tv.com/feeds/vidaa/golf.m3u8
 #EXTINF:-1 tvg-name="FloHockey 24/7"tvg-id=""tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png"tvg-chno=""group-title="Sports":http-referrer="",FloHockey 24/7
@@ -418,11 +418,11 @@ https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
 #EXTINF:-1 tvg-name="ITV Deportes"tvg-id=""tvg-logo="https://iili.io/J1kV1Bn.png"tvg-chno=""group-title="Sports":http-referrer="",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
-#EXTINF:-1 tvg-name="Saudi Sports 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Saudi Sports 1
+#EXTINF:-1 tvg-name="Alwan Sport 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 1
 https://andam.uk/ytlive/alwansport/index.m3u8
-#EXTINF:-1 tvg-name="Saudi Sports 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Saudi Sports 2
+#EXTINF:-1 tvg-name="Alwan Sport 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 2
 https://andam.uk/ytlive/sport1you/index.m3u8
-#EXTINF:-1 tvg-name="Saudi Sports 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Saudi Sports 3
+#EXTINF:-1 tvg-name="Alwan Sport 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 3
 https://prod-fastly-us-west-2.video.pscp.tv/Transcoding/v1/hls/F41vc_GUvFXlO1rDBgqrFNKLePOS0xhUkGsngQetAYO7NeT25kBN2GPXbzY7hiBT-tA-4IM3Bwlsl8xkGkZD0g/non_transcode/us-west-2/periscope-replay-direct-prod-us-west-2-public/master_dynamic_playlist.m3u8?type=live
 #EXTINF:-1 tvg-name="ACI Sport TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-5d9eceea-4d6c-45bb-b5ba-41c6a51ecedd.png"tvg-chno=""group-title="Sports":http-referrer="",ACI Sport TV
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
@@ -19540,6 +19540,8 @@ https://andam.uk/vod/video_8fef8e/index.m3u8
 https://andam.uk/vod/video_baeb2a/index.m3u8
 #EXTINF:-1 tvg-name="Pathaan {tmdb-864692}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BNTU2MzZkNDMtYTM3Yy00ZjEyLTljZDUtNWZhYTNjYWRlODc5XkEyXkFqcGc@._V1_FMjpg_UX300_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",Pathaan {tmdb-864692}
 https://andam.uk/vod/video_efdb94/index.m3u8
+#EXTINF:-1 tvg-name="Pathaan 2 {tmdb-864692}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BNTU2MzZkNDMtYTM3Yy00ZjEyLTljZDUtNWZhYTNjYWRlODc5XkEyXkFqcGc@._V1_FMjpg_UX300_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",Pathaan 2 {tmdb-864692}
+https://andam.uk/vod/video_b9fceb/index.m3u8
 #EXTINF:-1 tvg-name="Legend 2015 _ لی جند {tmdb-276907}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE0MjkyODQ3NF5BMl5BanBnXkFtZTgwNDM1OTk1NjE@._V1_QL75_UY562_CR1,0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Legend 2015 _ لی جند {tmdb-276907}
 https://video-link-whiz.lovable.app/api/public/v/1792942537063-1000010965.mp4
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01
