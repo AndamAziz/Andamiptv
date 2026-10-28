@@ -18,7 +18,8 @@
   },
   "pin": {
     "Sports": [
-      "(?<![a-z])bein(?![a-z])"
+      "(?<![a-z])bein(?![a-z])",
+      "^alwan sport"
     ],
     "News": [
       "^(\\d+\\s+)?bbc (news|world news)$",
