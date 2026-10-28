@@ -6,6 +6,10 @@ http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
 https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name="Rudaw TV"tvg-id=""tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw TV
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
+#EXTINF:-1 tvg-name="Hormzyar HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-46e0279a-e174-4672-87ca-61924e206bd8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Hormzyar HD
+http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
+#EXTINF:-1 tvg-name="Kalhur TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-0c555ea1-ff18-43f9-b30e-eedceca6734d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kalhur TV
+https://live20.bozztv.com:443/giatv/giatv-kalhurtv/kalhurtv/chunks.m3u8
 #EXTINF:-1 tvg-name="KHAK TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-dde6792e-a3e9-4a20-91f7-6784441da5ec.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KHAK TV
 http://khakhd.ddns.net:1935/stream/khakhd/playlist.m3u8
 #EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
