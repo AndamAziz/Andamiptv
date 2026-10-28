@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-10-28 00:22:39
+M3U Cleaner report - 2026-10-28 00:47:30
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  9857
+Total channels kept:  9850
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
@@ -14,11 +14,11 @@ Malformed/skipped:    0
   Movies TV: 504
   Series & Drama: 246
   Documentary: 232
-  News: 1062
+  News: 1061
   Entertainment: 563
   Music: 787
   Kids & Family: 329
-  Religious: 609
+  Religious: 608
   Comedy: 96
   Crime & Mystery: 159
   Reality & Game Shows: 146
@@ -26,30 +26,30 @@ Malformed/skipped:    0
   Classic & Western: 100
   Lifestyle & Travel: 301
   Culture: 114
-  Education: 120
+  Education: 119
   Business: 52
   Shopping: 69
   Weather: 10
   Legislative & Public: 170
   Anime & Gaming: 10
   Local Channels: 15
-  Smart TV Channels: 505
+  Smart TV Channels: 504
   General: 1
   USA & Canada TV: 345
-  Latin America & Spain: 718
+  Latin America & Spain: 717
   Russia & CIS: 228
   Italy: 88
   Germany - Austria - Switzerland: 90
   France & Belgium: 38
   Netherlands: 88
-  Turkey: 67
+  Turkey: 66
   Iran: 53
   India & Pakistan: 71
   Arabic TV: 65
   Indonesia & Malaysia: 87
   Asia: 151
   Eastern Europe & Balkans: 213
-  Portugal & Brazil: 73
+  Portugal & Brazil: 72
   UK - Ireland - Australia - NZ: 41
   Greece & Cyprus: 33
   Africa: 57
