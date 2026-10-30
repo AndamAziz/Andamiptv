@@ -8,6 +8,16 @@ https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
 #EXTINF:-1 tvg-name="Hormzyar HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-46e0279a-e174-4672-87ca-61924e206bd8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Hormzyar
 http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
+#EXTINF:-1 tvg-name="ONE PLUS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-6c171d06-ad32-47ad-84f2-31d3c4b55e0b.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE PLUS
+https://183.bozztv.com/giatv/giatv-oneplus/oneplus/chunks.m3u8
+#EXTINF:-1 tvg-name="ONE KIDS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-d8e474b8-796d-4272-a3fd-afbbdcefa2ff.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE KIDS
+https://183.bozztv.com/giatv/giatv-onekids/onekids/chunks.m3u8
+#EXTINF:-1 tvg-name="KOMALL TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-9129e124-44b4-460d-bdee-e7164227e6c5.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KOMALL TV
+https://lbgo.bozztv.com/ssh101/ssh101/onetvkomall/chunks.m3u8
+#EXTINF:-1 tvg-name="QALLAT TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-9eed2148-b8d1-437b-b682-c85b50d7a411.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",QALLAT TV
+http://213.32.255.86:1935/live/Qellat_tv/playlist.m3u8
+#EXTINF:-1 tvg-name="NOOR TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-2e2d2039-e6d0-454f-9196-9b258056a4bb.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NOOR TV
+https://183.bozztv.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
 #EXTINF:-1 tvg-name="Kalhur TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-0c555ea1-ff18-43f9-b30e-eedceca6734d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kalhur TV
 https://live20.bozztv.com:443/giatv/giatv-kalhurtv/kalhurtv/chunks.m3u8
 #EXTINF:-1 tvg-name="KHAK TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-dde6792e-a3e9-4a20-91f7-6784441da5ec.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KHAK TV
