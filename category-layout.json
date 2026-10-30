@@ -42,6 +42,21 @@
     "Religious": [
       "^al quran kareem$",
       "^al sunnah$"
+    ],
+    "Kurdish Channels": [
+      "^ava tv$",
+      "^rudaw( tv)?$",
+      "^kurdsat( tv)?$",
+      "^kurdsat news$",
+      "^(chanel|channel) ?8( kurdish)?$",
+      "^kurdistan 24( tv)?$",
+      "^nrt$",
+      "^gali kurdistan\\+?$",
+      "^kurdistan tv$",
+      "^khak( tv)?$",
+      "^zagros( tv| 24)?$",
+      "^waar tv$",
+      "^payam tv$"
     ]
   }
 }
