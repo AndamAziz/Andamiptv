@@ -19706,3 +19706,5 @@ https://kurdistaniptv.lovable.app/api/public/vod/video_2026-10-29_03-26-05.mp4
 https://andam.uk/vod/video_fd8b74/index.m3u8
 #EXTINF:-1 tvg-name="AL SUNNAH"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-8c488311-bed6-4d84-b974-5efef4c21764.jpg"tvg-chno=""group-title="Religious":http-referrer="",AL SUNNAH
 https://win.holol.com/live/sunnah/chunklist_w812271973.m3u8
+#EXTINF:-1 tvg-name="AL QURAN KAREEM"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-80ea6605-ad84-4433-a54c-a2c61f5c3c94.jpg"tvg-chno=""group-title="Religious":http-referrer="",AL QURAN KAREEM
+https://win.holol.com/live/quran/chunklist_w1967448292.m3u8
