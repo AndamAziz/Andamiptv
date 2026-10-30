@@ -38,6 +38,10 @@
       "^cgtn$",
       "^(\\d+\\s+)?(the )?reuters( 60)?$",
       "^voa persian$"
+    ],
+    "Religious": [
+      "^al quran kareem$",
+      "^al sunnah$"
     ]
   }
 }
