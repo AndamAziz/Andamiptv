@@ -45,6 +45,7 @@
     ],
     "Kurdish Channels": [
       "^ava tv$",
+      "^kurdmax sorani tv$",
       "^rudaw( tv)?$",
       "^kurdsat( tv)?$",
       "^kurdsat news$",
