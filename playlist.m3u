@@ -1,6 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="AVA TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-d649574c-0000-4562-9542-745d69409397.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA TV
 http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
+#EXTINF:-1 tvg-name="Kurdmax Sorani TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="https://www.kurdmax.tv/",Kurdmax Sorani TV
+#EXTVLCOPT:http-referrer=https://www.kurdmax.tv/
+https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name="Rudaw TV"tvg-id=""tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw TV
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
 #EXTINF:-1 tvg-name="RUDAW TV" tvg-id="" tvg-logo="https://i.imgur.com/Zo3IWOn.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",RUDAW TV
@@ -65,9 +68,6 @@ http://api.353505.xyz:80/live/123/123/2900.ts
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
 #EXTINF:-1 tvg-name="PAYAM TV" tvg-id="" tvg-logo="https://i.imgur.com/qySEibb.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",PAYAM TV
 https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
-#EXTINF:-1 tvg-name="Kurdmax Sorani TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="https://www.kurdmax.tv/",Kurdmax Sorani TV
-#EXTVLCOPT:http-referrer=https://www.kurdmax.tv/
-https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name="Hormzyar HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-46e0279a-e174-4672-87ca-61924e206bd8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Hormzyar
 http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
 #EXTINF:-1 tvg-name="ONE PLUS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-6c171d06-ad32-47ad-84f2-31d3c4b55e0b.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE PLUS
@@ -312,8 +312,6 @@ http://avrstream.com:1935/live/REDTV/playlist.m3u8
 https://iptv-link.short.gy/Gewher.m3u8
 #EXTINF:-1 tvg-name="AlTERNATIVE SHARAY TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",AlTERNATIVE SHARAY TV
 https://hlspackager.akamaized.net/live/DB/ALTERNATIVE_SHORAI_TV/HLS/ALTERNATIVE_SHORAI_TV-avc1_1500000=10001.m3u8
-#EXTINF:-1 tvg-name="SHNA TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",SHNA TV
-https://lbgo.bozztv.com/ssh101/ssh101/shna12345/chunks.m3u8?lb_backend_hint=7
 #EXTINF:-1 tvg-name="MIX TV" tvg-id="" tvg-logo="https://i.imgur.com/GKwRMHR.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",MIX TV
 http://avrstream.com:1935/live/Mix-kurdy/playlist.m3u8
 #EXTINF:-1 tvg-name="REHBER TV" tvg-id="" tvg-logo="https://i.imgur.com/fpkaw78.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",REHBER TV
