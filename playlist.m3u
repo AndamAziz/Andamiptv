@@ -102,13 +102,13 @@ https://kurdchhls.wns.live/hls/stream.m3u8
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
 #EXTINF:-1 tvg-name="Rojava TV" tvg-logo="https://cdn.phototourl.com/member/2026-09-26-da172007-1d49-4e39-a12a-36c8e497b5db.jpg" group-title="Kurdish Channels",Rojava TV
 https://hlspackager.akamaized.net/live/DB/ROJAVA_HD/HLS/ROJAVA_HD.m3u8
-#EXTINF:-1 tvg-name="AVA Series" tvg-logo="https://i.imgur.com/8AfAfZE.png" group-title="Kurdish Channels",AVA Series
+#EXTINF:-1 tvg-name="AVA Series" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMg-X1vULWGAyMr3fr1qsxbkMt52CvH-KcYvtqvl6ae9Z7mdan755TXwsX&s=10" group-title="Kurdish Channels",AVA Series
 https://avaserieshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="AVAZ" group-title="Kurdish Channels",AVAZ
+#EXTINF:-1 tvg-name="AVAZ" tvg-logo="https://distribution.bluepicturesng.com/wp-content/uploads/2024/10/Avaz_Spread_Logo_Primary_Lemon_Rgb_2160px_w_300ppi-1536x650.png" group-title="Kurdish Channels",AVAZ
 https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=13411
-#EXTINF:-1 tvg-name="Sterk TV" tvg-logo="https://i.imgur.com/bIheNAI.png" group-title="Kurdish Channels",Sterk TV
+#EXTINF:-1 tvg-name="Sterk TV" tvg-logo="https://sterktv.eu/wp-content/uploads/2019/10/cropped-sterk-logo-1-2.png" group-title="Kurdish Channels",Sterk TV
 https://hlspackager.akamaized.net/live/DB/STERK_TV/HLS/STERK_TV.m3u8
-#EXTINF:-1 tvg-name="Jin TV" tvg-logo="https://i.imgur.com/37ajg2j.png" group-title="Kurdish Channels",Jin TV
+#EXTINF:-1 tvg-name="JIN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUIUAt7dI3ubwHJOpBpK3AyHNSNvcohTnEJc8i2LKcA&s" group-title="Kurdish Channels",JIN TV
 https://live.jintv.org/medialive/jintv.m3u8
 #EXTINF:-1 tvg-name="Komala TV" tvg-logo="https://i.imgur.com/D6KBLB8.png" group-title="Kurdish Channels",Komala TV
 https://komhls.wns.live/hls/stream.m3u8
