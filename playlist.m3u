@@ -398,6 +398,8 @@ https://castx.online/live/beinsports1/stream_3.m3u8
 https://castx.online/live/beinsports2/stream_3.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS HD 3
 https://castx.online/live/beinsports3/stream_3.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS HD 7
+https://castx.online/live/beinsports7/stream_3.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="beIN Sports XTRA ń"tvg-id="US2700004DX"tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2700004DX_20240826T235608SQUARE.png"tvg-chno="3822"group-title="Sports":http-referrer="",beIN Sports XTRA ń
@@ -420,6 +422,8 @@ http://coco3-cdn.cfd:8085/alwan-1/index.m3u8
 https://andam.uk/ytlive/alwansport/index.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 3
 http://coco3-cdn.cfd:8085/alwan-3/index.m3u8
+#EXTINF:-1 tvg-name="Alwan Sport 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 4
+http://coco3-cdn.cfd:8085/alwan-4/index.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 5
 https://andam.uk/ytlive/sport1you/index.m3u8
 #EXTINF:-1 tvg-name="30A Golf Kingdom"tvg-id=""tvg-logo="https://i.imgur.com/Lv53nh4.png"tvg-chno=""group-title="Sports":http-referrer="",30A Golf Kingdom
