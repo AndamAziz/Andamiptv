@@ -392,6 +392,12 @@ https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-26-fb398a5e-3f83-4d5c-a381-c1dd4268b62f.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS HD 1
+https://castx.online/live/beinsports1/stream_3.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS HD 2
+https://castx.online/live/beinsports2/stream_3.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS HD 2
+https://castx.online/live/beinsports3/stream_3.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="beIN Sports XTRA ń"tvg-id="US2700004DX"tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2700004DX_20240826T235608SQUARE.png"tvg-chno="3822"group-title="Sports":http-referrer="",beIN Sports XTRA ń
