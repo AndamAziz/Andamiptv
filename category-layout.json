@@ -8,6 +8,9 @@
     },
     "Quran": {
       "after": "Religious"
+    },
+    "BEIN SPORTS AR": {
+      "after": "Sports"
     }
   },
   "sort": {
@@ -47,18 +50,18 @@
       "^al sunnah$"
     ],
     "Kurdish Channels": [
-      "^ava tv$",
+      "^ava (tv|media)( hd)?$",
       "^kurdmax sorani tv$",
       "^rudaw( tv)?$",
       "^kurdsat( tv)?$",
       "^kurdsat news$",
-      "^(chanel|channel) ?8( kurdish)?$",
-      "^kurdistan 24( tv)?$",
+      "^(chanel|channel) ?8( kurdish| ku)?$",
+      "^(kurdistan 24|k ?24)( tv)?$",
       "^nrt$",
       "^gali kurdistan\\+?$",
       "^kurdistan tv$",
       "^khak( tv)?$",
-      "^zagros( tv| 24)?$",
+      "^zagro[sz]( tv| 24| ku)?$",
       "^waar tv$",
       "^payam tv$"
     ]
