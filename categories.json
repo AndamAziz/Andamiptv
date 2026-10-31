@@ -1,30 +1,118 @@
 {
-  "SKY TV": ["re:\\bsky\\b"],
-  "Kurdish Channels": ["re:group-title=\"kurdish channels\"", "n:kurd", "n:rudaw", "n:^ava\\b", "n:\\bnrt\\b", "n:zagros"],
-  "Sports": ["bein", "ssc", "sport", "channellive", "bt sport", "espn"],
-  "National Geographic": ["national geographic", "nat geo", "natgeo", "nature"],
-  "Movies TV": ["movie", "cinema"],
-  "Series & Drama": ["series", "drama"],
-  "Documentary": ["documentary"],
-  "News": ["news"],
-  "Entertainment": ["entertainment"],
-  "Music": ["music"],
-  "Kids & Family": ["kids", "family", "animation"],
-  "Religious": ["religio"],
-  "Comedy": ["comedy"],
-  "Crime & Mystery": ["crime", "mystery"],
-  "Reality & Game Shows": ["reality", "game show"],
-  "Sci-Fi & Horror": ["sci-fi", "scifi", "horror"],
-  "Classic & Western": ["classic", "western"],
-  "Lifestyle & Travel": ["lifestyle", "travel", "cooking", "relax", "outdoor"],
-  "Culture": ["culture"],
-  "Education": ["education", "science"],
-  "Business": ["business"],
-  "Shopping": ["shop"],
-  "Weather": ["weather"],
-  "Legislative & Public": ["legislat", "public"],
-  "Anime & Gaming": ["anime", "gaming"],
-  "Local Channels": ["local channels"],
-  "Smart TV Channels": ["smart tv"],
-  "General": ["general"]
+  "Quran": [
+    "u:mp3quran\\.net/"
+  ],
+  "SKY TV": [
+    "re:\\bsky\\b"
+  ],
+  "Kurdish Channels": [
+    "re:group-title=\"kurdish channels\"",
+    "n:kurd",
+    "n:rudaw",
+    "n:^ava\\b",
+    "n:\\bnrt\\b",
+    "n:zagros"
+  ],
+  "Sports": [
+    "bein",
+    "ssc",
+    "sport",
+    "channellive",
+    "bt sport",
+    "espn"
+  ],
+  "National Geographic": [
+    "national geographic",
+    "nat geo",
+    "natgeo",
+    "nature"
+  ],
+  "Movies TV": [
+    "movie",
+    "cinema"
+  ],
+  "Series & Drama": [
+    "series",
+    "drama"
+  ],
+  "Documentary": [
+    "documentary"
+  ],
+  "News": [
+    "news"
+  ],
+  "Entertainment": [
+    "entertainment"
+  ],
+  "Music": [
+    "music"
+  ],
+  "Kids & Family": [
+    "kids",
+    "family",
+    "animation"
+  ],
+  "Religious": [
+    "religio"
+  ],
+  "Comedy": [
+    "comedy"
+  ],
+  "Crime & Mystery": [
+    "crime",
+    "mystery"
+  ],
+  "Reality & Game Shows": [
+    "reality",
+    "game show"
+  ],
+  "Sci-Fi & Horror": [
+    "sci-fi",
+    "scifi",
+    "horror"
+  ],
+  "Classic & Western": [
+    "classic",
+    "western"
+  ],
+  "Lifestyle & Travel": [
+    "lifestyle",
+    "travel",
+    "cooking",
+    "relax",
+    "outdoor"
+  ],
+  "Culture": [
+    "culture"
+  ],
+  "Education": [
+    "education",
+    "science"
+  ],
+  "Business": [
+    "business"
+  ],
+  "Shopping": [
+    "shop"
+  ],
+  "Weather": [
+    "weather"
+  ],
+  "Legislative & Public": [
+    "legislat",
+    "public"
+  ],
+  "Anime & Gaming": [
+    "anime",
+    "gaming"
+  ],
+  "Local Channels": [
+    "local channels"
+  ],
+  "Smart TV Channels": [
+    "smart tv"
+  ],
+  "General": [
+    "general"
+  ]
 }
