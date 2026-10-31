@@ -1,14 +1,15 @@
-M3U Cleaner report - 2026-10-31 02:48:48
+M3U Cleaner report - 2026-10-31 23:05:36
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10383
+Total channels kept:  10402
 Blocked (blocklist):  0
-Duplicates removed:   0
+Duplicates removed:   4
 Malformed/skipped:    0
 
-  Kurdish Channels: 195
-  Sports: 474
+  Kurdish Channels: 193
+  Sports: 475
+  BEIN SPORTS AR: 20
   National Geographic: 55
   SKY TV: 19
   Movies TV: 504
@@ -59,6 +60,6 @@ Malformed/skipped:    0
   Nordic Countries: 18
   Free Streaming (FAST): 204
   Uncategorized: 9
-  FARSI: 6
   KURDISH-دۆبلاژ: 99
   KURDISH-ژێرنوس: 1
+  FARSI: 6
