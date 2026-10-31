@@ -5,6 +5,9 @@
     },
     "Latin America & Spain": {
       "after": "USA & Canada TV"
+    },
+    "Quran": {
+      "after": "Religious"
     }
   },
   "sort": {

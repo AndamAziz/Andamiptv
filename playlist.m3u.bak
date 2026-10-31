@@ -1,6 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="AVA TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-d649574c-0000-4562-9542-745d69409397.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA TV
 http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
+#EXTINF:-1 tvg-name="Kurdmax Sorani TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="https://www.kurdmax.tv/",Kurdmax Sorani TV
+#EXTVLCOPT:http-referrer=https://www.kurdmax.tv/
+https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name="Rudaw TV"tvg-id=""tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw TV
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
 #EXTINF:-1 tvg-name="RUDAW TV" tvg-id="" tvg-logo="https://i.imgur.com/Zo3IWOn.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",RUDAW TV
@@ -65,9 +68,6 @@ http://api.353505.xyz:80/live/123/123/2900.ts
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
 #EXTINF:-1 tvg-name="PAYAM TV" tvg-id="" tvg-logo="https://i.imgur.com/qySEibb.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",PAYAM TV
 https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
-#EXTINF:-1 tvg-name="Kurdmax Sorani TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-1ade9d85-23c5-40ce-95c0-b179297dc072.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="https://www.kurdmax.tv/",Kurdmax Sorani TV
-#EXTVLCOPT:http-referrer=https://www.kurdmax.tv/
-https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m3u8
 #EXTINF:-1 tvg-name="Hormzyar HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-46e0279a-e174-4672-87ca-61924e206bd8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Hormzyar
 http://avrstream.com:1935/live/HormzyarHD/playlist.m3u8
 #EXTINF:-1 tvg-name="ONE PLUS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-6c171d06-ad32-47ad-84f2-31d3c4b55e0b.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE PLUS
@@ -19708,3 +19708,1055 @@ https://kurdistaniptv.lovable.app/api/public/vod/video_2026-10-29_03-13-13.mp4
 https://kurdistaniptv.lovable.app/api/public/vod/video_2026-10-29_03-26-05.mp4
 #EXTINF:-1 tvg-name="Setayesh _ ستایش {tmdb-94146} - S01E16"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6e7Wkc5jckzksjKta4TELHCufs.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Setayesh _ ستایش {tmdb-94146} - S01E16
 https://andam.uk/vod/video_fd8b74/index.m3u8
+#EXTINF:-1 tvg-name="WAAR TV"tvg-id=""tvg-logo="https://i.postimg.cc/8CfS5HB9/waar-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",WAAR TV
+https://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarmedia_source/chunks.m3u8
+#EXTINF:-1 tvg-name="SPI QURAN"tvg-id=""tvg-logo="https://i.postimg.cc/kgRGb3FM/SPI-Quran-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",SPI QURAN
+https://live20.bozztv.com/giatv/giatv-spi_quran_hd/spi_quran_hd/chunks.m3u8
+#EXTINF:-1 tvg-name="QURAN Sharjah"tvg-id=""tvg-logo="https://i.postimg.cc/6QscV3tq/Sharjah_Tv_Quran_200.jpg"tvg-chno=""group-title="Religious":http-referrer="",QURAN Sharjah
+https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil//playlist.m3u8
+#EXTINF:-1 tvg-name="Quran Radio"tvg-id=""tvg-logo="https://i.postimg.cc/ryC9KbQG/Quran-Radio-200.png"tvg-chno=""group-title="Religious":http-referrer="",Quran Radio
+https://stream.radiojar.com/8s5u5tpdtwzuv
+#EXTINF:-1 tvg-name="Quran Radio"tvg-id=""tvg-logo="https://i.postimg.cc/ryC9KbQG/Quran-Radio-200.png"tvg-chno=""group-title="Religious":http-referrer="",Quran Radio
+https://qurango.net/radio/tarateel
+#EXTINF:-1 tvg-name="Quran Radio"tvg-id=""tvg-logo="https://i.postimg.cc/ryC9KbQG/Quran-Radio-200.png"tvg-chno=""group-title="Religious":http-referrer="",Quran Radio
+https://uk5.internet-radio.com/proxy/dubaiholyquran?mp=/stream;
+#EXTINF:-1 tvg-name="Guide Us"tvg-id=""tvg-logo="https://i.postimg.cc/hvcT3rXQ/Guide-us-tv-200.png"tvg-chno=""group-title="Religious":http-referrer="",Guide Us
+https://stream.streamislam.com:443/hls/streamlive/1_2/index.m3u8
+#EXTINF:-1 tvg-name="Afarin tv"tvg-id=""tvg-logo="https://i.postimg.cc/QCRGLPBS/Afarin-Kids-200.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Afarin tv
+https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
+#EXTINF:-1 tvg-name="Zarok Sorani"tvg-id=""tvg-logo="https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Zarok Sorani
+https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Zarok Kurmanji"tvg-id=""tvg-logo="https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Zarok Kurmanji
+https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="Kartoon Channel"tvg-id=""tvg-logo="https://i.imgur.com/1luzP3T.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Kartoon Channel
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-name="TRTcocuk"tvg-id=""tvg-logo="https://i.postimg.cc/j5HprcXp/TRT-Chuchak-200.png"tvg-chno=""group-title="Kids & Family":http-referrer="",TRTcocuk
+https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="Animal Box"tvg-id=""tvg-logo="https://i.postimg.cc/3J4YLjyn/Animal-Box-200.png"tvg-chno=""group-title="Documentary":http-referrer="",Animal Box
+https://live20.bozztv.com/giatv/giatv-animalbox/animalbox/chunks.m3u8
+#EXTINF:-1 tvg-name="WildEarth"tvg-id=""tvg-logo="https://i.postimg.cc/XY9JzCtm/Wild-earth-hd-200.png"tvg-chno=""group-title="Documentary":http-referrer="",WildEarth
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+#EXTINF:-1 tvg-name="سورة الفاتحة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة الفاتحة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/001.mp3
+#EXTINF:-1 tvg-name="سورة البقرة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة البقرة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/002.mp3
+#EXTINF:-1 tvg-name="آل عمران - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",آل عمران - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/003.mp3
+#EXTINF:-1 tvg-name="النساء - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النساء - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/004.mp3
+#EXTINF:-1 tvg-name="المائدة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المائدة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/005.mp3
+#EXTINF:-1 tvg-name="الانعام - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانعام - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/006.mp3
+#EXTINF:-1 tvg-name="الاعراف - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاعراف - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/007.mp3
+#EXTINF:-1 tvg-name="الانفال - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانفال - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/008.mp3
+#EXTINF:-1 tvg-name="التوبة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",التوبة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/009.mp3
+#EXTINF:-1 tvg-name="سورة يونس - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة يونس - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/010.mp3
+#EXTINF:-1 tvg-name="سورة هود - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة هود - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/011.mp3
+#EXTINF:-1 tvg-name="يوسف - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",يوسف - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/012.mp3
+#EXTINF:-1 tvg-name="الرعد - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرعد - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/013.mp3
+#EXTINF:-1 tvg-name="ٳبراهيم - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",ٳبراهيم - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/014.mp3
+#EXTINF:-1 tvg-name="الحجر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/015.mp3
+#EXTINF:-1 tvg-name="النحل - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النحل - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/016.mp3
+#EXTINF:-1 tvg-name="الاسراء - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاسراء - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/017.mp3
+#EXTINF:-1 tvg-name="الکهف - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الکهف - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/018.mp3
+#EXTINF:-1 tvg-name="مریم - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",مریم - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/019.mp3
+#EXTINF:-1 tvg-name="الانبیاء - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانبیاء - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/020.mp3
+#EXTINF:-1 tvg-name="الحج - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحج - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/022.mp3
+#EXTINF:-1 tvg-name="المؤمنون - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المؤمنون - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/023.mp3
+#EXTINF:-1 tvg-name="النور - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النور - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/024.mp3
+#EXTINF:-1 tvg-name="الفرقان - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفرقان - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/025.mp3
+#EXTINF:-1 tvg-name="الشعراء - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشعراء - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/026.mp3
+#EXTINF:-1 tvg-name="النمل - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النمل - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/027.mp3
+#EXTINF:-1 tvg-name="القصص - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",القصص - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/028.mp3
+#EXTINF:-1 tvg-name="العنكبوت - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",العنكبوت - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/029.mp3
+#EXTINF:-1 tvg-name="الروم - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الروم - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/030.mp3
+#EXTINF:-1 tvg-name="لقمان - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",لقمان - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/031.mp3
+#EXTINF:-1 tvg-name="السجدة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",السجدة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/032.mp3
+#EXTINF:-1 tvg-name="الأحزاب - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحزاب - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/033.mp3
+#EXTINF:-1 tvg-name="سباء - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سباء - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/034.mp3
+#EXTINF:-1 tvg-name="فاطر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",فاطر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/035.mp3
+#EXTINF:-1 tvg-name="يس - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",يس - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/036.mp3
+#EXTINF:-1 tvg-name="الصافات - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصافات - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/037.mp3
+#EXTINF:-1 tvg-name="ص - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",ص - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/038.mp3
+#EXTINF:-1 tvg-name="الزمر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزمر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/039.mp3
+#EXTINF:-1 tvg-name="غافر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",غافر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/040.mp3
+#EXTINF:-1 tvg-name="فصلت - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",فصلت - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/041.mp3
+#EXTINF:-1 tvg-name="الشوری - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشوری - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/042.mp3
+#EXTINF:-1 tvg-name="الزخرف - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزخرف - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/043.mp3
+#EXTINF:-1 tvg-name="الدّخان - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الدّخان - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/044.mp3
+#EXTINF:-1 tvg-name="الجاثية - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجاثية - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/045.mp3
+#EXTINF:-1 tvg-name="الأحقاف - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحقاف - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/046.mp3
+#EXTINF:-1 tvg-name="محمد - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",محمد - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/047.mp3
+#EXTINF:-1 tvg-name="الفتح - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفتح - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/048.mp3
+#EXTINF:-1 tvg-name="الحجرات - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجرات - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/049.mp3
+#EXTINF:-1 tvg-name="ق - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",ق - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/050.mp3
+#EXTINF:-1 tvg-name="الذاریات - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الذاریات - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/051.mp3
+#EXTINF:-1 tvg-name="الطور - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطور - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/052.mp3
+#EXTINF:-1 tvg-name="النجم - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النجم - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/053.mp3
+#EXTINF:-1 tvg-name="القمر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",القمر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/054.mp3
+#EXTINF:-1 tvg-name="الرحمن - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرحمن - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/055.mp3
+#EXTINF:-1 tvg-name="الواقعة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الواقعة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/056.mp3
+#EXTINF:-1 tvg-name="الحدید - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحدید - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/057.mp3
+#EXTINF:-1 tvg-name="المجادلة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المجادلة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/058.mp3
+#EXTINF:-1 tvg-name="الحشر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحشر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/059.mp3
+#EXTINF:-1 tvg-name="الممتحنة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الممتحنة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/060.mp3
+#EXTINF:-1 tvg-name="الصف - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصف - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/061.mp3
+#EXTINF:-1 tvg-name="الجمعة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجمعة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/062.mp3
+#EXTINF:-1 tvg-name="المنافقون - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المنافقون - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/063.mp3
+#EXTINF:-1 tvg-name="التغابن - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",التغابن - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/064.mp3
+#EXTINF:-1 tvg-name="الطلاق - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطلاق - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/065.mp3
+#EXTINF:-1 tvg-name="التحریم - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",التحریم - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/066.mp3
+#EXTINF:-1 tvg-name="الملک - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الملک - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/067.mp3
+#EXTINF:-1 tvg-name="القلم - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",القلم - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/068.mp3
+#EXTINF:-1 tvg-name="الحاقة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحاقة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/069.mp3
+#EXTINF:-1 tvg-name="المعارج - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المعارج - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/070.mp3
+#EXTINF:-1 tvg-name="نوح - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",نوح - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/071.mp3
+#EXTINF:-1 tvg-name="الجن - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجن - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/072.mp3
+#EXTINF:-1 tvg-name="المزمل - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المزمل - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/073.mp3
+#EXTINF:-1 tvg-name="المدثر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المدثر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/074.mp3
+#EXTINF:-1 tvg-name="القیامة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",القیامة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/075.mp3
+#EXTINF:-1 tvg-name="الانسان - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانسان - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/076.mp3
+#EXTINF:-1 tvg-name="المرسلات - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المرسلات - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/077.mp3
+#EXTINF:-1 tvg-name="النباء - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النباء - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/078.mp3
+#EXTINF:-1 tvg-name="النازعات - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النازعات - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/079.mp3
+#EXTINF:-1 tvg-name="عبس - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",عبس - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/080.mp3
+#EXTINF:-1 tvg-name="التکویر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",التکویر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/081.mp3
+#EXTINF:-1 tvg-name="الٳنفطار - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنفطار - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/082.mp3
+#EXTINF:-1 tvg-name="المطففین - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المطففین - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/083.mp3
+#EXTINF:-1 tvg-name="الٳنشقاق - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنشقاق - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/084.mp3
+#EXTINF:-1 tvg-name="البروج - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",البروج - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/085.mp3
+#EXTINF:-1 tvg-name="الطارق - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطارق - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/086.mp3
+#EXTINF:-1 tvg-name="الٱعلی - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٱعلی - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/087.mp3
+#EXTINF:-1 tvg-name="‌الغاشية - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",‌الغاشية - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/088.mp3
+#EXTINF:-1 tvg-name="الفجر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفجر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/089.mp3
+#EXTINF:-1 tvg-name="البلد - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",البلد - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/090.mp3
+#EXTINF:-1 tvg-name="الشمس - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشمس - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/091.mp3
+#EXTINF:-1 tvg-name="اليل - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",اليل - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/092.mp3
+#EXTINF:-1 tvg-name="الضحی - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الضحی - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/093.mp3
+#EXTINF:-1 tvg-name="الشرح - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشرح - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/094.mp3
+#EXTINF:-1 tvg-name="التين - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",التين - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/095.mp3
+#EXTINF:-1 tvg-name="العلق - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",العلق - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/096.mp3
+#EXTINF:-1 tvg-name="القدر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",القدر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/097.mp3
+#EXTINF:-1 tvg-name="البينة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",البينة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/098.mp3
+#EXTINF:-1 tvg-name="الزلزلة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزلزلة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/099.mp3
+#EXTINF:-1 tvg-name="العاديات - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",العاديات - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/100.mp3
+#EXTINF:-1 tvg-name="القارعة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",القارعة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/101.mp3
+#EXTINF:-1 tvg-name="التكاثر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",التكاثر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/102.mp3
+#EXTINF:-1 tvg-name="العصر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",العصر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/103.mp3
+#EXTINF:-1 tvg-name="الهمزة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الهمزة - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/104.mp3
+#EXTINF:-1 tvg-name="الفيل - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفيل - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/105.mp3
+#EXTINF:-1 tvg-name="قريش - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",قريش - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/106.mp3
+#EXTINF:-1 tvg-name="الماعون - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الماعون - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/107.mp3
+#EXTINF:-1 tvg-name="الكوثر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكوثر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/108.mp3
+#EXTINF:-1 tvg-name="الكافرون - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكافرون - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/109.mp3
+#EXTINF:-1 tvg-name="النصر - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",النصر - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/110.mp3
+#EXTINF:-1 tvg-name="المسد - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",المسد - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/111.mp3
+#EXTINF:-1 tvg-name="الٳخلاص - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳخلاص - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/112.mp3
+#EXTINF:-1 tvg-name="الفلق - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفلق - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/113.mp3
+#EXTINF:-1 tvg-name="الناس - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",الناس - Maher Al-Muaiqly
+https://server12.mp3quran.net/maher/114.mp3
+#EXTINF:-1 tvg-name="سورة الفاتحة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة الفاتحة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/001.mp3
+#EXTINF:-1 tvg-name="سورة البقرة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة البقرة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/002.mp3
+#EXTINF:-1 tvg-name="آل عمران - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",آل عمران - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/003.mp3
+#EXTINF:-1 tvg-name="النساء - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النساء - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/004.mp3
+#EXTINF:-1 tvg-name="المائدة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المائدة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/005.mp3
+#EXTINF:-1 tvg-name="الانعام - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانعام - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/006.mp3
+#EXTINF:-1 tvg-name="الاعراف - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاعراف - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/007.mp3
+#EXTINF:-1 tvg-name="الانفال - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانفال - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/008.mp3
+#EXTINF:-1 tvg-name="التوبة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",التوبة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/009.mp3
+#EXTINF:-1 tvg-name="سورة يونس - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة يونس - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/010.mp3
+#EXTINF:-1 tvg-name="سورة هود - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة هود - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/011.mp3
+#EXTINF:-1 tvg-name="يوسف - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",يوسف - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/012.mp3
+#EXTINF:-1 tvg-name="الرعد - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرعد - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/013.mp3
+#EXTINF:-1 tvg-name="ٳبراهيم - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",ٳبراهيم - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/014.mp3
+#EXTINF:-1 tvg-name="الحجر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/015.mp3
+#EXTINF:-1 tvg-name="النحل - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النحل - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/016.mp3
+#EXTINF:-1 tvg-name="الاسراء - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاسراء - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/017.mp3
+#EXTINF:-1 tvg-name="الکهف - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الکهف - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/018.mp3
+#EXTINF:-1 tvg-name="مریم - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",مریم - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/019.mp3
+#EXTINF:-1 tvg-name="الانبیاء - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانبیاء - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/020.mp3
+#EXTINF:-1 tvg-name="الحج - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحج - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/022.mp3
+#EXTINF:-1 tvg-name="المؤمنون - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المؤمنون - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/023.mp3
+#EXTINF:-1 tvg-name="النور - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النور - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/024.mp3
+#EXTINF:-1 tvg-name="الفرقان - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفرقان - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/025.mp3
+#EXTINF:-1 tvg-name="الشعراء - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشعراء - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/026.mp3
+#EXTINF:-1 tvg-name="النمل - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النمل - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/027.mp3
+#EXTINF:-1 tvg-name="القصص - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",القصص - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/028.mp3
+#EXTINF:-1 tvg-name="العنكبوت - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",العنكبوت - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/029.mp3
+#EXTINF:-1 tvg-name="الروم - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الروم - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/030.mp3
+#EXTINF:-1 tvg-name="لقمان - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",لقمان - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/031.mp3
+#EXTINF:-1 tvg-name="السجدة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",السجدة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/032.mp3
+#EXTINF:-1 tvg-name="الأحزاب - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحزاب - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/033.mp3
+#EXTINF:-1 tvg-name="سباء - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",سباء - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/034.mp3
+#EXTINF:-1 tvg-name="فاطر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",فاطر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/035.mp3
+#EXTINF:-1 tvg-name="يس - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",يس - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/036.mp3
+#EXTINF:-1 tvg-name="الصافات - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصافات - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/037.mp3
+#EXTINF:-1 tvg-name="ص - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",ص - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/038.mp3
+#EXTINF:-1 tvg-name="الزمر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزمر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/039.mp3
+#EXTINF:-1 tvg-name="غافر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",غافر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/040.mp3
+#EXTINF:-1 tvg-name="فصلت - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",فصلت - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/041.mp3
+#EXTINF:-1 tvg-name="الشوری - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشوری - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/042.mp3
+#EXTINF:-1 tvg-name="الزخرف - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزخرف - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/043.mp3
+#EXTINF:-1 tvg-name="الدّخان - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الدّخان - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/044.mp3
+#EXTINF:-1 tvg-name="الجاثية - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجاثية - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/045.mp3
+#EXTINF:-1 tvg-name="الأحقاف - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحقاف - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/046.mp3
+#EXTINF:-1 tvg-name="محمد - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",محمد - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/047.mp3
+#EXTINF:-1 tvg-name="الفتح - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفتح - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/048.mp3
+#EXTINF:-1 tvg-name="الحجرات - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجرات - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/049.mp3
+#EXTINF:-1 tvg-name="ق - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",ق - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/050.mp3
+#EXTINF:-1 tvg-name="الذاریات - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الذاریات - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/051.mp3
+#EXTINF:-1 tvg-name="الطور - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطور - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/052.mp3
+#EXTINF:-1 tvg-name="النجم - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النجم - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/053.mp3
+#EXTINF:-1 tvg-name="القمر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",القمر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/054.mp3
+#EXTINF:-1 tvg-name="الرحمن - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرحمن - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/055.mp3
+#EXTINF:-1 tvg-name="الواقعة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الواقعة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/056.mp3
+#EXTINF:-1 tvg-name="الحدید - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحدید - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/057.mp3
+#EXTINF:-1 tvg-name="المجادلة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المجادلة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/058.mp3
+#EXTINF:-1 tvg-name="الحشر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحشر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/059.mp3
+#EXTINF:-1 tvg-name="الممتحنة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الممتحنة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/060.mp3
+#EXTINF:-1 tvg-name="الصف - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصف - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/061.mp3
+#EXTINF:-1 tvg-name="الجمعة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجمعة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/062.mp3
+#EXTINF:-1 tvg-name="المنافقون - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المنافقون - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/063.mp3
+#EXTINF:-1 tvg-name="التغابن - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",التغابن - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/064.mp3
+#EXTINF:-1 tvg-name="الطلاق - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطلاق - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/065.mp3
+#EXTINF:-1 tvg-name="التحریم - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",التحریم - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/066.mp3
+#EXTINF:-1 tvg-name="الملک - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الملک - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/067.mp3
+#EXTINF:-1 tvg-name="القلم - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",القلم - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/068.mp3
+#EXTINF:-1 tvg-name="الحاقة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحاقة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/069.mp3
+#EXTINF:-1 tvg-name="المعارج - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المعارج - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/070.mp3
+#EXTINF:-1 tvg-name="نوح - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",نوح - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/071.mp3
+#EXTINF:-1 tvg-name="الجن - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجن - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/072.mp3
+#EXTINF:-1 tvg-name="المزمل - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المزمل - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/073.mp3
+#EXTINF:-1 tvg-name="المدثر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المدثر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/074.mp3
+#EXTINF:-1 tvg-name="القیامة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",القیامة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/075.mp3
+#EXTINF:-1 tvg-name="الانسان - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانسان - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/076.mp3
+#EXTINF:-1 tvg-name="المرسلات - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المرسلات - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/077.mp3
+#EXTINF:-1 tvg-name="النباء - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النباء - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/078.mp3
+#EXTINF:-1 tvg-name="النازعات - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النازعات - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/079.mp3
+#EXTINF:-1 tvg-name="عبس - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",عبس - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/080.mp3
+#EXTINF:-1 tvg-name="التکویر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",التکویر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/081.mp3
+#EXTINF:-1 tvg-name="الٳنفطار - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنفطار - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/082.mp3
+#EXTINF:-1 tvg-name="المطففین - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المطففین - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/083.mp3
+#EXTINF:-1 tvg-name="الٳنشقاق - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنشقاق - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/084.mp3
+#EXTINF:-1 tvg-name="البروج - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",البروج - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/085.mp3
+#EXTINF:-1 tvg-name="الطارق - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطارق - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/086.mp3
+#EXTINF:-1 tvg-name="الٱعلی - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٱعلی - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/087.mp3
+#EXTINF:-1 tvg-name="‌الغاشية - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",‌الغاشية - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/088.mp3
+#EXTINF:-1 tvg-name="الفجر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفجر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/089.mp3
+#EXTINF:-1 tvg-name="البلد - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",البلد - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/090.mp3
+#EXTINF:-1 tvg-name="الشمس - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشمس - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/091.mp3
+#EXTINF:-1 tvg-name="اليل - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",اليل - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/092.mp3
+#EXTINF:-1 tvg-name="الضحی - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الضحی - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/093.mp3
+#EXTINF:-1 tvg-name="الشرح - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشرح - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/094.mp3
+#EXTINF:-1 tvg-name="التين - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",التين - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/095.mp3
+#EXTINF:-1 tvg-name="العلق - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",العلق - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/096.mp3
+#EXTINF:-1 tvg-name="القدر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",القدر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/097.mp3
+#EXTINF:-1 tvg-name="البينة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",البينة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/098.mp3
+#EXTINF:-1 tvg-name="الزلزلة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزلزلة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/099.mp3
+#EXTINF:-1 tvg-name="العاديات - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",العاديات - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/100.mp3
+#EXTINF:-1 tvg-name="القارعة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",القارعة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/101.mp3
+#EXTINF:-1 tvg-name="التكاثر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",التكاثر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/102.mp3
+#EXTINF:-1 tvg-name="العصر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",العصر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/103.mp3
+#EXTINF:-1 tvg-name="الهمزة - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الهمزة - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/104.mp3
+#EXTINF:-1 tvg-name="الفيل - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفيل - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/105.mp3
+#EXTINF:-1 tvg-name="قريش - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",قريش - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/106.mp3
+#EXTINF:-1 tvg-name="الماعون - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الماعون - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/107.mp3
+#EXTINF:-1 tvg-name="الكوثر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكوثر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/108.mp3
+#EXTINF:-1 tvg-name="الكافرون - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكافرون - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/109.mp3
+#EXTINF:-1 tvg-name="النصر - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",النصر - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/110.mp3
+#EXTINF:-1 tvg-name="المسد - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",المسد - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/111.mp3
+#EXTINF:-1 tvg-name="الٳخلاص - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳخلاص - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/112.mp3
+#EXTINF:-1 tvg-name="الفلق - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفلق - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/113.mp3
+#EXTINF:-1 tvg-name="الناس - Saad Al-Ghamdi"tvg-id=""tvg-logo="https://i.postimg.cc/0288dB6H/Saad-Alghamidy.jpg"tvg-chno=""group-title="Quran":http-referrer="",الناس - Saad Al-Ghamdi
+https://server7.mp3quran.net/s_gmd/114.mp3
+#EXTINF:-1 tvg-name="سورة الفاتحة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة الفاتحة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/001.mp3
+#EXTINF:-1 tvg-name="آل عمران - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",آل عمران - Raad Kurdi
+https://server6.mp3quran.net/kurdi/003.mp3
+#EXTINF:-1 tvg-name="النساء - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النساء - Raad Kurdi
+https://server6.mp3quran.net/kurdi/004.mp3
+#EXTINF:-1 tvg-name="المائدة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المائدة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/005.mp3
+#EXTINF:-1 tvg-name="الانعام - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانعام - Raad Kurdi
+https://server6.mp3quran.net/kurdi/006.mp3
+#EXTINF:-1 tvg-name="الاعراف - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاعراف - Raad Kurdi
+https://server6.mp3quran.net/kurdi/007.mp3
+#EXTINF:-1 tvg-name="الانفال - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانفال - Raad Kurdi
+https://server6.mp3quran.net/kurdi/008.mp3
+#EXTINF:-1 tvg-name="التوبة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",التوبة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/009.mp3
+#EXTINF:-1 tvg-name="سورة يونس - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة يونس - Raad Kurdi
+https://server6.mp3quran.net/kurdi/010.mp3
+#EXTINF:-1 tvg-name="سورة هود - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة هود - Raad Kurdi
+https://server6.mp3quran.net/kurdi/011.mp3
+#EXTINF:-1 tvg-name="يوسف - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",يوسف - Raad Kurdi
+https://server6.mp3quran.net/kurdi/012.mp3
+#EXTINF:-1 tvg-name="الرعد - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرعد - Raad Kurdi
+https://server6.mp3quran.net/kurdi/013.mp3
+#EXTINF:-1 tvg-name="ٳبراهيم - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",ٳبراهيم - Raad Kurdi
+https://server6.mp3quran.net/kurdi/014.mp3
+#EXTINF:-1 tvg-name="الحجر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/015.mp3
+#EXTINF:-1 tvg-name="النحل - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النحل - Raad Kurdi
+https://server6.mp3quran.net/kurdi/016.mp3
+#EXTINF:-1 tvg-name="الاسراء - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاسراء - Raad Kurdi
+https://server6.mp3quran.net/kurdi/017.mp3
+#EXTINF:-1 tvg-name="الکهف - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الکهف - Raad Kurdi
+https://server6.mp3quran.net/kurdi/018.mp3
+#EXTINF:-1 tvg-name="مریم - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",مریم - Raad Kurdi
+https://server6.mp3quran.net/kurdi/019.mp3
+#EXTINF:-1 tvg-name="الانبیاء - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانبیاء - Raad Kurdi
+https://server6.mp3quran.net/kurdi/020.mp3
+#EXTINF:-1 tvg-name="الحج - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحج - Raad Kurdi
+https://server6.mp3quran.net/kurdi/022.mp3
+#EXTINF:-1 tvg-name="المؤمنون - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المؤمنون - Raad Kurdi
+https://server6.mp3quran.net/kurdi/023.mp3
+#EXTINF:-1 tvg-name="النور - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النور - Raad Kurdi
+https://server6.mp3quran.net/kurdi/024.mp3
+#EXTINF:-1 tvg-name="الفرقان - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفرقان - Raad Kurdi
+https://server6.mp3quran.net/kurdi/025.mp3
+#EXTINF:-1 tvg-name="الشعراء - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشعراء - Raad Kurdi
+https://server6.mp3quran.net/kurdi/026.mp3
+#EXTINF:-1 tvg-name="النمل - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النمل - Raad Kurdi
+https://server6.mp3quran.net/kurdi/027.mp3
+#EXTINF:-1 tvg-name="القصص - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",القصص - Raad Kurdi
+https://server6.mp3quran.net/kurdi/028.mp3
+#EXTINF:-1 tvg-name="العنكبوت - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",العنكبوت - Raad Kurdi
+https://server6.mp3quran.net/kurdi/029.mp3
+#EXTINF:-1 tvg-name="الروم - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الروم - Raad Kurdi
+https://server6.mp3quran.net/kurdi/030.mp3
+#EXTINF:-1 tvg-name="لقمان - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",لقمان - Raad Kurdi
+https://server6.mp3quran.net/kurdi/031.mp3
+#EXTINF:-1 tvg-name="السجدة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",السجدة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/032.mp3
+#EXTINF:-1 tvg-name="الأحزاب - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحزاب - Raad Kurdi
+https://server6.mp3quran.net/kurdi/033.mp3
+#EXTINF:-1 tvg-name="سباء - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",سباء - Raad Kurdi
+https://server6.mp3quran.net/kurdi/034.mp3
+#EXTINF:-1 tvg-name="فاطر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",فاطر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/035.mp3
+#EXTINF:-1 tvg-name="يس - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",يس - Raad Kurdi
+https://server6.mp3quran.net/kurdi/036.mp3
+#EXTINF:-1 tvg-name="الصافات - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصافات - Raad Kurdi
+https://server6.mp3quran.net/kurdi/037.mp3
+#EXTINF:-1 tvg-name="ص - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",ص - Raad Kurdi
+https://server6.mp3quran.net/kurdi/038.mp3
+#EXTINF:-1 tvg-name="الزمر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزمر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/039.mp3
+#EXTINF:-1 tvg-name="غافر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",غافر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/040.mp3
+#EXTINF:-1 tvg-name="فصلت - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",فصلت - Raad Kurdi
+https://server6.mp3quran.net/kurdi/041.mp3
+#EXTINF:-1 tvg-name="الشوری - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشوری - Raad Kurdi
+https://server6.mp3quran.net/kurdi/042.mp3
+#EXTINF:-1 tvg-name="الزخرف - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزخرف - Raad Kurdi
+https://server6.mp3quran.net/kurdi/043.mp3
+#EXTINF:-1 tvg-name="الدّخان - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الدّخان - Raad Kurdi
+https://server6.mp3quran.net/kurdi/044.mp3
+#EXTINF:-1 tvg-name="الجاثية - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجاثية - Raad Kurdi
+https://server6.mp3quran.net/kurdi/045.mp3
+#EXTINF:-1 tvg-name="الأحقاف - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحقاف - Raad Kurdi
+https://server6.mp3quran.net/kurdi/046.mp3
+#EXTINF:-1 tvg-name="محمد - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",محمد - Raad Kurdi
+https://server6.mp3quran.net/kurdi/047.mp3
+#EXTINF:-1 tvg-name="الفتح - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفتح - Raad Kurdi
+https://server6.mp3quran.net/kurdi/048.mp3
+#EXTINF:-1 tvg-name="الحجرات - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجرات - Raad Kurdi
+https://server6.mp3quran.net/kurdi/049.mp3
+#EXTINF:-1 tvg-name="ق - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",ق - Raad Kurdi
+https://server6.mp3quran.net/kurdi/050.mp3
+#EXTINF:-1 tvg-name="الذاریات - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الذاریات - Raad Kurdi
+https://server6.mp3quran.net/kurdi/051.mp3
+#EXTINF:-1 tvg-name="الطور - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطور - Raad Kurdi
+https://server6.mp3quran.net/kurdi/052.mp3
+#EXTINF:-1 tvg-name="النجم - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النجم - Raad Kurdi
+https://server6.mp3quran.net/kurdi/053.mp3
+#EXTINF:-1 tvg-name="القمر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",القمر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/054.mp3
+#EXTINF:-1 tvg-name="الرحمن - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرحمن - Raad Kurdi
+https://server6.mp3quran.net/kurdi/055.mp3
+#EXTINF:-1 tvg-name="الواقعة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الواقعة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/056.mp3
+#EXTINF:-1 tvg-name="الحدید - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحدید - Raad Kurdi
+https://server6.mp3quran.net/kurdi/057.mp3
+#EXTINF:-1 tvg-name="المجادلة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المجادلة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/058.mp3
+#EXTINF:-1 tvg-name="الحشر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحشر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/059.mp3
+#EXTINF:-1 tvg-name="الممتحنة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الممتحنة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/060.mp3
+#EXTINF:-1 tvg-name="الصف - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصف - Raad Kurdi
+https://server6.mp3quran.net/kurdi/061.mp3
+#EXTINF:-1 tvg-name="الجمعة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجمعة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/062.mp3
+#EXTINF:-1 tvg-name="المنافقون - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المنافقون - Raad Kurdi
+https://server6.mp3quran.net/kurdi/063.mp3
+#EXTINF:-1 tvg-name="التغابن - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",التغابن - Raad Kurdi
+https://server6.mp3quran.net/kurdi/064.mp3
+#EXTINF:-1 tvg-name="الطلاق - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطلاق - Raad Kurdi
+https://server6.mp3quran.net/kurdi/065.mp3
+#EXTINF:-1 tvg-name="التحریم - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",التحریم - Raad Kurdi
+https://server6.mp3quran.net/kurdi/066.mp3
+#EXTINF:-1 tvg-name="الملک - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الملک - Raad Kurdi
+https://server6.mp3quran.net/kurdi/067.mp3
+#EXTINF:-1 tvg-name="القلم - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",القلم - Raad Kurdi
+https://server6.mp3quran.net/kurdi/068.mp3
+#EXTINF:-1 tvg-name="الحاقة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحاقة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/069.mp3
+#EXTINF:-1 tvg-name="المعارج - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المعارج - Raad Kurdi
+https://server6.mp3quran.net/kurdi/070.mp3
+#EXTINF:-1 tvg-name="نوح - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",نوح - Raad Kurdi
+https://server6.mp3quran.net/kurdi/071.mp3
+#EXTINF:-1 tvg-name="الجن - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجن - Raad Kurdi
+https://server6.mp3quran.net/kurdi/072.mp3
+#EXTINF:-1 tvg-name="المزمل - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المزمل - Raad Kurdi
+https://server6.mp3quran.net/kurdi/073.mp3
+#EXTINF:-1 tvg-name="المدثر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المدثر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/074.mp3
+#EXTINF:-1 tvg-name="القیامة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",القیامة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/075.mp3
+#EXTINF:-1 tvg-name="الانسان - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانسان - Raad Kurdi
+https://server6.mp3quran.net/kurdi/076.mp3
+#EXTINF:-1 tvg-name="المرسلات - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المرسلات - Raad Kurdi
+https://server6.mp3quran.net/kurdi/077.mp3
+#EXTINF:-1 tvg-name="النباء - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النباء - Raad Kurdi
+https://server6.mp3quran.net/kurdi/078.mp3
+#EXTINF:-1 tvg-name="النازعات - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النازعات - Raad Kurdi
+https://server6.mp3quran.net/kurdi/079.mp3
+#EXTINF:-1 tvg-name="عبس - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",عبس - Raad Kurdi
+https://server6.mp3quran.net/kurdi/080.mp3
+#EXTINF:-1 tvg-name="التکویر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",التکویر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/081.mp3
+#EXTINF:-1 tvg-name="الٳنفطار - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنفطار - Raad Kurdi
+https://server6.mp3quran.net/kurdi/082.mp3
+#EXTINF:-1 tvg-name="المطففین - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المطففین - Raad Kurdi
+https://server6.mp3quran.net/kurdi/083.mp3
+#EXTINF:-1 tvg-name="الٳنشقاق - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنشقاق - Raad Kurdi
+https://server6.mp3quran.net/kurdi/084.mp3
+#EXTINF:-1 tvg-name="البروج - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",البروج - Raad Kurdi
+https://server6.mp3quran.net/kurdi/085.mp3
+#EXTINF:-1 tvg-name="الطارق - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطارق - Raad Kurdi
+https://server6.mp3quran.net/kurdi/086.mp3
+#EXTINF:-1 tvg-name="الٱعلی - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٱعلی - Raad Kurdi
+https://server6.mp3quran.net/kurdi/087.mp3
+#EXTINF:-1 tvg-name="‌الغاشية - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",‌الغاشية - Raad Kurdi
+https://server6.mp3quran.net/kurdi/088.mp3
+#EXTINF:-1 tvg-name="الفجر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفجر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/089.mp3
+#EXTINF:-1 tvg-name="البلد - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",البلد - Raad Kurdi
+https://server6.mp3quran.net/kurdi/090.mp3
+#EXTINF:-1 tvg-name="الشمس - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشمس - Raad Kurdi
+https://server6.mp3quran.net/kurdi/091.mp3
+#EXTINF:-1 tvg-name="اليل - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",اليل - Raad Kurdi
+https://server6.mp3quran.net/kurdi/092.mp3
+#EXTINF:-1 tvg-name="الضحی - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الضحی - Raad Kurdi
+https://server6.mp3quran.net/kurdi/093.mp3
+#EXTINF:-1 tvg-name="الشرح - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشرح - Raad Kurdi
+https://server6.mp3quran.net/kurdi/094.mp3
+#EXTINF:-1 tvg-name="التين - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",التين - Raad Kurdi
+https://server6.mp3quran.net/kurdi/095.mp3
+#EXTINF:-1 tvg-name="العلق - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",العلق - Raad Kurdi
+https://server6.mp3quran.net/kurdi/096.mp3
+#EXTINF:-1 tvg-name="القدر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",القدر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/097.mp3
+#EXTINF:-1 tvg-name="البينة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",البينة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/098.mp3
+#EXTINF:-1 tvg-name="الزلزلة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزلزلة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/099.mp3
+#EXTINF:-1 tvg-name="العاديات - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",العاديات - Raad Kurdi
+https://server6.mp3quran.net/kurdi/100.mp3
+#EXTINF:-1 tvg-name="القارعة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",القارعة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/101.mp3
+#EXTINF:-1 tvg-name="التكاثر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",التكاثر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/102.mp3
+#EXTINF:-1 tvg-name="العصر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",العصر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/103.mp3
+#EXTINF:-1 tvg-name="الهمزة - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الهمزة - Raad Kurdi
+https://server6.mp3quran.net/kurdi/104.mp3
+#EXTINF:-1 tvg-name="الفيل - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفيل - Raad Kurdi
+https://server6.mp3quran.net/kurdi/105.mp3
+#EXTINF:-1 tvg-name="قريش - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",قريش - Raad Kurdi
+https://server6.mp3quran.net/kurdi/106.mp3
+#EXTINF:-1 tvg-name="الماعون - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الماعون - Raad Kurdi
+https://server6.mp3quran.net/kurdi/107.mp3
+#EXTINF:-1 tvg-name="الكوثر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكوثر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/108.mp3
+#EXTINF:-1 tvg-name="الكافرون - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكافرون - Raad Kurdi
+https://server6.mp3quran.net/kurdi/109.mp3
+#EXTINF:-1 tvg-name="النصر - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",النصر - Raad Kurdi
+https://server6.mp3quran.net/kurdi/110.mp3
+#EXTINF:-1 tvg-name="المسد - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",المسد - Raad Kurdi
+https://server6.mp3quran.net/kurdi/111.mp3
+#EXTINF:-1 tvg-name="الٳخلاص - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳخلاص - Raad Kurdi
+https://server6.mp3quran.net/kurdi/112.mp3
+#EXTINF:-1 tvg-name="الفلق - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفلق - Raad Kurdi
+https://server6.mp3quran.net/kurdi/113.mp3
+#EXTINF:-1 tvg-name="الناس - Raad Kurdi"tvg-id=""tvg-logo="https://i.postimg.cc/mZH7vVSw/Raad.jpg"tvg-chno=""group-title="Quran":http-referrer="",الناس - Raad Kurdi
+https://server6.mp3quran.net/kurdi/114.mp3
+#EXTINF:-1 tvg-name="سورة الفاتحة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة الفاتحة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/001.mp3
+#EXTINF:-1 tvg-name="سورة البقرة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة البقرة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/002.mp3
+#EXTINF:-1 tvg-name="آل عمران - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",آل عمران - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/003.mp3
+#EXTINF:-1 tvg-name="النساء - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النساء - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/004.mp3
+#EXTINF:-1 tvg-name="المائدة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المائدة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/005.mp3
+#EXTINF:-1 tvg-name="الانعام - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانعام - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/006.mp3
+#EXTINF:-1 tvg-name="الاعراف - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاعراف - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/007.mp3
+#EXTINF:-1 tvg-name="الانفال - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانفال - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/008.mp3
+#EXTINF:-1 tvg-name="التوبة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",التوبة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/009.mp3
+#EXTINF:-1 tvg-name="سورة يونس - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة يونس - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/010.mp3
+#EXTINF:-1 tvg-name="سورة هود - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة هود - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/011.mp3
+#EXTINF:-1 tvg-name="يوسف - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",يوسف - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/012.mp3
+#EXTINF:-1 tvg-name="الرعد - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرعد - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/013.mp3
+#EXTINF:-1 tvg-name="ٳبراهيم - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",ٳبراهيم - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/014.mp3
+#EXTINF:-1 tvg-name="الحجر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/015.mp3
+#EXTINF:-1 tvg-name="النحل - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النحل - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/016.mp3
+#EXTINF:-1 tvg-name="الاسراء - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الاسراء - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/017.mp3
+#EXTINF:-1 tvg-name="الکهف - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الکهف - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/018.mp3
+#EXTINF:-1 tvg-name="مریم - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",مریم - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/019.mp3
+#EXTINF:-1 tvg-name="الانبیاء - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانبیاء - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/020.mp3
+#EXTINF:-1 tvg-name="الحج - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحج - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/022.mp3
+#EXTINF:-1 tvg-name="المؤمنون - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المؤمنون - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/023.mp3
+#EXTINF:-1 tvg-name="النور - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النور - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/024.mp3
+#EXTINF:-1 tvg-name="الفرقان - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفرقان - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/025.mp3
+#EXTINF:-1 tvg-name="الشعراء - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشعراء - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/026.mp3
+#EXTINF:-1 tvg-name="النمل - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النمل - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/027.mp3
+#EXTINF:-1 tvg-name="القصص - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",القصص - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/028.mp3
+#EXTINF:-1 tvg-name="العنكبوت - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",العنكبوت - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/029.mp3
+#EXTINF:-1 tvg-name="الروم - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الروم - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/030.mp3
+#EXTINF:-1 tvg-name="لقمان - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",لقمان - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/031.mp3
+#EXTINF:-1 tvg-name="السجدة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",السجدة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/032.mp3
+#EXTINF:-1 tvg-name="الأحزاب - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحزاب - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/033.mp3
+#EXTINF:-1 tvg-name="سباء - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",سباء - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/034.mp3
+#EXTINF:-1 tvg-name="فاطر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",فاطر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/035.mp3
+#EXTINF:-1 tvg-name="يس - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",يس - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/036.mp3
+#EXTINF:-1 tvg-name="الصافات - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصافات - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/037.mp3
+#EXTINF:-1 tvg-name="ص - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",ص - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/038.mp3
+#EXTINF:-1 tvg-name="الزمر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزمر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/039.mp3
+#EXTINF:-1 tvg-name="غافر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",غافر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/040.mp3
+#EXTINF:-1 tvg-name="فصلت - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",فصلت - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/041.mp3
+#EXTINF:-1 tvg-name="الشوری - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشوری - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/042.mp3
+#EXTINF:-1 tvg-name="الزخرف - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزخرف - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/043.mp3
+#EXTINF:-1 tvg-name="الدّخان - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الدّخان - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/044.mp3
+#EXTINF:-1 tvg-name="الجاثية - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجاثية - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/045.mp3
+#EXTINF:-1 tvg-name="الأحقاف - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الأحقاف - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/046.mp3
+#EXTINF:-1 tvg-name="محمد - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",محمد - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/047.mp3
+#EXTINF:-1 tvg-name="الفتح - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفتح - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/048.mp3
+#EXTINF:-1 tvg-name="الحجرات - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجرات - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/049.mp3
+#EXTINF:-1 tvg-name="ق - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",ق - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/050.mp3
+#EXTINF:-1 tvg-name="الذاریات - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الذاریات - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/051.mp3
+#EXTINF:-1 tvg-name="الطور - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطور - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/052.mp3
+#EXTINF:-1 tvg-name="النجم - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النجم - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/053.mp3
+#EXTINF:-1 tvg-name="القمر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",القمر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/054.mp3
+#EXTINF:-1 tvg-name="الرحمن - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرحمن - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/055.mp3
+#EXTINF:-1 tvg-name="الواقعة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الواقعة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/056.mp3
+#EXTINF:-1 tvg-name="الحدید - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحدید - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/057.mp3
+#EXTINF:-1 tvg-name="المجادلة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المجادلة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/058.mp3
+#EXTINF:-1 tvg-name="الحشر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحشر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/059.mp3
+#EXTINF:-1 tvg-name="الممتحنة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الممتحنة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/060.mp3
+#EXTINF:-1 tvg-name="الصف - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الصف - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/061.mp3
+#EXTINF:-1 tvg-name="الجمعة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجمعة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/062.mp3
+#EXTINF:-1 tvg-name="المنافقون - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المنافقون - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/063.mp3
+#EXTINF:-1 tvg-name="التغابن - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",التغابن - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/064.mp3
+#EXTINF:-1 tvg-name="الطلاق - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطلاق - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/065.mp3
+#EXTINF:-1 tvg-name="التحریم - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",التحریم - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/066.mp3
+#EXTINF:-1 tvg-name="الملک - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الملک - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/067.mp3
+#EXTINF:-1 tvg-name="القلم - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",القلم - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/068.mp3
+#EXTINF:-1 tvg-name="الحاقة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحاقة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/069.mp3
+#EXTINF:-1 tvg-name="المعارج - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المعارج - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/070.mp3
+#EXTINF:-1 tvg-name="نوح - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",نوح - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/071.mp3
+#EXTINF:-1 tvg-name="الجن - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجن - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/072.mp3
+#EXTINF:-1 tvg-name="المزمل - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المزمل - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/073.mp3
+#EXTINF:-1 tvg-name="المدثر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المدثر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/074.mp3
+#EXTINF:-1 tvg-name="القیامة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",القیامة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/075.mp3
+#EXTINF:-1 tvg-name="الانسان - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الانسان - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/076.mp3
+#EXTINF:-1 tvg-name="المرسلات - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المرسلات - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/077.mp3
+#EXTINF:-1 tvg-name="النباء - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النباء - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/078.mp3
+#EXTINF:-1 tvg-name="النازعات - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النازعات - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/079.mp3
+#EXTINF:-1 tvg-name="عبس - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",عبس - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/080.mp3
+#EXTINF:-1 tvg-name="التکویر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",التکویر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/081.mp3
+#EXTINF:-1 tvg-name="الٳنفطار - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنفطار - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/082.mp3
+#EXTINF:-1 tvg-name="المطففین - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المطففین - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/083.mp3
+#EXTINF:-1 tvg-name="الٳنشقاق - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنشقاق - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/084.mp3
+#EXTINF:-1 tvg-name="البروج - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",البروج - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/085.mp3
+#EXTINF:-1 tvg-name="الطارق - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطارق - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/086.mp3
+#EXTINF:-1 tvg-name="الٱعلی - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٱعلی - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/087.mp3
+#EXTINF:-1 tvg-name="‌الغاشية - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",‌الغاشية - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/088.mp3
+#EXTINF:-1 tvg-name="الفجر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفجر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/089.mp3
+#EXTINF:-1 tvg-name="البلد - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",البلد - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/090.mp3
+#EXTINF:-1 tvg-name="الشمس - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشمس - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/091.mp3
+#EXTINF:-1 tvg-name="اليل - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",اليل - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/092.mp3
+#EXTINF:-1 tvg-name="الضحی - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الضحی - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/093.mp3
+#EXTINF:-1 tvg-name="الشرح - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشرح - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/094.mp3
+#EXTINF:-1 tvg-name="التين - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",التين - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/095.mp3
+#EXTINF:-1 tvg-name="العلق - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",العلق - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/096.mp3
+#EXTINF:-1 tvg-name="القدر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",القدر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/097.mp3
+#EXTINF:-1 tvg-name="البينة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",البينة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/098.mp3
+#EXTINF:-1 tvg-name="الزلزلة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزلزلة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/099.mp3
+#EXTINF:-1 tvg-name="العاديات - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",العاديات - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/100.mp3
+#EXTINF:-1 tvg-name="القارعة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",القارعة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/101.mp3
+#EXTINF:-1 tvg-name="التكاثر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",التكاثر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/102.mp3
+#EXTINF:-1 tvg-name="العصر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",العصر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/103.mp3
+#EXTINF:-1 tvg-name="الهمزة - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الهمزة - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/104.mp3
+#EXTINF:-1 tvg-name="الفيل - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفيل - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/105.mp3
+#EXTINF:-1 tvg-name="قريش - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",قريش - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/106.mp3
+#EXTINF:-1 tvg-name="الماعون - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الماعون - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/107.mp3
+#EXTINF:-1 tvg-name="الكوثر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكوثر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/108.mp3
+#EXTINF:-1 tvg-name="الكافرون - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكافرون - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/109.mp3
+#EXTINF:-1 tvg-name="النصر - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",النصر - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/110.mp3
+#EXTINF:-1 tvg-name="المسد - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",المسد - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/111.mp3
+#EXTINF:-1 tvg-name="الٳخلاص - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳخلاص - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/112.mp3
+#EXTINF:-1 tvg-name="الفلق - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفلق - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/113.mp3
+#EXTINF:-1 tvg-name="الناس - Peshawa Qadir"tvg-id=""tvg-logo="https://i.postimg.cc/Z5CbQs8Y/Peshawa.jpg"tvg-chno=""group-title="Quran":http-referrer="",الناس - Peshawa Qadir
+https://server16.mp3quran.net/peshawa/Rewayat-Hafs-A-n-Assem/114.mp3
+#EXTINF:-1 tvg-name="سورة الفاتحة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة الفاتحة - Shakoor
+https://server6.mp3quran.net/shakoor/001.mp3
+#EXTINF:-1 tvg-name="آل عمران - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",آل عمران - Shakoor
+https://server6.mp3quran.net/shakoor/003.mp3
+#EXTINF:-1 tvg-name="سورة يونس - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة يونس - Shakoor
+https://server6.mp3quran.net/shakoor/010.mp3
+#EXTINF:-1 tvg-name="الرعد - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الرعد - Shakoor
+https://server6.mp3quran.net/shakoor/013.mp3
+#EXTINF:-1 tvg-name="ٳبراهيم - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",ٳبراهيم - Shakoor
+https://server6.mp3quran.net/shakoor/014.mp3
+#EXTINF:-1 tvg-name="المؤمنون - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",المؤمنون - Shakoor
+https://server6.mp3quran.net/shakoor/023.mp3
+#EXTINF:-1 tvg-name="الشعراء - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشعراء - Shakoor
+https://server6.mp3quran.net/shakoor/026.mp3
+#EXTINF:-1 tvg-name="العنكبوت - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",العنكبوت - Shakoor
+https://server6.mp3quran.net/shakoor/029.mp3
+#EXTINF:-1 tvg-name="فاطر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",فاطر - Shakoor
+https://server6.mp3quran.net/shakoor/035.mp3
+#EXTINF:-1 tvg-name="یس - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",یس - Shakoor
+https://server6.mp3quran.net/shakoor/036.mp3
+#EXTINF:-1 tvg-name="الزمر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزمر - Shakoor
+https://server6.mp3quran.net/shakoor/039.mp3
+#EXTINF:-1 tvg-name="غافر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",غافر - Shakoor
+https://server6.mp3quran.net/shakoor/040.mp3
+#EXTINF:-1 tvg-name="الشوری - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشوری - Shakoor
+https://server6.mp3quran.net/shakoor/042.mp3
+#EXTINF:-1 tvg-name="الزخرف - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزخرف - Shakoor
+https://server6.mp3quran.net/shakoor/043.mp3
+#EXTINF:-1 tvg-name="محمد - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",محمد - Shakoor
+https://server6.mp3quran.net/shakoor/047.mp3
+#EXTINF:-1 tvg-name="الفتح - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفتح - Shakoor
+https://server6.mp3quran.net/shakoor/048.mp3
+#EXTINF:-1 tvg-name="الحجرات - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحجرات - Shakoor
+https://server6.mp3quran.net/shakoor/049.mp3
+#EXTINF:-1 tvg-name="ق - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",ق - Shakoor
+https://server6.mp3quran.net/shakoor/050.mp3
+#EXTINF:-1 tvg-name="الذاریات - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الذاریات - Shakoor
+https://server6.mp3quran.net/shakoor/051.mp3
+#EXTINF:-1 tvg-name="الحدید - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحدید - Shakoor
+https://server6.mp3quran.net/shakoor/057.mp3
+#EXTINF:-1 tvg-name="المجادلة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",المجادلة - Shakoor
+https://server6.mp3quran.net/shakoor/058.mp3
+#EXTINF:-1 tvg-name="الحشر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحشر - Shakoor
+https://server6.mp3quran.net/shakoor/059.mp3
+#EXTINF:-1 tvg-name="الممتحنة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الممتحنة - Shakoor
+https://server6.mp3quran.net/shakoor/060.mp3
+#EXTINF:-1 tvg-name="المنافقون - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",المنافقون - Shakoor
+https://server6.mp3quran.net/shakoor/063.mp3
+#EXTINF:-1 tvg-name="القلم - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",القلم - Shakoor
+https://server6.mp3quran.net/shakoor/068.mp3
+#EXTINF:-1 tvg-name="الحاقة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الحاقة - Shakoor
+https://server6.mp3quran.net/shakoor/069.mp3
+#EXTINF:-1 tvg-name="المعارج - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",المعارج - Shakoor
+https://server6.mp3quran.net/shakoor/070.mp3
+#EXTINF:-1 tvg-name="نوح - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",نوح - Shakoor
+https://server6.mp3quran.net/shakoor/071.mp3
+#EXTINF:-1 tvg-name="الجن - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الجن - Shakoor
+https://server6.mp3quran.net/shakoor/072.mp3
+#EXTINF:-1 tvg-name="الٳنفطار - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنفطار - Shakoor
+https://server6.mp3quran.net/shakoor/082.mp3
+#EXTINF:-1 tvg-name="المطففین - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",المطففین - Shakoor
+https://server6.mp3quran.net/shakoor/083.mp3
+#EXTINF:-1 tvg-name="الٳنشقاق - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳنشقاق - Shakoor
+https://server6.mp3quran.net/shakoor/084.mp3
+#EXTINF:-1 tvg-name="البروج - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",البروج - Shakoor
+https://server6.mp3quran.net/shakoor/085.mp3
+#EXTINF:-1 tvg-name="الطارق - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الطارق - Shakoor
+https://server6.mp3quran.net/shakoor/086.mp3
+#EXTINF:-1 tvg-name="الٱعلی - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٱعلی - Shakoor
+https://server6.mp3quran.net/shakoor/087.mp3
+#EXTINF:-1 tvg-name="‌الغاشية - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",‌الغاشية - Shakoor
+https://server6.mp3quran.net/shakoor/088.mp3
+#EXTINF:-1 tvg-name="الفجر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفجر - Shakoor
+https://server6.mp3quran.net/shakoor/089.mp3
+#EXTINF:-1 tvg-name="البلد - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",البلد - Shakoor
+https://server6.mp3quran.net/shakoor/090.mp3
+#EXTINF:-1 tvg-name="الشمس - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشمس - Shakoor
+https://server6.mp3quran.net/shakoor/091.mp3
+#EXTINF:-1 tvg-name="اليل - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",اليل - Shakoor
+https://server6.mp3quran.net/shakoor/092.mp3
+#EXTINF:-1 tvg-name="الضحی - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الضحی - Shakoor
+https://server6.mp3quran.net/shakoor/093.mp3
+#EXTINF:-1 tvg-name="الشرح - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الشرح - Shakoor
+https://server6.mp3quran.net/shakoor/094.mp3
+#EXTINF:-1 tvg-name="التين - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",التين - Shakoor
+https://server6.mp3quran.net/shakoor/095.mp3
+#EXTINF:-1 tvg-name="العلق - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",العلق - Shakoor
+https://server6.mp3quran.net/shakoor/096.mp3
+#EXTINF:-1 tvg-name="القدر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",القدر - Shakoor
+https://server6.mp3quran.net/shakoor/097.mp3
+#EXTINF:-1 tvg-name="البينة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",البينة - Shakoor
+https://server6.mp3quran.net/shakoor/098.mp3
+#EXTINF:-1 tvg-name="الزلزلة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الزلزلة - Shakoor
+https://server6.mp3quran.net/shakoor/099.mp3
+#EXTINF:-1 tvg-name="العاديات - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",العاديات - Shakoor
+https://server6.mp3quran.net/shakoor/100.mp3
+#EXTINF:-1 tvg-name="القارعة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",القارعة - Shakoor
+https://server6.mp3quran.net/shakoor/101.mp3
+#EXTINF:-1 tvg-name="التكاثر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",التكاثر - Shakoor
+https://server6.mp3quran.net/shakoor/102.mp3
+#EXTINF:-1 tvg-name="العصر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",العصر - Shakoor
+https://server6.mp3quran.net/shakoor/103.mp3
+#EXTINF:-1 tvg-name="الهمزة - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الهمزة - Shakoor
+https://server6.mp3quran.net/shakoor/104.mp3
+#EXTINF:-1 tvg-name="الفيل - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفيل - Shakoor
+https://server6.mp3quran.net/shakoor/105.mp3
+#EXTINF:-1 tvg-name="قريش - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",قريش - Shakoor
+https://server6.mp3quran.net/shakoor/106.mp3
+#EXTINF:-1 tvg-name="الماعون - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الماعون - Shakoor
+https://server6.mp3quran.net/shakoor/107.mp3
+#EXTINF:-1 tvg-name="الكوثر - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكوثر - Shakoor
+https://server6.mp3quran.net/shakoor/108.mp3
+#EXTINF:-1 tvg-name="الكافرون - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الكافرون - Shakoor
+https://server6.mp3quran.net/shakoor/109.mp3
+#EXTINF:-1 tvg-name="المسد - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",المسد - Shakoor
+https://server6.mp3quran.net/shakoor/111.mp3
+#EXTINF:-1 tvg-name="الٳخلاص - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الٳخلاص - Shakoor
+https://server6.mp3quran.net/shakoor/112.mp3
+#EXTINF:-1 tvg-name="الفلق - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الفلق - Shakoor
+https://server6.mp3quran.net/shakoor/113.mp3
+#EXTINF:-1 tvg-name="الناس - Shakoor"tvg-id=""tvg-logo="https://i.postimg.cc/y8VywzqY/Ramaddan-Shukr-200.jpg"tvg-chno=""group-title="Quran":http-referrer="",الناس - Shakoor
+https://server6.mp3quran.net/shakoor/114.mp3
