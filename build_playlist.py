@@ -26,6 +26,7 @@ import json
 import logging
 import argparse
 from datetime import datetime
+from urllib.parse import urlsplit
 
 # ==========================================
 # Defaults (all overridable via CLI flags)
@@ -58,6 +59,21 @@ QUALITY_TAG_RE = re.compile(
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)-7s | %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger("m3u_cleaner")
+
+
+def same_stream_key(url):
+    """The part of a stream URL that says which stream it is: host (any case,
+    default port dropped), path without a trailing slash, and the query."""
+    try:
+        u = urlsplit(url.strip())
+        host = (u.hostname or "").lower()
+        port = u.port
+    except ValueError:
+        return url.strip()
+    if port in (80, 443):
+        port = None
+    path = u.path.rstrip("/") or "/"
+    return host + (":" + str(port) if port else "") + path + ("?" + u.query if u.query else "")
 
 
 def load_blocklist(filepath: str) -> list[str]:
@@ -272,10 +288,14 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             skipped_blocked += 1
             continue
 
-        if clean_url in seen_urls:
+        # one entry per stream: the same server and path count as the same
+        # link even when written with http/https, :80/:443 or a trailing slash.
+        # A channel name may repeat freely, as long as the servers differ.
+        url_key = same_stream_key(clean_url)
+        if url_key in seen_urls:
             skipped_duplicates += 1
             continue
-        seen_urls.add(clean_url)
+        seen_urls.add(url_key)
 
         vtype = vod_type(extinf_line)
         if vtype:
