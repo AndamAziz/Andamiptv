@@ -1,0 +1,47 @@
+name: Auto-heal playlist after upload
+
+# When playlist.m3u is changed by a person (GitHub "Add files via upload", web editor, or a
+# panel export), restore movies/series/live-channel attributes and re-run the build.
+on:
+  push:
+    branches: [main]
+    paths: [playlist.m3u]
+
+concurrency:
+  group: playlist-write
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  heal:
+    if: github.actor != 'github-actions[bot]' && github.actor != 'Andam Bot'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Repair, build, refresh snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
+          python build_playlist.py --overwrite
+          python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+          git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Auto-heal playlist after upload (restore movies/series/live attributes) [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
+            git reset --hard origin/main
+            python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
+            python build_playlist.py --overwrite
+            git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
+            git commit -m "Auto-heal playlist after upload [skip ci]" || exit 0
+          done
+          exit 1
