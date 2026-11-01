@@ -1,5 +1,5 @@
 0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Return of the King {tmdb-122}
-000 BC {tmdb-7840}"tvg-id=""tvg-logo="https://image.tmdb.org/t/p/w780/9I7gV6wRbGnbfI3XOKjHeLMjYEo.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="https://rashaba.com/",10,000 BC {tmdb-7840}
+0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Legend 2015 _ لی جند {tmdb-276907}
 1,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Fellowship of the Ring {tmdb-120}
 100pour100docs
 123 Go
@@ -7,6 +7,7 @@
 123 Go! English
 123 Go! Spanish
 14,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Two Towers {tmdb-121}
+4,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",K.F.G Capter 1 {tmdb-564147}
 4UV
 5 Minute Craft
 5-Minute Craft
@@ -36,7 +37,6 @@ Acelerados
 Acorn TV Mysteries
 Adrenaline Movies
 Adrenaline+
-Afarin Radio
 Afra Film
 AfroLand African
 AfroLand Faith
@@ -171,7 +171,6 @@ Curiosity Animales
 Curiosity Explora
 Curiosity Motores
 Cutlers Court
-Cà Mau TV
 DEFA TV
 Dance Moms
 DanceTV Algorhythm
@@ -197,9 +196,7 @@ Drive TV La Chaine Auto Geo
 Drool
 Dude Perfect
 DunyaTV
-ESRA
 ESRA 2
-ESRA TV
 ESRA TV 2
 EURO KURD TV
 Easy Listening
@@ -358,8 +355,6 @@ JAJAJA
 Jack Hanna
 Jewelry TV 2
 Jodha Akbar
-KELGA TV
-KHAK
 KHAK FM
 KHAK TV
 KIDCO TV
@@ -476,7 +471,6 @@ PESHANG TV
 PESHMARGA TV
 PICK Monkey Rescue
 PMC Royale
-Parwardayi Hawler
 Pelimex
 Pequeños Gigantes
 Perform
@@ -525,7 +519,6 @@ Royalworld Germany
 Rudaw Radio
 Rugby Pass TV
 SHNA TV
-SOZ QURAN TV
 SOZ TV
 SPI
 SPI QURAN TV
@@ -694,7 +687,6 @@ Xtreme Outdoor Presented by HISTORY
 Xumo Películas Gratis
 ZAYTOUN SPORT TV
 ZAZ
-Zagros 24
 Zainabia Channel
 Zarin TV
 Zarok Kids
@@ -712,7 +704,5 @@ douyu9
 icnet 3
 leffetpapillon
 myTV San Antonio TX
-the Cop, the Devil {tmdb-581528}"tvg-id=""tvg-logo="https://image.tmdb.org/t/p/w780/oHlM4abRm6BzrRcz9Nup1uidw9H.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="https://rashaba.com/",The Gangster, the Cop, the Devil {tmdb-581528}
 Ça Chauffe en Cuisine
 Éxitos del Momento
-Đà Nẵng TV2
