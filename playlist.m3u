@@ -21027,3 +21027,5 @@ https://super-reseller.lovable.app/api/public/v/v-aaccd68c7aef.mp4
 https://super-reseller.lovable.app/api/public/v/v-f502b3413028.mp4
 #EXTINF:-1 tvg-name="DAZN 3"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 3
 http://23.237.104.106:8080/DAZN_3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="DAZN 4"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 4
+http://23.237.104.106:8080/DAZN_4/tracks-v1a1/mono.m3u8
