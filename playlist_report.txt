@@ -1,10 +1,10 @@
-M3U Cleaner report - 2026-10-31 23:05:36
+M3U Cleaner report - 2026-11-02 04:26:13
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10402
+Total channels kept:  10505
 Blocked (blocklist):  0
-Duplicates removed:   4
+Duplicates removed:   0
 Malformed/skipped:    0
 
   Kurdish Channels: 193
@@ -60,6 +60,8 @@ Malformed/skipped:    0
   Nordic Countries: 18
   Free Streaming (FAST): 204
   Uncategorized: 9
-  KURDISH-دۆبلاژ: 99
+  KURDISH-دۆبلاژ: 195
   KURDISH-ژێرنوس: 1
   FARSI: 6
+  English: 6
+  Spanish: 1
