@@ -50,11 +50,13 @@
       "^al sunnah$"
     ],
     "Kurdish Channels": [
-      "^ava (tv|media)( hd)?$",
+      "u:akamaized\\.net/live/DB/AVA_TV/",
+      "u:/123/123/2894\\.ts$",
       "^kurdmax sorani tv$",
       "^rudaw( tv)?$",
       "^kurdsat( tv)?$",
       "^kurdsat news$",
+      "^ava (tv|media)( hd)?$",
       "^(chanel|channel) ?8( kurdish| ku)?$",
       "^(kurdistan 24|k ?24)( tv)?$",
       "^nrt$",
