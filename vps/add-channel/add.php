@@ -141,18 +141,16 @@ if ($mode === 'playlist') {
     }
 
     if ($type !== 'live') {
-        // The same TMDB id must always use the same name: a movie can exist only once, and every
+        // For series the same TMDB id must always use the same name: every
         // episode of a series must share the exact same series name (the app groups episodes by it).
         foreach ($existingEntries as $e) {
             if (strpos($e['extinf'], 'tvg-type="' . $type . '"') === false) continue;
             $existingName = trim(substr($e['extinf'], (int)strrpos($e['extinf'], ',') + 1));
             $existingBase = trim(preg_replace('/\s*-\s*S\d+E\d+\s*$/i', '', $existingName));
             if (!preg_match('/\{tmdb-' . $tmdbId . '\}/', $existingBase)) continue;
-            if ($type === 'movie') {
-                flock($fp, LOCK_UN); fclose($fp);
-                echo "ئەم فیلمە (TMDB $tmdbId) پێشتر لە playlist-ەکەدا هەیە: \"$existingBase\". هیچ شتێک زیاد نەکرا.";
-                exit;
-            }
+            // A movie may be added again with another server link (e.g. another language): only the
+            // stream URL must be new (checked above), so a repeated TMDB id / name is fine.
+            if ($type === 'movie') break;
             if (strcasecmp($existingBase, $name) !== 0) {
                 flock($fp, LOCK_UN); fclose($fp);
                 http_response_code(400);
@@ -178,17 +176,8 @@ if ($mode === 'playlist') {
         $group = 'Movies TV';
     }
 
-    if ($type !== 'live') {
-        // Same movie name / same episode already in the playlist?
-        foreach ($existingEntries as $e) {
-            $existingName = trim(substr($e['extinf'], (int)strrpos($e['extinf'], ',') + 1));
-            if (strcasecmp($existingName, $name) === 0) {
-                flock($fp, LOCK_UN); fclose($fp);
-                echo "\"$name\" پێشتر لە playlist-ەکەدا هەیە، هیچ شتێک زیاد نەکرا.";
-                exit;
-            }
-        }
-    }
+    // No name check: the same movie / episode / channel name may be added again as long as its
+    // stream URL is different (already refused above when the URL exists).
 
     // Same attribute layout as the rest of playlist.m3u (no spaces between attributes).
     $extinf = '#EXTINF:-1 tvg-name="' . $name . '"tvg-id=""tvg-logo="' . $logo . '"tvg-chno=""'
