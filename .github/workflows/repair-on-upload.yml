@@ -33,6 +33,8 @@ jobs:
           # web-form addition is left exactly as the user made it.
           python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
           if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
+          # Brand-new live channels (e.g. from the web form) get a group; nothing else is touched.
+          python categorize_new.py playlist.m3u library/playlist.snapshot.m3u
           python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
           git checkout -- playlist.m3u.bak playlist.m3u.prelogo.bak 2>/dev/null || true
           git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
@@ -44,6 +46,7 @@ jobs:
             git reset --hard origin/main
             python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
             if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
+            python categorize_new.py playlist.m3u library/playlist.snapshot.m3u
             git checkout -- playlist.m3u.bak playlist.m3u.prelogo.bak 2>/dev/null || true
             git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
             git commit -m "Auto-heal playlist after upload [skip ci]" || exit 0
