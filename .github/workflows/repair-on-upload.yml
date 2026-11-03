@@ -29,8 +29,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Only touch the file when the upload is damaged (panel export). A healthy upload or a
+          # web-form addition is left exactly as the user made it.
           python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
-          python build_playlist.py --overwrite
+          if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
           python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
           git checkout -- playlist.m3u.bak playlist.m3u.prelogo.bak 2>/dev/null || true
           git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
@@ -41,7 +43,7 @@ jobs:
             git rebase --abort 2>/dev/null || true
             git reset --hard origin/main
             python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
-            python build_playlist.py --overwrite
+            if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
             git checkout -- playlist.m3u.bak playlist.m3u.prelogo.bak 2>/dev/null || true
             git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
             git commit -m "Auto-heal playlist after upload [skip ci]" || exit 0
