@@ -331,7 +331,9 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
     sub_rules = {g: [re.compile(r, re.IGNORECASE) for r in rules] for g, rules in layout.get("sort", {}).items()}
     # layout["pin"]: {"GROUP": [regex, ...]} -> channels whose name matches go to the top of the group (rule order = rank),
     # everything else keeps its current order (stable sort, no alphabetical re-sorting).
-    pin_rules = {g: [re.compile(r, re.IGNORECASE) for r in rules] for g, rules in layout.get("pin", {}).items()}
+    # A rule starting with "u:" is matched against the stream URL instead of the name.
+    pin_rules = {g: [(r.startswith("u:"), re.compile(r[2:] if r.startswith("u:") else r, re.IGNORECASE)) for r in rules]
+                 for g, rules in layout.get("pin", {}).items()}
 
     # Live channels first (categories.json order, Uncategorized last), then movies, then series.
     vod_first_seen: dict[str, int] = {}
@@ -354,7 +356,7 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         if pins:
             nm = ch["extinf"].split(",", 1)[-1].strip()
             # rank = index of the first matching rule (rules are in order of importance); the rest go after
-            pinned = next((i for i, r in enumerate(pins) if r.search(nm)), len(pins))
+            pinned = next((i for i, (by_url, r) in enumerate(pins) if r.search(ch["url"] if by_url else nm)), len(pins))
             return (priority.get(ch["category"], live_end), pinned, name_part)
         return (priority.get(ch["category"], live_end), 0, name_part)
 
