@@ -20594,10 +20594,10 @@ http://wms.shared.streamshow.it:1935/supertv/supertv/live.m3u8
 https://ladyboy.ardastream2.cfd//bein2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="The Lord of the Rings The Fellowship of the Ring {tmdb-120}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Fellowship of the Ring {tmdb-120}
 https://andam.uk/vod/video_d336d4/index.m3u8
-#EXTINF:-1 tvg-name="The Lord of the Rings The Return of the King {tmdb-122}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Return of the King {tmdb-122}
-https://andam.uk/vod/video_e7c18c/index.m3u8
 #EXTINF:-1 tvg-name="The Lord of the Rings The Two Towers {tmdb-121}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Two Towers {tmdb-121}
 https://andam.uk/vod/video_8fef8e/index.m3u8
+#EXTINF:-1 tvg-name="The Lord of the Rings The Return of the King {tmdb-122}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Return of the King {tmdb-122}
+https://andam.uk/vod/video_e7c18c/index.m3u8
 #EXTINF:-1 tvg-name="K.F.G Capter 1 {tmdb-564147}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BM2M0YmIxNzItOWI4My00MmQzLWE0NGYtZTM3NjllNjIwZjc5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",K.F.G Capter 1 {tmdb-564147}
 https://andam.uk/vod/video_baeb2a/index.m3u8
 #EXTINF:-1 tvg-name="Pathaan {tmdb-864692}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BNTU2MzZkNDMtYTM3Yy00ZjEyLTljZDUtNWZhYTNjYWRlODc5XkEyXkFqcGc@._V1_FMjpg_UX300_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",Pathaan {tmdb-864692}
@@ -21011,3 +21011,21 @@ https://super-reseller.lovable.app/api/public/v/v-5bb8a88871d5.mp4
 https://super-reseller.lovable.app/api/public/v/v-1ef731995ab1.mp4
 #EXTINF:-1 tvg-name="Collision Course {tmdb-1571955}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg"tvg-chno=""tvg-type="movie"group-title="Spanish":http-referrer="",Collision Course {tmdb-1571955}
 https://super-reseller.lovable.app/api/public/v/v-0bfb9f91d8d3.mp4
+#EXTINF:-1 tvg-name="The Lord of the Rings The Fellowship of the Ring {tmdb-120}" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_face/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" group-title="English" tvg-type="movie",The Lord of the Rings The Fellowship of the Ring {tmdb-120}
+https://super-reseller.lovable.app/api/public/v/v-fe4433d8ca83.mp4
+#EXTINF:-1 tvg-name="The Lord of the Rings The Two Towers {tmdb-121}" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg" group-title="English" tvg-type="movie",The Lord of the Rings The Two Towers {tmdb-121}
+https://super-reseller.lovable.app/api/public/v/v-45a799a2d186.mp4
+#EXTINF:-1 tvg-name="The Lord of the Rings The Return of the King {tmdb-122}" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg" group-title="English" tvg-type="movie",The Lord of the Rings The Return of the King {tmdb-122}
+https://super-reseller.lovable.app/api/public/v/v-6dd4ad01ec24.mp4
+#EXTINF:-1 tvg-name="The Hobbit: An Unexpected Journey {tmdb-49051}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg"tvg-chno=""tvg-type="movie"group-title="English":http-referrer="",The Hobbit: An Unexpected Journey {tmdb-49051}
+https://super-reseller.lovable.app/api/public/v/v-ae05efe0c697.mp4
+#EXTINF:-1 tvg-name="The Hobbit: The Desolation of Smaug {tmdb-57158}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg"tvg-chno=""tvg-type="movie"group-title="English":http-referrer="",The Hobbit: The Desolation of Smaug {tmdb-57158}
+https://super-reseller.lovable.app/api/public/v/v-1e6be2ef1dc6.mp4
+#EXTINF:-1 tvg-name="The Hobbit: The Battle of the Five Armies {tmdb-122917}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xT98tLqatZPQApyRmlPL12LtiWp.jpg"tvg-chno=""tvg-type="movie"group-title="English":http-referrer="",The Hobbit: The Battle of the Five Armies {tmdb-122917}
+https://super-reseller.lovable.app/api/public/v/v-aaccd68c7aef.mp4
+#EXTINF:-1 tvg-name="Resident Evil {tmdb-1423191}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg"tvg-chno=""tvg-type="movie"group-title="English":http-referrer="",Resident Evil {tmdb-1423191}
+https://super-reseller.lovable.app/api/public/v/v-f502b3413028.mp4
+#EXTINF:-1 tvg-name="DAZN 3"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 3
+http://23.237.104.106:8080/DAZN_3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="DAZN 4"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 4
+http://23.237.104.106:8080/DAZN_4/tracks-v1a1/mono.m3u8
