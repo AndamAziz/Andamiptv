@@ -51,7 +51,7 @@
     ],
     "Kurdish Channels": [
       "u:akamaized\\.net/live/DB/AVA_TV/",
-      "u:/123/123/2894\\.ts$",
+      "u:KURDSAT_HD/HLS/",
       "^kurdmax sorani tv$",
       "^rudaw( tv)?$",
       "^kurdsat( tv)?$",
