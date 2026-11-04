@@ -430,7 +430,7 @@ https://castx.online/live/beinsports7/stream_3.m3u8
 https://castx.online/live/beinsports7/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_5.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-26-fb398a5e-3f83-4d5c-a381-c1dd4268b62f.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
