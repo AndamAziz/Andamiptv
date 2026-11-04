@@ -1351,15 +1351,7 @@ https://castx.online/live/beinsports1/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
 https://castx.online/live/beinsports1/stream_5.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://bplive.akbarnews.store/live1/index.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://bplive.akbarnews.store/live1/720p.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 3)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://2cdn.syria-player.info/hls1/bein2.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 4)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://castx.online/live/beinsports2/stream_4.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://castx.online/live/beinsports2/stream_5.m3u8
+http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
@@ -1368,6 +1360,16 @@ https://castx.online/live/beinsports3/stream_2.m3u8
 https://castx.online/live/beinsports3/stream_3.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 4)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
 https://castx.online/live/beinsports3/stream_4.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
+https://bplive.akbarnews.store/live1/index.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 6)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
+https://bplive.akbarnews.store/live1/720p.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 7)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
+https://2cdn.syria-player.info/hls1/bein2.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 8)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
+https://castx.online/live/beinsports2/stream_4.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 9)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
+https://castx.online/live/beinsports2/stream_5.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 5)" tvg-logo="https://wenevan-image-links.lovable.app/i/gQEQXB6T.png" group-title="BEIN SPORTS AR",BEIN SPORTS 4
 https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
