@@ -375,7 +375,7 @@ https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 #EXTINF:-1 tvg-name="KURD7 TV" tvg-id="" tvg-logo="https://i.imgur.com/xPwzad9.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",KURD7 TV
 http://avrstream.com:1935/live/Kurd7HD/playlist.m3u8
 #EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
-https://andam.uk/ytlive/avasport/index.m3u8
+https://streams.rooter.gg/hls/4676b1c60190303b0fba515f5157ccb1/high.m3u8
 #EXTINF:-1 tvg-name="Daily Quran"tvg-id=""tvg-logo="https://i.ytimg.com/vi/pV5GVlGHYKI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDweV-isRuw8Fj_5LRru9K57WaEzw"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Daily Quran
 https://andam.uk/ytlive/makkahlive/index.m3u8
 #EXTINF:-1 tvg-name="SPI QURAN"tvg-id=""tvg-logo="https://i.postimg.cc/kgRGb3FM/SPI-Quran-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",SPI QURAN
@@ -403,11 +403,11 @@ https://live-aburayhan1112.telewebion.net/ek/faratar/live/2160p/index.m3u8
 #EXTINF:-1 tvg-name="bein sports türkiye"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-2a110304-74ab-4e7e-a458-5e29723b508c.jpg"tvg-chno=""group-title="Sports":http-referrer="",bein sports türkiye
 https://andam.uk/ytlive/beinsport/index.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 1
-http://coco3-cdn.cfd:8085/alwan-1/index.m3u8
+https://streams.rooter.gg/hls/4b48e96ac062b94164ab9ac392e86b3d/high.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 2
-https://andam.uk/ytlive/alwansport/index.m3u8
+https://streams.rooter.gg/hls/94dfcefe08e14fdcdbfb0cead173ca37/hd720.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 3
-http://coco3-cdn.cfd:8085/alwan-3/index.m3u8
+https://streams.rooter.gg/hls/437cf97c81671384bfb54d35708d00ca/hd720.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 4
 http://coco3-cdn.cfd:8085/alwan-4/index.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 5
@@ -1351,11 +1351,11 @@ https://castx.online/live/beinsports1/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
 https://castx.online/live/beinsports1/stream_5.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://castx.online/live/beinsports2/stream_1.m3u8
+https://bplive.akbarnews.store/live1/index.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://castx.online/live/beinsports2/stream_2.m3u8
+https://bplive.akbarnews.store/live1/720p.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 3)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-https://castx.online/live/beinsports2/stream_3.m3u8
+https://2cdn.syria-player.info/hls1/bein2.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 4)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
 https://castx.online/live/beinsports2/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
@@ -1368,8 +1368,8 @@ https://castx.online/live/beinsports3/stream_2.m3u8
 https://castx.online/live/beinsports3/stream_3.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 4)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
 https://castx.online/live/beinsports3/stream_4.m3u8
-#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://castx.online/live/beinsports3/stream_5.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 5)" tvg-logo="https://wenevan-image-links.lovable.app/i/gQEQXB6T.png" group-title="BEIN SPORTS AR",BEIN SPORTS 4
+https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_1.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
