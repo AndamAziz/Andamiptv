@@ -5,7 +5,7 @@ The panel export drops tvg-id / tvg-chno / tvg-type and rewrites group-titles, w
 movies, series and live channels. This script restores them from library/playlist.snapshot.m3u
 (the last healthy playlist), matching entries by stream URL:
 
-  * entry already has tvg-chno= or tvg-type=  -> healthy, left untouched
+  * entry already has tvg-chno=, tvg-type= or tvg-id=  -> healthy, left untouched
   * damaged VOD entry (URL is movie/series in snapshot) -> snapshot line restored completely
   * damaged live entry -> snapshot line restored, but the name and logo from the upload are kept
   * URL unknown to the snapshot -> left as is (treated as a live channel by build_playlist.py)
@@ -41,7 +41,8 @@ def is_vod(extinf):
     return 'tvg-type="movie"' in extinf or 'tvg-type="series"' in extinf
 
 def healthy(extinf):
-    return 'tvg-chno=' in extinf or 'tvg-type=' in extinf
+    # The panel export has none of these three; hand-made entries (BEIN SPORTS AR etc.) have tvg-id.
+    return 'tvg-chno=' in extinf or 'tvg-type=' in extinf or 'tvg-id=' in extinf
 
 def swap(extinf, key, value):
     return re.sub(key + r'="[^"]*"', lambda m: '%s="%s"' % (key, value), extinf, count=1)
