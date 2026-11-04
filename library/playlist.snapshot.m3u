@@ -42,6 +42,8 @@ https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
 https://streams.rooter.gg/hls/4676b1c60190303b0fba515f5157ccb1/high.m3u8
 #EXTINF:-1 tvg-name="IRIB3 SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/3b91a06fffbd53f0.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",IRIB3 SPORT
 https://cp11.adabmedia.com/hls2/tv3test.m3u8
+#EXTINF:-1 tvg-name="VARZESH SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5ca56f576cf4a46c.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",VARZESH SPORT
+https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
 #EXTINF:-1 tvg-name="Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gali Kurdistan
 https://live.host247.net/gk/gksat/playlist.m3u8
 #EXTINF:-1 tvg-name="Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gali Kurdistan
