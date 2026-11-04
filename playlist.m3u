@@ -1370,7 +1370,7 @@ https://2cdn.syria-player.info/hls1/bein2.m3u8
 https://castx.online/live/beinsports2/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 3 (Server 9)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
 https://castx.online/live/beinsports2/stream_5.m3u8
-#EXTINF:-1 tvg-id="kooracity" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="BEIN SPORTS AR",Koora City
+#EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="BEIN SPORTS AR",Koora City
 https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_1.m3u8
