@@ -34,6 +34,10 @@ https://hlspackager.akamaized.net/live/DB/K24/HLS/K24-avc1_2500000=10002.m3u8
 http://api.353505.xyz:80/live/123/123/2908.ts
 #EXTINF:-1 tvg-name="NRT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-1bd8d9e6-6d4e-4406-9926-af6911b27521.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT
 http://api.353505.xyz:80/live/123/123/2897.ts
+#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
+https://andam.uk/ytlive/nrtsport/index.m3u8
+#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
+https://streams.rooter.gg/hls/4676b1c60190303b0fba515f5157ccb1/high.m3u8
 #EXTINF:-1 tvg-name="Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gali Kurdistan
 https://live.host247.net/gk/gksat/playlist.m3u8
 #EXTINF:-1 tvg-name="Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gali Kurdistan
@@ -70,8 +74,6 @@ https://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarme
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
 #EXTINF:-1 tvg-name="PAYAM TV" tvg-id="" tvg-logo="https://cdn.phototourl.com/member/2026-10-04-ada98575-1ae2-4119-9688-4a20de0a5737.jpg" tvg-chno="" group-title="Kurdish Channels" http-referrer="",PAYAM TV
 https://media2.streambrothers.com:1936/8218/8218/playlist.m3u8
-#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
-https://andam.uk/ytlive/nrtsport/index.m3u8
 #EXTINF:-1 tvg-name="ONE PLUS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-6c171d06-ad32-47ad-84f2-31d3c4b55e0b.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE PLUS
 https://183.bozztv.com/giatv/giatv-oneplus/oneplus/chunks.m3u8
 #EXTINF:-1 tvg-name="ONE KIDS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-d8e474b8-796d-4272-a3fd-afbbdcefa2ff.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE KIDS
@@ -374,8 +376,6 @@ http://imkhd.ddns.net:1935/live/imkhd/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-Shawkat/peshmerge/playlist.m3u8
 #EXTINF:-1 tvg-name="KURD7 TV" tvg-id="" tvg-logo="https://i.imgur.com/xPwzad9.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",KURD7 TV
 http://avrstream.com:1935/live/Kurd7HD/playlist.m3u8
-#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
-https://streams.rooter.gg/hls/4676b1c60190303b0fba515f5157ccb1/high.m3u8
 #EXTINF:-1 tvg-name="Daily Quran"tvg-id=""tvg-logo="https://i.ytimg.com/vi/pV5GVlGHYKI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDweV-isRuw8Fj_5LRru9K57WaEzw"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Daily Quran
 https://andam.uk/ytlive/makkahlive/index.m3u8
 #EXTINF:-1 tvg-name="SPI QURAN"tvg-id=""tvg-logo="https://i.postimg.cc/kgRGb3FM/SPI-Quran-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",SPI QURAN
