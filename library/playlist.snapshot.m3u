@@ -1346,8 +1346,6 @@ https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-name="TyC Sports USA"tvg-id="TyCSportsUSA.ar@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png"tvg-chno=""group-title="Sports":http-referrer="",TyC Sports USA
 http://45.170.130.224:8000/play/a020/index.m3u8
-#EXTINF:-1 tvg-name="Unite8 Sports 2"tvg-id="Unite8Sports2.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDFLIX/images/LOGO_HD/LOGO_HD_BvXTgRk6Y_UNITE8-SPORTS-2_264X144.webp"tvg-chno=""group-title="Sports":http-referrer="",Unite8 Sports 2
-http://59.103.38.46:8000/play/a126/index.m3u8
 #EXTINF:-1 tvg-name="V Sport Golf"tvg-id="VSportGolf.se@SD"tvg-logo="https://i.imgur.com/wCw8Pmz.png"tvg-chno=""group-title="Sports":http-referrer="",V Sport Golf
 http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12077/index.m3u8
 #EXTINF:-1 tvg-name="Vinh Long TV 4"tvg-id="VinhLongTV4.vn@SD"tvg-logo="https://i.imgur.com/ARhIkvR.png"tvg-chno=""group-title="Sports":http-referrer="",Vinh Long TV 4
@@ -1786,8 +1784,6 @@ http://stream.mcquack.net/162/index.m3u8
 http://185.227.34.179:8080/axn-black/index.m3u8
 #EXTINF:-1 tvg-name="AXN Latin America"tvg-id="AXNLatinAmerica.us@CentralAmerica"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"tvg-chno=""group-title="Movies TV":http-referrer="",AXN Latin America
 http://138.121.15.230:9002/AXN/index.m3u8
-#EXTINF:-1 tvg-name="AXN Latin America South"tvg-id="AXNLatinAmerica.us@South"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"tvg-chno=""group-title="Movies TV":http-referrer="",AXN Latin America South
-http://45.228.235.116:8000/play/a0iy/index.m3u8
 #EXTINF:-1 tvg-name="Blokbaster"tvg-id="Blokbaster.ru@HD"tvg-logo="https://i.imgur.com/KcOi4Os.png"tvg-chno=""group-title="Movies TV":http-referrer="",Blokbaster
 http://stream.mcquack.net/364/index.m3u8
 #EXTINF:-1 tvg-name="Bollywood Russia"tvg-id="BollywoodHD.ro@Russia"tvg-logo="https://i.imgur.com/scDKOLS.png"tvg-chno=""group-title="Movies TV":http-referrer="",Bollywood Russia
@@ -2372,8 +2368,6 @@ http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 #EXTINF:-1 tvg-name="Classic Movies Channel"tvg-id="ClassicMoviesChannel.us@SD"tvg-logo="https://i.imgur.com/pQJxov2.png"tvg-chno=""group-title="Movies TV":http-referrer="",Classic Movies Channel
 https://jmp2.uk/plu-561c5b0dada51f8004c4d855.m3u8
-#EXTINF:-1 tvg-name="Colors Cineplex Bollywood"tvg-id="ColorsCineplexBollywood.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_BOLLYWOOD/images/LOGO_HD/image.png"tvg-chno=""group-title="Movies TV":http-referrer="",Colors Cineplex Bollywood
-http://202.70.146.135:8000/play/a058/index.m3u8
 #EXTINF:-1 tvg-name="Cosmos Tv"tvg-id="CosmosTv.ar@HD"tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png"tvg-chno=""group-title="Movies TV":http-referrer="",Cosmos Tv
 https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 #EXTINF:-1 tvg-name="Cosmos Tv"tvg-id="CosmosTv.ar@SD"tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png"tvg-chno=""group-title="Movies TV":http-referrer="",Cosmos Tv
@@ -2446,8 +2440,6 @@ https://cnn.hostlagarto.com/megacinetv/playlist.m3u8
 http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
 #EXTINF:-1 tvg-name="Mix Hollywood"tvg-id="MixHollywood.eg@SD"tvg-logo="https://i.imgur.com/1ENdbZn.png"tvg-chno=""group-title="Movies TV":http-referrer="",Mix Hollywood
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
-#EXTINF:-1 tvg-name="MNX"tvg-id="MNX.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MNX/images/LOGO_HD/image.png"tvg-chno=""group-title="Movies TV":http-referrer="",MNX
-http://59.103.38.46:8000/play/a052/index.m3u8
 #EXTINF:-1 tvg-name="Movie Star"tvg-id="MovieStar.bg@SD"tvg-logo="https://i.imgur.com/DdZH49P.png"tvg-chno=""group-title="Movies TV":http-referrer="",Movie Star
 https://shift03.isp.bg/MovieStar/index.m3u8
 #EXTINF:-1 tvg-name="MOVIEDOME"tvg-id="Moviedome.us@Germany"tvg-logo="https://i.imgur.com/8c54ycg.png"tvg-chno=""group-title="Movies TV":http-referrer="",MOVIEDOME
@@ -2506,8 +2498,6 @@ http://178.134.1.158:8081/TVXXI/index.m3u8
 https://jmp2.uk/plu-5d40bebc5e3d2750a2239d7e.m3u8
 #EXTINF:-1 tvg-name="TVS Film Noir Network"tvg-id="TVSFilmNoirNetwork.us@SD"tvg-logo="https://i.imgur.com/A4yWhQw.png"tvg-chno=""group-title="Movies TV":http-referrer="",TVS Film Noir Network
 https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8
-#EXTINF:-1 tvg-name="Viasat Kino Balkan"tvg-id="ViasatKino.ua@Balkan"tvg-logo="https://i.imgur.com/io0WAkA.png"tvg-chno=""group-title="Movies TV":http-referrer="",Viasat Kino Balkan
-http://176.61.157.250/TV1000/index.m3u8
 #EXTINF:-1 tvg-name="Viasat Kino Comedy"tvg-id="ViasatKinoComedy.ua@SD"tvg-logo="https://i.imgur.com/qVYt8kP.png"tvg-chno=""group-title="Movies TV":http-referrer="",Viasat Kino Comedy
 http://777905.live.tvstitch.com/playlist.m3u8?source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDQvdHJhY2tzLXYxYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA1OTk4Mzcmc3Q9UzRPS1VZemNocmREQWhnSTJkTDJ5QQ%3D%3D&master=249
 #EXTINF:-1 tvg-name="Viasat Kino Romania"tvg-id="ViasatKino.ua@Romania"tvg-logo="https://i.imgur.com/io0WAkA.png"tvg-chno=""group-title="Movies TV":http-referrer="",Viasat Kino Romania
@@ -5992,8 +5982,6 @@ https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 https://v1.tustreaming.cl/melinkana/index.m3u8
 #EXTINF:-1 tvg-name="La Tele Tuya"tvg-id="LaTeleTuya.ve@SD"tvg-logo="https://i.ibb.co/vvqk2hw/LOGO-HORIZONTAL-text.png"tvg-chno=""group-title="Entertainment":http-referrer="",La Tele Tuya
 http://181.78.8.199:8000/play/a0fs/index.m3u8
-#EXTINF:-1 tvg-name="La Une"tvg-id="LaUne.be@SD"tvg-logo="https://i.imgur.com/jMwZp7z.png"tvg-chno=""group-title="Entertainment":http-referrer="",La Une
-http://193.111.198.85:8589/stream/mstv/rtbflaunelive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-name="Latacunga TV"tvg-id="LatacungaTV.ec@SD"tvg-logo="https://i.imgur.com/YjgYYH3.png"tvg-chno=""group-title="Entertainment":http-referrer="",Latacunga TV
 https://stmv1.voxtvhd.com.br/latacungatv/latacungatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Lemar TV"tvg-id="LemarTV.af@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5b/Lemar_logo_2016.png"tvg-chno=""group-title="Entertainment":http-referrer="",Lemar TV
@@ -8724,8 +8712,6 @@ https://jmp2.uk/plu-65652f7fc0fc88000883537a.m3u8
 http://202.70.146.135:8000/play/a01q/index.m3u8
 #EXTINF:-1 tvg-name="Disney Channel"tvg-id="DisneyChannel.pl@HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"tvg-chno=""group-title="Kids & Family":http-referrer="",Disney Channel
 http://185.227.34.179:8080/disney-channel-hd/index.m3u8
-#EXTINF:-1 tvg-name="Disney International"tvg-id="DisneyInternationalHD.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Disney International
-http://202.70.146.135:8000/play/a04p/index.m3u8
 #EXTINF:-1 tvg-name="Disney Jr."tvg-id="DisneyJr.fr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"tvg-chno=""group-title="Kids & Family":http-referrer="",Disney Jr.
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 #EXTINF:-1 tvg-name="Disney Jr. Latin America"tvg-id="DisneyJrLatinAmerica.ar@Panregional"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"tvg-chno=""group-title="Kids & Family":http-referrer="",Disney Jr. Latin America
@@ -17374,8 +17360,6 @@ http://stream.mcquack.net/341/index.m3u8
 https://nl.livekadeh.com/hls2/vilayet.m3u8
 #EXTINF:-1 tvg-name="Yoshlar"tvg-id="Yoshlar.uz@SD"tvg-logo="https://i.imgur.com/s4xfUSx.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Yoshlar
 https://stream8.cinerama.uz/1002/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-name="Zvezda"tvg-id="Zvezda.ru@SD"tvg-logo="https://i.imgur.com/4PAcpfM.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Zvezda
-http://51.158.144.33:2021/zvezda/index.m3u8
 #EXTINF:-1 tvg-name="АБАЗА-ТВ"tvg-id="AbazaTV.ru@SD"tvg-logo="https://i.imgur.com/7Jo7UAf.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",АБАЗА-ТВ
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
 #EXTINF:-1 tvg-name="Белгород 24"tvg-id="Belgorod24.ru@SD"tvg-logo="https://i.imgur.com/EEirvyx.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Белгород 24
@@ -17554,8 +17538,6 @@ http://stream.mcquack.net/358/index.m3u8
 http://178.134.1.158:8081/t24/index.m3u8
 #EXTINF:-1 tvg-name="Taraqqiyot TV"tvg-id="TaraqqiyotTV.uz@SD"tvg-logo="https://i.imgur.com/V3rtPEl.jpg"tvg-chno=""group-title="Russia & CIS":http-referrer="",Taraqqiyot TV
 https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Zvezda"tvg-id="Zvezda.ru@HD"tvg-logo="https://i.imgur.com/4PAcpfM.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Zvezda
-https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 tvg-name="Zvezda Plus"tvg-id="ZvezdaPlus.ru@HD"tvg-logo="https://i.imgur.com/NNmjD9Z.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Zvezda Plus
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 #EXTINF:-1 tvg-name="Аист ТВ"tvg-id="AISTTV.ru@SD"tvg-logo="https://i.imgur.com/bcw0s4V.png"tvg-chno=""group-title="Russia & CIS":http-referrer="",Аист ТВ
@@ -18088,8 +18070,6 @@ https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
 https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 #EXTINF:-1 tvg-name="T18"tvg-id="T18.fr@HD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png"tvg-chno=""group-title="France & Belgium":http-referrer="",T18
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8
-#EXTINF:-1 tvg-name="Tipik"tvg-id="Tipik.be@SD"tvg-logo="https://i.imgur.com/LKLjnrp.png"tvg-chno=""group-title="France & Belgium":http-referrer="",Tipik
-http://193.111.198.85:8589/stream/mstv/rtbftipiklive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
 #EXTINF:-1 tvg-name="TV5Monde Africa"tvg-id="TV5MondeAfrica.fr@SD"tvg-logo="https://i.imgur.com/0N64Ddn.png"tvg-chno=""group-title="France & Belgium":http-referrer="",TV5Monde Africa
 http://5.9.121.178/tv5monde/index.m3u8
 #EXTINF:-1 tvg-name="TV5Monde Europe"tvg-id="TV5MondeEurope.fr@SD"tvg-logo="https://i.imgur.com/rPAbMSu.png"tvg-chno=""group-title="France & Belgium":http-referrer="",TV5Monde Europe
@@ -19354,8 +19334,6 @@ https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8
 https://1409502578.rsc.cdn77.org/live/stream-1/chunklist.m3u8
 #EXTINF:-1 tvg-name="Nova"tvg-id="Nova.rs@SD"tvg-logo="https://i.imgur.com/sU8UPPY.png"tvg-chno=""group-title="Eastern Europe & Balkans":http-referrer="",Nova
 https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas
-#EXTINF:-1 tvg-name="Nova TV"tvg-id="NovaTV.hr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nova_TV_Croatia_logo.png/960px-Nova_TV_Croatia_logo.png"tvg-chno=""group-title="Eastern Europe & Balkans":http-referrer="",Nova TV
-http://176.61.157.250/NovaTV/index.m3u8
 #EXTINF:-1 tvg-name="NZTV"tvg-id="NZTV.sk@SD"tvg-logo="https://i.imgur.com/jGZlnzT.png"tvg-chno=""group-title="Eastern Europe & Balkans":http-referrer="",NZTV
 https://dash2.antik.sk/live/test_nove_zamky/playlist.m3u8
 #EXTINF:-1 tvg-name="Oroszlányi Városi Televízió"tvg-id="OroszlanyiVarosiTelevizio.hu@SD"tvg-logo="https://i.imgur.com/P0fxUH5.png"tvg-chno=""group-title="Eastern Europe & Balkans":http-referrer="",Oroszlányi Városi Televízió
