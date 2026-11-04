@@ -1043,7 +1043,7 @@ https://amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk-36uja.amagi.tv/p
 #EXTINF:-1 tvg-name="UDAR"tvg-id="UDAR.ru@SD"tvg-logo="https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png"tvg-chno=""group-title="Sports":http-referrer="",UDAR
 http://5.188.159.128:8070/udar/index.m3u8
 #EXTINF:-1 tvg-name="Varzesh TV"tvg-id="VarzeshTV.ir@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png"tvg-chno=""group-title="Sports":http-referrer="",Varzesh TV
-https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
+https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
 #EXTINF:-1 tvg-name="viju+ Sport"tvg-id="vijuPlusSport.ru@SD"tvg-logo="https://i.imgur.com/fXESG0l.png"tvg-chno=""group-title="Sports":http-referrer="",viju+ Sport
 http://stream.mcquack.net/333/index.m3u8
 #EXTINF:-1 tvg-name="Win Sports"tvg-id="WinSports.co@SD"tvg-logo="https://i.imgur.com/DuSSrHV.png"tvg-chno=""group-title="Sports":http-referrer="",Win Sports
