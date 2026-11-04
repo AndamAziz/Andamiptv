@@ -1340,6 +1340,8 @@ https://andam.uk/ytlive/riyadiyatv/index.m3u8
 http://23.237.104.106:8080/DAZN_3/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="DAZN 4"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 4
 http://23.237.104.106:8080/DAZN_4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
+https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
