@@ -18,6 +18,8 @@ https://live20.bozztv.com/giatv/giatv-wallatv88/wallatv88/chunks.m3u8
 https://cdn.karwan.tv/infinity-tv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="NAT GEO WOULD"tvg-id=""tvg-logo="https://i.postimg.cc/y8KfhxVn/page-1.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NAT GEO WOULD
 https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="GARYAN MIDYA"tvg-id=""tvg-logo="https://i.postimg.cc/bYFFCwBp/Picsart-26-02-19-17-19-00-410.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",GARYAN MIDYA
+https://live20.bozztv.com/giatv/giatv-halabja88garyan/halabja88garyan/chunks.m3u8
 #EXTINF:-1 tvg-name="NRT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-1bd8d9e6-6d4e-4406-9926-af6911b27521.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT
 http://api.353505.xyz:80/live/123/123/2897.ts
 #EXTINF:-1 tvg-name="K 24"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-f52cf35b-7fce-41ef-8a34-33a24d1bd326.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",K 24
@@ -8998,8 +9000,6 @@ https://v2.tustreaming.cl/radiovidacurico/index.m3u8
 https://tvdatta.com:3084/live/toptvaguaytialive.m3u8
 #EXTINF:-1 tvg-name="Villa Elisa Radio TV"tvg-id="VillaElisaRadioTV.py@SD"tvg-logo="https://i.imgur.com/ryzCsvy.jpg"tvg-chno=""group-title="Music":http-referrer="",Villa Elisa Radio TV
 https://copacogen.desdeparaguay.net/villaelisatv/villaelisatv/playlist.m3u8?admin=nacion
-#EXTINF:-1 tvg-name="GARYAN MIDYA"tvg-id=""tvg-logo="https://i.postimg.cc/bYFFCwBp/Picsart-26-02-19-17-19-00-410.png"tvg-chno=""group-title="Music":http-referrer="",GARYAN MIDYA
-https://live20.bozztv.com/giatv/giatv-halabja88garyan/halabja88garyan/chunks.m3u8
 #EXTINF:-1 tvg-name="AL QURAN KAREEM"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-80ea6605-ad84-4433-a54c-a2c61f5c3c94.jpg"tvg-chno=""group-title="Religious":http-referrer="",AL QURAN KAREEM
 https://win.holol.com/live/quran/chunklist_w1967448292.m3u8
 #EXTINF:-1 tvg-name="AL SUNNAH"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-8c488311-bed6-4d84-b974-5efef4c21764.jpg"tvg-chno=""group-title="Religious":http-referrer="",AL SUNNAH
