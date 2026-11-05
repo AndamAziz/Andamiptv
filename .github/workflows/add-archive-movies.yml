@@ -4,6 +4,8 @@ name: Add free movies from Internet Archive
 # playlist.m3u. Nothing is stored on your VPS or Lovable: the files stay on archive.org.
 # Default is a REPORT ONLY (dry run): read the table in the run summary, then run again with dry_run=false.
 on:
+  schedule:
+    - cron: "15 4 * * 0"   # every Sunday: REPORT ONLY, never changes playlist.m3u
   workflow_dispatch:
     inputs:
       collection:
@@ -18,6 +20,9 @@ on:
       min_downloads:
         description: 'Skip titles with fewer downloads than this (quality filter)'
         default: '2000'
+      min_height:
+        description: 'Minimum video height (0 = any; most archive.org films are below 720, so 720 finds almost nothing)'
+        default: '0'
       group:
         description: 'Group name in the playlist'
         default: 'Free Classics'
@@ -54,16 +59,38 @@ jobs:
       - name: Search, check links, report (and add)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          COLLECTION: ${{ inputs.collection || 'feature_films' }}
+          QUERY: ${{ inputs.query || '' }}
+          MAX_ITEMS: ${{ inputs.max_items || '30' }}
+          MIN_DOWNLOADS: ${{ inputs.min_downloads || '300' }}
+          MIN_HEIGHT: ${{ inputs.min_height || '0' }}
+          GROUP: ${{ inputs.group || 'Free Classics' }}
+          INCLUDE_PRE1930: ${{ inputs.include_pre1930 || 'false' }}
+          ALLOW_CC_BY: ${{ inputs.allow_cc_by || 'false' }}
+          # only a manual run with dry_run unchecked may change the playlist; the weekly schedule never does
+          APPLY: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == false && 'true' || 'false' }}
         run: |
-          ARGS="--collection '${{ inputs.collection }}' --max-items ${{ inputs.max_items }} --min-downloads ${{ inputs.min_downloads }} --group '${{ inputs.group }}'"
-          if [ -n "${{ inputs.query }}" ]; then ARGS="$ARGS --query '${{ inputs.query }}'"; fi
-          if [ "${{ inputs.include_pre1930 }}" = "true" ]; then ARGS="$ARGS --include-pre1930"; fi
-          if [ "${{ inputs.allow_cc_by }}" = "true" ]; then ARGS="$ARGS --allow-cc-by"; fi
-          if [ "${{ inputs.dry_run }}" != "true" ]; then ARGS="$ARGS --apply"; fi
-          eval python archive_add.py $ARGS
+          bash archive_run.sh
           cat archive-report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the report
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-report
+          path: archive-report.md
+          retention-days: 30
       - name: Commit playlist
-        if: ${{ inputs.dry_run != true }}
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == false }}
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          COLLECTION: ${{ inputs.collection }}
+          QUERY: ${{ inputs.query }}
+          MAX_ITEMS: ${{ inputs.max_items }}
+          MIN_DOWNLOADS: ${{ inputs.min_downloads }}
+          MIN_HEIGHT: ${{ inputs.min_height }}
+          GROUP: ${{ inputs.group }}
+          INCLUDE_PRE1930: ${{ inputs.include_pre1930 }}
+          ALLOW_CC_BY: ${{ inputs.allow_cc_by }}
+          APPLY: 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -76,7 +103,7 @@ jobs:
             git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
             git rebase --abort 2>/dev/null || true
             git reset --hard origin/main
-            python archive_add.py --collection '${{ inputs.collection }}' --max-items ${{ inputs.max_items }} --min-downloads ${{ inputs.min_downloads }} --group '${{ inputs.group }}' --apply
+            bash archive_run.sh
             python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
             git add playlist.m3u library/playlist.snapshot.m3u
             git commit -m "Add free (licensed) movies from the Internet Archive [skip ci]" || exit 0
