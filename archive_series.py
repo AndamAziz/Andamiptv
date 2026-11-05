@@ -83,10 +83,18 @@ def main():
         uniq = uniq[:a.max_per_show]
         if len(uniq) < a.min_episodes:
             continue
-        rep.append("## %s: %d episodes" % (show, len(uniq)))
-        for n, r in enumerate(uniq, 1):
+        rep.append("## %s: %d new episodes" % (show, len(uniq)))
+        # continue the numbering and reuse the show's poster when the show already exists in the playlist
+        have = [(int(m.group(1)), m.group(0)) for m in re.finditer(r'(?m)^#EXTINF[^\n]*,%s - S01E(\d+)$' % re.escape(show), text)]
+        start = max([n for n, _ in have], default=0)
+        old_logo = None
+        for l in lines:
+            if l.startswith("#EXTINF") and l.endswith(",%s - S01E01" % show):
+                mm = re.search(r'tvg-logo="([^"]*)"', l)
+                old_logo = mm.group(1) if mm else None
+        for n, r in enumerate(uniq, start + 1):
             name = "%s - S01E%02d" % (show, n)
-            logo = "https://archive.org/services/img/" + urllib.parse.quote(r["d"]["identifier"])
+            logo = old_logo or "https://archive.org/services/img/" + urllib.parse.quote(r["d"]["identifier"])
             rep.append("- %s = %s (%s, %s min)" % (name, A.clean_title(r["d"]["title"], ""), str(r["d"].get("year") or "?")[:4], r["mins"]))
             block += ['#EXTINF:-1 tvg-name="%s"tvg-id=""tvg-logo="%s"tvg-chno=""tvg-type="series"group-title="%s":http-referrer="",%s' % (name, logo, a.group, name), r["url"]]
     open(a.report, "w", encoding="utf-8").write("\n".join(rep) + "\n")
