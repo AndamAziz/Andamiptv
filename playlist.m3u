@@ -30,6 +30,8 @@ https://andam.uk/ytlive/nrtsport/index.m3u8
 https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner Sport
 https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
+#EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
+https://cdn.karwan.tv/gewher-sport/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="BARIN Movies"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fae214a57ace457f.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",BARIN Movies
 https://cdn.karwan.tv/barin-movies/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="BARIN Action"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/315158fc185d7a63.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",BARIN Action
@@ -70,8 +72,6 @@ http://213.32.255.86:1935/live/Qellat_tv/playlist.m3u8
 https://183.bozztv.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
 #EXTINF:-1 tvg-name="Kalhur TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-0c555ea1-ff18-43f9-b30e-eedceca6734d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kalhur TV
 https://live20.bozztv.com:443/giatv/giatv-kalhurtv/kalhurtv/chunks.m3u8
-#EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
-https://cdn.karwan.tv/gewher-sport/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Biner TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner TV
 https://live20.bozztv.com/giatv/giatv-Shawkat/Biner_HD/chunks.m3u8
 #EXTINF:-1 tvg-name="TRT Kurdi"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-b997307f-b6f1-4e4f-bc95-dc296a23cec8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",TRT Kurdi
