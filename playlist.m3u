@@ -206,7 +206,7 @@ http://api.353505.xyz:80/live/123/123/2961.ts
 http://api.353505.xyz:80/live/123/123/2962.ts
 #EXTINF:-1 tvg-name="RED TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/heZeqPQ.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",RED TV
 http://avrstream.com:1935/live/REDTV/playlist.m3u8
-#EXTINF:-1 tvg-name="SPI"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",SPI
+#EXTINF:-1 tvg-name="SPI"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-spi.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",SPI
 http://api.353505.xyz:80/live/123/123/2970.ts
 #EXTINF:-1 tvg-name="Niroj"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",Niroj
 http://api.353505.xyz:80/live/123/123/2974.ts
@@ -1536,7 +1536,7 @@ http://api.353505.xyz:80/live/123/123/539.ts
 http://api.353505.xyz:80/live/123/123/614.ts
 #EXTINF:-1 tvg-name="Afarin Kids"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/LDFYyge.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Afarin Kids
 http://api.353505.xyz:80/live/123/123/2936.ts
-#EXTINF:-1 tvg-name="Zarok Kids"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kids & Family":http-referrer="",Zarok Kids
+#EXTINF:-1 tvg-name="Zarok Kids"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-zarok.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Zarok Kids
 http://api.353505.xyz:80/live/123/123/2950.ts
 #EXTINF:-1 tvg-name="Kidco"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kids & Family":http-referrer="",Kidco
 http://api.353505.xyz:80/live/123/123/2951.ts
