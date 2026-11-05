@@ -1,0 +1,4 @@
+*.pyc
+__pycache__/
+archive-report.md
+archive-series-report.md

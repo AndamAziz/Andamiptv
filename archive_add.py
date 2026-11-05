@@ -177,6 +177,8 @@ def main():
     ap.add_argument("--max-items", type=int, default=10)
     ap.add_argument("--min-downloads", type=int, default=2000)
     ap.add_argument("--min-minutes", type=float, default=40)
+    ap.add_argument("--min-height", type=int, default=0,
+                    help="skip files whose video height (from archive.org metadata) is below this, e.g. 720; 0 = no filter")
     ap.add_argument("--group", default="Free Classics")
     ap.add_argument("--allow-cc-by", action="store_true")
     ap.add_argument("--include-pre1930", action="store_true")
@@ -195,7 +197,7 @@ def main():
     norm_t = lambda n: re.sub(r"[^a-z0-9]", "", re.sub(r"\{tmdb-\d+\}|\(\d{4}\)", "", n.lower()))
     known_titles = {norm_t(n) for n in known_names}
 
-    skipped = {"license": 0, "known": 0, "downloads": 0, "no mp4": 0, "short": 0, "link": 0}
+    skipped = {"license": 0, "known": 0, "downloads": 0, "no mp4": 0, "short": 0, "quality": 0, "link": 0}
     pre, scanned, page = [], 0, 1
     seen_ids = set()
     while len(pre) < a.max_items * 2 and page <= 40:
@@ -234,6 +236,12 @@ def main():
         mins = runtime_minutes(meta.get("metadata", {}))
         if mins is None or mins < a.min_minutes:
             return None, "short"
+        try:
+            height = int(f.get("height") or 0)
+        except ValueError:
+            height = 0
+        if a.min_height and height < a.min_height:
+            return None, "quality"
         url = "https://archive.org/download/%s/%s" % (urllib.parse.quote(d["identifier"]), urllib.parse.quote(f["name"]))
         ok, st = check_range(url)
         if not ok:
@@ -245,7 +253,7 @@ def main():
         grp = genre_group(tm[2], a.group) if tm else subject_group(d, a.group)
         logo = tm[1] if tm and tm[1] else "https://archive.org/services/img/" + urllib.parse.quote(d["identifier"])
         return dict(id=d["identifier"], name=name, group=grp, logo=logo, url=url, license=lic, year=year,
-                    minutes=round(mins), mb=round(int(f["size"]) / 1e6), downloads=int(d.get("downloads") or 0)), None
+                    minutes=round(mins), height=height, mb=round(int(f["size"]) / 1e6), downloads=int(d.get("downloads") or 0)), None
 
     found, names = [], set(known_names)
     from concurrent.futures import ThreadPoolExecutor
@@ -262,9 +270,9 @@ def main():
 
     rep = ["# Internet Archive candidates (%s)" % ("APPLIED" if a.apply else "report only"), "",
            "Scanned %d items, %d candidates. Skipped: %s" % (scanned, len(found), skipped), "",
-           "| # | Title | Group | Year | Min | MB | License | Downloads | Link |", "|---|---|---|---|---|---|---|---|---|"]
+           "| # | Title | Group | Year | Min | Res | MB | License | Downloads | Link |", "|---|---|---|---|---|---|---|---|---|---|"]
     for i, f in enumerate(found, 1):
-        rep.append("| %d | %s | %s | %s | %s | %s | %s | %s | %s |" % (i, f["name"], f["group"], f["year"], f["minutes"], f["mb"], f["license"], f["downloads"], f["url"]))
+        rep.append("| %d | %s | %s | %s | %s | %s | %s | %s | %s | %s |" % (i, f["name"], f["group"], f["year"], f["minutes"], ("%dp" % f["height"]) if f["height"] else "?", f["mb"], f["license"], f["downloads"], f["url"]))
     open(a.report, "w", encoding="utf-8").write("\n".join(rep) + "\n")
     print("\n".join(rep))
 

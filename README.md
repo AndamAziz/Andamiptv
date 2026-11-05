@@ -62,3 +62,7 @@ Run it again any time: titles already in the playlist are skipped.
 ### Classic cartoon series (public domain)
 `python3 archive_series.py` (add `--apply` to write) builds series from archive.org cartoons (Betty Boop, Popeye, Superman 1941, Felix the Cat ...):
 episodes are named `Show - S01E01`, group "Classic Cartoons", every link verified (HTTP 206). Shows with fewer than 3 verified episodes are skipped.
+
+### Weekly discovery report, quality filter
+- The workflow also runs **every Sunday as a REPORT ONLY** (it never changes `playlist.m3u`): open the run → *Summary* / artifact `archive-report` to see new licensed candidates, then run it manually with `dry_run` unchecked to add them.
+- `min_height` (0 / 480 / 720 ...) filters by the video height reported by archive.org. Note: almost all archive.org public-domain films are below 720p (in a 80-film sample none reached 720p), so a 720p filter finds nothing; the report shows the resolution (`Res`) so you can judge.
