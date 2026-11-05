@@ -21,8 +21,11 @@ on:
         description: 'Skip titles with fewer downloads than this (quality filter)'
         default: '2000'
       min_height:
-        description: 'Minimum video height (0 = any; most archive.org films are below 720, so 720 finds almost nothing)'
-        default: '0'
+        description: 'Minimum VERIFIED resolution: 1080 = Full HD and 4K only (default). 0 turns the filter off. Unknown resolution is always excluded.'
+        default: '1080'
+      min_minutes:
+        description: 'Minimum movie length in minutes (40 = feature films; lower it to see shorts)'
+        default: '40'
       group:
         description: 'Group name in the playlist'
         default: 'Free Classics'
@@ -41,6 +44,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: playlist-write
@@ -56,6 +60,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
+      - name: Unit tests (resolution filter)
+        run: python -m unittest discover -s tests -v
       - name: Search, check links, report (and add)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
@@ -63,7 +69,8 @@ jobs:
           QUERY: ${{ inputs.query || '' }}
           MAX_ITEMS: ${{ inputs.max_items || '30' }}
           MIN_DOWNLOADS: ${{ inputs.min_downloads || '300' }}
-          MIN_HEIGHT: ${{ inputs.min_height || '0' }}
+          MIN_HEIGHT: ${{ inputs.min_height || '1080' }}
+          MIN_MINUTES: ${{ inputs.min_minutes || '40' }}
           GROUP: ${{ inputs.group || 'Free Classics' }}
           INCLUDE_PRE1930: ${{ inputs.include_pre1930 || 'false' }}
           ALLOW_CC_BY: ${{ inputs.allow_cc_by || 'false' }}
@@ -78,34 +85,21 @@ jobs:
           name: archive-report
           path: archive-report.md
           retention-days: 30
-      - name: Commit playlist
+      - name: Commit to a NEW BRANCH (never to main) and open a pull request
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == false }}
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          COLLECTION: ${{ inputs.collection }}
-          QUERY: ${{ inputs.query }}
-          MAX_ITEMS: ${{ inputs.max_items }}
-          MIN_DOWNLOADS: ${{ inputs.min_downloads }}
-          MIN_HEIGHT: ${{ inputs.min_height }}
-          GROUP: ${{ inputs.group }}
-          INCLUDE_PRE1930: ${{ inputs.include_pre1930 }}
-          ALLOW_CC_BY: ${{ inputs.allow_cc_by }}
-          APPLY: 'true'
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # keep the snapshot in step so the auto-heal knows these movies
+          git diff --quiet playlist.m3u && { echo "Nothing new to add - no branch created."; exit 0; }
+          BR="archive-import-${GITHUB_RUN_ID}"
+          git checkout -b "$BR"
           python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
           git add playlist.m3u library/playlist.snapshot.m3u
-          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
-          git commit -m "Add free (licensed) movies from the Internet Archive [skip ci]"
-          for i in 1 2 3; do
-            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
-            git rebase --abort 2>/dev/null || true
-            git reset --hard origin/main
-            bash archive_run.sh
-            python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
-            git add playlist.m3u library/playlist.snapshot.m3u
-            git commit -m "Add free (licensed) movies from the Internet Archive [skip ci]" || exit 0
-          done
-          exit 1
+          git commit -m "Add verified Full HD/4K licensed movies (report in run ${GITHUB_RUN_ID}) [skip ci]"
+          git push origin "$BR"
+          echo "Review and merge: https://github.com/${GITHUB_REPOSITORY}/compare/main...${BR}?expand=1" >> "$GITHUB_STEP_SUMMARY"
+          gh pr create --base main --head "$BR" --title "Import verified licensed movies (run ${GITHUB_RUN_ID})" \
+            --body "Created by the Add free movies workflow after a manual run with dry_run unchecked. Nothing is merged automatically: read the report in the run summary, then merge." \
+            || echo "Could not open the PR automatically (repository setting). Use the compare link above."

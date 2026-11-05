@@ -75,7 +75,32 @@ def runtime_minutes(meta):
     return sec / 60
 
 
-def pick_file(files, min_size=20_000_000):
+def file_dims(f):
+    """(width, height) from the archive.org file metadata, 0 when missing."""
+    def num(v):
+        try:
+            return int(float(v))
+        except (TypeError, ValueError):
+            return 0
+    return num(f.get("width")), num(f.get("height"))
+
+
+def classify_resolution(width, height, min_height=1080):
+    """Decide from a REAL width/height (never from the title).
+    Returns one of: 'accept_4k', 'accept_1080p', 'reject_low', 'unknown'.
+    Full HD = 1920 px wide or 1080 px high (so a 1920x800 scope film counts as 1080p); 4K = 3840 wide or 2160 high.
+    min_height <= 0 disables the filter (everything with a known resolution is accepted)."""
+    if not width and not height:
+        return "unknown"
+    if width >= 3840 or height >= 2160:
+        return "accept_4k"
+    if min_height <= 0 or width >= 1920 or height >= min_height:
+        return "accept_1080p" if (width >= 1920 or height >= 1080) else "accept_below"
+    return "reject_low"
+
+
+def pick_file(files, min_size=20_000_000, min_height=0):
+    """Best .mp4: when min_height is set a file that meets it wins; otherwise the usual h.264 derivative."""
     best = None
     for f in files:
         n = f.get("name", "")
@@ -84,10 +109,26 @@ def pick_file(files, min_size=20_000_000):
         size = int(f.get("size") or 0)
         if not (min_size <= size <= 6_000_000_000):
             continue
-        score = (1 if f.get("format", "").lower() == "h.264" else 0, 1 if f.get("source") == "derivative" else 0, -size)
+        w, h = file_dims(f)
+        meets = 1 if (min_height and classify_resolution(w, h, min_height).startswith("accept")) else 0
+        score = (meets, h, 1 if f.get("format", "").lower() == "h.264" else 0, 1 if f.get("source") == "derivative" else 0, -size)
         if best is None or score > best[0]:
             best = (score, f)
     return best[1] if best else None
+
+
+def probe_resolution(url):
+    """Optional second opinion straight from the video stream (needs ffprobe, e.g. on GitHub runners). None if unavailable."""
+    import shutil, subprocess
+    if not shutil.which("ffprobe"):
+        return None
+    try:
+        r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                            "-of", "csv=p=0:s=x", url], capture_output=True, text=True, timeout=45)
+        m = re.match(r"^(\d+)x(\d+)", r.stdout.strip())
+        return (int(m.group(1)), int(m.group(2))) if m else None
+    except Exception:
+        return None
 
 
 def check_range(url):
@@ -169,58 +210,35 @@ def tmdb_lookup(title, year):
     return None
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--playlist", default="playlist.m3u")
-    ap.add_argument("--collection", default="feature_films")
-    ap.add_argument("--query", default="")
-    ap.add_argument("--max-items", type=int, default=10)
-    ap.add_argument("--min-downloads", type=int, default=2000)
-    ap.add_argument("--min-minutes", type=float, default=40)
-    ap.add_argument("--min-height", type=int, default=0,
-                    help="skip files whose video height (from archive.org metadata) is below this, e.g. 720; 0 = no filter")
-    ap.add_argument("--group", default="Free Classics")
-    ap.add_argument("--allow-cc-by", action="store_true")
-    ap.add_argument("--include-pre1930", action="store_true")
-    ap.add_argument("--exclude-words", default=r"naked|nude|sex|sexy|erotic|porn|strip(per|tease)?|burlesque|bikini|topless|lust|orgy|vice|harem|girls",
-                    help="regex: titles matching it are skipped (family-friendly filter)")
-    ap.add_argument("--exclude-subjects", default=r"exploitation|grindhouse|burlesque|sexploitation|nudie|adult|erotic|trailers?",
-                    help="regex on the archive.org subject tags: matching films are skipped")
-    ap.add_argument("--apply", action="store_true")
-    ap.add_argument("--report", default="archive-report.md")
-    a = ap.parse_args()
+STAT_KEYS = ["scanned", "accepted_1080p", "accepted_4k", "accepted_below", "rejected_low", "unknown_quality",
+             "bad_link", "license_rejected", "duplicates", "too_short", "no_mp4", "low_popularity"]
 
-    text = open(a.playlist, encoding="utf-8").read() if os.path.exists(a.playlist) else "#EXTM3U\n"
-    lines = text.split("\n")
-    known_ids = set(re.findall(r"archive\.org/download/([^/]+)/", text))
-    known_names = {l.rsplit(",", 1)[-1].strip().lower() for l in lines if l.startswith("#EXTINF") and "tvg-type=" in l}
-    norm_t = lambda n: re.sub(r"[^a-z0-9]", "", re.sub(r"\{tmdb-\d+\}|\(\d{4}\)", "", n.lower()))
-    known_titles = {norm_t(n) for n in known_names}
 
-    skipped = {"license": 0, "known": 0, "downloads": 0, "no mp4": 0, "short": 0, "quality": 0, "link": 0}
-    pre, scanned, page = [], 0, 1
-    seen_ids = set()
+def source_internet_archive(a, ctx):
+    """Source plug-in: returns (candidates, stats). Add other legitimate, licensed sources the same way (see SOURCES)."""
+    stats = dict.fromkeys(STAT_KEYS, 0)
+    pre, page, seen_ids = [], 1, set()
     while len(pre) < a.max_items * 2 and page <= 40:
         docs, total = search(a.collection, a.query, 100, page)
         if not docs:
             break
         for d in docs:
-            scanned += 1
+            stats["scanned"] += 1
             if d["identifier"] in seen_ids:
                 continue
             seen_ids.add(d["identifier"])
             if not license_ok(d, a.allow_cc_by, a.include_pre1930):
-                skipped["license"] += 1; continue
+                stats["license_rejected"] += 1; continue
             if a.exclude_words and re.search(r"\b(%s)\b" % a.exclude_words, str(d.get("title") or ""), re.I):
-                skipped["license"] += 1; continue
+                stats["license_rejected"] += 1; continue
             subj = d.get("subject") or []
             subj = " ; ".join(subj if isinstance(subj, list) else [subj])
             if a.exclude_subjects and re.search(a.exclude_subjects, subj, re.I):
-                skipped["license"] += 1; continue
-            if d["identifier"] in known_ids:
-                skipped["known"] += 1; continue
+                stats["license_rejected"] += 1; continue
+            if d["identifier"] in ctx["known_ids"]:
+                stats["duplicates"] += 1; continue
             if int(d.get("downloads") or 0) < a.min_downloads:
-                skipped["downloads"] += 1; continue
+                stats["low_popularity"] += 1; continue
             pre.append(d)
         page += 1
 
@@ -229,50 +247,111 @@ def main():
         try:
             meta = get_json("https://archive.org/metadata/" + urllib.parse.quote(d["identifier"]))
         except Exception:
-            return None, "no mp4"
-        f = pick_file(meta.get("files", []))
+            return None, "no_mp4"
+        f = pick_file(meta.get("files", []), min_height=a.min_height)
         if not f:
-            return None, "no mp4"
+            return None, "no_mp4"
         mins = runtime_minutes(meta.get("metadata", {}))
         if mins is None or mins < a.min_minutes:
-            return None, "short"
-        try:
-            height = int(f.get("height") or 0)
-        except ValueError:
-            height = 0
-        if a.min_height and height < a.min_height:
-            return None, "quality"
+            return None, "too_short"
+        width, height = file_dims(f)                       # reliable archive.org file metadata
+        verdict = classify_resolution(width, height, a.min_height)
         url = "https://archive.org/download/%s/%s" % (urllib.parse.quote(d["identifier"]), urllib.parse.quote(f["name"]))
+        if a.min_height > 0 and verdict.startswith("accept"):
+            probed = probe_resolution(url)                 # second opinion from the real stream when ffprobe exists
+            if probed:
+                width, height = probed
+                verdict = classify_resolution(width, height, a.min_height)
+        if a.min_height > 0 and verdict == "unknown":
+            return None, "unknown_quality"
+        if a.min_height > 0 and verdict == "reject_low":
+            return None, "rejected_low"
         ok, st = check_range(url)
         if not ok:
-            return None, "link"
+            return None, "bad_link"
         year = str(d.get("year") or "")[:4]
         title = clean_title(d.get("title"), year)
         tm = tmdb_lookup(title, year)
         name = title + (" (%s)" % year if year and not tm else "") + (" {tmdb-%d}" % tm[0] if tm else "")
         grp = genre_group(tm[2], a.group) if tm else subject_group(d, a.group)
         logo = tm[1] if tm and tm[1] else "https://archive.org/services/img/" + urllib.parse.quote(d["identifier"])
-        return dict(id=d["identifier"], name=name, group=grp, logo=logo, url=url, license=lic, year=year,
-                    minutes=round(mins), height=height, mb=round(int(f["size"]) / 1e6), downloads=int(d.get("downloads") or 0)), None
+        res = "2160p" if verdict == "accept_4k" else ("1080p" if verdict == "accept_1080p" else ("%dp" % height if height else "?"))
+        return dict(id=d["identifier"], name=name, group=grp, logo=logo, url=url, license=lic, year=year, verdict=verdict,
+                    minutes=round(mins), res=res, width=width, height=height, mb=round(int(f["size"]) / 1e6),
+                    downloads=int(d.get("downloads") or 0)), None
 
-    found, names = [], set(known_names)
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(max_workers=8) as ex:
         results = list(ex.map(verify, pre))
+    found, names = [], set(ctx["known_names"])
     for r, why in results:
         if r is None:
-            skipped[why] += 1; continue
-        if r["name"].lower() in names or norm_t(r["name"]) in known_titles:
-            skipped["known"] += 1; continue
+            stats[why] += 1; continue
+        if r["name"].lower() in names or ctx["norm_t"](r["name"]) in ctx["known_titles"]:
+            stats["duplicates"] += 1; continue
         if len(found) >= a.max_items:
             break
-        names.add(r["name"].lower()); known_titles.add(norm_t(r["name"])); found.append(r)
+        names.add(r["name"].lower()); ctx["known_titles"].add(ctx["norm_t"](r["name"]))
+        stats["accepted_4k" if r["verdict"] == "accept_4k" else ("accepted_1080p" if r["verdict"] == "accept_1080p" else "accepted_below")] += 1
+        found.append(r)
+    return found, stats
 
-    rep = ["# Internet Archive candidates (%s)" % ("APPLIED" if a.apply else "report only"), "",
-           "Scanned %d items, %d candidates. Skipped: %s" % (scanned, len(found), skipped), "",
-           "| # | Title | Group | Year | Min | Res | MB | License | Downloads | Link |", "|---|---|---|---|---|---|---|---|---|---|"]
+
+SOURCES = {"internet_archive": source_internet_archive}   # register further licensed sources here (same signature)
+
+
+def build_report(found, stats, a):
+    rep = ["# Movie import report (%s)" % ("APPLIED" if a.apply else "DRY RUN, nothing changed"), "",
+           "Source: %s | collection: %s | minimum resolution: %s | min length: %d min" % (a.source, a.collection or "all",
+           ("%dp (1920x1080)" % a.min_height) if a.min_height else "none", a.min_minutes), "",
+           "| Statistic | Count |", "|---|---|",
+           "| Total scanned movies | %d |" % stats["scanned"],
+           "| Accepted 1080p | %d |" % stats["accepted_1080p"],
+           "| Accepted 4K | %d |" % stats["accepted_4k"],
+           "| Accepted (resolution filter off) | %d |" % stats["accepted_below"],
+           "| Rejected 720p and lower | %d |" % stats["rejected_low"],
+           "| Unknown resolution (excluded) | %d |" % stats["unknown_quality"],
+           "| Invalid or inaccessible links | %d |" % stats["bad_link"],
+           "| License / content-filter rejections | %d |" % stats["license_rejected"],
+           "| Duplicates | %d |" % stats["duplicates"],
+           "| Too short / no mp4 / low popularity | %d / %d / %d |" % (stats["too_short"], stats["no_mp4"], stats["low_popularity"]), "",
+           "| # | Title | Group | Year | Min | Res | MB | License | Link |", "|---|---|---|---|---|---|---|---|---|"]
     for i, f in enumerate(found, 1):
-        rep.append("| %d | %s | %s | %s | %s | %s | %s | %s | %s | %s |" % (i, f["name"], f["group"], f["year"], f["minutes"], ("%dp" % f["height"]) if f["height"] else "?", f["mb"], f["license"], f["downloads"], f["url"]))
+        rep.append("| %d | %s | %s | %s | %s | %s | %s | %s | %s |" % (i, f["name"], f["group"], f["year"], f["minutes"], f["res"], f["mb"], f["license"], f["url"]))
+    return rep
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source", default="internet_archive", choices=sorted(SOURCES))
+    ap.add_argument("--playlist", default="playlist.m3u")
+    ap.add_argument("--collection", default="feature_films")
+    ap.add_argument("--query", default="")
+    ap.add_argument("--max-items", type=int, default=10)
+    ap.add_argument("--min-downloads", type=int, default=2000)
+    ap.add_argument("--min-minutes", type=float, default=40)
+    ap.add_argument("--min-height", type=int, default=1080,
+                    help="minimum VERIFIED resolution (1080 = Full HD; 4K also passes); files with unknown resolution are excluded; 0 = no filter")
+    ap.add_argument("--group", default="Free Classics")
+    ap.add_argument("--allow-cc-by", action="store_true")
+    ap.add_argument("--include-pre1930", action="store_true")
+    ap.add_argument("--exclude-words", default=r"naked|nude|sex|sexy|erotic|porn|strip(per|tease)?|burlesque|bikini|topless|lust|orgy|vice|harem|girls",
+                    help="regex: titles matching it are skipped (family-friendly filter)")
+    ap.add_argument("--exclude-subjects", default=r"exploitation|grindhouse|burlesque|sexploitation|nudie|adult|erotic|trailers?",
+                    help="regex on the archive.org subject tags: matching films are skipped")
+    ap.add_argument("--apply", action="store_true", help="write to the playlist (default is a dry run that only writes the report)")
+    ap.add_argument("--report", default="archive-report.md")
+    a = ap.parse_args()
+
+    text = open(a.playlist, encoding="utf-8").read() if os.path.exists(a.playlist) else "#EXTM3U\n"
+    lines = text.split("\n")
+    known_names = {l.rsplit(",", 1)[-1].strip().lower() for l in lines if l.startswith("#EXTINF") and "tvg-type=" in l}
+    norm_t = lambda n: re.sub(r"[^a-z0-9]", "", re.sub(r"\{tmdb-\d+\}|\(\d{4}\)", "", n.lower()))
+    ctx = dict(known_ids=set(re.findall(r"archive\.org/download/([^/]+)/", text)), known_names=known_names,
+               norm_t=norm_t, known_titles={norm_t(n) for n in known_names})
+
+    found, stats = SOURCES[a.source](a, ctx)
+    rep = build_report(found, stats, a)
     open(a.report, "w", encoding="utf-8").write("\n".join(rep) + "\n")
     print("\n".join(rep))
 
@@ -280,7 +359,7 @@ def main():
         block = []
         for f in found:
             block += ['#EXTINF:-1 tvg-name="%s"tvg-id=""tvg-logo="%s"tvg-chno=""tvg-type="movie"group-title="%s":http-referrer="",%s' % (f["name"], f["logo"], f["group"], f["name"]), f["url"]]
-        # insert after the last movie entry that comes before the first series (movies sit before series)
+        # append only: insert after the last movie entry that comes before the first series; nothing existing is moved or removed
         first_series = next((i for i, l in enumerate(lines) if l.startswith("#EXTINF") and 'tvg-type="series"' in l), len(lines))
         last = None
         for i, l in enumerate(lines[:first_series]):

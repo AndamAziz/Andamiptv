@@ -63,6 +63,9 @@ Run it again any time: titles already in the playlist are skipped.
 `python3 archive_series.py` (add `--apply` to write) builds series from archive.org cartoons (Betty Boop, Popeye, Superman 1941, Felix the Cat ...):
 episodes are named `Show - S01E01`, group "Classic Cartoons", every link verified (HTTP 206). Shows with fewer than 3 verified episodes are skipped.
 
-### Weekly discovery report, quality filter
-- The workflow also runs **every Sunday as a REPORT ONLY** (it never changes `playlist.m3u`): open the run → *Summary* / artifact `archive-report` to see new licensed candidates, then run it manually with `dry_run` unchecked to add them.
-- `min_height` (0 / 480 / 720 ...) filters by the video height reported by archive.org. Note: almost all archive.org public-domain films are below 720p (in a 80-film sample none reached 720p), so a 720p filter finds nothing; the report shows the resolution (`Res`) so you can judge.
+### Full HD / 4K quality filter, weekly report, safe imports
+- **Quality:** `min_height` defaults to **1080** (Full HD = 1920 px wide or 1080 high; 4K also passes). The resolution comes from the video file metadata (and from `ffprobe` on the stream when available), never from the title. 720p and lower are rejected, **unknown resolution is excluded**, nothing is upscaled/relabelled. `min_height = 0` turns the filter off.
+- **Honest limit:** public-domain / licensed films on archive.org are almost all below 720p (80-film sample: none reached 720p), so the Full HD filter currently finds (almost) nothing there. The filter is NOT weakened to get more movies; new licensed Full HD/4K sources can be registered in `SOURCES` (same function signature as `source_internet_archive`).
+- **Report first:** every run writes a report (also in the run *Summary* and as artifact `archive-report`) with: scanned, accepted 1080p, accepted 4K, rejected 720p-and-lower, unknown resolution, invalid links, license rejections, duplicates, plus a `Res` column per candidate. `dry_run` is **true** by default; the Sunday schedule is always report-only.
+- **Safe writes:** a manual run with `dry_run` unchecked never pushes to `main`: it commits only *appended* movies to a new branch `archive-import-<run>` and opens a pull request for you to review. Existing movies are never deleted or reordered.
+- Tests: `python -m unittest discover -s tests -v` (360p/720p rejected, 1080p/2160p accepted, unknown rejected) also run first in the workflow.
