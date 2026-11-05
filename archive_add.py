@@ -123,7 +123,7 @@ SUBJECT_GENRES = [  # (regex on the archive.org subject tags, group) - first mat
     (r"western|cowboy", "Western"), (r"film-?noir|noir|crime|gangster|detective", "Crime"),
     (r"mystery|murder|suspense", "Mystery"), (r"thriller", "Thriller"), (r"\bwar\b|wwii|world war", "War"),
     (r"romance|romantic", "Romance"), (r"comedy|slapstick|stooges|chaplin|keaton|laurel", "Comedy"),
-    (r"musical|music", "Musical"), (r"fantasy", "Fantasy"), (r"action", "Action"), (r"adventure|serial", "Adventure"),
+    (r"musical|music", "Music"), (r"fantasy", "Fantasy"), (r"action", "Action"), (r"adventure|serial", "Adventure"),
     (r"cartoon|animat", "Animation"), (r"documentary", "Documentary"), (r"drama", "Drama"),
 ]
 
