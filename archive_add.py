@@ -215,32 +215,10 @@ STAT_KEYS = ["scanned", "accepted_1080p", "accepted_4k", "accepted_below", "reje
 
 
 def source_internet_archive(a, ctx):
-    """Source plug-in: returns (candidates, stats). Add other legitimate, licensed sources the same way (see SOURCES)."""
+    """Source plug-in: returns (candidates, stats). Add other legitimate, licensed sources the same way (see SOURCES).
+    Scans page by page and verifies every page right away, so it keeps looking until enough candidates are found or the
+    search is exhausted (up to 4000 items) - an empty result therefore really means 'nothing qualifies'."""
     stats = dict.fromkeys(STAT_KEYS, 0)
-    pre, page, seen_ids = [], 1, set()
-    while len(pre) < a.max_items * 2 and page <= 40:
-        docs, total = search(a.collection, a.query, 100, page)
-        if not docs:
-            break
-        for d in docs:
-            stats["scanned"] += 1
-            if d["identifier"] in seen_ids:
-                continue
-            seen_ids.add(d["identifier"])
-            if not license_ok(d, a.allow_cc_by, a.include_pre1930):
-                stats["license_rejected"] += 1; continue
-            if a.exclude_words and re.search(r"\b(%s)\b" % a.exclude_words, str(d.get("title") or ""), re.I):
-                stats["license_rejected"] += 1; continue
-            subj = d.get("subject") or []
-            subj = " ; ".join(subj if isinstance(subj, list) else [subj])
-            if a.exclude_subjects and re.search(a.exclude_subjects, subj, re.I):
-                stats["license_rejected"] += 1; continue
-            if d["identifier"] in ctx["known_ids"]:
-                stats["duplicates"] += 1; continue
-            if int(d.get("downloads") or 0) < a.min_downloads:
-                stats["low_popularity"] += 1; continue
-            pre.append(d)
-        page += 1
 
     def verify(d):
         lic = license_ok(d, a.allow_cc_by, a.include_pre1930)
@@ -281,19 +259,42 @@ def source_internet_archive(a, ctx):
                     downloads=int(d.get("downloads") or 0)), None
 
     from concurrent.futures import ThreadPoolExecutor
+    found, names, seen_ids, page = [], set(ctx["known_names"]), set(), 1
     with ThreadPoolExecutor(max_workers=8) as ex:
-        results = list(ex.map(verify, pre))
-    found, names = [], set(ctx["known_names"])
-    for r, why in results:
-        if r is None:
-            stats[why] += 1; continue
-        if r["name"].lower() in names or ctx["norm_t"](r["name"]) in ctx["known_titles"]:
-            stats["duplicates"] += 1; continue
-        if len(found) >= a.max_items:
-            break
-        names.add(r["name"].lower()); ctx["known_titles"].add(ctx["norm_t"](r["name"]))
-        stats["accepted_4k" if r["verdict"] == "accept_4k" else ("accepted_1080p" if r["verdict"] == "accept_1080p" else "accepted_below")] += 1
-        found.append(r)
+        while len(found) < a.max_items and page <= 40:
+            docs, total = search(a.collection, a.query, 100, page)
+            if not docs:
+                break
+            batch = []
+            for d in docs:
+                stats["scanned"] += 1
+                if d["identifier"] in seen_ids:
+                    continue
+                seen_ids.add(d["identifier"])
+                if not license_ok(d, a.allow_cc_by, a.include_pre1930):
+                    stats["license_rejected"] += 1; continue
+                if a.exclude_words and re.search(r"\b(%s)\b" % a.exclude_words, str(d.get("title") or ""), re.I):
+                    stats["license_rejected"] += 1; continue
+                subj = d.get("subject") or []
+                subj = " ; ".join(subj if isinstance(subj, list) else [subj])
+                if a.exclude_subjects and re.search(a.exclude_subjects, subj, re.I):
+                    stats["license_rejected"] += 1; continue
+                if d["identifier"] in ctx["known_ids"]:
+                    stats["duplicates"] += 1; continue
+                if int(d.get("downloads") or 0) < a.min_downloads:
+                    stats["low_popularity"] += 1; continue
+                batch.append(d)
+            for r, why in ex.map(verify, batch):
+                if r is None:
+                    stats[why] += 1; continue
+                if r["name"].lower() in names or ctx["norm_t"](r["name"]) in ctx["known_titles"]:
+                    stats["duplicates"] += 1; continue
+                if len(found) >= a.max_items:
+                    break
+                names.add(r["name"].lower()); ctx["known_titles"].add(ctx["norm_t"](r["name"]))
+                stats["accepted_4k" if r["verdict"] == "accept_4k" else ("accepted_1080p" if r["verdict"] == "accept_1080p" else "accepted_below")] += 1
+                found.append(r)
+            page += 1
     return found, stats
 
 
