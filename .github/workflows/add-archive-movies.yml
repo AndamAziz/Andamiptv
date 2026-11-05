@@ -8,37 +8,46 @@ on:
     - cron: "15 4 * * 0"   # every Sunday: REPORT ONLY, never changes playlist.m3u
   workflow_dispatch:
     inputs:
-      collection:
-        description: 'Archive collection (feature_films, classic_cartoons, silent_films, scifi_horror ...)'
-        default: 'feature_films'
-      query:
-        description: 'Optional extra search words (empty = most popular first)'
-        default: ''
+      sources:
+        description: 'Source adapters (comma separated): internet_archive, wikimedia'
+        default: 'internet_archive,wikimedia'
       max_items:
-        description: 'How many movies to add / list'
-        default: '10'
-      min_downloads:
-        description: 'Skip titles with fewer downloads than this (quality filter)'
-        default: '2000'
+        description: 'Maximum movies to accept (best ranked first)'
+        default: '20'
+      primary_years:
+        description: 'Preferred pool: movies released in the last N years'
+        default: '2'
+      secondary_years:
+        description: 'Secondary pool: released in the last N years (older movies are rejected)'
+        default: '5'
       min_height:
-        description: 'Minimum VERIFIED resolution: 1080 = Full HD and 4K only (default). 0 turns the filter off. Unknown resolution is always excluded.'
+        description: 'Minimum VERIFIED resolution (both dimensions): 1080 = Full HD, 4K preferred. Unknown resolution is rejected.'
         default: '1080'
       min_minutes:
-        description: 'Minimum movie length in minutes (40 = feature films; lower it to see shorts)'
+        description: 'Minimum length in minutes (40 = feature films)'
         default: '40'
+      min_rating:
+        description: 'Minimum TMDB rating (0 = any)'
+        default: '0'
+      min_votes:
+        description: 'Minimum TMDB vote count (0 = any)'
+        default: '0'
+      query:
+        description: 'Optional extra search words'
+        default: ''
       group:
-        description: 'Group name in the playlist'
-        default: 'Free Classics'
-      include_pre1930:
-        description: 'Also include films made in 1929 or earlier that have no license field (public domain by age)'
-        type: boolean
-        default: false
+        description: 'Group name when TMDB gives no genre'
+        default: 'Recent Movies'
       allow_cc_by:
         description: 'Also allow CC-BY / CC-BY-SA (credit the creator)'
         type: boolean
+        default: true
+      allow_webm:
+        description: 'Also allow webm/ogv (Wikimedia Commons only has these; the app may not play them)'
+        type: boolean
         default: false
       dry_run:
-        description: 'Report only (true) or really add to playlist.m3u (false)'
+        description: 'Report only (true, default) or really add to playlist.m3u (false: creates a branch + pull request, never touches main)'
         type: boolean
         default: true
 
@@ -60,20 +69,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-      - name: Unit tests (resolution filter)
+      - name: Unit tests (duplicates, release year, sources, resolution, safe write)
         run: python -m unittest discover -s tests -v
-      - name: Search, check links, report (and add)
+      - name: Discover, validate, report (and add)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          COLLECTION: ${{ inputs.collection || 'feature_films' }}
-          QUERY: ${{ inputs.query || '' }}
-          MAX_ITEMS: ${{ inputs.max_items || '30' }}
-          MIN_DOWNLOADS: ${{ inputs.min_downloads || '300' }}
+          SOURCES: ${{ inputs.sources || 'internet_archive,wikimedia' }}
+          MAX_ITEMS: ${{ inputs.max_items || '20' }}
+          PRIMARY_YEARS: ${{ inputs.primary_years || '2' }}
+          SECONDARY_YEARS: ${{ inputs.secondary_years || '5' }}
           MIN_HEIGHT: ${{ inputs.min_height || '1080' }}
           MIN_MINUTES: ${{ inputs.min_minutes || '40' }}
-          GROUP: ${{ inputs.group || 'Free Classics' }}
-          INCLUDE_PRE1930: ${{ inputs.include_pre1930 || 'false' }}
-          ALLOW_CC_BY: ${{ inputs.allow_cc_by || 'false' }}
+          MIN_RATING: ${{ inputs.min_rating || '0' }}
+          MIN_VOTES: ${{ inputs.min_votes || '0' }}
+          QUERY: ${{ inputs.query || '' }}
+          GROUP: ${{ inputs.group || 'Recent Movies' }}
+          ALLOW_CC_BY: ${{ github.event_name == 'schedule' && 'true' || inputs.allow_cc_by }}
+          ALLOW_WEBM: ${{ inputs.allow_webm || 'false' }}
           # only a manual run with dry_run unchecked may change the playlist; the weekly schedule never does
           APPLY: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == false && 'true' || 'false' }}
         run: |
@@ -97,9 +109,9 @@ jobs:
           git checkout -b "$BR"
           python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
           git add playlist.m3u library/playlist.snapshot.m3u
-          git commit -m "Add verified Full HD/4K licensed movies (report in run ${GITHUB_RUN_ID}) [skip ci]"
+          git commit -m "Add verified recent Full HD/4K licensed movies (report in run ${GITHUB_RUN_ID}) [skip ci]"
           git push origin "$BR"
           echo "Review and merge: https://github.com/${GITHUB_REPOSITORY}/compare/main...${BR}?expand=1" >> "$GITHUB_STEP_SUMMARY"
-          gh pr create --base main --head "$BR" --title "Import verified licensed movies (run ${GITHUB_RUN_ID})" \
-            --body "Created by the Add free movies workflow after a manual run with dry_run unchecked. Nothing is merged automatically: read the report in the run summary, then merge." \
+          gh pr create --base main --head "$BR" --title "Import verified recent movies (run ${GITHUB_RUN_ID})" \
+            --body "Created by the movie discovery workflow after a manual run with dry_run unchecked. Nothing is merged automatically: read the report in the run summary, then merge." \
             || echo "Could not open the PR automatically (repository setting). Use the compare link above."

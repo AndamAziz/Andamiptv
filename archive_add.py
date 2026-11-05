@@ -85,18 +85,7 @@ def file_dims(f):
     return num(f.get("width")), num(f.get("height"))
 
 
-def classify_resolution(width, height, min_height=1080):
-    """Decide from a REAL width/height (never from the title).
-    Returns one of: 'accept_4k', 'accept_1080p', 'reject_low', 'unknown'.
-    Full HD = 1920 px wide or 1080 px high (so a 1920x800 scope film counts as 1080p); 4K = 3840 wide or 2160 high.
-    min_height <= 0 disables the filter (everything with a known resolution is accepted)."""
-    if not width and not height:
-        return "unknown"
-    if width >= 3840 or height >= 2160:
-        return "accept_4k"
-    if min_height <= 0 or width >= 1920 or height >= min_height:
-        return "accept_1080p" if (width >= 1920 or height >= 1080) else "accept_below"
-    return "reject_low"
+from movie_engine import classify_resolution  # noqa: E402  (single, orientation-aware definition)
 
 
 def pick_file(files, min_size=20_000_000, min_height=0):
