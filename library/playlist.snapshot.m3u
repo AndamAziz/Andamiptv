@@ -460,6 +460,10 @@ https://streams.rooter.gg/hls/437cf97c81671384bfb54d35708d00ca/hd720.m3u8
 http://coco3-cdn.cfd:8085/alwan-4/index.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 5
 https://andam.uk/ytlive/sport1you/index.m3u8
+#EXTINF:-1 tvg-name="DAZN 3"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 3
+http://23.237.104.106:8080/DAZN_3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="DAZN 4"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 4
+http://23.237.104.106:8080/DAZN_4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="beIN Sports XTRA"tvg-id="613758"tvg-logo="https://canvas-lb.tubitv.com/opts/ZznIonCFpZqA2g==/937ec9ac-b4bd-4c16-863b-75dc816129d7/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="Sports":http-referrer="",beIN Sports XTRA
@@ -1396,10 +1400,6 @@ https://jmp2.uk/stvp-US4600005ST
 https://d1rqgw5gocwo9i.cloudfront.net/10009/99951459/hls/master.m3u8?ads.xumo_channelId=99951459&ads.asnw=169843&ads.afid=442535792&ads.sfid=23780352&ads.caid=telemundodeportesahora_linear&ads.csid=xumo_[PLATFORM]_telemundodeportesahora_ssai_cro&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_genre=[content_genre]&ads._fw_content_language=es&ads._fw_content_rating=[content_rating]&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=XumoPlay&ads.xumo_contentId=4281&ads.xumo_contentName=TelemundoDeportesAhora&ads.xumo_providerId=4281&ads.xumo_providerName=TelemundoDeportesAhora&ads.channelId=99951459&ads._fw_ifa_type=[IFA_TYPE]
 #EXTINF:-1 tvg-name="KSA Sports"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-c74f0510-fe50-490c-bfe5-d81f1ef6835f.jpg"tvg-chno=""group-title="Sports":http-referrer="",KSA Sports
 https://andam.uk/ytlive/riyadiyatv/index.m3u8
-#EXTINF:-1 tvg-name="DAZN 3"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 3
-http://23.237.104.106:8080/DAZN_3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="DAZN 4"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 4
-http://23.237.104.106:8080/DAZN_4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5d1de71a328e96fd.jpg"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
 http://api.353505.xyz:80/live/123/123/528.ts
 #EXTINF:-1 tvg-name="PBS Nature"tvg-id="PBSNature.us@SD"tvg-logo="https://i.imgur.com/Brry7cZ.png"tvg-chno=""group-title="National Geographic":http-referrer="",PBS Nature
