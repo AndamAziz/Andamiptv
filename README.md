@@ -69,3 +69,12 @@ episodes are named `Show - S01E01`, group "Classic Cartoons", every link verifie
 - **Report first:** every run writes a report (also in the run *Summary* and as artifact `archive-report`) with: scanned, accepted 1080p, accepted 4K, rejected 720p-and-lower, unknown resolution, invalid links, license rejections, duplicates, plus a `Res` column per candidate. `dry_run` is **true** by default; the Sunday schedule is always report-only.
 - **Safe writes:** a manual run with `dry_run` unchecked never pushes to `main`: it commits only *appended* movies to a new branch `archive-import-<run>` and opens a pull request for you to review. Existing movies are never deleted or reordered.
 - Tests: `python -m unittest discover -s tests -v` (360p/720p rejected, 1080p/2160p accepted, unknown rejected) also run first in the workflow.
+
+## Live-channel logos on imgur (blocked in some regions)
+
+`i.imgur.com` shows "Content not viewable in your region" in Kurdistan, so ~5,000 live
+channel logos looked broken. `mirror_logos.py` copies each imgur logo of a **live** channel
+into `logos/` (160px, 8-bit PNG) and points `tvg-logo` at
+`raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/<id>.png`. It also fills an empty
+logo from an exact same-name channel. Logos you set yourself (postimg, wikimedia…) and all
+movies/series are untouched. The `mirror-logos` workflow runs it after every playlist change.
