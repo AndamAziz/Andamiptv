@@ -56,5 +56,5 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 3. Happy with the list? Run again with **dry_run = false**: the movies are added to `playlist.m3u` (group "Free Classics") and the snapshot is updated.
 
 Checks before a movie is listed: license, real feature length (40+ min), an `.mp4` (h.264) file, and the link answers a Range request (HTTP 206) so seeking works.
-Optional: add a repository secret `TMDB_API_KEY` to get the `{tmdb-ID}` tag and the TMDB poster when the title/year match exactly.
+Optional (recommended): add a repository secret `TMDB_API_KEY` (free TMDB key) to get the `{tmdb-ID}` tag, the TMDB poster and the GENRE group (Action, Comedy, Horror ...) when the title/year match exactly; without it movies go to the "Free Classics" group.
 Run it again any time: titles already in the playlist are skipped.

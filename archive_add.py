@@ -8,7 +8,8 @@ earlier that carry no license field (public domain by age in the US) - they are 
 Every candidate is checked: it must have an .mp4 (h.264) file, a real feature length, and the link must answer
 a Range request with HTTP 206 (so seeking works). Nothing is added unless --apply is given (default = report only).
 
-Optional env TMDB_API_KEY: adds the {tmdb-ID} tag and the TMDB poster when the title/year match exactly.
+Optional env TMDB_API_KEY: adds the {tmdb-ID} tag, the TMDB poster and puts every movie in its GENRE group
+(Action, Comedy, Horror, Romance ...) when the title/year match exactly; without the key movies go to --group.
 Usage: python3 archive_add.py --collection feature_films --max-items 10 [--apply]
 """
 import argparse, json, os, re, sys, urllib.parse, urllib.request, urllib.error
@@ -109,7 +110,19 @@ def clean_title(t, year):
     return t
 
 
+GENERIC = {"Drama", "Adventure", "TV Movie", "Music", "Family"}
+
+
+def genre_group(genres, default):
+    """First specific TMDB genre (Drama/Adventure/Family/Music are only used when nothing else fits)."""
+    for g in genres:
+        if g not in GENERIC:
+            return g
+    return genres[0] if genres else default
+
+
 def tmdb_lookup(title, year):
+    """Needs the free TMDB_API_KEY. Returns (id, poster_url, genres) only for an exact title + year match."""
     key = os.environ.get("TMDB_API_KEY")
     if not key or not year:
         return None
@@ -121,7 +134,13 @@ def tmdb_lookup(title, year):
     norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
     for r in res[:5]:
         if norm(r.get("title", "")) == norm(title) or norm(r.get("original_title", "")) == norm(title):
-            return r["id"], ("https://image.tmdb.org/t/p/w600_and_h900_face" + r["poster_path"]) if r.get("poster_path") else None
+            try:
+                det = get_json("https://api.themoviedb.org/3/movie/%d?api_key=%s" % (r["id"], key), 20)
+                genres = [g["name"] for g in det.get("genres", [])]
+            except Exception:
+                genres = []
+            poster = ("https://media.themoviedb.org/t/p/w600_and_h900_face" + r["poster_path"]) if r.get("poster_path") else None
+            return r["id"], poster, genres
     return None
 
 
@@ -136,6 +155,8 @@ def main():
     ap.add_argument("--group", default="Free Classics")
     ap.add_argument("--allow-cc-by", action="store_true")
     ap.add_argument("--include-pre1930", action="store_true")
+    ap.add_argument("--exclude-words", default=r"naked|nude|sex|sexy|erotic|porn|strip(per|tease)?|burlesque",
+                    help="regex: titles matching it are skipped (family-friendly filter)")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--report", default="archive-report.md")
     a = ap.parse_args()
@@ -157,6 +178,8 @@ def main():
                 break
             lic = license_ok(d, a.allow_cc_by, a.include_pre1930)
             if not lic:
+                skipped["license"] += 1; continue
+            if a.exclude_words and re.search(r"\b(%s)\b" % a.exclude_words, str(d.get("title") or ""), re.I):
                 skipped["license"] += 1; continue
             if d["identifier"] in known_ids:
                 skipped["known"] += 1; continue
@@ -180,25 +203,26 @@ def main():
             title = clean_title(d.get("title"), year)
             tm = tmdb_lookup(title, year)
             name = title + (" (%s)" % year if year and not tm else "") + (" {tmdb-%d}" % tm[0] if tm else "")
+            grp = genre_group(tm[2], a.group) if tm else a.group
             if name.lower() in known_names:
                 skipped["known"] += 1; continue
             logo = tm[1] if tm and tm[1] else "https://archive.org/services/img/" + urllib.parse.quote(d["identifier"])
-            found.append(dict(id=d["identifier"], name=name, logo=logo, url=url, license=lic, year=year,
+            found.append(dict(id=d["identifier"], name=name, group=grp, logo=logo, url=url, license=lic, year=year,
                               minutes=round(mins), mb=round(int(f["size"]) / 1e6), downloads=int(d.get("downloads") or 0)))
         page += 1
 
     rep = ["# Internet Archive candidates (%s)" % ("APPLIED" if a.apply else "report only"), "",
            "Scanned %d items, %d candidates. Skipped: %s" % (scanned, len(found), skipped), "",
-           "| # | Title | Year | Min | MB | License | Downloads | Link |", "|---|---|---|---|---|---|---|---|"]
+           "| # | Title | Group | Year | Min | MB | License | Downloads | Link |", "|---|---|---|---|---|---|---|---|---|"]
     for i, f in enumerate(found, 1):
-        rep.append("| %d | %s | %s | %s | %s | %s | %s | %s |" % (i, f["name"], f["year"], f["minutes"], f["mb"], f["license"], f["downloads"], f["url"]))
+        rep.append("| %d | %s | %s | %s | %s | %s | %s | %s | %s |" % (i, f["name"], f["group"], f["year"], f["minutes"], f["mb"], f["license"], f["downloads"], f["url"]))
     open(a.report, "w", encoding="utf-8").write("\n".join(rep) + "\n")
     print("\n".join(rep))
 
     if a.apply and found:
         block = []
         for f in found:
-            block += ['#EXTINF:-1 tvg-name="%s"tvg-id=""tvg-logo="%s"tvg-chno=""tvg-type="movie"group-title="%s":http-referrer="",%s' % (f["name"], f["logo"], a.group, f["name"]), f["url"]]
+            block += ['#EXTINF:-1 tvg-name="%s"tvg-id=""tvg-logo="%s"tvg-chno=""tvg-type="movie"group-title="%s":http-referrer="",%s' % (f["name"], f["logo"], f["group"], f["name"]), f["url"]]
         # insert after the last movie entry that comes before the first series (movies sit before series)
         first_series = next((i for i, l in enumerate(lines) if l.startswith("#EXTINF") and 'tvg-type="series"' in l), len(lines))
         last = None
