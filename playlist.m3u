@@ -20632,8 +20632,6 @@ https://super-reseller.lovable.app/api/public/v/v-1ef731995ab1.mp4
 https://super-reseller.lovable.app/api/public/v/v-be8b8bdaa68f.mp4
 #EXTINF:-1 tvg-name="Sky Patrol {tmdb-342164}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/v2hnZx8eM7sCxZucr1C1XvFOUW9.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Sky Patrol {tmdb-342164}
 https://archive.org/download/sky_patrol_ipod/sky_patrol.mpeg_512kb.mp4
-#EXTINF:-1 tvg-name="Liane das Mädchen aus dem Urwald(Liane Jungle Goddess) (1956)"tvg-id=""tvg-logo="https://archive.org/services/img/liane_jungle_goddess"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Liane das Mädchen aus dem Urwald(Liane Jungle Goddess) (1956)
-https://archive.org/download/liane_jungle_goddess/laine_jungle_godess.mp4
 #EXTINF:-1 tvg-name="Call of the Yukon {tmdb-202895}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xZeSmjcx9aKXkQjI1Ndv1kZj2fn.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Call of the Yukon {tmdb-202895}
 https://archive.org/download/call_of_the_yukon/call_of_the_yukon.mp4
 #EXTINF:-1 tvg-name="Lost in the Stratosphere {tmdb-182922}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/w6ieJ6pJLNwz8aaA5qThHx3JI9X.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Lost in the Stratosphere {tmdb-182922}
@@ -20690,20 +20688,44 @@ https://archive.org/download/they_never_come_back/they_never_come_back.mp4
 https://archive.org/download/sunset_range/sunset_range.mp4
 #EXTINF:-1 tvg-name="Barefoot Boy {tmdb-38756}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fr6ag65vLop0cKpAnyST6f5y9KH.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Barefoot Boy {tmdb-38756}
 https://archive.org/download/barefoot_boy/barefoot_boy.mp4
+#EXTINF:-1 tvg-name="Pilot X {tmdb-39941}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/dVWN1MOCUzUzobRJhXxi1jhS35f.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Pilot X {tmdb-39941}
+https://archive.org/download/PilotX1936/PilotXAkaDeathInTheAir1936.mp4
+#EXTINF:-1 tvg-name="The White Warrior {tmdb-271572}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bFN4xwm03U4DCSdvOKdXDKGcubQ.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",The White Warrior {tmdb-271572}
+https://archive.org/download/TheWhiteWarrior1961/TheWhiteWarrior1961_512kb.mp4
+#EXTINF:-1 tvg-name="Gamera vs. Viras {tmdb-34131}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cVrmsX0O071tWBUQBtjSnIBFYk4.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Gamera vs. Viras {tmdb-34131}
+https://archive.org/download/Destroy_All_Planets/Destroy_All_Planets.mp4
+#EXTINF:-1 tvg-name="The Navy Way {tmdb-101282}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/69QU60YpK9TA40TEcSsWs2WoShx.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",The Navy Way {tmdb-101282}
+https://archive.org/download/The_Navy_Way_1944/TheNavyWay-1944.mp4
+#EXTINF:-1 tvg-name="WAGON WHEELS {tmdb-110832}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/uC9bpBlzgJ0jxWfVDsqrYvKpCV5.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",WAGON WHEELS {tmdb-110832}
+https://archive.org/download/WagonWheels/WagonWheels-randolphScott.mp4
+#EXTINF:-1 tvg-name="Fighting Caravans {tmdb-110659}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qvkwH2nYu0yFMdJYyU1Ie93s2Wo.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Fighting Caravans {tmdb-110659}
+https://archive.org/download/FightingCaravans1931_368/FightingCaravans1931.mp4
+#EXTINF:-1 tvg-name="King Solomon's Mines {tmdb-9838}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kpaW2gh0hjMPwoz30JL3gRKi2Ho.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",King Solomon's Mines {tmdb-9838}
+https://archive.org/download/KingSolomonsMines1937/KingSolomonsMines1937.mp4
+#EXTINF:-1 tvg-name="The Lawless Frontier {tmdb-49640}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9Vcv5AXFwUo931w7Ip0H32fIOAo.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",The Lawless Frontier {tmdb-49640}
+https://archive.org/download/TheLawlessFrontier1934/TheLawlessFrontier1934.mp4
+#EXTINF:-1 tvg-name="The Trail Beyond {tmdb-40797}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/uXhLH2HllQtTxP8wYc1NFwcxL9u.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",The Trail Beyond {tmdb-40797}
+https://archive.org/download/TheTrailBeyond1934/TheTrailBeyond1934.mp4
+#EXTINF:-1 tvg-name="Randy Rides Alone {tmdb-22602}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/5zloNmFTlitQoPVgpHnQD4JmOxd.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Randy Rides Alone {tmdb-22602}
+https://archive.org/download/RandyRidesAlone1934/RandyRidesAlone1934.mp4
+#EXTINF:-1 tvg-name="Beyond Bengal {tmdb-179513}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/yC99mAKHhWr5bdu2NprUruRmdtD.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Beyond Bengal {tmdb-179513}
+https://archive.org/download/beyond_bengal/beyond_bengal.mp4
+#EXTINF:-1 tvg-name="Tarzan the Fearless {tmdb-264223}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/63gUS8FXFpapOCUY2U7N33awMlI.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Tarzan the Fearless {tmdb-264223}
+https://archive.org/download/TarzanTheFearless1933/TarzanTheFearless1933.mp4
+#EXTINF:-1 tvg-name="Submarine Base {tmdb-100904}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cJAfucDHD0gr8GQdDfNF329qiHc.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Submarine Base {tmdb-100904}
+https://archive.org/download/SubmarineBase1943/SubmarineBase1943.mp4
+#EXTINF:-1 tvg-name="Harakiri (Fritz Lang) {tmdb-14537}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/5konZnIbcAxZjP616Cz5o9bKEfW.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Harakiri (Fritz Lang) {tmdb-14537}
+https://archive.org/download/Harakiri1919fritzLang/Harakiri1919_512kb.mp4
+#EXTINF:-1 tvg-name="Liane das Mädchen aus dem Urwald(Liane Jungle Goddess) {tmdb-96509}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sk8PVg6jT6bqeewgMHiHRwzUbdO.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Liane das Mädchen aus dem Urwald(Liane Jungle Goddess) {tmdb-96509}
+https://archive.org/download/liane_jungle_goddess/laine_jungle_godess.mp4
 #EXTINF:-1 tvg-name="Danger Flight {tmdb-306202}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sJkdZlkFwN74OwNGuov2UNhWbog.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Danger Flight {tmdb-306202}
 https://archive.org/download/danger_flight/danger_flight.mp4
-#EXTINF:-1 tvg-name="Last of the Mohicans (1920)"tvg-id=""tvg-logo="https://archive.org/services/img/last_of_the_mohicans_1920"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Last of the Mohicans (1920)
-https://archive.org/download/last_of_the_mohicans_1920/last_of_the_mohicans_silent_512kb.mp4
-#EXTINF:-1 tvg-name="The Lost Zeppelin"tvg-id=""tvg-logo="https://archive.org/services/img/TheLostZeppelin"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",The Lost Zeppelin
+#EXTINF:-1 tvg-name="The Lost Zeppelin {tmdb-219967}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j2q2fLNb3bdPrKRsUGEeQ2c0xbF.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",The Lost Zeppelin {tmdb-219967}
 https://archive.org/download/TheLostZeppelin/TheLostZeppelin.mp4
-#EXTINF:-1 tvg-name="Island of Lost Women"tvg-id=""tvg-logo="https://archive.org/services/img/IslandOfLostWomen"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Island of Lost Women
+#EXTINF:-1 tvg-name="Island of Lost Women {tmdb-116336}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/iKUtLCGrv30iHGaAOk1uLNd2lDU.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Island of Lost Women {tmdb-116336}
 https://archive.org/download/IslandOfLostWomen/IslandOfLostWomen.mp4
 #EXTINF:-1 tvg-name="Sabaka {tmdb-281449}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nkdNy8YU3KQEM9yauX1xgTI4ZGM.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Sabaka {tmdb-281449}
 https://archive.org/download/sabaka_ipod/sabaka_512kb.mp4
-#EXTINF:-1 tvg-name="Pilot X"tvg-id=""tvg-logo="https://archive.org/services/img/PilotX1936"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Pilot X
-https://archive.org/download/PilotX1936/PilotXAkaDeathInTheAir1936.mp4
-#EXTINF:-1 tvg-name="The Deerslayer"tvg-id=""tvg-logo="https://archive.org/services/img/TheDeerslayer1920"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",The Deerslayer
-https://archive.org/download/TheDeerslayer1920/TheDeerslayer_512kb.mp4
 #EXTINF:-1 tvg-name="Beneath the 12-Mile Reef {tmdb-22734}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lAeqIi5bxqmQNqSaHqNUZ0oVLo6.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Beneath the 12-Mile Reef {tmdb-22734}
 https://archive.org/download/beneath_the_12-mile_reef/beneath_the_12-mile_reef.mp4
 #EXTINF:-1 tvg-name="Queen of the Amazons {tmdb-23340}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pvAe5FiU2oCbmYiMwrXxEjkXzoX.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Queen of the Amazons {tmdb-23340}
@@ -20718,14 +20740,8 @@ https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_DVD_NTSC3
 https://archive.org/download/gullivers_travels1939/gullivers_travels1939.mp4
 #EXTINF:-1 tvg-name="The Snow Queen {tmdb-72214}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ptCK2qAyGEmQBys3cImY6o6qAyp.jpg"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",The Snow Queen {tmdb-72214}
 https://archive.org/download/the_snow_queen_1959_animation/snow_queen_us_version.mp4
-#EXTINF:-1 tvg-name="Rudolph The Red-Nosed Reindeer"tvg-id=""tvg-logo="https://archive.org/services/img/RudolphTheRed-nosedReindeer1948"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Rudolph The Red-Nosed Reindeer
+#EXTINF:-1 tvg-name="Rudolph The Red-Nosed Reindeer {tmdb-13382}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xjAElUhXuc7zFJPj3qUHjcySNsE.jpg"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Rudolph The Red-Nosed Reindeer {tmdb-13382}
 https://archive.org/download/RudolphTheRed-nosedReindeer1948/RudolphTheRed-nosedReindeer1948_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop: Training Pigeons (1936)"tvg-id=""tvg-logo="https://archive.org/services/img/Betty_Boop_Training_Pigeons_1936"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Betty Boop: Training Pigeons (1936)
-https://archive.org/download/Betty_Boop_Training_Pigeons_1936/Betty_Boop_Training_Pigeons_1936_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop: Whoops! I'm a Cowboy (1937)"tvg-id=""tvg-logo="https://archive.org/services/img/Betty_Boop_Whoops_Im_a_Cowboy_1937"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Betty Boop: Whoops! I'm a Cowboy (1937)
-https://archive.org/download/Betty_Boop_Whoops_Im_a_Cowboy_1937/Whoops_Im_a_Cowboy_1937_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop: The Scared Crows (1939)"tvg-id=""tvg-logo="https://archive.org/services/img/Betty_Boop_The_Scared_Crows_1939"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Betty Boop: The Scared Crows (1939)
-https://archive.org/download/Betty_Boop_The_Scared_Crows_1939/Betty_Boop_The_Scared_Crows_1939_512kb.mp4
 #EXTINF:-1 tvg-name="The Phantom Ship {tmdb-130068}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/w4qQMlFKqhWVylbGfKKISwwjehf.jpg"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",The Phantom Ship {tmdb-130068}
 https://archive.org/download/phantom_ship/phantom_ship.mp4
 #EXTINF:-1 tvg-name="The Adventures of Superman"tvg-id=""tvg-logo="https://archive.org/services/img/TheAdventuresOfSuperman"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",The Adventures of Superman
@@ -20740,7 +20756,7 @@ https://archive.org/download/my_favorite_brunette/my_favorite_brunette.mp4
 https://archive.org/download/royal_wedding/royal_wedding.mp4
 #EXTINF:-1 tvg-name="Meet John Doe {tmdb-32574}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/dnBZbFE2OGlTGNGBVTn6t83tJtd.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Meet John Doe {tmdb-32574}
 https://archive.org/download/meet_john_doe/meet_john_doe.mp4
-#EXTINF:-1 tvg-name="['The Three Stooges - Color Craziness' 'Color Craziness - The Three Stooges']"tvg-id=""tvg-logo="https://archive.org/services/img/ColorCrazinessTheThreeStooges"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",['The Three Stooges - Color Craziness' 'Color Craziness - The Three Stooges']
+#EXTINF:-1 tvg-name="['The Three Stooges - Color Craziness' 'Color Craziness - The Three Stooges'] {tmdb-76489}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/b0nNQCL90RGTwjxLEFsFFLQZKNe.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",['The Three Stooges - Color Craziness' 'Color Craziness - The Three Stooges'] {tmdb-76489}
 https://archive.org/download/ColorCrazinessTheThreeStooges/threestoogescolorcraziness.mp4
 #EXTINF:-1 tvg-name="Private Snuffy Smith {tmdb-260303}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/itAGhJdO9SKVte0R69iAEQG0SEm.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Private Snuffy Smith {tmdb-260303}
 https://archive.org/download/private_snuffy_smith/private_snuffy_smith.mp4
@@ -20776,15 +20792,15 @@ https://archive.org/download/Oh_Mr.Porter_1937/Oh_Mr.Porter_1937.mp4
 https://archive.org/download/loveLaughsatAndyHardy/love_laughs_at_andy_hardy_512kb.mp4
 #EXTINF:-1 tvg-name="Speak Easily {tmdb-43131}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pWVjJr90gKkt50omskSlT3t0Emy.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Speak Easily {tmdb-43131}
 https://archive.org/download/speak_easily/speak_easily_512kb.mp4
-#EXTINF:-1 tvg-name="So This is Washingtom (1943)"tvg-id=""tvg-logo="https://archive.org/services/img/so_this_is_washington_ipod"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",So This is Washingtom (1943)
+#EXTINF:-1 tvg-name="So This Is Washington {tmdb-94207}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xK0PHeUxzayWUvoBpU98aO0eBQe.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",So This Is Washington {tmdb-94207}
 https://archive.org/download/so_this_is_washington_ipod/so_this_is_washington_512kb.mp4
-#EXTINF:-1 tvg-name="PARLOR BEDROOM AND BATH"tvg-id=""tvg-logo="https://archive.org/services/img/ParlorBedroomAndBathImageQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",PARLOR BEDROOM AND BATH
+#EXTINF:-1 tvg-name="PARLOR BEDROOM AND BATH {tmdb-53571}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/y6vmo8pJjRBoByhdtIIJ7S10cvv.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",PARLOR BEDROOM AND BATH {tmdb-53571}
 https://archive.org/download/ParlorBedroomAndBathImageQualityUpgrade/ParlorBedroomAndBathImageQualityUpgrade.mp4
-#EXTINF:-1 tvg-name="Earthworm Tractors 720"tvg-id=""tvg-logo="https://archive.org/services/img/EarthwormTractors720"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Earthworm Tractors 720
+#EXTINF:-1 tvg-name="Earthworm Tractors {tmdb-38070}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ktlqPjFefKheO4d58f5XYx3PwYX.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Earthworm Tractors {tmdb-38070}
 https://archive.org/download/EarthwormTractors720/EarthwormTractors720.mp4
-#EXTINF:-1 tvg-name="Half Shot at Sunrse (1930)"tvg-id=""tvg-logo="https://archive.org/services/img/half_shot_at_sunrise"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Half Shot at Sunrse (1930)
+#EXTINF:-1 tvg-name="Half Shot at Sunrise {tmdb-85610}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9dR87HholUpWWE5NmB53iaORDxg.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Half Shot at Sunrise {tmdb-85610}
 https://archive.org/download/half_shot_at_sunrise/half_shot_at_sunrise_512kb.mp4
-#EXTINF:-1 tvg-name="His Royal Highness"tvg-id=""tvg-logo="https://archive.org/services/img/HisRoyalHighness"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",His Royal Highness
+#EXTINF:-1 tvg-name="His Royal Highness {tmdb-158686}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fPVVlESwyvb3quz8rCNxyVCkr6p.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",His Royal Highness {tmdb-158686}
 https://archive.org/download/HisRoyalHighness/HisRoyalHighness.mp4
 #EXTINF:-1 tvg-name="Irish Luck {tmdb-259940}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/wJ5OglxXFSB1w0UGjexWXNrVEBn.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Irish Luck {tmdb-259940}
 https://archive.org/download/irish_luck_ipod/irish_luck_512kb.mp4
@@ -20890,6 +20906,40 @@ https://archive.org/download/Murder_by_Invitation_1941/Murder_by_Invitation_576x
 https://archive.org/download/Friday_the_Thirteenth_1933/Friday_the_Thirteenth_1933.mp4
 #EXTINF:-1 tvg-name="Breakfast in Hollywood {tmdb-117686}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/iQ8yxsb790UA6gkcYH6WovNHWAg.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Breakfast in Hollywood {tmdb-117686}
 https://archive.org/download/breakfast_in_hollywood/Breakfast_in_Hollywood_512kb.mp4
+#EXTINF:-1 tvg-name="The Fat Man {tmdb-1759660}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/40wFiEOulmxSq6Jdtqeyr0PCkzn.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",The Fat Man {tmdb-1759660}
+https://archive.org/download/TheFatMan1951/TheFatMan_512kb.mp4
+#EXTINF:-1 tvg-name="The Bat {tmdb-27501}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2l6KQPfoz9j1JOulfLstfC8YES3.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",The Bat {tmdb-27501}
+https://archive.org/download/TheBat1926WithSoundtrack/TheBat1926WithSoundtrack_512kb.mp4
+#EXTINF:-1 tvg-name="Love Island {tmdb-270224}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/gzgkRnYRgifRQzx4jE3wPDh8i79.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Love Island {tmdb-270224}
+https://archive.org/download/love_island/love_island.mp4
+#EXTINF:-1 tvg-name="My Love for Your (AKA Honeymoon in Bali) {tmdb-98125}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/8a4HXvql8Ck85AJAUOqq8DI0NVB.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",My Love for Your (AKA Honeymoon in Bali) {tmdb-98125}
+https://archive.org/download/my_love_for_yours_ipod/my_love_for_yours_512kb.mp4
+#EXTINF:-1 tvg-name="The General ( & clearer) {tmdb-961}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4NmV1Wei4LxT2lpjViCAScgCZLq.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",The General ( & clearer) {tmdb-961}
+https://archive.org/download/The_General_Buster_Keaton/The_General.mp4
+#EXTINF:-1 tvg-name="Sky High {tmdb-11459}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nBB0XNMwvYvWpo67EcxQqKMoMKf.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Sky High {tmdb-11459}
+https://archive.org/download/SkyHigh1922/SkyHigh1922_512kb.mp4
+#EXTINF:-1 tvg-name="My Man Godfrey {tmdb-52470}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xiuBb8WwpYoLBVRygmIo0mnLxXs.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",My Man Godfrey {tmdb-52470}
+https://archive.org/download/MyManGodfrey1936/MyManGodfrey1936.mp4
+#EXTINF:-1 tvg-name="A Bucket of Blood {tmdb-22642}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fUZqTNinLruI6ZE7GQprY8t0Uwg.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",A Bucket of Blood {tmdb-22642}
+https://archive.org/download/ABucketOfBlood1959/A_Bucket_Of_Blood.mp4
+#EXTINF:-1 tvg-name="Hi Diddle Diddle {tmdb-90799}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/8d9YPEkSzwA6A1YlcyhldKtpJhJ.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Hi Diddle Diddle {tmdb-90799}
+https://archive.org/download/HiDiddleDiddle/HiDiddleDiddle1943.mp4
+#EXTINF:-1 tvg-name="His Private Secretary {tmdb-36499}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/34JTCusoiBYqyokYNBnzVHRRhDg.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",His Private Secretary {tmdb-36499}
+https://archive.org/download/HisPrivateSecretary1933/HisPrivateSecretary1933.mp4
+#EXTINF:-1 tvg-name="Dreaming Out Loud {tmdb-138461}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sCmFa8pr1Nh9MQaUogYvMDlZ7dK.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Dreaming Out Loud {tmdb-138461}
+https://archive.org/download/DreamingOutLoud1940/DreamingOutLoud1940.mp4
+#EXTINF:-1 tvg-name="Judge Priest {tmdb-23024}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/vo7jPkmVR4M0rlw4wwM31bUopyK.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Judge Priest {tmdb-23024}
+https://archive.org/download/JudgePriest1934/JudgePriest1934.mp4
+#EXTINF:-1 tvg-name="SHAKE RATTLE AND ROCK {tmdb-104501}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ar3PggnQs2Fti6ux9HGJk3KYs4t.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",SHAKE RATTLE AND ROCK {tmdb-104501}
+https://archive.org/download/ShakeRattleAndRock/ShakeRattleRock_512kb.mp4
+#EXTINF:-1 tvg-name="Bill and Coo {tmdb-1067292}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6907YlE8Ypj9UPf8bPTUZoywdL8.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Bill and Coo {tmdb-1067292}
+https://archive.org/download/BillAndCoo1948/BillandCoo.mp4
+#EXTINF:-1 tvg-name="Three Guys Named Mike {tmdb-113823}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g4ZTfjRnxmnxLo8Px2q2jVMBm58.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Three Guys Named Mike {tmdb-113823}
+https://archive.org/download/ThreeGuysNamedMike1951/ThreeGuysNamedMike1951.mp4
+#EXTINF:-1 tvg-name="RAGGEDY ROSE {tmdb-189624}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/jauw5C30m6eGT7z7uldYbcK4pNx.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",RAGGEDY ROSE {tmdb-189624}
+https://archive.org/download/RaggedyRose1926_129/Raggedy-Rose2.mp4
+#EXTINF:-1 tvg-name="The Crazy Ray {tmdb-47579}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xEoZcxj2Zi5P7A5ayPXHy457tlB.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",The Crazy Ray {tmdb-47579}
+https://archive.org/download/TheCrazyRay/TheCrazyRay_512kb.mp4
 #EXTINF:-1 tvg-name="The Godfather {tmdb-238}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",The Godfather {tmdb-238}
 https://super-reseller.lovable.app/api/public/v/v-b70c82a3a1fc.mp4
 #EXTINF:-1 tvg-name="The Godfather Part II {tmdb-240}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",The Godfather Part II {tmdb-240}
@@ -20912,13 +20962,13 @@ https://archive.org/download/Phantom_of_Chinatown_1940/Phantom_of_Chinatown_512k
 https://archive.org/download/abe_lincoln_of_the_4th_ave/abe_lincoln_of_the_4th_ave.mp4
 #EXTINF:-1 tvg-name="I Love Trouble {tmdb-37484}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cDVCZx45xkd16MaWQIrswwKeJgL.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",I Love Trouble {tmdb-37484}
 https://archive.org/download/I_Love_Trouble_movie/I_Love_Trouble.mp4
-#EXTINF:-1 tvg-name="Timetable (aka Time Table) (1956)"tvg-id=""tvg-logo="https://archive.org/services/img/Timetable1956"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Timetable (aka Time Table) (1956)
+#EXTINF:-1 tvg-name="Timetable (aka Time Table) {tmdb-41553}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/z1t1STbnyahTBqXgrDGGvebLXaa.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Timetable (aka Time Table) {tmdb-41553}
 https://archive.org/download/Timetable1956/Timetable1956.mp4
 #EXTINF:-1 tvg-name="A Close Call for Boston Blackie {tmdb-69682}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/yAIxg1X1f1KcXwHsQoeaAfv315X.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",A Close Call for Boston Blackie {tmdb-69682}
 https://archive.org/download/ACloseCallForBostonBlackie/ACloseCallForBostonBlackie.mp4
 #EXTINF:-1 tvg-name="Last Alarm (1940)"tvg-id=""tvg-logo="https://archive.org/services/img/last_alarm"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Last Alarm (1940)
 https://archive.org/download/last_alarm/last_alarm.mp4
-#EXTINF:-1 tvg-name="Five Minutes to Live / AKA Door-to-Door Maniac (1961)"tvg-id=""tvg-logo="https://archive.org/services/img/five_minutes_to_live"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Five Minutes to Live / AKA Door-to-Door Maniac (1961)
+#EXTINF:-1 tvg-name="Five Minutes to Live {tmdb-37560}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/aIduD55OQKSwC3XU34PF3ClwIW7.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Five Minutes to Live {tmdb-37560}
 https://archive.org/download/five_minutes_to_live/Five_Minutes_to_Live.mp4
 #EXTINF:-1 tvg-name="Prison Mutiny (1943)"tvg-id=""tvg-logo="https://archive.org/services/img/prison_mutiny_ipod"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Prison Mutiny (1943)
 https://archive.org/download/prison_mutiny_ipod/prison_mutiny_512kb.mp4
@@ -20936,8 +20986,6 @@ https://archive.org/download/The_Kennel_Murder_Case_1933/The_Kennel_Murder_Case_
 https://archive.org/download/devil_diamond_ipod/devil_diamond_512kb.mp4
 #EXTINF:-1 tvg-name="Bank Alarm {tmdb-208522}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4pmXmItZZNtoHvASFso8MWnwWte.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Bank Alarm {tmdb-208522}
 https://archive.org/download/bank_alarm_ipod/bank_alarm_512kb.mp4
-#EXTINF:-1 tvg-name="The Rebel Set"tvg-id=""tvg-logo="https://archive.org/services/img/TheRebelSet1959_754"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",The Rebel Set
-https://archive.org/download/TheRebelSet1959_754/TheRebelSet1959.mp4
 #EXTINF:-1 tvg-name="The Klansman {tmdb-77765}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3dqY2dRGc27rXuYwJL7ipMDs5WB.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",The Klansman {tmdb-77765}
 https://archive.org/download/the_klansman_1974/the_klansman.mp4
 #EXTINF:-1 tvg-name="Convict's Code {tmdb-120581}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nyjzfTx8CDEQhpERgN0K40hP121.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Convict's Code {tmdb-120581}
@@ -21000,14 +21048,16 @@ https://archive.org/download/scarlet_street_ipod/Scarlet_Street_512kb.mp4
 https://archive.org/download/gamblers_choice/gamblers_choice.mp4
 #EXTINF:-1 tvg-name="Dangerous Passage {tmdb-167750}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/iLKDEXHENKsYH18knJPPrzquMab.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Dangerous Passage {tmdb-167750}
 https://archive.org/download/dangerous_passage/dangerous_passage.mp4
-#EXTINF:-1 tvg-name="D.O.A. (1955)"tvg-id=""tvg-logo="https://archive.org/services/img/doa_ipod"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",D.O.A. (1955)
-https://archive.org/download/doa_ipod/doa_512kb.mp4
 #EXTINF:-1 tvg-name="Lady Gangster {tmdb-23107}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2KSdJpq3b2FOKm1iy8j3JX3D0bz.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Lady Gangster {tmdb-23107}
 https://archive.org/download/Lady.Gangster/Lady.Gangster_512kb.mp4
-#EXTINF:-1 tvg-name="The Fat Man"tvg-id=""tvg-logo="https://archive.org/services/img/TheFatMan1951"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",The Fat Man
-https://archive.org/download/TheFatMan1951/TheFatMan_512kb.mp4
 #EXTINF:-1 tvg-name="The man who cheated himself {tmdb-38751}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/jJKWfhHjDaFGSNvRnXx0Xxehhls.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",The man who cheated himself {tmdb-38751}
 https://archive.org/download/TheManWhoCheatedHimself1950/TheManWhoCheatedHimself1950.mp4
+#EXTINF:-1 tvg-name="Dr. Mabuse the Gambler {tmdb-5998}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/giarOpuBw8fRlNejbBbPMlRHz1I.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Dr. Mabuse the Gambler {tmdb-5998}
+https://archive.org/download/Dr.MabuseTheGamblerdr.MabuseDerSpieler1922Part1/DrMabuseDerSpielerPart11922_512kb.mp4
+#EXTINF:-1 tvg-name="Blonde Ice {tmdb-41487}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lTrelCTjiWPKtqrUaIYsTtYRPv0.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Blonde Ice {tmdb-41487}
+https://archive.org/download/BlondeIce1948/BlondeIce1948.mp4
+#EXTINF:-1 tvg-name="City Without Men {tmdb-302529}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4jpyYAHmze7H4QX2Vq4AoAoeXM1.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",City Without Men {tmdb-302529}
+https://archive.org/download/CityWithoutMen1943/CityWithoutMen1943.mp4
 #EXTINF:-1 tvg-name="Nazi Concentration Camps {tmdb-207659}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ihhIITb37XmCPf6ST31fkToUjei.jpg"tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",Nazi Concentration Camps {tmdb-207659}
 https://archive.org/download/nazi_concentration_camps/nazi_concentration_camps.mp4
 #EXTINF:-1 tvg-name="Rhythm and Blues Revue {tmdb-117687}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/quaxYpzomSioh2PHkagayLrH5WB.jpg"tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",Rhythm and Blues Revue {tmdb-117687}
@@ -21016,6 +21066,12 @@ https://archive.org/download/rhythm_blues_review/rhythm_blues_review.mp4
 https://archive.org/download/war_comes_to_america/war_comes_to_america.mp4
 #EXTINF:-1 tvg-name="Why We Fight: Prelude to War {tmdb-23336}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/vpkCDbVQDXth2lK3Zw5FYcxAvX3.jpg"tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",Why We Fight: Prelude to War {tmdb-23336}
 https://archive.org/download/wwf_prelude_to_war/The_Nazis_Strike_512kb.mp4
+#EXTINF:-1 tvg-name="The Secret Life of Adolf Hitler {tmdb-213876}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zbAVveR9hT2U7lsSktXJ30MZsiX.jpg"tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",The Secret Life of Adolf Hitler {tmdb-213876}
+https://archive.org/download/TheSecretLifeOfAdolfHitler/SecretLifeOfAdolphHitler_512kb.mp4
+#EXTINF:-1 tvg-name="Triumph Of The Will (Triumph Des Willen) {tmdb-39266}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hyXCugoQzJ85mdrdz4dboqP8FoX.jpg"tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",Triumph Of The Will (Triumph Des Willen) {tmdb-39266}
+https://archive.org/download/TriumphOfTheWilltriumphDesWillen/TriumphDesWillen_512kb.mp4
+#EXTINF:-1 tvg-name="The Rebel Set {tmdb-127186}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7jZthaY0XP00ZkpX9lmPFY0F5Yo.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",The Rebel Set {tmdb-127186}
+https://archive.org/download/TheRebelSet1959_754/TheRebelSet1959.mp4
 #EXTINF:-1 tvg-name="Kid Monk Baroni {tmdb-81235}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sLU9HrCKUp8ZDdk3P0MJ6SRyD6D.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",Kid Monk Baroni {tmdb-81235}
 https://archive.org/download/Kid_Monk_Baroni/Kid_Monk_Baroni_512kb.mp4
 #EXTINF:-1 tvg-name="The Contender {tmdb-242668}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/epSGHw4veWR2hALhs9r7ClYWeDB.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",The Contender {tmdb-242668}
@@ -21026,8 +21082,6 @@ https://archive.org/download/reefer_madness1938/reefer_madness1938.mp4
 https://archive.org/download/oliver_twist/oliver_twist.mp4
 #EXTINF:-1 tvg-name="The Great Commandment {tmdb-327845}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/rZLVMmEvoELj9i3CxPtrCbYwYFy.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",The Great Commandment {tmdb-327845}
 https://archive.org/download/great_commandment/great_commandment.mp4
-#EXTINF:-1 tvg-name="The White Warrior (1961)"tvg-id=""tvg-logo="https://archive.org/services/img/TheWhiteWarrior1961"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",The White Warrior (1961)
-https://archive.org/download/TheWhiteWarrior1961/TheWhiteWarrior1961_512kb.mp4
 #EXTINF:-1 tvg-name="Club Paradise (1945)"tvg-id=""tvg-logo="https://archive.org/services/img/club_paradise"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",Club Paradise (1945)
 https://archive.org/download/club_paradise/club_paradise.mp4
 #EXTINF:-1 tvg-name="I'll Give My Life {tmdb-337908}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tGMbxzobhoT1QUrfvfu92o2o2lv.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",I'll Give My Life {tmdb-337908}
@@ -21078,6 +21132,16 @@ https://archive.org/download/in_love_with_life/in_love_with_life.mp4
 https://archive.org/download/tomorrows_youth/tomorrows_youth.mp4
 #EXTINF:-1 tvg-name="Are We Civilized? {tmdb-179554}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/oAxZdp2pRcNR7RcWx7tw3Dq1nlc.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",Are We Civilized? {tmdb-179554}
 https://archive.org/download/AreWeCivilized_987/AreWeCivilized_512kb.mp4
+#EXTINF:-1 tvg-name="Eisenstein - October {tmdb-93271}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zsyzmBt8C5SYDLOOLO0KFjsIls7.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",Eisenstein - October {tmdb-93271}
+https://archive.org/download/Eisenstein-October/Oktyabr1927_512kb.mp4
+#EXTINF:-1 tvg-name="Prison Nurse {tmdb-268353}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hD32iWxJd72sEVk9JSicz2fXo3F.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",Prison Nurse {tmdb-268353}
+https://archive.org/download/PrisonNurse_108/PrisonNurse-1938.mp4
+#EXTINF:-1 tvg-name="The Road To Ruin {tmdb-408948}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/smjrk1gzLdjjnaPd6yGECerg2M.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",The Road To Ruin {tmdb-408948}
+https://archive.org/download/TheRoadToRuin_457/TheRoadToRuin-1934.mp4
+#EXTINF:-1 tvg-name="Tulsa {tmdb-104083}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mQMWt7KormvYxsbjcHwNpAuNi2p.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",Tulsa {tmdb-104083}
+https://archive.org/download/Tulsa1949/Tulsa_1949.mp4
+#EXTINF:-1 tvg-name="The Goddess {tmdb-3081}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/h11LvMn0hOZFqub8LL9vFT0jctV.jpg"tvg-chno=""tvg-type="movie"group-title="Drama":http-referrer="",The Goddess {tmdb-3081}
+https://archive.org/download/TheGoddess_280/TheGoddess_512kb.mp4
 #EXTINF:-1 tvg-name="The Little Princess {tmdb-26531}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cnMSURyv7R6gjmUm5SYdTxXLzIO.jpg"tvg-chno=""tvg-type="movie"group-title="Family":http-referrer="",The Little Princess {tmdb-26531}
 https://archive.org/download/little_princess/little_princess.mp4
 #EXTINF:-1 tvg-name="The Lost World {tmdb-2981}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/411VnWtYJdEFKiaGqJOeTmBv8th.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",The Lost World {tmdb-2981}
@@ -21096,8 +21160,6 @@ https://super-reseller.lovable.app/api/public/v/v-fe4433d8ca83.mp4
 https://super-reseller.lovable.app/api/public/v/v-45a799a2d186.mp4
 #EXTINF:-1 tvg-name="The Lord of the Rings The Return of the King {tmdb-122}" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg" group-title="Fantasy" tvg-type="movie",The Lord of the Rings The Return of the King {tmdb-122}
 https://super-reseller.lovable.app/api/public/v/v-6dd4ad01ec24.mp4
-#EXTINF:-1 tvg-name="THE MAGIC SWORD widescreen & quality upgrade"tvg-id=""tvg-logo="https://archive.org/services/img/TheMagicSwordWidescreenQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",THE MAGIC SWORD widescreen & quality upgrade
-https://archive.org/download/TheMagicSwordWidescreenQualityUpgrade/TheMagicSwordWidescreenQualityUpgrade.mp4
 #EXTINF:-1 tvg-name="Hercules and the Captive Women {tmdb-42576}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/w7AmUyC8irs9ho31dC4SEl2mLRb.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Hercules and the Captive Women {tmdb-42576}
 https://archive.org/download/cco__HerculesandtheCaptiveWomen/cco_herculesandthecaptivewomen.mp4
 #EXTINF:-1 tvg-name="Hercules Unchained {tmdb-39402}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4lzZhokSXwb93GlrREMuRLw0SLL.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Hercules Unchained {tmdb-39402}
@@ -21108,8 +21170,16 @@ https://archive.org/download/Hercules_and_the_Tyrants_of_Babylon/Hercules_and_th
 https://archive.org/download/Hercules_Against_the_Moon_Men/Hercules_Against_the_Moon_Men.mp4
 #EXTINF:-1 tvg-name="Alice in Wonderland {tmdb-87300}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6R12mA8mHhjcpo7V9OkMBU4Mnqd.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Alice in Wonderland {tmdb-87300}
 https://archive.org/download/AliceInWonderland1915_72/AliceInWonderlandWWYoung1915_512kb.mp4
-#EXTINF:-1 tvg-name="AELITA: QUEEN OF MARS ()"tvg-id=""tvg-logo="https://archive.org/services/img/AelitaQueenOfMarsoriginalVersion"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",AELITA: QUEEN OF MARS ()
-https://archive.org/download/AelitaQueenOfMarsoriginalVersion/AelitaQueenOfMarsoriginalVersion.mp4
+#EXTINF:-1 tvg-name="Dark Journey {tmdb-596039}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6zpcJO1ppR6wFgZs6U8sc7J8afk.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Dark Journey {tmdb-596039}
+https://archive.org/download/DarkJourney1937/DarkJourney1937.mp4
+#EXTINF:-1 tvg-name="Santa Claus (versus the devil) {tmdb-13383}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4wI91ojyHnUaNJzYlaFRuhqkRCh.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Santa Claus (versus the devil) {tmdb-13383}
+https://archive.org/download/SantaClausversusTheDevil/SantaClaus_1_512kb.mp4
+#EXTINF:-1 tvg-name="Zvenigora {tmdb-82088}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3Ry20Hx3xnjDOisWdbLVATFZnXy.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Zvenigora {tmdb-82088}
+https://archive.org/download/Zwenigora/Zwenigora_512kb.mp4
+#EXTINF:-1 tvg-name="The Last of the Mohicans {tmdb-71065}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kNpjv5byJM8H83JJwPLMDyB095t.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",The Last of the Mohicans {tmdb-71065}
+https://archive.org/download/last_of_the_mohicans_1920/last_of_the_mohicans_silent_512kb.mp4
+#EXTINF:-1 tvg-name="The Deerslayer {tmdb-389993}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/k89sp3nPJfNVyh8BICV9sqiBLD5.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",The Deerslayer {tmdb-389993}
+https://archive.org/download/TheDeerslayer1920/TheDeerslayer_512kb.mp4
 #EXTINF:-1 tvg-name="Hearts In Bondage {tmdb-99994}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/5rsuLbAiIVLW70rgvghcpF1tfB0.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Hearts In Bondage {tmdb-99994}
 https://archive.org/download/hearts_in_bondage/hearts_in_bondage.mp4
 #EXTINF:-1 tvg-name="Rembrandt {tmdb-50031}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mGoJsDTITN1WBCEUzbSQEEUIGzj.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Rembrandt {tmdb-50031}
@@ -21120,6 +21190,10 @@ https://andam.uk/vod/video_54954c/index.m3u8
 https://archive.org/download/abraham_lincoln/abraham_lincoln.mp4
 #EXTINF:-1 tvg-name="Waltzes from Vienna {tmdb-52907}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/34AL66MN44fJKiFjaHNPdqftqsY.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Waltzes from Vienna {tmdb-52907}
 https://archive.org/download/Waltzes_from_Vienna/Waltzes_from_Vienna_512kb.mp4
+#EXTINF:-1 tvg-name="Battleship Potemkin {tmdb-643}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hZmsRLsCnE9Zshf1YJONUpCOhds.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Battleship Potemkin {tmdb-643}
+https://archive.org/download/BattleshipPotemkin_644/TheBattleshipPotemkinsergeiM.Eisenstein1925.mp4
+#EXTINF:-1 tvg-name="The Private Life of Henry VIII {tmdb-43122}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ncQC8U3gGFhCTWlxxn32nkFr2d4.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",The Private Life of Henry VIII {tmdb-43122}
+https://archive.org/download/ThePrivateLifeOfHenryViii1933/ThePrivateLifeOfHenryViii1933.mp4
 #EXTINF:-1 tvg-name="Resident Evil {tmdb-1423191}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Resident Evil {tmdb-1423191}
 https://super-reseller.lovable.app/api/public/v/v-f502b3413028.mp4
 #EXTINF:-1 tvg-name="House on Haunted Hill {tmdb-15856}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",House on Haunted Hill {tmdb-15856}
@@ -21150,21 +21224,17 @@ https://archive.org/download/CreatureFromTheHauntedSea/CreatureFromTheHauntedSea
 https://archive.org/download/SilentNightBloodyNight/Silent_Night_Bloody_Night.mp4
 #EXTINF:-1 tvg-name="The Terror {tmdb-31655}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7ls64LquXB0nc5MkJFWyWaXlBLj.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Terror {tmdb-31655}
 https://archive.org/download/TheTerror/TheTerror.mp4
-#EXTINF:-1 tvg-name="Shocker Internet Drive In - Week 18: A Naschy Double Feature"tvg-id=""tvg-logo="https://archive.org/services/img/ShockerInternetDriveIn-Week18aNaschyDoubleFeature"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Shocker Internet Drive In - Week 18: A Naschy Double Feature
-https://archive.org/download/ShockerInternetDriveIn-Week18aNaschyDoubleFeature/week_18.mp4
-#EXTINF:-1 tvg-name="The Day of the Triffids"tvg-id=""tvg-logo="https://archive.org/services/img/TheDayOfTheTriffids"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Day of the Triffids
-https://archive.org/download/TheDayOfTheTriffids/TheDayOfTheTriffids.mp4
 #EXTINF:-1 tvg-name="Wolf Blood {tmdb-41019}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qbTHP0ETSlvcDTqT2isJjohkRoq.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Wolf Blood {tmdb-41019}
 https://archive.org/download/WolfBlood1925/WolfBlood_512kb.mp4
 #EXTINF:-1 tvg-name="Dead Men Walk {tmdb-41023}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1AqEIyA6BndGYcNkcUJwXxvEFjq.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Dead Men Walk {tmdb-41023}
 https://archive.org/download/DeadMenWalk/DeadMenWalk.mp4
-#EXTINF:-1 tvg-name="VAMPYR"tvg-id=""tvg-logo="https://archive.org/services/img/Vampyr1932"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",VAMPYR
+#EXTINF:-1 tvg-name="VAMPYR {tmdb-779}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/yt3JS5JSoZseSohYkhs6FLU9B0O.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",VAMPYR {tmdb-779}
 https://archive.org/download/Vampyr1932/NVEExport.mp4
 #EXTINF:-1 tvg-name="Werewolf of Washington (1973)"tvg-id=""tvg-logo="https://archive.org/services/img/werewolf_washington"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Werewolf of Washington (1973)
 https://archive.org/download/werewolf_washington/werewolf_of_washington_512kb.mp4
 #EXTINF:-1 tvg-name="Dead People (1973)"tvg-id=""tvg-logo="https://archive.org/services/img/dead_people_ipod"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Dead People (1973)
 https://archive.org/download/dead_people_ipod/dead_people_512kb.mp4
-#EXTINF:-1 tvg-name="Horrors of Spider Island (1962)"tvg-id=""tvg-logo="https://archive.org/services/img/Horrors_of_Spider_Island"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Horrors of Spider Island (1962)
+#EXTINF:-1 tvg-name="Horrors of Spider Island {tmdb-31392}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zeT4ZDY2TpUKY0rYijfzQh8HTUv.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Horrors of Spider Island {tmdb-31392}
 https://archive.org/download/Horrors_of_Spider_Island/Horrors_of_Spider_Island.mp4
 #EXTINF:-1 tvg-name="The Little Shop of Horrors {tmdb-24452}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/s9MrumN9oCfv1rFoEvMLwucWD7V.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Little Shop of Horrors {tmdb-24452}
 https://archive.org/download/The_Little_Shop_of_Horrors.mpeg/The_Little_Shop_of_Horrors.mp4
@@ -21174,32 +21244,26 @@ https://archive.org/download/Scared_to_Death/Scared_to_Death.mp4
 https://archive.org/download/TheVampireBat/TheVampireBat.mp4
 #EXTINF:-1 tvg-name="The Phantom of the Opera {tmdb-964}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mvaYpAYj957C2tlq3vVJPSzGJXK.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Phantom of the Opera {tmdb-964}
 https://archive.org/download/ThePhantomOfTheOpera_364/ThePhantomOfTheOperaPresentedByMoviePowder_512kb.mp4
-#EXTINF:-1 tvg-name="YONGARY - Monster from the Deep"tvg-id=""tvg-logo="https://archive.org/services/img/Yongary-MonsterFromTheDeep"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",YONGARY - Monster from the Deep
+#EXTINF:-1 tvg-name="YONGARY - Monster from the Deep {tmdb-42699}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/8o0ZwBHqueNvlynd2VX4xySRrFM.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",YONGARY - Monster from the Deep {tmdb-42699}
 https://archive.org/download/Yongary-MonsterFromTheDeep/Yongara_512kb.mp4
-#EXTINF:-1 tvg-name="Trauma"tvg-id=""tvg-logo="https://archive.org/services/img/Trauma1962"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Trauma
-https://archive.org/download/Trauma1962/Trauma1962.mp4
-#EXTINF:-1 tvg-name="Jesse James Meets Frankenstein's Daughter"tvg-id=""tvg-logo="https://archive.org/services/img/JesseJamesMeetsFrankensteinsDaughter1966"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Jesse James Meets Frankenstein's Daughter
+#EXTINF:-1 tvg-name="Jesse James Meets Frankenstein's Daughter {tmdb-3149}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/v4CQ0oP2ISRReZABJNcVWrvetCY.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Jesse James Meets Frankenstein's Daughter {tmdb-3149}
 https://archive.org/download/JesseJamesMeetsFrankensteinsDaughter1966/JesseJamesMeetsFrankensteinsDaughter1966.mp4
 #EXTINF:-1 tvg-name="The Brain That Wouldn't Die {tmdb-33468}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/npg6NH4maZ4NTTWzA71KNCTvQNG.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Brain That Wouldn't Die {tmdb-33468}
 https://archive.org/download/TheBrainThatWouldntDie_165/TheBrainThatWouldNotDie1962.mp4
-#EXTINF:-1 tvg-name="I Bury The Living"tvg-id=""tvg-logo="https://archive.org/services/img/IBuryTheLiving1958"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",I Bury The Living
-https://archive.org/download/IBuryTheLiving1958/IBuryTheLiving1958.mp4
 #EXTINF:-1 tvg-name="The Killer Shrews {tmdb-43109}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2agTmqPg2we1gd4Fr1p2UNAMORI.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Killer Shrews {tmdb-43109}
 https://archive.org/download/The_Killer_Shrews_1959/The_Killer_Shrews_512kb.mp4
-#EXTINF:-1 tvg-name="I Eat Your Skin"tvg-id=""tvg-logo="https://archive.org/services/img/IEatYourSkin1970"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",I Eat Your Skin
+#EXTINF:-1 tvg-name="I Eat Your Skin {tmdb-1296949}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/x20hgyGJv36CUZsX5jDFDDHztyB.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",I Eat Your Skin {tmdb-1296949}
 https://archive.org/download/IEatYourSkin1970/IEatYourSkin.mp4
-#EXTINF:-1 tvg-name="BRIDE OF THE GORILLA"tvg-id=""tvg-logo="https://archive.org/services/img/BrideOfTheGorillamostCompleteVersion"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",BRIDE OF THE GORILLA
+#EXTINF:-1 tvg-name="BRIDE OF THE GORILLA {tmdb-22856}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/5sk3yl6zhpQptkqu0eqiqHSox7L.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",BRIDE OF THE GORILLA {tmdb-22856}
 https://archive.org/download/BrideOfTheGorillamostCompleteVersion/BrideOfTheGorillamostCompleteVersion.mp4
-#EXTINF:-1 tvg-name="The Giant Gila Monster"tvg-id=""tvg-logo="https://archive.org/services/img/TheGiantGilaMonster"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Giant Gila Monster
+#EXTINF:-1 tvg-name="The Giant Gila Monster {tmdb-34077}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/o7LI2NQ0KtDaVaIYYhZ9PHFDV37.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Giant Gila Monster {tmdb-34077}
 https://archive.org/download/TheGiantGilaMonster/The_Giant_Gila_Monster.mp4
 #EXTINF:-1 tvg-name="The Monster Maker {tmdb-108382}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/8jJPN5D52XZX4JwRILETQ7RejUF.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Monster Maker {tmdb-108382}
 https://archive.org/download/monster_maker_ipod/the_monster_maker_512kb.mp4
 #EXTINF:-1 tvg-name="The Devil Bat {tmdb-41021}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g1boVvNLVKYbP2H7MoGol9sQAIH.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Devil Bat {tmdb-41021}
 https://archive.org/download/Devil_Bat_movie/Devil_Bat_512x384.mp4
-#EXTINF:-1 tvg-name="The Devil's Hand"tvg-id=""tvg-logo="https://archive.org/services/img/TheDevilsHand1962"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Devil's Hand
+#EXTINF:-1 tvg-name="The Devil's Hand {tmdb-48421}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nLQawCmsE2rKKkvAav6u7FLl2jx.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Devil's Hand {tmdb-48421}
 https://archive.org/download/TheDevilsHand1962/TheDevilsHand1962.mp4
-#EXTINF:-1 tvg-name="The Bat with soundtrack (1926)"tvg-id=""tvg-logo="https://archive.org/services/img/TheBat1926WithSoundtrack"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Bat with soundtrack (1926)
-https://archive.org/download/TheBat1926WithSoundtrack/TheBat1926WithSoundtrack_512kb.mp4
 #EXTINF:-1 tvg-name="Bloodlust! {tmdb-22749}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/yWqwoB0ILwhTwyPGPZQ9FZJhjMx.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Bloodlust! {tmdb-22749}
 https://archive.org/download/Bloodlust.mpeg/Bloodlust.mp4
 #EXTINF:-1 tvg-name="The Bat {tmdb-35813}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/78PVHYnadZ0e2BkBBSNonMZvViB.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Bat {tmdb-35813}
@@ -21216,22 +21280,36 @@ https://archive.org/download/TheSnowCreature/TheSnowCreature.mp4
 https://archive.org/download/Rituals_1977/Rituals_1977.mp4
 #EXTINF:-1 tvg-name="The Ape {tmdb-37426}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kXb0rlowlyXOriVMaEhpqBzmySk.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Ape {tmdb-37426}
 https://archive.org/download/the_ape/the_ape.mp4
-#EXTINF:-1 tvg-name="THE CITY OF THE DEAD"tvg-id=""tvg-logo="https://archive.org/services/img/CityOfTheDeadVideoQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",THE CITY OF THE DEAD
-https://archive.org/download/CityOfTheDeadVideoQualityUpgrade/CityOfTheDeadVideoQualityUpgrade.mp4
 #EXTINF:-1 tvg-name="Beast of Yucca Flats (1961)"tvg-id=""tvg-logo="https://archive.org/services/img/Beast_of_Yucca_Flats_movie"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Beast of Yucca Flats (1961)
 https://archive.org/download/Beast_of_Yucca_Flats_movie/Beast_of_Yucca_Flats.mp4
 #EXTINF:-1 tvg-name="Killers from Space {tmdb-23045}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ajQgkwtcVvjqBcDq31qwbn8svyT.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Killers from Space {tmdb-23045}
 https://archive.org/download/KillersFromSpace/KillersFromSpacePresentedByMoviePowder.mp4
 #EXTINF:-1 tvg-name="Invisible Ghost {tmdb-23014}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fV5XAHUYRlgWqSnfBzV8OCNa3cP.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Invisible Ghost {tmdb-23014}
 https://archive.org/download/TheInvisibleGhost/TheInvisibleGhost.mp4
+#EXTINF:-1 tvg-name="Virus (Fukkatsu no hi 復活の日) {tmdb-41972}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hUkLBDDUISSEv19xXRj2tFWNzMj.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Virus (Fukkatsu no hi 復活の日) {tmdb-41972}
+https://archive.org/download/VirusFukkatsuNoHi1980/Virus_Fukkatsu_no_hi.mp4
+#EXTINF:-1 tvg-name="Curse of the Swamp Creature {tmdb-93630}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/b5l8EZouDEieTMtKlrYY5JJs0vq.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Curse of the Swamp Creature {tmdb-93630}
+https://archive.org/download/CurseOfTheSwampCreature1966_742/CurseOfTheSwampCreature1966.mp4
+#EXTINF:-1 tvg-name="The Hands of Orlac {tmdb-80633}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/thxGLGxvQnZE5Ssl4TVegZrzYLl.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Hands of Orlac {tmdb-80633}
+https://archive.org/download/TheHandsOfOrlac1924/Orlacs.hande.1924.wiene-mov-QuicktimeVideo.mp4
+#EXTINF:-1 tvg-name="Boys Will Be Boys {tmdb-1453725}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cd4Ubx1ii5z7ef1BkB6sGeoj8ha.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Boys Will Be Boys {tmdb-1453725}
+https://archive.org/download/BoysWillBeBoys1935/BoysWillBeBoys1935.mp4
+#EXTINF:-1 tvg-name="In the Year 2889 {tmdb-74837}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ghnf1UyBRCiLCeZRSQhSDqHpKMo.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",In the Year 2889 {tmdb-74837}
+https://archive.org/download/InTheYear28891967/InTheYear28891967.mp4
+#EXTINF:-1 tvg-name="The Avenging Conscience {tmdb-28196}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/u7P35JYIDNOiJPljQ2PDdMbvAjl.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",The Avenging Conscience {tmdb-28196}
+https://archive.org/download/TheAvengingConscience/avenging_512kb.mp4
 #EXTINF:-1 tvg-name="Till The Clouds Roll By {tmdb-18700}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bHy3xEV2wmeRQWVE8Ko3HdWxt97.jpg"tvg-chno=""tvg-type="movie"group-title="Music":http-referrer="",Till The Clouds Roll By {tmdb-18700}
 https://archive.org/download/till_the_clouds_roll_by/till_the_clouds_roll_by.mp4
 #EXTINF:-1 tvg-name="Hi De Ho {tmdb-90800}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6hJVHGujXzcFIfspA2uIEec28LG.jpg"tvg-chno=""tvg-type="movie"group-title="Music":http-referrer="",Hi De Ho {tmdb-90800}
 https://archive.org/download/hi_de_ho/Hi-De-Ho.mp4
 #EXTINF:-1 tvg-name="Let's Sing Again {tmdb-204227}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/A9FvDXKrdt6ZkVnhY1x4cDeXQoM.jpg"tvg-chno=""tvg-type="movie"group-title="Music":http-referrer="",Let's Sing Again {tmdb-204227}
 https://archive.org/download/lets_sing_again/lets_sing_again.mp4
-#EXTINF:-1 tvg-name="Betty Boop: Poor Cinderella"tvg-id=""tvg-logo="https://archive.org/services/img/bb_poor_cinderella"tvg-chno=""tvg-type="movie"group-title="Music":http-referrer="",Betty Boop: Poor Cinderella
-https://archive.org/download/bb_poor_cinderella/bb_poor_cinderella_512kb.mp4
+#EXTINF:-1 tvg-name="D.O.A. {tmdb-18995}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/m7wZXWOt9XQKJT8r9pbAFo7jB46.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",D.O.A. {tmdb-18995}
+https://archive.org/download/doa_ipod/doa_512kb.mp4
+#EXTINF:-1 tvg-name="I Bury The Living {tmdb-34084}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/z5K0Kj85Tv81j7yuYreSVDNgBMJ.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",I Bury The Living {tmdb-34084}
+https://archive.org/download/IBuryTheLiving1958/IBuryTheLiving1958.mp4
+#EXTINF:-1 tvg-name="THE CITY OF THE DEAD {tmdb-39890}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xdM3QYjzzjuMy0cqlDNfet1BQhL.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",THE CITY OF THE DEAD {tmdb-39890}
+https://archive.org/download/CityOfTheDeadVideoQualityUpgrade/CityOfTheDeadVideoQualityUpgrade.mp4
 #EXTINF:-1 tvg-name="Sherlock Holmes and the Secret Weapon {tmdb-18706}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/50qLIyhdWrDxcZE0bmHhUaxb2FP.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Sherlock Holmes and the Secret Weapon {tmdb-18706}
 https://archive.org/download/secret_weapon/sherlock_holmes_and_the_secret_weapon.mp4
 #EXTINF:-1 tvg-name="Inner Sanctum {tmdb-47922}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/iPIOExn7a2YlyLyC1n48gZUs98R.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Inner Sanctum {tmdb-47922}
@@ -21256,8 +21334,6 @@ https://archive.org/download/Lady_Confesses/Lady_Confesses.mp4
 https://archive.org/download/TheWomanInGreen1945/TheWomanInGreen.mp4
 #EXTINF:-1 tvg-name="The Thirteenth Guest {tmdb-76964}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g8pSYEkUOAIEYfz3veyMVOSmeSg.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",The Thirteenth Guest {tmdb-76964}
 https://archive.org/download/The_Thirteenth_Guest/The_Thirteenth_Guest_512kb.mp4
-#EXTINF:-1 tvg-name="Up in the Air"tvg-id=""tvg-logo="https://archive.org/services/img/UpInTheAir"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Up in the Air
-https://archive.org/download/UpInTheAir/Up_in_the_Air.mp4
 #EXTINF:-1 tvg-name="The Ghost Walks {tmdb-138017}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/q63uhDxhJgavt5FwhyMtaljPhA.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",The Ghost Walks {tmdb-138017}
 https://archive.org/download/the_ghost_walks/the_ghost_walks.mp4
 #EXTINF:-1 tvg-name="The Atomic Brain (1964)"tvg-id=""tvg-logo="https://archive.org/services/img/TheAtomicBrain"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",The Atomic Brain (1964)
@@ -21268,7 +21344,7 @@ https://archive.org/download/PostmarkForDanger/PostmarkForDanger.mp4
 https://archive.org/download/Devils_Cargo_1948/Devils_Cargo_1948.mp4
 #EXTINF:-1 tvg-name="A Shriek in the Night {tmdb-22689}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mQzNjqtHJHVoG1M9UcINVKenC0Y.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",A Shriek in the Night {tmdb-22689}
 https://archive.org/download/A_Shriek_in_the_Night/A_Shriek_in_the_Night.mp4
-#EXTINF:-1 tvg-name="Rebecca (1940 Film Noir Thriller Hitchcock) (1940)"tvg-id=""tvg-logo="https://archive.org/services/img/rebecca-1940-film-noir-thirller-hitchcock"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Rebecca (1940 Film Noir Thriller Hitchcock) (1940)
+#EXTINF:-1 tvg-name="Rebecca (1940 Film Noir Thriller Hitchcock) {tmdb-223}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1qz3qUOHnVy7dL7M7G8jSErxE4b.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Rebecca (1940 Film Noir Thriller Hitchcock) {tmdb-223}
 https://archive.org/download/rebecca-1940-film-noir-thirller-hitchcock/Rebecca%20%281940%20Film%20Noir%2C%20Thirller%2C%20Hitchcock%29.mp4
 #EXTINF:-1 tvg-name="Case of the Frightened Lady (1940)"tvg-id=""tvg-logo="https://archive.org/services/img/Case_of_the_Frightened_Lady_1940"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Case of the Frightened Lady (1940)
 https://archive.org/download/Case_of_the_Frightened_Lady_1940/Case_of_the_Frightened_Lady_H264.mp4
@@ -21282,6 +21358,14 @@ https://archive.org/download/Black_Raven_movie/Black_Raven.mp4
 https://archive.org/download/rogues_gallery/rogues_gallery.mp4
 #EXTINF:-1 tvg-name="Juggernaut {tmdb-30639}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fPbI0BvNSrfIXU6kCdodJID5WkX.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Juggernaut {tmdb-30639}
 https://archive.org/download/Juggernaut_movie/Juggernaut_1936.mp4
+#EXTINF:-1 tvg-name="The Range Feud - Buck Jones and John Wayne {tmdb-98413}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/k25UXiYOzsyavLNQNjhP8OxnjXi.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",The Range Feud - Buck Jones and John Wayne {tmdb-98413}
+https://archive.org/download/TheRangeFeud1931-BuckJonesAndJohnWayne/TheRangeFeud1931-buckJonesAndJohnWayne.mp4
+#EXTINF:-1 tvg-name="Dangerous Lady {tmdb-85352}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cAh5Z3Hg4AI5IQgj1LC5z5P7cfm.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Dangerous Lady {tmdb-85352}
+https://archive.org/download/DangerousLady/DangerousLady.mp4
+#EXTINF:-1 tvg-name="The Mysterious Mr. Wong {tmdb-38494}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ifhzSHIs1W2mUPZM6jRw4hvIv2z.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",The Mysterious Mr. Wong {tmdb-38494}
+https://archive.org/download/mysterious_mr_wong/mysterious_mr_wong.mp4
+#EXTINF:-1 tvg-name="Up in the Air {tmdb-22947}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/useGH8nfwlaHK44IWEZdUYJOE2N.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Up in the Air {tmdb-22947}
+https://archive.org/download/UpInTheAir/Up_in_the_Air.mp4
 #EXTINF:-1 tvg-name="She Gods of Shark Reef {tmdb-76399}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1N1Xxc7KXRaw6Iqshr30rIAlD6Q.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",She Gods of Shark Reef {tmdb-76399}
 https://archive.org/download/she_gods_of_shark_reef/she_gods_of_shark_reef.mp4
 #EXTINF:-1 tvg-name="Cyrano De Bergerac {tmdb-43386}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/l4JFOXslwb90opz8xozfIhPke8z.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Cyrano De Bergerac {tmdb-43386}
@@ -21302,12 +21386,8 @@ https://archive.org/download/TheConqueringPower/TheConqueringPowerrexIngram1921R
 https://archive.org/download/calendar_girl/calendar_girl.mp4
 #EXTINF:-1 tvg-name="Bird of Paradise {tmdb-92341}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/n2vjVQ1Y3m0LBTm59bYm1NfclqW.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Bird of Paradise {tmdb-92341}
 https://archive.org/download/Bird_of_Paradise_1932/BirdofParadise_512kb.mp4
-#EXTINF:-1 tvg-name="Love Island (1950)"tvg-id=""tvg-logo="https://archive.org/services/img/love_island"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Love Island (1950)
-https://archive.org/download/love_island/love_island.mp4
 #EXTINF:-1 tvg-name="Iron Mask (1952)"tvg-id=""tvg-logo="https://archive.org/services/img/iron_mask_ipod"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Iron Mask (1952)
 https://archive.org/download/iron_mask_ipod/iron_mask_512kb.mp4
-#EXTINF:-1 tvg-name="My Love for Your (AKA Honeymoon in Bali) (1939)"tvg-id=""tvg-logo="https://archive.org/services/img/my_love_for_yours_ipod"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",My Love for Your (AKA Honeymoon in Bali) (1939)
-https://archive.org/download/my_love_for_yours_ipod/my_love_for_yours_512kb.mp4
 #EXTINF:-1 tvg-name="Under The Big Top {tmdb-243305}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7dxSw7AVg8C3BtAnFMq4rZgutlu.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Under The Big Top {tmdb-243305}
 https://archive.org/download/under_the_big_top/under_the_big_top.mp4
 #EXTINF:-1 tvg-name="Fresh From Paris (1955)"tvg-id=""tvg-logo="https://archive.org/services/img/freshFromParis"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Fresh From Paris (1955)
@@ -21340,6 +21420,24 @@ https://archive.org/download/Romance_of_the_Limberlost_1938/Romance_of_the_Limbe
 https://archive.org/download/paradise_isle_ipod/paradise_isle_512kb.mp4
 #EXTINF:-1 tvg-name="That Brennan Girl {tmdb-242778}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nRe65DK23jTj52vkYMlSRKv0x7n.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",That Brennan Girl {tmdb-242778}
 https://archive.org/download/that_brennan_girl/that_brennan_girl.mp4
+#EXTINF:-1 tvg-name="Great Expectations {tmdb-14320}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ynaFuVvW2jaG06pMV67dOhzMYfJ.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Great Expectations {tmdb-14320}
+https://archive.org/download/GreatExpectations1946/GreatExpectations1946.mp4
+#EXTINF:-1 tvg-name="Law of the Rio Grande {tmdb-156383}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ojoP7SnHjEawNW1mfuki5rVNI2y.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Law of the Rio Grande {tmdb-156383}
+https://archive.org/download/law_of_the_rio_grande/law_of_the_rio_grande.mp4
+#EXTINF:-1 tvg-name="Hon Dansade En Sommar (One Summer of Happiness) {tmdb-56719}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pejm19LBXIzYGvthUJTQcqyMgEy.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Hon Dansade En Sommar (One Summer of Happiness) {tmdb-56719}
+https://archive.org/download/HonDansadeEnSommaroneSummerOfHappiness/HonDansadeEnSommar_512kb.mp4
+#EXTINF:-1 tvg-name="Becky Sharp {tmdb-43888}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bBjky6HkzOWMxnL44wjCMPPAWDk.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Becky Sharp {tmdb-43888}
+https://archive.org/download/BeckySharp1935/BeckySharp1935.mp4
+#EXTINF:-1 tvg-name="I Cover the Waterfront {tmdb-27990}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/knesTGAYrf0ld1kSkmDVtHq2TDr.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",I Cover the Waterfront {tmdb-27990}
+https://archive.org/download/ICoverTheWaterfront1933/ICoverTheWaterfront1933.mp4
+#EXTINF:-1 tvg-name="Speed to Spare {tmdb-601035}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/vQd4lttXTKxwnpkeXAmiQSeaZCH.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Speed to Spare {tmdb-601035}
+https://archive.org/download/SpeedToSpare_494/SpeedToSpare-1948.mp4
+#EXTINF:-1 tvg-name="Within Our Gates {tmdb-77621}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/36MR5nOWUZypLY3i32LCjdqxXOQ.jpg"tvg-chno=""tvg-type="movie"group-title="Romance":http-referrer="",Within Our Gates {tmdb-77621}
+https://archive.org/download/WithinOurGates/WithinOurGates_512kb.mp4
+#EXTINF:-1 tvg-name="AELITA: QUEEN OF MARS () {tmdb-2973}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/u1oLjIPDVNHr5iKDs7tx5YNgv13.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",AELITA: QUEEN OF MARS () {tmdb-2973}
+https://archive.org/download/AelitaQueenOfMarsoriginalVersion/AelitaQueenOfMarsoriginalVersion.mp4
+#EXTINF:-1 tvg-name="The Day of the Triffids {tmdb-21143}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/x6LYwbOzBl606vMXZtd6apxhcaY.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Day of the Triffids {tmdb-21143}
+https://archive.org/download/TheDayOfTheTriffids/TheDayOfTheTriffids.mp4
 #EXTINF:-1 tvg-name="The Wasp Woman {tmdb-27545}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6yU5PuyeXX7EHG5d1AdWMforNfn.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Wasp Woman {tmdb-27545}
 https://archive.org/download/The_Wasp_Women/The_Wasp_Women.mp4
 #EXTINF:-1 tvg-name="The Corpse Vanishes {tmdb-26922}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ur7omgilzhWeHKW9Spd3ueHFbC1.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Corpse Vanishes {tmdb-26922}
@@ -21354,23 +21452,19 @@ https://archive.org/download/WarOfTheRobots/WarOfTheRobots1978.mp4
 https://archive.org/download/Phantom_Planet/The_Phantom_Planet.mp4
 #EXTINF:-1 tvg-name="First Spaceship on Venus (1960)"tvg-id=""tvg-logo="https://archive.org/services/img/FirstSpaceshipOnVenusMPEG"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",First Spaceship on Venus (1960)
 https://archive.org/download/FirstSpaceshipOnVenusMPEG/First_Spaceship_On_Venus.mp4
-#EXTINF:-1 tvg-name="Star Odyssey (Italian Star Wars) (1979)"tvg-id=""tvg-logo="https://archive.org/services/img/StarOdysseyitalianStarWars1979"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Star Odyssey (Italian Star Wars) (1979)
+#EXTINF:-1 tvg-name="Star Odyssey (Italian Star Wars) {tmdb-74839}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/59d7HtzfECGwOAbi5vfJUeFUHSO.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Star Odyssey (Italian Star Wars) {tmdb-74839}
 https://archive.org/download/StarOdysseyitalianStarWars1979/STAR_ODYSSEY_1979-desktop.mp4
-#EXTINF:-1 tvg-name="The Yesterday Machine"tvg-id=""tvg-logo="https://archive.org/services/img/TheYesterdayMachine1963"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Yesterday Machine
+#EXTINF:-1 tvg-name="The Yesterday Machine {tmdb-93629}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ztcJIy03cEoeQpWvs6uSd72WLHe.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Yesterday Machine {tmdb-93629}
 https://archive.org/download/TheYesterdayMachine1963/TheYesterdayMachine1963.mp4
 #EXTINF:-1 tvg-name="Things to Come {tmdb-3596}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/5mjLuKluuMzBiCKTA28Qa8TR1wc.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Things to Come {tmdb-3596}
 https://archive.org/download/things_to_come_ipod/thingstocome_512kb.mp4
-#EXTINF:-1 tvg-name="Destroy All Planets (1968)"tvg-id=""tvg-logo="https://archive.org/services/img/Destroy_All_Planets"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Destroy All Planets (1968)
-https://archive.org/download/Destroy_All_Planets/Destroy_All_Planets.mp4
 #EXTINF:-1 tvg-name="Transatlantic Tunnel (1935)"tvg-id=""tvg-logo="https://archive.org/services/img/transatlantic_tunnel"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Transatlantic Tunnel (1935)
 https://archive.org/download/transatlantic_tunnel/trans_atlantic_tunnel_512kb.mp4
 #EXTINF:-1 tvg-name="Attack of the Monsters {tmdb-1429018}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/jHg3CbnOAOEIwWjSNlYLOOJFC0Y.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Attack of the Monsters {tmdb-1429018}
 https://archive.org/download/Attack_of_the_Monsters/Attack_of_the_Monsters.mp4
-#EXTINF:-1 tvg-name="The Man Who Saved The World (Turkish Star Wars) (1982)"tvg-id=""tvg-logo="https://archive.org/services/img/TheManWhoSavedTheWorldturkishStarWars1982"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Man Who Saved The World (Turkish Star Wars) (1982)
+#EXTINF:-1 tvg-name="The Man Who Saved The World (Turkish Star Wars) {tmdb-20787}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/osC4REvPVBBGca3sleO7pANbSVC.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Man Who Saved The World (Turkish Star Wars) {tmdb-20787}
 https://archive.org/download/TheManWhoSavedTheWorldturkishStarWars1982/TurkishLionmanCompressed-desktop.mp4
-#EXTINF:-1 tvg-name="First Spaceship on Venus The (Schweigende Stern Der) (1960)"tvg-id=""tvg-logo="https://archive.org/services/img/the_first_spaceship_on_venus"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",First Spaceship on Venus The (Schweigende Stern Der) (1960)
-https://archive.org/download/the_first_spaceship_on_venus/First_Spaceship_on_Venus_512kb.mp4
-#EXTINF:-1 tvg-name="Phantom Planet (1961)"tvg-id=""tvg-logo="https://archive.org/services/img/phantom_planet_ipod"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Phantom Planet (1961)
+#EXTINF:-1 tvg-name="The Phantom Planet {tmdb-27717}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tqXs9OlNv09D3AIkl14Rlw9pTJT.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Phantom Planet {tmdb-27717}
 https://archive.org/download/phantom_planet_ipod/The_Phantom_Planet_512kb.mp4
 #EXTINF:-1 tvg-name="Horrors of the Red Planet"tvg-id=""tvg-logo="https://archive.org/services/img/HorrorsOfTheRedPlanet"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Horrors of the Red Planet
 https://archive.org/download/HorrorsOfTheRedPlanet/HorrorsOfTheRedPlanet.mp4
@@ -21378,6 +21472,16 @@ https://archive.org/download/HorrorsOfTheRedPlanet/HorrorsOfTheRedPlanet.mp4
 https://archive.org/download/Warning_From_Space_ACM/Warning_From_Space_512kb.mp4
 #EXTINF:-1 tvg-name="Planet Outlaws {tmdb-23331}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3IZ3UWFRZLwtcTA7KQfmtzwsGEf.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Planet Outlaws {tmdb-23331}
 https://archive.org/download/planet_outlaws_ipod/planet_outlaws_512kb.mp4
+#EXTINF:-1 tvg-name="Doomsday Machine {tmdb-113523}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/8K2Xho8yK3bFGTCuZcc5Qo420dp.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Doomsday Machine {tmdb-113523}
+https://archive.org/download/DoomsdayMachine1972/DoomsdayMachine1972.mp4
+#EXTINF:-1 tvg-name="Prisoners Of The Lost Universe {tmdb-70500}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qS0SsjfiER8RIEUjLiAVqhfZK4I.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",Prisoners Of The Lost Universe {tmdb-70500}
+https://archive.org/download/PrisonersOfTheLostUniverse1983/PrisonersOfTheLostUniverse1983.mp4
+#EXTINF:-1 tvg-name="The Incredible Petrified World {tmdb-35663}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qns5oUzhUTGcPyeNyaM3DwBrwdC.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Incredible Petrified World {tmdb-35663}
+https://archive.org/download/TheIncrediblePetrifiedWorld/TheIncrediblePetrifiedWorld.mp4
+#EXTINF:-1 tvg-name="The Amazing Transparent Man {tmdb-31634}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/aOME46GMTef0rkseEi4phAo4gRf.jpg"tvg-chno=""tvg-type="movie"group-title="Science Fiction":http-referrer="",The Amazing Transparent Man {tmdb-31634}
+https://archive.org/download/TheAmazingTransparentMan1960/the-amazing-transparent-man_512kb.mp4
+#EXTINF:-1 tvg-name="Trauma {tmdb-343118}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/vEay4lZPLH2ptkRmQw4SNXBhWst.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",Trauma {tmdb-343118}
+https://archive.org/download/Trauma1962/Trauma1962.mp4
 #EXTINF:-1 tvg-name="The Lost Jungle {tmdb-796073}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sijZvoYRRTusV1hEyIAlujxPXj0.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",The Lost Jungle {tmdb-796073}
 https://archive.org/download/Lost_Jungle/Lost_Jungle.mp4
 #EXTINF:-1 tvg-name="Woman on the Run {tmdb-28663}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6wp0FpyQvYVphtUSvANiCarawop.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",Woman on the Run {tmdb-28663}
@@ -21408,8 +21512,6 @@ https://archive.org/download/the_stranger_film/the_stranger_512kb.mp4
 https://archive.org/download/BlackDragons/BlackDragons.mp4
 #EXTINF:-1 tvg-name="The Amazing Mr. X {tmdb-29998}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7CQ5G1Jpmu2ppeHxTx47DpJ5YEw.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",The Amazing Mr. X {tmdb-29998}
 https://archive.org/download/amazing_mr_x/amazing_mr_x.mp4
-#EXTINF:-1 tvg-name="Dr. Mabuse The Gambler (Dr. Mabuse der Spieler) 1922 Part 1"tvg-id=""tvg-logo="https://archive.org/services/img/Dr.MabuseTheGamblerdr.MabuseDerSpieler1922Part1"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",Dr. Mabuse The Gambler (Dr. Mabuse der Spieler) 1922 Part 1
-https://archive.org/download/Dr.MabuseTheGamblerdr.MabuseDerSpieler1922Part1/DrMabuseDerSpielerPart11922_512kb.mp4
 #EXTINF:-1 tvg-name="Impact {tmdb-25503}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tNF03oWEefF5dImf0uOt1QgYdew.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",Impact {tmdb-25503}
 https://archive.org/download/impact/impact.mp4
 #EXTINF:-1 tvg-name="Tormented {tmdb-28586}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/8sGHAZVgizrAO2ixNliGVLDgZwg.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",Tormented {tmdb-28586}
@@ -21422,34 +21524,26 @@ https://archive.org/download/The_Bloody_Brood_movie/Bloody_Brood.mp4
 https://archive.org/download/women_in_the_night/women_in_the_night.mp4
 #EXTINF:-1 tvg-name="The Dark Tower {tmdb-190906}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/k2rVwiEYo7MeCUsTVNst5oBUVL.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",The Dark Tower {tmdb-190906}
 https://archive.org/download/Dark_Tower_1943/Dark_Tower_1943.mp4
+#EXTINF:-1 tvg-name="Guest in the House {tmdb-42288}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/iNWVskbAD181qRXYK02XbmBvo8N.jpg"tvg-chno=""tvg-type="movie"group-title="Thriller":http-referrer="",Guest in the House {tmdb-42288}
+https://archive.org/download/GuestInTheHouse1944/GuestInTheHouse1944.mp4
 #EXTINF:-1 tvg-name="The First of the Few {tmdb-16444}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/rp7tjjcANAcUknUDYw1DGu4YyD8.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",The First of the Few {tmdb-16444}
 https://archive.org/download/TheFirstOfTheFew/MoviePowderPresentsTheFirstOfTheFew.mp4
-#EXTINF:-1 tvg-name="The General ( & clearer) (1926)"tvg-id=""tvg-logo="https://archive.org/services/img/The_General_Buster_Keaton"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",The General ( & clearer) (1926)
-https://archive.org/download/The_General_Buster_Keaton/The_General.mp4
 #EXTINF:-1 tvg-name="In Which We Serve {tmdb-28093}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/i4SkM1rzBROLt9d33u0KGr2SVVm.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",In Which We Serve {tmdb-28093}
 https://archive.org/download/In_Which_We_Serve/In_Which_We_Serve_512kb.mp4
 #EXTINF:-1 tvg-name="We Dive at Dawn {tmdb-43519}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tz2t5d2auUAqkXnGC0AkYyxUn0A.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",We Dive at Dawn {tmdb-43519}
 https://archive.org/download/We_Dive_at_Dawn_1943/We_Dive_at_Dawn.mp4
-#EXTINF:-1 tvg-name="The Secret Life of Adolf Hitler"tvg-id=""tvg-logo="https://archive.org/services/img/TheSecretLifeOfAdolfHitler"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",The Secret Life of Adolf Hitler
-https://archive.org/download/TheSecretLifeOfAdolfHitler/SecretLifeOfAdolphHitler_512kb.mp4
 #EXTINF:-1 tvg-name="Aerial Gunner {tmdb-51792}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/32hsHZXjldZBnOI3UI1e15d77u9.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",Aerial Gunner {tmdb-51792}
 https://archive.org/download/aerial_gunner/aerial_gunner.mp4
-#EXTINF:-1 tvg-name="THE NORTH STAR"tvg-id=""tvg-logo="https://archive.org/services/img/TheNorthStarVideoQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",THE NORTH STAR
+#EXTINF:-1 tvg-name="THE NORTH STAR {tmdb-48127}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zENGbNnvBLJNOHxRYpQBoSiX3Ku.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",THE NORTH STAR {tmdb-48127}
 https://archive.org/download/TheNorthStarVideoQualityUpgrade/TheNorthStarVideoQualityUpgrade.mp4
-#EXTINF:-1 tvg-name="Dark Journey"tvg-id=""tvg-logo="https://archive.org/services/img/DarkJourney1937"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",Dark Journey
-https://archive.org/download/DarkJourney1937/DarkJourney1937.mp4
-#EXTINF:-1 tvg-name="49TH PARALLEL"tvg-id=""tvg-logo="https://archive.org/services/img/49thParallelVideoQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",49TH PARALLEL
+#EXTINF:-1 tvg-name="49TH PARALLEL {tmdb-21735}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/m4YTQv9fHYB2nZ7M2Al6wzOmrYe.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",49TH PARALLEL {tmdb-21735}
 https://archive.org/download/49thParallelVideoQualityUpgrade/49thParallelVideoQualityUpgrade.mp4
-#EXTINF:-1 tvg-name="Battleship Potemkin"tvg-id=""tvg-logo="https://archive.org/services/img/BattleshipPotemkin_644"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",Battleship Potemkin
-https://archive.org/download/BattleshipPotemkin_644/TheBattleshipPotemkinsergeiM.Eisenstein1925.mp4
 #EXTINF:-1 tvg-name="The Red Detachment of Women {tmdb-240968}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nbIOA0evQLyIpTJe6pDRtF9JNxY.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",The Red Detachment of Women {tmdb-240968}
 https://archive.org/download/The_Red_Detachment_of_Women/rdow.part2.mp4
 #EXTINF:-1 tvg-name="War Dogs {tmdb-390168}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/iJaisF9zvo5jVwJSyftrbj6Uwzl.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",War Dogs {tmdb-390168}
 https://archive.org/download/war_dogs/war_dogs.mp4
 #EXTINF:-1 tvg-name="Airborne {tmdb-273573}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nAiquwbIApYCkQtNY7LRaNZsul9.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",Airborne {tmdb-273573}
 https://archive.org/download/airborne/airborne.mp4
-#EXTINF:-1 tvg-name="The Navy Way"tvg-id=""tvg-logo="https://archive.org/services/img/The_Navy_Way_1944"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",The Navy Way
-https://archive.org/download/The_Navy_Way_1944/TheNavyWay-1944.mp4
 #EXTINF:-1 tvg-name="Mutiny {tmdb-227296}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/eFiq0RNR29GiDw8wOMnz0J7SHUd.jpg"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",Mutiny {tmdb-227296}
 https://archive.org/download/Mutiny_428/MoviePowderPresentsMutiny.mp4
 #EXTINF:-1 tvg-name="Why We Fight: War Comes to America (1943)"tvg-id=""tvg-logo="https://archive.org/services/img/wwf_war_comes_to_america"tvg-chno=""tvg-type="movie"group-title="War":http-referrer="",Why We Fight: War Comes to America (1943)
@@ -21472,7 +21566,7 @@ https://archive.org/download/Drums_in_the_Deep_South/Drums_in_the_Deep_South.mp4
 https://archive.org/download/mclintok_widescreen/McLintock_512kb.mp4
 #EXTINF:-1 tvg-name="Santa Fe Trail {tmdb-1718}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/uBtJzonmF9uOFrDXlqQuxTfMwl7.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Santa Fe Trail {tmdb-1718}
 https://archive.org/download/Santa_Fe_Trail_movie/Santa_Fe_Trail_x264.mp4
-#EXTINF:-1 tvg-name="War of the Wildcats - John Wayne (1943)"tvg-id=""tvg-logo="https://archive.org/services/img/WarOfTheWildcats-JohnWayne1943"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",War of the Wildcats - John Wayne (1943)
+#EXTINF:-1 tvg-name="In Old Oklahoma {tmdb-40719}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/eGbzSYoVFEfQBepFnlqmBIFRQsk.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",In Old Oklahoma {tmdb-40719}
 https://archive.org/download/WarOfTheWildcats-JohnWayne1943/JohnWayne-WarOfTheWildcats1943.mp4
 #EXTINF:-1 tvg-name="Angel and the Badman {tmdb-22356}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tbnte13MT1mke828R0rKmNZ41G6.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Angel and the Badman {tmdb-22356}
 https://archive.org/download/angel_and_the_badman/angel_and_the_badman.mp4
@@ -21482,7 +21576,7 @@ https://archive.org/download/border_patrolman/border_patrolman.mp4
 https://archive.org/download/Rocky_Mountain_Mystery_1935/Rocky_Mountain_Mystery_1935.mp4
 #EXTINF:-1 tvg-name="Raiders of Old California {tmdb-155690}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xqqWxMqVEXv03UAZTPBNSF4gdTm.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Raiders of Old California {tmdb-155690}
 https://archive.org/download/raiders_of_old_california_ipod/raiders_of_old_california_512kb.mp4
-#EXTINF:-1 tvg-name="The Mysterious Rider AKA Mark of the Avenger (1938)"tvg-id=""tvg-logo="https://archive.org/services/img/mark_of_the_avenger_1938"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Mysterious Rider AKA Mark of the Avenger (1938)
+#EXTINF:-1 tvg-name="The Mysterious Rider {tmdb-268688}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/r55sBq9hCO07Cnim2sfQKOd6bO8.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Mysterious Rider {tmdb-268688}
 https://archive.org/download/mark_of_the_avenger_1938/mark_of_the_avenger_512kb.mp4
 #EXTINF:-1 tvg-name="Law of the Lash {tmdb-182306}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zZjZQc1SJ4nRV3wKI9KUTVJgpi4.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Law of the Lash {tmdb-182306}
 https://archive.org/download/Law_of_the_Lash_film/Law_of_the_Lash_1947.mp4
@@ -21498,25 +21592,21 @@ https://archive.org/download/TwoFistedLawWithTimMccoyAndJohnWayne1932/TimMccoyAn
 https://archive.org/download/rogue_on_the_range/rogue_on_the_range.mp4
 #EXTINF:-1 tvg-name="Alias John Law {tmdb-22351}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2cWLB3Fiib5F00ZnTdrdpALYrhU.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Alias John Law {tmdb-22351}
 https://archive.org/download/alias_john_law/alias_john_law.mp4
-#EXTINF:-1 tvg-name="The Proud And The Damned-1972 (1972)"tvg-id=""tvg-logo="https://archive.org/services/img/TheProudAndTheDamned-1972"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Proud And The Damned-1972 (1972)
+#EXTINF:-1 tvg-name="The Proud and Damned {tmdb-156080}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kHDMatXA7J2Xbjf5odXWRWnWn9Y.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Proud and Damned {tmdb-156080}
 https://archive.org/download/TheProudAndTheDamned-1972/TheProundAndTheDamned_512kb.mp4
 #EXTINF:-1 tvg-name="Saddle Mountain Roundup {tmdb-23586}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qgZy9MtM2jXGGDFBppSmsK8lLas.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Saddle Mountain Roundup {tmdb-23586}
 https://archive.org/download/saddle_mountain_roundup_mp4/saddle_mountain_roundup_512kb.mp4
-#EXTINF:-1 tvg-name="The Range Feud - Buck Jones and John Wayne (1931)"tvg-id=""tvg-logo="https://archive.org/services/img/TheRangeFeud1931-BuckJonesAndJohnWayne"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Range Feud - Buck Jones and John Wayne (1931)
-https://archive.org/download/TheRangeFeud1931-BuckJonesAndJohnWayne/TheRangeFeud1931-buckJonesAndJohnWayne.mp4
 #EXTINF:-1 tvg-name="The Arizona Kid {tmdb-151184}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/alxHjxaWr5w6fQlewDWM2lZ5Nwl.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Arizona Kid {tmdb-151184}
 https://archive.org/download/arizona_kid/arizona_kid.mp4
 #EXTINF:-1 tvg-name="Texas to Bataan {tmdb-243151}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/choilp78Yl6v8axwMdUGUl9D19X.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Texas to Bataan {tmdb-243151}
 https://archive.org/download/texas_to_bataan_ipod/texas_to_bataan_512kb.mp4
 #EXTINF:-1 tvg-name="The Red Blood of Courage {tmdb-193100}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7xqr3YZ7t5WcWstFzE81DKOxhC.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Red Blood of Courage {tmdb-193100}
 https://archive.org/download/red_blood_of_courage/red_blood_of_courage.mp4
-#EXTINF:-1 tvg-name="WAGON WHEELS"tvg-id=""tvg-logo="https://archive.org/services/img/WagonWheels"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",WAGON WHEELS
-https://archive.org/download/WagonWheels/WagonWheels-randolphScott.mp4
 #EXTINF:-1 tvg-name="Flesh and the Spur {tmdb-220521}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/415ZLaYc39Ssr9wmUE7d8NTSDxG.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Flesh and the Spur {tmdb-220521}
 https://archive.org/download/flesh_and_the_spur/flesh_and_the_spur.mp4
 #EXTINF:-1 tvg-name="Fugitive Valley {tmdb-300830}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/yQYaAn37BTAAR62LXypwkD6meTv.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Fugitive Valley {tmdb-300830}
 https://archive.org/download/fugitive_valley/fugitive_valley_512kb.mp4
-#EXTINF:-1 tvg-name="The Angel and the Bad Man (1947)"tvg-id=""tvg-logo="https://archive.org/services/img/angel_and_the_bad_man_ipod"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Angel and the Bad Man (1947)
+#EXTINF:-1 tvg-name="The Angel and the Bad Man {tmdb-22356}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tbnte13MT1mke828R0rKmNZ41G6.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Angel and the Bad Man {tmdb-22356}
 https://archive.org/download/angel_and_the_bad_man_ipod/video.mp4
 #EXTINF:-1 tvg-name="Border Caballero {tmdb-213714}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nrdQI3uBpYh9yxvUdEfEMGhqxo1.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Border Caballero {tmdb-213714}
 https://archive.org/download/border_cabellero/border_cabellero.mp4
@@ -21524,8 +21614,6 @@ https://archive.org/download/border_cabellero/border_cabellero.mp4
 https://archive.org/download/boot_hill_bandits/boot_hill_bandits_512kb.mp4
 #EXTINF:-1 tvg-name="Six-Gun Rhythm {tmdb-272242}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bLvFPLdUkhKBVhS9X790rdbikZf.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Six-Gun Rhythm {tmdb-272242}
 https://archive.org/download/six-gun_rhythm/six-gun_rhythm.mp4
-#EXTINF:-1 tvg-name="Sky High"tvg-id=""tvg-logo="https://archive.org/services/img/SkyHigh1922"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Sky High
-https://archive.org/download/SkyHigh1922/SkyHigh1922_512kb.mp4
 #EXTINF:-1 tvg-name="Take Me Back To Oklahoma {tmdb-130548}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/aOL2M389q7dglnDmqJRpzaliPjS.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Take Me Back To Oklahoma {tmdb-130548}
 https://archive.org/download/take_me_back_to_oklahoma/take_me_back_to_oklahoma.mp4
 #EXTINF:-1 tvg-name="Aces and Eights {tmdb-121351}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6AyNKJRXPYxjegmnrpJXlbhWTgV.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Aces and Eights {tmdb-121351}
@@ -21556,102 +21644,50 @@ https://archive.org/download/nevada_city/nevada_city.mp4
 https://archive.org/download/i_killed_wild_bill_hickok/i_killed_wild_bill_hickok.mp4
 #EXTINF:-1 tvg-name="The Law Commands {tmdb-241455}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3cRHNvtLkmbUskAlM4aquLH6uq.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",The Law Commands {tmdb-241455}
 https://archive.org/download/law_commands/law_commands.mp4
-#EXTINF:-1 tvg-name="Zane Grey's To the Last Man - Randolph Scott"tvg-id=""tvg-logo="https://archive.org/services/img/ZaneGreysToTheLastMan1933-RandolphScott"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Zane Grey's To the Last Man - Randolph Scott
+#EXTINF:-1 tvg-name="Zane Grey's To the Last Man - Randolph Scott"tvg-id=""tvg-logo="https://archive.org/services/img/ZaneGreysToTheLastMan1933-RandolphScott"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Zane Grey's To the Last Man - Randolph Scott
 https://archive.org/download/ZaneGreysToTheLastMan1933-RandolphScott/ZaneGreys-toTheLastMan-RandolphScott1933.mp4
-#EXTINF:-1 tvg-name="Great Expectations"tvg-id=""tvg-logo="https://archive.org/services/img/GreatExpectations1946"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Great Expectations
-https://archive.org/download/GreatExpectations1946/GreatExpectations1946.mp4
+#EXTINF:-1 tvg-name="Born to the Saddle {tmdb-345726}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/s8rGWjH3XSHwoT3l7u7hB4KxmvG.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Born to the Saddle {tmdb-345726}
+https://archive.org/download/born_to_the_saddle/born_to_the_saddle.mp4
+#EXTINF:-1 tvg-name="Daniel Boone {tmdb-102379}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tPUGLygqiImCkM9bOYfjs8Ahy8f.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Daniel Boone {tmdb-102379}
+https://archive.org/download/DanielBoone1936/DanielBoone1936.mp4
+#EXTINF:-1 tvg-name="Roarin' Lead {tmdb-189015}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pqX4xro5tTvQ2ehuZZt7pjf6yB9.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Roarin' Lead {tmdb-189015}
+https://archive.org/download/RoarinLead1936/RoarinLead1936.mp4
 #EXTINF:-1 tvg-name="The Saint Louis Bank Robbery (1959)"tvg-id=""tvg-logo="https://archive.org/services/img/Saint_Louis_Bank_Robbery"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Saint Louis Bank Robbery (1959)
 https://archive.org/download/Saint_Louis_Bank_Robbery/Saint_Louis_Bank_Robbery.mp4
-#EXTINF:-1 tvg-name="My Man Godfrey"tvg-id=""tvg-logo="https://archive.org/services/img/MyManGodfrey1936"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",My Man Godfrey
-https://archive.org/download/MyManGodfrey1936/MyManGodfrey1936.mp4
-#EXTINF:-1 tvg-name="Doomsday Machine"tvg-id=""tvg-logo="https://archive.org/services/img/DoomsdayMachine1972"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Doomsday Machine
-https://archive.org/download/DoomsdayMachine1972/DoomsdayMachine1972.mp4
-#EXTINF:-1 tvg-name="Fighting Caravans"tvg-id=""tvg-logo="https://archive.org/services/img/FightingCaravans1931_368"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Fighting Caravans
-https://archive.org/download/FightingCaravans1931_368/FightingCaravans1931.mp4
-#EXTINF:-1 tvg-name="Prisoners Of The Lost Universe"tvg-id=""tvg-logo="https://archive.org/services/img/PrisonersOfTheLostUniverse1983"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Prisoners Of The Lost Universe
-https://archive.org/download/PrisonersOfTheLostUniverse1983/PrisonersOfTheLostUniverse1983.mp4
-#EXTINF:-1 tvg-name="Blonde Ice"tvg-id=""tvg-logo="https://archive.org/services/img/BlondeIce1948"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Blonde Ice
-https://archive.org/download/BlondeIce1948/BlondeIce1948.mp4
 #EXTINF:-1 tvg-name="The Sons of Hercules: Land of Darkness (1963)"tvg-id=""tvg-logo="https://archive.org/services/img/SonofHerculesTheLandofDarkness"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Sons of Hercules: Land of Darkness (1963)
 https://archive.org/download/SonofHerculesTheLandofDarkness/SonofHerculesTheLandofDarkness.mp4
-#EXTINF:-1 tvg-name="Virus (Fukkatsu no hi 復活の日) (1980)"tvg-id=""tvg-logo="https://archive.org/services/img/VirusFukkatsuNoHi1980"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Virus (Fukkatsu no hi 復活の日) (1980)
-https://archive.org/download/VirusFukkatsuNoHi1980/Virus_Fukkatsu_no_hi.mp4
-#EXTINF:-1 tvg-name="A Bucket of Blood"tvg-id=""tvg-logo="https://archive.org/services/img/ABucketOfBlood1959"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",A Bucket of Blood
-https://archive.org/download/ABucketOfBlood1959/A_Bucket_Of_Blood.mp4
-#EXTINF:-1 tvg-name="The Incredible Petrified World (1957)"tvg-id=""tvg-logo="https://archive.org/services/img/TheIncrediblePetrifiedWorld"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Incredible Petrified World (1957)
-https://archive.org/download/TheIncrediblePetrifiedWorld/TheIncrediblePetrifiedWorld.mp4
 #EXTINF:-1 tvg-name="Daughter of Horror (1955)"tvg-id=""tvg-logo="https://archive.org/services/img/daughter_of_horror"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Daughter of Horror (1955)
 https://archive.org/download/daughter_of_horror/daughter_of_horror.mp4
-#EXTINF:-1 tvg-name="King Solomon's Mines"tvg-id=""tvg-logo="https://archive.org/services/img/KingSolomonsMines1937"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",King Solomon's Mines
-https://archive.org/download/KingSolomonsMines1937/KingSolomonsMines1937.mp4
-#EXTINF:-1 tvg-name="The Lawless Frontier"tvg-id=""tvg-logo="https://archive.org/services/img/TheLawlessFrontier1934"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Lawless Frontier
-https://archive.org/download/TheLawlessFrontier1934/TheLawlessFrontier1934.mp4
-#EXTINF:-1 tvg-name="Born to the Saddle (1951)"tvg-id=""tvg-logo="https://archive.org/services/img/born_to_the_saddle"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Born to the Saddle (1951)
-https://archive.org/download/born_to_the_saddle/born_to_the_saddle.mp4
-#EXTINF:-1 tvg-name="Hi Diddle Diddle"tvg-id=""tvg-logo="https://archive.org/services/img/HiDiddleDiddle"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Hi Diddle Diddle
-https://archive.org/download/HiDiddleDiddle/HiDiddleDiddle1943.mp4
-#EXTINF:-1 tvg-name="Daniel Boone"tvg-id=""tvg-logo="https://archive.org/services/img/DanielBoone1936"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Daniel Boone
-https://archive.org/download/DanielBoone1936/DanielBoone1936.mp4
-#EXTINF:-1 tvg-name="Curse of the Swamp Creature"tvg-id=""tvg-logo="https://archive.org/services/img/CurseOfTheSwampCreature1966_742"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Curse of the Swamp Creature
-https://archive.org/download/CurseOfTheSwampCreature1966_742/CurseOfTheSwampCreature1966.mp4
-#EXTINF:-1 tvg-name="The Amazing Transparent Man"tvg-id=""tvg-logo="https://archive.org/services/img/TheAmazingTransparentMan1960"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Amazing Transparent Man
-https://archive.org/download/TheAmazingTransparentMan1960/the-amazing-transparent-man_512kb.mp4
-#EXTINF:-1 tvg-name="The Trail Beyond"tvg-id=""tvg-logo="https://archive.org/services/img/TheTrailBeyond1934"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Trail Beyond
-https://archive.org/download/TheTrailBeyond1934/TheTrailBeyond1934.mp4
 #EXTINF:-1 tvg-name="The Devil of the Desert Against the Son of Hercules (1964)"tvg-id=""tvg-logo="https://archive.org/services/img/DeviloftheDesertAgainstSonofHercules"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Devil of the Desert Against the Son of Hercules (1964)
 https://archive.org/download/DeviloftheDesertAgainstSonofHercules/DeviloftheDesertAgainstSonofHercules.mp4
-#EXTINF:-1 tvg-name="Law of the Rio Grande"tvg-id=""tvg-logo="https://archive.org/services/img/law_of_the_rio_grande"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Law of the Rio Grande
-https://archive.org/download/law_of_the_rio_grande/law_of_the_rio_grande.mp4
 #EXTINF:-1 tvg-name="Adventures of Don Quixote (1933)"tvg-id=""tvg-logo="https://archive.org/services/img/DonQuixote"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Adventures of Don Quixote (1933)
 https://archive.org/download/DonQuixote/DonQuixote.mp4
 #EXTINF:-1 tvg-name="Sundowners (1950)"tvg-id=""tvg-logo="https://archive.org/services/img/sundowners"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Sundowners (1950)
 https://archive.org/download/sundowners/sundowners.mp4
-#EXTINF:-1 tvg-name="Roarin' Lead"tvg-id=""tvg-logo="https://archive.org/services/img/RoarinLead1936"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Roarin' Lead
-https://archive.org/download/RoarinLead1936/RoarinLead1936.mp4
 #EXTINF:-1 tvg-name="The Return of The Shadow"tvg-id=""tvg-logo="https://archive.org/services/img/TheReturnOfTheShadow1945"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Return of The Shadow
 https://archive.org/download/TheReturnOfTheShadow1945/TheReturnOfTheShadow1945-RichmondKane.mp4
 #EXTINF:-1 tvg-name="Attack of the Mushroom People"tvg-id=""tvg-logo="https://archive.org/services/img/PhantasmagoriaTheater-AttackOfTheMushroomPeople1963147"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Attack of the Mushroom People
 https://archive.org/download/PhantasmagoriaTheater-AttackOfTheMushroomPeople1963147/PhantasmagoriaTheater-AttackOfTheMushroomPeople1963147.mp4
 #EXTINF:-1 tvg-name="Missing Corpse (1945)"tvg-id=""tvg-logo="https://archive.org/services/img/missing_corpse"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Missing Corpse (1945)
 https://archive.org/download/missing_corpse/missing_corpse.mp4
-#EXTINF:-1 tvg-name="Randy Rides Alone"tvg-id=""tvg-logo="https://archive.org/services/img/RandyRidesAlone1934"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Randy Rides Alone
-https://archive.org/download/RandyRidesAlone1934/RandyRidesAlone1934.mp4
-#EXTINF:-1 tvg-name="Eisenstein - October"tvg-id=""tvg-logo="https://archive.org/services/img/Eisenstein-October"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Eisenstein - October
-https://archive.org/download/Eisenstein-October/Oktyabr1927_512kb.mp4
 #EXTINF:-1 tvg-name="Songs and Saddles {tmdb-267600}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/75brbTIwnTynW2qgKiwiZziDPXV.jpg"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Songs and Saddles {tmdb-267600}
 https://archive.org/download/songs_and_saddles/songs_and_saddles.mp4
 #EXTINF:-1 tvg-name="Ten Gladiators"tvg-id=""tvg-logo="https://archive.org/services/img/TenGladiators"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Ten Gladiators
 https://archive.org/download/TenGladiators/TenGladiators.mp4
-#EXTINF:-1 tvg-name="Santa Claus (versus the devil)"tvg-id=""tvg-logo="https://archive.org/services/img/SantaClausversusTheDevil"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Santa Claus (versus the devil)
-https://archive.org/download/SantaClausversusTheDevil/SantaClaus_1_512kb.mp4
-#EXTINF:-1 tvg-name="Beyond Bengal"tvg-id=""tvg-logo="https://archive.org/services/img/beyond_bengal"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Beyond Bengal
-https://archive.org/download/beyond_bengal/beyond_bengal.mp4
-#EXTINF:-1 tvg-name="Triumph Of The Will (Triumph Des Willen)"tvg-id=""tvg-logo="https://archive.org/services/img/TriumphOfTheWilltriumphDesWillen"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Triumph Of The Will (Triumph Des Willen)
-https://archive.org/download/TriumphOfTheWilltriumphDesWillen/TriumphDesWillen_512kb.mp4
-#EXTINF:-1 tvg-name="His Private Secretary"tvg-id=""tvg-logo="https://archive.org/services/img/HisPrivateSecretary1933"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",His Private Secretary
-https://archive.org/download/HisPrivateSecretary1933/HisPrivateSecretary1933.mp4
-#EXTINF:-1 tvg-name="Tarzan the Fearless"tvg-id=""tvg-logo="https://archive.org/services/img/TarzanTheFearless1933"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Tarzan the Fearless
-https://archive.org/download/TarzanTheFearless1933/TarzanTheFearless1933.mp4
 #EXTINF:-1 tvg-name="Way of the West (1934)"tvg-id=""tvg-logo="https://archive.org/services/img/way_of_the_west"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Way of the West (1934)
 https://archive.org/download/way_of_the_west/way_of_the_west.mp4
 #EXTINF:-1 tvg-name="Life at Stake (1954)"tvg-id=""tvg-logo="https://archive.org/services/img/life_at_stake"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Life at Stake (1954)
 https://archive.org/download/life_at_stake/life_at_stake.mp4
-#EXTINF:-1 tvg-name="Submarine Base"tvg-id=""tvg-logo="https://archive.org/services/img/SubmarineBase1943"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Submarine Base
-https://archive.org/download/SubmarineBase1943/SubmarineBase1943.mp4
 #EXTINF:-1 tvg-name="Pecos Kid (1936)"tvg-id=""tvg-logo="https://archive.org/services/img/pecos_kid"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Pecos Kid (1936)
 https://archive.org/download/pecos_kid/pecos_kid.mp4
 #EXTINF:-1 tvg-name="Forgotten Village (1941)"tvg-id=""tvg-logo="https://archive.org/services/img/forgotten_village"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Forgotten Village (1941)
 https://archive.org/download/forgotten_village/forgotten_village.mp4
 #EXTINF:-1 tvg-name="Great Gabbo (1929)"tvg-id=""tvg-logo="https://archive.org/services/img/great_gabbo"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Great Gabbo (1929)
 https://archive.org/download/great_gabbo/great_gabbo.mp4
-#EXTINF:-1 tvg-name="Guest in the House"tvg-id=""tvg-logo="https://archive.org/services/img/GuestInTheHouse1944"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Guest in the House
-https://archive.org/download/GuestInTheHouse1944/GuestInTheHouse1944.mp4
 #EXTINF:-1 tvg-name="Fighting Trooper (1934)"tvg-id=""tvg-logo="https://archive.org/services/img/fighting_trooper"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Fighting Trooper (1934)
 https://archive.org/download/fighting_trooper/fighting_trooper.mp4
 #EXTINF:-1 tvg-name="Police Rookie (1940)"tvg-id=""tvg-logo="https://archive.org/services/img/police_rookie"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Police Rookie (1940)
 https://archive.org/download/police_rookie/police_rookie.mp4
-#EXTINF:-1 tvg-name="Hon Dansade En Sommar (One Summer of Happiness) (1951)"tvg-id=""tvg-logo="https://archive.org/services/img/HonDansadeEnSommaroneSummerOfHappiness"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Hon Dansade En Sommar (One Summer of Happiness) (1951)
-https://archive.org/download/HonDansadeEnSommaroneSummerOfHappiness/HonDansadeEnSommar_512kb.mp4
 #EXTINF:-1 tvg-name="Law of the 45s (1935)"tvg-id=""tvg-logo="https://archive.org/services/img/law_of_the_45s"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Law of the 45s (1935)
 https://archive.org/download/law_of_the_45s/law_of_the_45s.mp4
 #EXTINF:-1 tvg-name="Mariners of the Sky (1936)"tvg-id=""tvg-logo="https://archive.org/services/img/mariners_of_the_sky"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Mariners of the Sky (1936)
@@ -21662,80 +21698,30 @@ https://archive.org/download/girl_from_monterey/girl_from_monterey.mp4
 https://archive.org/download/VulcanSonOfJupiter/VulcanSonOfJupiter.mp4
 #EXTINF:-1 tvg-name="Manhattan Tower 1932 Restored (1932)"tvg-id=""tvg-logo="https://archive.org/services/img/ManhattanTower1932Restored"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Manhattan Tower 1932 Restored (1932)
 https://archive.org/download/ManhattanTower1932Restored/ManhattanTower1932Restored.mp4
-#EXTINF:-1 tvg-name="Dreaming Out Loud"tvg-id=""tvg-logo="https://archive.org/services/img/DreamingOutLoud1940"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Dreaming Out Loud
-https://archive.org/download/DreamingOutLoud1940/DreamingOutLoud1940.mp4
-#EXTINF:-1 tvg-name="The Hands of Orlac"tvg-id=""tvg-logo="https://archive.org/services/img/TheHandsOfOrlac1924"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Hands of Orlac
-https://archive.org/download/TheHandsOfOrlac1924/Orlacs.hande.1924.wiene-mov-QuicktimeVideo.mp4
 #EXTINF:-1 tvg-name="Singing Cowgirl (1939)"tvg-id=""tvg-logo="https://archive.org/services/img/singing_cowgirl"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Singing Cowgirl (1939)
 https://archive.org/download/singing_cowgirl/singing_cowgirl.mp4
 #EXTINF:-1 tvg-name="The Painted Desert Clark Gable"tvg-id=""tvg-logo="https://archive.org/services/img/ThePaintedDesert1931ClarkGable"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Painted Desert Clark Gable
 https://archive.org/download/ThePaintedDesert1931ClarkGable/ThePaintedDesert1931Gable.mp4
-#EXTINF:-1 tvg-name="Harakiri (Fritz Lang)"tvg-id=""tvg-logo="https://archive.org/services/img/Harakiri1919fritzLang"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Harakiri (Fritz Lang)
-https://archive.org/download/Harakiri1919fritzLang/Harakiri1919_512kb.mp4
 #EXTINF:-1 tvg-name="Crime Patrol (1936)"tvg-id=""tvg-logo="https://archive.org/services/img/crime_patrol"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Crime Patrol (1936)
 https://archive.org/download/crime_patrol/crime_patrol.mp4
-#EXTINF:-1 tvg-name="Dangerous Lady"tvg-id=""tvg-logo="https://archive.org/services/img/DangerousLady"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Dangerous Lady
-https://archive.org/download/DangerousLady/DangerousLady.mp4
-#EXTINF:-1 tvg-name="Prison Nurse"tvg-id=""tvg-logo="https://archive.org/services/img/PrisonNurse_108"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Prison Nurse
-https://archive.org/download/PrisonNurse_108/PrisonNurse-1938.mp4
 #EXTINF:-1 tvg-name="Lady Says No (1952)"tvg-id=""tvg-logo="https://archive.org/services/img/lady_says_no"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Lady Says No (1952)
 https://archive.org/download/lady_says_no/lady_says_no.mp4
 #EXTINF:-1 tvg-name="Three Songs of Lenin (1934)"tvg-id=""tvg-logo="https://archive.org/services/img/threesongsoflenin"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Three Songs of Lenin (1934)
 https://archive.org/download/threesongsoflenin/three_songs_of_lenin.mp4
-#EXTINF:-1 tvg-name="Judge Priest"tvg-id=""tvg-logo="https://archive.org/services/img/JudgePriest1934"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Judge Priest
-https://archive.org/download/JudgePriest1934/JudgePriest1934.mp4
-#EXTINF:-1 tvg-name="Boys Will Be Boys"tvg-id=""tvg-logo="https://archive.org/services/img/BoysWillBeBoys1935"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Boys Will Be Boys
-https://archive.org/download/BoysWillBeBoys1935/BoysWillBeBoys1935.mp4
-#EXTINF:-1 tvg-name="SHAKE RATTLE AND ROCK"tvg-id=""tvg-logo="https://archive.org/services/img/ShakeRattleAndRock"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",SHAKE RATTLE AND ROCK
-https://archive.org/download/ShakeRattleAndRock/ShakeRattleRock_512kb.mp4
 #EXTINF:-1 tvg-name="Loudspeaker (1934)"tvg-id=""tvg-logo="https://archive.org/services/img/loudspeaker"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Loudspeaker (1934)
 https://archive.org/download/loudspeaker/loudspeaker.mp4
-#EXTINF:-1 tvg-name="Zwenigora (Звенигора)"tvg-id=""tvg-logo="https://archive.org/services/img/Zwenigora"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Zwenigora (Звенигора)
-https://archive.org/download/Zwenigora/Zwenigora_512kb.mp4
-#EXTINF:-1 tvg-name="In the Year 2889"tvg-id=""tvg-logo="https://archive.org/services/img/InTheYear28891967"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",In the Year 2889
-https://archive.org/download/InTheYear28891967/InTheYear28891967.mp4
 #EXTINF:-1 tvg-name="Keeper of the Bees (1935)"tvg-id=""tvg-logo="https://archive.org/services/img/Keeper_of_the_Bees_1935"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Keeper of the Bees (1935)
 https://archive.org/download/Keeper_of_the_Bees_1935/Keeper_of_the_Bees.mp4
-#EXTINF:-1 tvg-name="The Road To Ruin"tvg-id=""tvg-logo="https://archive.org/services/img/TheRoadToRuin_457"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Road To Ruin
-https://archive.org/download/TheRoadToRuin_457/TheRoadToRuin-1934.mp4
 #EXTINF:-1 tvg-name="ABBOTT & COSTELLO MEET THE INVISIBLE MAN"tvg-id=""tvg-logo="https://archive.org/services/img/AbbottCostelloMeetTheInvisibleMan"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",ABBOTT & COSTELLO MEET THE INVISIBLE MAN
 https://archive.org/download/AbbottCostelloMeetTheInvisibleMan/AbbottAndCostelloMeetTheInvisibleMan1951.mp4
-#EXTINF:-1 tvg-name="Becky Sharp"tvg-id=""tvg-logo="https://archive.org/services/img/BeckySharp1935"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Becky Sharp
-https://archive.org/download/BeckySharp1935/BeckySharp1935.mp4
-#EXTINF:-1 tvg-name="City Without Men"tvg-id=""tvg-logo="https://archive.org/services/img/CityWithoutMen1943"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",City Without Men
-https://archive.org/download/CityWithoutMen1943/CityWithoutMen1943.mp4
 #EXTINF:-1 tvg-name="Fighting Men (1953)"tvg-id=""tvg-logo="https://archive.org/services/img/fighting_men"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Fighting Men (1953)
 https://archive.org/download/fighting_men/fighting_men.mp4
 #EXTINF:-1 tvg-name="Wrong Road (1936)"tvg-id=""tvg-logo="https://archive.org/services/img/wrong_road"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Wrong Road (1936)
 https://archive.org/download/wrong_road/wrong_road.mp4
 #EXTINF:-1 tvg-name="Thirteenth Guest (1932)"tvg-id=""tvg-logo="https://archive.org/services/img/thirteenth_guest"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Thirteenth Guest (1932)
 https://archive.org/download/thirteenth_guest/thirteenth_guest.mp4
-#EXTINF:-1 tvg-name="Bill and Coo"tvg-id=""tvg-logo="https://archive.org/services/img/BillAndCoo1948"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Bill and Coo
-https://archive.org/download/BillAndCoo1948/BillandCoo.mp4
-#EXTINF:-1 tvg-name="The Private Life of Henry VIII"tvg-id=""tvg-logo="https://archive.org/services/img/ThePrivateLifeOfHenryViii1933"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Private Life of Henry VIII
-https://archive.org/download/ThePrivateLifeOfHenryViii1933/ThePrivateLifeOfHenryViii1933.mp4
-#EXTINF:-1 tvg-name="Three Guys Named Mike"tvg-id=""tvg-logo="https://archive.org/services/img/ThreeGuysNamedMike1951"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Three Guys Named Mike
-https://archive.org/download/ThreeGuysNamedMike1951/ThreeGuysNamedMike1951.mp4
-#EXTINF:-1 tvg-name="Tulsa"tvg-id=""tvg-logo="https://archive.org/services/img/Tulsa1949"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Tulsa
-https://archive.org/download/Tulsa1949/Tulsa_1949.mp4
-#EXTINF:-1 tvg-name="I Cover the Waterfront"tvg-id=""tvg-logo="https://archive.org/services/img/ICoverTheWaterfront1933"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",I Cover the Waterfront
-https://archive.org/download/ICoverTheWaterfront1933/ICoverTheWaterfront1933.mp4
-#EXTINF:-1 tvg-name="The Mysterious Mr. Wong (1934)"tvg-id=""tvg-logo="https://archive.org/services/img/mysterious_mr_wong"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Mysterious Mr. Wong (1934)
-https://archive.org/download/mysterious_mr_wong/mysterious_mr_wong.mp4
 #EXTINF:-1 tvg-name="Hoosier Schoolmaster (1935)"tvg-id=""tvg-logo="https://archive.org/services/img/hoosier_schoolmaster"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Hoosier Schoolmaster (1935)
 https://archive.org/download/hoosier_schoolmaster/hoosier_schoolmaster.mp4
-#EXTINF:-1 tvg-name="Speed to Spare"tvg-id=""tvg-logo="https://archive.org/services/img/SpeedToSpare_494"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Speed to Spare
-https://archive.org/download/SpeedToSpare_494/SpeedToSpare-1948.mp4
-#EXTINF:-1 tvg-name="RAGGEDY ROSE"tvg-id=""tvg-logo="https://archive.org/services/img/RaggedyRose1926_129"tvg-chno=""tvg-type="movie"group-title="Silent Films":http-referrer="",RAGGEDY ROSE
-https://archive.org/download/RaggedyRose1926_129/Raggedy-Rose2.mp4
-#EXTINF:-1 tvg-name="The Avenging Conscience"tvg-id=""tvg-logo="https://archive.org/services/img/TheAvengingConscience"tvg-chno=""tvg-type="movie"group-title="Silent Films":http-referrer="",The Avenging Conscience
-https://archive.org/download/TheAvengingConscience/avenging_512kb.mp4
-#EXTINF:-1 tvg-name="Within Our Gates"tvg-id=""tvg-logo="https://archive.org/services/img/WithinOurGates"tvg-chno=""tvg-type="movie"group-title="Silent Films":http-referrer="",Within Our Gates
-https://archive.org/download/WithinOurGates/WithinOurGates_512kb.mp4
-#EXTINF:-1 tvg-name="The Crazy Ray"tvg-id=""tvg-logo="https://archive.org/services/img/TheCrazyRay"tvg-chno=""tvg-type="movie"group-title="Silent Films":http-referrer="",The Crazy Ray
-https://archive.org/download/TheCrazyRay/TheCrazyRay_512kb.mp4
-#EXTINF:-1 tvg-name="The Goddess"tvg-id=""tvg-logo="https://archive.org/services/img/TheGoddess_280"tvg-chno=""tvg-type="movie"group-title="Silent Films":http-referrer="",The Goddess
-https://archive.org/download/TheGoddess_280/TheGoddess_512kb.mp4
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_063ae6/index.m3u8
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02
@@ -22112,91 +22098,91 @@ https://vz-436f3b70-ee3.b-cdn.net/a2efb070-d866-425e-8b64-3c369cfe12e7/1280x720/
 https://vz-436f3b70-ee3.b-cdn.net/b178f7d2-e586-44d4-bd75-73e7549588be/1280x720/video.m3u8
 #EXTINF:-1 tvg-name="Set Me Free _ وازم لێبێنە {tmdb-220611} - S01E22"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/i0PFLgBkE4RvzGa3rc150wgKYQH.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Set Me Free _ وازم لێبێنە {tmdb-220611} - S01E22
 https://vz-436f3b70-ee3.b-cdn.net/caa87a84-46d3-48ad-8a93-3f190bfba5a4/1280x720/video.m3u8
-#EXTINF:-1 tvg-name="Betty Boop - S01E01"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopInHaHaHa"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E01
+#EXTINF:-1 tvg-name="Betty Boop - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E01
 https://archive.org/download/BettyBoopInHaHaHa/Betty_Boop_and_Ko_Ko_-_Ha_Ha_Ha_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E02"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopHalloweenParty1933"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E02
+#EXTINF:-1 tvg-name="Betty Boop - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E02
 https://archive.org/download/BettyBoopHalloweenParty1933/BannedCartoons-BettyBoop-1933-HalloweenParty_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E03"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopInDizzyDishes"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E03
+#EXTINF:-1 tvg-name="Betty Boop - S01E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E03
 https://archive.org/download/BettyBoopInDizzyDishes/DizzyDishes_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E04"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopAnyLittleGirlThatsANiceLittleGirl"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E04
+#EXTINF:-1 tvg-name="Betty Boop - S01E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E04
 https://archive.org/download/BettyBoopAnyLittleGirlThatsANiceLittleGirl/AnyLittleGirlThatsANiceLittleGirl_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E05"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopBarnacleBill1930"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E05
+#EXTINF:-1 tvg-name="Betty Boop - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E05
 https://archive.org/download/BettyBoopBarnacleBill1930/BarnacleBill_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E06"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopBimbosExpress1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E06
+#EXTINF:-1 tvg-name="Betty Boop - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E06
 https://archive.org/download/BettyBoopBimbosExpress1931/BimbosExpress_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E07"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopBimbosInitiation1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E07
+#EXTINF:-1 tvg-name="Betty Boop - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E07
 https://archive.org/download/BettyBoopBimbosInitiation1931/BimbosInitiation_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E08"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopBoopOopADoop1932"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E08
+#EXTINF:-1 tvg-name="Betty Boop - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E08
 https://archive.org/download/BettyBoopBoopOopADoop1932/Boop-Oop-A-Doop_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E09"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopDizzyDishes1930"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E09
+#EXTINF:-1 tvg-name="Betty Boop - S01E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E09
 https://archive.org/download/BettyBoopDizzyDishes1930/DizzyDishes_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E10"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopDizzyRedRidingHood1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E10
+#EXTINF:-1 tvg-name="Betty Boop - S01E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E10
 https://archive.org/download/BettyBoopDizzyRedRidingHood1931/DizzyRedRidingHood_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E11"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopJackAndTheBeanstalk1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E11
+#EXTINF:-1 tvg-name="Betty Boop - S01E11"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E11
 https://archive.org/download/BettyBoopJackAndTheBeanstalk1931/JackAndTheBeanstalk_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E12"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopKittyFromKansasCity1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E12
+#EXTINF:-1 tvg-name="Betty Boop - S01E12"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E12
 https://archive.org/download/BettyBoopKittyFromKansasCity1931/KittyFromKansasCity_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E13"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopMask-a-raid1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E13
+#EXTINF:-1 tvg-name="Betty Boop - S01E13"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E13
 https://archive.org/download/BettyBoopMask-a-raid1931/Mask-A-Raid_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E14"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopMysteriousMose1930"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E14
+#EXTINF:-1 tvg-name="Betty Boop - S01E14"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E14
 https://archive.org/download/BettyBoopMysteriousMose1930/MysteriousMose_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E15"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopSillyScandals1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E15
+#EXTINF:-1 tvg-name="Betty Boop - S01E15"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E15
 https://archive.org/download/BettyBoopSillyScandals1931/SillyScandals_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E16"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopTheBumBandit1931"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E16
+#EXTINF:-1 tvg-name="Betty Boop - S01E16"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E16
 https://archive.org/download/BettyBoopTheBumBandit1931/TheBumBandit_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Betty Boop - S01E17"tvg-id=""tvg-logo="https://archive.org/services/img/BettyBoopanyRags1932"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E17
+#EXTINF:-1 tvg-name="Betty Boop - S01E17"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E17
 https://archive.org/download/BettyBoopanyRags1932/AnyRags_mpeg4_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E01"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_meetsSinbadtheSailor"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E01
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E01
 https://archive.org/download/Popeye_meetsSinbadtheSailor/Popeye_meetsSinbadtheSailor_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E02"tvg-id=""tvg-logo="https://archive.org/services/img/PopeyeTheSailorMeetsAliBabasFortyThieves"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E02
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E02
 https://archive.org/download/PopeyeTheSailorMeetsAliBabasFortyThieves/PopeyeAliBabaRestored_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E03"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_ThePanelessWindowWasher"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E03
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E03
 https://archive.org/download/Popeye_ThePanelessWindowWasher/Popeye_ThePanelessWindowWasher_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E04"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_Floor_Flusher_1954"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E04
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E04
 https://archive.org/download/Popeye_Floor_Flusher_1954/Popeye_Floor_Flusher_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E05"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_BrideandGloom"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E05
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E05
 https://archive.org/download/Popeye_BrideandGloom/Popeye_BrideandGloom_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E06"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_Cooking_With_Gags_1954"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E06
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E06
 https://archive.org/download/Popeye_Cooking_With_Gags_1954/Popeye_Cookin_with_Gags_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E07"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_Gopher_Spinach_1954_871"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E07
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E07
 https://archive.org/download/Popeye_Gopher_Spinach_1954_871/Popeye_Gopher_Spinach_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E08"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_Greek_Mirthology_1954"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E08
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E08
 https://archive.org/download/Popeye_Greek_Mirthology_1954/Popeye_Greek_Mirthology_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E09"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_forPresident"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E09
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E09
 https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E10"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_Nearlyweds"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E10
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E10
 https://archive.org/download/Popeye_Nearlyweds/Popeye_Nearlyweds_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E11"tvg-id=""tvg-logo="https://archive.org/services/img/Popeye_Assault_and_Flattery_1956"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E11
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E11"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E11
 https://archive.org/download/Popeye_Assault_and_Flattery_1956/Popeye_Assault_and_Flattery_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E12"tvg-id=""tvg-logo="https://archive.org/services/img/PopeyeTheSailorMeetsSindbadTheSailor"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E12
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E12"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E12
 https://archive.org/download/PopeyeTheSailorMeetsSindbadTheSailor/Popeye_meetsSinbadtheSailor_512kb.mp4
-#EXTINF:-1 tvg-name="Popeye the Sailor - S01E13"tvg-id=""tvg-logo="https://archive.org/services/img/PopeyeTheSailorMeetsAliBabasFortyThieves1937"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E13
+#EXTINF:-1 tvg-name="Popeye the Sailor - S01E13"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/Ae4r3014zCLSbaL9PiiFm9QGWXS.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Popeye the Sailor - S01E13
 https://archive.org/download/PopeyeTheSailorMeetsAliBabasFortyThieves1937/PopeyeTheSailorMeetsAliBabasFortyThieves.mp4
-#EXTINF:-1 tvg-name="Superman - S01E01"tvg-id=""tvg-logo="https://archive.org/services/img/superman_1941"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E01
+#EXTINF:-1 tvg-name="Superman - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fqwlHx8FXeUHQGqC8K1cp5hY4F.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E01
 https://archive.org/download/superman_1941/superman_1941_512kb.mp4
-#EXTINF:-1 tvg-name="Superman - S01E02"tvg-id=""tvg-logo="https://archive.org/services/img/superman_the_man_of_steele"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E02
+#EXTINF:-1 tvg-name="Superman - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fqwlHx8FXeUHQGqC8K1cp5hY4F.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E02
 https://archive.org/download/superman_the_man_of_steele/superman1.mp4
-#EXTINF:-1 tvg-name="Superman - S01E03"tvg-id=""tvg-logo="https://archive.org/services/img/Superman2.TheMechanicalMonsters"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E03
+#EXTINF:-1 tvg-name="Superman - S01E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fqwlHx8FXeUHQGqC8K1cp5hY4F.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E03
 https://archive.org/download/Superman2.TheMechanicalMonsters/MaxFleischerWithSupermanNo.2TheMechanicalMonsters.mp4NqNovioquality-Youtube.mp4
-#EXTINF:-1 tvg-name="Superman - S01E04"tvg-id=""tvg-logo="https://archive.org/services/img/Superman-1941"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E04
+#EXTINF:-1 tvg-name="Superman - S01E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fqwlHx8FXeUHQGqC8K1cp5hY4F.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Superman - S01E04
 https://archive.org/download/Superman-1941/Cartoon-SupermanBLP-VCD.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E01"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_inHollywood_NoAudio"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E01
+#EXTINF:-1 tvg-name="Felix the Cat - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E01
 https://archive.org/download/Felix_inHollywood_NoAudio/Felix_inHollywood_NoAudio_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E02"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_FindsOut_NoAudio"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E02
+#EXTINF:-1 tvg-name="Felix the Cat - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E02
 https://archive.org/download/Felix_FindsOut_NoAudio/Felix_FindsOut_NoAudio_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E03"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_GetstheCan_NoAudio"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E03
+#EXTINF:-1 tvg-name="Felix the Cat - S01E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E03
 https://archive.org/download/Felix_GetstheCan_NoAudio/Felix_GetstheCan_NoAudio_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E04"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_GoesWest_NoAudio"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E04
+#EXTINF:-1 tvg-name="Felix the Cat - S01E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E04
 https://archive.org/download/Felix_GoesWest_NoAudio/Felix_GoesWest_NoAudio_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E05"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_DoublesforDarwin_NoAudio"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E05
+#EXTINF:-1 tvg-name="Felix the Cat - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E05
 https://archive.org/download/Felix_DoublesforDarwin_NoAudio/Felix_DoublesforDarwin_NoAudio_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E06"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_TwoLipTime_NoAudio"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E06
+#EXTINF:-1 tvg-name="Felix the Cat - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E06
 https://archive.org/download/Felix_TwoLipTime_NoAudio/Felix_TwoLipTime_NoAudio_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E07"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_AprilMaze_NoAudio"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E07
+#EXTINF:-1 tvg-name="Felix the Cat - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E07
 https://archive.org/download/Felix_AprilMaze_NoAudio/Felix_AprilMaze_NoAudio_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E08"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_BoldKingCole"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E08
+#EXTINF:-1 tvg-name="Felix the Cat - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E08
 https://archive.org/download/Felix_BoldKingCole/Felix_BoldKingCole_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E09"tvg-id=""tvg-logo="https://archive.org/services/img/Felix_NeptuneNonsense"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E09
+#EXTINF:-1 tvg-name="Felix the Cat - S01E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E09
 https://archive.org/download/Felix_NeptuneNonsense/Felix_NeptuneNonsense_512kb.mp4
-#EXTINF:-1 tvg-name="Felix the Cat - S01E10"tvg-id=""tvg-logo="https://archive.org/services/img/FelixTheCat_184"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E10
+#EXTINF:-1 tvg-name="Felix the Cat - S01E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sHMbJ6KOUuSdksZCpV8TgUZwUvV.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Felix the Cat - S01E10
 https://archive.org/download/FelixTheCat_184/Felix_the_Cat_Feline_Follies_1919_512kb.mp4
