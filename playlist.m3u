@@ -92,6 +92,8 @@ http://213.32.255.86:1935/live/Qellat_tv/playlist.m3u8
 https://183.bozztv.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
 #EXTINF:-1 tvg-name="Ranya HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-05020bf1-61e0-474f-a452-bcd513d910ae.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Ranya
 https://ranyatv.avrstream.com/RanyaTV/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 tvg-name="RANYA CITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/cLdxH61k/Picsart-26-05-11-17-14-15-961.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RANYA CITY HD
+https://avr.host247.net/Ranya/RanyaCity/playlist.m3u8
 #EXTINF:-1 tvg-name="Kalhur TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-0c555ea1-ff18-43f9-b30e-eedceca6734d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kalhur TV
 https://live20.bozztv.com:443/giatv/giatv-kalhurtv/kalhurtv/chunks.m3u8
 #EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
@@ -398,8 +400,6 @@ https://live20.bozztv.com/giatv/giatv-wallatv88/wallatv88/chunks.m3u8
 https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="INFINITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/vTKjfq5G/Picsart-26-02-19-17-34-19-536.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",INFINITY HD
 https://cdn.karwan.tv/infinity-tv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="RANYA CITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/cLdxH61k/Picsart-26-05-11-17-14-15-961.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RANYA CITY HD
-https://avr.host247.net/Ranya/RanyaCity/playlist.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
