@@ -1,0 +1,576 @@
+filled 36 {'tv-logos': 10, 'xumo': 25, 'iptv-org': 1}; still without a logo: 599
+
+FILLED (name | source | file)
+SpiegelTV Konflikte | tv-logos | tvl-spiegel-tv-konflikte-de.png
+SpiegelTV Konflikte | tv-logos | tvl-spiegel-tv-konflikte-de.png
+SpiegelTV Konflikte | tv-logos | tvl-spiegel-tv-konflikte-de.png
+Kids Street | tv-logos | tvl-kids-street-us.png
+FilmRise Crímenes verdaderos | xumo | xumo-88887720.png
+FilmRise Series gratis Mexico | xumo | xumo-88887709.png
+Top Filme | tv-logos | tvl-top-filme-de.png
+FilmRise Binge Watch France | xumo | xumo-88883021.png
+FilmRise DeGrassi la nouvelle génération | xumo | xumo-88883113.png
+FilmRise Les Routes du Paradis | xumo | xumo-88883083.png
+FilmRise Séries France | xumo | xumo-88883033.png
+TV Rodina | tv-logos | tvl-tv-rodina-bg.png
+Novo Tempo | tv-logos | tvl-novo-tempo-br.png
+Sony One | Comedy TV | tv-logos | tvl-sony-one-comedy-tv-uk.png
+Crime Scene TV Poland | xumo | xumo-88887744.png
+Todo Crimen | xumo | xumo-88887742.png
+Cops & Docs | xumo | xumo-88896053.png
+Autostop Per Il Cielo | xumo | xumo-88887731.png
+Emergency 24/7 | xumo | xumo-88887724.png
+Forensic Files Poland | xumo | xumo-88887734.png
+GoldStar TV – Alles Schlager | xumo | xumo-88887745.png
+Hot Ones Poland | xumo | xumo-88887735.png
+Ice Pilots NTW In Spanish | xumo | xumo-88887738.png
+La Fiebre del Jade | xumo | xumo-88887739.png
+Las Mejores Bromas | xumo | xumo-88887711.png
+Mi Casa | xumo | xumo-88887741.png
+PICK Monkey Rescue | xumo | xumo-88887722.png
+X-Factor: Das Unfassbare | xumo | xumo-88887748.png
+X-Factor: Das Unfassbare | xumo | xumo-88887747.png
+X-Factor: Das Unfassbare | xumo | xumo-88887733.png
+Xumo Películas Gratis | xumo | xumo-88887704.png
+Setareh TV | iptv-org | io-setarehtv.png
+Artist of the Year | xumo | xumo-88896035.png
+DEFA TV | tv-logos | tvl-defa-tv-de.png
+Starke Frauen | tv-logos | tvl-starke-frauen-de.png
+Vogue Europe | xumo | xumo-88883060.png
+
+STILL EMPTY (needs a logo link from you)
+100pour100docs
+123 Go Spanish
+123 Go! English
+123 Go! Spanish
+5 Minute Craft
+5-Minute Craft
+80 Anni - 2a Guerra Mondiale
+ABC 20/20
+ABC 5 St. Paul MN
+ABN Freedom of Speech
+ABN I AM
+ABN Son of God
+ACADEMY AMOZHGARI TV
+AFV with Alfonso Ribeiro
+AR | QATAR TV
+ARD Plus Krimi
+ARD Plus Lindenstraße
+ARTFLIX - Filmklassiker
+ARTFLIX - Películas Clásicas
+ASHTI QURAN TV
+Absinthe TV
+According to Jim
+Acelerados
+Adrenaline Movies
+Adrenaline+
+Afra Film
+AfroLand African
+AfroLand Faith
+AfroLand Family
+AfroLand Nollywood
+AfroLand Romance
+Afroland Featured
+Al Loba
+AlTERNATIVE SHARAY TV
+Alerte Cobra
+All Out Reality
+AllHipHop
+Alta Tensione
+Amasia
+America's Voice
+American Idol
+American Stories
+Arax TV
+Arko TV
+Armenia Premium
+Arous Beiru
+Arvan TV
+Ashti Quran
+Automotion
+BANGAWAZ TV
+BBC Drama Italy
+BBC Top Gear Finland
+BBC Top Gear France
+BBC Top Gear Germany
+BBC Top Gear Italy
+BET x Tyler Perry Comedy
+Beach Bonfire Vibes
+Best of Standup Comedy
+Beyblade
+Beyblade en Español
+Bigtime - Películas Gratis
+BizaarTV
+Black Enterprise Streaming Network
+Black Enterprise Streaming Television
+Blippi
+Bloodline Detectives
+Bondi Vet
+Born to Kill
+Brave Wilderness
+Breaking News by LeadStory
+Bring It
+Brividy Cinema
+BuzzFeed Celeb
+BuzzFeed Tasty
+C-Drama Now
+CBC Heartland
+CBC Murdoch Mysteries
+CBC News BC
+CBC News Explore
+CBC News Toronto
+CFJC Kamloops BC
+CG Grandi Film
+CKPG Prince George BC
+CNBC TV 18 Geo
+CW FOREVER
+CW Gold
+Ca Chauffe en Cuisine
+Cafe Film
+Campfire Vibes
+Canada One
+Canal do Artesanato
+Challenge Accepted
+Chaos Cam by AE
+Charlotte County CC-TV
+Chili Alta Tensione
+Chili Buonumore
+Chili Hip Hop TV
+Chili Indimenticabili
+Chili Rock TV
+Chili Velvet
+Chosen TV English
+Cine Friki Latino
+Cine Maliza
+Cine Peplum
+Cinema Yoruba
+Cirque du Soleil
+Classic Car Auctions
+Classic Rock
+Classic TV
+Comedy Tadka
+Como Dice el Dicho
+Comédies - Rakuten TV
+Conan O'Brien TV
+CooTel Nicaragua
+Cowboy Movie Channel
+Cozy Vibes
+CraftsyTV
+Crime & Justice
+Crime - Rakuten TV
+CrimeFlix
+Crimes Cults Killers by A&E
+Crímenes Reales
+Cuisine Culture
+Curiosity Animales
+DanceTV Algorhythm
+Deal Masters
+Dej TV
+Dengi Quran
+Dengi islam Slemani
+Dennis and Gnasher
+Derin
+Desimpedidos
+Dhar Mann TV
+Docsville
+Drames - Rakuten TV
+Drive + Speed
+Drive TV La Chaine Auto Geo
+Drool
+Dude Perfect
+DunyaTV
+ESRA 2
+ESRA TV 2
+Easy Listening
+Enquetes de choc
+Enquêtes de Choc
+Envoy FAST
+Euro Hits
+Eurokurd
+Euronews EN DIRECT
+Evolution Earth
+FAST Channel Extreme Makeover Home Edition
+FAST Channel Live Below Zero
+FAST Channel Locked Up Abroad
+FAST Channel NYPD Blue
+FAST Channel Shark Tank
+FAST Channel Supernanny
+FAST Channel The Incredible Dr Pol
+FAST Channel The Practice
+FAST Channel To Catch a Smuggler
+FAST Channel Wipeout
+FX TV 1
+Famille - Rakuten TV
+Familles En Scene
+Fatos Desconhecidos
+FilmGold
+FilmGold Germany
+FilmRise Z Nation France
+Films Romantiques - Rakuten TV
+Films d'Action - Rakuten TV
+Fireplace Vibes
+First 48
+FitDance
+Flash Haber TV
+Flashback 70's
+Fluss Monster
+G-eye TV
+GEWHER TV
+GG Good Game
+GOOD TV CH12 維他命施
+GOOD TV CH14 真情部落格
+GOOD TV CH15 真情之夜
+GOOD TV CH16 葉光明
+GOOD TV CH17 大衛鮑森
+GOOD TV CH18 國際講員
+GOOD TV CH20 恩典時分
+GOOD TV CH21 華語講員
+GOOD TV CH24 劉三講古
+GOOD TV CH27 空中聖經學院
+GOOD TV CH28 現代詩歌
+GOOD TV CH29 經典音樂河
+GOOD TV CH30 天堂敬拜
+GOOD TV CH31 福音佈道音樂會
+GOOD TV CH32 特會系列：禱告與轉化
+GOOD TV CH33 特會系列：研經培靈
+GOOD TV CH38 特會系列：青年特會
+GOOD TV CH40 家庭8點檔轉轉發現愛
+GOOD TV CH45 卡通
+GOOD TV CH47 牧者頻道
+GOOD TV CH49 禱告頻道
+GOOD TV CH50 國際講員 中文發音
+GOOD TV CH9 愛+好醫生 短版
+Gaki no Tsukai
+Gardening With Monty Don
+Gardening with Monty Don
+General Hospital
+Gewher Family
+Ghaint Punjab
+Giovanni Paolo TV
+GlitchPlus
+Gold Star
+Graham Norton Germany
+Grand Cinema
+Grandi Nomi
+Grjngo - Filmes De Faroeste
+Grjngo - Films de Western
+Grjngo - Películas Del Oeste
+Grjngo Films de Western
+Grjngo Italy
+Grjngo Spain
+H2O & Friends
+HAHA TV
+HALABJA TV
+Harcore Pawn
+Harvest USA
+He-Man & Masters Of The Universe
+Hell's Kitchen Germany
+Hip-Hop/R&B
+History and Warfare Now
+Hit List
+Hoarders by A&E
+Home Plus
+Homerun TV
+Homicide
+Homicide la chaîne du fait divers
+Horror Club
+Hunt Fish TV
+Hunter x Hunter
+ICC Plus
+IMK QURAN TV
+IMK TV
+INA Ardivision
+IRIB Kermanshah
+IRIB Mahabad
+Icon Film Channel
+Ideas En 5 Minutos Spanish
+Ideas en 5 Minutos
+Ideas en 5 minutos
+Imagine Playword
+Inazuma Eleven Collection
+Inazuma Eleven Go Italy
+Intervention
+Iran National Revolution TV
+Ironside
+Island Vibes
+JAJAJA
+Jack Hanna
+Jewelry TV 2
+Jodha Akbar
+KIDCO TV
+Kanal 32
+Kidco
+Kiddo+
+Krimi
+KultKrimi
+Kurd Mix _ Sweden
+LADbible
+La Maison France 5
+La chaine du fait divers
+Ladykracher powered by myspass
+Lanthung TV
+LatinoCircuit TV
+Le Meilleur Des Jeux Tv
+Le Meilleur d'Arthur
+Le Meilleur de la TV Realite
+Le Meilleur de la Tele-Realite Geo
+Le meilleur d Arthur
+Le meilleur de la TV Réalité
+Les Anges
+Les Secrets de Nos Regions
+Les Secrets de Nos Régions
+Les Z Amours Geo
+Les Z amours
+Let's Make A Deal Classic
+Life Downunder
+Lifetime Movies Love & Drama
+LifevisionTV
+Lindenstrasse
+Little Women: LA
+Location Location Location
+LooLoo Kids
+LooLoo Kids TV
+Love Crime and History Spain
+LoveWorld USA
+MARAYA KIDS TV
+MIHRAB FM
+MMN ACTION TV
+MMN ART TV
+MMN Action
+MMN Quran
+MMN SHOW
+Mango TV Geo
+Manual do Mundo
+Maraya Kids
+Married To Medicine
+MasterChef Brasil
+Masterchef Brasil Geo
+Mayday: Catastrophe Aérienne
+Medjugorje Italia TV
+Meta Film TV
+Metal.Rocks
+Mi Miedo Canal
+Mi Raza Canal
+Mi Raza Canal Plus
+Mihrab FM
+Million Dollar Listing Vault
+Moconomy - Economía y Finanzas
+Moconomy - Wirtschaft und Finanzen Infotainment
+Modern Marvels
+MotoGP TV
+Motus la chaine
+Muslim Network TV
+MyZen Wellbeing TV
+Mytime
+Mytime Movies
+NBC 4 Albuquerque NM
+NBC Chicago News
+NETFLIX ACTION
+NETFLIX ACTION 2
+NETFLIX ACTION 3
+NETFLIX ANIME
+NETFLIX COMEDY
+NETFLIX DRAMA 1
+NETFLIX DRAMA 2
+NEW KFOOD
+NUÇÊ TV
+News 18 Madhya Pradesh Geo
+News 18 Uttarakhand Geo
+News1
+Nigbati
+Ninja Warriors
+Niroj
+Northern Exposure
+Nothin' But 90s
+Omroep Brabant Radio
+One Championship WL
+Outdoor Action
+PARWARDAYI DUHOK TV
+PARWARDAYI HEWLER TV
+PARWARDAYI SLEMANI TV
+PBS KET2
+PBS Science
+PESHANG TV
+PESHMARGA TV
+PMC Royale
+Pelimex
+Pequeños Gigantes
+Persiana Docs
+Persiana Fight
+Persiana Folk
+Persiana Medical
+Persiana Series
+Persiana Travel
+Persiana Turkiye
+Persiana Vibe
+Plenitude TV
+Plovdivska Pravoslavna TV
+Pocoyo
+Pointless UK
+Q2 News Billings
+Quantum Leap
+Qui Veut Gagner des Millions
+Qui Veut Gagner des Millions?
+Qui veut gagner des millions Geo
+RAWSHAN TV
+ROMCOM K-Drama
+RTV Arnhem
+Radio Sunnat
+Radio Weser TV Bremen
+Rede Seculo 21
+Remember the 80s
+Revry Queer
+Risate Dal Sud
+Risate al Sud
+Rise Financial
+Robot Wars by Mech+
+Royalworld - Adel & Dynastien
+Royalworld - Arystokracja & Dynastie
+Royalworld - Nobility & Dynasties
+Royalworld - Nobleza y Dinastias
+Royalworld - Nobreza e Dinastias
+Royalworld Germany
+SHNA TV
+SOZ TV
+SPI
+SPI QURAN TV
+SURFER TV
+Saga Music Haryanvi
+Sardari TV
+Schitt’s Creek Channel
+Seaquest
+Sender Neu Jerusalem
+Serially Crime
+Serially Drama
+Series K Heart
+Series K Legacy
+Sessao Trash
+Shade TV
+Shark TV
+Shna Doc
+Sikh Ratnavali
+Smooth Jazz
+Smosh
+Soap Turco
+Sony One | Actie Hits
+Sony One | Action HITS
+Sony One | Best Of
+Sony One | Comedy HITS
+Sony One | Comedy Hits
+Sony One | Dragons' Den
+Sony One | Film divertenti
+Sony One | Film d’azione
+Sony One | Gli Imperdibili
+Sony One | Serie da Ridere
+Sony One | Shark Tank
+Sony One | Éxitos
+Sorrisi
+Soul Storm
+Sparkle Movies
+Speed Sport 1
+Spooks
+Sport Outdoor TV
+Sportoutdoor.tv
+Stiletto
+Stingray Christian Hits
+Stingray Epoca Dorada Del Cine Mexicano
+Stingray Exitos Regional Mexicanos
+Stingray Green Noise
+Stingray Italo Disco
+Stingray Music For Focus
+Stingray Peaceful Piano
+Stingray Pop Mexicano 80s
+Stingray Reggaeton
+Stingray Soccer Anthems
+Storm Vibes
+Stromberg powered by myspass
+Super TV Brescia
+Supercinema - San Valentino
+Surfer
+Surfing+
+Survivor Mexico
+Swamp People
+TL Estrella
+TLN Media Chicago
+TLN Media San Francisco
+TSTV
+TVS Music Network
+TVS Select Network
+TVS Sports Bureau
+Tarotéame
+Tastemade International Canada
+Teen Vee English
+TeenVee
+TeenVee Spanish
+Tele Fe Bolivia
+Tele One 16
+Televisa: Les riches pleurent aussi
+The Archive
+The Bionic Woman
+The Incredible Hulk
+The Six-Million Dollar Man
+Todo Pasión
+Top Films - Rakuten TV
+Top Sci-Fi
+Top SciFi
+Top Serien
+Top True Crime Geo
+TopFilme Geo
+Totò & Co
+Trailers Geo
+Travel XP alt
+Triton Poker
+U&Laughs
+U&Transport
+UNews
+Un Village Français
+Un Villages Francais
+Univision 24/7 News
+Unleashed by DOGTV
+Vevo '70s & '80s
+Vevo '90s & '00s
+Vevo '90s & '00s Italy
+Vevo 2010s
+Vevo Country Rewind
+Vevo Pop Germany
+Vevo Pop Italy
+Vevo Pop Spain
+Vevo Schlager Pop
+Viggo and Supporo
+Vita da Strega
+Vivax TV
+WGAL-DT3
+WITI-DT1
+WLNG Radio
+WRUA-DT1
+WWXY-DT3
+Wasabi La Chaine Anime Geo
+Watch Mojo
+WedoAmor Piel Salvaje
+Westerns 4U
+WhE Play
+Who Wants to Be a Millionaire?
+Whoa That Was Wild
+Wicked Tuna Germany
+Will & Grace
+Xploration Station
+ZAYTOUN SPORT TV
+ZAZ
+Zainabia Channel
+Zarin TV
+Zarok Kids
+Zed TV
+Zhin Film
+batteryPOP
+douyu15
+douyu20
+douyu24
+douyu25
+douyu28
+douyu44
+douyu9
+icnet 3
+leffetpapillon
+myTV San Antonio TX
+Ça Chauffe en Cuisine
+Éxitos del Momento
