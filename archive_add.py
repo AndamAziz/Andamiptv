@@ -103,8 +103,15 @@ def check_range(url):
 
 
 def clean_title(t, year):
-    t = re.sub(r"\s*[\(\[]\s*(19|18)\d\d\s*[\)\]]", "", str(t))
+    t = str(t)
+    t = re.sub(r"\s*[\(\[]\s*(19|18)\d\d\s*[\)\]]", "", t)
     t = re.sub(r"\s*[-|:]\s*(public domain|full movie|full film|free|hd|restored).*$", "", t, flags=re.I)
+    m = re.match(r"^(.*?),\s*(The|A|An)$", t.strip(), re.I)      # "Little Princess, The" -> "The Little Princess"
+    if m:
+        t = m.group(2) + " " + m.group(1)
+    m = re.match(r"^(.*?)\s+\((The|A|An)\)$", t.strip(), re.I)  # "Little Princess (The)"
+    if m:
+        t = m.group(2) + " " + m.group(1)
     t = re.sub(r"[\",]", "", t)
     t = re.sub(r"\s+", " ", t).strip(" -_")
     return t
@@ -175,6 +182,8 @@ def main():
     ap.add_argument("--include-pre1930", action="store_true")
     ap.add_argument("--exclude-words", default=r"naked|nude|sex|sexy|erotic|porn|strip(per|tease)?|burlesque|bikini|topless|lust|orgy|vice|harem|girls",
                     help="regex: titles matching it are skipped (family-friendly filter)")
+    ap.add_argument("--exclude-subjects", default=r"exploitation|grindhouse|burlesque|sexploitation|nudie|adult|erotic|trailers?",
+                    help="regex on the archive.org subject tags: matching films are skipped")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--report", default="archive-report.md")
     a = ap.parse_args()
@@ -183,6 +192,8 @@ def main():
     lines = text.split("\n")
     known_ids = set(re.findall(r"archive\.org/download/([^/]+)/", text))
     known_names = {l.rsplit(",", 1)[-1].strip().lower() for l in lines if l.startswith("#EXTINF") and "tvg-type=" in l}
+    norm_t = lambda n: re.sub(r"[^a-z0-9]", "", re.sub(r"\{tmdb-\d+\}|\(\d{4}\)", "", n.lower()))
+    known_titles = {norm_t(n) for n in known_names}
 
     skipped = {"license": 0, "known": 0, "downloads": 0, "no mp4": 0, "short": 0, "link": 0}
     pre, scanned, page = [], 0, 1
@@ -199,6 +210,10 @@ def main():
             if not license_ok(d, a.allow_cc_by, a.include_pre1930):
                 skipped["license"] += 1; continue
             if a.exclude_words and re.search(r"\b(%s)\b" % a.exclude_words, str(d.get("title") or ""), re.I):
+                skipped["license"] += 1; continue
+            subj = d.get("subject") or []
+            subj = " ; ".join(subj if isinstance(subj, list) else [subj])
+            if a.exclude_subjects and re.search(a.exclude_subjects, subj, re.I):
                 skipped["license"] += 1; continue
             if d["identifier"] in known_ids:
                 skipped["known"] += 1; continue
@@ -239,11 +254,11 @@ def main():
     for r, why in results:
         if r is None:
             skipped[why] += 1; continue
-        if r["name"].lower() in names:
+        if r["name"].lower() in names or norm_t(r["name"]) in known_titles:
             skipped["known"] += 1; continue
         if len(found) >= a.max_items:
             break
-        names.add(r["name"].lower()); found.append(r)
+        names.add(r["name"].lower()); known_titles.add(norm_t(r["name"])); found.append(r)
 
     rep = ["# Internet Archive candidates (%s)" % ("APPLIED" if a.apply else "report only"), "",
            "Scanned %d items, %d candidates. Skipped: %s" % (scanned, len(found), skipped), "",
