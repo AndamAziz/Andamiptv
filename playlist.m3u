@@ -30,6 +30,10 @@ https://andam.uk/ytlive/nrtsport/index.m3u8
 https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner Sport
 https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
+#EXTINF:-1 tvg-name="BARIN Movies"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fae214a57ace457f.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",BARIN Movies
+https://cdn.karwan.tv/barin-movies/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="BARIN Action"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/315158fc185d7a63.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",BARIN Action
+https://cdn.karwan.tv/bnar-action/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gali Kurdistan
 https://live.host247.net/gk/gksat/playlist.m3u8
 #EXTINF:-1 tvg-name="VARZESH SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5ca56f576cf4a46c.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",VARZESH SPORT
@@ -120,7 +124,7 @@ http://baskhd.ddns.net:40/live/Eurokurd/index.m3u8
 https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8
 #EXTINF:-1 tvg-name="Dengi Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Dengi Gali Kurdistan
 http://api.353505.xyz:80/live/123/123/160.ts
-#EXTINF:-1 tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public" tvg-name="Rudaw Radio"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw Radio
+#EXTINF:-1 tvg-logo="https://re.andam.uk/api/public/i/fd3dd5664eec1c17.jpg" tvg-name="Rudaw Radio"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw Radio
 http://api.353505.xyz:80/live/123/123/158.ts
 #EXTINF:-1 tvg-name="Eman TV"tvg-id=""tvg-logo="https://i.imgur.com/ugn0DWe.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Eman TV
 http://api.353505.xyz:80/live/123/123/560.ts
@@ -214,7 +218,7 @@ http://api.353505.xyz:80/live/123/123/2976.ts
 http://api.353505.xyz:80/live/123/123/2978.ts
 #EXTINF:-1 tvg-name="TV Sunnat"tvg-id=""tvg-logo="https://i.imgur.com/K2Snk2T.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",TV Sunnat
 http://api.353505.xyz:80/live/123/123/3009.ts
-#EXTINF:-1 tvg-name="GEWHER SPORT TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",GEWHER SPORT TV
+#EXTINF:-1 tvg-name="GEWHER SPORT TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",GEWHER SPORT TV
 https://iptv-link.short.gy/Gewher_Sport.m3u8
 #EXTINF:-1 tvg-name="MMN SPORT TV" tvg-id="" tvg-logo="https://i.imgur.com/z854PC3.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",MMN SPORT TV
 http://mmn.mypsx.net:1935/live/mmnhdsport/playlist.m3u8
@@ -356,7 +360,7 @@ http://api.353505.xyz:80/live/123/123/2922.ts
 http://api.353505.xyz:80/live/123/123/2955.ts
 #EXTINF:-1 tvg-name="Jin TV"tvg-id=""tvg-logo="https://i.imgur.com/37ajg2j.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Jin TV
 http://api.353505.xyz:80/live/123/123/2968.ts
-#EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
+#EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
 http://api.353505.xyz:80/live/123/123/2971.ts
 #EXTINF:-1 tvg-name="RED TV"tvg-id=""tvg-logo="https://i.imgur.com/heZeqPQ.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RED TV
 http://api.353505.xyz:80/live/123/123/2969.ts
@@ -4174,17 +4178,17 @@ https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persi
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-name="CNN TV" tvg-id="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" tvg-chno="" group-title="News" http-referrer="",CNN TV
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera"tvg-id="AlJazeera.qa@Arabic"tvg-logo="https://i.imgur.com/7bRVpnu.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera
+#EXTINF:-1 tvg-name="Al Jazeera"tvg-id="AlJazeera.qa@Arabic"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera
 https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera 2"tvg-id="AlJazeera2.qa@HD"tvg-logo="https://i.imgur.com/miq8O1Q.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera 2
+#EXTINF:-1 tvg-name="Al Jazeera 2"tvg-id="AlJazeera2.qa@HD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera 2
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@English"tvg-logo="https://i.imgur.com/7bRVpnu.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
+#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@English"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@EnglishHD"tvg-logo="https://i.imgur.com/7bRVpnu.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
+#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@EnglishHD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
 http://stream.mcquack.net/131/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera Mubasher"tvg-id="AlJazeeraMubasher.qa@SD"tvg-logo="https://i.imgur.com/X80DQvF.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher"tvg-id="AlJazeeraMubasher.qa@SD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher
 https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera Mubasher 24"tvg-id="AlJazeeraMubasher24.qa@SD"tvg-logo="https://i.imgur.com/LMCcIZ2.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher 24
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher 24"tvg-id="AlJazeeraMubasher24.qa@SD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher 24
 https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
 #EXTINF:-1 tvg-name="Al Arabiya"tvg-id="Alarabiya.ae@SD"tvg-logo="https://shahid.mbc.net/mediaObject/a4c125db-ede8-4970-9eed-963948c78651?height=auto&width=512&croppingPoint=&version=1&type=png"tvg-chno=""group-title="News":http-referrer="",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
@@ -4542,7 +4546,7 @@ http://45.162.64.114/AGROMAIS/index.m3u8
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
 #EXTINF:-1 tvg-name="Al Araby TV 2"tvg-id="AlArabyTV2.qa@SD"tvg-logo="https://i.imgur.com/Gp5mNea.png"tvg-chno=""group-title="News":http-referrer="",Al Araby TV 2
 https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera Mubasher Broadcast 2"tvg-id="AlJazeeraMubasherBroadcast2.qa@SD"tvg-logo="https://i.imgur.com/nJmi6G6.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher Broadcast 2
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher Broadcast 2"tvg-id="AlJazeeraMubasherBroadcast2.qa@SD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher Broadcast 2
 https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
 #EXTINF:-1 tvg-name="Al Masar TV"tvg-id="AlMasarTV.ly@SD"tvg-logo="https://play-lh.googleusercontent.com/FHPrsr391mPFqKfTq6ZdvWPZNVfsZeTAVQ8rjQF-NosnRdNipUy5xa43RWkiF4tGcQU"tvg-chno=""group-title="News":http-referrer="",Al Masar TV
 https://starmenajo.com/hls/almasar/index.m3u8
