@@ -3,7 +3,7 @@
 # APPLY=true writes to playlist.m3u; anything else is a report only.
 set -euo pipefail
 args=(--collection "${COLLECTION:-feature_films}" --max-items "${MAX_ITEMS:-10}" --min-downloads "${MIN_DOWNLOADS:-2000}"
-      --group "${GROUP:-Free Classics}" --min-height "${MIN_HEIGHT:-0}")
+      --group "${GROUP:-Free Classics}" --min-height "${MIN_HEIGHT:-1080}" --min-minutes "${MIN_MINUTES:-40}")
 [ -n "${QUERY:-}" ] && args+=(--query "$QUERY")
 [ "${INCLUDE_PRE1930:-false}" = "true" ] && args+=(--include-pre1930)
 [ "${ALLOW_CC_BY:-false}" = "true" ] && args+=(--allow-cc-by)
