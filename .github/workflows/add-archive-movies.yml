@@ -1,0 +1,84 @@
+name: Add free movies from Internet Archive
+
+# Finds LICENSED (public domain / CC0) movies on the Internet Archive and adds direct mp4 links to
+# playlist.m3u. Nothing is stored on your VPS or Lovable: the files stay on archive.org.
+# Default is a REPORT ONLY (dry run): read the table in the run summary, then run again with dry_run=false.
+on:
+  workflow_dispatch:
+    inputs:
+      collection:
+        description: 'Archive collection (feature_films, classic_cartoons, silent_films, scifi_horror ...)'
+        default: 'feature_films'
+      query:
+        description: 'Optional extra search words (empty = most popular first)'
+        default: ''
+      max_items:
+        description: 'How many movies to add / list'
+        default: '10'
+      min_downloads:
+        description: 'Skip titles with fewer downloads than this (quality filter)'
+        default: '2000'
+      group:
+        description: 'Group name in the playlist'
+        default: 'Free Classics'
+      include_pre1930:
+        description: 'Also include films made in 1929 or earlier that have no license field (public domain by age)'
+        type: boolean
+        default: false
+      allow_cc_by:
+        description: 'Also allow CC-BY / CC-BY-SA (credit the creator)'
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Report only (true) or really add to playlist.m3u (false)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: playlist-write
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Search, check links, report (and add)
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          ARGS="--collection '${{ inputs.collection }}' --max-items ${{ inputs.max_items }} --min-downloads ${{ inputs.min_downloads }} --group '${{ inputs.group }}'"
+          if [ -n "${{ inputs.query }}" ]; then ARGS="$ARGS --query '${{ inputs.query }}'"; fi
+          if [ "${{ inputs.include_pre1930 }}" = "true" ]; then ARGS="$ARGS --include-pre1930"; fi
+          if [ "${{ inputs.allow_cc_by }}" = "true" ]; then ARGS="$ARGS --allow-cc-by"; fi
+          if [ "${{ inputs.dry_run }}" != "true" ]; then ARGS="$ARGS --apply"; fi
+          eval python archive_add.py $ARGS
+          cat archive-report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit playlist
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # keep the snapshot in step so the auto-heal knows these movies
+          python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+          git add playlist.m3u library/playlist.snapshot.m3u
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Add free (licensed) movies from the Internet Archive [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
+            git reset --hard origin/main
+            python archive_add.py --collection '${{ inputs.collection }}' --max-items ${{ inputs.max_items }} --min-downloads ${{ inputs.min_downloads }} --group '${{ inputs.group }}' --apply
+            python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+            git add playlist.m3u library/playlist.snapshot.m3u
+            git commit -m "Add free (licensed) movies from the Internet Archive [skip ci]" || exit 0
+          done
+          exit 1

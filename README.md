@@ -45,3 +45,16 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 ## ⚠️ ڕەچاوکردن
 
 ئەم پلەیلیستە کۆکراوەتەوە لە سەرچاوەی گشتی و بۆ بەکارهێنانی کەسی/تاقیکارییە. مافی هەر کەناڵێک هی خاوەنی ڕاستەقینەیەتی.
+
+## Free (licensed) movies from the Internet Archive
+
+`archive_add.py` + the workflow **Add free movies from Internet Archive** add only movies with a public-domain / CC0 license
+(CC-BY optional, non-commercial licenses are always skipped). The files stay on archive.org, so nothing is stored on your VPS or Lovable.
+
+1. GitHub → **Actions** → *Add free movies from Internet Archive* → **Run workflow**.
+2. First run with **dry_run = true** (default): open the run → *Summary* to see the table (title, year, minutes, size, license, link).
+3. Happy with the list? Run again with **dry_run = false**: the movies are added to `playlist.m3u` (group "Free Classics") and the snapshot is updated.
+
+Checks before a movie is listed: license, real feature length (40+ min), an `.mp4` (h.264) file, and the link answers a Range request (HTTP 206) so seeking works.
+Optional: add a repository secret `TMDB_API_KEY` to get the `{tmdb-ID}` tag and the TMDB poster when the title/year match exactly.
+Run it again any time: titles already in the playlist are skipped.
