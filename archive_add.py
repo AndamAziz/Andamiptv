@@ -31,7 +31,7 @@ def search(collection, query, rows, page):
         q += f" AND collection:({collection})"
     if query:
         q += f" AND ({query})"
-    fl = ["identifier", "title", "year", "licenseurl", "downloads", "creator", "language"]
+    fl = ["identifier", "title", "year", "licenseurl", "downloads", "creator", "language", "subject"]
     params = [("q", q), ("rows", rows), ("page", page), ("output", "json"), ("sort[]", "downloads desc")] + [("fl[]", f) for f in fl]
     data = get_json("https://archive.org/advancedsearch.php?" + urllib.parse.urlencode(params))
     return data["response"]["docs"], data["response"]["numFound"]
@@ -111,6 +111,24 @@ def clean_title(t, year):
 
 
 GENERIC = {"Drama", "Adventure", "TV Movie", "Music", "Family"}
+SUBJECT_GENRES = [  # (regex on the archive.org subject tags, group) - first match wins
+    (r"horror|monster|zombie|vampire|ghost", "Horror"), (r"sci-?fi|science fiction|space|alien", "Science Fiction"),
+    (r"western|cowboy", "Western"), (r"film-?noir|noir|crime|gangster|detective", "Crime"),
+    (r"mystery|murder|suspense", "Mystery"), (r"thriller", "Thriller"), (r"\bwar\b|wwii|world war", "War"),
+    (r"romance|romantic", "Romance"), (r"comedy|slapstick|stooges|chaplin|keaton|laurel", "Comedy"),
+    (r"musical|music", "Musical"), (r"fantasy", "Fantasy"), (r"action", "Action"), (r"adventure|serial", "Adventure"),
+    (r"cartoon|animat", "Animation"), (r"documentary", "Documentary"), (r"drama", "Drama"),
+]
+
+
+def subject_group(doc, default):
+    sub = doc.get("subject") or []
+    sub = [sub] if isinstance(sub, str) else sub
+    text = " ; ".join(str(x) for x in sub).lower()
+    for rx, g in SUBJECT_GENRES:
+        if re.search(rx, text):
+            return g
+    return default
 
 
 def genre_group(genres, default):
@@ -155,7 +173,7 @@ def main():
     ap.add_argument("--group", default="Free Classics")
     ap.add_argument("--allow-cc-by", action="store_true")
     ap.add_argument("--include-pre1930", action="store_true")
-    ap.add_argument("--exclude-words", default=r"naked|nude|sex|sexy|erotic|porn|strip(per|tease)?|burlesque",
+    ap.add_argument("--exclude-words", default=r"naked|nude|sex|sexy|erotic|porn|strip(per|tease)?|burlesque|bikini|topless|lust|orgy|vice|harem|girls",
                     help="regex: titles matching it are skipped (family-friendly filter)")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--report", default="archive-report.md")
@@ -166,18 +184,19 @@ def main():
     known_ids = set(re.findall(r"archive\.org/download/([^/]+)/", text))
     known_names = {l.rsplit(",", 1)[-1].strip().lower() for l in lines if l.startswith("#EXTINF") and "tvg-type=" in l}
 
-    found, scanned, skipped = [], 0, {"license": 0, "known": 0, "downloads": 0, "no mp4": 0, "short": 0, "link": 0}
-    page = 1
-    while len(found) < a.max_items and page <= 12:
+    skipped = {"license": 0, "known": 0, "downloads": 0, "no mp4": 0, "short": 0, "link": 0}
+    pre, scanned, page = [], 0, 1
+    seen_ids = set()
+    while len(pre) < a.max_items * 2 and page <= 40:
         docs, total = search(a.collection, a.query, 100, page)
         if not docs:
             break
         for d in docs:
             scanned += 1
-            if len(found) >= a.max_items:
-                break
-            lic = license_ok(d, a.allow_cc_by, a.include_pre1930)
-            if not lic:
+            if d["identifier"] in seen_ids:
+                continue
+            seen_ids.add(d["identifier"])
+            if not license_ok(d, a.allow_cc_by, a.include_pre1930):
                 skipped["license"] += 1; continue
             if a.exclude_words and re.search(r"\b(%s)\b" % a.exclude_words, str(d.get("title") or ""), re.I):
                 skipped["license"] += 1; continue
@@ -185,31 +204,46 @@ def main():
                 skipped["known"] += 1; continue
             if int(d.get("downloads") or 0) < a.min_downloads:
                 skipped["downloads"] += 1; continue
-            try:
-                meta = get_json("https://archive.org/metadata/" + urllib.parse.quote(d["identifier"]))
-            except Exception:
-                skipped["no mp4"] += 1; continue
-            f = pick_file(meta.get("files", []))
-            if not f:
-                skipped["no mp4"] += 1; continue
-            mins = runtime_minutes(meta.get("metadata", {}))
-            if mins is None or mins < a.min_minutes:
-                skipped["short"] += 1; continue
-            url = "https://archive.org/download/%s/%s" % (urllib.parse.quote(d["identifier"]), urllib.parse.quote(f["name"]))
-            ok, st = check_range(url)
-            if not ok:
-                skipped["link"] += 1; continue
-            year = str(d.get("year") or "")[:4]
-            title = clean_title(d.get("title"), year)
-            tm = tmdb_lookup(title, year)
-            name = title + (" (%s)" % year if year and not tm else "") + (" {tmdb-%d}" % tm[0] if tm else "")
-            grp = genre_group(tm[2], a.group) if tm else a.group
-            if name.lower() in known_names:
-                skipped["known"] += 1; continue
-            logo = tm[1] if tm and tm[1] else "https://archive.org/services/img/" + urllib.parse.quote(d["identifier"])
-            found.append(dict(id=d["identifier"], name=name, group=grp, logo=logo, url=url, license=lic, year=year,
-                              minutes=round(mins), mb=round(int(f["size"]) / 1e6), downloads=int(d.get("downloads") or 0)))
+            pre.append(d)
         page += 1
+
+    def verify(d):
+        lic = license_ok(d, a.allow_cc_by, a.include_pre1930)
+        try:
+            meta = get_json("https://archive.org/metadata/" + urllib.parse.quote(d["identifier"]))
+        except Exception:
+            return None, "no mp4"
+        f = pick_file(meta.get("files", []))
+        if not f:
+            return None, "no mp4"
+        mins = runtime_minutes(meta.get("metadata", {}))
+        if mins is None or mins < a.min_minutes:
+            return None, "short"
+        url = "https://archive.org/download/%s/%s" % (urllib.parse.quote(d["identifier"]), urllib.parse.quote(f["name"]))
+        ok, st = check_range(url)
+        if not ok:
+            return None, "link"
+        year = str(d.get("year") or "")[:4]
+        title = clean_title(d.get("title"), year)
+        tm = tmdb_lookup(title, year)
+        name = title + (" (%s)" % year if year and not tm else "") + (" {tmdb-%d}" % tm[0] if tm else "")
+        grp = genre_group(tm[2], a.group) if tm else subject_group(d, a.group)
+        logo = tm[1] if tm and tm[1] else "https://archive.org/services/img/" + urllib.parse.quote(d["identifier"])
+        return dict(id=d["identifier"], name=name, group=grp, logo=logo, url=url, license=lic, year=year,
+                    minutes=round(mins), mb=round(int(f["size"]) / 1e6), downloads=int(d.get("downloads") or 0)), None
+
+    found, names = [], set(known_names)
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(verify, pre))
+    for r, why in results:
+        if r is None:
+            skipped[why] += 1; continue
+        if r["name"].lower() in names:
+            skipped["known"] += 1; continue
+        if len(found) >= a.max_items:
+            break
+        names.add(r["name"].lower()); found.append(r)
 
     rep = ["# Internet Archive candidates (%s)" % ("APPLIED" if a.apply else "report only"), "",
            "Scanned %d items, %d candidates. Skipped: %s" % (scanned, len(found), skipped), "",
