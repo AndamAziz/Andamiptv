@@ -78,3 +78,10 @@ into `logos/` (160px, 8-bit PNG) and points `tvg-logo` at
 `raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/<id>.png`. It also fills an empty
 logo from an exact same-name channel. Logos you set yourself (postimg, wikimedia…) and all
 movies/series are untouched. The `mirror-logos` workflow runs it after every playlist change.
+
+### Finding real logos for channels that have none
+
+`fill_logos.py` fills an empty `tvg-logo` of a **live** channel only from exact sources: the
+Xumo channel id inside its stream URL, an exact (unambiguous) name in `tv-logo/tv-logos`, or an
+iptv-org channel id equal to its `tvg-id`. Wrong logos are worse than none, so there is no fuzzy
+matching. `logo-fill-report.txt` lists what was filled and the channels that still need a logo link.
