@@ -75,14 +75,14 @@ def runtime_minutes(meta):
     return sec / 60
 
 
-def pick_file(files):
+def pick_file(files, min_size=20_000_000):
     best = None
     for f in files:
         n = f.get("name", "")
         if not n.lower().endswith(".mp4") or "/" in n:
             continue
         size = int(f.get("size") or 0)
-        if not (20_000_000 <= size <= 6_000_000_000):
+        if not (min_size <= size <= 6_000_000_000):
             continue
         score = (1 if f.get("format", "").lower() == "h.264" else 0, 1 if f.get("source") == "derivative" else 0, -size)
         if best is None or score > best[0]:

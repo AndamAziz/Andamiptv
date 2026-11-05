@@ -58,3 +58,7 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 Checks before a movie is listed: license, real feature length (40+ min), an `.mp4` (h.264) file, and the link answers a Range request (HTTP 206) so seeking works.
 Optional (recommended): add a repository secret `TMDB_API_KEY` (free TMDB key) to get the `{tmdb-ID}` tag, the TMDB poster and the GENRE group (Action, Comedy, Horror ...) when the title/year match exactly; without it movies go to the "Free Classics" group.
 Run it again any time: titles already in the playlist are skipped.
+
+### Classic cartoon series (public domain)
+`python3 archive_series.py` (add `--apply` to write) builds series from archive.org cartoons (Betty Boop, Popeye, Superman 1941, Felix the Cat ...):
+episodes are named `Show - S01E01`, group "Classic Cartoons", every link verified (HTTP 206). Shows with fewer than 3 verified episodes are skipped.
