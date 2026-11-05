@@ -8,6 +8,9 @@
     },
     "Quran": {
       "after": "Religious"
+    },
+    "Kids & Family": {
+      "after": "SKY TV"
     }
   },
   "sort": {
