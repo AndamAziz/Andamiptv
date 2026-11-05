@@ -30,6 +30,10 @@ https://andam.uk/ytlive/nrtsport/index.m3u8
 https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner Sport
 https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
+#EXTINF:-1 tvg-name="BARIN Movies"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fae214a57ace457f.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",BARIN Movies
+https://cdn.karwan.tv/barin-movies/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="BARIN Action"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/315158fc185d7a63.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",BARIN Action
+https://cdn.karwan.tv/bnar-action/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gali Kurdistan
 https://live.host247.net/gk/gksat/playlist.m3u8
 #EXTINF:-1 tvg-name="VARZESH SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5ca56f576cf4a46c.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",VARZESH SPORT
@@ -120,7 +124,7 @@ http://baskhd.ddns.net:40/live/Eurokurd/index.m3u8
 https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8
 #EXTINF:-1 tvg-name="Dengi Gali Kurdistan"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-886726ad-84bc-42ff-a04e-6650e01c32dc.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Dengi Gali Kurdistan
 http://api.353505.xyz:80/live/123/123/160.ts
-#EXTINF:-1 tvg-logo="https://imagedelivery.net/4i6vZQywhAAHxfmlROz5cg/d9c50be7-8436-4fef-bcab-f8dcfaca4b00/public" tvg-name="Rudaw Radio"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw Radio
+#EXTINF:-1 tvg-logo="https://re.andam.uk/api/public/i/fd3dd5664eec1c17.jpg" tvg-name="Rudaw Radio"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",Rudaw Radio
 http://api.353505.xyz:80/live/123/123/158.ts
 #EXTINF:-1 tvg-name="Eman TV"tvg-id=""tvg-logo="https://i.imgur.com/ugn0DWe.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Eman TV
 http://api.353505.xyz:80/live/123/123/560.ts
@@ -214,7 +218,7 @@ http://api.353505.xyz:80/live/123/123/2976.ts
 http://api.353505.xyz:80/live/123/123/2978.ts
 #EXTINF:-1 tvg-name="TV Sunnat"tvg-id=""tvg-logo="https://i.imgur.com/K2Snk2T.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",TV Sunnat
 http://api.353505.xyz:80/live/123/123/3009.ts
-#EXTINF:-1 tvg-name="GEWHER SPORT TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",GEWHER SPORT TV
+#EXTINF:-1 tvg-name="GEWHER SPORT TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",GEWHER SPORT TV
 https://iptv-link.short.gy/Gewher_Sport.m3u8
 #EXTINF:-1 tvg-name="MMN SPORT TV" tvg-id="" tvg-logo="https://i.imgur.com/z854PC3.png" tvg-chno="" group-title="Kurdish Channels" http-referrer="",MMN SPORT TV
 http://mmn.mypsx.net:1935/live/mmnhdsport/playlist.m3u8
@@ -356,7 +360,7 @@ http://api.353505.xyz:80/live/123/123/2922.ts
 http://api.353505.xyz:80/live/123/123/2955.ts
 #EXTINF:-1 tvg-name="Jin TV"tvg-id=""tvg-logo="https://i.imgur.com/37ajg2j.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Jin TV
 http://api.353505.xyz:80/live/123/123/2968.ts
-#EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
+#EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
 http://api.353505.xyz:80/live/123/123/2971.ts
 #EXTINF:-1 tvg-name="RED TV"tvg-id=""tvg-logo="https://i.imgur.com/heZeqPQ.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RED TV
 http://api.353505.xyz:80/live/123/123/2969.ts
@@ -1544,8 +1548,6 @@ http://api.353505.xyz:80/live/123/123/3049.ts
 http://api.353505.xyz:80/live/123/123/3050.ts
 #EXTINF:-1 tvg-name="MARAYA KIDS TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kids & Family":http-referrer="",MARAYA KIDS TV
 https://live.kwikmotion.com/smckidslive/tjkids1.smil/smckidspublish/tjkids1_source/chunks.m3u8
-#EXTINF:-1 tvg-name="NETFLIX KIDS" tvg-id="" tvg-logo="https://i.imgur.com/XkSR66q.png" tvg-chno="" group-title="Kids & Family" http-referrer="",NETFLIX KIDS
-http://vip2.sharkhost.xyz:80/live/9143315182/7352465335/487967.m3u8
 #EXTINF:-1 tvg-name="ZAROK TV" tvg-id="" tvg-logo="https://i.imgur.com/o0eevnb.png" tvg-chno="" group-title="Kids & Family" http-referrer="",ZAROK TV
 https://zindisorani.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 tvg-name="KIDCO TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Kids & Family":http-referrer="",KIDCO TV
@@ -1662,8 +1664,6 @@ https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2245
 #EXTINF:-1 tvg-name="Yu-Gi-Oh!"tvg-id="YuGiOh.us@SD"tvg-logo="https://i.imgur.com/Tl6aW2u.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Yu-Gi-Oh!
 https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8
-#EXTINF:-1 tvg-name="ABC Kids"tvg-id="ABCKids.au@Sydney"tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512"tvg-chno=""group-title="Kids & Family":http-referrer="",ABC Kids
-https://c.mjh.nz/abc-kids.m3u8
 #EXTINF:-1 tvg-name="CBC Kids Channel"tvg-id=""tvg-logo="https://cbc-centredepresse.tor1.digitaloceanspaces.com/upload/site/en/article_picture/3984/CBC_Kids_Logo.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",CBC Kids Channel
 https://amagi-streams.akamaized.net/hls/live/2120483/cbckids/master.m3u8
 #EXTINF:-1 tvg-name="Kidoodle.TV"tvg-id="KidoodleTV.ca@SD"tvg-logo="https://i.imgur.com/MaFtbM5.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Kidoodle.TV
@@ -1706,10 +1706,6 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99951443/hls/8-9-6767.m3u8?ads.xumo_c
 https://58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaNA2.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="CBN Family"tvg-id="CBNFamily.us@SD"tvg-logo="https://i.imgur.com/wDPkKT1.png"tvg-chno=""group-title="Kids & Family":http-referrer="",CBN Family
 https://fastly.live.brightcove.com/6380399588112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk5NTg4MTEyIn0.LYfIeObmX4AEStY_xCnPZwMJHXgOAPFMTKfztq-9F8U/playlist-hls.m3u8
-#EXTINF:-1 tvg-name="Animation+"tvg-id=""tvg-logo="https://images.vizio.com/v4/btv/1/1735702067/1/267/150/0.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",Animation+
-https://linear-918.frequency.stream/dist/vizio/918/hls/master/playlist.m3u8?ads.did=%7bADID%7d&ads.us_privacy=%7bUSPRIVACY%7d&ads.lmt=%7bLMT%7d&ads.ifa_type=%7bIFATYPE%7d&vizdartoken=eyJhdWQiOiIxNDkiLCJ3ZnBjaWQiOjQ1Njg2NzA2NTF9
-#EXTINF:-1 tvg-name="Family Feud"tvg-id="400000196"tvg-logo="https://canvas-lb.tubitv.com/opts/dTQldekProaESw==/d94cfde1-49a9-4a2b-ab4f-a2848db4a588/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="Kids & Family":http-referrer="",Family Feud
-https://live-manifest.production-public.tubi.io/live/a6ee322b-f3d8-4adf-b203-240c2001a6fe/playlist.m3u8
 #EXTINF:-1 tvg-name="Family Unscripted"tvg-id="715948"tvg-logo="https://canvas-lb.tubitv.com/opts/g-TnN7dezapq7Q==/6ea6276d-0cdb-4348-a68f-5b6cc575c8cb/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="Kids & Family":http-referrer="",Family Unscripted
 https://live-manifest.production-public.tubi.io/live/f451ef60-2bf2-4f54-8833-5e3495b7ea16/playlist.m3u8
 #EXTINF:-1 tvg-name="Classic Family Feud"tvg-id=""tvg-logo="https://images.vizio.com/v4/btv/1/1646931784/1/267/150/0.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",Classic Family Feud
@@ -1746,8 +1742,6 @@ https://live.enhdtv.com:8081/8150/index.m3u8
 https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-674f6a6cf44561420465f9f3/?X-Plex-Token=jRxfLqYixEnK7gdgV9Xp
 #EXTINF:-1 tvg-name="ANIME x HIDIVE"tvg-id="AnimexHIDIVE.us@SD"tvg-logo="https://i.imgur.com/v0BlxCa.png"tvg-chno=""group-title="Kids & Family":http-referrer="",ANIME x HIDIVE
 https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8
-#EXTINF:-1 tvg-name="Babyfirst"tvg-id="BabyFirst.us@Brazil"tvg-logo="https://i.imgur.com/WxLHBwu.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Babyfirst
-https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
 #EXTINF:-1 tvg-name="BabyFirst"tvg-id="BabyFirst.us@US"tvg-logo="https://i.imgur.com/WxLHBwu.png"tvg-chno=""group-title="Kids & Family":http-referrer="",BabyFirst
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 #EXTINF:-1 tvg-name="BabyFirst Spanish"tvg-id="BabyFirst.us@Spanish"tvg-logo="https://i.imgur.com/WxLHBwu.png"tvg-chno=""group-title="Kids & Family":http-referrer="",BabyFirst Spanish
@@ -1798,8 +1792,6 @@ https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8
 https://jmp2.uk/plu-680ba8992472a7200a183eb5.m3u8
 #EXTINF:-1 tvg-name="PBS Kids"tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/960px-Create_TV_network_logo.svg.png"tvg-chno=""group-title="Kids & Family":http-referrer="",PBS Kids
 http://api.353505.xyz:80/live/123/123/3047.ts
-#EXTINF:-1 tvg-name="S Tom Sings"tvg-id="STomSings.us@HD"tvg-logo="https://i.postimg.cc/5tfB3Ktv/In-Shot-20260818-133542271.png"tvg-chno=""group-title="Kids & Family":http-referrer="",S Tom Sings
-https://vodcdn.bamboo-cloud.com/livehls/6a8408ae0630440c2f39aec3/master.m3u8
 #EXTINF:-1 tvg-name="Smurf TV"tvg-id="SmurfTV.us@SD"tvg-logo="https://img.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/EJIyYyBMkbW5UntSCAkGp-uLla7Z8KWHvDjyEqoOf3k.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",Smurf TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4065
 #EXTINF:-1 tvg-name="Sonic TV"tvg-id="SonicTV.us@SD"tvg-logo="https://i.imgur.com/TKhRlrR.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Sonic TV
@@ -1884,8 +1876,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8
 #EXTINF:-1 tvg-name="ADN TV+"tvg-id="ADNTVPlus.fr@SD"tvg-logo="https://i.imgur.com/HQZQyWt.png"tvg-chno=""group-title="Kids & Family":http-referrer="",ADN TV+
 https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
-#EXTINF:-1 tvg-name="Akili Kids!"tvg-id="AkiliKids.ke@SD"tvg-logo="https://i.imgur.com/xFm2co6.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Akili Kids!
-https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Al-Souriya TV"tvg-id="AlSouriyaTV.sy@HD"tvg-logo="https://i.imgur.com/8FILgXT.jpeg"tvg-chno=""group-title="Kids & Family":http-referrer="",Al-Souriya TV
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8
 #EXTINF:-1 tvg-name="Animax Asia India"tvg-id="AnimaxAsia.sg@India"tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Animax Asia India
@@ -2070,8 +2060,6 @@ https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-name="El Chavo TV"tvg-id="ElChavoTV.mx@HD"tvg-logo="https://gia.tv/streams/pptv/211465.png"tvg-chno=""group-title="Kids & Family":http-referrer="",El Chavo TV
 https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
-#EXTINF:-1 tvg-name="EmanTv"tvg-id="EmanTv.iq@HD"tvg-logo="https://i.imgur.com/QmgaPSi.png"tvg-chno=""group-title="Kids & Family":http-referrer="",EmanTv
-https://avr.host247.net/live/emantv/playlist.m3u8
 #EXTINF:-1 tvg-name="EnerGeek"tvg-id="EnerGeek.cl@SD"tvg-logo="https://cdn.energeek.cl/logos/EG-Retro-2025_pfp.png"tvg-chno=""group-title="Kids & Family":http-referrer="",EnerGeek
 https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH
 #EXTINF:-1 tvg-name="EnerGeek Fan"tvg-id="EnerGeekFAN.cl@SD"tvg-logo="https://cdn.energeek.cl/logos/EG-Fan-2025_pfp.png"tvg-chno=""group-title="Kids & Family":http-referrer="",EnerGeek Fan
@@ -2106,8 +2094,6 @@ https://foxkidstv.be:3369/stream/play.m3u8
 http://88.212.15.19/live/jim_jam_hun/index.m3u8
 #EXTINF:-1 tvg-name="Kapitan Fantastika"tvg-id="KapitanFantastika.ru@SD"tvg-logo="https://i.imgur.com/K3PSHiT.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Kapitan Fantastika
 http://stream.mcquack.net/144/index.m3u8
-#EXTINF:-1 tvg-name="Lale"tvg-id="Lale.ua@SD"tvg-logo="https://i.imgur.com/CNhqVHd.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Lale
-https://ext.cdn.nashnet.tv/228.0.0.50/index.m3u8
 #EXTINF:-1 tvg-name="Logos TV Kids"tvg-id="LogosTVKids.es@SD"tvg-logo="https://i.imgur.com/Kr3U3Ub.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Logos TV Kids
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
 #EXTINF:-1 tvg-name="Mama"tvg-id="Mama.ru@SD"tvg-logo="https://i.imgur.com/kmMIjjf.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Mama
@@ -2172,8 +2158,6 @@ https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/play
 https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8
 #EXTINF:-1 tvg-name="Sonic"tvg-id="Sonic.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Sonic
 http://103.185.24.134:3001/SONIC/index.m3u8
-#EXTINF:-1 tvg-name="Sony Yay!"tvg-id="SonyYay.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_YAY/images/LOGO_HD/image.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Sony Yay!
-https://cloudplay-sonyliv.pages.dev/yay.m3u8
 #EXTINF:-1 tvg-name="STS"tvg-id="STS.ru@SD"tvg-logo="https://i.imgur.com/ilUzAeb.png"tvg-chno=""group-title="Kids & Family":http-referrer="",STS
 http://tshift-1.telecoma.tv/sts/index.m3u8
 #EXTINF:-1 tvg-name="STS"tvg-id="STS.ru@HD"tvg-logo="https://i.imgur.com/ilUzAeb.png"tvg-chno=""group-title="Kids & Family":http-referrer="",STS
@@ -2204,8 +2188,6 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 https://streamer1.streamhost.org/salive/GMItvfh/playlist.m3u8
 #EXTINF:-1 tvg-name="V gostyakh u skazki"tvg-id="Vgostyakhuskazki.ru@SD"tvg-logo="https://i.imgur.com/jNJkLHl.png"tvg-chno=""group-title="Kids & Family":http-referrer="",V gostyakh u skazki
 https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="VTV"tvg-id="VTV.id@SD"tvg-logo="https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png"tvg-chno=""group-title="Kids & Family":http-referrer="",VTV
-https://flv.intechmedia.net/live/ch107.m3u8
 #EXTINF:-1 tvg-name="WOW Kidz"tvg-id="WOWKidz.in@Hindi"tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/mjvezt.png"tvg-chno=""group-title="Kids & Family":http-referrer="",WOW Kidz
 https://yuppparoriglin.akamaized.net/181224/smil:wowkidzhindi.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-name="WOW Kidz"tvg-id="WOWKidz.in@Telugu"tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/mjvezt.png"tvg-chno=""group-title="Kids & Family":http-referrer="",WOW Kidz
@@ -4196,17 +4178,17 @@ https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persi
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-name="CNN TV" tvg-id="" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" tvg-chno="" group-title="News" http-referrer="",CNN TV
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera"tvg-id="AlJazeera.qa@Arabic"tvg-logo="https://i.imgur.com/7bRVpnu.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera
+#EXTINF:-1 tvg-name="Al Jazeera"tvg-id="AlJazeera.qa@Arabic"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera
 https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera 2"tvg-id="AlJazeera2.qa@HD"tvg-logo="https://i.imgur.com/miq8O1Q.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera 2
+#EXTINF:-1 tvg-name="Al Jazeera 2"tvg-id="AlJazeera2.qa@HD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera 2
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@English"tvg-logo="https://i.imgur.com/7bRVpnu.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
+#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@English"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@EnglishHD"tvg-logo="https://i.imgur.com/7bRVpnu.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
+#EXTINF:-1 tvg-name="Al Jazeera English"tvg-id="AlJazeera.qa@EnglishHD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera English
 http://stream.mcquack.net/131/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera Mubasher"tvg-id="AlJazeeraMubasher.qa@SD"tvg-logo="https://i.imgur.com/X80DQvF.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher"tvg-id="AlJazeeraMubasher.qa@SD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher
 https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera Mubasher 24"tvg-id="AlJazeeraMubasher24.qa@SD"tvg-logo="https://i.imgur.com/LMCcIZ2.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher 24
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher 24"tvg-id="AlJazeeraMubasher24.qa@SD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher 24
 https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
 #EXTINF:-1 tvg-name="Al Arabiya"tvg-id="Alarabiya.ae@SD"tvg-logo="https://shahid.mbc.net/mediaObject/a4c125db-ede8-4970-9eed-963948c78651?height=auto&width=512&croppingPoint=&version=1&type=png"tvg-chno=""group-title="News":http-referrer="",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
@@ -4564,7 +4546,7 @@ http://45.162.64.114/AGROMAIS/index.m3u8
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
 #EXTINF:-1 tvg-name="Al Araby TV 2"tvg-id="AlArabyTV2.qa@SD"tvg-logo="https://i.imgur.com/Gp5mNea.png"tvg-chno=""group-title="News":http-referrer="",Al Araby TV 2
 https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Al Jazeera Mubasher Broadcast 2"tvg-id="AlJazeeraMubasherBroadcast2.qa@SD"tvg-logo="https://i.imgur.com/nJmi6G6.png"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher Broadcast 2
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher Broadcast 2"tvg-id="AlJazeeraMubasherBroadcast2.qa@SD"tvg-logo="https://re.andam.uk/api/public/i/12bb1b0389a30e87.jpg"tvg-chno=""group-title="News":http-referrer="",Al Jazeera Mubasher Broadcast 2
 https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
 #EXTINF:-1 tvg-name="Al Masar TV"tvg-id="AlMasarTV.ly@SD"tvg-logo="https://play-lh.googleusercontent.com/FHPrsr391mPFqKfTq6ZdvWPZNVfsZeTAVQ8rjQF-NosnRdNipUy5xa43RWkiF4tGcQU"tvg-chno=""group-title="News":http-referrer="",Al Masar TV
 https://starmenajo.com/hls/almasar/index.m3u8
