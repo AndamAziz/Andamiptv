@@ -1400,7 +1400,7 @@ https://andam.uk/ytlive/riyadiyatv/index.m3u8
 http://23.237.104.106:8080/DAZN_3/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="DAZN 4"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 4
 http://23.237.104.106:8080/DAZN_4/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://cdn.phototourl.com/free/2026-09-16-ff800a85-594e-4c63-ba94-b9fa13f9a853.webp"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
+#EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5d1de71a328e96fd.jpg"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
 http://api.353505.xyz:80/live/123/123/528.ts
 #EXTINF:-1 tvg-name="PBS Nature"tvg-id="PBSNature.us@SD"tvg-logo="https://i.imgur.com/Brry7cZ.png"tvg-chno=""group-title="National Geographic":http-referrer="",PBS Nature
 https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
