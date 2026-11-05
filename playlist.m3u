@@ -392,6 +392,14 @@ https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Zarok Kurmanji"tvg-id=""tvg-logo="https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Zarok Kurmanji
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 tvg-name="WALLA CHAMCHMAL HD"tvg-id=""tvg-logo="https://i.postimg.cc/CLc0X3z6/Picsart-26-04-01-21-54-38-120.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",WALLA CHAMCHMAL HD
+https://live20.bozztv.com/giatv/giatv-wallatv88/wallatv88/chunks.m3u8
+#EXTINF:-1 tvg-name="NAT GEO WOULD"tvg-id=""tvg-logo="https://i.postimg.cc/y8KfhxVn/page-1.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NAT GEO WOULD
+https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="INFINITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/vTKjfq5G/Picsart-26-02-19-17-34-19-536.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",INFINITY HD
+https://cdn.karwan.tv/infinity-tv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="RANYA CITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/cLdxH61k/Picsart-26-05-11-17-14-15-961.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RANYA CITY HD
+https://avr.host247.net/Ranya/RanyaCity/playlist.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
@@ -8328,6 +8336,8 @@ https://v2.tustreaming.cl/radiovidacurico/index.m3u8
 https://tvdatta.com:3084/live/toptvaguaytialive.m3u8
 #EXTINF:-1 tvg-name="Villa Elisa Radio TV"tvg-id="VillaElisaRadioTV.py@SD"tvg-logo="https://i.imgur.com/ryzCsvy.jpg"tvg-chno=""group-title="Music":http-referrer="",Villa Elisa Radio TV
 https://copacogen.desdeparaguay.net/villaelisatv/villaelisatv/playlist.m3u8?admin=nacion
+#EXTINF:-1 tvg-name="GARYAN MIDYA"tvg-id=""tvg-logo="https://i.postimg.cc/bYFFCwBp/Picsart-26-02-19-17-19-00-410.png"tvg-chno=""group-title="Music":http-referrer="",GARYAN MIDYA
+https://live20.bozztv.com/giatv/giatv-halabja88garyan/halabja88garyan/chunks.m3u8
 #EXTINF:-1 tvg-name="PBS Kids"tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/960px-Create_TV_network_logo.svg.png"tvg-chno=""group-title="Kids & Family":http-referrer="",PBS Kids
 http://api.353505.xyz:80/live/123/123/3047.ts
 #EXTINF:-1 tvg-name="All Babies Channel"tvg-id="USBD3300019OU"tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300019OU_20250121T101053SQUARE.png"tvg-chno="3669"group-title="Kids & Family":http-referrer="",All Babies Channel
@@ -8988,6 +8998,10 @@ https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-60d4eddeb2fd
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-name="TRTcocuk"tvg-id=""tvg-logo="https://i.postimg.cc/j5HprcXp/TRT-Chuchak-200.png"tvg-chno=""group-title="Kids & Family":http-referrer="",TRTcocuk
 https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="ZNAR KIDS TV HD"tvg-id=""tvg-logo="https://i.postimg.cc/mgdGV7mn/Picsart-26-04-07-00-46-40-336.png"tvg-chno=""group-title="Kids & Family":http-referrer="",ZNAR KIDS TV HD
+https://live20.bozztv.com/giatv/giatv-znarkids/znarkids/chunks.m3u8
+#EXTINF:-1 tvg-name="SPIY KIDS TV HD"tvg-id=""tvg-logo="https://i.postimg.cc/Qtb6sXmc/Picsart-26-02-19-16-47-44-588.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",SPIY KIDS TV HD
+https://live20.bozztv.com/giatv/giatv-spikids4k2025/spikids4k2025/chunks.m3u8
 #EXTINF:-1 tvg-name="AL QURAN KAREEM"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-80ea6605-ad84-4433-a54c-a2c61f5c3c94.jpg"tvg-chno=""group-title="Religious":http-referrer="",AL QURAN KAREEM
 https://win.holol.com/live/quran/chunklist_w1967448292.m3u8
 #EXTINF:-1 tvg-name="AL SUNNAH"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-8c488311-bed6-4d84-b974-5efef4c21764.jpg"tvg-chno=""group-title="Religious":http-referrer="",AL SUNNAH
@@ -10218,6 +10232,8 @@ https://qurango.net/radio/tarateel
 https://uk5.internet-radio.com/proxy/dubaiholyquran?mp=/stream;
 #EXTINF:-1 tvg-name="Guide Us"tvg-id=""tvg-logo="https://i.postimg.cc/hvcT3rXQ/Guide-us-tv-200.png"tvg-chno=""group-title="Religious":http-referrer="",Guide Us
 https://stream.streamislam.com:443/hls/streamlive/1_2/index.m3u8
+#EXTINF:-1 tvg-name="ESRA TV 1 ۞ HD"tvg-id=""tvg-logo="https://i.postimg.cc/6tNVZW4B/ESRA.jpg"tvg-chno=""group-title="Religious":http-referrer="",ESRA TV 1 ۞ HD
+https://live20.bozztv.com/giatv/giatv-ESRAHD/ESRAHD/chunks.m3u8
 #EXTINF:-1 tvg-name="سورة الفاتحة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة الفاتحة - Maher Al-Muaiqly
 https://server12.mp3quran.net/maher/001.mp3
 #EXTINF:-1 tvg-name="سورة البقرة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة البقرة - Maher Al-Muaiqly
