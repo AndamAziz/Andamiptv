@@ -1,27 +1,27 @@
-M3U Cleaner report - 2026-11-04 20:39:55
+M3U Cleaner report - 2026-11-06 03:45:05
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10513
+Total channels kept:  11088
 Blocked (blocklist):  0
-Duplicates removed:   1
+Duplicates removed:   11
 Malformed/skipped:    0
 
-  Kurdish Channels: 193
-  Sports: 477
-  BEIN SPORTS AR: 16
+  Kurdish Channels: 185
+  BEIN SPORTS AR: 19
+  Sports: 474
   National Geographic: 55
   SKY TV: 19
-  Movies TV: 504
+  Kids & Family: 338
+  Movies TV: 500
   Series & Drama: 246
-  Documentary: 234
+  Documentary: 240
   News: 1061
-  Entertainment: 563
-  Music: 787
-  Kids & Family: 331
-  Religious: 615
+  Entertainment: 562
+  Music: 790
+  Religious: 616
   Quran: 512
-  Comedy: 96
+  Comedy: 193
   Crime & Mystery: 159
   Reality & Game Shows: 146
   Sci-Fi & Horror: 57
@@ -39,10 +39,10 @@ Malformed/skipped:    0
   General: 1
   USA & Canada TV: 345
   Latin America & Spain: 717
-  Russia & CIS: 228
+  Russia & CIS: 226
   Italy: 88
   Germany - Austria - Switzerland: 90
-  France & Belgium: 38
+  France & Belgium: 37
   Netherlands: 88
   Turkey: 66
   Iran: 53
@@ -50,7 +50,7 @@ Malformed/skipped:    0
   Arabic TV: 65
   Indonesia & Malaysia: 87
   Asia: 151
-  Eastern Europe & Balkans: 213
+  Eastern Europe & Balkans: 212
   Portugal & Brazil: 72
   UK - Ireland - Australia - NZ: 41
   Greece & Cyprus: 33
@@ -62,6 +62,22 @@ Malformed/skipped:    0
   Uncategorized: 9
   KURDISH-دۆبلاژ: 195
   KURDISH-ژێرنوس: 3
-  English: 14
   Spanish: 1
   FARSI: 6
+  Action: 45
+  Adventure: 9
+  Animation: 6
+  Crime: 59
+  Drama: 36
+  Family: 1
+  Fantasy: 16
+  History: 9
+  Horror: 52
+  Mystery: 30
+  Romance: 35
+  Science Fiction: 23
+  Thriller: 23
+  War: 12
+  Western: 52
+  Free Classics: 35
+  Classic Cartoons: 49

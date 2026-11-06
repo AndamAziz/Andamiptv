@@ -12,9 +12,9 @@ https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 #EXTINF:-1 tvg-name="KIRKUK TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-46747ba2-9525-4eeb-82b4-b74d02bdde3a.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KIRKUK TV
 https://live.kirkuklive.live/hls/stream/index.m3u8
-#EXTINF:-1 tvg-name="WALLA CHAMCHMAL HD"tvg-id=""tvg-logo="https://i.postimg.cc/CLc0X3z6/Picsart-26-04-01-21-54-38-120.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",WALLA CHAMCHMAL HD
+#EXTINF:-1 tvg-name="WALLA CHAMCHMAL HD"tvg-id=""tvg-logo="https://i.postimg.cc/CLc0X3z6/Picsart-26-04-01-21-54-38-120.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",WALLA CHAMCHMAL
 https://live20.bozztv.com/giatv/giatv-wallatv88/wallatv88/chunks.m3u8
-#EXTINF:-1 tvg-name="INFINITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/vTKjfq5G/Picsart-26-02-19-17-34-19-536.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",INFINITY HD
+#EXTINF:-1 tvg-name="INFINITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/vTKjfq5G/Picsart-26-02-19-17-34-19-536.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",INFINITY
 https://cdn.karwan.tv/infinity-tv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="NAT GEO WOULD"tvg-id=""tvg-logo="https://i.postimg.cc/y8KfhxVn/page-1.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NAT GEO WOULD
 https://stream8.cinerama.uz/1042/tracks-v1a1/mono.m3u8
@@ -56,7 +56,7 @@ https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
 https://183.bozztv.com/giatv/giatv-oneplus/oneplus/chunks.m3u8
 #EXTINF:-1 tvg-name="Ranya HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-05020bf1-61e0-474f-a452-bcd513d910ae.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Ranya
 https://ranyatv.avrstream.com/RanyaTV/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-name="RANYA CITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/cLdxH61k/Picsart-26-05-11-17-14-15-961.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RANYA CITY HD
+#EXTINF:-1 tvg-name="RANYA CITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/cLdxH61k/Picsart-26-05-11-17-14-15-961.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RANYA CITY
 https://avr.host247.net/Ranya/RanyaCity/playlist.m3u8
 #EXTINF:-1 tvg-name="Channel 8 KU"tvg-id=""tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Channel8corp.png/960px-Channel8corp.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Channel 8 KU
 https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
@@ -408,26 +408,6 @@ https://castx.online/live/beinsports7/stream_3.m3u8
 https://castx.online/live/beinsports7/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_5.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
-https://balance.footballii.ir/hls2/bein1.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
-#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="Sports",BEIN SPORTS 3
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
-#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
-https://andam.uk/ytlive/nrtsport/index.m3u8
-#EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Sports":http-referrer="",Biner Sport
-https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
-#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Sports":http-referrer="",AVA SPORT TV
-https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
-#EXTINF:-1 tvg-name="IRIB3 SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/3b91a06fffbd53f0.jpg"tvg-chno=""group-title="Sports":http-referrer="",IRIB3 SPORT
-https://cp11.adabmedia.com/hls2/tv3test.m3u8
-#EXTINF:-1 tvg-name="VARZESH SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5ca56f576cf4a46c.jpg"tvg-chno=""group-title="Sports":http-referrer="",VARZESH SPORT
-https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
-#EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="Sports",BEIN SPORTS 7
-https://castx.online/live/beinsports7/stream_1.m3u8
-#EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="Sports",Koora City
-https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 1
 https://streams.rooter.gg/hls/cb08f449bacb32397aaeb16f5b1f000a/hd720.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 2
@@ -1062,8 +1042,6 @@ https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
 https://amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk-36uja.amagi.tv/playlist/amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-name="UDAR"tvg-id="UDAR.ru@SD"tvg-logo="https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png"tvg-chno=""group-title="Sports":http-referrer="",UDAR
 http://5.188.159.128:8070/udar/index.m3u8
-#EXTINF:-1 tvg-name="Varzesh TV"tvg-id="VarzeshTV.ir@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png"tvg-chno=""group-title="Sports":http-referrer="",Varzesh TV
-https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
 #EXTINF:-1 tvg-name="viju+ Sport"tvg-id="vijuPlusSport.ru@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fXESG0l.png"tvg-chno=""group-title="Sports":http-referrer="",viju+ Sport
 http://stream.mcquack.net/333/index.m3u8
 #EXTINF:-1 tvg-name="Win Sports"tvg-id="WinSports.co@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/DuSSrHV.png"tvg-chno=""group-title="Sports":http-referrer="",Win Sports
@@ -1558,9 +1536,9 @@ https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Zarok Kurmanji"tvg-id=""tvg-logo="https://i.postimg.cc/g0fvZH6Q/Zarok-200.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",Zarok Kurmanji
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
-#EXTINF:-1 tvg-name="ZNAR KIDS TV HD"tvg-id=""tvg-logo="https://i.postimg.cc/mgdGV7mn/Picsart-26-04-07-00-46-40-336.png"tvg-chno=""group-title="Kids & Family":http-referrer="",ZNAR KIDS TV HD
+#EXTINF:-1 tvg-name="ZNAR KIDS TV HD"tvg-id=""tvg-logo="https://i.postimg.cc/mgdGV7mn/Picsart-26-04-07-00-46-40-336.png"tvg-chno=""group-title="Kids & Family":http-referrer="",ZNAR KIDS TV
 https://live20.bozztv.com/giatv/giatv-znarkids/znarkids/chunks.m3u8
-#EXTINF:-1 tvg-name="SPIY KIDS TV HD"tvg-id=""tvg-logo="https://i.postimg.cc/Qtb6sXmc/Picsart-26-02-19-16-47-44-588.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",SPIY KIDS TV HD
+#EXTINF:-1 tvg-name="SPIY KIDS TV HD"tvg-id=""tvg-logo="https://i.postimg.cc/Qtb6sXmc/Picsart-26-02-19-16-47-44-588.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",SPIY KIDS TV
 https://live20.bozztv.com/giatv/giatv-spikids4k2025/spikids4k2025/chunks.m3u8
 #EXTINF:-1 tvg-name="PBS Kids"tvg-id="PBSKids.us@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/q4cUQKW.png"tvg-chno=""group-title="Kids & Family":http-referrer="",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
@@ -10212,7 +10190,7 @@ https://qurango.net/radio/tarateel
 https://uk5.internet-radio.com/proxy/dubaiholyquran?mp=/stream;
 #EXTINF:-1 tvg-name="Guide Us"tvg-id=""tvg-logo="https://i.postimg.cc/hvcT3rXQ/Guide-us-tv-200.png"tvg-chno=""group-title="Religious":http-referrer="",Guide Us
 https://stream.streamislam.com:443/hls/streamlive/1_2/index.m3u8
-#EXTINF:-1 tvg-name="ESRA TV 1 ۞ HD"tvg-id=""tvg-logo="https://i.postimg.cc/6tNVZW4B/ESRA.jpg"tvg-chno=""group-title="Religious":http-referrer="",ESRA TV 1 ۞ HD
+#EXTINF:-1 tvg-name="ESRA TV 1 ۞ HD"tvg-id=""tvg-logo="https://i.postimg.cc/6tNVZW4B/ESRA.jpg"tvg-chno=""group-title="Religious":http-referrer="",ESRA TV 1 ۞
 https://live20.bozztv.com/giatv/giatv-ESRAHD/ESRAHD/chunks.m3u8
 #EXTINF:-1 tvg-name="سورة الفاتحة - Maher Al-Muaiqly"tvg-id=""tvg-logo="https://i.postimg.cc/FK7LDK6z/Maher.jpg"tvg-chno=""group-title="Quran":http-referrer="",سورة الفاتحة - Maher Al-Muaiqly
 https://server12.mp3quran.net/maher/001.mp3
@@ -21652,6 +21630,8 @@ https://archive.org/download/born_to_the_saddle/born_to_the_saddle.mp4
 https://archive.org/download/DanielBoone1936/DanielBoone1936.mp4
 #EXTINF:-1 tvg-name="Roarin' Lead {tmdb-189015}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pqX4xro5tTvQ2ehuZZt7pjf6yB9.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Roarin' Lead {tmdb-189015}
 https://archive.org/download/RoarinLead1936/RoarinLead1936.mp4
+#EXTINF:-1 tvg-name="ANGEL AND THE BADMAN video quality upgrade"tvg-id=""tvg-logo="https://archive.org/services/img/AngelAndTheBadManVideoQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",ANGEL AND THE BADMAN video quality upgrade
+https://archive.org/download/AngelAndTheBadManVideoQualityUpgrade/AngelAndTheBadManVideoQualityUpgrade.mp4
 #EXTINF:-1 tvg-name="The Saint Louis Bank Robbery (1959)"tvg-id=""tvg-logo="https://archive.org/services/img/Saint_Louis_Bank_Robbery"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Saint Louis Bank Robbery (1959)
 https://archive.org/download/Saint_Louis_Bank_Robbery/Saint_Louis_Bank_Robbery.mp4
 #EXTINF:-1 tvg-name="The Sons of Hercules: Land of Darkness (1963)"tvg-id=""tvg-logo="https://archive.org/services/img/SonofHerculesTheLandofDarkness"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Sons of Hercules: Land of Darkness (1963)
@@ -21722,8 +21702,6 @@ https://archive.org/download/wrong_road/wrong_road.mp4
 https://archive.org/download/thirteenth_guest/thirteenth_guest.mp4
 #EXTINF:-1 tvg-name="Hoosier Schoolmaster (1935)"tvg-id=""tvg-logo="https://archive.org/services/img/hoosier_schoolmaster"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Hoosier Schoolmaster (1935)
 https://archive.org/download/hoosier_schoolmaster/hoosier_schoolmaster.mp4
-#EXTINF:-1 tvg-name="ANGEL AND THE BADMAN video quality upgrade"tvg-id=""tvg-logo="https://archive.org/services/img/AngelAndTheBadManVideoQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",ANGEL AND THE BADMAN video quality upgrade
-https://archive.org/download/AngelAndTheBadManVideoQualityUpgrade/AngelAndTheBadManVideoQualityUpgrade.mp4
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_063ae6/index.m3u8
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02
