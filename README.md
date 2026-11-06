@@ -85,3 +85,12 @@ movies/series are untouched. The `mirror-logos` workflow runs it after every pla
 Xumo channel id inside its stream URL, an exact (unambiguous) name in `tv-logo/tv-logos`, or an
 iptv-org channel id equal to its `tvg-id`. Wrong logos are worse than none, so there is no fuzzy
 matching. `logo-fill-report.txt` lists what was filled and the channels that still need a logo link.
+
+## New entries go to the top of their group
+
+When you add a movie, series episode or live channel (web form / upload), `categorize_new.py`
+(run by the auto-heal workflow) moves it to the **top of its own group**:
+a new movie → first movie of its group; a new episode of an existing show → right after that
+show's last episode; a brand-new show → first series of its group; a new live channel → first
+channel of its group. Only the new entries at the end of the file are touched; a bulk import of
+more than 20 entries keeps its order. Covered by `tests/test_new_entries.py`.
