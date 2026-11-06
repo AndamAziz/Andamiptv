@@ -53,7 +53,8 @@ DEFAULT_CATEGORIES = {
 }
 
 QUALITY_TAG_RE = re.compile(
-    r'\[.*?\]|\(.*?\)|\b(1080p|720p|480p|HD|FHD|UHD|4K|HEVC|SD|60FPS|50FPS)\b',
+    # Quality words (HD, FHD, 4K, ...) are part of the names the owner chose: they are KEPT.
+    r'\[.*?\]|\(.*?\)',
     re.IGNORECASE,
 )
 
@@ -195,7 +196,7 @@ def get_group_title(extinf_line: str) -> str:
 
 
 def clean_name(extinf_line: str) -> str:
-    """Strip quality/resolution tags and bracketed junk from the display name only."""
+    """Strip bracketed junk ([..], (..)) from the display name only. Quality words like HD stay."""
     if ',' not in extinf_line:
         return extinf_line
     meta, name = extinf_line.split(',', 1)
@@ -276,7 +277,17 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
     skipped_duplicates = 0
     skipped_malformed = 0
 
-    for extinf_line, extras, url_line in parse_playlist(lines):
+    parsed = list(parse_playlist(lines))
+    # Live channels listed in SEVERAL groups on purpose (e.g. NRT SPORT in "Kurdish Channels" AND in
+    # "Sports"): their stream appears with different written groups. Those keep the group the owner
+    # wrote instead of being re-categorized by keyword (which would put every copy in one group).
+    written_groups = {}
+    for e, _x, u in parsed:
+        if not vod_type(e):
+            written_groups.setdefault(same_stream_key(u.strip()), set()).add(get_group_title(e))
+    copies_on_purpose = {k for k, g in written_groups.items() if len(g) > 1}
+
+    for extinf_line, extras, url_line in parsed:
         extinf_lower = extinf_line.lower()
         clean_url = url_line.strip()
 
@@ -309,7 +320,11 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             # Their names are curated (e.g. "Title (2006)" for TMDB matching): leave them untouched.
             category = get_group_title(extinf_line)
         else:
-            category = categorize_channel(extinf_line, categories, url_line)
+            written = get_group_title(extinf_line)
+            if same_stream_key(clean_url) in copies_on_purpose and written in categories:
+                category = written
+            else:
+                category = categorize_channel(extinf_line, categories, url_line)
             if category in (UNCATEGORIZED_KEY, REGROUP_KEY) and fallback:
                 # second pass: channels no specific rule placed (Uncategorized) or parked in the catch-all "General"
                 second = categorize_channel(extinf_line, fallback, url_line)
