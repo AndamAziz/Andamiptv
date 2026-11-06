@@ -291,7 +291,12 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         # one entry per stream: the same server and path count as the same
         # link even when written with http/https, :80/:443 or a trailing slash.
         # A channel name may repeat freely, as long as the servers differ.
+        # A LIVE channel may be listed again in a DIFFERENT group on purpose (e.g. a sports channel
+        # copied into "Sports"): the key therefore includes the group written in the playlist.
+        # Movies/series (and repeats inside one group) are still one entry per stream.
         url_key = same_stream_key(clean_url)
+        if not vod_type(extinf_line):
+            url_key = (get_group_title(extinf_line), url_key)
         if url_key in seen_urls:
             skipped_duplicates += 1
             continue
