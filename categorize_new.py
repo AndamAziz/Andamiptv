@@ -13,6 +13,36 @@ import os, re, sys
 sys.dont_write_bytecode = True
 import build_playlist as bp
 
+MAX_TAIL = 20   # a bigger batch is a bulk import: leave its order alone
+
+def _show(e):
+    name = e['lines'][0].rsplit(',', 1)[-1].strip()
+    return re.sub(r'\s*[-–]\s*S\d+\s*E\d+.*$', '', name, flags=re.I).strip().lower()
+
+def move_new_vod_to_top(entries, known, is_vod):
+    """Movies/series appended at the END of the file (the web form does this) go to the top of
+    their own group: a new movie -> first movie of its group; an episode of a show that already
+    exists -> right after that show's last episode; a brand-new show -> first series of the group.
+    Only the unbroken run of new entries at the very end of the file is touched."""
+    if not known: return []
+    last_known = max((k for k, e in enumerate(entries) if bp.same_stream_key(e['url']) in known), default=-1)
+    tail = [e for e in entries[last_known + 1:] if is_vod(e)]
+    if not tail or len(tail) > MAX_TAIL or any(not is_vod(e) for e in entries[last_known + 1:]): return []
+    moved = []
+    for e in reversed(tail):                      # reversed: several new ones keep their file order
+        del entries[next(i for i, x in enumerate(entries) if x is e)]
+        g, t = bp.get_group_title(e['lines'][0]), bp.vod_type(e['lines'][0])
+        same = [p for p, o in enumerate(entries) if is_vod(o) and bp.vod_type(o['lines'][0]) == t and bp.get_group_title(o['lines'][0]) == g]
+        pos = None
+        if same and t == 'series':
+            eps = [p for p in same if _show(entries[p]) == _show(e)]
+            pos = (max(eps) + 1) if eps else same[0]
+        elif same:
+            pos = same[0]
+        if pos is None: entries.append(e)         # new group: stays where it is
+        else: entries.insert(pos, e); moved.append(e)
+    return moved
+
 def main(pl='playlist.m3u', sn='library/playlist.snapshot.m3u'):
     base = os.path.dirname(os.path.abspath(bp.__file__))
     cats = bp.load_categories(os.path.join(base, bp.DEFAULT_CATEGORIES_FILE))
@@ -55,12 +85,15 @@ def main(pl='playlist.m3u', sn='library/playlist.snapshot.m3u'):
     pulled = [entries.pop(k) for k in sorted(moved, reverse=True)][::-1]
     for e in pulled:
         g = bp.get_group_title(e['lines'][0])
-        pos = max((p for p, o in enumerate(entries) if not is_vod(o) and bp.get_group_title(o['lines'][0]) == g), default=None)
-        if pos is None: pos = next((p for p, o in enumerate(entries) if is_vod(o)), len(entries)) - 1
-        entries.insert(pos + 1, e)
+        # newest live channel goes to the TOP of its group's live block
+        pos = min((p for p, o in enumerate(entries) if not is_vod(o) and bp.get_group_title(o['lines'][0]) == g), default=None)
+        if pos is None: pos = next((p for p, o in enumerate(entries) if is_vod(o)), len(entries))
+        entries.insert(pos, e)
+    vod_moved = move_new_vod_to_top(entries, known, is_vod)
+    moved = moved + vod_moved
     out = header + [l for e in entries for l in e['lines']]
     open(pl, 'w', encoding='utf-8').write('\n'.join(out) + ('' if out and out[-1] == '' else '\n'))
-    print(f'categorize_new: {changed} new channel(s) categorized, {len(moved)} moved')
+    print(f'categorize_new: {changed} new channel(s) categorized, {len(moved)} moved to the top')
 
 if __name__ == '__main__':
     a = [x for x in sys.argv[1:]]
