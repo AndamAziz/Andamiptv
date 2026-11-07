@@ -408,18 +408,18 @@ https://castx.online/live/beinsports7/stream_3.m3u8
 https://castx.online/live/beinsports7/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_5.m3u8
+#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
+https://andam.uk/ytlive/nrtsport/index.m3u8
+#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Sports":http-referrer="",AVA SPORT TV
+https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="Sports",BEIN SPORTS 3
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
-#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
-https://andam.uk/ytlive/nrtsport/index.m3u8
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Sports":http-referrer="",Biner Sport
 https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
-#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Sports":http-referrer="",AVA SPORT TV
-https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
 #EXTINF:-1 tvg-name="IRIB3 SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/3b91a06fffbd53f0.jpg"tvg-chno=""group-title="Sports":http-referrer="",IRIB3 SPORT
 https://cp11.adabmedia.com/hls2/tv3test.m3u8
 #EXTINF:-1 tvg-name="VARZESH SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5ca56f576cf4a46c.jpg"tvg-chno=""group-title="Sports":http-referrer="",VARZESH SPORT
@@ -1062,8 +1062,6 @@ https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
 https://amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk-36uja.amagi.tv/playlist/amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-name="UDAR"tvg-id="UDAR.ru@SD"tvg-logo="https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png"tvg-chno=""group-title="Sports":http-referrer="",UDAR
 http://5.188.159.128:8070/udar/index.m3u8
-#EXTINF:-1 tvg-name="Varzesh TV"tvg-id="VarzeshTV.ir@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png"tvg-chno=""group-title="Sports":http-referrer="",Varzesh TV
-https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
 #EXTINF:-1 tvg-name="viju+ Sport"tvg-id="vijuPlusSport.ru@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fXESG0l.png"tvg-chno=""group-title="Sports":http-referrer="",viju+ Sport
 http://stream.mcquack.net/333/index.m3u8
 #EXTINF:-1 tvg-name="Win Sports"tvg-id="WinSports.co@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/DuSSrHV.png"tvg-chno=""group-title="Sports":http-referrer="",Win Sports
@@ -20734,6 +20732,8 @@ https://archive.org/download/QueenoftheAmazons/QueenoftheAmazons.mp4
 https://archive.org/download/danger_lights/danger_lights.mp4
 #EXTINF:-1 tvg-name="Klondike {tmdb-158699}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pDODM6gJBCKlwCBMDFWlM0BM8c8.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Klondike {tmdb-158699}
 https://archive.org/download/klondike_1932/klondike_1932.mp4
+#EXTINF:-1 tvg-name="Forgotten Island {tmdb-1465063}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Forgotten Island {tmdb-1465063}
+https://vod.andam.uk/vod/Forgotten-Island.mp4
 #EXTINF:-1 tvg-name="Sita Sings the Blues {tmdb-20529}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hrtW78FNfwFSiIetgey0cR8AT0g.jpg"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Sita Sings the Blues {tmdb-20529}
 https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_DVD_NTSC3.mp4
 #EXTINF:-1 tvg-name="Gulliver's Travels {tmdb-42518}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fiwAJIAnSqWbU3JphqN8Y80mFM6.jpg"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",Gulliver's Travels {tmdb-42518}
@@ -20746,6 +20746,8 @@ https://archive.org/download/RudolphTheRed-nosedReindeer1948/RudolphTheRed-nosed
 https://archive.org/download/phantom_ship/phantom_ship.mp4
 #EXTINF:-1 tvg-name="The Adventures of Superman"tvg-id=""tvg-logo="https://archive.org/services/img/TheAdventuresOfSuperman"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",The Adventures of Superman
 https://archive.org/download/TheAdventuresOfSuperman/SupermanTheAnimatedMovie.mp4
+#EXTINF:-1 tvg-name="Animales {tmdb-1599993}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Animales {tmdb-1599993}
+https://vod.andam.uk/vod/animals.mp4
 #EXTINF:-1 tvg-name="The Charlie Chaplin Festival {tmdb-593804}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kZqVmoHksjX1FANINggnaoCmwIn.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",The Charlie Chaplin Festival {tmdb-593804}
 https://archive.org/download/charlie_chaplin_film_fest/charlie_chaplin_film_fest.mp4
 #EXTINF:-1 tvg-name="His Girl Friday {tmdb-3085}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lu86Y9zTPH3neCiUzLzHCEFHf7f.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",His Girl Friday {tmdb-3085}
@@ -21194,6 +21196,8 @@ https://archive.org/download/Waltzes_from_Vienna/Waltzes_from_Vienna_512kb.mp4
 https://archive.org/download/BattleshipPotemkin_644/TheBattleshipPotemkinsergeiM.Eisenstein1925.mp4
 #EXTINF:-1 tvg-name="The Private Life of Henry VIII {tmdb-43122}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ncQC8U3gGFhCTWlxxn32nkFr2d4.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",The Private Life of Henry VIII {tmdb-43122}
 https://archive.org/download/ThePrivateLifeOfHenryViii1933/ThePrivateLifeOfHenryViii1933.mp4
+#EXTINF:-1 tvg-name="Obsession {tmdb-1339713}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Obsession {tmdb-1339713}
+https://vod.andam.uk/vod/myfile.mp4
 #EXTINF:-1 tvg-name="Resident Evil {tmdb-1423191}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Resident Evil {tmdb-1423191}
 https://super-reseller.lovable.app/api/public/v/v-f502b3413028.mp4
 #EXTINF:-1 tvg-name="House on Haunted Hill {tmdb-15856}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g5kdFt3piV3w1pG65W9sSToJ7HB.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",House on Haunted Hill {tmdb-15856}
@@ -21652,6 +21656,8 @@ https://archive.org/download/born_to_the_saddle/born_to_the_saddle.mp4
 https://archive.org/download/DanielBoone1936/DanielBoone1936.mp4
 #EXTINF:-1 tvg-name="Roarin' Lead {tmdb-189015}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pqX4xro5tTvQ2ehuZZt7pjf6yB9.jpg"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",Roarin' Lead {tmdb-189015}
 https://archive.org/download/RoarinLead1936/RoarinLead1936.mp4
+#EXTINF:-1 tvg-name="ANGEL AND THE BADMAN video quality upgrade"tvg-id=""tvg-logo="https://archive.org/services/img/AngelAndTheBadManVideoQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",ANGEL AND THE BADMAN video quality upgrade
+https://archive.org/download/AngelAndTheBadManVideoQualityUpgrade/AngelAndTheBadManVideoQualityUpgrade.mp4
 #EXTINF:-1 tvg-name="The Saint Louis Bank Robbery (1959)"tvg-id=""tvg-logo="https://archive.org/services/img/Saint_Louis_Bank_Robbery"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Saint Louis Bank Robbery (1959)
 https://archive.org/download/Saint_Louis_Bank_Robbery/Saint_Louis_Bank_Robbery.mp4
 #EXTINF:-1 tvg-name="The Sons of Hercules: Land of Darkness (1963)"tvg-id=""tvg-logo="https://archive.org/services/img/SonofHerculesTheLandofDarkness"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",The Sons of Hercules: Land of Darkness (1963)
@@ -21722,8 +21728,6 @@ https://archive.org/download/wrong_road/wrong_road.mp4
 https://archive.org/download/thirteenth_guest/thirteenth_guest.mp4
 #EXTINF:-1 tvg-name="Hoosier Schoolmaster (1935)"tvg-id=""tvg-logo="https://archive.org/services/img/hoosier_schoolmaster"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Hoosier Schoolmaster (1935)
 https://archive.org/download/hoosier_schoolmaster/hoosier_schoolmaster.mp4
-#EXTINF:-1 tvg-name="ANGEL AND THE BADMAN video quality upgrade"tvg-id=""tvg-logo="https://archive.org/services/img/AngelAndTheBadManVideoQualityUpgrade"tvg-chno=""tvg-type="movie"group-title="Western":http-referrer="",ANGEL AND THE BADMAN video quality upgrade
-https://archive.org/download/AngelAndTheBadManVideoQualityUpgrade/AngelAndTheBadManVideoQualityUpgrade.mp4
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_063ae6/index.m3u8
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02

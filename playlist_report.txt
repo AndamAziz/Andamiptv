@@ -1,15 +1,15 @@
-M3U Cleaner report - 2026-11-06 03:45:05
+M3U Cleaner report - 2026-11-07 03:17:49
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  11088
+Total channels kept:  11101
 Blocked (blocklist):  0
-Duplicates removed:   11
+Duplicates removed:   0
 Malformed/skipped:    0
 
   Kurdish Channels: 185
   BEIN SPORTS AR: 19
-  Sports: 474
+  Sports: 484
   National Geographic: 55
   SKY TV: 19
   Kids & Family: 338
@@ -21,7 +21,7 @@ Malformed/skipped:    0
   Music: 790
   Religious: 616
   Quran: 512
-  Comedy: 193
+  Comedy: 194
   Crime & Mystery: 159
   Reality & Game Shows: 146
   Sci-Fi & Horror: 57
@@ -66,13 +66,13 @@ Malformed/skipped:    0
   FARSI: 6
   Action: 45
   Adventure: 9
-  Animation: 6
+  Animation: 7
   Crime: 59
   Drama: 36
   Family: 1
   Fantasy: 16
   History: 9
-  Horror: 52
+  Horror: 53
   Mystery: 30
   Romance: 35
   Science Fiction: 23
