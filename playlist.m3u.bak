@@ -20624,6 +20624,10 @@ https://streaming.imvbox.com/media/2498/1280x720/1280x720.m3u8
 https://streaming.imvbox.com/media/2059/1024x768/1024x768.m3u8
 #EXTINF:-1 tvg-name="Night Bus _ پاسی شەو {tmdb-363946}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BY2Q4ZGNlOTYtNzdiZC00NTk0LWJhZDAtZGRlNzg1ZjI2ODRiXkEyXkFqcGc@._V1_FMjpg_UX794_.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",Night Bus _ پاسی شەو {tmdb-363946}
 https://streaming.imvbox.com/media/2324/1280x720/1280x720.m3u8
+#EXTINF:-1 tvg-name="Captain Marvel {tmdb-299537}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Captain Marvel {tmdb-299537}
+https://vod.andam.uk/vod/Movies--Captain-Marvel.mp4
+#EXTINF:-1 tvg-name="Dead Howling {tmdb-1532997}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/i1vpLPnHVAZq1CyJlpVS8YI7a93.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Dead Howling {tmdb-1532997}
+https://vod.andam.uk/vod/Dead-Howling.mp4
 #EXTINF:-1 tvg-name="The Dog Stars {tmdb-1384216}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/5O616X9vmRzQdB68PHzBewPittd.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",The Dog Stars {tmdb-1384216}
 https://super-reseller.lovable.app/api/public/v/v-1ef731995ab1.mp4
 #EXTINF:-1 tvg-name="Mission: Impossible - Ghost Protocol {tmdb-56292}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/eRZTGx7GsiKqPch96k27LK005ZL.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Mission: Impossible - Ghost Protocol {tmdb-56292}
@@ -20714,6 +20718,8 @@ https://archive.org/download/TarzanTheFearless1933/TarzanTheFearless1933.mp4
 https://archive.org/download/SubmarineBase1943/SubmarineBase1943.mp4
 #EXTINF:-1 tvg-name="Harakiri (Fritz Lang) {tmdb-14537}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/5konZnIbcAxZjP616Cz5o9bKEfW.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Harakiri (Fritz Lang) {tmdb-14537}
 https://archive.org/download/Harakiri1919fritzLang/Harakiri1919_512kb.mp4
+#EXTINF:-1 tvg-name="Heart of the Beast {tmdb-1263337}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Heart of the Beast {tmdb-1263337}
+https://vod.andam.uk/vod/Heart-of-the-Beast.mp4
 #EXTINF:-1 tvg-name="Liane das Mädchen aus dem Urwald(Liane Jungle Goddess) {tmdb-96509}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sk8PVg6jT6bqeewgMHiHRwzUbdO.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Liane das Mädchen aus dem Urwald(Liane Jungle Goddess) {tmdb-96509}
 https://archive.org/download/liane_jungle_goddess/laine_jungle_godess.mp4
 #EXTINF:-1 tvg-name="Danger Flight {tmdb-306202}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sJkdZlkFwN74OwNGuov2UNhWbog.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Danger Flight {tmdb-306202}
@@ -21196,6 +21202,8 @@ https://archive.org/download/Waltzes_from_Vienna/Waltzes_from_Vienna_512kb.mp4
 https://archive.org/download/BattleshipPotemkin_644/TheBattleshipPotemkinsergeiM.Eisenstein1925.mp4
 #EXTINF:-1 tvg-name="The Private Life of Henry VIII {tmdb-43122}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ncQC8U3gGFhCTWlxxn32nkFr2d4.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",The Private Life of Henry VIII {tmdb-43122}
 https://archive.org/download/ThePrivateLifeOfHenryViii1933/ThePrivateLifeOfHenryViii1933.mp4
+#EXTINF:-1 tvg-name="Backrooms {tmdb-1083381}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Backrooms {tmdb-1083381}
+https://vod.andam.uk/vod/Watch-Backrooms-2026-.mp4
 #EXTINF:-1 tvg-name="Obsession {tmdb-1339713}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Obsession {tmdb-1339713}
 https://vod.andam.uk/vod/myfile.mp4
 #EXTINF:-1 tvg-name="Resident Evil {tmdb-1423191}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg"tvg-chno=""tvg-type="movie"group-title="Horror":http-referrer="",Resident Evil {tmdb-1423191}

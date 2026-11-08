@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-11-07 03:17:49
+M3U Cleaner report - 2026-11-08 02:47:05
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  11101
+Total channels kept:  11105
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
@@ -64,15 +64,15 @@ Malformed/skipped:    0
   KURDISH-ژێرنوس: 3
   Spanish: 1
   FARSI: 6
-  Action: 45
-  Adventure: 9
+  Action: 47
+  Adventure: 10
   Animation: 7
   Crime: 59
   Drama: 36
   Family: 1
   Fantasy: 16
   History: 9
-  Horror: 53
+  Horror: 54
   Mystery: 30
   Romance: 35
   Science Fiction: 23
