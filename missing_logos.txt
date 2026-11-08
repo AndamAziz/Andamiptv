@@ -1,27 +1,22 @@
+0,380,562_.jpg" group-title="Fantasy" tvg-type="movie",The Lord of the Rings The Return of the King {tmdb-122}
 0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Return of the King {tmdb-122}
 0,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Legend 2015 _ لی جند {tmdb-276907}
 1,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Fellowship of the Ring {tmdb-120}
 100pour100docs
-123 Go
 123 Go Spanish
 123 Go! English
 123 Go! Spanish
+14,380,562_.jpg" group-title="Fantasy" tvg-type="movie",The Lord of the Rings The Two Towers {tmdb-121}
 14,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",The Lord of the Rings The Two Towers {tmdb-121}
 4,380,562_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",K.F.G Capter 1 {tmdb-564147}
-4UV
 5 Minute Craft
 5-Minute Craft
-60 Days In Jail
-60 Days in Jail
 80 Anni - 2a Guerra Mondiale
-A New Life In The Sun
-A&E Crime 360
 ABC 20/20
 ABC 5 St. Paul MN
 ABN Freedom of Speech
 ABN I AM
 ABN Son of God
-ACADEMY AMOZHGARI TV
 AFV with Alfonso Ribeiro
 AR | QATAR TV
 ARD Plus Krimi
@@ -34,7 +29,6 @@ AVAZ
 Absinthe TV
 According to Jim
 Acelerados
-Acorn TV Mysteries
 Adrenaline Movies
 Adrenaline+
 Afra Film
@@ -47,50 +41,32 @@ Afroland Featured
 Al Loba
 AlTERNATIVE SHARAY TV
 Alerte Cobra
-Alfred Hitchcock Presents
-Alien Nation
-Alien Nation by DUST
-All Babies Channel
 All Out Reality
 AllHipHop
-Alone By History
 Alta Tensione
 Amasia
-America's Got Talent
 America's Voice
 American Idol
 American Stories
-Ancient Aliens
-Aqui y Ahora
 Arax TV
 Arko TV
 Armenia Premium
 Arous Beiru
-Artist of the Year
 Arvan TV
 Ashti Quran
 Automotion
-Autostop Per Il Cielo
-Ax Men
 BANGAWAZ TV
 BBC Drama Italy
-BBC Top Gear
 BBC Top Gear Finland
 BBC Top Gear France
 BBC Top Gear Germany
 BBC Top Gear Italy
 BET x Tyler Perry Comedy
-BET x Tyler Perry Drama
-Baby Einstein
-Bad Girls Club
 Beach Bonfire Vibes
 Best of Standup Comedy
 Beyblade
 Beyblade en Español
-Beyond Paranormal
-Big 12 Studios
 Bigtime - Películas Gratis
-Biography The Icons
 BizaarTV
 Black Enterprise Streaming Network
 Black Enterprise Streaming Television
@@ -99,10 +75,8 @@ Bloodline Detectives
 Bondi Vet
 Born to Kill
 Brave Wilderness
-Bravo Vault
 Breaking News by LeadStory
 Bring It
-British Screen Classics
 Brividy Cinema
 BuzzFeed Celeb
 BuzzFeed Tasty
@@ -112,7 +86,6 @@ CBC Murdoch Mysteries
 CBC News BC
 CBC News Explore
 CBC News Toronto
-CBS News Texas
 CFJC Kamloops BC
 CG Grandi Film
 CKPG Prince George BC
@@ -124,10 +97,8 @@ Cafe Film
 Campfire Vibes
 Canada One
 Canal do Artesanato
-Cash in the Attic
 Challenge Accepted
 Chaos Cam by AE
-Chaos on Cam
 Charlotte County CC-TV
 Chili Alta Tensione
 Chili Buonumore
@@ -139,57 +110,36 @@ Chosen TV English
 Cine Friki Latino
 Cine Maliza
 Cine Peplum
-Cine Retro
-Cine de Oro
 Cinema Yoruba
 Cirque du Soleil
 Classic Car Auctions
 Classic Rock
 Classic TV
-Come Dine With Me
 Comedy Tadka
 Como Dice el Dicho
 Comédies - Rakuten TV
 Conan O'Brien TV
 CooTel Nicaragua
-Cops & Docs
-Coreano by CJ ENM
-Cosmic Frontiers
 Cowboy Movie Channel
 Cozy Vibes
 CraftsyTV
 Crime & Justice
 Crime - Rakuten TV
-Crime Beat TV
-Crime Scene TV Poland
 CrimeFlix
-Crimes Cults Killers
 Crimes Cults Killers by A&E
 Crímenes Reales
 Cuisine Culture
 Curiosity Animales
-Curiosity Explora
-Curiosity Motores
-Cutlers Court
-DEFA TV
-Dance Moms
 DanceTV Algorhythm
 Deal Masters
-Deal Zone
-Death Valley Days
 Dej TV
-Demand Drama
 Dengi Quran
 Dengi islam Slemani
 Dennis and Gnasher
 Derin
 Desimpedidos
 Dhar Mann TV
-Divorce Court
 Docsville
-Dove Channel
-Dr G Medical Examiner
-Dr. G Medical Examiner
 Drames - Rakuten TV
 Drive + Speed
 Drive TV La Chaine Auto Geo
@@ -200,7 +150,6 @@ ESRA 2
 ESRA TV 2
 EURO KURD TV
 Easy Listening
-Emergency 24/7
 Enquetes de choc
 Enquêtes de Choc
 Envoy FAST
@@ -221,16 +170,9 @@ FAST Channel Wipeout
 FX TV 1
 Famille - Rakuten TV
 Familles En Scene
-Family Affair Channel
 Fatos Desconhecidos
 FilmGold
 FilmGold Germany
-FilmRise Binge Watch France
-FilmRise Crímenes verdaderos
-FilmRise DeGrassi la nouvelle génération
-FilmRise Les Routes du Paradis
-FilmRise Series gratis Mexico
-FilmRise Séries France
 FilmRise Z Nation France
 Films Romantiques - Rakuten TV
 Films d'Action - Rakuten TV
@@ -239,14 +181,8 @@ First 48
 FitDance
 Flash Haber TV
 Flashback 70's
-Flipping Nation
 Fluss Monster
-Forensic Files Poland
-Four in a Bed
-France 24 FAST English
-FreeTV Estelar
 G-eye TV
-GEWHER SPORT TV
 GEWHER TV
 GG Good Game
 GOOD TV CH12 維他命施
@@ -273,25 +209,17 @@ GOOD TV CH49 禱告頻道
 GOOD TV CH50 國際講員 中文發音
 GOOD TV CH9 愛+好醫生 短版
 Gaki no Tsukai
-Galanes
-Game & Fish TV
 Gardening With Monty Don
 Gardening with Monty Don
 General Hospital
 Gewher Family
-Gewher Sport
 Ghaint Punjab
-Ghost Stories
 Giovanni Paolo TV
 GlitchPlus
 Gold Star
-GoldStar TV – Alles Schlager
-Graham Norton
 Graham Norton Germany
 Grand Cinema
-Grandes Parejas
 Grandi Nomi
-Great British Menu
 Grjngo - Filmes De Faroeste
 Grjngo - Films de Western
 Grjngo - Películas Del Oeste
@@ -301,33 +229,21 @@ Grjngo Spain
 H2O & Friends
 HAHA TV
 HALABJA TV
-Hagerty
 Harcore Pawn
 Harvest USA
 He-Man & Masters Of The Universe
 Hell's Kitchen Germany
-Hercules: The Legendary Journeys
-Highway Thru Hell
 Hip-Hop/R&B
-History & Warfare Now
-History Hunters
 History and Warfare Now
 Hit List
-Hoarders
 Hoarders by A&E
 Home Plus
 Homerun TV
 Homicide
 Homicide la chaîne du fait divers
 Horror Club
-Horror by ALTER
-Hot Ones Poland
-Hot Wheels Action
-Hotel Inspector
 Hunt Fish TV
 Hunter x Hunter
-I Survived
-I Survived…
 ICC Plus
 IMK QURAN TV
 IMK TV
@@ -335,22 +251,17 @@ INA Ardivision
 IRIB Kermanshah
 IRIB Kordestan
 IRIB Mahabad
-Ice Pilots NTW In Spanish
-Ice Road Truckers
 Icon Film Channel
 Ideas En 5 Minutos Spanish
 Ideas en 5 Minutos
 Ideas en 5 minutos
 Imagine Playword
-In Depth with Graham Bensinger
 Inazuma Eleven Collection
 Inazuma Eleven Go Italy
-Inside Outside
 Intervention
 Iran National Revolution TV
 Ironside
 Island Vibes
-It’s Anime
 JAJAJA
 Jack Hanna
 Jewelry TV 2
@@ -361,19 +272,14 @@ KIDCO TV
 Kanal 32
 Kidco
 Kiddo+
-Kids Street
 Krimi
 KultKrimi
 Kurd Mix _ Sweden
 LADbible
-La Fiebre del Jade
 La Maison France 5
 La chaine du fait divers
 Ladykracher powered by myspass
 Lanthung TV
-Las 3 Marias
-Las Mejores Bromas
-Lassie
 LatinoCircuit TV
 Le Meilleur Des Jeux Tv
 Le Meilleur d'Arthur
@@ -381,53 +287,43 @@ Le Meilleur de la TV Realite
 Le Meilleur de la Tele-Realite Geo
 Le meilleur d Arthur
 Le meilleur de la TV Réalité
-Leave It to Beaver
 Les Anges
 Les Secrets de Nos Regions
 Les Secrets de Nos Régions
 Les Z Amours Geo
 Les Z amours
 Let's Make A Deal Classic
-Lidia's Kitchen
 Life Downunder
-Lifetime Movie Favorites
 Lifetime Movies Love & Drama
 LifevisionTV
 Lindenstrasse
-Little House on the Prairie
 Little Women: LA
-Live PD Presents
 Location Location Location
 LooLoo Kids
 LooLoo Kids TV
 Love Crime and History Spain
 LoveWorld USA
 MARAYA KIDS TV
-MHz Mysteries
 MIHRAB FM
 MMN ACTION TV
 MMN ART TV
 MMN Action
 MMN Quran
 MMN SHOW
-MSG SportsZone
 Mango TV Geo
 Manual do Mundo
 Maraya Kids
 Married To Medicine
 MasterChef Brasil
 Masterchef Brasil Geo
-Matched Married Meet
 Mayday: Catastrophe Aérienne
 Medjugorje Italia TV
 Meta Film TV
 Metal.Rocks
-Mi Casa
 Mi Miedo Canal
 Mi Raza Canal
 Mi Raza Canal Plus
 Mihrab FM
-Military Heroes
 Million Dollar Listing Vault
 Moconomy - Economía y Finanzas
 Moconomy - Wirtschaft und Finanzen Infotainment
@@ -448,7 +344,6 @@ NETFLIX COMEDY
 NETFLIX DRAMA 1
 NETFLIX DRAMA 2
 NEW KFOOD
-NHL
 NUÇÊ TV
 News 18 Madhya Pradesh Geo
 News 18 Uttarakhand Geo
@@ -458,7 +353,6 @@ Ninja Warriors
 Niroj
 Northern Exposure
 Nothin' But 90s
-Novo Tempo
 Omroep Brabant Radio
 One Championship WL
 Outdoor Action
@@ -469,11 +363,9 @@ PBS KET2
 PBS Science
 PESHANG TV
 PESHMARGA TV
-PICK Monkey Rescue
 PMC Royale
 Pelimex
 Pequeños Gigantes
-Perform
 Persiana Docs
 Persiana Fight
 Persiana Folk
@@ -486,7 +378,6 @@ Plenitude TV
 Plovdivska Pravoslavna TV
 Pocoyo
 Pointless UK
-Project Runway
 Q2 News Billings
 Quantum Leap
 Qui Veut Gagner des Millions
@@ -500,16 +391,12 @@ Radio Nawa Kurdi
 Radio Sunnat
 Radio Weser TV Bremen
 Rede Seculo 21
-Reelz Famous & Infamous
 Remember the 80s
-Rev and Roll
 Revry Queer
 Risate Dal Sud
 Risate al Sud
 Rise Financial
-River Monsters
 Robot Wars by Mech+
-Rookie Blue
 Royalworld - Adel & Dynastien
 Royalworld - Arystokracja & Dynastie
 Royalworld - Nobility & Dynasties
@@ -517,42 +404,32 @@ Royalworld - Nobleza y Dinastias
 Royalworld - Nobreza e Dinastias
 Royalworld Germany
 Rudaw Radio
-Rugby Pass TV
 SHNA TV
 SOZ TV
-SPI
 SPI QURAN TV
 SURFER TV
 Saga Music Haryanvi
 Sardari TV
 Schitt’s Creek Channel
-Sci-Fi - Rakuten TV
-Sci-fi - Rakuten TV
 Seaquest
 Sender Neu Jerusalem
-Sensical Jr
 Serially Crime
 Serially Drama
-Series K Edge
 Series K Heart
 Series K Legacy
 Sessao Trash
-Setareh TV
 Shade TV
 Shark TV
 Shna Doc
 Sikh Ratnavali
-Silent Witness and New Tricks
 Smooth Jazz
 Smosh
 Soap Turco
-Sonic The Hedgehog
 Sony One | Actie Hits
 Sony One | Action HITS
 Sony One | Best Of
 Sony One | Comedy HITS
 Sony One | Comedy Hits
-Sony One | Comedy TV
 Sony One | Dragons' Den
 Sony One | Film divertenti
 Sony One | Film d’azione
@@ -562,19 +439,15 @@ Sony One | Shark Tank
 Sony One | Éxitos
 Sorrisi
 Soul Storm
-Spark TV Luz & Amor
 Sparkle Movies
 Speed Sport 1
-SpiegelTV Konflikte
 Spooks
 Sport Outdoor TV
 Sportoutdoor.tv
-Starke Frauen
 Stiletto
 Stingray Christian Hits
 Stingray Epoca Dorada Del Cine Mexicano
 Stingray Exitos Regional Mexicanos
-Stingray Greatest Hits
 Stingray Green Noise
 Stingray Italo Disco
 Stingray Music For Focus
@@ -582,13 +455,10 @@ Stingray Peaceful Piano
 Stingray Pop Mexicano 80s
 Stingray Reggaeton
 Stingray Soccer Anthems
-Storage Wars by A&E
 Storm Vibes
-Strawberry Shortcake
 Stromberg powered by myspass
 Super TV Brescia
 Supercinema - San Valentino
-Supermarket Sweep
 Surfer
 Surfing+
 Survivor Mexico
@@ -597,41 +467,28 @@ TL Estrella
 TLN Media Chicago
 TLN Media San Francisco
 TSTV
-TV Rodina
 TVS Music Network
 TVS Select Network
 TVS Sports Bureau
 Tarotéame
-Tastemade Home
 Tastemade International Canada
-Team USA TV
 Teen Vee English
 TeenVee
 TeenVee Spanish
 Tele Fe Bolivia
 Tele One 16
 Televisa: Les riches pleurent aussi
-TennisChannel 2
-That's 80s
-That's ROCK
 The Archive
 The Bionic Woman
 The Incredible Hulk
-The Osbournes
-The Real Housewives
 The Six-Million Dollar Man
-Thrillers - Rakuten TV
-Today's Homeowner
-Todo Crimen
 Todo Pasión
-Top Filme
 Top Films - Rakuten TV
 Top Sci-Fi
 Top SciFi
 Top Serien
 Top True Crime Geo
 TopFilme Geo
-Torque
 Totò & Co
 Trailers Geo
 Travel XP alt
@@ -641,12 +498,8 @@ U&Transport
 UNews
 Un Village Français
 Un Villages Francais
-UnXplained Zone
-Universal Westerns
 Univision 24/7 News
 Unleashed by DOGTV
-Untold Stories of the E.R.
-Untold Stories of the ER
 Vevo '70s & '80s
 Vevo '90s & '00s
 Vevo '90s & '00s Italy
@@ -659,40 +512,27 @@ Vevo Schlager Pop
 Viggo and Supporo
 Vita da Strega
 Vivax TV
-Vogue Europe
 WGAL-DT3
 WITI-DT1
 WLNG Radio
 WRUA-DT1
-WWE Superstar Central
 WWXY-DT3
 Wasabi La Chaine Anime Geo
 Watch Mojo
 WedoAmor Piel Salvaje
-Wendy Williams
-Western Bound
 Westerns 4U
 WhE Play
-Wheels & Steel
 Who Wants to Be a Millionaire?
 Whoa That Was Wild
 Wicked Tuna Germany
 Will & Grace
-World of Love Island
-X-Factor: Das Unfassbare
-XITE 80s Flashback
-Xena Warrior Princess
 Xploration Station
-Xtreme Outdoor Presented by HISTORY
-Xumo Películas Gratis
 ZAYTOUN SPORT TV
 ZAZ
 Zainabia Channel
 Zarin TV
-Zarok Kids
 Zed TV
 Zhin Film
-Zona TUDN
 batteryPOP
 douyu15
 douyu20
