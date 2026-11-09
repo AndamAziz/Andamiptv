@@ -408,6 +408,8 @@ https://castx.online/live/beinsports7/stream_3.m3u8
 https://castx.online/live/beinsports7/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_5.m3u8
+#EXTINF:-1 tvg-name="beIN Sport"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/708fe006b5ee5ebc.jpg"tvg-chno=""group-title="Sports":http-referrer="",beIN Sport
+https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-name="Ligue 1+"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/93ca9d829a61cfea.jpg"tvg-chno=""group-title="Sports":http-referrer="",Ligue 1+
 http://connect.streamboxtv.cc/live/testlivestream/testlivestream/80.ts
 #EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
@@ -22216,5 +22218,3 @@ https://archive.org/download/Betty_Boop_The_Scared_Crows_1939/Betty_Boop_The_Sca
 https://archive.org/download/BettyBoopJackAndTheBeanstalk1931_248/JackAndTheBeanstalk_mpeg4_512kb.mp4
 #EXTINF:-1 tvg-name="Betty Boop - S01E22"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E22
 https://archive.org/download/bb_poor_cinderella/bb_poor_cinderella_512kb.mp4
-#EXTINF:-1 tvg-name="beIN Sport"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/708fe006b5ee5ebc.jpg"tvg-chno=""group-title="Sports":http-referrer="",beIN Sport
-https://tvsen6.aynaott.com/beinsports/index.m3u8
