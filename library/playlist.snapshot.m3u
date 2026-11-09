@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="NRT2"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/073897ce04a791f7.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT2
+http://176.9.99.185:8883/nrt2/index.m3u8
 #EXTINF:-1 tvg-name="AVA Media"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-27e9bc5c-65cb-40d6-bb0f-e59858381e8d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA Media
 http://hlspackager.akamaized.net/live/DB/AVA_TV/HLS/AVA_TV.m3u8
 #EXTINF:-1 tvg-name="Kurdsat TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-eba3aa57-77bc-4232-bb54-b30092ff5d17.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kurdsat TV
