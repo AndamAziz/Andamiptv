@@ -1,9 +1,62 @@
-M3U Cleaner report - 2026-11-09 00:34:39
+M3U Cleaner report - 2026-11-09 03:05:34
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  0
+Total channels kept:  54
 Blocked (blocklist):  0
-Duplicates removed:   0
+Duplicates removed:   11066
 Malformed/skipped:    0
 
+  Kurdish Channels: 1
+  BEIN SPORTS AR: 1
+  Sports: 1
+  National Geographic: 1
+  SKY TV: 1
+  Kids & Family: 1
+  Movies TV: 1
+  Series & Drama: 1
+  Documentary: 1
+  News: 1
+  Entertainment: 1
+  Music: 1
+  Religious: 1
+  Quran: 1
+  Comedy: 1
+  Crime & Mystery: 1
+  Reality & Game Shows: 1
+  Sci-Fi & Horror: 1
+  Classic & Western: 1
+  Lifestyle & Travel: 1
+  Culture: 1
+  Education: 1
+  Business: 1
+  Shopping: 1
+  Weather: 1
+  Legislative & Public: 1
+  Anime & Gaming: 1
+  Local Channels: 1
+  Smart TV Channels: 1
+  General: 1
+  USA & Canada TV: 1
+  Latin America & Spain: 1
+  Russia & CIS: 1
+  Italy: 1
+  Germany - Austria - Switzerland: 1
+  France & Belgium: 1
+  Netherlands: 1
+  Turkey: 1
+  Iran: 1
+  India & Pakistan: 1
+  Arabic TV: 1
+  Indonesia & Malaysia: 1
+  Asia: 1
+  Eastern Europe & Balkans: 1
+  Portugal & Brazil: 1
+  UK - Ireland - Australia - NZ: 1
+  Greece & Cyprus: 1
+  Africa: 1
+  Caribbean & Pacific: 1
+  Israel: 1
+  Nordic Countries: 1
+  Uncategorized: 2
+  KURDISH-دۆبلاژ: 1
