@@ -1,10 +1,10 @@
-M3U Cleaner report - 2026-11-09 03:05:34
+M3U Cleaner report - 2026-11-10 04:49:59
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  54
+Total channels kept:  53
 Blocked (blocklist):  0
-Duplicates removed:   11066
+Duplicates removed:   1
 Malformed/skipped:    0
 
   Kurdish Channels: 1
@@ -58,5 +58,5 @@ Malformed/skipped:    0
   Caribbean & Pacific: 1
   Israel: 1
   Nordic Countries: 1
-  Uncategorized: 2
+  Uncategorized: 1
   KURDISH-دۆبلاژ: 1
