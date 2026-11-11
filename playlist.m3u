@@ -434,6 +434,18 @@ http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1352?Billybob.rulez!
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1355?Billybob.rulez!
 #EXTINF:-1 tvg-name="BBC EARTH"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/727c8841145757d7.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BBC EARTH
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1351?Billybob.rulez!
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
+https://balance.footballii.ir/hls2/bein1.m3u8
+#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
+http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
+#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="Sports",BEIN SPORTS 3
+http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
+#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
+https://andam.uk/ytlive/nrtsport/index.m3u8
+#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Sports":http-referrer="",AVA SPORT TV
+https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
+#EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="Sports",Koora City
+https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-name="DUHOK SPORT TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",DUHOK SPORT TV
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987920.ts
 #EXTINF:-1 tvg-name="M4 SPORT+"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/2550c46037b33276.jpg"tvg-chno=""group-title="Sports":http-referrer="",M4 SPORT+
@@ -444,16 +456,6 @@ http://141.94.193.53/M4_Sport_HD/index.m3u8
 https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-name="LIGUE 1+"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/93ca9d829a61cfea.jpg"tvg-chno=""group-title="Sports":http-referrer="",LIGUE 1+
 http://connect.streamboxtv.cc/live/testlivestream/testlivestream/80.ts
-#EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
-https://andam.uk/ytlive/nrtsport/index.m3u8
-#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Sports":http-referrer="",AVA SPORT TV
-https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
-https://balance.footballii.ir/hls2/bein1.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
-#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="Sports",BEIN SPORTS 3
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Sports":http-referrer="",Biner Sport
 https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
 #EXTINF:-1 tvg-name="IRIB3 SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/3b91a06fffbd53f0.jpg"tvg-chno=""group-title="Sports":http-referrer="",IRIB3 SPORT
@@ -462,8 +464,6 @@ https://cp11.adabmedia.com/hls2/tv3test.m3u8
 https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="Sports",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_1.m3u8
-#EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="Sports",Koora City
-https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 1
 https://streams.rooter.gg/hls/cb08f449bacb32397aaeb16f5b1f000a/hd720.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 2
