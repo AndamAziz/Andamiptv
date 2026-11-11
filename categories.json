@@ -16,6 +16,9 @@
   "BEIN SPORTS AR": [
     "re:group-title=\"bein sports ar\""
   ],
+  "BEIN MOVIES": [
+    "re:group-title=\"bein movies\""
+  ],
   "Sports": [
     "bein",
     "ssc",
