@@ -2721,7 +2721,7 @@ https://slonehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="SL 2"tvg-id="SL2.ir@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/BVuUx5R.png"tvg-chno=""group-title="Movies TV":http-referrer="",SL 2
 https://sltwohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Sony Movies"tvg-id="SonyMovies.br@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png"tvg-chno=""group-title="Movies TV":http-referrer="",Sony Movies
-http://45.162.64.114/SONY_MOVIES/index.m3u8
+https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
 #EXTINF:-1 tvg-name="Sony One Favoris"tvg-id="SonyOneFavoris.fr@HD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/RO4AM4b.png"tvg-chno=""group-title="Movies TV":http-referrer="",Sony One Favoris
 https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-name="Sony One Hits Action"tvg-id="SonyOneHitsAction.fr@HD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/pXsZEsR.png"tvg-chno=""group-title="Movies TV":http-referrer="",Sony One Hits Action
