@@ -61,7 +61,7 @@ https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Payam TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-ada98575-1ae2-4119-9688-4a20de0a5737.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Payam TV
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
 #EXTINF:-1 tvg-name="ONE PLUS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-6c171d06-ad32-47ad-84f2-31d3c4b55e0b.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE PLUS
-https://183.bozztv.com/giatv/giatv-oneplus/oneplus/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-oneplus/oneplus/chunks.m3u8
 #EXTINF:-1 tvg-name="Ranya HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-05020bf1-61e0-474f-a452-bcd513d910ae.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Ranya
 https://ranyatv.avrstream.com/RanyaTV/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-name="RANYA CITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/cLdxH61k/Picsart-26-05-11-17-14-15-961.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RANYA CITY HD
@@ -71,11 +71,11 @@ https://ncdn.telewebion.ir/zagros/live/playlist.m3u8
 #EXTINF:-1 tvg-name="WAAR TV"tvg-id=""tvg-logo="https://i.postimg.cc/8CfS5HB9/waar-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",WAAR TV
 https://live.kwikmotion.com/waarmedialive/waarmedia.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="KOMALL TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-9129e124-44b4-460d-bdee-e7164227e6c5.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KOMALL TV
-https://lbgo.bozztv.com/ssh101/ssh101/onetvkomall/chunks.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/onetvkomall/chunks.m3u8
 #EXTINF:-1 tvg-name="QALLAT TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-9eed2148-b8d1-437b-b682-c85b50d7a411.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",QALLAT TV
 http://213.32.255.86:1935/live/Qellat_tv/playlist.m3u8
 #EXTINF:-1 tvg-name="NOOR TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-2e2d2039-e6d0-454f-9196-9b258056a4bb.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NOOR TV
-https://183.bozztv.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
 #EXTINF:-1 tvg-name="Kalhur TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-0c555ea1-ff18-43f9-b30e-eedceca6734d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kalhur TV
 https://livepeercdn.studio/hls/533fu77e4641x1qm/index.m3u8
 #EXTINF:-1 tvg-name="Biner TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner TV
@@ -1560,6 +1560,8 @@ https://stream.skynewsarabia.com/ott/ott.m3u8
 https://stream.skynewsarabia.com/vertical/vertical.m3u8
 #EXTINF:-1 tvg-name="Sky News Arabia Vertical"tvg-id="SkyNewsArabiaVertical.ae@HD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/FjtzQQs.png"tvg-chno=""group-title="SKY TV":http-referrer="",Sky News Arabia Vertical
 https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m3u8
+#EXTINF:-1 tvg-name="ONE KIDS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-d8e474b8-796d-4272-a3fd-afbbdcefa2ff.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",ONE KIDS
+https://183.giatvcdn.com/giatv/giatv-onekids/onekids/chunks.m3u8
 #EXTINF:-1 tvg-name="ABC KIDS TV"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-abc-kids.png"tvg-chno=""group-title="Kids & Family":http-referrer="",ABC KIDS TV
 https://c.mjh.nz/abc-kids.m3u8
 #EXTINF:-1 tvg-name="Zarok TV"tvg-id=""tvg-logo="https://kurdtvs.net/uploads/zaroktv.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Zarok TV
