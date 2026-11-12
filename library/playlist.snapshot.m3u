@@ -2238,6 +2238,8 @@ https://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
 #EXTINF:-1 tvg-name="TRTcocuk"tvg-id=""tvg-logo="https://i.postimg.cc/j5HprcXp/TRT-Chuchak-200.png"tvg-chno=""group-title="Kids & Family":http-referrer="",TRTcocuk
 https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="BET TV"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/75853dfd55c91bb2.jpg"tvg-chno=""group-title="Movies TV":http-referrer="",BET TV
+http://0v6ltnhf.virelloso.top/iptv/HLVUU64TK3EUVKBV5CNRZH4Q/30018/index.m3u8
 #EXTINF:-1 tvg-name="Telecine Action"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/e3373229620aea3d.jpg"tvg-chno=""group-title="Movies TV":http-referrer="",Telecine Action
 http://satlive.xsat.top:8880/3034d2b7d863/3034d2b7d863/29008
 #EXTINF:-1 tvg-name="Gravitas Movies"tvg-id="GravitasMovies.us@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/H2hD4vT.png"tvg-chno=""group-title="Movies TV":http-referrer="",Gravitas Movies
