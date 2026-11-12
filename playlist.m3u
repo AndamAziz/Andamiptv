@@ -2238,6 +2238,8 @@ https://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
 https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
 #EXTINF:-1 tvg-name="TRTcocuk"tvg-id=""tvg-logo="https://i.postimg.cc/j5HprcXp/TRT-Chuchak-200.png"tvg-chno=""group-title="Kids & Family":http-referrer="",TRTcocuk
 https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="Telecine Action"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/e3373229620aea3d.jpg"tvg-chno=""group-title="Movies TV":http-referrer="",Telecine Action
+http://satlive.xsat.top:8880/3034d2b7d863/3034d2b7d863/29008
 #EXTINF:-1 tvg-name="Gravitas Movies"tvg-id="GravitasMovies.us@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/H2hD4vT.png"tvg-chno=""group-title="Movies TV":http-referrer="",Gravitas Movies
 https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
 #EXTINF:-1 tvg-name="Maverick Black Cinema"tvg-id=""tvg-logo="https://images.vizio.com/v4/btv/1/1646487228/1/267/150/0.jpg"tvg-chno=""group-title="Movies TV":http-referrer="",Maverick Black Cinema
@@ -22256,5 +22258,3 @@ https://archive.org/download/Betty_Boop_The_Scared_Crows_1939/Betty_Boop_The_Sca
 https://archive.org/download/BettyBoopJackAndTheBeanstalk1931_248/JackAndTheBeanstalk_mpeg4_512kb.mp4
 #EXTINF:-1 tvg-name="Betty Boop - S01E22"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E22
 https://archive.org/download/bb_poor_cinderella/bb_poor_cinderella_512kb.mp4
-#EXTINF:-1 tvg-name="Telecine Action"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/e3373229620aea3d.jpg"tvg-chno=""group-title="Movies TV":http-referrer="",Telecine Action
-http://satlive.xsat.top:8880/3034d2b7d863/3034d2b7d863/29008
