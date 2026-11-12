@@ -77,7 +77,7 @@ http://213.32.255.86:1935/live/Qellat_tv/playlist.m3u8
 #EXTINF:-1 tvg-name="NOOR TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-2e2d2039-e6d0-454f-9196-9b258056a4bb.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NOOR TV
 https://183.bozztv.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
 #EXTINF:-1 tvg-name="Kalhur TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-0c555ea1-ff18-43f9-b30e-eedceca6734d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kalhur TV
-https://live20.bozztv.com:443/giatv/giatv-kalhurtv/kalhurtv/chunks.m3u8
+https://kalhurtv.s.gy/live
 #EXTINF:-1 tvg-name="Biner TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner TV
 https://live20.bozztv.com/giatv/giatv-Shawkat/Biner_HD/chunks.m3u8
 #EXTINF:-1 tvg-name="TRT Kurdi"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-b997307f-b6f1-4e4f-bc95-dc296a23cec8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",TRT Kurdi
