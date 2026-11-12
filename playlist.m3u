@@ -434,6 +434,8 @@ http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1352?Billybob.rulez!
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1355?Billybob.rulez!
 #EXTINF:-1 tvg-name="BBC EARTH"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/727c8841145757d7.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BBC EARTH
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1351?Billybob.rulez!
+#EXTINF:-1 tvg-name="Nova Sport 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fa15d3719120312c.jpg"tvg-chno=""group-title="Sports":http-referrer="",Nova Sport 1
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-nova-sport1/live_fullhd
 #EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
@@ -22262,5 +22264,3 @@ https://archive.org/download/Betty_Boop_The_Scared_Crows_1939/Betty_Boop_The_Sca
 https://archive.org/download/BettyBoopJackAndTheBeanstalk1931_248/JackAndTheBeanstalk_mpeg4_512kb.mp4
 #EXTINF:-1 tvg-name="Betty Boop - S01E22"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E22
 https://archive.org/download/bb_poor_cinderella/bb_poor_cinderella_512kb.mp4
-#EXTINF:-1 tvg-name="Nova Sport 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fa15d3719120312c.jpg"tvg-chno=""group-title="Sports":http-referrer="",Nova Sport 1
-http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-nova-sport1/live_fullhd
