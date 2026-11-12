@@ -434,8 +434,6 @@ http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1352?Billybob.rulez!
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1355?Billybob.rulez!
 #EXTINF:-1 tvg-name="BBC EARTH"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/727c8841145757d7.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BBC EARTH
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1351?Billybob.rulez!
-#EXTINF:-1 tvg-name="Nova Sport 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fa15d3719120312c.jpg"tvg-chno=""group-title="Sports":http-referrer="",Nova Sport 1
-http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-nova-sport1/live_fullhd
 #EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
@@ -448,6 +446,8 @@ https://andam.uk/ytlive/nrtsport/index.m3u8
 https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="Sports",Koora City
 https://wp.machedge.site/rvic1.m3u8
+#EXTINF:-1 tvg-name="Hi SPORTS HD"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/gen-hi-sports.png"tvg-chno=""group-title="Sports":http-referrer="",Hi SPORTS HD
+http://49.0.64.96:8007/HiSports
 #EXTINF:-1 tvg-name="DUHOK SPORT TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",DUHOK SPORT TV
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987920.ts
 #EXTINF:-1 tvg-name="M4 SPORT+"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/2550c46037b33276.jpg"tvg-chno=""group-title="Sports":http-referrer="",M4 SPORT+
@@ -1414,6 +1414,8 @@ https://jmp2.uk/stvp-US4600005ST
 https://d1rqgw5gocwo9i.cloudfront.net/10009/99951459/hls/master.m3u8?ads.xumo_channelId=99951459&ads.asnw=169843&ads.afid=442535792&ads.sfid=23780352&ads.caid=telemundodeportesahora_linear&ads.csid=xumo_[PLATFORM]_telemundodeportesahora_ssai_cro&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_genre=[content_genre]&ads._fw_content_language=es&ads._fw_content_rating=[content_rating]&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=XumoPlay&ads.xumo_contentId=4281&ads.xumo_contentName=TelemundoDeportesAhora&ads.xumo_providerId=4281&ads.xumo_providerName=TelemundoDeportesAhora&ads.channelId=99951459&ads._fw_ifa_type=[IFA_TYPE]
 #EXTINF:-1 tvg-name="KSA Sports"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-c74f0510-fe50-490c-bfe5-d81f1ef6835f.jpg"tvg-chno=""group-title="Sports":http-referrer="",KSA Sports
 https://andam.uk/ytlive/riyadiyatv/index.m3u8
+#EXTINF:-1 tvg-name="Nova Sport 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fa15d3719120312c.jpg"tvg-chno=""group-title="Sports":http-referrer="",Nova Sport 1
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-nova-sport1/live_fullhd
 #EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5d1de71a328e96fd.jpg"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
 http://api.353505.xyz:80/live/123/123/528.ts
 #EXTINF:-1 tvg-name="PBS Nature"tvg-id="PBSNature.us@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Brry7cZ.png"tvg-chno=""group-title="National Geographic":http-referrer="",PBS Nature
