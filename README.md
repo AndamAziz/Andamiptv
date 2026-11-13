@@ -94,3 +94,17 @@ a new movie → first movie of its group; a new episode of an existing show → 
 show's last episode; a brand-new show → first series of its group; a new live channel → first
 channel of its group. Only the new entries at the end of the file are touched; a bulk import of
 more than 20 entries keeps its order. Covered by `tests/test_new_entries.py`.
+
+## Stream Inspector (check links from your own PC)
+
+`tools/stream_inspector.py` checks that stream links really play (HLS master -> variant ->
+segment, MPEG-TS, MP4/fMP4, DASH), following redirects. No links are written in the script:
+
+```powershell
+python tools\stream_inspector.py "http://host/play/a006/index.m3u8" --name "Fox Sports 2"
+python tools\stream_inspector.py -f channels.m3u --workers 8
+python tools\stream_inspector.py            # then paste links (Name|URL), empty line = start
+```
+
+It writes `active.m3u` (working links, names/logos/groups kept), `report.csv` and `failed.txt`.
+Standard library only (Python 3.8+).
