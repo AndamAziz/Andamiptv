@@ -87,6 +87,9 @@ def parse_m3u(text):
 def read_inputs(args):
     items = []
     for f in args.file or []:
+        if not Path(f).is_file():
+            sys.exit(f"{R}File not found: {f}{N}\n  Put the file in this folder ({Path.cwd()}) "
+                     f"or give its full path, e.g.  -f \"C:\\Users\\you\\Desktop\\list.m3u\"")
         text = Path(f).read_text(encoding="utf-8-sig", errors="replace")
         if "#EXTINF" in text:
             items += parse_m3u(text)
@@ -102,7 +105,7 @@ def read_inputs(args):
         items.append({"url": url.strip(), "name": names[i] if i < len(names) else "",
                       "logo": args.logo or "", "group": args.group or "", "extinf": None, "extra": []})
     if not items and sys.stdin.isatty():
-        print(f"{C}Paste links (one per line, or Name|URL). Empty line = start:{N}")
+        print(f"{C}Paste links (one per line, or Name|URL), then press Enter on an empty line to start:{N}")
         while True:
             try:
                 line = input().strip()
@@ -112,6 +115,8 @@ def read_inputs(args):
                 break
             name, url = (line.split("|", 1) if "|" in line else ("", line))
             items.append({"url": url.strip(), "name": name.strip(), "logo": "", "group": "", "extinf": None, "extra": []})
+    for it in items:
+        it["url"] = it["url"].strip().strip('"').strip("'").strip()
     for k, it in enumerate(items, 1):
         it["n"] = k
         if not it["name"]:
@@ -225,7 +230,7 @@ def inspect(item, f):
     url = item["url"]
     p = urlparse(url)
     if p.scheme not in ("http", "https") or not p.hostname:
-        res["error"] = "NOT A HTTP(S) LINK"
+        res["error"] = "NOT A LINK - put a real http(s)://... address here"
         return res
     t0 = time.perf_counter()
     try:
