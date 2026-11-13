@@ -380,6 +380,8 @@ http://api.353505.xyz:80/live/123/123/2898.ts
 https://hlspackager.akamaized.net/live/DB/K24/HLS/K24-avc1_2500000=10002.m3u8
 #EXTINF:-1 tvg-name="K 24"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-f52cf35b-7fce-41ef-8a34-33a24d1bd326.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",K 24
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324572.ts
+#EXTINF:-1 tvg-name="BEIN SPORTS 8"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/xoCWfJ2p.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 8
+https://vg162.adcdsd123321.shop/16.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 9"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/tYxzMDEU.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 9
 https://vg162.adcdsd123321.shop/17.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
