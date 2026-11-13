@@ -1,2 +1,0 @@
-Fox Sports 2|http://177.53.153.207:8000/play/a006/index.m3u8
-Fox Sports 5|http://177.53.153.207:8000/play/a008/index.m3u8
