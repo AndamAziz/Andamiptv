@@ -450,6 +450,10 @@ https://wp.machedge.site/rvic1.m3u8
 http://49.0.64.96:8007/HiSports
 #EXTINF:-1 tvg-name="ESPN 6"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/tvl-espn-6-lam.png"tvg-chno=""group-title="Sports":http-referrer="",ESPN 6
 http://168.228.44.241:9997/play/a01f/index.m3u8
+#EXTINF:-1 tvg-name="Fox Sports 2"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/tvl-fox-sports-2-lam.png"tvg-chno=""group-title="Sports":http-referrer="",Fox Sports 2
+http://177.53.153.207:8000/play/a006/index.m3u8
+#EXTINF:-1 tvg-name="Fox Sports 5"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/gen-fox-sports-5.png"tvg-chno=""group-title="Sports":http-referrer="",Fox Sports 5
+http://177.53.153.207:8000/play/a008/index.m3u8
 #EXTINF:-1 tvg-name="DUHOK SPORT TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",DUHOK SPORT TV
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987920.ts
 #EXTINF:-1 tvg-name="M4 SPORT+"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/2550c46037b33276.jpg"tvg-chno=""group-title="Sports":http-referrer="",M4 SPORT+
