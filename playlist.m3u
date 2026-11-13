@@ -390,8 +390,16 @@ https://balance.footballii.ir/hls2/bein1.m3u8
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242255.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 3)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242255.ts
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 1
+https://vg162.adcdsd123321.shop/7.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 1
+https://vg162.adcdsd123321.shop/1.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242254.ts
+#EXTINF:-1 tvg-name="BEIN SPORTS 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 2
+https://vg162.adcdsd123321.shop/8.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 2
+https://vg162.adcdsd123321.shop/2.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
@@ -410,6 +418,20 @@ https://2cdn.syria-player.info/hls1/bein2.m3u8
 https://castx.online/live/beinsports2/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 3 (Server 9)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
 https://castx.online/live/beinsports2/stream_5.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 3
+https://vg162.adcdsd123321.shop/9.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 3
+https://vg162.adcdsd123321.shop/3.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 4"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-4.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 4
+https://vg162.adcdsd123321.shop/10.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 4"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-4.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 4
+https://vg162.adcdsd123321.shop/4.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 5"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-5.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 5
+https://vg162.adcdsd123321.shop/11.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 5"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-5.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 5
+https://vg162.adcdsd123321.shop/5.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 6"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-6.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 6
+https://vg162.adcdsd123321.shop/6.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="BEIN SPORTS AR",Koora City
 https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
@@ -422,6 +444,8 @@ https://castx.online/live/beinsports7/stream_3.m3u8
 https://castx.online/live/beinsports7/stream_4.m3u8
 #EXTINF:-1 tvg-id="bein7" tvg-name="BEIN SPORTS HD 7 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png" group-title="BEIN SPORTS AR",BEIN SPORTS 7
 https://castx.online/live/beinsports7/stream_5.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORTS 7"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 7
+https://vg162.adcdsd123321.shop/14.m3u8
 #EXTINF:-1 tvg-name="BEIN MOVIES 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/d7c7598c3ef4d9ab.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BEIN MOVIES 1
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1360?Billybob.rulez!
 #EXTINF:-1 tvg-name="BEIN MOVIES 2"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/3e407be0f4da8516.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BEIN MOVIES 2
