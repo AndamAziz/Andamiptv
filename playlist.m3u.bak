@@ -61,7 +61,7 @@ https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Payam TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-ada98575-1ae2-4119-9688-4a20de0a5737.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Payam TV
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
 #EXTINF:-1 tvg-name="ONE PLUS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-6c171d06-ad32-47ad-84f2-31d3c4b55e0b.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",ONE PLUS
-https://183.bozztv.com/giatv/giatv-oneplus/oneplus/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-oneplus/oneplus/chunks.m3u8
 #EXTINF:-1 tvg-name="Ranya HD"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-05020bf1-61e0-474f-a452-bcd513d910ae.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Ranya
 https://ranyatv.avrstream.com/RanyaTV/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-name="RANYA CITY HD"tvg-id=""tvg-logo="https://i.postimg.cc/cLdxH61k/Picsart-26-05-11-17-14-15-961.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",RANYA CITY HD
@@ -71,13 +71,13 @@ https://ncdn.telewebion.ir/zagros/live/playlist.m3u8
 #EXTINF:-1 tvg-name="WAAR TV"tvg-id=""tvg-logo="https://i.postimg.cc/8CfS5HB9/waar-200.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",WAAR TV
 https://live.kwikmotion.com/waarmedialive/waarmedia.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="KOMALL TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-9129e124-44b4-460d-bdee-e7164227e6c5.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KOMALL TV
-https://lbgo.bozztv.com/ssh101/ssh101/onetvkomall/chunks.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/onetvkomall/chunks.m3u8
 #EXTINF:-1 tvg-name="QALLAT TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-9eed2148-b8d1-437b-b682-c85b50d7a411.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",QALLAT TV
 http://213.32.255.86:1935/live/Qellat_tv/playlist.m3u8
 #EXTINF:-1 tvg-name="NOOR TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-2e2d2039-e6d0-454f-9196-9b258056a4bb.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NOOR TV
-https://183.bozztv.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-onetvnoor/onetvnoor/chunks.m3u8
 #EXTINF:-1 tvg-name="Kalhur TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-23-0c555ea1-ff18-43f9-b30e-eedceca6734d.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Kalhur TV
-https://live20.bozztv.com:443/giatv/giatv-kalhurtv/kalhurtv/chunks.m3u8
+https://livepeercdn.studio/hls/533fu77e4641x1qm/index.m3u8
 #EXTINF:-1 tvg-name="Biner TV"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner TV
 https://live20.bozztv.com/giatv/giatv-Shawkat/Biner_HD/chunks.m3u8
 #EXTINF:-1 tvg-name="TRT Kurdi"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-b997307f-b6f1-4e4f-bc95-dc296a23cec8.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",TRT Kurdi
@@ -446,6 +446,8 @@ https://andam.uk/ytlive/nrtsport/index.m3u8
 https://streams.rooter.gg/hls/e11649fadd62813b63e7a3be5c71ccf2/hd720.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="Sports",Koora City
 https://wp.machedge.site/rvic1.m3u8
+#EXTINF:-1 tvg-name="Hi SPORTS HD"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/gen-hi-sports.png"tvg-chno=""group-title="Sports":http-referrer="",Hi SPORTS HD
+http://49.0.64.96:8007/HiSports
 #EXTINF:-1 tvg-name="DUHOK SPORT TV"tvg-id=""tvg-logo=""tvg-chno=""group-title="Sports":http-referrer="",DUHOK SPORT TV
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987920.ts
 #EXTINF:-1 tvg-name="M4 SPORT+"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/2550c46037b33276.jpg"tvg-chno=""group-title="Sports":http-referrer="",M4 SPORT+
@@ -1412,6 +1414,8 @@ https://jmp2.uk/stvp-US4600005ST
 https://d1rqgw5gocwo9i.cloudfront.net/10009/99951459/hls/master.m3u8?ads.xumo_channelId=99951459&ads.asnw=169843&ads.afid=442535792&ads.sfid=23780352&ads.caid=telemundodeportesahora_linear&ads.csid=xumo_[PLATFORM]_telemundodeportesahora_ssai_cro&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_genre=[content_genre]&ads._fw_content_language=es&ads._fw_content_rating=[content_rating]&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=XumoPlay&ads.xumo_contentId=4281&ads.xumo_contentName=TelemundoDeportesAhora&ads.xumo_providerId=4281&ads.xumo_providerName=TelemundoDeportesAhora&ads.channelId=99951459&ads._fw_ifa_type=[IFA_TYPE]
 #EXTINF:-1 tvg-name="KSA Sports"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-c74f0510-fe50-490c-bfe5-d81f1ef6835f.jpg"tvg-chno=""group-title="Sports":http-referrer="",KSA Sports
 https://andam.uk/ytlive/riyadiyatv/index.m3u8
+#EXTINF:-1 tvg-name="Nova Sport 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/fa15d3719120312c.jpg"tvg-chno=""group-title="Sports":http-referrer="",Nova Sport 1
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-nova-sport1/live_fullhd
 #EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5d1de71a328e96fd.jpg"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
 http://api.353505.xyz:80/live/123/123/528.ts
 #EXTINF:-1 tvg-name="PBS Nature"tvg-id="PBSNature.us@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Brry7cZ.png"tvg-chno=""group-title="National Geographic":http-referrer="",PBS Nature
@@ -1560,6 +1564,8 @@ https://stream.skynewsarabia.com/ott/ott.m3u8
 https://stream.skynewsarabia.com/vertical/vertical.m3u8
 #EXTINF:-1 tvg-name="Sky News Arabia Vertical"tvg-id="SkyNewsArabiaVertical.ae@HD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/FjtzQQs.png"tvg-chno=""group-title="SKY TV":http-referrer="",Sky News Arabia Vertical
 https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m3u8
+#EXTINF:-1 tvg-name="ONE KIDS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-30-d8e474b8-796d-4272-a3fd-afbbdcefa2ff.jpg"tvg-chno=""group-title="Kids & Family":http-referrer="",ONE KIDS
+https://183.giatvcdn.com/giatv/giatv-onekids/onekids/chunks.m3u8
 #EXTINF:-1 tvg-name="ABC KIDS TV"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-abc-kids.png"tvg-chno=""group-title="Kids & Family":http-referrer="",ABC KIDS TV
 https://c.mjh.nz/abc-kids.m3u8
 #EXTINF:-1 tvg-name="Zarok TV"tvg-id=""tvg-logo="https://kurdtvs.net/uploads/zaroktv.png"tvg-chno=""group-title="Kids & Family":http-referrer="",Zarok TV
@@ -2715,7 +2721,7 @@ https://slonehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="SL 2"tvg-id="SL2.ir@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/BVuUx5R.png"tvg-chno=""group-title="Movies TV":http-referrer="",SL 2
 https://sltwohls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Sony Movies"tvg-id="SonyMovies.br@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png"tvg-chno=""group-title="Movies TV":http-referrer="",Sony Movies
-http://45.162.64.114/SONY_MOVIES/index.m3u8
+https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
 #EXTINF:-1 tvg-name="Sony One Favoris"tvg-id="SonyOneFavoris.fr@HD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/RO4AM4b.png"tvg-chno=""group-title="Movies TV":http-referrer="",Sony One Favoris
 https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-name="Sony One Hits Action"tvg-id="SonyOneHitsAction.fr@HD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/pXsZEsR.png"tvg-chno=""group-title="Movies TV":http-referrer="",Sony One Hits Action
