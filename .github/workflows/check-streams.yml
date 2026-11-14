@@ -1,0 +1,22 @@
+name: Check streams (names only in the log)
+
+# Tests every "name|url" line of streams-to-check.txt from a GitHub runner (all ports reachable)
+# and prints OK/BAD per NAME - never the URL, which may contain account details.
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: [streams-to-check.txt]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - run: python check_streams.py streams-to-check.txt
+      - run: python tools/stream_inspector.py -f streams-to-check.txt --hide-urls --out /tmp/r || true
