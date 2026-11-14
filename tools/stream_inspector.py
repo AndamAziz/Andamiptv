@@ -8,6 +8,7 @@ You give it the links (no links are written inside the script):
     python stream_inspector.py "URL1" "URL2" --name "Fox Sports 2" --name "Fox Sports 5"
     python stream_inspector.py -f my_list.m3u          (keeps names, logos, groups)
     python stream_inspector.py -f links.txt            (one link per line, or "Name|URL")
+    python stream_inspector.py -f failed.txt           (re-check only what failed last time)
     python stream_inspector.py                          (asks you to paste links, empty line = start)
 
 For every link it follows the stream down to real video bytes:
@@ -28,9 +29,12 @@ Check only links you are allowed to use.
 import argparse
 import csv
 import os
+import gzip
 import re
+import ssl
 import sys
 import time
+import zlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -98,7 +102,11 @@ def read_inputs(args):
                 line = line.strip()
                 if not line or line.startswith("#"):
                     continue
-                name, url = (line.split("|", 1) if "|" in line else ("", line))
+                parts = [x.strip() for x in line.split("|")]
+                if len(parts) >= 3 and parts[-1].startswith("http"):   # failed.txt: name | error | url
+                    name, url = parts[0], parts[-1]
+                else:
+                    name, url = (line.split("|", 1) if "|" in line else ("", line))
                 items.append({"url": url.strip(), "name": name.strip(), "logo": "", "group": "", "extinf": None, "extra": []})
     names = args.name or []
     for i, url in enumerate(args.urls or []):
@@ -136,6 +144,9 @@ def read_inputs(args):
 class Fetcher:
     def __init__(self, timeout, retries, ua, referer, headers):
         self.timeout, self.retries = timeout, retries
+        self.ssl_ok = ssl.create_default_context()
+        self.ssl_ok.verify_flags &= ~getattr(ssl, "VERIFY_X509_STRICT", 0)   # players are not that strict
+        self.ssl_loose = ssl._create_unverified_context()
         self.base = {"User-Agent": ua, "Accept": "*/*"}
         if referer:
             self.base["Referer"] = referer
@@ -145,8 +156,7 @@ class Fetcher:
                 self.base[k.strip()] = v.strip()
 
     def get(self, url, limit, item=None):
-        """-> (bytes, final_url, content_type, seconds) ; raises RuntimeError(code).
-        seconds = time to first byte; self.last_read = time spent downloading the body."""
+        """-> (bytes, final_url, content_type, ttfb_seconds, read_seconds); raises RuntimeError(code)."""
         h = dict(self.base)
         if item:
             if item.get("referer"):
@@ -154,14 +164,25 @@ class Fetcher:
             if item.get("ua"):
                 h["User-Agent"] = item["ua"]
         err = "ERROR"
-        for attempt in range(self.retries + 1):
+        ctx = self.ssl_ok
+        for attempt in range(self.retries + 2):
             t = time.perf_counter()
             try:
-                with urlopen(Request(url, headers=h), timeout=self.timeout) as r:
+                with urlopen(Request(url, headers=h), timeout=self.timeout, context=ctx) as r:
                     ttfb = time.perf_counter() - t
                     t2 = time.perf_counter()
                     data = r.read(limit)
                     read = time.perf_counter() - t2
+                    enc = (r.headers.get("Content-Encoding") or "").lower()
+                    if enc == "gzip" or data[:2] == b"\x1f\x8b":      # some servers gzip even when not asked
+                        try:
+                            data = gzip.decompress(data)
+                        except Exception:
+                            data = zlib.decompressobj(31).decompress(data)
+                    elif enc == "deflate":
+                        data = zlib.decompress(data)
+                    if data[:3] == b"\xef\xbb\xbf":                   # UTF-8 BOM before #EXTM3U
+                        data = data[3:]
                     return data, r.geturl(), (r.headers.get("Content-Type") or "").lower(), ttfb, read
             except HTTPError as e:
                 err = f"HTTP {e.code}"
@@ -169,6 +190,13 @@ class Fetcher:
                     break                      # retrying will not help
             except URLError as e:
                 reason = str(e.reason)
+                if ctx is self.ssl_ok and ("CERTIFICATE" in reason.upper() or "SSL" in reason.upper()):
+                    # The PC does not trust the certificate (old Windows store / strict Python 3.13+).
+                    # TVs and phones usually do, so check the stream itself anyway and note it.
+                    ctx = self.ssl_loose
+                    if item is not None:
+                        item["ssl_note"] = True
+                    continue
                 err = ("TIMEOUT" if "timed out" in reason else
                        "DNS (host not found)" if "Name or service" in reason or "getaddrinfo" in reason else
                        "REFUSED" if "refused" in reason.lower() else
@@ -177,9 +205,16 @@ class Fetcher:
             except TimeoutError:
                 err = "TIMEOUT"
             except Exception as e:             # reset by peer, bad status line ...
+                if isinstance(e, ssl.SSLError) and ctx is self.ssl_ok:
+                    ctx = self.ssl_loose
+                    if item is not None:
+                        item["ssl_note"] = True
+                    continue
                 err = type(e).__name__
             if attempt < self.retries:
                 time.sleep(0.7)
+            elif ctx is self.ssl_ok or attempt > self.retries:
+                break
         raise RuntimeError(err)
 
 
@@ -250,7 +285,12 @@ def inspect(item, f):
                 child = urljoin(final, uri)
                 data, seg_base, _, _, _ = f.get(child, MAX_PLAYLIST, item)
                 if not data.lstrip().startswith(b"#EXTM3U"):
-                    raise RuntimeError("VARIANT IS NOT A PLAYLIST")
+                    kind = looks_like_media(data, "")
+                    if not kind:
+                        raise RuntimeError("VARIANT IS NOT A PLAYLIST")
+                    res["type"] = f"HLS (master) / {kind}"
+                    res["status"] = "ACTIVE"
+                    return res
                 text, lines = playlist_lines(data)
                 res["type"] = "HLS (master)"
             else:
@@ -278,6 +318,8 @@ def inspect(item, f):
             res["type"] = kind
             res["speed_kbps"] = round(len(data) * 8 / 1000 / max(rd, 0.001))
         res["status"] = "ACTIVE"
+        if item.get("ssl_note"):
+            res["error"] = "works; this PC does not trust its SSL certificate"
         if res["bitrate_kbps"] and res["speed_kbps"] and res["speed_kbps"] < 0.8 * res["bitrate_kbps"]:
             res["status"] = "SLOW"                                # plays, but will probably buffer
     except RuntimeError as e:
