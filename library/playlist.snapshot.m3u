@@ -2662,8 +2662,6 @@ https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-s
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-name="Action Hollywood Movies" tvg-id="" tvg-logo="https://papaji.freetvindia.com/media/action_hollywood_movie.png" tvg-chno="" group-title="Movies TV" http-referrer="",Action Hollywood Movies
 https://amg01076-lightningintern-actionhollywood-samsungau-rs69y.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-name="Action Hollywood Movies" tvg-id="" tvg-logo="https://papaji.freetvindia.com/media/action_hollywood_movie.png" tvg-chno="" group-title="Movies TV" http-referrer="",Action Hollywood Movies
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-name="AMC Europe"tvg-id="AMCEurope.uk@RO"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"tvg-chno=""group-title="Movies TV":http-referrer="",AMC Europe
 https://dokagents.site/live/amc/mono.m3u8
 #EXTINF:-1 tvg-name="AMC Europe Bulgary"tvg-id="AMCEurope.uk@Bulgary"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"tvg-chno=""group-title="Movies TV":http-referrer="",AMC Europe Bulgary
