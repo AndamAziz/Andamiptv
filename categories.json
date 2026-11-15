@@ -9,7 +9,7 @@
     "re:group-title=\"kurdish channels\"",
     "n:kurd",
     "n:rudaw",
-    "n:^ava\\b",
+    "n:^ava\\b(?!.*sport)",
     "n:\\bnrt\\b",
     "n:zagros"
   ],
