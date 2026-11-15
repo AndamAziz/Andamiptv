@@ -34,6 +34,8 @@ http://api.353505.xyz:80/live/123/123/2897.ts
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/818054.ts
 #EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
 https://andam.uk/ytlive/nrtsport/index.m3u8
+#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
+http://yusftsoreforver.ddns.net/live/ku/ku/unit/Ava_Sport/index.m3u8
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner Sport
 https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
 #EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
@@ -494,6 +496,8 @@ http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_2_hd/tracks-v1a1/mono
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
 #EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
 https://andam.uk/ytlive/nrtsport/index.m3u8
+#EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Sports":http-referrer="",AVA SPORT TV
+http://yusftsoreforver.ddns.net/live/ku/ku/unit/Ava_Sport/index.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="Koora City" tvg-logo="https://re.andam.uk/api/public/i/f48776e01fcb8c67.jpg" group-title="Sports",Koora City
 https://wp.machedge.site/rvic1.m3u8
 #EXTINF:-1 tvg-name="Hi SPORTS HD"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/gen-hi-sports.png"tvg-chno=""group-title="Sports":http-referrer="",Hi SPORTS HD
