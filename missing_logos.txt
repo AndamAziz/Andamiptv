@@ -40,7 +40,6 @@ AfroLand Romance
 Afroland Featured
 Al Loba
 AlTERNATIVE SHARAY TV
-Alerte Cobra
 All Out Reality
 AllHipHop
 Alta Tensione
@@ -55,7 +54,6 @@ Arous Beiru
 Arvan TV
 Ashti Quran
 Automotion
-BANGAWAZ TV
 BBC Drama Italy
 BBC Top Gear Finland
 BBC Top Gear France
@@ -130,6 +128,7 @@ Crimes Cults Killers by A&E
 Crímenes Reales
 Cuisine Culture
 Curiosity Animales
+DUHOK SPORT TV
 DanceTV Algorhythm
 Deal Masters
 Dej TV
@@ -185,35 +184,11 @@ Fluss Monster
 G-eye TV
 GEWHER TV
 GG Good Game
-GOOD TV CH12 維他命施
-GOOD TV CH14 真情部落格
-GOOD TV CH15 真情之夜
-GOOD TV CH16 葉光明
-GOOD TV CH17 大衛鮑森
-GOOD TV CH18 國際講員
-GOOD TV CH20 恩典時分
-GOOD TV CH21 華語講員
-GOOD TV CH24 劉三講古
-GOOD TV CH27 空中聖經學院
-GOOD TV CH28 現代詩歌
-GOOD TV CH29 經典音樂河
-GOOD TV CH30 天堂敬拜
-GOOD TV CH31 福音佈道音樂會
-GOOD TV CH32 特會系列：禱告與轉化
-GOOD TV CH33 特會系列：研經培靈
-GOOD TV CH38 特會系列：青年特會
-GOOD TV CH40 家庭8點檔轉轉發現愛
-GOOD TV CH45 卡通
-GOOD TV CH47 牧者頻道
-GOOD TV CH49 禱告頻道
-GOOD TV CH50 國際講員 中文發音
-GOOD TV CH9 愛+好醫生 短版
 Gaki no Tsukai
 Gardening With Monty Don
 Gardening with Monty Don
 General Hospital
 Gewher Family
-Ghaint Punjab
 Giovanni Paolo TV
 GlitchPlus
 Gold Star
@@ -223,7 +198,6 @@ Grandi Nomi
 Grjngo - Filmes De Faroeste
 Grjngo - Films de Western
 Grjngo - Películas Del Oeste
-Grjngo Films de Western
 Grjngo Italy
 Grjngo Spain
 H2O & Friends
@@ -237,14 +211,12 @@ Hip-Hop/R&B
 History and Warfare Now
 Hit List
 Hoarders by A&E
-Home Plus
 Homerun TV
 Homicide
 Homicide la chaîne du fait divers
 Horror Club
 Hunt Fish TV
 Hunter x Hunter
-ICC Plus
 IMK QURAN TV
 IMK TV
 INA Ardivision
@@ -280,7 +252,6 @@ La Maison France 5
 La chaine du fait divers
 Ladykracher powered by myspass
 Lanthung TV
-LatinoCircuit TV
 Le Meilleur Des Jeux Tv
 Le Meilleur d'Arthur
 Le Meilleur de la TV Realite
@@ -331,7 +302,6 @@ Modern Marvels
 MotoGP TV
 Motus la chaine
 Muslim Network TV
-MyZen Wellbeing TV
 Mytime
 Mytime Movies
 NBC 4 Albuquerque NM
@@ -386,7 +356,6 @@ Qui veut gagner des millions Geo
 RAWSHAN TV
 ROJHELAT
 ROMCOM K-Drama
-RTV Arnhem
 Radio Nawa Kurdi
 Radio Sunnat
 Radio Weser TV Bremen
@@ -404,9 +373,10 @@ Royalworld - Nobleza y Dinastias
 Royalworld - Nobreza e Dinastias
 Royalworld Germany
 Rudaw Radio
+SAUDI QURAN TV
+SAUDI SUNNAH TV
 SHNA TV
 SOZ TV
-SPI QURAN TV
 SURFER TV
 Saga Music Haryanvi
 Sardari TV
@@ -421,7 +391,6 @@ Sessao Trash
 Shade TV
 Shark TV
 Shna Doc
-Sikh Ratnavali
 Smooth Jazz
 Smosh
 Soap Turco
@@ -463,7 +432,6 @@ Surfer
 Surfing+
 Survivor Mexico
 Swamp People
-TL Estrella
 TLN Media Chicago
 TLN Media San Francisco
 TSTV
@@ -475,7 +443,6 @@ Tastemade International Canada
 Teen Vee English
 TeenVee
 TeenVee Spanish
-Tele Fe Bolivia
 Tele One 16
 Televisa: Les riches pleurent aussi
 The Archive
@@ -495,7 +462,6 @@ Travel XP alt
 Triton Poker
 U&Laughs
 U&Transport
-UNews
 Un Village Français
 Un Villages Francais
 Univision 24/7 News
@@ -512,7 +478,6 @@ Vevo Schlager Pop
 Viggo and Supporo
 Vita da Strega
 Vivax TV
-WGAL-DT3
 WITI-DT1
 WLNG Radio
 WRUA-DT1
@@ -532,7 +497,6 @@ ZAZ
 Zainabia Channel
 Zarin TV
 Zed TV
-Zhin Film
 batteryPOP
 douyu15
 douyu20
