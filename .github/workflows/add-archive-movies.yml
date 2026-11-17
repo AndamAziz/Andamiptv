@@ -15,13 +15,13 @@ on:
         description: 'Maximum movies to accept (best ranked first)'
         default: '20'
       primary_years:
-        description: 'Preferred pool: movies released in the last N years'
+        description: 'Preferred pool: movies released in the last N years (max 5 - only recent films)'
         default: '2'
       secondary_years:
-        description: 'Secondary pool: released in the last N years (older movies are rejected)'
+        description: 'Secondary pool: released in the last N years (max 5; older movies are always rejected)'
         default: '5'
       min_height:
-        description: 'Minimum VERIFIED resolution (both dimensions): 1080 = Full HD, 4K preferred. Unknown resolution is rejected.'
+        description: 'Minimum VERIFIED resolution (both dimensions), at least 1080 = Full HD; 4K preferred. Lower values are refused.'
         default: '1080'
       min_minutes:
         description: 'Minimum length in minutes (40 = feature films)'
