@@ -394,6 +394,22 @@ http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_7_hd/tracks-v1a1/mono
 http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_8_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 9"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/tYxzMDEU.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 9
 http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_9_hd/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="BEIN SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/708fe006b5ee5ebc.jpg"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORT
+https://tvsen6.aynaott.com/beinsports/index.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="beIN Sports XTRA"tvg-id="613758"tvg-logo="https://canvas-lb.tubitv.com/opts/ZznIonCFpZqA2g==/937ec9ac-b4bd-4c16-863b-75dc816129d7/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",beIN Sports XTRA
+https://live-manifest.production-public.tubi.io/live/2fd3d156-b63c-47c8-9d04-5961ddd9cee8/playlist.m3u8
+#EXTINF:-1 tvg-name="beIN Sports XTRA En Español"tvg-id="613759"tvg-logo="https://canvas-lb.tubitv.com/opts/y4jAUpeHq4ELHg==/8968101d-cc65-48c7-a102-0a6a46ca55db/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",beIN Sports XTRA En Español
+https://live-manifest.production-public.tubi.io/live/6cd31e43-d255-4ab4-b065-7f28bd541047/playlist.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id="XUMO_99991387"tvg-logo="https://image.xumo.com/v1/channels/channel/99991387/300x300.webp?type=color_onBlack"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",beIN SPORTS XTRA
+https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8?is_lat=[IS_LAT]&us_privacy=[CCPA_Value]
+#EXTINF:-1 tvg-name="beIN SPORTS XTRA en Español"tvg-id="XUMO_99991785"tvg-logo="https://image.xumo.com/v1/channels/channel/99991785/300x300.webp?type=color_onBlack"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",beIN SPORTS XTRA en Español
+https://dbrb49pjoymg4.cloudfront.net/10001/99991785/hls/playlist.m3u8?ads.xumo_channelId=99991785&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=BeInSportsESP&ads.csid=xumo_[PLATFORM]_BeInSportsESP_ssai&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads.genre=[CONTENT_IMDB_GENRE]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=es&ads._fw_content_genre=[content_genre]&ads._fw_content_rating=[content_rating]&ads.xumo_contentId=2642&ads.xumo_contentName=BeInSportsESP&ads.xumo_providerId=2642&ads.xumo_providerName=BeInSportsESP&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.channelId=99991785&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appName=xumo&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]
+#EXTINF:-1 tvg-name="BEIN HDR"tvg-id=""tvg-logo="https://i.postimg.cc/gcSFZKqM/file-0000000017f87246a0e08ec0f3feaffe.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN HDR
+https://live-aburayhan1112.telewebion.net/ek/faratar/live/2160p/index.m3u8
+#EXTINF:-1 tvg-name="bein sports türkiye"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-2a110304-74ab-4e7e-a458-5e29723b508c.jpg"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",bein sports türkiye
+https://andam.uk/ytlive/beinsport/index.m3u8
 #EXTINF:-1 tvg-name="BEIN MOVIES 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/d7c7598c3ef4d9ab.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BEIN MOVIES 1
 http://cms-ar.accesss.me:25461/Me37RYlfhw/717461472772/1360?Billybob.rulez!
 #EXTINF:-1 tvg-name="BEIN MOVIES 2"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/3e407be0f4da8516.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BEIN MOVIES 2
@@ -480,18 +496,12 @@ https://ssai.aniview.com/api/v1/mpd/stream.mpd?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]
 https://di4chcy8fb6ab.cloudfront.net/11002/88817993/hls/playlist.m3u8?ads.xumo_channelId=88817993&ads.csid=hisensechannels_us_lionsgate50centaction_ssai&ads.caid=Lionsgate50CentAction&ads.asnw=&ads._fw_content_language=en&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_coppa=0&ads.xumo_contentId=4256&ads.xumo_contentName=Lionsgate50CentAction&ads.xumo_providerId=4256&ads.xumo_providerName=Lionsgate50CentAction&ads._fw_content_rating=TV-14&ads.xumo_streamId=88817993&ads._fw_h_x_country=US&ads.platform=%5BPLATFORM%5D&ads.xumo_ifaType=%5BIFA_TYPE%5D&ads.xumo_ifa=%5BIFA%5D&ads._fw_devicetype=3-Connected_TV&ads._fw_device_model=%5BDEVICE_MODEL%5D&ads._fw_deviceMake=%5BDEVICE_MAKE%5D&ads._fw_player_width=1920&ads._fw_player_height=1080&ads._fw_is_lat=%5BIS_LAT%5D&ads._fw_us_privacy=%5BUS_PRIVACY%5D&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads.gpp=%5BGPP%5D&ads.gpp_sid=%5BGPP_SID%5D&ads._fw_app_bundle=%5BAPP_BUNDLE%5D&ads.appVersion=%5BAPP_VERSION%5D&ads.appName=%5BAPP_NAME%5D&ads.vauth=%5BVAUTH%5D&ads._fw_app_store_url=%5BAPP_STORE_URL%5D&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9587
 #EXTINF:-1 tvg-name="Urban Action Channel"tvg-id="LN_E1323824-8949-45C5-B8B9-DF36E8B84232"tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/E1323824-8949-45C5-B8B9-DF36E8B84232/3-1x1.png"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",Urban Action Channel
 https://s2host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config2/d/PNYXCTA5SUANEQZBS1IR/hls3/now_-1m_15s/m.m3u8?ads.rating=TV14&ads.vast_id=SGL111&ads.channel_name=Urban%20Action%20Channel&ads.content_genre=Action%2CEntertainment%2CMovies&ads.content_series=Black%20Fist&ads.ic=IAB1-5&ads.provider=Global%20Media&page_url=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ua=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&width=1920&app_version=0.0.0&ccpa_us_privacy=1YNY&device_devicetype=desktop_web&height=1080&ip_addr=185.217.168.164&ads.cdnhost=s2host3.localnow.api.cms.amdvids.com&ads.playbackid=E1323824-8949-45C5-B8B9-DF36E8B84232&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=E1323824-8949-45C5-B8B9-DF36E8B84232&ads.n4=content_name&ads.v4=EPG%20%7C%20Urban%20Action%20Channel&ads.n21=content_custom_2_param&ads.v21=AMDB012650&ads.n22=gpp_sid&ads.v22=&ads.n23=channel_ext_id&ads.v23=61fd7d64e3997954db1a70b5&ads.n24=device_make&ads.v24=&ads.n25=content_type&ads.v25=channel&ads.n26=app_name&ads.v26=&ads.n27=gpp&ads.v27=&ads.n28=app_version&ads.v28=0.0.0&ads.n29=content_custom_1_param&ads.v29=E1323824-8949-45C5-B8B9-DF36E8B84232&ads.n30=content_livestream&ads.v30=1&ads.n31=ifa_type&ads.v31=&ads.n32=did&ads.v32=&ads.n33=us_privacy&ads.v33=1YNY&ads.n34=ua&ads.v34=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n35=pos&ads.v35=midroll&ads.n36=channel_id&ads.v36=E1323824-8949-45C5-B8B9-DF36E8B84232&ads.n37=content_provider&ads.v37=urban-action-channel&ads.n38=dnt&ads.v38=&ads.n39=channel_brand_id&ads.v39=AMDB012650&ads.n40=app_store_url&ads.v40=&ads.n41=channel_name&ads.v41=EPG%20%20Urban%20Action%20Channel&ads.n42=device_type&ads.v42=&ads.n43=url&ads.v43=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n44=channel_language&ads.v44=en&ads.n45=channel_rating&ads.v45=TV-PG&ads.n46=channel_corp&ads.v46=SotalCloud%20INC&ads.n47=channel_title&ads.v47=EPG%20%20Urban%20Action%20Channel&ads.n48=content_producer_name&ads.v48=SotalCloud%20INC&ads.n49=content_custom_3_param&ads.v49=channel&ads.n50=cust_devicename&ads.v50=desktop_web&ads.n51=app_bundle&ads.v51=&ads.n52=channel_genre&ads.v52=Action%2FAdventure&ads.n53=device_model&ads.v53=&ads.n54=network_name&ads.v54=urban-action-channel&ads.n55=ip&ads.v55=185.217.168.164&ads.n56=channel_company_id&ads.v56=AMDP500264&ads.n57=h&ads.v57=1080&ads.n58=w&ads.v58=1920
-#EXTINF:-1 tvg-name="FALCON 2"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/eatoqkLf.jpg"tvg-chno=""group-title="Sports":http-referrer="",FALCON 2
-http://yusftsoreforver.ddns.net/live/ku/ku/unit/falcone_2/index.m3u8
 #EXTINF:-1 tvg-name="FALCON 1"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/eatoqkLf.jpg"tvg-chno=""group-title="Sports":http-referrer="",FALCON 1
 http://yusftsoreforver.ddns.net/live/ku/ku/unit/falcone_1/index.m3u8
+#EXTINF:-1 tvg-name="FALCON 2"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/eatoqkLf.jpg"tvg-chno=""group-title="Sports":http-referrer="",FALCON 2
+http://yusftsoreforver.ddns.net/live/ku/ku/unit/falcone_2/index.m3u8
 #EXTINF:-1 tvg-name="SOLO SPORTS"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/we8ooCbf.png"tvg-chno=""group-title="Sports":http-referrer="",SOLO SPORTS
 http://yusftsoreforver.ddns.net/live/ar/xx/solo/solo_1_hd/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 1
-https://balance.footballii.ir/hls2/bein1.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="Sports",BEIN SPORTS 2
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_2_hd/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="Sports",BEIN SPORTS 3
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
 #EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Sports":http-referrer="",NRT SPORT
 https://andam.uk/ytlive/nrtsport/index.m3u8
 #EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Sports":http-referrer="",AVA SPORT TV
@@ -514,8 +524,6 @@ http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/987920.ts
 http://141.94.193.53/Duna_World_M4_Sport+_HD/index.m3u8
 #EXTINF:-1 tvg-name="M4 SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/59e291d174a98c72.jpg"tvg-chno=""group-title="Sports":http-referrer="",M4 SPORT
 http://141.94.193.53/M4_Sport_HD/index.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/708fe006b5ee5ebc.jpg"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORT
-https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-name="LIGUE 1+"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/93ca9d829a61cfea.jpg"tvg-chno=""group-title="Sports":http-referrer="",LIGUE 1+
 http://connect.streamboxtv.cc/live/testlivestream/testlivestream/80.ts
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Sports":http-referrer="",Biner Sport
@@ -524,28 +532,12 @@ https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
 https://cp11.adabmedia.com/hls2/tv3test.m3u8
 #EXTINF:-1 tvg-name="VARZESH SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/5ca56f576cf4a46c.jpg"tvg-chno=""group-title="Sports":http-referrer="",VARZESH SPORT
 https://cp11.adabmedia.com/hls2/varzeshtest.m3u8
-#EXTINF:-1 tvg-name="BEIN SPORTS 7"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN SPORTS 7
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_7_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 2"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 4
 http://coco3-cdn.cfd:8085/alwan-4/index.m3u8
 #EXTINF:-1 tvg-name="Alwan Sport 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-03-8dba706e-a572-4cd5-a5e9-f3da1b90b5b1.jpg"tvg-chno=""group-title="Sports":http-referrer="",Alwan Sport 5
 https://andam.uk/ytlive/sport1you/index.m3u8
 #EXTINF:-1 tvg-name="DAZN 3"tvg-id=""tvg-logo="https://arya-image-vault.lovable.app/api/public/i/cc61328d-b73b-423f-8da2-8da308b199f8.jpg"tvg-chno=""group-title="Sports":http-referrer="",DAZN 3
 http://23.237.104.106:8080/DAZN_3/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA
-https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="beIN Sports XTRA"tvg-id="613758"tvg-logo="https://canvas-lb.tubitv.com/opts/ZznIonCFpZqA2g==/937ec9ac-b4bd-4c16-863b-75dc816129d7/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="Sports":http-referrer="",beIN Sports XTRA
-https://live-manifest.production-public.tubi.io/live/2fd3d156-b63c-47c8-9d04-5961ddd9cee8/playlist.m3u8
-#EXTINF:-1 tvg-name="beIN Sports XTRA En Español"tvg-id="613759"tvg-logo="https://canvas-lb.tubitv.com/opts/y4jAUpeHq4ELHg==/8968101d-cc65-48c7-a102-0a6a46ca55db/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="Sports":http-referrer="",beIN Sports XTRA En Español
-https://live-manifest.production-public.tubi.io/live/6cd31e43-d255-4ab4-b065-7f28bd541047/playlist.m3u8
-#EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id="XUMO_99991387"tvg-logo="https://image.xumo.com/v1/channels/channel/99991387/300x300.webp?type=color_onBlack"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA
-https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8?is_lat=[IS_LAT]&us_privacy=[CCPA_Value]
-#EXTINF:-1 tvg-name="beIN SPORTS XTRA en Español"tvg-id="XUMO_99991785"tvg-logo="https://image.xumo.com/v1/channels/channel/99991785/300x300.webp?type=color_onBlack"tvg-chno=""group-title="Sports":http-referrer="",beIN SPORTS XTRA en Español
-https://dbrb49pjoymg4.cloudfront.net/10001/99991785/hls/playlist.m3u8?ads.xumo_channelId=99991785&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=BeInSportsESP&ads.csid=xumo_[PLATFORM]_BeInSportsESP_ssai&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads.genre=[CONTENT_IMDB_GENRE]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=es&ads._fw_content_genre=[content_genre]&ads._fw_content_rating=[content_rating]&ads.xumo_contentId=2642&ads.xumo_contentName=BeInSportsESP&ads.xumo_providerId=2642&ads.xumo_providerName=BeInSportsESP&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.channelId=99991785&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appName=xumo&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]
-#EXTINF:-1 tvg-name="BEIN HDR"tvg-id=""tvg-logo="https://i.postimg.cc/gcSFZKqM/file-0000000017f87246a0e08ec0f3feaffe.png"tvg-chno=""group-title="Sports":http-referrer="",BEIN HDR
-https://live-aburayhan1112.telewebion.net/ek/faratar/live/2160p/index.m3u8
-#EXTINF:-1 tvg-name="bein sports türkiye"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-2a110304-74ab-4e7e-a458-5e29723b508c.jpg"tvg-chno=""group-title="Sports":http-referrer="",bein sports türkiye
-https://andam.uk/ytlive/beinsport/index.m3u8
 #EXTINF:-1 tvg-name="30A Golf Kingdom"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Lv53nh4.png"tvg-chno=""group-title="Sports":http-referrer="",30A Golf Kingdom
 https://30a-tv.com/feeds/vidaa/golf.m3u8
 #EXTINF:-1 tvg-name="FloHockey 24/7"tvg-id=""tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png"tvg-chno=""group-title="Sports":http-referrer="",FloHockey 24/7
