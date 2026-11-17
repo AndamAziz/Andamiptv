@@ -36,6 +36,10 @@ def main():
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--report", default="archive-series-report.md")
     a = ap.parse_args()
+    if a.apply:
+        # Owner's policy (Nov 2026): no old or low-quality films from the archive any more.
+        sys.exit("--apply is disabled: this tool adds classic cartoon episodes (old / low quality). "
+                 "New films come only from discover_movies.py (recent, Full HD/4K).")
     text = open(a.playlist, encoding="utf-8").read()
     lines = text.split("\n")
     known_ids = set(re.findall(r"archive\.org/download/([^/]+)/", text))

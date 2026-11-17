@@ -332,6 +332,10 @@ def main():
     ap.add_argument("--apply", action="store_true", help="write to the playlist (default is a dry run that only writes the report)")
     ap.add_argument("--report", default="archive-report.md")
     a = ap.parse_args()
+    if a.apply:
+        # Owner's policy (Nov 2026): no old or low-quality films from the archive any more.
+        sys.exit("--apply is disabled: this tool adds classic films (old / low quality). "
+                 "New films come only from discover_movies.py (recent, Full HD/4K).")
 
     text = open(a.playlist, encoding="utf-8").read() if os.path.exists(a.playlist) else "#EXTM3U\n"
     lines = text.split("\n")
