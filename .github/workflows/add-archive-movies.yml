@@ -27,10 +27,10 @@ on:
         description: 'Minimum length in minutes (40 = feature films)'
         default: '40'
       min_rating:
-        description: 'Minimum TMDB rating (0 = any)'
+        description: 'Minimum TMDB score 0-10, e.g. 6.5 (0 = any)'
         default: '0'
       min_votes:
-        description: 'Minimum TMDB vote count (0 = any)'
+        description: 'Minimum NUMBER of TMDB votes, a whole number like 100 (0 = any). Not the score!'
         default: '0'
       query:
         description: 'Optional extra search words'
