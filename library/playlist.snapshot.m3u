@@ -16,8 +16,6 @@ https://live.channel8.com/Channel8-Kurdish/index.m3u8
 #EXTINF:-1 tvg-name="K 24"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-f52cf35b-7fce-41ef-8a34-33a24d1bd326.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",K 24
 https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8
 #EXTINF:-1 tvg-name="NRT2"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/073897ce04a791f7.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT2
-http://176.9.99.185:8883/nrt2/index.m3u8
-#EXTINF:-1 tvg-name="KURDMAX MUSIC TV"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-kurdmax-music.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KURDMAX MUSIC TV
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/1858993.ts
 #EXTINF:-1 tvg-name="KURDSAT NEWS"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-26-46dd409b-5dd4-4d22-a955-66aff61ea2cd.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",KURDSAT NEWS
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
@@ -369,6 +367,8 @@ http://api.353505.xyz:80/live/123/123/2898.ts
 https://hlspackager.akamaized.net/live/DB/K24/HLS/index.m3u8
 #EXTINF:-1 tvg-name="K 24"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-f52cf35b-7fce-41ef-8a34-33a24d1bd326.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",K 24
 http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/324572.ts
+#EXTINF:-1 tvg-name="K 24"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-f52cf35b-7fce-41ef-8a34-33a24d1bd326.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",K 24
+http://176.9.99.185:8883/nrt2/index.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
