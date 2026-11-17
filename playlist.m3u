@@ -378,20 +378,6 @@ http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_1_hd/tracks-v1a1/mono
 http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_2_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
 http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
-#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://castx.online/live/beinsports3/stream_2.m3u8
-#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 3)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://castx.online/live/beinsports3/stream_3.m3u8
-#EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 4)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://castx.online/live/beinsports3/stream_4.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 3 (Server 5)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://bplive.akbarnews.store/live1/index.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 3 (Server 6)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://bplive.akbarnews.store/live1/720p.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 3 (Server 8)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://castx.online/live/beinsports2/stream_4.m3u8
-#EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 3 (Server 9)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-https://castx.online/live/beinsports2/stream_5.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 3
 http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_3_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 4"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-4.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 4
