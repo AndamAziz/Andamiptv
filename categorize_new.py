@@ -43,6 +43,23 @@ def move_new_vod_to_top(entries, known, is_vod):
         else: entries.insert(pos, e); moved.append(e)
     return moved
 
+ARCHIVE_HOST = 'archive.org'
+
+def own_movies_first(entries):
+    """Inside every movie group, the owner's films come first and the old Internet Archive films
+    after them (each part keeps its order). Series and live channels are not touched."""
+    movie = lambda e: bp.vod_type(e['lines'][0]) == 'movie'
+    groups = {}
+    for k, e in enumerate(entries):
+        if movie(e):
+            groups.setdefault(bp.get_group_title(e['lines'][0]), []).append(k)
+    for idx in groups.values():
+        ordered = sorted(idx, key=lambda k: (ARCHIVE_HOST in entries[k]['url'], idx.index(k)))
+        if ordered != idx:
+            vals = [entries[k] for k in ordered]
+            for k, v in zip(sorted(idx), vals):
+                entries[k] = v
+
 def main(pl='playlist.m3u', sn='library/playlist.snapshot.m3u'):
     base = os.path.dirname(os.path.abspath(bp.__file__))
     cats = bp.load_categories(os.path.join(base, bp.DEFAULT_CATEGORIES_FILE))
@@ -91,6 +108,7 @@ def main(pl='playlist.m3u', sn='library/playlist.snapshot.m3u'):
         entries.insert(pos, e)
     vod_moved = move_new_vod_to_top(entries, known, is_vod)
     moved = moved + vod_moved
+    own_movies_first(entries)
     out = header + [l for e in entries for l in e['lines']]
     open(pl, 'w', encoding='utf-8').write('\n'.join(out) + ('' if out and out[-1] == '' else '\n'))
     print(f'categorize_new: {changed} new channel(s) categorized, {len(moved)} moved to the top')

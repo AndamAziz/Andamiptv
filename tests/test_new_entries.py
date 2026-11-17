@@ -46,5 +46,13 @@ class NewEntries(unittest.TestCase):
         n = run(BASE, BASE)
         self.assertEqual(n, ['Live A', 'Live B', 'Movie 1', 'Movie 2', 'Show - S01E01', 'Show - S01E02', 'Other - S01E01'])
 
+class OwnFilmsFirst(unittest.TestCase):
+    def test_own_films_above_archive_films_in_a_group(self):
+        lines = [ext('Old 1', 'Drama', 'movie'), 'https://archive.org/download/a/a.mp4',
+                 ext('Mine', 'Drama', 'movie'), 'https://vod.andam.uk/vod/mine.mp4',
+                 ext('Old 2', 'Drama', 'movie'), 'https://archive.org/download/b/b.mp4']
+        n = run(lines, lines)
+        self.assertEqual(n, ['Mine', 'Old 1', 'Old 2'])
+
 if __name__ == '__main__':
     unittest.main()
