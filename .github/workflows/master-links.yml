@@ -1,0 +1,59 @@
+name: Find master links for live channels
+
+# Weekly (and on demand): for live channels whose link is a single-quality HLS playlist, look for the
+# server's MASTER playlist (adaptive quality). A master is used only when it really contains the
+# channel's current stream; otherwise the link stays as it is. Changes go to a NEW BRANCH + pull
+# request - never straight to main - so you review and merge them yourself.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report only (no pull request)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 2 * * 3"      # Wednesdays 02:17 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: playlist-write
+  cancel-in-progress: false
+
+jobs:
+  master-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Find master links
+        run: |
+          APPLY="--apply"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then APPLY=""; fi
+          python find_master_links.py playlist.m3u $APPLY --workers 24 --report master-links-report.txt | grep -v -E "^  (old|new):" || true
+          cat master-links-report.txt | head -1 >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: master-links-report
+          path: master-links-report.txt
+          retention-days: 30
+      - name: Open a pull request with the changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --quiet playlist.m3u && { echo "No master links to change."; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BR="master-links-${GITHUB_RUN_ID}"
+          git checkout -b "$BR"
+          git add playlist.m3u library/playlist.snapshot.m3u
+          git commit -m "Live channels: use master links (adaptive quality) found in run ${GITHUB_RUN_ID} [skip ci]"
+          git push origin "$BR"
+          gh pr create --base main --head "$BR" --title "Live channels: master links (run ${GITHUB_RUN_ID})" \
+            --body "Found by the master-links workflow. Each new link is a master playlist that contains the old stream, so nothing that worked is lost. Full list: the master-links-report artifact of run ${GITHUB_RUN_ID}." \
+            || echo "Could not open the PR automatically; open it from branch $BR."
