@@ -204,6 +204,10 @@ def apply_to_playlist(opts, accepted, tmdb):
     return []
 
 
+POLICY_MIN_HEIGHT = 1080   # never import films below Full HD
+POLICY_MAX_YEARS = 5       # never import films released more than 5 years ago
+
+
 def parse_args(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default="internet_archive,wikimedia", help="comma separated adapters (see sources/)")
@@ -234,6 +238,12 @@ def parse_args(argv=None):
     ap.add_argument("--apply", action="store_true", help="write the playlist (default: dry run, report only)")
     ap.add_argument("--report", default="archive-report.md")
     o = ap.parse_args(argv)
+    # Owner's policy (Nov 2026): only NEW and HIGH-QUALITY films. These floors cannot be lowered from
+    # the workflow form; old or low-resolution films are never imported.
+    if o.min_height < POLICY_MIN_HEIGHT:
+        ap.error(f"min_height {o.min_height} is below the policy minimum {POLICY_MIN_HEIGHT} (Full HD/4K only)")
+    if o.secondary_years > POLICY_MAX_YEARS or o.primary_years > POLICY_MAX_YEARS:
+        ap.error(f"years must be at most {POLICY_MAX_YEARS} (only recent films are allowed)")
     o.source_names = [s.strip() for s in o.sources.split(",") if s.strip()]
     o.this_year = datetime.date.today().year
     o.formats = ("mp4", "m3u8", "webm", "ogv") if o.allow_webm else ("mp4", "m3u8")
