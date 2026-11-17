@@ -19832,8 +19832,6 @@ https://andam.uk/vod/video_d13a2a/index.m3u8
 https://vz-436f3b70-ee3.b-cdn.net/5d36e882-9d58-444e-b66a-e14ce1fcc27d/1920x1080/video.m3u8
 #EXTINF:-1 tvg-name="Hotel Rwanda _ هوتێڵ ڕواندا {tmdb-205}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/p3pHw85UMZPegfMZBA6dZ06yarm.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Hotel Rwanda _ هوتێڵ ڕواندا {tmdb-205}
 https://vz-436f3b70-ee3.b-cdn.net/097befda-d4e2-4dad-8aaf-59ffa2d779cc/1920x1080/video.m3u8
-#EXTINF:-1 tvg-name="Collision Course {tmdb-1571955}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg"tvg-chno=""tvg-type="movie"group-title="Spanish":http-referrer="",Collision Course {tmdb-1571955}
-https://super-reseller.lovable.app/api/public/v/v-0bfb9f91d8d3.mp4
 #EXTINF:-1 tvg-name="The Lizard _ مارمێلکە {tmdb-75404}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BZmY2NjRmNmItYWRhZC00OTgzLWIyYzEtMzhhZjZkYjQ3OWYxXkEyXkFqcGc@._V1_FMjpg_UX718_.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",The Lizard _ مارمێلکە {tmdb-75404}
 https://streaming.imvbox.com/media/4052/1280x720/1280x720.m3u8
 #EXTINF:-1 tvg-name="Cease Fire _ ئاگربەست {tmdb-44074}"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-08-2e234d04-0342-4ac0-8fce-5c2213a8beb7.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",Cease Fire _ ئاگربەست {tmdb-44074}
@@ -20172,6 +20170,8 @@ https://archive.org/download/ThreeGuysNamedMike1951/ThreeGuysNamedMike1951.mp4
 https://archive.org/download/RaggedyRose1926_129/Raggedy-Rose2.mp4
 #EXTINF:-1 tvg-name="The Crazy Ray {tmdb-47579}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xEoZcxj2Zi5P7A5ayPXHy457tlB.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",The Crazy Ray {tmdb-47579}
 https://archive.org/download/TheCrazyRay/TheCrazyRay_512kb.mp4
+#EXTINF:-1 tvg-name="Collision Course {tmdb-1571955}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Collision Course {tmdb-1571955}
+https://super-reseller.lovable.app/api/public/v/v-0bfb9f91d8d3.mp4
 #EXTINF:-1 tvg-name="The Gambler {tmdb-284536}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hIgU3cxn7Y87joQGM3srofnXOm5.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",The Gambler {tmdb-284536}
 https://vod.andam.uk/vod/Watch-The-Gambler-2014-2014-Online-Free---PLUSCHANNEL-MOVIES.mp4
 #EXTINF:-1 tvg-name="Model Citizen {tmdb-1792170}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7SE0LBwgqiqZzkm9gKVbBAbcNQL.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",Model Citizen {tmdb-1792170}
@@ -20380,10 +20380,6 @@ https://archive.org/download/Tulsa1949/Tulsa_1949.mp4
 https://archive.org/download/TheGoddess_280/TheGoddess_512kb.mp4
 #EXTINF:-1 tvg-name="The Little Princess {tmdb-26531}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cnMSURyv7R6gjmUm5SYdTxXLzIO.jpg"tvg-chno=""tvg-type="movie"group-title="Family":http-referrer="",The Little Princess {tmdb-26531}
 https://archive.org/download/little_princess/little_princess.mp4
-#EXTINF:-1 tvg-name="The Lost World {tmdb-2981}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/411VnWtYJdEFKiaGqJOeTmBv8th.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",The Lost World {tmdb-2981}
-https://archive.org/download/lost_world_ACM/lost_world_512kb.mp4
-#EXTINF:-1 tvg-name="Angel on My Shoulder {tmdb-22688}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6nKIHzDdtsWZ1xJOym0IuMUPMvu.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Angel on My Shoulder {tmdb-22688}
-https://archive.org/download/angel_on_my_shoulder/angel_on_my_shoulder.mp4
 #EXTINF:-1 tvg-name="The Hobbit: An Unexpected Journey {tmdb-49051}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",The Hobbit: An Unexpected Journey {tmdb-49051}
 https://super-reseller.lovable.app/api/public/v/v-ae05efe0c697.mp4
 #EXTINF:-1 tvg-name="The Hobbit: The Desolation of Smaug {tmdb-57158}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",The Hobbit: The Desolation of Smaug {tmdb-57158}
@@ -20396,6 +20392,10 @@ https://super-reseller.lovable.app/api/public/v/v-fe4433d8ca83.mp4
 https://super-reseller.lovable.app/api/public/v/v-45a799a2d186.mp4
 #EXTINF:-1 tvg-name="The Lord of the Rings The Return of the King {tmdb-122}" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg" group-title="Fantasy" tvg-type="movie",The Lord of the Rings The Return of the King {tmdb-122}
 https://super-reseller.lovable.app/api/public/v/v-6dd4ad01ec24.mp4
+#EXTINF:-1 tvg-name="The Lost World {tmdb-2981}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/411VnWtYJdEFKiaGqJOeTmBv8th.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",The Lost World {tmdb-2981}
+https://archive.org/download/lost_world_ACM/lost_world_512kb.mp4
+#EXTINF:-1 tvg-name="Angel on My Shoulder {tmdb-22688}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6nKIHzDdtsWZ1xJOym0IuMUPMvu.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Angel on My Shoulder {tmdb-22688}
+https://archive.org/download/angel_on_my_shoulder/angel_on_my_shoulder.mp4
 #EXTINF:-1 tvg-name="Hercules and the Captive Women {tmdb-42576}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/w7AmUyC8irs9ho31dC4SEl2mLRb.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Hercules and the Captive Women {tmdb-42576}
 https://archive.org/download/cco__HerculesandtheCaptiveWomen/cco_herculesandthecaptivewomen.mp4
 #EXTINF:-1 tvg-name="Hercules Unchained {tmdb-39402}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4lzZhokSXwb93GlrREMuRLw0SLL.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Hercules Unchained {tmdb-39402}
@@ -20412,6 +20412,8 @@ https://archive.org/download/DarkJourney1937/DarkJourney1937.mp4
 https://archive.org/download/SantaClausversusTheDevil/SantaClaus_1_512kb.mp4
 #EXTINF:-1 tvg-name="Zvenigora {tmdb-82088}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3Ry20Hx3xnjDOisWdbLVATFZnXy.jpg"tvg-chno=""tvg-type="movie"group-title="Fantasy":http-referrer="",Zvenigora {tmdb-82088}
 https://archive.org/download/Zwenigora/Zwenigora_512kb.mp4
+#EXTINF:-1 tvg-name="Hazrat Ali {tmdb-1815501}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7a9yjFYZqkaPy0t9SFjCdkafwXm.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Hazrat Ali {tmdb-1815501}
+https://andam.uk/vod/video_54954c/index.m3u8
 #EXTINF:-1 tvg-name="The Last of the Mohicans {tmdb-71065}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kNpjv5byJM8H83JJwPLMDyB095t.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",The Last of the Mohicans {tmdb-71065}
 https://archive.org/download/last_of_the_mohicans_1920/last_of_the_mohicans_silent_512kb.mp4
 #EXTINF:-1 tvg-name="The Deerslayer {tmdb-389993}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/k89sp3nPJfNVyh8BICV9sqiBLD5.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",The Deerslayer {tmdb-389993}
@@ -20420,8 +20422,6 @@ https://archive.org/download/TheDeerslayer1920/TheDeerslayer_512kb.mp4
 https://archive.org/download/hearts_in_bondage/hearts_in_bondage.mp4
 #EXTINF:-1 tvg-name="Rembrandt {tmdb-50031}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mGoJsDTITN1WBCEUzbSQEEUIGzj.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Rembrandt {tmdb-50031}
 https://archive.org/download/Rembrandt/Rembrandt_512kb.mp4
-#EXTINF:-1 tvg-name="Hazrat Ali {tmdb-1815501}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7a9yjFYZqkaPy0t9SFjCdkafwXm.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Hazrat Ali {tmdb-1815501}
-https://andam.uk/vod/video_54954c/index.m3u8
 #EXTINF:-1 tvg-name="Abraham Lincoln {tmdb-130816}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4BOmqevJBC5gBfQNXpa2epf27yO.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Abraham Lincoln {tmdb-130816}
 https://archive.org/download/abraham_lincoln/abraham_lincoln.mp4
 #EXTINF:-1 tvg-name="Waltzes from Vienna {tmdb-52907}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/34AL66MN44fJKiFjaHNPdqftqsY.jpg"tvg-chno=""tvg-type="movie"group-title="History":http-referrer="",Waltzes from Vienna {tmdb-52907}
@@ -20544,6 +20544,8 @@ https://archive.org/download/till_the_clouds_roll_by/till_the_clouds_roll_by.mp4
 https://archive.org/download/hi_de_ho/Hi-De-Ho.mp4
 #EXTINF:-1 tvg-name="Let's Sing Again {tmdb-204227}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/A9FvDXKrdt6ZkVnhY1x4cDeXQoM.jpg"tvg-chno=""tvg-type="movie"group-title="Music":http-referrer="",Let's Sing Again {tmdb-204227}
 https://archive.org/download/lets_sing_again/lets_sing_again.mp4
+#EXTINF:-1 tvg-name="Verity {tmdb-1283515}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Verity {tmdb-1283515}
+https://super-reseller.lovable.app/api/public/v/v-5bb8a88871d5.mp4
 #EXTINF:-1 tvg-name="D.O.A. {tmdb-18995}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/m7wZXWOt9XQKJT8r9pbAFo7jB46.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",D.O.A. {tmdb-18995}
 https://archive.org/download/doa_ipod/doa_512kb.mp4
 #EXTINF:-1 tvg-name="I Bury The Living {tmdb-34084}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/z5K0Kj85Tv81j7yuYreSVDNgBMJ.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",I Bury The Living {tmdb-34084}
@@ -20562,8 +20564,6 @@ https://archive.org/download/x_marks_the_spot_1942/x_marks_the_spot_512kb.mp4
 https://archive.org/download/lying_lips_ipod/lying_lips_512kb.mp4
 #EXTINF:-1 tvg-name="Nabonga {tmdb-7268}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ssbU9fbrfvaW3f1VdXgsyY5HCrz.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Nabonga {tmdb-7268}
 https://archive.org/download/nabonga_1944/nabonga_512kb.mp4
-#EXTINF:-1 tvg-name="Verity {tmdb-1283515}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Verity {tmdb-1283515}
-https://super-reseller.lovable.app/api/public/v/v-5bb8a88871d5.mp4
 #EXTINF:-1 tvg-name="Dressed to Kill {tmdb-20417}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/oD4z3ON2ciLMv6obEH2K8tGThWG.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Dressed to Kill {tmdb-20417}
 https://archive.org/download/dressed_to_kill/dressed_to_kill.mp4
 #EXTINF:-1 tvg-name="Terror By Night {tmdb-20408}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cjGgLJ2GViKy0bla8OfaAhOBAJw.jpg"tvg-chno=""tvg-type="movie"group-title="Mystery":http-referrer="",Terror By Night {tmdb-20408}
