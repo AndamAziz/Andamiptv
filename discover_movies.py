@@ -215,7 +215,14 @@ def parse_args(argv=None):
     ap.add_argument("--min-height", type=int, default=1080)
     ap.add_argument("--min-minutes", type=float, default=40)
     ap.add_argument("--min-rating", type=float, default=0.0)
-    ap.add_argument("--min-votes", type=int, default=0)
+    def votes(v):
+        try:
+            return int(v)
+        except ValueError:
+            raise argparse.ArgumentTypeError(
+                f"'{v}' is not a whole number. min_votes is HOW MANY people voted on TMDB (e.g. 100); "
+                "for a score like 6.5 use min_rating.")
+    ap.add_argument("--min-votes", type=votes, default=0)
     ap.add_argument("--group", default="Recent Movies")
     ap.add_argument("--collection", default="")
     ap.add_argument("--query", default="")
