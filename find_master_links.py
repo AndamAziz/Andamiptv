@@ -180,15 +180,32 @@ def main():
         print(line)
 
     if a.apply and found:
-        for path in (pl, Path(a.snapshot)):
-            if not path.exists():
+        # Two qualities of one channel in the same group (e.g. 480p + 720p) can lead to the same master;
+        # the nightly build would then drop one as a duplicate. Only the first gets the master, and an
+        # entry is skipped when its master is already in that group.
+        group = lambda l: (re.search(r'group-title="([^"]*)"', l) or [0, ""])[1]
+        taken = {(group(lines[i]), no_query(lines[j].strip())) for i, j in entries(lines)}
+        applied, skipped = {}, 0
+        for i, j in entries(lines):
+            u = lines[j].strip()
+            if 'tvg-type="' in lines[i] or u not in found:
                 continue
-            ls = path.read_text(encoding="utf-8").split("\n")
+            key = (group(lines[i]), no_query(found[u]))
+            if key in taken:
+                skipped += 1
+                continue
+            taken.add(key)
+            lines[j] = found[u]
+            applied[u] = found[u]
+        pl.write_text("\n".join(lines), encoding="utf-8")
+        snap = Path(a.snapshot)
+        if snap.exists():
+            ls = snap.read_text(encoding="utf-8").split("\n")
             for i, j in entries(ls):
-                if 'tvg-type="' not in ls[i] and ls[j].strip() in found:
-                    ls[j] = found[ls[j].strip()]
-            path.write_text("\n".join(ls), encoding="utf-8")
-        print(f"applied {len(found)} replacement(s)")
+                if 'tvg-type="' not in ls[i] and ls[j].strip() in applied:
+                    ls[j] = applied[ls[j].strip()]
+            snap.write_text("\n".join(ls), encoding="utf-8")
+        print(f"applied {len(applied)} replacement(s), skipped {skipped} (master already in the same group)")
     return 0
 
 
