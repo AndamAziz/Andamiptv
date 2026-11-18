@@ -370,29 +370,29 @@ https://stream.kurdmax.tv/app/kurdmax-sorani1/medialist_917977731947844006_hls.m
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
 https://balance.footballii.ir/hls2/bein1.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 2)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242255.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_1_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="bein1" tvg-name="BEIN SPORTS HD 1 (Server 3)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png" group-title="BEIN SPORTS AR",BEIN SPORTS 1
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242255.ts
+http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242255.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 1"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7d656c60-0416-4ecb-b01d-fdf9bb489b0d.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 1
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_1_hd/index.m3u8
+http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242255.ts
 #EXTINF:-1 tvg-id="bein2" tvg-name="BEIN SPORTS HD 2 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-d83286ba-3e3a-457e-a86f-c934a8259528.png" group-title="BEIN SPORTS AR",BEIN SPORTS 2
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_2_hd/index.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_2_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="bein3" tvg-name="BEIN SPORTS HD 3 (Server 1)" tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png" group-title="BEIN SPORTS AR",BEIN SPORTS 3
-http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_3_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 3"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-23e3aa25-92ba-4493-98a5-c821a83cac64.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 3
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_3_hd/index.m3u8
+http://mag.tiger-ott.net/live/KEBD2U/7F8W2T/242253.ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 4"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-4.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 4
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_4_hd/index.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_4_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 5"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-5.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 5
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_5_hd/index.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_5_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 6"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/io-bein-sports-6.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 6
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_6_hd/index.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_6_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 7"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-7225fe18-08e4-41e0-907e-491103309baf.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 7
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_7_hd/index.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_7_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 8"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/xoCWfJ2p.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 8
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_8_hd/index.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_8_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 9"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/tYxzMDEU.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORTS 9
-http://yusftsoreforver.ddns.net/live/ar/qa/bein/bein_sport_9_hd/index.m3u8
+http://dashcloudflare.ddns.net/live/ar/qa/bein/bein_sport_9_hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORT"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/708fe006b5ee5ebc.jpg"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN SPORT
 https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA"tvg-id=""tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",beIN SPORTS XTRA
