@@ -17623,6 +17623,8 @@ http://cdn22.streampartner.nl/tvellef/livestream/playlist.m3u8
 https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="ZO!34"tvg-id="ZO34.nl@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/yiihDg6.png"tvg-chno=""group-title="Netherlands":http-referrer="",ZO!34
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
+#EXTINF:-1 tvg-name="SHOW TV"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/PiVnfkCE.jpg"tvg-chno=""group-title="Turkey":http-referrer="",SHOW TV
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
 #EXTINF:-1 tvg-name="Afroturk TV"tvg-id="AfroturkTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fWlLvRA.png"tvg-chno=""group-title="Turkey":http-referrer="",Afroturk TV
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="Altas TV"tvg-id="AltasTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/XaJ7fp6.png"tvg-chno=""group-title="Turkey":http-referrer="",Altas TV
@@ -21439,5 +21441,3 @@ https://archive.org/download/Betty_Boop_The_Scared_Crows_1939/Betty_Boop_The_Sca
 https://archive.org/download/BettyBoopJackAndTheBeanstalk1931_248/JackAndTheBeanstalk_mpeg4_512kb.mp4
 #EXTINF:-1 tvg-name="Betty Boop - S01E22"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nILnRTlyBpDfj0Zp3cCCoEH4c0c.jpg"tvg-chno=""tvg-type="series"group-title="Classic Cartoons":http-referrer="",Betty Boop - S01E22
 https://archive.org/download/bb_poor_cinderella/bb_poor_cinderella_512kb.mp4
-#EXTINF:-1 tvg-name="SHOW TV"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/PiVnfkCE.jpg"tvg-chno=""group-title="Turkey":http-referrer="",SHOW TV
-https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
