@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-11-18 04:45:34
+M3U Cleaner report - 2026-11-19 04:36:31
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10719
+Total channels kept:  10720
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
@@ -24,7 +24,7 @@ Malformed/skipped:    0
   Quran: 512
   Comedy: 192
   Crime & Mystery: 151
-  Reality & Game Shows: 143
+  Reality & Game Shows: 144
   Sci-Fi & Horror: 57
   Classic & Western: 100
   Lifestyle & Travel: 294
