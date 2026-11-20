@@ -17625,14 +17625,46 @@ http://cdn22.streampartner.nl/tvellef/livestream/playlist.m3u8
 https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="ZO!34"tvg-id="ZO34.nl@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/yiihDg6.png"tvg-chno=""group-title="Netherlands":http-referrer="",ZO!34
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
+#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT1.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="ATV"tvg-id="ATV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/HyVUwFC.png"tvg-chno=""group-title="Turkey":http-referrer="",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+#EXTINF:-1 tvg-name="Kanal D"tvg-id="KanalD.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9o1atM6.png"tvg-chno=""group-title="Turkey":http-referrer="",Kanal D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+#EXTINF:-1 tvg-name="Star TV"tvg-id="StarTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9O3DHRB.png"tvg-chno=""group-title="Turkey":http-referrer="",Star TV
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=8l4w3lst4co5&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
+#EXTINF:-1 tvg-name="NOW TV"tvg-id="NOWTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/5EYjWK7.png"tvg-chno=""group-title="Turkey":http-referrer="",NOW TV
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-name="TV 8"tvg-id="TV8.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png"tvg-chno=""group-title="Turkey":http-referrer="",TV 8
+https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 tvg-name="teve2"tvg-id="teve2.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/tvl-teve2-tr.png"tvg-chno=""group-title="Turkey":http-referrer="",teve2
+https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
+#EXTINF:-1 tvg-name="360 TV"tvg-id="360.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/agn47sQ.png"tvg-chno=""group-title="Turkey":http-referrer="",360 TV
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 tvg-name="TRT Haber"tvg-id="TRTHaber.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="A Haber"tvg-id="AHaber.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png"tvg-chno=""group-title="Turkey":http-referrer="",A Haber
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+#EXTINF:-1 tvg-name="NTV"tvg-id="NTV.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",NTV
+https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+#EXTINF:-1 tvg-name="Halk TV"tvg-id="HalkTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/xM0HA30.png"tvg-chno=""group-title="Turkey":http-referrer="",Halk TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 tvg-name="TGRT Haber"tvg-id="TGRTHaber.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/PrxwKDw.png"tvg-chno=""group-title="Turkey":http-referrer="",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 tvg-name="TRT Türk"tvg-id="TRTTurk.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT Cocuk"tvg-id="TRTCocuk.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT Cocuk
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT Müzik"tvg-id="TRTMuzik.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/JgUzRH8.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT Müzik
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT Avaz"tvg-id="TRTAvaz.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="Afroturk TV"tvg-id="AfroturkTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fWlLvRA.png"tvg-chno=""group-title="Turkey":http-referrer="",Afroturk TV
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="Altas TV"tvg-id="AltasTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/XaJ7fp6.png"tvg-chno=""group-title="Turkey":http-referrer="",Altas TV
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="Anadolu Net TV"tvg-id="AnadoluNetTV.tr@SD"tvg-logo="https://www.anadolunettv.com/d/r/logo.png"tvg-chno=""group-title="Turkey":http-referrer="",Anadolu Net TV
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
-#EXTINF:-1 tvg-name="ATV"tvg-id="ATV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/HyVUwFC.png"tvg-chno=""group-title="Turkey":http-referrer="",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 #EXTINF:-1 tvg-name="Cay TV"tvg-id="CayTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/ndupxwu.png"tvg-chno=""group-title="Turkey":http-referrer="",Cay TV
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="Elsharq TV"tvg-id="ElsharqTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/8vmfZb5.png"tvg-chno=""group-title="Turkey":http-referrer="",Elsharq TV
@@ -17657,8 +17689,6 @@ https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="KANAL 58"tvg-id="Kanal58.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Rgc66sv.png"tvg-chno=""group-title="Turkey":http-referrer="",KANAL 58
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
-#EXTINF:-1 tvg-name="Kanal D"tvg-id="KanalD.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9o1atM6.png"tvg-chno=""group-title="Turkey":http-referrer="",Kanal D
-https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTINF:-1 tvg-name="Kanal Firat"tvg-id="KanalFirat.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/3o8Rokp.png"tvg-chno=""group-title="Turkey":http-referrer="",Kanal Firat
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 tvg-name="Kanal V"tvg-id="KanalV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/7RNjTno.png"tvg-chno=""group-title="Turkey":http-referrer="",Kanal V
@@ -17673,18 +17703,12 @@ https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 #EXTINF:-1 tvg-name="Meltem TV"tvg-id="MeltemTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/C3m6w5S.png"tvg-chno=""group-title="Turkey":http-referrer="",Meltem TV
 https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
-#EXTINF:-1 tvg-name="NTV"tvg-id="NTV.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",NTV
-https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-name="Tivi 6"tvg-id="Tivi6.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Mbi0jbz.png"tvg-chno=""group-title="Turkey":http-referrer="",Tivi 6
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
-#EXTINF:-1 tvg-name="TV 8"tvg-id="TV8.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png"tvg-chno=""group-title="Turkey":http-referrer="",TV 8
-https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-name="Van 65 TV"tvg-id="Van65TV.tr@SD"tvg-logo="https://van65tv.com/assets/images/logo/logo.png"tvg-chno=""group-title="Turkey":http-referrer="",Van 65 TV
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 #EXTINF:-1 tvg-name="Sun RTV"tvg-id="SunRTV.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/74/NRT_Logo.png"tvg-chno=""group-title="Turkey":http-referrer="",Sun RTV
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
-#EXTINF:-1 tvg-name="TRT Avaz"tvg-id="TRTAvaz.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT Avaz
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="A2TV"tvg-id="A2TV.tr@SD"tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png"tvg-chno=""group-title="Turkey":http-referrer="",A2TV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 #EXTINF:-1 tvg-name="Aksu TV"tvg-id="AksuTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/mgDCKiy.png"tvg-chno=""group-title="Turkey":http-referrer="",Aksu TV
@@ -17707,8 +17731,6 @@ https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 #EXTINF:-1 tvg-name="Satranç TV"tvg-id="BricveSatrancTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/TXDV1ty.png"tvg-chno=""group-title="Turkey":http-referrer="",Satranç TV
 http://139.162.182.79/live/test/index.m3u8
-#EXTINF:-1 tvg-name="Star TV"tvg-id="StarTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9O3DHRB.png"tvg-chno=""group-title="Turkey":http-referrer="",Star TV
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=8l4w3lst4co5&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
 #EXTINF:-1 tvg-name="TBMM TV"tvg-id="TBMMTV.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TBMM TV
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
 #EXTINF:-1 tvg-name="Bir TV"tvg-id="BirTV.tr@SD"tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png"tvg-chno=""group-title="Turkey":http-referrer="",Bir TV
@@ -17733,10 +17755,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d91
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTINF:-1 tvg-name="Ton TV"tvg-id="TonTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/f0Soeob.png"tvg-chno=""group-title="Turkey":http-referrer="",Ton TV
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
-#EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT1.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT 1
-https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-name="TRT Türk"tvg-id="TRTTurk.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT Türk
-https://tv-trtturk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TV 1"tvg-id="TV1.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/8CtrYVb.png"tvg-chno=""group-title="Turkey":http-referrer="",TV 1
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="TV4"tvg-id="TV4.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/UpsQsbd.png"tvg-chno=""group-title="Turkey":http-referrer="",TV4

@@ -1,0 +1,44 @@
+{
+  "_help": [
+    "Official free-to-air Turkish channels kept at the top of the Turkey group, in this order.",
+    "turkish_channels.py tests each one weekly (video + audio) and only uses links on the",
+    "broadcasters' own servers (allowed_hosts). A dead link is replaced only by a working one;",
+    "nothing is ever deleted. Links with a short-lived token (e=, st=, token=...) are never used.",
+    "names: how the channel may already be called in the playlist (first one = name for new entries).",
+    "urls: known official links (tried in order). page: the broadcaster's own live page.",
+    "iptv_org: the channel id in iptv-org's Turkey list (its link is used only if on an allowed host)."
+  ],
+  "group": "Turkey",
+  "allowed_hosts": [
+    "medya.trt.com.tr",
+    "turknet.ercdn.net",
+    "daioncdn.net",
+    "ercdn.net",
+    "canli.tgrthaber.com",
+    "amagi.tv"
+  ],
+  "channels": [
+    {"names": ["TRT 1"], "iptv_org": "TRT1.tr", "urls": ["https://tv-trt1.medya.trt.com.tr/master.m3u8"]},
+    {"names": ["ATV"], "iptv_org": "ATV.tr", "urls": ["https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8"]},
+    {"names": ["Kanal D"], "iptv_org": "KanalD.tr", "urls": ["https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3"], "page": "https://www.kanald.com.tr/canli-yayin"},
+    {"names": ["Show TV", "SHOW TV"], "iptv_org": "ShowTV.tr", "page": "https://www.showtv.com.tr/canli-yayin"},
+    {"names": ["Star TV"], "iptv_org": "StarTV.tr", "urls": ["https://dogus.daioncdn.net/startv/startv.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3"], "page": "https://www.startv.com.tr/canli-yayin"},
+    {"names": ["NOW TV", "NOW"], "iptv_org": "NOW.tr", "id": "NOWTV.tr@SD", "urls": ["https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8"], "page": "https://www.nowtv.com.tr/canli-yayin"},
+    {"names": ["TV 8", "TV8"], "iptv_org": "TV8.tr", "urls": ["https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3"], "page": "https://www.tv8.com.tr/canli-yayin"},
+    {"names": ["Kanal 7"], "iptv_org": "Kanal7.tr", "urls": ["https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8"]},
+    {"names": ["teve2"], "iptv_org": "teve2.tr", "id": "teve2.tr@SD", "logo": "logos/tvl-teve2-tr.png", "urls": ["https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd"], "page": "https://www.teve2.com.tr/canli-yayin"},
+    {"names": ["360 TV", "360"], "iptv_org": "360.tr", "id": "360.tr@SD", "logo": "logos/tvl-360-tr.png", "urls": ["https://turkmedya-live.ercdn.net/tv360/tv360.m3u8"]},
+    {"names": ["Beyaz TV"], "iptv_org": "BeyazTV.tr", "page": "https://www.beyaztv.com.tr/canli-yayin"},
+    {"names": ["Kanal D Drama"], "iptv_org": "KanalDDrama.tr", "urls": ["https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"]},
+    {"names": ["TRT 2"], "iptv_org": "TRT2.tr", "urls": ["https://tv-trt2.medya.trt.com.tr/master.m3u8"]},
+    {"names": ["TRT Haber"], "iptv_org": "TRTHaber.tr", "id": "TRTHaber.tr@SD", "logo": "logos/tvl-trt-haber-tr.png", "urls": ["https://tv-trthaber.medya.trt.com.tr/master.m3u8"]},
+    {"names": ["A Haber"], "iptv_org": "AHaber.tr", "urls": ["https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8"]},
+    {"names": ["NTV"], "iptv_org": "NTV.tr", "urls": ["https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web"]},
+    {"names": ["Halk TV"], "iptv_org": "HalkTV.tr", "urls": ["https://halktv-live.daioncdn.net/halktv/halktv.m3u8"]},
+    {"names": ["TGRT Haber"], "iptv_org": "TGRTHaber.tr", "urls": ["https://canli.tgrthaber.com/tgrt.m3u8"]},
+    {"names": ["TRT Türk", "TRT Turk"], "iptv_org": "TRTTurk.tr", "urls": ["https://tv-trtturk.medya.trt.com.tr/master.m3u8"]},
+    {"names": ["TRT Cocuk", "TRT Çocuk"], "iptv_org": "TRTCocuk.tr", "urls": ["https://tv-trtcocuk.medya.trt.com.tr/master.m3u8"]},
+    {"names": ["TRT Müzik", "TRT Muzik"], "iptv_org": "TRTMuzik.tr", "id": "TRTMuzik.tr@SD", "logo": "logos/tvl-trt-muzik-tr.png", "urls": ["https://tv-trtmuzik.medya.trt.com.tr/master.m3u8"]},
+    {"names": ["TRT Avaz"], "iptv_org": "TRTAvaz.tr", "urls": ["https://tv-trtavaz.medya.trt.com.tr/master.m3u8"]}
+  ]
+}

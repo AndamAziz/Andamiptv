@@ -321,7 +321,7 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             category = get_group_title(extinf_line)
         else:
             written = get_group_title(extinf_line)
-            if same_stream_key(clean_url) in copies_on_purpose and written in categories:
+            if same_stream_key(clean_url) in copies_on_purpose and (written in categories or written in fallback):
                 category = written
             else:
                 category = categorize_channel(extinf_line, categories, url_line)

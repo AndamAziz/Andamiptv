@@ -1,0 +1,65 @@
+name: Turkish channels (official links)
+
+# Weekly (and on demand): checks the official Turkish channels listed in turkish-channels.json.
+# Working links stay, a dead link is replaced only by another OFFICIAL link that plays (video +
+# audio), missing channels are added when an official link plays, and the listed channels are kept
+# at the top of the Turkey group. Nothing is ever deleted. Changes go to a NEW BRANCH + pull
+# request - never straight to main - so you review and merge them yourself.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report only (no pull request)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "43 3 * * 4"      # Thursdays 03:43 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: playlist-write
+  cancel-in-progress: false
+
+jobs:
+  turkish-channels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install ffprobe
+        run: command -v ffprobe || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Check the Turkish channels
+        run: |
+          APPLY="--apply"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then APPLY=""; fi
+          python turkish_channels.py playlist.m3u $APPLY --report turkish-channels-report.txt
+          { echo '```'; cat turkish-channels-report.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: turkish-channels-report
+          path: turkish-channels-report.txt
+          retention-days: 30
+      - name: Open a pull request with the changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --quiet playlist.m3u && { echo "Turkish channels: nothing to change."; exit 0; }
+          python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          BR="turkish-channels-${GITHUB_RUN_ID}"
+          git checkout -b "$BR"
+          git add playlist.m3u library/playlist.snapshot.m3u
+          git commit -m "Turkey: official channel links checked in run ${GITHUB_RUN_ID} [skip ci]"
+          git push origin "$BR"
+          { echo "Weekly check of the official Turkish channels (turkish-channels.json)."; echo; \
+            echo "Only links on the broadcasters' own servers that play with video + audio are used; nothing is deleted."; echo; \
+            echo '```'; cat turkish-channels-report.txt; echo '```'; } > body.md
+          gh pr create --base main --head "$BR" --title "Turkey: official channels (run ${GITHUB_RUN_ID})" --body-file body.md \
+            || echo "Could not open the PR automatically; open it from branch $BR."
