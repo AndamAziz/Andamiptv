@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-11-20 04:26:32
+M3U Cleaner report - 2026-11-21 04:20:26
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10720
+Total channels kept:  10928
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
@@ -45,7 +45,7 @@ Malformed/skipped:    0
   Germany - Austria - Switzerland: 89
   France & Belgium: 37
   Netherlands: 79
-  Turkey: 62
+  Turkey: 71
   Iran: 53
   India & Pakistan: 71
   Arabic TV: 63
@@ -80,4 +80,6 @@ Malformed/skipped:    0
   War: 12
   Western: 52
   Free Classics: 35
+  Turkish Drama: 152
+  Arabic Drama: 47
   Classic Cartoons: 49
