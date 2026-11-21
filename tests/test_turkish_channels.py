@@ -65,6 +65,12 @@ class TurkishChannels(unittest.TestCase):
         out = self.run_tool(t, [{"names": ["Show TV"], "urls": [u]}], {u})
         self.assertNotIn("Show TV", out)
 
+    def test_allow_token_uses_a_token_link_whose_server_ignores_it(self):
+        u = "https://ciner.daioncdn.net/showtv/showtv.m3u8?st=old&e=1664766175"
+        t = playlist(("SHOW TV", "Reality & Game Shows", u), ("Alpha", "Turkey", "http://a/1"))
+        out = self.run_tool(t, [{"names": ["Show TV", "SHOW TV"], "allow_token": True, "urls": [u]}], {u})
+        self.assertEqual(self.names(out), ["SHOW TV", "Alpha"])
+
     def test_copy_of_a_channel_from_another_group_keeps_that_entry(self):
         u = "https://halktv-live.daioncdn.net/halktv/halktv.m3u8"
         t = playlist(("Halk TV", "News", u), ("Alpha", "Turkey", "http://a/1"))

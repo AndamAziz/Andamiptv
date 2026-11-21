@@ -15,7 +15,7 @@ nothing is ever deleted.
 Where links come from (only hosts in allowed_hosts = the broadcasters' own servers / FAST partner):
   1. "urls" in the json   2. the broadcaster's live page ("page")   3. iptv-org's Turkey list
 Links with a short-lived token (e=, st=, token=, expires=...) are never written: they stop
-working within hours.
+working within hours. Exception: a channel with "allow_token": true, whose server ignores the token.
 
 Usage:
   python turkish_channels.py playlist.m3u                 # report only
@@ -172,7 +172,7 @@ def main():
         c += org.get(ch.get("iptv_org", ""), [])
         out = []
         for u in c:
-            if u != current and u not in out and host_ok(u, allowed) and not TOKEN.search(u):
+            if u != current and u not in out and host_ok(u, allowed) and (ch.get("allow_token") or not TOKEN.search(u)):
                 out.append(u)
         return out
 
