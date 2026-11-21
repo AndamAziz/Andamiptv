@@ -3,7 +3,7 @@
     "Official free-to-air Turkish channels kept at the top of the Turkey group, in this order.",
     "turkish_channels.py tests each one weekly (video + audio) and only uses links on the",
     "broadcasters' own servers (allowed_hosts). A dead link is replaced only by a working one;",
-    "nothing is ever deleted. Links with a short-lived token (e=, st=, token=...) are never used.",
+    "nothing is ever deleted. Links with a token (e=, st=, token=...) are never used, unless the channel has \"allow_token\": true (the server ignores that token).",
     "names: how the channel may already be called in the playlist (first one = name for new entries).",
     "urls: known official links (tried in order). page: the broadcaster's own live page.",
     "iptv_org: the channel id in iptv-org's Turkey list (its link is used only if on an allowed host)."
@@ -21,7 +21,7 @@
     {"names": ["TRT 1"], "iptv_org": "TRT1.tr", "urls": ["https://tv-trt1.medya.trt.com.tr/master.m3u8"]},
     {"names": ["ATV"], "iptv_org": "ATV.tr", "urls": ["https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8"]},
     {"names": ["Kanal D"], "iptv_org": "KanalD.tr", "urls": ["https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3"], "page": "https://www.kanald.com.tr/canli-yayin"},
-    {"names": ["Show TV", "SHOW TV"], "iptv_org": "ShowTV.tr", "page": "https://www.showtv.com.tr/canli-yayin"},
+    {"names": ["Show TV", "SHOW TV"], "iptv_org": "ShowTV.tr", "allow_token": true, "urls": ["https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1"]},
     {"names": ["Star TV"], "iptv_org": "StarTV.tr", "urls": ["https://dogus.daioncdn.net/startv/startv.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3"], "page": "https://www.startv.com.tr/canli-yayin"},
     {"names": ["NOW TV", "NOW"], "iptv_org": "NOW.tr", "id": "NOWTV.tr@SD", "urls": ["https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8"], "page": "https://www.nowtv.com.tr/canli-yayin"},
     {"names": ["TV 8", "TV8"], "iptv_org": "TV8.tr", "urls": ["https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3"], "page": "https://www.tv8.com.tr/canli-yayin"},

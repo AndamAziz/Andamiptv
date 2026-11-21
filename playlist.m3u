@@ -17631,12 +17631,12 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
 #EXTINF:-1 tvg-name="Kanal D"tvg-id="KanalD.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9o1atM6.png"tvg-chno=""group-title="Turkey":http-referrer="",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+#EXTINF:-1 tvg-name="SHOW TV"tvg-id=""tvg-logo="https://wenevan.lovable.app/i/PiVnfkCE.jpg"tvg-chno=""group-title="Turkey":http-referrer="",SHOW TV
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
 #EXTINF:-1 tvg-name="Star TV"tvg-id="StarTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9O3DHRB.png"tvg-chno=""group-title="Turkey":http-referrer="",Star TV
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?&sid=8l4w3lst4co5&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
 #EXTINF:-1 tvg-name="NOW TV"tvg-id="NOWTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/5EYjWK7.png"tvg-chno=""group-title="Turkey":http-referrer="",NOW TV
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-#EXTINF:-1 tvg-name="TV 8"tvg-id="TV8.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png"tvg-chno=""group-title="Turkey":http-referrer="",TV 8
-https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-name="teve2"tvg-id="teve2.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/tvl-teve2-tr.png"tvg-chno=""group-title="Turkey":http-referrer="",teve2
 https://demiroren.daioncdn.net/teve2/teve2.m3u8?ce=3&app=6aab838a-437e-4a1b-bbd0-e30f79cdbbbd
 #EXTINF:-1 tvg-name="360 TV"tvg-id="360.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/agn47sQ.png"tvg-chno=""group-title="Turkey":http-referrer="",360 TV
