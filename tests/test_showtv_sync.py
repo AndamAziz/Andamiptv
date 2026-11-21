@@ -42,7 +42,7 @@ def fake_fetch(url, timeout=25):
 class ShowtvSync(unittest.TestCase):
     def run_sync(self, text, working=lambda u: True):
         with mock.patch.object(ss, "fetch", fake_fetch), mock.patch.object(ss, "link_ok", working):
-            return ss.sync(text, "Turkish Drama", {}, pause=0, log=lambda s: None)
+            return ss.sync(text, "Turkish Drama", ss.ShowTV({}), pause=0, log=lambda s: None)
 
     def test_replace_add_keep_order(self):
         G = "Turkish Drama"
@@ -74,9 +74,77 @@ class ShowtvSync(unittest.TestCase):
 
     def test_series_match_is_exact(self):
         with mock.patch.object(ss, "fetch", fake_fetch):
-            self.assertIsNone(ss.find_series_page("Demo", {}))
-            self.assertEqual(ss.find_series_page("Demo Dizi", {}), "/dizi/tanitim/demo-dizi/1")
-            self.assertIsNone(ss.find_series_page("Demo Dizi", {"Demo Dizi": None}))
+            self.assertIsNone(ss.ShowTV({}).find("Demo"))
+            self.assertEqual(ss.ShowTV({}).find("Demo Dizi"), "/dizi/tanitim/demo-dizi/1")
+            self.assertIsNone(ss.ShowTV({"Demo Dizi": None}).find("Demo Dizi"))
+
+
+TABII_SITEMAP = ('<url><loc>https://www.tabii.com/tr/detail/77/demo-tabii</loc></url>'
+                 '<url><loc>https://www.tabii.com/tr/detail/78/demo-tabii-belgesel</loc></url>')
+
+
+def tabii_detail():
+    def ep(n, drm="clear"):
+        return {"episodeNumber": n, "media": [
+            {"type": "dash", "drmSchema": "clear", "url": f"/{n}00/{n}02.mpd"},
+            {"type": "hls", "drmSchema": drm, "url": f"/{n}00/{n}01.m3u8"}]}
+    data = {"contentType": "series", "seasons": [
+        {"seasonNumber": 1, "episodes": [ep(1), ep(2)]},
+        {"seasonNumber": 2, "episodes": [ep(3, drm="fairplay"), ep(4)]}]}
+    return '<script id="__NEXT_DATA__" type="application/json">' + json.dumps(
+        {"props": {"pageProps": {"data": data}}}) + "</script>"
+
+
+def tabii_fetch(url, timeout=25):
+    if url.endswith("/sitemap-tr.xml"):
+        return TABII_SITEMAP
+    if url.endswith("/tr/detail/77"):
+        return tabii_detail()
+    raise AssertionError(url)
+
+
+class TabiiSync(unittest.TestCase):
+    def test_tabii_add_replace_skip_drm(self):
+        G = "Turkish Drama"
+        M = "https://eu1.tabii.com/apigateway/pbr/v1/media"
+        text = playlist(("Demo Tabii {tmdb-9} - S01E01", G, M + "/100/101.m3u8"),
+                        ("Demo Tabii {tmdb-9} - S01E02", G, "https://video.twimg.com/x.m3u8"),
+                        ("Demo Tabii {tmdb-9} - S01E03", G, "https://video.twimg.com/drm.m3u8"))
+        with mock.patch.object(ss, "fetch", tabii_fetch), mock.patch.object(ss, "link_ok", lambda u: True):
+            out, st = ss.sync(text, G, ss.Tabii({}), pause=0, log=lambda s: None)
+        self.assertIn(M + "/200/201.m3u8", out)                     # E2 twimg -> official
+        self.assertIn("https://video.twimg.com/drm.m3u8", out)      # E3 only DRM -> kept
+        self.assertIn("Demo Tabii {tmdb-9} - S01E04", out)          # E4 added
+        self.assertNotIn(".mpd", out)
+        self.assertEqual(st, {"replaced": 1, "added": 1, "kept_no_link": 1, "missing_no_link": 0})
+        with mock.patch.object(ss, "fetch", tabii_fetch):
+            self.assertEqual(ss.Tabii({}).find("Demo Tabii"), "77")
+            self.assertIsNone(ss.Tabii({}).find("Demo"))
+            self.assertEqual(ss.Tabii({"Other": 5}).find("Other"), "5")
+
+
+    def test_official_link_of_another_episode_is_corrected(self):
+        G = "Turkish Drama"
+        M = "https://eu1.tabii.com/apigateway/pbr/v1/media"
+        text = playlist(("Demo Tabii {tmdb-9} - S01E01", G, M + "/100/101.m3u8"),
+                        ("Demo Tabii {tmdb-9} - S01E02", G, M + "/100/101.m3u8"),      # carries E1's video
+                        ("Demo Tabii {tmdb-9} - S01E04", G, M + "/999/998.m3u8"))      # other version: kept
+        with mock.patch.object(ss, "fetch", tabii_fetch), mock.patch.object(ss, "link_ok", lambda u: True):
+            out, st = ss.sync(text, G, ss.Tabii({}), pause=0, log=lambda s: None)
+        self.assertIn(M + "/200/201.m3u8", out)
+        self.assertIn(M + "/999/998.m3u8", out)
+        self.assertEqual(out.count(M + "/100/101.m3u8"), 1)
+        self.assertEqual(st["replaced"], 1)
+
+    def test_other_production_with_same_title_is_skipped(self):
+        G = "Turkish Drama"
+        text = playlist(("Demo Tabii {tmdb-9} - S01E10", G, "https://kanaldvod.duhnet.tv/x.mp4"))
+        with mock.patch.object(ss, "fetch", tabii_fetch), mock.patch.object(ss, "link_ok", lambda u: True):
+            out, st = ss.sync(text, G, ss.Tabii({}), pause=0, log=lambda s: None)
+        self.assertEqual(out, text)                                  # 4 episodes there < E10 here
+        with mock.patch.object(ss, "fetch", tabii_fetch), mock.patch.object(ss, "link_ok", lambda u: True):
+            out, st = ss.sync(text, G, ss.Tabii({"Demo Tabii": 77}), pause=0, log=lambda s: None)
+        self.assertEqual(st["added"], 3)                             # forced in the json
 
 
 if __name__ == "__main__":
