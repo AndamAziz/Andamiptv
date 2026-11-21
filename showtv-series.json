@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional overrides for showtv_sync.py. Key = series title as in the playlist (without {tmdb-ID}). Value = Show TV series page path, or null to never touch that series. Series not listed here are found automatically through showtv.com.tr search.",
+  "series": {}
+}
