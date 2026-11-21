@@ -313,7 +313,7 @@ def load_overrides(name):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("playlist")
-    ap.add_argument("--group", default="Turkish Drama")
+    ap.add_argument("--group", action="append", help='playlist group (repeatable); default: "Turkish Drama" and "Documentary Series"')
     ap.add_argument("--provider", action="append", choices=sorted(PROVIDERS), help="default: all")
     ap.add_argument("--only", action="append", help="limit to this series title (repeatable)")
     ap.add_argument("--apply", action="store_true", help="rewrite the playlist")
@@ -328,8 +328,9 @@ def main(argv=None):
     out = text
     for name in a.provider or sorted(PROVIDERS, reverse=True):          # showtv, then tabii
         cls = PROVIDERS[name]
-        out, stats = sync(out, a.group, cls(load_overrides(cls.config)), set(a.only or []) or None, a.pause, log)
-        log(f"[{name}] summary: {stats}")
+        for group in a.group or ["Turkish Drama", "Documentary Series"]:
+            out, stats = sync(out, group, cls(load_overrides(cls.config)), set(a.only or []) or None, a.pause, log)
+            log(f"[{name}] {group} summary: {stats}")
     if a.apply and out != text:
         Path(a.playlist).write_text(out, encoding="utf-8")
         log("playlist updated")

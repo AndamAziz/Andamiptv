@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 - **Series sync (Show TV + TRT tabii)** — ڕۆژانە (05:17 UTC) زنجیرەکانی بەشی Turkish Drama نوێ دەکاتەوە (`showtv_sync.py`):
   ئەلقەی نوێ بە ناوی ڕاست و پۆستەر زیاد دەکات و لینکەکان دەگۆڕێت بۆ لینکی فەرمی — Show TV: ciner (1080p MP4)، TRT: tabii (HLSی بێ DRM) — تەنها کاتێک لینکەکە کار بکات، و هیچکامیان تۆکنیان نییە.
   لینکێک کە کار دەکات و جێگرەوەی فەرمی نییە وەک خۆی دەمێنێتەوە، و هیچ ئەلقەیەک ناسڕێتەوە. لینکێکی فەرمی کە بۆ ئەلقەیەکی تر بێت (هەڵەی ژمارە) ڕاست دەکرێتەوە.
-  بە دەستی: `python showtv_sync.py playlist.m3u` (تەنها ڕاپۆرت)، `--apply` (گۆڕین)، `--provider showtv|tabii`، `--only "ناوی زنجیرە"`.
+  بە دەستی: `python showtv_sync.py playlist.m3u` (تەنها ڕاپۆرت)، `--apply` (گۆڕین)، `--provider showtv|tabii`، `--only "ناوی زنجیرە"`، `--group "Turkish Drama"` (بنەڕەت: Turkish Drama و Documentary Series).
   زنجیرەیەک کە خۆکار نادۆزرێتەوە لە `showtv-series.json` (لاپەڕەی Show TV) یان `tabii-series.json` (ژمارەی `tabii.com/tr/detail/<id>`) دابنێ؛ `null` واتە دەستی لێ مەدە.
   Kanal D نییە: سایتەکەی لە دەرەوەی تورکیا / بەبێ هەژمار لیستی ئەلقەکان پیشان نادات.
 
