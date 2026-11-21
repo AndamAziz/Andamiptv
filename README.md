@@ -41,6 +41,10 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 
 - **Daily Playlist Update** — ڕۆژانە بە شێوەی خۆکار کار دەکات (00:00 UTC)، دەتوانیت بە دەستیش لە ڕێگەی `workflow_dispatch` هەڵیبدەیت
 - **Add Channels From External Source** — بە دەستی جێبەجێ دەبێت، سەرچاوەی M3U وەردەگرێت و کەناڵی نوێی بۆ زیاد دەکات
+- **Show TV series (official ciner links)** — ڕۆژانە (05:17 UTC) زنجیرەکانی Show TV لە بەشی Turkish Drama نوێ دەکاتەوە (`showtv_sync.py`):
+  ئەلقەی نوێ بە ناوی ڕاست و پۆستەر زیاد دەکات و لینکەکان دەگۆڕێت بۆ لینکی فەرمی ciner (1080p MP4، بەبێ تۆکن) — تەنها کاتێک لینکەکە کار بکات.
+  لینکێک کە کار دەکات و جێگرەوەی فەرمی نییە وەک خۆی دەمێنێتەوە، و هیچ ئەلقەیەک ناسڕێتەوە.
+  بە دەستی: `python showtv_sync.py playlist.m3u` (تەنها ڕاپۆرت) یان `--apply` (گۆڕین). زنجیرەیەک دەتوانیت لە `showtv-series.json` دیاری بکەیت یان بە `null` لە دەرەوەی بهێڵیتەوە.
 
 ## ⚠️ ڕەچاوکردن
 

@@ -1,0 +1,58 @@
+name: Show TV series (official ciner links)
+
+# Daily (and on demand): for every Show TV series in the "Turkish Drama" group, reads the official
+# episode list on showtv.com.tr, adds missing episodes (correct name, TMDB tag, poster) and switches
+# other links to the official ciner MP4 - only when that link plays. Working links without an
+# official replacement stay as they are. Nothing is ever deleted. Changes go straight to main.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report only (do not change the playlist)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 5 * * *"      # every day 05:17 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: playlist-write
+  cancel-in-progress: false
+
+jobs:
+  showtv-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Sync Show TV series
+        run: |
+          APPLY="--apply"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then APPLY=""; fi
+          python showtv_sync.py playlist.m3u $APPLY --report showtv-sync-report.txt
+          { echo '```'; cat showtv-sync-report.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit and push
+        run: |
+          git diff --quiet playlist.m3u && { echo "Show TV: nothing to change."; exit 0; }
+          python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u library/playlist.snapshot.m3u
+          git commit -m "Show TV series: new episodes / official ciner links (run ${GITHUB_RUN_ID}) [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
+            # main moved and conflicts: redo the sync on top of the latest main
+            git reset --hard origin/main
+            python showtv_sync.py playlist.m3u --apply --report showtv-sync-report.txt
+            git diff --quiet playlist.m3u && exit 0
+            python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+            git add playlist.m3u library/playlist.snapshot.m3u
+            git commit -m "Show TV series: new episodes / official ciner links (run ${GITHUB_RUN_ID}) [skip ci]"
+          done
+          exit 1
