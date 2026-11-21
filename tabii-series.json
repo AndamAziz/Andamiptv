@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional overrides for showtv_sync.py --provider tabii. Key = series title as in the playlist (without {tmdb-ID}). Value = tabii series id (the number in https://www.tabii.com/tr/detail/<id>), or null to never touch that series. Series not listed here are found automatically in tabii's public sitemap.",
+  "series": {}
+}
