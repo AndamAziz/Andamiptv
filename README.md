@@ -41,11 +41,11 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 
 - **Daily Playlist Update** — ڕۆژانە بە شێوەی خۆکار کار دەکات (00:00 UTC)، دەتوانیت بە دەستیش لە ڕێگەی `workflow_dispatch` هەڵیبدەیت
 - **Add Channels From External Source** — بە دەستی جێبەجێ دەبێت، سەرچاوەی M3U وەردەگرێت و کەناڵی نوێی بۆ زیاد دەکات
-- **Series sync (Show TV + TRT tabii)** — ڕۆژانە (05:17 UTC) زنجیرەکانی بەشی Turkish Drama نوێ دەکاتەوە (`showtv_sync.py`):
-  ئەلقەی نوێ بە ناوی ڕاست و پۆستەر زیاد دەکات و لینکەکان دەگۆڕێت بۆ لینکی فەرمی — Show TV: ciner (1080p MP4)، TRT: tabii (HLSی بێ DRM) — تەنها کاتێک لینکەکە کار بکات، و هیچکامیان تۆکنیان نییە.
+- **Series sync (Show TV + TRT tabii + TV8)** — ڕۆژانە (05:17 UTC) زنجیرەکانی بەشی Turkish Drama نوێ دەکاتەوە (`showtv_sync.py`):
+  ئەلقەی نوێ بە ناوی ڕاست و پۆستەر زیاد دەکات و لینکەکان دەگۆڕێت بۆ لینکی فەرمی — Show TV: ciner (1080p MP4)، TRT: tabii (HLSی بێ DRM)، TV8: video-cdn.tv8.com.tr (MP4) — تەنها کاتێک لینکەکە کار بکات، و هیچکامیان تۆکنیان نییە.
   لینکێک کە کار دەکات و جێگرەوەی فەرمی نییە وەک خۆی دەمێنێتەوە، و هیچ ئەلقەیەک ناسڕێتەوە. لینکێکی فەرمی کە بۆ ئەلقەیەکی تر بێت (هەڵەی ژمارە) ڕاست دەکرێتەوە.
-  بە دەستی: `python showtv_sync.py playlist.m3u` (تەنها ڕاپۆرت)، `--apply` (گۆڕین)، `--provider showtv|tabii`، `--only "ناوی زنجیرە"`، `--group "Turkish Drama"` (بنەڕەت: Turkish Drama، Documentary Series و Kids Series).
-  زنجیرەیەک کە خۆکار نادۆزرێتەوە لە `showtv-series.json` (لاپەڕەی Show TV) یان `tabii-series.json` (ژمارەی `tabii.com/tr/detail/<id>`) دابنێ؛ `null` واتە دەستی لێ مەدە.
+  بە دەستی: `python showtv_sync.py playlist.m3u` (تەنها ڕاپۆرت)، `--apply` (گۆڕین)، `--provider showtv|tabii|tv8`، `--only "ناوی زنجیرە"`، `--group "Turkish Drama"` (بنەڕەت: Turkish Drama، Documentary Series و Kids Series).
+  زنجیرەیەک کە خۆکار نادۆزرێتەوە لە `showtv-series.json` (لاپەڕەی Show TV) یان `tabii-series.json` (ژمارەی `tabii.com/tr/detail/<id>`) یان `tv8-series.json` (slugی `tv8.com.tr/<slug>`) دابنێ؛ `null` واتە دەستی لێ مەدە.
   Kanal D نییە: سایتەکەی لە دەرەوەی تورکیا / بەبێ هەژمار لیستی ئەلقەکان پیشان نادات.
 
 ## ⚠️ ڕەچاوکردن

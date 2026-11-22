@@ -6,6 +6,8 @@ Sources ("providers"):
   * showtv - Show TV series, official MP4 on vmcdn.ciner.com.tr (found through showtv.com.tr search)
   * tabii  - TRT series, official clear (DRM-free) HLS on eu1.tabii.com (found through tabii's
              public sitemap; IDs can also be set in tabii-series.json)
+  * tv8    - TV8 series, official token-free MP4 on video-cdn.tv8.com.tr (found through TV8's
+             programme lists; slugs can also be set in tv8-series.json)
 
 For every series in the group (default "Turkish Drama", entries named "Title {tmdb-ID} - SxxEyy"):
   1. find the series at the provider; a series it does not have is left alone;
@@ -199,7 +201,62 @@ class Tabii:
         return ref
 
 
-PROVIDERS = {"showtv": ShowTV, "tabii": Tabii}
+class TV8:
+    """TV8 series: official token-free MP4 on video-cdn.tv8.com.tr (<hash>-720p.mp4 ...).
+
+    Only full episodes whose page is named "<series slug>-<N>-bolum-..." are used; trailers,
+    clips and date-named programmes (MasterChef, Yemekteyiz: no episode number) are ignored."""
+    name, config = "tv8", "tv8-series.json"
+    SITE = "https://www.tv8.com.tr"
+    CDN = "video-cdn.tv8.com.tr/"
+    INDEX = ("/programlar", "/diziler", "/yarismalar")
+    SKIP = ("tanitim", "fragman", "ozet", "kamera-arkasi", "kisa-video")
+    QUALITIES = ("1080p", "720p", "480p")
+
+    def __init__(self, overrides=None):
+        self.overrides = overrides or {}
+        self._index = None
+
+    def is_official(self, url):
+        return self.CDN in url and "?" not in url
+
+    def index(self):
+        """{key(programme name): slug} from TV8's programme lists."""
+        if self._index is None:
+            self._index = {}
+            for page in self.INDEX:
+                try:
+                    t = fetch(self.SITE + page)
+                except Exception:
+                    continue
+                for m in re.finditer(r'href="/([a-z0-9-]+)"[^>]*class="now-thumb-prog[^"]*"[^>]*>([^<]+)<', t):
+                    self._index.setdefault(key(html.unescape(m.group(2))), m.group(1))
+        return self._index
+
+    def find(self, title):
+        if title in self.overrides:
+            return self.overrides[title] or None
+        return self.index().get(key(title))
+
+    def episodes(self, slug):
+        """{episode number: episode page path} from the series' "tüm bölümler" list (all pages)."""
+        rx = re.compile(rf'/{re.escape(slug)}/{re.escape(slug)}-(\d+)-bolum-[a-z0-9-]*?-?\d+-video\.htm')
+        eps = {}
+        for page in range(1, 100):
+            d = json.loads(fetch(f"{self.SITE}/{slug}/tum-bolumler?page={page}&ajax=1"))
+            for m in rx.finditer(d.get("html", "")):
+                if not any(s in m.group(0) for s in self.SKIP):
+                    eps.setdefault(int(m.group(1)), m.group(0))
+            if not d.get("hasMore"):
+                break
+        return eps
+
+    def links(self, ref):
+        m = re.search(r"video-cdn\.tv8\.com\.tr/\d{4}/\d{2}/\d{2}/[0-9a-f]{32,40}", fetch(self.SITE + ref))
+        return [f"https://{m.group(0)}-{q}.mp4" for q in self.QUALITIES] if m else []
+
+
+PROVIDERS = {"showtv": ShowTV, "tabii": Tabii, "tv8": TV8}
 
 
 # ---------------------------------------------------------------- playlist
@@ -326,7 +383,7 @@ def main(argv=None):
         lines.append(s)
     text = Path(a.playlist).read_text(encoding="utf-8")
     out = text
-    for name in a.provider or sorted(PROVIDERS, reverse=True):          # showtv, then tabii
+    for name in a.provider or sorted(PROVIDERS, reverse=True):          # tv8, tabii, showtv
         cls = PROVIDERS[name]
         for group in a.group or ["Turkish Drama", "Documentary Series", "Kids Series"]:
             out, stats = sync(out, group, cls(load_overrides(cls.config)), set(a.only or []) or None, a.pause, log)
