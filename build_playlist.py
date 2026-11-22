@@ -252,7 +252,8 @@ def parse_playlist(lines: list[str]):
             i += 1
 
 
-def process_playlist(input_file: str, output_file: str, blocklist_file: str, categories_file: str, sort_alpha: bool):
+def process_playlist(input_file: str, output_file: str, blocklist_file: str, categories_file: str, sort_alpha: bool,
+                     remove: bool = False):
     blocklist = load_blocklist(blocklist_file)
     categories = load_categories(categories_file)
     fallback = load_fallback(os.path.join(os.path.dirname(os.path.abspath(categories_file)), DEFAULT_FALLBACK_FILE))
@@ -287,17 +288,28 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             written_groups.setdefault(same_stream_key(u.strip()), set()).add(get_group_title(e))
     copies_on_purpose = {k for k, g in written_groups.items() if len(g) > 1}
 
+    # Nothing is removed unless the owner asked for it (--remove): duplicates, blocklisted and malformed
+    # entries are KEPT and only listed in the report ("needs your OK").
+    flagged = []
+
+    def name_of(e):
+        return e.split(",", 1)[-1].strip()
+
     for extinf_line, extras, url_line in parsed:
         extinf_lower = extinf_line.lower()
         clean_url = url_line.strip()
 
         if not clean_url.lower().startswith(("http://", "https://", "rtmp://", "rtsp://")):
             skipped_malformed += 1
-            continue
+            flagged.append(("malformed link", name_of(extinf_line), clean_url))
+            if remove:
+                continue
 
-        if any(kw in extinf_lower for kw in blocklist):
+        elif any(kw in extinf_lower for kw in blocklist):
             skipped_blocked += 1
-            continue
+            flagged.append(("blocklist", name_of(extinf_line), clean_url))
+            if remove:
+                continue
 
         # one entry per stream: the same server and path count as the same
         # link even when written with http/https, :80/:443 or a trailing slash.
@@ -310,7 +322,9 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
             url_key = (get_group_title(extinf_line), url_key)
         if url_key in seen_urls:
             skipped_duplicates += 1
-            continue
+            flagged.append(("duplicate link", name_of(extinf_line), clean_url))
+            if remove:
+                continue
         seen_urls.add(url_key)
 
         vtype = vod_type(extinf_line)
@@ -400,15 +414,22 @@ def process_playlist(input_file: str, output_file: str, blocklist_file: str, cat
         f.write(f"M3U Cleaner report - {datetime.now():%Y-%m-%d %H:%M:%S}\n")
         f.write(f"Source: {input_file}\nOutput: {output_file}\n\n")
         f.write(f"Total channels kept:  {len(channels)}\n")
-        f.write(f"Blocked (blocklist):  {skipped_blocked}\n")
-        f.write(f"Duplicates removed:   {skipped_duplicates}\n")
-        f.write(f"Malformed/skipped:    {skipped_malformed}\n\n")
+        verb = "removed" if remove else "KEPT, needs your OK"
+        f.write(f"Blocked (blocklist):  {skipped_blocked} ({verb})\n")
+        f.write(f"Duplicate links:      {skipped_duplicates} ({verb})\n")
+        f.write(f"Malformed links:      {skipped_malformed} ({verb})\n\n")
         for cat, count in sorted(by_cat.items(), key=lambda kv: priority.get(kv[0], 999)):
             label = UNCATEGORIZED_LABEL if cat == UNCATEGORIZED_KEY else cat
             f.write(f"  {label}: {count}\n")
+        if flagged:
+            f.write("\nEntries that would be removed with --remove (nothing was removed without the owner's OK):\n"
+                    if not remove else "\nRemoved (--remove):\n")
+            for why, nm, u in flagged:
+                f.write(f"  [{why}] {nm} | {u}\n")
 
     log.info(f"Done. Kept {len(channels)} channels -> {output_file}")
-    log.info(f"Blocked: {skipped_blocked} | Duplicates: {skipped_duplicates} | Malformed: {skipped_malformed}")
+    log.info(f"Blocked: {skipped_blocked} | Duplicates: {skipped_duplicates} | Malformed: {skipped_malformed}"
+             + (" (removed)" if remove else " (kept - nothing removed without --remove)"))
     log.info(f"Report written to {report_path}")
 
 
@@ -420,6 +441,9 @@ def build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("-c", "--categories", default=DEFAULT_CATEGORIES_FILE, help=f"Categories JSON file (default: {DEFAULT_CATEGORIES_FILE})")
     p.add_argument("--overwrite", action="store_true", help="Overwrite the input file in place (a .bak backup is made first)")
     p.add_argument("--sort-alpha", action="store_true", help="Sort channels alphabetically within each category")
+    p.add_argument("--remove", action="store_true",
+                   help="really remove duplicate / blocklisted / malformed entries (ONLY when the owner asked for it); "
+                        "without it they are kept and listed in the report")
     return p
 
 
@@ -438,7 +462,7 @@ def main():
         except OSError as e:
             log.warning(f"Could not create backup ({e}); continuing anyway")
 
-    process_playlist(args.input, output_file, args.blocklist, args.categories, args.sort_alpha)
+    process_playlist(args.input, output_file, args.blocklist, args.categories, args.sort_alpha, args.remove)
 
 
 if __name__ == "__main__":
