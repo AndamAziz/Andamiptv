@@ -197,7 +197,12 @@ def best_links(provider, eps):
         return next((u for u in links if provider.is_official(u) and ss.link_ok(u)), None)
     with ThreadPoolExecutor(8) as ex:
         got = dict(zip(sorted(eps), ex.map(one, sorted(eps))))
-    return {n: u for n, u in got.items() if u}
+    out, seen_urls = {}, set()
+    for n, u in sorted(got.items()):
+        if u and u not in seen_urls:                 # two episode pages with one video: keep the first
+            out[n] = u
+            seen_urls.add(u)
+    return out
 
 
 def entries_for(show, group, logo, good, seasons):

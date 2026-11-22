@@ -314,6 +314,7 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
     if idx != list(range(idx[0], idx[-1] + 1)):
         raise SystemExit(f'group "{group}" is not one block in the playlist; not touching it')
     block = [entries[i] for i in idx]
+    used = {e[-1].strip() for e in entries}      # a link is never written for a second episode
     shows = list(dict.fromkeys(ep_key(e)[0] for e in block))
     for show in shows:
         title = TMDB_RE.sub("", show)
@@ -377,7 +378,9 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
                 links = provider.links(eps[n]) if eps[n] else []
             except Exception:
                 links = []
-            good = next((u for u in links if link_ok(u)), None)
+            good = next((u for u in links if u not in used and link_ok(u)), None)
+            if good:
+                used.add(good)
             if cur is not None:
                 if good:
                     cur[-1] = good
