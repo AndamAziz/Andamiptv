@@ -23,7 +23,8 @@ For every series in the group (default "Turkish Drama", entries named "Title {tm
   4. the episodes of each series are put back in order (S, E); series keep their place.
 
 Nothing is ever deleted. Links with a short-lived token are never written (both providers serve
-token-free URLs). Episodes are numbered like the rest of the playlist: S01 + absolute episode number.
+token-free URLs). Episodes are numbered like the rest of the playlist: S01 + absolute episode number, or per season
+(S02E01 ...) for a series whose episodes in the playlist already use seasons.
 
 Usage:
   python showtv_sync.py playlist.m3u                                   # report only, all providers
@@ -122,10 +123,11 @@ class ShowTV:
     def episode_list(self, page_html, page_path):
         kind, slug = self.PAGE_RE.match(page_path).groups()
         sub = "dizi/tum_bolumler" if kind == "dizi" else "programlar/videolar"
-        rx = re.compile(rf'/{sub}/{re.escape(slug)}-sezon-\d+-bolum-(\d+)-izle/\d+')
-        eps = {}
+        rx = re.compile(rf'/{sub}/{re.escape(slug)}-sezon-(\d+)-bolum-(\d+)-izle/\d+')
+        eps, self.seasons = {}, {}
         for m in rx.finditer(page_html):
-            eps.setdefault(int(m.group(1)), m.group(0))
+            eps.setdefault(int(m.group(2)), m.group(0))
+            self.seasons.setdefault(int(m.group(2)), int(m.group(1)))
         return eps
 
     def links(self, ref):
@@ -192,8 +194,10 @@ class Tabii:
         if len(set(nums)) != len(nums):                         # numbering restarts every season
             rows.sort(key=lambda r: (r[0], r[1]))
             eps = {i: r[2] for i, r in enumerate(rows, 1)}
+            self.seasons = {i: r[0] for i, r in enumerate(rows, 1)}
         else:
             eps = {n: u for _, n, u in rows}
+            self.seasons = {n: s for s, n, _ in rows}
         self.owner = {u.replace("//apigateway", "/apigateway"): n for n, us in eps.items() for u in us}
         return eps
 
@@ -312,7 +316,21 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
         if not eps:
             log(f"- [{provider.name}] {title}: no episodes found, left as is")
             continue
-        mine = {ep_key(e)[2]: e for e in block if ep_key(e)[0] == show}
+        own = [e for e in block if ep_key(e)[0] == show]
+        # "S01E147" (absolute numbering) or "S02E01" (per season, when the playlist already has a
+        # season above 1): per-season entries are matched through the provider's season list.
+        seasonal = any(ep_key(e)[1] > 1 for e in own)
+        seasons = getattr(provider, "seasons", None) or {}
+        start = {}
+        for a, s in seasons.items():
+            start[s] = min(start.get(s, a), a)
+        if seasonal and not start:
+            log(f"- [{provider.name}] {title}: per-season numbering but no season list there, left as is")
+            continue
+        def absolute(e):
+            _, s, x = ep_key(e)
+            return (start[s] + x - 1 if s in start else None) if seasonal else x
+        mine = {absolute(e): e for e in own if absolute(e) is not None}
         if title not in provider.overrides and not any(provider.is_official(e[-1]) for e in mine.values()) \
                 and max(eps) < max(mine):
             # same title, but far fewer episodes than the playlist has: another production
@@ -321,7 +339,7 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
                 f"another production (playlist has up to E{max(mine)})")
             continue
         template = next(iter(mine.values()))
-        season = ep_key(template)[1]
+        _, t_season, t_ep = ep_key(template)
         done = []
         for n in sorted(eps):
             cur = mine.get(n)
@@ -346,8 +364,9 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
                     stats["kept_no_link"] += 1
                     done.append(f"E{n} kept (no official link plays)")
             elif good:
-                old = f"{show} - S{season:02d}E{ep_key(template)[2]:02d}"
-                new = f"{show} - S{season:02d}E{n:02d}"
+                s, x = (seasons[n], n - start[seasons[n]] + 1) if seasonal else (t_season, n)
+                old = f"{show} - S{t_season:02d}E{t_ep:02d}"
+                new = f"{show} - S{s:02d}E{x:02d}"
                 block.append([template[0].replace(old, new), good])
                 stats["added"] += 1
                 done.append(f"E{n} added")
