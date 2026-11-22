@@ -3,7 +3,7 @@ name: Series sync (Show TV + TRT tabii + TV8 official links)
 # Every 3 hours (and on demand):
 #  1. series_discover.py - a NEW drama on Show TV (/diziler), TV8 (/diziler) or tabii (new in its sitemap)
 #     that is not in the playlist yet is added with all its free episodes (name, TMDB tag, poster,
-#     seasons). TV programmes are never added: they are only listed (summary + pending file).
+#     seasons). TV programmes are never added (only series and films are wanted).
 #  2. showtv_sync.py - for every Show TV, TRT (tabii) and TV8 series in Turkish Drama, Documentary Series
 #     and Kids Series: new episodes are added and other links are switched to the official one
 #     (ciner MP4 / tabii clear HLS / TV8 MP4) - only when that link plays.
@@ -51,7 +51,6 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           FILES="playlist.m3u library/playlist.snapshot.m3u library/tabii-seen.json showtv-series.json tabii-series.json tv8-series.json"
-          [ -f library/pending-tv-programmes.json ] && FILES="$FILES library/pending-tv-programmes.json"
           [ -z "$(git status --porcelain -- $FILES)" ] && { echo "Series sync: nothing to change."; exit 0; }
           python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
           git config user.name "github-actions[bot]"
@@ -65,8 +64,7 @@ jobs:
             git reset --hard origin/main
             python series_discover.py playlist.m3u --apply --report series-discover-report.txt
             python showtv_sync.py playlist.m3u --apply --report showtv-sync-report.txt
-            [ -f library/pending-tv-programmes.json ] && FILES="$FILES library/pending-tv-programmes.json"
-            [ -z "$(git status --porcelain -- $FILES)" ] && exit 0
+              [ -z "$(git status --porcelain -- $FILES)" ] && exit 0
             python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
             git add $FILES
             git commit -m "Series sync: new series / episodes / official links (run ${GITHUB_RUN_ID}) [skip ci]"

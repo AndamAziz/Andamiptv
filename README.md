@@ -44,7 +44,7 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 - **Series sync (Show TV + TRT tabii + TV8)** — هەموو ٣ کاتژمێر جارێک (00:17، 03:17 … UTC) کار دەکات:
   **١. زنجیرەی نوێ** (`series_discover.py`): درامایەکی نوێ لە Show TV (`/diziler`)، TV8 (`/diziler`) یان tabii (زنجیرەی نوێ لە sitemap ـەکەی) کە لە پلەیلیستەکەدا نییە، بە هەموو ئەلقە بێ-DRM ـەکانییەوە زیاد دەکات
   (ناو + `{tmdb-ID}` + پۆستەر + وەرز، لە سەرەوەی گرووپەکەی). tabii: `Dizi` → Turkish Drama، `Kids` → Kids Series، `Documentary` → Documentary Series.
-  **بەرنامەی تەلەڤیزیۆنی هەرگیز زیاد ناکرێت**: تەنها لە ڕاپۆرتی run ـەکە و `library/pending-tv-programmes.json` دەنووسرێت تا خاوەنەکەی بڕیار بدات.
+  **بەرنامەی تەلەڤیزیۆنی هەرگیز زیاد ناکرێت** (تەنها زنجیرە و فیلم)؛ لە ڕاپۆرتی run ـەکەدا تەنها وەک skipped دەنووسرێت.
   `library/tabii-seen.json` ئەو زنجیرانەی tabii لەبیر دەکات کە پێشتر بینراون (بۆ ئەوەی هەموو ئەرشیفەکە بەیەکجار نەهێنرێت).
   **٢. ئەلقەی نوێ** (`showtv_sync.py`) بۆ زنجیرەکانی Turkish Drama، Documentary Series و Kids Series:
   ئەلقەی نوێ بە ناوی ڕاست و پۆستەر زیاد دەکات و لینکەکان دەگۆڕێت بۆ لینکی فەرمی — Show TV: ciner (1080p MP4)، TRT: tabii (HLSی بێ DRM)، TV8: video-cdn.tv8.com.tr (MP4) — تەنها کاتێک لینکەکە کار بکات، و هیچکامیان تۆکنیان نییە.
