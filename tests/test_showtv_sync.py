@@ -147,5 +147,42 @@ class TabiiSync(unittest.TestCase):
         self.assertEqual(st["added"], 3)                             # forced in the json
 
 
+TV8_INDEX = '<a href="/demo-dizi" class="now-thumb-prog text-decoration-none">Demo Dizi</a>'
+
+
+def tv8_fetch(url, timeout=25):
+    if url.endswith("/programlar"):
+        return TV8_INDEX
+    if url.endswith("/diziler") or url.endswith("/yarismalar"):
+        return ""
+    if "/tum-bolumler?page=" in url:
+        page = int(url.split("page=")[1].split("&")[0])
+        links = {1: ["demo-dizi-1-bolum-6-nisan-2022-11-video.htm",
+                     "demo-dizi-dizisinin-2-bolum-tanitimi-yayinlandi-12-video.htm",   # trailer: ignored
+                     "demo-dizi-2-bolum-tanitimi-13-video.htm"],                      # trailer: ignored
+                 2: ["demo-dizi-2-bolum-13-nisan-2022-14-video.htm",
+                     "demo-dizi-3-bolum-20-nisan-2022-15-video.htm"]}[page]
+        h = "".join(f'<a href="/demo-dizi/{l}">x</a>' for l in links)
+        return json.dumps({"html": h, "hasMore": page == 1})
+    n = url.split("-video.htm")[0].rsplit("-", 1)[1]
+    return f'<video src="https://video-cdn.tv8.com.tr/2022/04/0{n[-1]}/{n * 16}-480p.mp4?st=x&e=1"></video>'
+
+
+class Tv8Sync(unittest.TestCase):
+    def test_tv8_add_replace_skip_trailers(self):
+        G = "Turkish Drama"
+        text = playlist(("Demo Dizi {tmdb-5} - S01E01", G, "https://video-cdn.tv8.com.tr/2022/04/01/old-720p.mp4"),
+                        ("Demo Dizi {tmdb-5} - S01E03", G, "https://video.twimg.com/e3.m3u8"))
+        with mock.patch.object(ss, "fetch", tv8_fetch), mock.patch.object(ss, "link_ok", lambda u: "-720p.mp4" in u):
+            t = ss.TV8({})
+            self.assertEqual(sorted(t.episodes("demo-dizi")), [1, 2, 3])
+            out, st = ss.sync(text, G, t, pause=0, log=lambda s: None)
+        self.assertIn("https://video-cdn.tv8.com.tr/2022/04/01/old-720p.mp4", out)                       # E1 untouched
+        self.assertIn("Demo Dizi {tmdb-5} - S01E02\nhttps://video-cdn.tv8.com.tr/2022/04/04/" + "14" * 16 + "-720p.mp4", out)
+        self.assertIn("https://video-cdn.tv8.com.tr/2022/04/05/" + "15" * 16 + "-720p.mp4", out)        # E3 twimg -> TV8
+        self.assertNotIn("?st=", out)                                                                     # never a token
+        self.assertEqual(st, {"replaced": 1, "added": 1, "kept_no_link": 0, "missing_no_link": 0})
+
+
 if __name__ == "__main__":
     unittest.main()
