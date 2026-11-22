@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-11-21 04:20:26
+M3U Cleaner report - 2026-11-22 03:34:59
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  10928
+Total channels kept:  13844
 Blocked (blocklist):  0
 Duplicates removed:   0
 Malformed/skipped:    0
@@ -10,7 +10,7 @@ Malformed/skipped:    0
   Kurdish Channels: 183
   BEIN SPORTS AR: 21
   BEIN MOVIES: 43
-  Sports: 446
+  Sports: 447
   National Geographic: 54
   SKY TV: 19
   Kids & Family: 335
@@ -80,6 +80,9 @@ Malformed/skipped:    0
   War: 12
   Western: 52
   Free Classics: 35
-  Turkish Drama: 152
-  Arabic Drama: 47
+  Turkish Drama: 1460
+  Arabic Drama: 48
+  Turkish TV Shows: 604
+  Documentary Series: 5
   Classic Cartoons: 49
+  Kids Series: 997
