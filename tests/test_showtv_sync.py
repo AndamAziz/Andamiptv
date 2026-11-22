@@ -72,6 +72,23 @@ class ShowtvSync(unittest.TestCase):
         self.assertEqual(st["kept_no_link"], 1)
         self.assertEqual(st["added"], 0)
 
+    def test_per_season_numbering(self):
+        G = "Turkish Drama"
+        page = "".join(f'<option value="/dizi/tum_bolumler/demo-dizi-sezon-{s}-bolum-{n}-izle/{100 + n}">{n}</option>'
+                       for s, n in ((1, 1), (1, 2), (2, 3), (2, 4)))
+        def fetch(url, timeout=25):
+            return page if url.endswith("/dizi/tanitim/demo-dizi/1") else fake_fetch(url)
+        text = playlist(("Demo Dizi {tmdb-2} - S01E01", G, "https://vmcdn.ciner.com.tr/ht/x/E1_1920x1080.mp4"),
+                        ("Demo Dizi {tmdb-2} - S01E02", G, "https://vmcdn.ciner.com.tr/ht/x/E2_1920x1080.mp4"),
+                        ("Demo Dizi {tmdb-2} - S02E01", G, "https://video.twimg.com/e3.m3u8"))
+        with mock.patch.object(ss, "fetch", fetch), mock.patch.object(ss, "link_ok", lambda u: True):
+            out, st = ss.sync(text, G, ss.ShowTV({}), pause=0, log=lambda s: None)
+        self.assertIn("Demo Dizi {tmdb-2} - S02E01\nhttps://vmcdn.ciner.com.tr/ht/x/E3_1920x1080.mp4", out)
+        self.assertIn("Demo Dizi {tmdb-2} - S02E02\nhttps://vmcdn.ciner.com.tr/ht/x/E4_1920x1080.mp4", out)
+        self.assertNotIn("S01E03", out)
+        self.assertNotIn("S01E04", out)
+        self.assertEqual(st, {"replaced": 1, "added": 1, "kept_no_link": 0, "missing_no_link": 0})
+
     def test_series_match_is_exact(self):
         with mock.patch.object(ss, "fetch", fake_fetch):
             self.assertIsNone(ss.ShowTV({}).find("Demo"))
