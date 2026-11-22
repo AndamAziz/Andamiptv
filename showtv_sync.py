@@ -335,6 +335,10 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
             _, s, x = ep_key(e)
             return (start[s] + x - 1 if s in start else None) if seasonal else x
         mine = {absolute(e): e for e in own if absolute(e) is not None}
+        if not mine:
+            # e.g. the provider no longer lists the seasons the playlist has: never guess
+            log(f"- [{provider.name}] {title}: the playlist's seasons are not in the list there, left as is")
+            continue
         if title not in provider.overrides and not any(provider.is_official(e[-1]) for e in mine.values()) \
                 and max(eps) < max(mine):
             # same title, but far fewer episodes than the playlist has: another production
