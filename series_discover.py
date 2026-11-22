@@ -4,7 +4,7 @@ series_discover.py - add NEW drama series to the playlist automatically (showtv_
 their episodes up to date).
 
 Where new series are found:
-  * Show TV - the dramas on showtv.com.tr/diziler (series on air)
+  * Show TV - the dramas on showtv.com.tr/diziler (on air) and /diziler/arsivdeki-diziler (archive)
   * TV8     - the dramas on tv8.com.tr/diziler
   * tabii   - series that appear in tabii's public sitemap after the last run (library/tabii-seen.json
               remembers what was already there, so the old catalogue is not imported in one go)
@@ -97,9 +97,17 @@ def og_image(page_html):
 # ---------------------------------------------------------------- candidates
 def showtv_candidates():
     t = ss.fetch(ss.ShowTV.SITE + "/diziler")
+    try:
+        t += ss.fetch(ss.ShowTV.SITE + "/diziler/arsivdeki-diziler")
+    except Exception:
+        pass
     out = {}
-    for m in re.finditer(r'title="([^"]+)"\s+href="(/dizi/tanitim/[a-z0-9-]+/\d+)"', t):
-        out.setdefault(m.group(2), html.unescape(m.group(1)).strip())
+    generic = {"detaylar", "izle", "fragman", "tumbolumler", "bolumler", "fotograflar", "videolar"}
+    for tag in re.findall(r"<a\b[^>]*>", t):                      # attributes in any order
+        h = re.search(r'href="(/dizi/tanitim/[a-z0-9-]+/\d+)"', tag)
+        ti = re.search(r'title="([^"]+)"', tag)
+        if h and ti and ss.key(html.unescape(ti.group(1))) not in generic:
+            out.setdefault(h.group(1), html.unescape(ti.group(1)).strip())
     return [dict(provider="showtv", ref=p, title=t_, group="Turkish Drama") for p, t_ in out.items()]
 
 
