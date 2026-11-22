@@ -1,4 +1,13 @@
 {
   "_comment": "Optional overrides for showtv_sync.py --provider tv8. Key = series title as in the playlist (without {tmdb-ID}). Value = TV8 programme slug (the part after https://www.tv8.com.tr/), or null to never touch that series. Series not listed here are found automatically in TV8's programme lists.",
-  "series": {}
+  "series": {
+    "Aşka Düşman": "aska-dusman",
+    "Canım Annem": "canim-annem",
+    "Tuzak": "tuzak",
+    "Yazgı": "yazgi",
+    "Kadere Karşı": "kadere-karsi",
+    "Kırmızı Oda": "kirmizi-oda",
+    "Maral: En Güzel Hikayem": "maral-en-guzel-hikayem",
+    "Aşkların En Güzeli": "asklarin-en-guzeli"
+  }
 }

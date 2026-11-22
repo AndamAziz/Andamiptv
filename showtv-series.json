@@ -1,4 +1,8 @@
 {
   "_comment": "Optional overrides for showtv_sync.py. Key = series title as in the playlist (without {tmdb-ID}). Value = Show TV series page path, or null to never touch that series. Series not listed here are found automatically through showtv.com.tr search.",
-  "series": {}
+  "series": {
+    "Deha": "/dizi/tanitim/deha/2975",
+    "Kalpazan": "/dizi/tanitim/kalpazan/2984",
+    "Kuzey Yıldızı İlk Aşk": "/dizi/tanitim/kuzey-yildizi-ilk-ask/2595"
+  }
 }
