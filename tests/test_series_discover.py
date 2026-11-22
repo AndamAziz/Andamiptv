@@ -54,8 +54,10 @@ class Discover(unittest.TestCase):
                 mock.patch.object(ss.Tabii, "episodes", lambda self, r: (setattr(self, "seasons", {1: 1}) or {1: [f"https://eu1.tabii.com/apigateway/pbr/v1/media/{r}/1.m3u8"]})), \
                 mock.patch.object(sd, "tabii_new_ids", lambda seen: list(tabii_ids)), \
                 mock.patch.object(sd, "tabii_info", lambda sid: tabii_infos[sid]), \
-                mock.patch.object(sd, "tmdb", lambda t, y=None: ("77", "https://tmdb/p.jpg") if t == "Yeni Dizi" else (None, None)):
-            out, added, pending = sd.discover(text, overrides, seen, log=lambda s: None)
+                mock.patch.object(sd, "tmdb", lambda t, y=None: ("77", "https://tmdb/p.jpg") if t == "Yeni Dizi" else (None, None)), \
+                mock.patch.object(sd, "tmdb_movie", lambda t, y=None: ("55", "https://tmdb/m.jpg", "Comedy") if t == "Komik Film" else (None, None, None)):
+            self.films = []
+            out, added, pending = sd.discover(text, overrides, seen, log=lambda s: None, films=self.films)
         return out, added, pending, overrides, seen
 
     def test_new_showtv_drama_added_on_top_with_seasons(self):
@@ -84,7 +86,31 @@ class Discover(unittest.TestCase):
         self.assertIn('group-title="Kids Series"', line)
         self.assertIn('tvg-logo="https://tabii/p.webp"', line)
         self.assertEqual(ov["tabii"], {"Yeni Cizgi": 901})
-        self.assertEqual((seen["900"], seen["901"], seen["902"]), ("programme", "added", "movie"))
+        self.assertEqual((seen["900"], seen["901"], seen["902"]), ("programme", "added", "not-a-film"))
+
+    def test_tabii_films(self):
+        M = "https://eu1.tabii.com/apigateway/pbr/v1/media"
+        text = playlist(("Cartoon - S01E01", "Kids Series", "https://archive.org/c.mp4"))
+        text += L.format(n="Old Film {tmdb-1}", g="Drama").replace('"series"', '"movie"') + "\nhttps://x/old.mp4\n"
+        def film(title, cats, genres, dur=6000, clear=True):
+            return dict(type="movie", title=sd.clean_title(title), cats=cats, genres=genres, year=2016,
+                        duration=dur, clear=[f"{M}/1/{sd.ss.key(title)}.m3u8"] if clear else [], poster="https://tabii/f.webp")
+        infos = {"1": film("Komik Film", ["Film"], ["Komedi"]),
+                 "2": film('Gönül Dağı "Kurban" 2', ["Film"], ["Aile"]),
+                 "3": film("Kısa Özel", ["Film"], ["Animasyon"], dur=900),
+                 "4": film("Belgesel Film", ["Documentary"], ["TRT Belgesel"]),
+                 "5": film("Bir Söyleşi", ["Program"], ["Söyleşi"]),
+                 "6": film("Old Film", ["Film"], ["Dram"]),
+                 "7": film("DRM Film", ["Film"], ["Dram"], clear=False)}
+        out, added, pending, ov, seen = self.run_it(text, tuple(infos), infos, ok=lambda u: "tabii" in u)
+        lines = [l for l in out.split("\n") if 'tvg-type="movie"' in l]
+        names = {l.split('tvg-name="')[1].split('"')[0]: l.split('group-title="')[1].split('"')[0] for l in lines}
+        self.assertEqual(names, {"Komik Film {tmdb-55}": "Comedy", "Gönül Dağı 'Kurban' 2": "Family",
+                                 "Belgesel Film": "Documentary", "Old Film {tmdb-1}": "Drama"})
+        self.assertEqual((seen["3"], seen["5"], seen["6"]), ("short", "not-a-film", "in-playlist"))
+        self.assertNotIn("7", seen)                                  # no free link yet: look again next run
+        self.assertEqual(len(self.films), 3)
+        self.assertEqual(out.count("https://x/old.mp4"), 1)          # nothing removed
 
 
 if __name__ == "__main__":

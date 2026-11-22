@@ -13,7 +13,9 @@ A series is added only when it is not in the playlist yet (same title), is not s
 provider's json, and at least one episode has an official, token-free (DRM-free) link that plays.
 
 Groups: Show TV / TV8 dramas and tabii "Dizi" -> Turkish Drama, tabii "Kids" -> Kids Series,
-tabii "Documentary" -> Documentary Series. TV programmes (anything else) are NEVER added (the
+tabii "Documentary" -> Documentary Series. New tabii FILMS ("Film" / "Documentary", 40+ minutes, a
+DRM-free link that plays) are added too: "Title {tmdb-ID}" in the TMDB genre group (Drama, Comedy ...;
+documentaries -> Documentary), first in that group. TV programmes (anything else) are NEVER added (the
 owner wants only series and films): they are remembered as seen and named once in the report.
 
 Names: "Title {tmdb-ID} - SxxEyy" (title as the broadcaster writes it, the TMDB tag and poster only on
@@ -46,6 +48,19 @@ SEEN = HERE / "library" / "tabii-seen.json"
 TMDB_IMG = "https://media.themoviedb.org/t/p/w600_and_h900_face"
 TABII_IMG = "https://cms-tabii-public-image.tabii.com/int/webp/w600/q85/"
 GROUPS = {"Dizi": "Turkish Drama", "Kids": "Kids Series", "Documentary": "Documentary Series"}
+# tabii genre -> the playlist's (TMDB, English) movie groups, used when TMDB has no exact match
+GENRE_TR = {"Aksiyon": "Action", "Macera": "Adventure", "Animasyon": "Animation", "Komedi": "Comedy",
+            "Suç": "Crime", "Polisiye": "Crime", "Belgesel": "Documentary", "Dram": "Drama", "Aile": "Family",
+            "Fantastik": "Fantasy", "Tarih": "History", "Korku": "Horror", "Müzik": "Music", "Gizem": "Mystery",
+            "Romantik": "Romance", "Bilim Kurgu": "Science Fiction", "Gerilim": "Thriller", "Savaş": "War",
+            "Western": "Western"}
+MIN_MOVIE_SECONDS = 40 * 60        # feature length only (no short specials)
+
+
+def clean_title(t):
+    """A title that is safe inside tvg-name="..." (tabii writes e.g. Gönül Dağı "Kurban" 2)."""
+    t = re.sub(r"\s*\|\s*Film\s*$", "", (t or "").replace('"', "'"))
+    return re.sub(r"\s+", " ", t).strip()
 
 
 # ---------------------------------------------------------------- network (patched in tests)
@@ -88,6 +103,41 @@ def tmdb(title, year=None):
     return tid, (TMDB_IMG + poster if poster else None)
 
 
+def tmdb_movie(title, year=None):
+    """(tmdb id, poster url, first genre in English) for an exact title match, else (None, None, None)."""
+    want = ss.key(title)
+    key_ = os.environ.get("TMDB_API_KEY")
+    rows = []
+    if key_:
+        try:
+            d = json.loads(ss.fetch(f"https://api.themoviedb.org/3/search/movie?api_key={key_}&language=tr-TR"
+                                    f"&query={quote(title)}"))
+            names = {g["id"]: g["name"] for g in json.loads(ss.fetch(
+                f"https://api.themoviedb.org/3/genre/movie/list?api_key={key_}&language=en")).get("genres", [])}
+            rows = [(str(r["id"]), [r.get("title", ""), r.get("original_title", "")], (r.get("release_date") or "")[:4],
+                     r.get("poster_path"), [names.get(g) for g in r.get("genre_ids") or [] if names.get(g)])
+                    for r in d.get("results", [])]
+        except Exception:
+            rows = []
+    else:
+        t = curl(f"https://www.themoviedb.org/search/movie?query={quote(title)}&language=tr-TR")
+        for m in re.finditer(r'href="/movie/(\d+)[^"]*"[^>]*><h2[^>]*><span>([^<]+)</span>.*?release_date[^>]*>([^<]*)<', t, re.S):
+            y = re.search(r"(\d{4})", m.group(3))
+            rows.append((m.group(1), [html.unescape(m.group(2))], y.group(1) if y else "", None, None))
+    hits = [r for r in rows if want in {ss.key(n) for n in r[1]}]
+    if year:
+        hits = [r for r in hits if not r[2] or abs(int(r[2]) - int(year)) <= 1]   # a film: same year
+    if not hits:
+        return None, None, None
+    tid, poster, genres = hits[0][0], hits[0][3], hits[0][4]
+    if not poster or genres is None:
+        page = curl(f"https://www.themoviedb.org/movie/{tid}?language=en-US")
+        m = re.search(r"w600_and_h900_face(/[A-Za-z0-9]+\.jpg)", page)
+        poster = poster or (m.group(1) if m else None)
+        genres = [html.unescape(g) for g in re.findall(r'href="/genre/\d+[^"]*/movie"[^>]*>([^<]+)<', page)]
+    return tid, (TMDB_IMG + poster if poster else None), (genres[0] if genres else None)
+
+
 def og_image(page_html):
     m = re.search(r'<meta property="og:image" content="([^"]+)"', page_html or "")
     return html.unescape(m.group(1)) if m else ""
@@ -127,8 +177,13 @@ def tabii_info(sid):
     cats = [c.get("title") if isinstance(c, dict) else c for c in d.get("categories") or []]
     imgs = {i.get("imageType"): i.get("name") for i in d.get("images") or [] if isinstance(i, dict)}
     img = imgs.get("verticalWithLogo") or imgs.get("vertical") or imgs.get("mainWithLogo")
-    return dict(type=d.get("contentType"), title=(d.get("title") or "").strip(), cats=cats,
-                year=d.get("madeYear"), poster=TABII_IMG + img if img else "")
+    genres = [g.get("title") if isinstance(g, dict) else g for g in d.get("genres") or []]
+    media = (d.get("currentContent") or {}).get("media") or []
+    clear = [ss.Tabii.MEDIA + m["url"] for m in media
+             if m.get("type") == "hls" and m.get("drmSchema") == "clear" and m.get("url", "").endswith(".m3u8")]
+    return dict(type=d.get("contentType"), title=clean_title(d.get("title")), cats=cats, genres=genres,
+                year=d.get("madeYear"), duration=d.get("duration") or 0, clear=clear,
+                poster=TABII_IMG + img if img else "")
 
 
 # ---------------------------------------------------------------- building a series
@@ -169,6 +224,44 @@ def existing_titles(entries):
     return keys
 
 
+def existing_movies(entries):
+    return {ss.key(ss.TMDB_RE.sub("", re.search(r'tvg-name="([^"]*)"', e[0]).group(1)))
+            for e in entries if 'tvg-type="movie"' in e[0] and 'tvg-name="' in e[0]}
+
+
+def insert_movie(entries, group, entry):
+    """A new film first in its genre group; a new group after the last film."""
+    idx = [i for i, e in enumerate(entries) if ss.group_of(e) == group and 'tvg-type="movie"' in e[0]]
+    if idx:
+        at = idx[0]
+    else:
+        mv = [i for i, e in enumerate(entries) if 'tvg-type="movie"' in e[0]]
+        at = mv[-1] + 1 if mv else len(entries)
+    entries[at:at] = [entry]
+
+
+def movie_entry(info, movies_have, log):
+    """The playlist entry for a tabii film, or None (and why)."""
+    if "Film" not in info["cats"] and "Documentary" not in info["cats"]:
+        return None, "not-a-film"                                   # programmes, kids specials ...
+    if info["duration"] and info["duration"] < MIN_MOVIE_SECONDS:
+        return None, "short"
+    if ss.key(info["title"]) in movies_have:
+        return None, "in-playlist"
+    url = next((u for u in info["clear"] if ss.link_ok(u)), None)
+    if not url:
+        return None, None                                           # no free link (yet): look again
+    tid, poster, genre = tmdb_movie(info["title"], info["year"])
+    if "Documentary" in info["cats"]:
+        group = "Documentary"
+    else:
+        group = genre or next((GENRE_TR[g] for g in info["genres"] if g in GENRE_TR), "Drama")
+    name = f"{info['title']} {{tmdb-{tid}}}" if tid else info["title"]
+    logo = poster or info["poster"]
+    return [f'#EXTINF:-1 tvg-name="{name}"tvg-id=""tvg-logo="{logo}"tvg-chno=""tvg-type="movie"'
+            f'group-title="{group}":http-referrer="",{name}', url], group
+
+
 def insert_top(entries, group, new):
     """New series first in its group (series part); a missing group goes after the last series."""
     idx = [i for i, e in enumerate(entries) if ss.group_of(e) == group and 'tvg-type="series"' in e[0]]
@@ -180,10 +273,14 @@ def insert_top(entries, group, new):
     entries[at:at] = new
 
 
-def discover(text, overrides, seen, apply_seen=True, log=print, check_tabii=True):
-    """Returns (new text, added [(group, show, n)], pending programmes); fills overrides and seen."""
+def discover(text, overrides, seen, apply_seen=True, log=print, check_tabii=True, movie_ids=None, films=None):
+    """Returns (new text, added [(group, show, n)], pending programmes); fills overrides and seen.
+    New tabii films are added too (list `films` gets (group, name)); `movie_ids` = extra tabii ids
+    to look at as films whatever `seen` says (a one-time import of the current catalogue)."""
     head, entries, trail = ss.split_entries(text)
     have = existing_titles(entries)
+    movies_have = existing_movies(entries)
+    films = [] if films is None else films
     for provider in overrides.values():
         have |= {ss.key(t) for t, v in provider.items() if v is None}
     added, pending = [], []
@@ -194,11 +291,30 @@ def discover(text, overrides, seen, apply_seen=True, log=print, check_tabii=True
         except Exception as ex:
             log(f"- [{name}] list failed ({ex}), skipped")
     if check_tabii:
-        for sid in tabii_new_ids(seen):
+        ids = tabii_new_ids(seen)
+        extra = [i for i in (movie_ids or []) if i not in ids]
+        for sid in ids + extra:
             try:
                 info = tabii_info(sid)
             except Exception as ex:
                 log(f"- [tabii] {sid}: page failed ({ex}), will retry next run")
+                continue
+            if sid in extra and info["type"] != "movie":
+                continue                                    # the one-time import is for films only
+            if info["type"] == "movie":
+                entry, why = movie_entry(info, movies_have, log)
+                if entry is None:
+                    if why:
+                        seen[sid] = why
+                    else:
+                        seen.pop(sid, None)
+                        log(f"- [tabii] film {info['title']}: no free link that plays yet, not added")
+                    continue
+                insert_movie(entries, why, entry)
+                movies_have.add(ss.key(info["title"]))
+                seen[sid] = "added"
+                films.append((why, entry[0].split('tvg-name="')[1].split('"')[0]))
+                log(f"+ [tabii] film {films[-1][1]} -> {why}")
                 continue
             if info["type"] != "series":
                 seen[sid] = info["type"] or "other"
@@ -209,7 +325,7 @@ def discover(text, overrides, seen, apply_seen=True, log=print, check_tabii=True
                 pending.append(dict(provider="tabii", id=sid, title=info["title"], categories=info["cats"],
                                     url=f"{ss.Tabii.SITE}/tr/detail/{sid}"))
                 continue
-            cands.append(dict(provider="tabii", ref=sid, title=info["title"], group=group,
+            cands.append(dict(provider="tabii", ref=sid, title=clean_title(info["title"]), group=group,
                               year=info["year"], poster=info["poster"]))
     classes = {"showtv": ss.ShowTV, "tabii": ss.Tabii, "tv8": ss.TV8}
     for c in cands:
@@ -262,6 +378,8 @@ def main(argv=None):
     ap.add_argument("playlist")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--seed", action="store_true", help="remember tabii's current catalogue, add nothing")
+    ap.add_argument("--import-films", metavar="IDS.json",
+                    help="one time: also look at these tabii ids (a json list) as films, even if already seen")
     ap.add_argument("--report")
     a = ap.parse_args(argv)
     lines = []
@@ -280,10 +398,12 @@ def main(argv=None):
     docs = {k: load_json(f, {"series": {}}) for k, f in files.items()}
     overrides = {k: d.setdefault("series", {}) for k, d in docs.items()}
     text = Path(a.playlist).read_text(encoding="utf-8")
-    out, added, pending = discover(text, overrides, seen, log=log)
+    movie_ids = [str(i) for i in load_json(a.import_films, [])] if a.import_films else None
+    films = []
+    out, added, pending = discover(text, overrides, seen, log=log, movie_ids=movie_ids, films=films)
     for p in pending:
         log(f"- [tabii] {p['title']}: TV programme {p['categories']}, skipped (only series and films are added)")
-    log(f"new series added: {len(added)}, episodes: {sum(n for _, _, n in added)}")
+    log(f"new series added: {len(added)}, episodes: {sum(n for _, _, n in added)}; new films: {len(films)}")
     if a.apply:
         if out != text:
             Path(a.playlist).write_text(out, encoding="utf-8")

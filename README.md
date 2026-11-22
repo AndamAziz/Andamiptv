@@ -44,6 +44,8 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
 - **Series sync (Show TV + TRT tabii + TV8)** — هەموو ٣ کاتژمێر جارێک (00:17، 03:17 … UTC) کار دەکات:
   **١. زنجیرەی نوێ** (`series_discover.py`): درامایەکی نوێ لە Show TV (`/diziler`)، TV8 (`/diziler`) یان tabii (زنجیرەی نوێ لە sitemap ـەکەی) کە لە پلەیلیستەکەدا نییە، بە هەموو ئەلقە بێ-DRM ـەکانییەوە زیاد دەکات
   (ناو + `{tmdb-ID}` + پۆستەر + وەرز، لە سەرەوەی گرووپەکەی). tabii: `Dizi` → Turkish Drama، `Kids` → Kids Series، `Documentary` → Documentary Series.
+  **فیلمی نوێی tabii** (`Film` / `Documentary`، ٤٠+ خولەک، لینکی بێ-DRM کە کار بکات) زیاد دەکرێت: `ناو {tmdb-ID}` لە گرووپی ژانرەکەی (TMDB: Drama، Comedy …؛ دۆکیومێنتاری → Documentary)، لە سەرەوەی گرووپەکە.
+  یەکجار بۆ فیلمەکانی ئێستای tabii: `python series_discover.py playlist.m3u --apply --import-films ids.json`.
   **بەرنامەی تەلەڤیزیۆنی هەرگیز زیاد ناکرێت** (تەنها زنجیرە و فیلم)؛ لە ڕاپۆرتی run ـەکەدا تەنها وەک skipped دەنووسرێت.
   `library/tabii-seen.json` ئەو زنجیرانەی tabii لەبیر دەکات کە پێشتر بینراون (بۆ ئەوەی هەموو ئەرشیفەکە بەیەکجار نەهێنرێت).
   **٢. ئەلقەی نوێ** (`showtv_sync.py`) بۆ زنجیرەکانی Turkish Drama، Documentary Series و Kids Series:
