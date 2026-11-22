@@ -35309,3 +35309,5 @@ https://eu1.tabii.com/apigateway/pbr/v1/media/322356/322355.m3u8
 https://eu1.tabii.com/apigateway/pbr/v1/media/24288/24287.m3u8
 #EXTINF:-1 tvg-name="Rob the Robot {tmdb-57910} - S01E17"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/43cUAzjiUDxBedWxwA09o2IUNKy.jpg"tvg-chno=""tvg-type="series"group-title="Kids Series":http-referrer="",Rob the Robot {tmdb-57910} - S01E17
 https://eu1.tabii.com/apigateway/pbr/v1/media/394788/394786.m3u8
+#EXTINF:-1 tvg-name="Enemy at the Gates {tmdb-853}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cHRAbVdsCWFaQrswRsBP7Bn255W.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Enemy at the Gates {tmdb-853}
+http://classicvod.zinamedia.net/hls/Movie-A8000/Kurdish/Enemy-At-The-Gates/Enemy-At-The-Gates.mp4/index.m3u8
