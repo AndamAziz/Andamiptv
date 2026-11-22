@@ -357,9 +357,10 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
                 belongs = getattr(provider, "owner", {}).get(cur[-1].strip().replace("//apigateway", "/apigateway"))
                 if belongs in (None, n) or not eps[n]:
                     continue
-            time.sleep(pause)
+            if eps[n]:
+                time.sleep(pause)                     # only before a real request
             try:
-                links = provider.links(eps[n])
+                links = provider.links(eps[n]) if eps[n] else []
             except Exception:
                 links = []
             good = next((u for u in links if link_ok(u)), None)
