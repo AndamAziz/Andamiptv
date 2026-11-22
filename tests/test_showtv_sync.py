@@ -95,6 +95,11 @@ class ShowtvSync(unittest.TestCase):
         for name in ("S01E01", "S02E01", "S02E02"):
             self.assertIn("Demo Dizi {tmdb-2} - " + name, out)
         self.assertNotIn("S01E03", out)
+        # the provider no longer lists the playlist's season: nothing changes, no crash
+        text = playlist(("Demo Dizi {tmdb-2} - S05E01", G, "https://video.twimg.com/s5e1.m3u8"))
+        with mock.patch.object(ss, "fetch", fetch), mock.patch.object(ss, "link_ok", lambda u: True):
+            out, st = ss.sync(text, G, ss.ShowTV({}), pause=0, log=lambda s: None)
+        self.assertEqual(out, text)
 
     def test_series_match_is_exact(self):
         with mock.patch.object(ss, "fetch", fake_fetch):
