@@ -19845,6 +19845,8 @@ https://andam.uk/vod/video_efdb94/index.m3u8
 https://andam.uk/vod/video_b9fceb/index.m3u8
 #EXTINF:-1 tvg-name="K.G.F Chapter 2 {tmdb-587412}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BZmQzZjVkZTUtYjI4ZC00ZDJmLWI0ZDUtZTFmMGM1Mzc5ZjIyXkEyXkFqcGc@._V1_FMjpg_UY2408_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",K.G.F Chapter 2 {tmdb-587412}
 https://andam.uk/vod/video_de6c9c/index.m3u8
+#EXTINF:-1 tvg-name="Eight Below {tmdb-9036}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/39hR806Me4wI42LCFcK2LBiCRGW.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Eight Below {tmdb-9036}
+http://classicvod.zinamedia.net/hls/Movie-A8000/Kurdish/Eight-Below/Eight-Below.mp4/index.m3u8
 #EXTINF:-1 tvg-name="Cowboys and Ailens {tmdb-49849}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9uZsGCP4rvOHVGCpMpYq5gNCuNI.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Cowboys and Ailens {tmdb-49849}
 http://classicvod.zinamedia.net/hls/Movie-A8000/Kurdish/Cowboys-And-Aliens/Cowboys-And-Aliens.mp4/index.m3u8
 #EXTINF:-1 tvg-name="The Expendables 2 {tmdb-76163}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/74rTIGyGoIu5KSxDVMdr8H3MtMo.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",The Expendables 2 {tmdb-76163}
@@ -35307,5 +35309,3 @@ https://eu1.tabii.com/apigateway/pbr/v1/media/322356/322355.m3u8
 https://eu1.tabii.com/apigateway/pbr/v1/media/24288/24287.m3u8
 #EXTINF:-1 tvg-name="Rob the Robot {tmdb-57910} - S01E17"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/43cUAzjiUDxBedWxwA09o2IUNKy.jpg"tvg-chno=""tvg-type="series"group-title="Kids Series":http-referrer="",Rob the Robot {tmdb-57910} - S01E17
 https://eu1.tabii.com/apigateway/pbr/v1/media/394788/394786.m3u8
-#EXTINF:-1 tvg-name="Eight Below {tmdb-9036}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/39hR806Me4wI42LCFcK2LBiCRGW.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Eight Below {tmdb-9036}
-http://classicvod.zinamedia.net/hls/Movie-A8000/Kurdish/Eight-Below/Eight-Below.mp4/index.m3u8
