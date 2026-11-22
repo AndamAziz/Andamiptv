@@ -46,6 +46,7 @@ https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/playlist.m3u
   لینکێک کە کار دەکات و جێگرەوەی فەرمی نییە وەک خۆی دەمێنێتەوە، و هیچ ئەلقەیەک ناسڕێتەوە. لینکێکی فەرمی کە بۆ ئەلقەیەکی تر بێت (هەڵەی ژمارە) ڕاست دەکرێتەوە.
   بە دەستی: `python showtv_sync.py playlist.m3u` (تەنها ڕاپۆرت)، `--apply` (گۆڕین)، `--provider showtv|tabii|tv8`، `--only "ناوی زنجیرە"`، `--group "Turkish Drama"` (بنەڕەت: Turkish Drama، Documentary Series و Kids Series).
   زنجیرەیەک کە خۆکار نادۆزرێتەوە لە `showtv-series.json` (لاپەڕەی Show TV) یان `tabii-series.json` (ژمارەی `tabii.com/tr/detail/<id>`) یان `tv8-series.json` (slugی `tv8.com.tr/<slug>`) دابنێ؛ `null` واتە دەستی لێ مەدە.
+  ئەلقەکان بە وەرز ناو دەنرێن (`S02E01`…)، وەرزەکان لە لیستی فەرمیی Show TV / tabii وەردەگیرێن؛ ئەلقەی نوێ دەچێتە وەرزی خۆی.
   Kanal D نییە: سایتەکەی لە دەرەوەی تورکیا / بەبێ هەژمار لیستی ئەلقەکان پیشان نادات.
 
 ## ⚠️ ڕەچاوکردن
