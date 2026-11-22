@@ -40,7 +40,21 @@ import time
 import unicodedata
 from pathlib import Path
 from urllib.parse import quote
-from urllib.request import Request, urlopen
+from urllib.request import HTTPRedirectHandler, Request, build_opener
+
+
+class _Redirect(HTTPRedirectHandler):
+    """Also follow 308 (tabii answers /tr/detail/<id> with 308 -> /tr/detail/<id>/<slug>);
+    Python before 3.11 does not."""
+    def http_error_308(self, req, fp, code, msg, headers):
+        return self.http_error_302(req, fp, 302, msg, headers)
+
+
+_OPENER = build_opener(_Redirect())
+
+
+def urlopen(req, timeout=25):
+    return _OPENER.open(req, timeout=timeout)
 
 sys.dont_write_bytecode = True
 
