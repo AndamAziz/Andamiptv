@@ -58,7 +58,7 @@ jobs:
             echo "No package.json, skipping."
           fi
 
-      # Step 1: dedupe, blocklist-filter, categorize, clean names.
+      # Step 1: categorize, clean names. Nothing is removed (duplicates / blocklist only reported).
       - name: Clean & categorize playlist
         run: python build_playlist.py --overwrite
 
@@ -79,7 +79,7 @@ jobs:
         if: steps.git_status.outputs.changed == 'true'
         run: |
           git add playlist.m3u playlist.m3u.bak playlist_report.txt channel-health.json dead-channels.txt
-          git commit -m "Daily update: clean, categorize, remove dead channels [skip ci]"
+          git commit -m "Daily update: categorize, report dead channels (nothing removed) [skip ci]"
           if ! git pull origin main --rebase; then
             # main moved while this long run was going (e.g. a merged PR) and
             # playlist.m3u conflicts. The playlist is generated, so rebuild it
