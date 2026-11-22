@@ -13,8 +13,8 @@ A series is added only when it is not in the playlist yet (same title), is not s
 provider's json, and at least one episode has an official, token-free (DRM-free) link that plays.
 
 Groups: Show TV / TV8 dramas and tabii "Dizi" -> Turkish Drama, tabii "Kids" -> Kids Series,
-tabii "Documentary" -> Documentary Series. TV programmes (anything else) are NEVER added: they are
-only listed in the report and in library/pending-tv-programmes.json so a person can decide.
+tabii "Documentary" -> Documentary Series. TV programmes (anything else) are NEVER added (the
+owner wants only series and films): they are remembered as seen and named once in the report.
 
 Names: "Title {tmdb-ID} - SxxEyy" (title as the broadcaster writes it, the TMDB tag and poster only on
 an exact title match, otherwise the broadcaster's poster), per season when the series has several.
@@ -43,7 +43,6 @@ import showtv_sync as ss  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 SEEN = HERE / "library" / "tabii-seen.json"
-PENDING = HERE / "library" / "pending-tv-programmes.json"
 TMDB_IMG = "https://media.themoviedb.org/t/p/w600_and_h900_face"
 TABII_IMG = "https://cms-tabii-public-image.tabii.com/int/webp/w600/q85/"
 GROUPS = {"Dizi": "Turkish Drama", "Kids": "Kids Series", "Documentary": "Documentary Series"}
@@ -282,11 +281,8 @@ def main(argv=None):
     overrides = {k: d.setdefault("series", {}) for k, d in docs.items()}
     text = Path(a.playlist).read_text(encoding="utf-8")
     out, added, pending = discover(text, overrides, seen, log=log)
-    old_pending = load_json(PENDING, [])
-    known = {(p["provider"], p["id"]) for p in old_pending}
-    new_pending = [p for p in pending if (p["provider"], p["id"]) not in known]
-    for p in new_pending:
-        log(f"? [tabii] TV programme, NOT added (ask first): {p['title']} {p['categories']} {p['url']}")
+    for p in pending:
+        log(f"- [tabii] {p['title']}: TV programme {p['categories']}, skipped (only series and films are added)")
     log(f"new series added: {len(added)}, episodes: {sum(n for _, _, n in added)}")
     if a.apply:
         if out != text:
@@ -295,8 +291,6 @@ def main(argv=None):
             if added and any(x for x in added):
                 f.write_text(json.dumps(docs[k], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         SEEN.write_text(json.dumps(seen, indent=0, sort_keys=True) + "\n", encoding="utf-8")
-        if new_pending:
-            PENDING.write_text(json.dumps(old_pending + new_pending, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     else:
         log("report only (use --apply to write)")
     if a.report:
