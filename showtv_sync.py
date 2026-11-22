@@ -319,11 +319,15 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
         own = [e for e in block if ep_key(e)[0] == show]
         # "S01E147" (absolute numbering) or "S02E01" (per season, when the playlist already has a
         # season above 1): per-season entries are matched through the provider's season list.
-        seasonal = any(ep_key(e)[1] > 1 for e in own)
         seasons = getattr(provider, "seasons", None) or {}
         start = {}
         for a, s in seasons.items():
             start[s] = min(start.get(s, a), a)
+        s1_last = max((a for a, s in seasons.items() if s == 1), default=0)
+        # per season when the playlist already uses a season above 1, or when the provider has
+        # several seasons and no S01 entry carries an absolute number past season 1
+        seasonal = any(ep_key(e)[1] > 1 for e in own) or (
+            len(start) > 1 and not any(ep_key(e)[1] == 1 and ep_key(e)[2] > s1_last for e in own))
         if seasonal and not start:
             log(f"- [{provider.name}] {title}: per-season numbering but no season list there, left as is")
             continue
