@@ -331,7 +331,10 @@ def sync(text, group, provider, only=None, pause=0.3, log=print):
         if not eps:
             log(f"- [{provider.name}] {title}: no episodes found, left as is")
             continue
-        own = [e for e in block if ep_key(e)[0] == show]
+        # S00 = extras without a known episode number (e.g. 'son bölüm' videos): never matched or touched
+        own = [e for e in block if ep_key(e)[0] == show and ep_key(e)[1] != 0]
+        if not own:
+            continue
         # "S01E147" (absolute numbering) or "S02E01" (per season, when the playlist already has a
         # season above 1): per-season entries are matched through the provider's season list.
         seasons = getattr(provider, "seasons", None) or {}
