@@ -19871,6 +19871,12 @@ https://streaming.imvbox.com/media/2498/1280x720/1280x720.m3u8
 https://streaming.imvbox.com/media/2059/1024x768/1024x768.m3u8
 #EXTINF:-1 tvg-name="Night Bus _ پاسی شەو {tmdb-363946}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BY2Q4ZGNlOTYtNzdiZC00NTk0LWJhZDAtZGRlNzg1ZjI2ODRiXkEyXkFqcGc@._V1_FMjpg_UX794_.jpg"tvg-chno=""tvg-type="movie"group-title="FARSI":http-referrer="",Night Bus _ پاسی شەو {tmdb-363946}
 https://streaming.imvbox.com/media/2324/1280x720/1280x720.m3u8
+#EXTINF:-1 tvg-name="Wild Target {tmdb-44147}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2USFwF1ji5HmYEMYr7Qx0UUKLzZ.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Wild Target {tmdb-44147}
+https://vd1.okcdn.ru/expires/1795471668366/clientType/0/srcIp/162.158.33.155/type/2/mid/26903775935/id/38747638463/ms/176.112.172.39/zs/65/srcAg/CHROME/urls/185.180.203.46/oq/0/pr/10/ct/28/sig/2saSOewQkBc/ondemand/hls4_38747638463.CL-V3JxkQL-ppZXLEFAKGj0VcRaIHoo.m3u8
+#EXTINF:-1 tvg-name="Resident Evil Ölümden Sonra {tmdb-35791}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qZHDnt8bnsD2cSJfIbjWbCkIq3G.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Resident Evil Ölümden Sonra {tmdb-35791}
+https://vd296.okcdn.ru/expires/1795471668303/clientType/0/srcIp/162.158.33.155/type/2/mid/351924521498/id/311022455322/ms/185.180.203.46/zs/65/srcAg/CHROME/urls/176.112.172.39/oq/0/pr/10/ct/28/sig/D3nvx9wGY2U/ondemand/hls4_311022455322.CJqU2IKfCkCa-p-SmRFQCrkrqu-vdwcO.m3u8
+#EXTINF:-1 tvg-name="Diamond 13 {tmdb-31172}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zDq4dbbWCKaJWZyPlJsc9hfDVA.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Diamond 13 {tmdb-31172}
+https://vd296.okcdn.ru/expires/1795471692449/clientType/0/srcIp/162.158.33.155/type/2/mid/31235640062/id/55253863166/ms/185.180.203.46/zs/65/srcAg/CHROME/urls/178.237.23.39/oq/0/pr/10/ct/28/sig/hhbnm-WlN38/ondemand/hls4_55253863166.CP6VqK50QP7PrtuWEFAKV3DxC66NsPw.m3u8
 #EXTINF:-1 tvg-name="Apex {tmdb-1318447}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Apex {tmdb-1318447}
 https://hlszone.com/cdn/hls/1df89110865eab12ae89ad454eba59e1/master.txt
 #EXTINF:-1 tvg-name="Apocalypse Z: New World {tmdb-1507696}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Apocalypse Z: New World {tmdb-1507696}
@@ -20021,6 +20027,8 @@ https://archive.org/download/TarzanTheFearless1933/TarzanTheFearless1933.mp4
 https://archive.org/download/SubmarineBase1943/SubmarineBase1943.mp4
 #EXTINF:-1 tvg-name="Harakiri (Fritz Lang) {tmdb-14537}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/5konZnIbcAxZjP616Cz5o9bKEfW.jpg"tvg-chno=""tvg-type="movie"group-title="Action":http-referrer="",Harakiri (Fritz Lang) {tmdb-14537}
 https://archive.org/download/Harakiri1919fritzLang/Harakiri1919_512kb.mp4
+#EXTINF:-1 tvg-name="Çılgın Dostlar 3 {tmdb-51170}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qEr9fkGLQUWcAnVfDV46L79bdFs.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Çılgın Dostlar 3 {tmdb-51170}
+https://vd296.okcdn.ru/expires/1795471655478/clientType/0/srcIp/162.158.33.155/type/2/mid/22895463081/id/66463533737/ms/185.180.203.46/zs/65/srcAg/CHROME/urls/176.112.172.39/oq/0/pr/10/ct/28/sig/sZ3dYG92SX0/ondemand/hls4_66463533737.CKmVtKVVQKmvp9LREFAKr5sABPvRnbE.m3u8
 #EXTINF:-1 tvg-name="Anaconda {tmdb-1234731}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hBxN6dwrANN1ic3a4G9x6JZcR3C.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Anaconda {tmdb-1234731}
 https://hlszone.com/cdn/hls/4f522d0ebff009a7a2b4a7ae748e58ed/master.txt
 #EXTINF:-1 tvg-name="Enola Holmes 3 {tmdb-1202033}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg"tvg-chno=""tvg-type="movie"group-title="Adventure":http-referrer="",Enola Holmes 3 {tmdb-1202033}
@@ -20073,6 +20081,8 @@ https://archive.org/download/RudolphTheRed-nosedReindeer1948/RudolphTheRed-nosed
 https://archive.org/download/phantom_ship/phantom_ship.mp4
 #EXTINF:-1 tvg-name="The Adventures of Superman"tvg-id=""tvg-logo="https://archive.org/services/img/TheAdventuresOfSuperman"tvg-chno=""tvg-type="movie"group-title="Animation":http-referrer="",The Adventures of Superman
 https://archive.org/download/TheAdventuresOfSuperman/SupermanTheAnimatedMovie.mp4
+#EXTINF:-1 tvg-name="Çılgın Bir Gece {tmdb-35056}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9ftaHHJW2IrtnGbazdn5SP8V7Cf.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Çılgın Bir Gece {tmdb-35056}
+https://vd1.okcdn.ru/expires/1795471675212/clientType/0/srcIp/162.158.33.155/type/2/mid/30704011987/id/45069503187/ms/176.112.172.39/zs/65/srcAg/CHROME/urls/95.163.35.41/oq/0/pr/10/ct/28/sig/N2pMYyami6E/ondemand/hls4_45069503187.CNOV6LByQNO74sCvEFAK6mMR8njUPdw.m3u8
 #EXTINF:-1 tvg-name="72 HOURS {tmdb-949838}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",72 HOURS {tmdb-949838}
 https://hlszone.com/cdn/hls/002e7b726779909de2f92a6b5b5087f8/master.txt
 #EXTINF:-1 tvg-name="Başıbozuklar {tmdb-1653894}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qX0K76hKChdERb4QIdW6qUidB0I.jpg"tvg-chno=""tvg-type="movie"group-title="Comedy":http-referrer="",Başıbozuklar {tmdb-1653894}
@@ -20451,6 +20461,8 @@ https://archive.org/download/Dr.MabuseTheGamblerdr.MabuseDerSpieler1922Part1/DrM
 https://archive.org/download/BlondeIce1948/BlondeIce1948.mp4
 #EXTINF:-1 tvg-name="City Without Men {tmdb-302529}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4jpyYAHmze7H4QX2Vq4AoAoeXM1.jpg"tvg-chno=""tvg-type="movie"group-title="Crime":http-referrer="",City Without Men {tmdb-302529}
 https://archive.org/download/CityWithoutMen1943/CityWithoutMen1943.mp4
+#EXTINF:-1 tvg-name="Büyük Kediler Arasında"tvg-id=""tvg-logo=""tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",Büyük Kediler Arasında
+https://vd296.okcdn.ru/expires/1795471666025/clientType/0/srcIp/162.158.33.155/type/2/mid/26230917761/id/36091660929/ms/185.180.203.46/zs/65/srcAg/CHROME/urls/176.112.172.39/oq/0/pr/10/ct/28/sig/z1x0xpb3lrs/ondemand/hls4_36091660929.CIGV8NthQIH__IjHEFAKkxJVO0IwDjY.m3u8
 #EXTINF:-1 tvg-name="Portreler 'Kayahan'"tvg-id=""tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q85/51306_0-0-2557-3840.png"tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",Portreler 'Kayahan'
 https://eu1.tabii.com/apigateway/pbr/v1/media/512886/512885.m3u8
 #EXTINF:-1 tvg-name="Maça Yetişsin Usta {tmdb-1755642}"tvg-id=""tvg-logo="https://cms-tabii-public-image.tabii.com/int/webp/w600/q85/50692_0-0-2557-3840.png"tvg-chno=""tvg-type="movie"group-title="Documentary":http-referrer="",Maça Yetişsin Usta {tmdb-1755642}
@@ -21341,6 +21353,14 @@ https://archive.org/download/wrong_road/wrong_road.mp4
 https://archive.org/download/thirteenth_guest/thirteenth_guest.mp4
 #EXTINF:-1 tvg-name="Hoosier Schoolmaster (1935)"tvg-id=""tvg-logo="https://archive.org/services/img/hoosier_schoolmaster"tvg-chno=""tvg-type="movie"group-title="Free Classics":http-referrer="",Hoosier Schoolmaster (1935)
 https://archive.org/download/hoosier_schoolmaster/hoosier_schoolmaster.mp4
+#EXTINF:-1 tvg-name="Yabancı Film 1"tvg-id=""tvg-logo=""tvg-chno=""tvg-type="movie"group-title="Unnamed Films":http-referrer="",Yabancı Film 1
+https://hlszone.com/cdn/hls/5c7ddf9091cdad997275d4b9d07d2563/master.txt
+#EXTINF:-1 tvg-name="Yabancı Film 2"tvg-id=""tvg-logo=""tvg-chno=""tvg-type="movie"group-title="Unnamed Films":http-referrer="",Yabancı Film 2
+https://hlszone.com/cdn/hls/76cd4a418bfc29e56a96c929a676e45d/master.txt
+#EXTINF:-1 tvg-name="Yabancı Film 3"tvg-id=""tvg-logo=""tvg-chno=""tvg-type="movie"group-title="Unnamed Films":http-referrer="",Yabancı Film 3
+https://hlszone.com/cdn/hls/3cddc4989f9b01c98122bbc4681dc28e/master.txt
+#EXTINF:-1 tvg-name="Yerli Film 1"tvg-id=""tvg-logo=""tvg-chno=""tvg-type="movie"group-title="Unnamed Films":http-referrer="",Yerli Film 1
+https://hlszone.com/cdn/hls/fd56fef391f60bbe031a8fec739798b0/master.txt
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E01
 https://pub-3f81d5344a334f5abb490cb504de6d25.r2.dev/video_063ae6/index.m3u8
 #EXTINF:-1 tvg-name="Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-09-28-3c025496-a60d-44d3-a231-c530e5ea99d5.jpg"tvg-chno=""tvg-type="series"group-title="KURDISH-دۆبلاژ":http-referrer="",Prophet Joseph _ پێغەمبەر یوسف {tmdb-70802} - S01E02
