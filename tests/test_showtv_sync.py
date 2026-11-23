@@ -101,6 +101,14 @@ class ShowtvSync(unittest.TestCase):
             out, st = ss.sync(text, G, ss.ShowTV({}), pause=0, log=lambda s: None)
         self.assertEqual(out, text)
 
+    def test_season_zero_extras_are_never_touched(self):
+        G = "Turkish Drama"
+        text = playlist(("Demo Dizi {tmdb-2} - S00E01", G, "https://hlszone.com/x/master.txt"),
+                        ("Demo Dizi {tmdb-2} - S01E01", G, "https://vmcdn.ciner.com.tr/ht/x/E1_1920x1080.mp4"))
+        out, st = self.run_sync(text)
+        self.assertIn("Demo Dizi {tmdb-2} - S00E01\nhttps://hlszone.com/x/master.txt", out)   # kept as is
+        self.assertIn("Demo Dizi {tmdb-2} - S01E02", out)                                     # normal sync goes on
+
     def test_series_match_is_exact(self):
         with mock.patch.object(ss, "fetch", fake_fetch):
             self.assertIsNone(ss.ShowTV({}).find("Demo"))
