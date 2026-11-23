@@ -1,59 +1,59 @@
-M3U Cleaner report - 2026-11-22 03:34:59
+M3U Cleaner report - 2026-11-23 04:07:27
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  13844
-Blocked (blocklist):  0
-Duplicates removed:   0
-Malformed/skipped:    0
+Total channels kept:  21121
+Blocked (blocklist):  0 (KEPT, needs your OK)
+Duplicate links:      0 (KEPT, needs your OK)
+Malformed links:      0 (KEPT, needs your OK)
 
   Kurdish Channels: 183
   BEIN SPORTS AR: 21
   BEIN MOVIES: 43
-  Sports: 447
-  National Geographic: 54
+  Sports: 440
+  National Geographic: 53
   SKY TV: 19
-  Kids & Family: 335
-  Movies TV: 455
-  Series & Drama: 238
-  Documentary: 231
-  News: 993
-  Entertainment: 533
-  Music: 763
-  Religious: 599
+  Kids & Family: 324
+  Movies TV: 444
+  Series & Drama: 236
+  Documentary: 263
+  News: 990
+  Entertainment: 524
+  Music: 760
+  Religious: 596
   Quran: 512
-  Comedy: 192
+  Comedy: 216
   Crime & Mystery: 151
-  Reality & Game Shows: 144
+  Reality & Game Shows: 143
   Sci-Fi & Horror: 57
-  Classic & Western: 100
-  Lifestyle & Travel: 294
-  Culture: 108
-  Education: 114
-  Business: 50
+  Classic & Western: 99
+  Lifestyle & Travel: 291
+  Culture: 107
+  Education: 113
+  Business: 49
   Shopping: 65
   Weather: 10
-  Legislative & Public: 161
+  Legislative & Public: 160
   Anime & Gaming: 9
   Local Channels: 13
-  Smart TV Channels: 497
+  Smart TV Channels: 492
   General: 1
-  USA & Canada TV: 331
+  USA & Canada TV: 304
   Latin America & Spain: 681
-  Russia & CIS: 224
+  Russia & CIS: 216
   Italy: 87
   Germany - Austria - Switzerland: 89
   France & Belgium: 37
   Netherlands: 79
-  Turkey: 71
+  Turkey: 70
   Iran: 53
   India & Pakistan: 71
   Arabic TV: 63
   Indonesia & Malaysia: 80
-  Asia: 117
+  Asia: 116
   Eastern Europe & Balkans: 203
   Portugal & Brazil: 71
-  UK - Ireland - Australia - NZ: 41
+  UK - Ireland - Australia - NZ: 40
   Greece & Cyprus: 32
   Africa: 54
   Caribbean & Pacific: 17
@@ -62,27 +62,32 @@ Malformed/skipped:    0
   Free Streaming (FAST): 200
   Uncategorized: 8
   KURDISH-دۆبلاژ: 195
-  KURDISH-ژێرنوس: 3
+  KURDISH-ژێرنوس: 7
   FARSI: 6
-  Action: 48
-  Adventure: 10
-  Animation: 7
-  Crime: 62
-  Drama: 36
-  Family: 1
-  Fantasy: 16
-  History: 9
-  Horror: 54
+  Action: 75
+  Adventure: 14
+  Animation: 12
+  Crime: 67
+  Drama: 63
+  Family: 5
+  Fantasy: 17
+  History: 11
+  Horror: 62
   Mystery: 30
-  Romance: 35
-  Science Fiction: 23
-  Thriller: 23
-  War: 12
-  Western: 52
+  Romance: 53
+  Science Fiction: 31
+  Thriller: 27
+  War: 13
+  Western: 53
   Free Classics: 35
-  Turkish Drama: 1460
+  Unnamed Films: 4
+  Turkish Drama: 5213
   Arabic Drama: 48
-  Turkish TV Shows: 604
-  Documentary Series: 5
+  Turkish TV Shows: 814
+  Documentary Series: 74
   Classic Cartoons: 49
-  Kids Series: 997
+  Kids Series: 1036
+  Animation Series: 288
+  Foreign Series: 2337
+  Korean Drama: 442
+  Asian Drama: 62
