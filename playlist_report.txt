@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-11-23 04:07:27
+M3U Cleaner report - 2026-11-24 07:08:50
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  21121
+Total channels kept:  21132
 Blocked (blocklist):  0 (KEPT, needs your OK)
 Duplicate links:      0 (KEPT, needs your OK)
 Malformed links:      0 (KEPT, needs your OK)
@@ -62,7 +62,7 @@ Malformed links:      0 (KEPT, needs your OK)
   Free Streaming (FAST): 200
   Uncategorized: 8
   KURDISH-دۆبلاژ: 195
-  KURDISH-ژێرنوس: 7
+  KURDISH-ژێرنوس: 8
   FARSI: 6
   Action: 75
   Adventure: 14
@@ -88,6 +88,6 @@ Malformed links:      0 (KEPT, needs your OK)
   Classic Cartoons: 49
   Kids Series: 1036
   Animation Series: 288
-  Foreign Series: 2337
+  Foreign Series: 2347
   Korean Drama: 442
   Asian Drama: 62
