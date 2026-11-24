@@ -21521,7 +21521,7 @@ https://vz-436f3b70-ee3.b-cdn.net/b178f7d2-e586-44d4-bd75-73e7549588be/1280x720/
 https://vz-436f3b70-ee3.b-cdn.net/caa87a84-46d3-48ad-8a93-3f190bfba5a4/1280x720/video.m3u8
 #EXTINF:-1 tvg-name="Yankı: Görünmez El {tmdb-285397} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j2JyA8MXEjs5r8xJdyTui1GzT6G.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Yankı: Görünmez El {tmdb-285397} - S00E01
 https://hlszone.com/cdn/hls/a158e5e5c7fec7cd48d758ac7f8c2359/master.txt
-#EXTINF:-1 tvg-name="Yankı: Görünmez El {tmdb-285397} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j2JyA8MXEjs5r8xJdyTui1GzT6G.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Yankı: Görünmez El {tmdb-285397} - S00E03
+#EXTINF:-1 tvg-name="Yankı: Görünmez El {tmdb-285397} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j2JyA8MXEjs5r8xJdyTui1GzT6G.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Yankı: Görünmez El {tmdb-285397} - S02E01
 https://hlszone.com/cdn/hls/37578f97525cdc753b9043c83bfe4266/master.txt
 #EXTINF:-1 tvg-name="Yankı: Görünmez El {tmdb-285397} - S02E13"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j2JyA8MXEjs5r8xJdyTui1GzT6G.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Yankı: Görünmez El {tmdb-285397} - S02E13
 https://hlszone.com/cdn/hls/a52e8fd2fcdb2e8ef46dbd5d88db8f80/master.txt
@@ -21675,8 +21675,6 @@ https://hlszone.com/cdn/hls/f7088e0e63e15bfc91e971380dd6a145/master.txt
 https://hlszone.com/cdn/hls/51af0a442709b7769f618b8c67de2e0e/master.txt
 #EXTINF:-1 tvg-name="Benim Adım Aylamaz {tmdb-324695} - S01E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/vslqNnjARZUdDav2CWIxGvxest9.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Benim Adım Aylamaz {tmdb-324695} - S01E10
 https://hlszone.com/cdn/hls/fb0f858589b70ef7e7f70a35e5bcd53d/master.txt
-#EXTINF:-1 tvg-name="Bir Başkadır {tmdb-112745} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/80xsUbpereUwUGaaMwcM9e2QLCq.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Bir Başkadır {tmdb-112745} - S00E01
-https://hlszone.com/cdn/hls/d480885b2e9745ad73ef47923d952076/master.txt
 #EXTINF:-1 tvg-name="Bir Başkadır {tmdb-112745} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/80xsUbpereUwUGaaMwcM9e2QLCq.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Bir Başkadır {tmdb-112745} - S01E01
 https://hlszone.com/cdn/hls/eeb65c244cb21641eaf325294b6f58f9/master.txt
 #EXTINF:-1 tvg-name="Bir Başkadır {tmdb-112745} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/80xsUbpereUwUGaaMwcM9e2QLCq.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Bir Başkadır {tmdb-112745} - S01E02
@@ -21691,6 +21689,8 @@ https://hlszone.com/cdn/hls/13e7bc89ec2175ef4846beae20f01e7b/master.txt
 https://hlszone.com/cdn/hls/ea51569493e24f90dc8dfdab2e649d03/master.txt
 #EXTINF:-1 tvg-name="Bir Başkadır {tmdb-112745} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/80xsUbpereUwUGaaMwcM9e2QLCq.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Bir Başkadır {tmdb-112745} - S01E07
 https://hlszone.com/cdn/hls/4a14a310bcce0038d8d7504c5b233f25/master.txt
+#EXTINF:-1 tvg-name="Bir Başkadır {tmdb-112745} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/80xsUbpereUwUGaaMwcM9e2QLCq.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Bir Başkadır {tmdb-112745} - S01E08
+https://hlszone.com/cdn/hls/d480885b2e9745ad73ef47923d952076/master.txt
 #EXTINF:-1 tvg-name="Bize Bi' Şey Olmaz {tmdb-314172} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tVNvaGS607lH5jTi1VLvWYV23sp.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Bize Bi' Şey Olmaz {tmdb-314172} - S01E01
 https://hlszone.com/cdn/hls/b8181ac704a8402dda1b555efc78cd20/master.txt
 #EXTINF:-1 tvg-name="Bize Bi' Şey Olmaz {tmdb-314172} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tVNvaGS607lH5jTi1VLvWYV23sp.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Bize Bi' Şey Olmaz {tmdb-314172} - S01E02
@@ -21949,10 +21949,10 @@ https://hlszone.com/cdn/hls/753b72d9c729bb468399bf949da5f009/master.txt
 https://hlszone.com/cdn/hls/3f61ee041174df6370c9f731f4745cfa/master.txt
 #EXTINF:-1 tvg-name="Sekizinci Aile {tmdb-304774} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/y8NmGRfD3GuhhR8bTj7rXWkOMqk.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Sekizinci Aile {tmdb-304774} - S00E02
 https://hlszone.com/cdn/hls/90a2c31c7492785cde6c15f8b4ee88d5/master.txt
-#EXTINF:-1 tvg-name="Sekizinci Aile {tmdb-304774} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/y8NmGRfD3GuhhR8bTj7rXWkOMqk.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Sekizinci Aile {tmdb-304774} - S00E03
-https://hlszone.com/cdn/hls/62db2a336dbba714d676feccad00b4e6/master.txt
 #EXTINF:-1 tvg-name="Sekizinci Aile {tmdb-304774} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/y8NmGRfD3GuhhR8bTj7rXWkOMqk.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Sekizinci Aile {tmdb-304774} - S01E05
 https://hlszone.com/cdn/hls/19eae9c6f2f795fa29afc8b1fabc1782/master.txt
+#EXTINF:-1 tvg-name="Sekizinci Aile {tmdb-304774} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/y8NmGRfD3GuhhR8bTj7rXWkOMqk.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Sekizinci Aile {tmdb-304774} - S01E08
+https://hlszone.com/cdn/hls/62db2a336dbba714d676feccad00b4e6/master.txt
 #EXTINF:-1 tvg-name="Seni Tanıyorum {tmdb-320760} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pxXO2VE0vMnzXhUw9GQRAUFFPN6.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Seni Tanıyorum {tmdb-320760} - S01E01
 https://hlszone.com/cdn/hls/3e8869d1d6ba6e0aaca0485ff50d21dc/master.txt
 #EXTINF:-1 tvg-name="Seni Tanıyorum {tmdb-320760} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pxXO2VE0vMnzXhUw9GQRAUFFPN6.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Seni Tanıyorum {tmdb-320760} - S01E02
@@ -36091,12 +36091,12 @@ https://hlszone.com/cdn/hls/3967f1fce99a8f6c1a30c535b1cd4389/master.txt
 https://hlszone.com/cdn/hls/bdf0f17e5fd2254dc014a6fa8b164ea2/master.txt
 #EXTINF:-1 tvg-name="Dandelion {tmdb-316973} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/r5Cq5wax0sQ1ModcZXWKyXF1xpy.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Dandelion {tmdb-316973} - S01E07
 https://hlszone.com/cdn/hls/995eb616c1d7b8b050225982a3047330/master.txt
-#EXTINF:-1 tvg-name="Devil May Cry {tmdb-235930} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mX9tqfpjqwreONJHhap7SnSSowe.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Devil May Cry {tmdb-235930} - S00E01
-https://hlszone.com/cdn/hls/c120e8d2d031b5e64d0d6d6f7a6faabe/master.txt
 #EXTINF:-1 tvg-name="Devil May Cry {tmdb-235930} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mX9tqfpjqwreONJHhap7SnSSowe.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Devil May Cry {tmdb-235930} - S00E02
 https://hlszone.com/cdn/hls/9070c05dfd40cee64e04e538f1b63328/master.txt
 #EXTINF:-1 tvg-name="Devil May Cry {tmdb-235930} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mX9tqfpjqwreONJHhap7SnSSowe.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Devil May Cry {tmdb-235930} - S00E03
 https://hlszone.com/cdn/hls/1b8fa4dc5c2588ee4bf557fd64a3cca3/master.txt
+#EXTINF:-1 tvg-name="Devil May Cry {tmdb-235930} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mX9tqfpjqwreONJHhap7SnSSowe.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Devil May Cry {tmdb-235930} - S01E08
+https://hlszone.com/cdn/hls/c120e8d2d031b5e64d0d6d6f7a6faabe/master.txt
 #EXTINF:-1 tvg-name="Devil May Cry {tmdb-235930} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mX9tqfpjqwreONJHhap7SnSSowe.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Devil May Cry {tmdb-235930} - S02E01
 https://hlszone.com/cdn/hls/65741196c8343528fc30982d9d7c83a5/master.txt
 #EXTINF:-1 tvg-name="Devil May Cry {tmdb-235930} - S02E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mX9tqfpjqwreONJHhap7SnSSowe.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Devil May Cry {tmdb-235930} - S02E02
@@ -36145,12 +36145,6 @@ https://hlszone.com/cdn/hls/6b93b2be60865617ebab4403654f0460/master.txt
 https://hlszone.com/cdn/hls/dcf1199972717e46be0c4410e4ad89eb/master.txt
 #EXTINF:-1 tvg-name="Helluva Boss {tmdb-289892} - S03E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Helluva Boss {tmdb-289892} - S03E07
 https://hlszone.com/cdn/hls/ae7bad5bfd5e93bed8aa94fa360203e5/master.txt
-#EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S00E01
-https://hlszone.com/cdn/hls/e0a739b6b92bf840b07477c0d891afb6/master.txt
-#EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S00E02
-https://hlszone.com/cdn/hls/c1430e3882c5b53f4ec0502bf26daf4f/master.txt
-#EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S00E03
-https://hlszone.com/cdn/hls/161e63adbea3dc82c6f69cb80752bcaa/master.txt
 #EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S01E01
 https://hlszone.com/cdn/hls/9b1eff7b7e0df06b6e4a03e59f5a962d/master.txt
 #EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S01E02
@@ -36177,6 +36171,12 @@ https://hlszone.com/cdn/hls/3c69a1c9463f80e8ffc1b353d5859bd6/master.txt
 https://hlszone.com/cdn/hls/54666e02fc009cdf28aa809a394c9335/master.txt
 #EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S04E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S04E05
 https://hlszone.com/cdn/hls/68ff1e21991b2b58f6fc3d95e9cf00d4/master.txt
+#EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S04E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S04E06
+https://hlszone.com/cdn/hls/161e63adbea3dc82c6f69cb80752bcaa/master.txt
+#EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S04E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S04E07
+https://hlszone.com/cdn/hls/e0a739b6b92bf840b07477c0d891afb6/master.txt
+#EXTINF:-1 tvg-name="Invincible {tmdb-95557} - S04E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Invincible {tmdb-95557} - S04E08
+https://hlszone.com/cdn/hls/c1430e3882c5b53f4ec0502bf26daf4f/master.txt
 #EXTINF:-1 tvg-name="Lucky Luke {tmdb-65392} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3UtiRPf8K4Y2SC36qjhKLz9qCUB.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Lucky Luke {tmdb-65392} - S00E01
 https://hlszone.com/cdn/hls/0d31a258aa8cdf4090d52c9da1dd2430/master.txt
 #EXTINF:-1 tvg-name="Lucky Luke {tmdb-65392} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3UtiRPf8K4Y2SC36qjhKLz9qCUB.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Lucky Luke {tmdb-65392} - S00E02
@@ -36341,8 +36341,6 @@ https://hlszone.com/cdn/hls/b0988fdafd10c518f27d5ac575a857ba/master.txt
 https://hlszone.com/cdn/hls/c9c5796f338decfec5dfa6c5db39b0fc/master.txt
 #EXTINF:-1 tvg-name="Star Wars: Maul Shadow Lord {tmdb-289219} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Maul Shadow Lord {tmdb-289219} - S00E02
 https://hlszone.com/cdn/hls/dde78fe79bf5657371adc4f0c432a723/master.txt
-#EXTINF:-1 tvg-name="Star Wars: Maul Shadow Lord {tmdb-289219} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Maul Shadow Lord {tmdb-289219} - S00E03
-https://hlszone.com/cdn/hls/130d3c455c806dd3c4595fc84b74151b/master.txt
 #EXTINF:-1 tvg-name="Star Wars: Maul Shadow Lord {tmdb-289219} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Maul Shadow Lord {tmdb-289219} - S01E01
 https://hlszone.com/cdn/hls/ec6c860c097d221678423a603a305c4a/master.txt
 #EXTINF:-1 tvg-name="Star Wars: Maul Shadow Lord {tmdb-289219} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Maul Shadow Lord {tmdb-289219} - S01E02
@@ -36357,6 +36355,8 @@ https://hlszone.com/cdn/hls/07f38d9e6f07354e43a528620b0ce28f/master.txt
 https://hlszone.com/cdn/hls/a44660b488a7672c103a89ec4c7a6af0/master.txt
 #EXTINF:-1 tvg-name="Star Wars: Maul Shadow Lord {tmdb-289219} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Maul Shadow Lord {tmdb-289219} - S01E07
 https://hlszone.com/cdn/hls/375d0eb02f59e0d94111339aeea95def/master.txt
+#EXTINF:-1 tvg-name="Star Wars: Maul Shadow Lord {tmdb-289219} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Maul Shadow Lord {tmdb-289219} - S01E08
+https://hlszone.com/cdn/hls/130d3c455c806dd3c4595fc84b74151b/master.txt
 #EXTINF:-1 tvg-name="Star Wars: Visions Presents - The Ninth Jedi {tmdb-289324} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/AthqHRKJFOIbLa459I3D5yHdrQL.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Visions Presents - The Ninth Jedi {tmdb-289324} - S00E01
 https://hlszone.com/cdn/hls/e067e2584eee09699684f06f057f5038/master.txt
 #EXTINF:-1 tvg-name="Star Wars: Visions Presents - The Ninth Jedi {tmdb-289324} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/AthqHRKJFOIbLa459I3D5yHdrQL.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",Star Wars: Visions Presents - The Ninth Jedi {tmdb-289324} - S00E02
@@ -36429,10 +36429,6 @@ https://hlszone.com/cdn/hls/8a8db4f9c1112737074ab2d5f380cb36/master.txt
 https://hlszone.com/cdn/hls/e01e97bb9fd22e3c989b08f09ed8efe4/master.txt
 #EXTINF:-1 tvg-name="The Bad Guys: Breaking In - S02E07"tvg-id=""tvg-logo=""tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Bad Guys: Breaking In - S02E07
 https://hlszone.com/cdn/hls/e6dea05fb9378719738875e51358ccaf/master.txt
-#EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S00E01
-https://hlszone.com/cdn/hls/0c06c7e5c8baca398346a054d114c411/master.txt
-#EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S00E02
-https://hlszone.com/cdn/hls/ba304029393d336aaed60bb98287597a/master.txt
 #EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S04E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S04E01
 https://hlszone.com/cdn/hls/9f25692939359a5101bab1a69a10fcbf/master.txt
 #EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S04E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S04E02
@@ -36451,8 +36447,12 @@ https://hlszone.com/cdn/hls/e3235a453de57c2d399670611ab89590/master.txt
 https://hlszone.com/cdn/hls/529a9a411e1b24b6c0b30406c2e74701/master.txt
 #EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S04E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S04E09
 https://hlszone.com/cdn/hls/a49162da683633459e8b4459ea41c054/master.txt
+#EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S04E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S04E10
+https://hlszone.com/cdn/hls/0c06c7e5c8baca398346a054d114c411/master.txt
 #EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S04E11"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S04E11
 https://hlszone.com/cdn/hls/fe31520533a205b1d415b7b592252ec5/master.txt
+#EXTINF:-1 tvg-name="The Legend of Vox Machina {tmdb-135934} - S04E12"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zjQTSYZEmy0GVnK1aFLvNiAwluo.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Legend of Vox Machina {tmdb-135934} - S04E12
+https://hlszone.com/cdn/hls/ba304029393d336aaed60bb98287597a/master.txt
 #EXTINF:-1 tvg-name="The Ramparts of Ice {tmdb-283428} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7Vj92GlRvdZtzeRzJDHfr0JiP8Z.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Ramparts of Ice {tmdb-283428} - S02E01
 https://hlszone.com/cdn/hls/9efc1fea7aa3260365b95e1f7d45eb2b/master.txt
 #EXTINF:-1 tvg-name="The Ramparts of Ice {tmdb-283428} - S02E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7Vj92GlRvdZtzeRzJDHfr0JiP8Z.jpg"tvg-chno=""tvg-type="series"group-title="Animation Series":http-referrer="",The Ramparts of Ice {tmdb-283428} - S02E02
@@ -36643,10 +36643,6 @@ https://hlszone.com/cdn/hls/a931d63555115f191b61c74169d5cf40/master.txt
 https://hlszone.com/cdn/hls/510debfa6aa877f8e9dc7b714d4255d1/master.txt
 #EXTINF:-1 tvg-name="1670 {tmdb-236450} - S03E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/dQ0bRkuVK3Lla9AfFGo6CpVwlCb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",1670 {tmdb-236450} - S03E08
 https://hlszone.com/cdn/hls/9dd8ed3430f732d80b9fa24dc7e07757/master.txt
-#EXTINF:-1 tvg-name="4 Blocks Zero {tmdb-310133} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7fDor1DkI6tNBvzTXbaWy5lRJu.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",4 Blocks Zero {tmdb-310133} - S00E01
-https://hlszone.com/cdn/hls/13f5555ffff9bd6a937b8331f7511bea/master.txt
-#EXTINF:-1 tvg-name="4 Blocks Zero {tmdb-310133} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7fDor1DkI6tNBvzTXbaWy5lRJu.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",4 Blocks Zero {tmdb-310133} - S00E03
-https://hlszone.com/cdn/hls/337401f4b5f35c8a2ffff0c9ba335d77/master.txt
 #EXTINF:-1 tvg-name="4 Blocks Zero {tmdb-310133} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7fDor1DkI6tNBvzTXbaWy5lRJu.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",4 Blocks Zero {tmdb-310133} - S01E01
 https://hlszone.com/cdn/hls/4a261e0614bef9cc431ab272ddf3ba76/master.txt
 #EXTINF:-1 tvg-name="4 Blocks Zero {tmdb-310133} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7fDor1DkI6tNBvzTXbaWy5lRJu.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",4 Blocks Zero {tmdb-310133} - S01E02
@@ -36659,6 +36655,10 @@ https://hlszone.com/cdn/hls/73ee8c1c2bdf41c59585906a71f04338/master.txt
 https://hlszone.com/cdn/hls/628c0a039db765b26d7ec3c2af2cdcd9/master.txt
 #EXTINF:-1 tvg-name="4 Blocks Zero {tmdb-310133} - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7fDor1DkI6tNBvzTXbaWy5lRJu.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",4 Blocks Zero {tmdb-310133} - S01E06
 https://hlszone.com/cdn/hls/bdf51fda6a8526355e1e66aae6e3c86e/master.txt
+#EXTINF:-1 tvg-name="4 Blocks Zero {tmdb-310133} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7fDor1DkI6tNBvzTXbaWy5lRJu.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",4 Blocks Zero {tmdb-310133} - S01E07
+https://hlszone.com/cdn/hls/13f5555ffff9bd6a937b8331f7511bea/master.txt
+#EXTINF:-1 tvg-name="4 Blocks Zero {tmdb-310133} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/g7fDor1DkI6tNBvzTXbaWy5lRJu.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",4 Blocks Zero {tmdb-310133} - S01E08
+https://hlszone.com/cdn/hls/337401f4b5f35c8a2ffff0c9ba335d77/master.txt
 #EXTINF:-1 tvg-name="56 Days {tmdb-241372} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sdJLbucggwGj8NdX0UN2zt1Vwmn.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",56 Days {tmdb-241372} - S00E01
 https://hlszone.com/cdn/hls/2d10d757b33ef235f646675506cec19d/master.txt
 #EXTINF:-1 tvg-name="56 Days {tmdb-241372} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/sdJLbucggwGj8NdX0UN2zt1Vwmn.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",56 Days {tmdb-241372} - S00E02
@@ -36987,8 +36987,6 @@ https://hlszone.com/cdn/hls/89168870a5a9a382fbbe127d8b5ec488/master.txt
 https://hlszone.com/cdn/hls/2e82615dbe1ac6df220ad747eb9b749f/master.txt
 #EXTINF:-1 tvg-name="Band of Brothers {tmdb-4613} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/eLdcio9HBKzsdIJGeD80oObDfkr.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Band of Brothers {tmdb-4613} - S01E07
 https://hlszone.com/cdn/hls/79af32d99af49378543e2b81bc650f74/master.txt
-#EXTINF:-1 tvg-name="Banksters {tmdb-312073} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ntiVdQ1UbEu8h5HLXVhlf7ri7D1.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Banksters {tmdb-312073} - S00E01
-https://hlszone.com/cdn/hls/9dcf3d29f7438b33d69d795f31fe2673/master.txt
 #EXTINF:-1 tvg-name="Banksters {tmdb-312073} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ntiVdQ1UbEu8h5HLXVhlf7ri7D1.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Banksters {tmdb-312073} - S00E02
 https://hlszone.com/cdn/hls/e712c80ce3dc10704e2ffa2d2885883b/master.txt
 #EXTINF:-1 tvg-name="Banksters {tmdb-312073} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ntiVdQ1UbEu8h5HLXVhlf7ri7D1.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Banksters {tmdb-312073} - S00E03
@@ -36999,6 +36997,8 @@ https://hlszone.com/cdn/hls/576fa89ac4d25f15e7858b094593c14e/master.txt
 https://hlszone.com/cdn/hls/8e1c88a4faf1b660624bbb0d73563050/master.txt
 #EXTINF:-1 tvg-name="Banksters {tmdb-312073} - S01E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ntiVdQ1UbEu8h5HLXVhlf7ri7D1.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Banksters {tmdb-312073} - S01E03
 https://hlszone.com/cdn/hls/6a3a754eea244653f27bd12d05952f52/master.txt
+#EXTINF:-1 tvg-name="Banksters {tmdb-312073} - S01E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/ntiVdQ1UbEu8h5HLXVhlf7ri7D1.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Banksters {tmdb-312073} - S01E04
+https://hlszone.com/cdn/hls/9dcf3d29f7438b33d69d795f31fe2673/master.txt
 #EXTINF:-1 tvg-name="Beacon 23 {tmdb-112388} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/navBdlLzcebb6ANZVg24Szfil9h.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Beacon 23 {tmdb-112388} - S00E01
 https://hlszone.com/cdn/hls/732da53f6feb860685a9325b5aa69d77/master.txt
 #EXTINF:-1 tvg-name="Beacon 23 {tmdb-112388} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/navBdlLzcebb6ANZVg24Szfil9h.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Beacon 23 {tmdb-112388} - S00E02
@@ -37091,10 +37091,6 @@ https://hlszone.com/cdn/hls/feae89c2402136e14e27c148dbedd881/master.txt
 https://hlszone.com/cdn/hls/0fb4d8022b40ffe3c9be44f6cf2f937d/master.txt
 #EXTINF:-1 tvg-name="Berlin {tmdb-146176} - S02E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/69YuvoiWTtK6oyYH2Jl4Q6SgZ59.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Berlin {tmdb-146176} - S02E05
 https://hlszone.com/cdn/hls/7097fa2bdda5d1b2f711ff662b766c9f/master.txt
-#EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S00E01
-https://hlszone.com/cdn/hls/316da2492e6ba8998b13153d87729110/master.txt
-#EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S00E03
-https://hlszone.com/cdn/hls/52bbde36aab5ae6e5e35d58363fb9515/master.txt
 #EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S01E01
 https://hlszone.com/cdn/hls/b3ed74ab376332525d71d6106acb54bf/master.txt
 #EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S01E02
@@ -37105,6 +37101,10 @@ https://hlszone.com/cdn/hls/d21ad5ce02c49e08093b029a131e6964/master.txt
 https://hlszone.com/cdn/hls/4fc34da154911355416096885c1e0ac2/master.txt
 #EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S01E05
 https://hlszone.com/cdn/hls/c752f5f7b0d2c19502dc797ab442a612/master.txt
+#EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S01E06
+https://hlszone.com/cdn/hls/316da2492e6ba8998b13153d87729110/master.txt
+#EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S01E07
+https://hlszone.com/cdn/hls/52bbde36aab5ae6e5e35d58363fb9515/master.txt
 #EXTINF:-1 tvg-name="Big Mistakes {tmdb-291506} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Big Mistakes {tmdb-291506} - S01E08
 https://hlszone.com/cdn/hls/c5f166aece3321dd18839962d7496031/master.txt
 #EXTINF:-1 tvg-name="Black Bird {tmdb-155537} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/qu312pwM61NPTr7nexvovCClDNP.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Black Bird {tmdb-155537} - S00E01
@@ -37477,8 +37477,6 @@ https://hlszone.com/cdn/hls/8fdac6ca2e38c0f1d4cdfd5a4fb7e144/master.txt
 https://hlszone.com/cdn/hls/00b076e6bffa47b796962347c59beb2e/master.txt
 #EXTINF:-1 tvg-name="Dark Matter {tmdb-196322} - S02E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2DPmTlv8F0V1TQBPmlsGOVOhtWk.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Dark Matter {tmdb-196322} - S02E10
 https://hlszone.com/cdn/hls/7767287862215efd52611e39fc0f87aa/master.txt
-#EXTINF:-1 tvg-name="Day One {tmdb-285386} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/T6t1N2Z3sZ3vKTn5hKCrhWeeyT.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Day One {tmdb-285386} - S00E01
-https://hlszone.com/cdn/hls/4837591554703f63495fd87c4307f20c/master.txt
 #EXTINF:-1 tvg-name="Day One {tmdb-285386} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/T6t1N2Z3sZ3vKTn5hKCrhWeeyT.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Day One {tmdb-285386} - S00E02
 https://hlszone.com/cdn/hls/d4c33bec7fc6c21f33ea365ef2dd5d84/master.txt
 #EXTINF:-1 tvg-name="Day One {tmdb-285386} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/T6t1N2Z3sZ3vKTn5hKCrhWeeyT.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Day One {tmdb-285386} - S00E03
@@ -37489,6 +37487,8 @@ https://hlszone.com/cdn/hls/f083b008c14296da3e59ed3feca5ed7c/master.txt
 https://hlszone.com/cdn/hls/4e1712383b64e168501f013f3493f93c/master.txt
 #EXTINF:-1 tvg-name="Day One {tmdb-285386} - S01E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/T6t1N2Z3sZ3vKTn5hKCrhWeeyT.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Day One {tmdb-285386} - S01E03
 https://hlszone.com/cdn/hls/04e55e0987d0d1c2aaf3bd02efe370c9/master.txt
+#EXTINF:-1 tvg-name="Day One {tmdb-285386} - S01E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/T6t1N2Z3sZ3vKTn5hKCrhWeeyT.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Day One {tmdb-285386} - S01E04
+https://hlszone.com/cdn/hls/4837591554703f63495fd87c4307f20c/master.txt
 #EXTINF:-1 tvg-name="Deadloch {tmdb-225780} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7rI7T4AfSzOx0Rqw73AusyIpeXf.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Deadloch {tmdb-225780} - S02E01
 https://hlszone.com/cdn/hls/6443f35039dceb60c983e52439dad5c7/master.txt
 #EXTINF:-1 tvg-name="Deadloch {tmdb-225780} - S02E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7rI7T4AfSzOx0Rqw73AusyIpeXf.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Deadloch {tmdb-225780} - S02E02
@@ -37517,10 +37517,6 @@ https://hlszone.com/cdn/hls/2e751f1d46e01b97c1b14a41933ded84/master.txt
 https://hlszone.com/cdn/hls/7db7956fea47b32a9885c4b730494483/master.txt
 #EXTINF:-1 tvg-name="Defending Jacob {tmdb-87784} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Defending Jacob {tmdb-87784} - S01E05
 https://hlszone.com/cdn/hls/23b5f27e095847eb8d2f00a2eab7f7b4/master.txt
-#EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S00E01
-https://hlszone.com/cdn/hls/bb5318e47b24780e950105ef5ac49622/master.txt
-#EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S00E03
-https://hlszone.com/cdn/hls/100af0659bc26b2a146c8dda6fdd4a6d/master.txt
 #EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S01E01
 https://hlszone.com/cdn/hls/5d1462e9baab671e2455520016840387/master.txt
 #EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S01E02
@@ -37533,6 +37529,10 @@ https://hlszone.com/cdn/hls/66285fb1665aaa02b490be0bc7c3f113/master.txt
 https://hlszone.com/cdn/hls/f1eb753a92de262a9ee527f7a687ac90/master.txt
 #EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S01E06
 https://hlszone.com/cdn/hls/e4bd1d2f761a6b8de0f714c9314e23c1/master.txt
+#EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S01E07
+https://hlszone.com/cdn/hls/100af0659bc26b2a146c8dda6fdd4a6d/master.txt
+#EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S01E08
+https://hlszone.com/cdn/hls/bb5318e47b24780e950105ef5ac49622/master.txt
 #EXTINF:-1 tvg-name="Detective Hole {tmdb-249597} - S01E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/j61dmzEq4aRWJZk5tPyjzpHj8T2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Detective Hole {tmdb-249597} - S01E09
 https://hlszone.com/cdn/hls/b7fec17239f0e97c8824d25675bb62b1/master.txt
 #EXTINF:-1 tvg-name="Dexter: Resurrection {tmdb-259909} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/o2Oyi3boT100bY5kCP4MBiTeetO.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Dexter: Resurrection {tmdb-259909} - S02E01
@@ -38209,10 +38209,6 @@ https://hlszone.com/cdn/hls/0b6cfb00b0a9e95d3e8ce11fa3d80aa9/master.txt
 https://hlszone.com/cdn/hls/3052b0224baf64a19e0ce46fc0dc9a4c/master.txt
 #EXTINF:-1 tvg-name="Inside The Circle {tmdb-290233} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3JpnP8fYVb9B9FuvdGT4ZkRRYZJ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Inside The Circle {tmdb-290233} - S01E08
 https://hlszone.com/cdn/hls/ecfe22b89fcb9bf7936f7ad67736a548/master.txt
-#EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S00E01
-https://hlszone.com/cdn/hls/f164fcbbe58ce739c0a5e52620aa9ba8/master.txt
-#EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S00E03
-https://hlszone.com/cdn/hls/5362e40af4ab09f63d1b38fe8c30df3c/master.txt
 #EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S01E01
 https://hlszone.com/cdn/hls/24b984c1a0c5db758f0ef77d5b1fb698/master.txt
 #EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S01E02
@@ -38267,6 +38263,10 @@ https://hlszone.com/cdn/hls/b5f82f7315a496d1a952a0aa7d25e68b/master.txt
 https://hlszone.com/cdn/hls/9f598120550d38347ae94afc55390344/master.txt
 #EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S03E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S03E07
 https://hlszone.com/cdn/hls/023f5d48e65fc02ff0fde9d48c841364/master.txt
+#EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S03E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S03E08
+https://hlszone.com/cdn/hls/5362e40af4ab09f63d1b38fe8c30df3c/master.txt
+#EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S03E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S03E09
+https://hlszone.com/cdn/hls/f164fcbbe58ce739c0a5e52620aa9ba8/master.txt
 #EXTINF:-1 tvg-name="Invasion {tmdb-127235} - S03E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1PdNB3rYTcf8VXc8rcmZ0SeYxSq.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Invasion {tmdb-127235} - S03E10
 https://hlszone.com/cdn/hls/1e58fb29a1c44e4ad99a3f3aafd96611/master.txt
 #EXTINF:-1 tvg-name="I Will Find You {tmdb-278178} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pb9oYHHNzauiCQZT03MpDAg46GI.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Will Find You {tmdb-278178} - S00E01
@@ -38285,12 +38285,6 @@ https://hlszone.com/cdn/hls/c250fcc1587ca9165854efb60ba275c6/master.txt
 https://hlszone.com/cdn/hls/619112c68514587a7979d7b074e683a8/master.txt
 #EXTINF:-1 tvg-name="I Will Find You {tmdb-278178} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/pb9oYHHNzauiCQZT03MpDAg46GI.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Will Find You {tmdb-278178} - S01E05
 https://hlszone.com/cdn/hls/8453b7070e3514f200dbe5c92cd9fb81/master.txt
-#EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S00E01
-https://hlszone.com/cdn/hls/947afb6bf4277432ef59b1e282b8b505/master.txt
-#EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S00E02
-https://hlszone.com/cdn/hls/43d738a637286d834992b4b140ebcb52/master.txt
-#EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S00E03
-https://hlszone.com/cdn/hls/d3eff10f36dd83c6702e9f43407e9041/master.txt
 #EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S01E01
 https://hlszone.com/cdn/hls/948741f0fe053141fb0de907a025c323/master.txt
 #EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S01E02
@@ -38301,6 +38295,12 @@ https://hlszone.com/cdn/hls/05e0d52389914dcd98e9d6bb959759dd/master.txt
 https://hlszone.com/cdn/hls/135b9a200e41349fca21b82f5d83d002/master.txt
 #EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S01E05
 https://hlszone.com/cdn/hls/d8be03f226f296098cea4634a57f7ec0/master.txt
+#EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S01E06
+https://hlszone.com/cdn/hls/d3eff10f36dd83c6702e9f43407e9041/master.txt
+#EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S01E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S01E07
+https://hlszone.com/cdn/hls/947afb6bf4277432ef59b1e282b8b505/master.txt
+#EXTINF:-1 tvg-name="I Would Rather Die {tmdb-335227} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",I Would Rather Die {tmdb-335227} - S01E08
+https://hlszone.com/cdn/hls/43d738a637286d834992b4b140ebcb52/master.txt
 #EXTINF:-1 tvg-name="Kill Jackie {tmdb-284558} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Kill Jackie {tmdb-284558} - S01E01
 https://hlszone.com/cdn/hls/bf147964a39ee33804e13c3dae62cdb8/master.txt
 #EXTINF:-1 tvg-name="Kill Jackie {tmdb-284558} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Kill Jackie {tmdb-284558} - S01E02
@@ -38949,14 +38949,14 @@ https://hlszone.com/cdn/hls/d1efc8e219c3949b07e99bfba5631068/master.txt
 https://hlszone.com/cdn/hls/dbbc8aace9aad29304c1f8ae5096227a/master.txt
 #EXTINF:-1 tvg-name="Outlander: Blood of My Blood {tmdb-207484} - S02E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1pGBdq4ssO2p5H2WFMlADH6pwZ6.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Outlander: Blood of My Blood {tmdb-207484} - S02E08
 https://hlszone.com/cdn/hls/49a0d1cde9b35114cfe59925f8ef8e32/master.txt
-#EXTINF:-1 tvg-name="Palm Royale {tmdb-157367} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Palm Royale {tmdb-157367} - S00E01
-https://hlszone.com/cdn/hls/aeda51f12b50506ac0ce17bb8792b8ce/master.txt
-#EXTINF:-1 tvg-name="Palm Royale {tmdb-157367} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Palm Royale {tmdb-157367} - S00E02
-https://hlszone.com/cdn/hls/c68644c6b6953788eb362a266dd35db3/master.txt
 #EXTINF:-1 tvg-name="Palm Royale {tmdb-157367} - S02E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Palm Royale {tmdb-157367} - S02E07
 https://hlszone.com/cdn/hls/d34d30c98d910c6d0c6757674ecc7ef2/master.txt
+#EXTINF:-1 tvg-name="Palm Royale {tmdb-157367} - S02E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Palm Royale {tmdb-157367} - S02E08
+https://hlszone.com/cdn/hls/c68644c6b6953788eb362a266dd35db3/master.txt
 #EXTINF:-1 tvg-name="Palm Royale {tmdb-157367} - S02E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Palm Royale {tmdb-157367} - S02E09
 https://hlszone.com/cdn/hls/6c161172253fbc06aa67dea1ae453314/master.txt
+#EXTINF:-1 tvg-name="Palm Royale {tmdb-157367} - S02E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Palm Royale {tmdb-157367} - S02E10
+https://hlszone.com/cdn/hls/aeda51f12b50506ac0ce17bb8792b8ce/master.txt
 #EXTINF:-1 tvg-name="Paradise {tmdb-245927} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Paradise {tmdb-245927} - S02E01
 https://hlszone.com/cdn/hls/6ce615c66aa8937d44324d7e2666d4b3/master.txt
 #EXTINF:-1 tvg-name="Paradise {tmdb-245927} - S02E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Paradise {tmdb-245927} - S02E02
@@ -38973,10 +38973,10 @@ https://hlszone.com/cdn/hls/4beae932c0fba4a1577df6444ad0ac12/master.txt
 https://hlszone.com/cdn/hls/59d4ab79c459ffe216c57a04d8a9491b/master.txt
 #EXTINF:-1 tvg-name="Paradise {tmdb-245927} - S02E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Paradise {tmdb-245927} - S02E08
 https://hlszone.com/cdn/hls/e9a5dd87476d613009a123e1384abba2/master.txt
-#EXTINF:-1 tvg-name="Percy Jackson and the Olympians {tmdb-103540} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zofPiEpwCRYaezOncTlQwXebHFU.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Percy Jackson and the Olympians {tmdb-103540} - S00E01
-https://hlszone.com/cdn/hls/5b4efc1db4371c1446aaeaea72db1ae8/master.txt
 #EXTINF:-1 tvg-name="Percy Jackson and the Olympians {tmdb-103540} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zofPiEpwCRYaezOncTlQwXebHFU.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Percy Jackson and the Olympians {tmdb-103540} - S00E03
 https://hlszone.com/cdn/hls/71cfbbc6d42d37515767582d607c8c5d/master.txt
+#EXTINF:-1 tvg-name="Percy Jackson and the Olympians {tmdb-103540} - S02E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zofPiEpwCRYaezOncTlQwXebHFU.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Percy Jackson and the Olympians {tmdb-103540} - S02E03
+https://hlszone.com/cdn/hls/5b4efc1db4371c1446aaeaea72db1ae8/master.txt
 #EXTINF:-1 tvg-name="Percy Jackson and the Olympians {tmdb-103540} - S02E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zofPiEpwCRYaezOncTlQwXebHFU.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Percy Jackson and the Olympians {tmdb-103540} - S02E04
 https://hlszone.com/cdn/hls/3c7b7a9b920deae95b571fc27432332a/master.txt
 #EXTINF:-1 tvg-name="Percy Jackson and the Olympians {tmdb-103540} - S02E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zofPiEpwCRYaezOncTlQwXebHFU.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Percy Jackson and the Olympians {tmdb-103540} - S02E05
@@ -39055,8 +39055,6 @@ https://hlszone.com/cdn/hls/71df3fcc1c10162ba2c7e050914f5e94/master.txt
 https://hlszone.com/cdn/hls/ceab2612a6fe11d1adebd3c7bd236ba7/master.txt
 #EXTINF:-1 tvg-name="Presumed Innocent {tmdb-156933} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7MXg0BxuSRWz2yKc03M40du2mrc.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Presumed Innocent {tmdb-156933} - S00E01
 https://hlszone.com/cdn/hls/d7b2acb58e15978153a628cab6bcbebd/master.txt
-#EXTINF:-1 tvg-name="Presumed Innocent {tmdb-156933} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7MXg0BxuSRWz2yKc03M40du2mrc.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Presumed Innocent {tmdb-156933} - S00E02
-https://hlszone.com/cdn/hls/78ad75ab5ce9735da739939c1665f8d3/master.txt
 #EXTINF:-1 tvg-name="Presumed Innocent {tmdb-156933} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7MXg0BxuSRWz2yKc03M40du2mrc.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Presumed Innocent {tmdb-156933} - S00E03
 https://hlszone.com/cdn/hls/a54aff3fa88b57b18c5ad863ff71a479/master.txt
 #EXTINF:-1 tvg-name="Presumed Innocent {tmdb-156933} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7MXg0BxuSRWz2yKc03M40du2mrc.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Presumed Innocent {tmdb-156933} - S01E01
@@ -39069,6 +39067,8 @@ https://hlszone.com/cdn/hls/2c4ef7b0b882a5273ab318173c35bc30/master.txt
 https://hlszone.com/cdn/hls/8e6ded64d8a52786c652dbab362a16d2/master.txt
 #EXTINF:-1 tvg-name="Presumed Innocent {tmdb-156933} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7MXg0BxuSRWz2yKc03M40du2mrc.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Presumed Innocent {tmdb-156933} - S01E05
 https://hlszone.com/cdn/hls/4337d4df03918232c4ba451287c8fd31/master.txt
+#EXTINF:-1 tvg-name="Presumed Innocent {tmdb-156933} - S01E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/7MXg0BxuSRWz2yKc03M40du2mrc.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Presumed Innocent {tmdb-156933} - S01E08
+https://hlszone.com/cdn/hls/78ad75ab5ce9735da739939c1665f8d3/master.txt
 #EXTINF:-1 tvg-name="Privileges {tmdb-283853} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bFmWIfzkcuiDZ4WqkOfVaHb4pR8.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Privileges {tmdb-283853} - S01E01
 https://hlszone.com/cdn/hls/0647ea90779bd546e92b26bde87d3005/master.txt
 #EXTINF:-1 tvg-name="Privileges {tmdb-283853} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bFmWIfzkcuiDZ4WqkOfVaHb4pR8.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Privileges {tmdb-283853} - S01E02
@@ -39771,10 +39771,6 @@ https://hlszone.com/cdn/hls/cf2c74e86179b32c9dc4c7ad660704ed/master.txt
 https://hlszone.com/cdn/hls/f03c9f7d93891be02759f623e5896be2/master.txt
 #EXTINF:-1 tvg-name="Something Very Bad Is Going to Happen {tmdb-259265} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Something Very Bad Is Going to Happen {tmdb-259265} - S01E05
 https://hlszone.com/cdn/hls/91d24945f94bc1b311ef936dd86b4e7e/master.txt
-#EXTINF:-1 tvg-name="Soul Mate {tmdb-16120} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2HxNkrtEOgP4VEKzVBdBHHsnO6o.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Soul Mate {tmdb-16120} - S00E02
-https://hlszone.com/cdn/hls/6de4e5c6fe3d2d5113a7f612a17c09aa/master.txt
-#EXTINF:-1 tvg-name="Soul Mate {tmdb-16120} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2HxNkrtEOgP4VEKzVBdBHHsnO6o.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Soul Mate {tmdb-16120} - S00E03
-https://hlszone.com/cdn/hls/6983cb3edc059003ad84f9bf5ac99192/master.txt
 #EXTINF:-1 tvg-name="Soul Mate {tmdb-16120} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2HxNkrtEOgP4VEKzVBdBHHsnO6o.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Soul Mate {tmdb-16120} - S01E01
 https://hlszone.com/cdn/hls/7f6349d1a15821cb28c4c1ff53bb4612/master.txt
 #EXTINF:-1 tvg-name="Soul Mate {tmdb-16120} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2HxNkrtEOgP4VEKzVBdBHHsnO6o.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Soul Mate {tmdb-16120} - S01E02
@@ -39787,6 +39783,10 @@ https://hlszone.com/cdn/hls/ebe5a052eca038e49389009312637e86/master.txt
 https://hlszone.com/cdn/hls/15f2b667054aaa51d549f1757fbe52ce/master.txt
 #EXTINF:-1 tvg-name="Soul Mate {tmdb-16120} - S01E92"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2HxNkrtEOgP4VEKzVBdBHHsnO6o.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Soul Mate {tmdb-16120} - S01E92
 https://hlszone.com/cdn/hls/de46ded123e46f1375a16176e59df639/master.txt
+#EXTINF:-1 tvg-name="Soul Mate {tmdb-16120} - S01E224"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2HxNkrtEOgP4VEKzVBdBHHsnO6o.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Soul Mate {tmdb-16120} - S01E224
+https://hlszone.com/cdn/hls/6de4e5c6fe3d2d5113a7f612a17c09aa/master.txt
+#EXTINF:-1 tvg-name="Soul Mate {tmdb-16120} - S01E227"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/2HxNkrtEOgP4VEKzVBdBHHsnO6o.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Soul Mate {tmdb-16120} - S01E227
+https://hlszone.com/cdn/hls/6983cb3edc059003ad84f9bf5ac99192/master.txt
 #EXTINF:-1 tvg-name="Spider-Noir {tmdb-220102} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Spider-Noir {tmdb-220102} - S00E01
 https://hlszone.com/cdn/hls/98344d3e0c152fca465448e1d9293a72/master.txt
 #EXTINF:-1 tvg-name="Spider-Noir {tmdb-220102} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Spider-Noir {tmdb-220102} - S00E02
@@ -40297,10 +40297,6 @@ https://hlszone.com/cdn/hls/43f4dace94572a4c8c5785164e1fd952/master.txt
 https://hlszone.com/cdn/hls/ea06d5651c585b8d71f60ce1b525e04f/master.txt
 #EXTINF:-1 tvg-name="The Comeback {tmdb-1999} - S03E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/nFZF0ljINGUEa0wAW5d22Iqxjii.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Comeback {tmdb-1999} - S03E08
 https://hlszone.com/cdn/hls/50d15a754d3594c2a4ab5b09d24fc0a1/master.txt
-#EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S00E01
-https://hlszone.com/cdn/hls/c7898ea453e9449a6196266ca8778b8a/master.txt
-#EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S00E02
-https://hlszone.com/cdn/hls/4fa4c7564ca30b2da9c7c1d0b7b0d8b8/master.txt
 #EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S04E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S04E01
 https://hlszone.com/cdn/hls/b3019edb1b127f82894347233d8d5aeb/master.txt
 #EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S04E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S04E02
@@ -40311,6 +40307,10 @@ https://hlszone.com/cdn/hls/d2a9acdcef47a54241ecdaf3ef4d3901/master.txt
 https://hlszone.com/cdn/hls/bdc5351edf4e9ecfd47ad4c030433f97/master.txt
 #EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S04E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S04E05
 https://hlszone.com/cdn/hls/f1627946a8b2b72e9b37e417304d6f13/master.txt
+#EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S04E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S04E06
+https://hlszone.com/cdn/hls/c7898ea453e9449a6196266ca8778b8a/master.txt
+#EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S04E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S04E07
+https://hlszone.com/cdn/hls/4fa4c7564ca30b2da9c7c1d0b7b0d8b8/master.txt
 #EXTINF:-1 tvg-name="The Diplomat {tmdb-203857} - S04E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/cUy0ZYme43lop08nOtbQLWL0dX.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Diplomat {tmdb-203857} - S04E08
 https://hlszone.com/cdn/hls/bdc29260ba5927c030924317a2738f0f/master.txt
 #EXTINF:-1 tvg-name="The Doll {tmdb-295089} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/zJSceCJMF7C6AtdRycZjNjavCT.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Doll {tmdb-295089} - S00E01
@@ -40683,10 +40683,6 @@ https://hlszone.com/cdn/hls/c1de7b684adb12c7c227e5fe7c5b3adb/master.txt
 https://hlszone.com/cdn/hls/e966df30d6cbe4e018725dd40923c1f1/master.txt
 #EXTINF:-1 tvg-name="The Night Manager {tmdb-61859} - S02E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/1MccRnw41qQjREuZkovqP2UX1i3.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Night Manager {tmdb-61859} - S02E03
 https://hlszone.com/cdn/hls/dfd4c96d65b12250b1cb211c3710794e/master.txt
-#EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S00E01
-https://hlszone.com/cdn/hls/5705540374e9f34d7fefea21858903eb/master.txt
-#EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S00E02
-https://hlszone.com/cdn/hls/bf3f478b990ec9c62166c9a35bba2870/master.txt
 #EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S02E01
 https://hlszone.com/cdn/hls/9ab6815a6966f80c4fbba69e910132d8/master.txt
 #EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S02E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S02E02
@@ -40711,8 +40707,12 @@ https://hlszone.com/cdn/hls/dd477f207d78f4905893dde5244fb9b3/master.txt
 https://hlszone.com/cdn/hls/0615af5d4c0c540d6ec4a80ab3179a3b/master.txt
 #EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S02E12"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S02E12
 https://hlszone.com/cdn/hls/81daba28e84a4e9e7c785c031091e799/master.txt
+#EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S02E13"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S02E13
+https://hlszone.com/cdn/hls/bf3f478b990ec9c62166c9a35bba2870/master.txt
 #EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S02E14"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S02E14
 https://hlszone.com/cdn/hls/802122fa3f9525cab3b8697f879e4d1b/master.txt
+#EXTINF:-1 tvg-name="The Pitt {tmdb-250307} - S02E15"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Pitt {tmdb-250307} - S02E15
+https://hlszone.com/cdn/hls/5705540374e9f34d7fefea21858903eb/master.txt
 #EXTINF:-1 tvg-name="The Rookie {tmdb-79744} - S07E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Rookie {tmdb-79744} - S07E01
 https://hlszone.com/cdn/hls/6f1fd1569bd89c024092157f75d6cf42/master.txt
 #EXTINF:-1 tvg-name="The Rookie {tmdb-79744} - S07E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",The Rookie {tmdb-79744} - S07E02
@@ -41157,8 +41157,6 @@ https://hlszone.com/cdn/hls/44ae8acd1308a8932da0ac25231b242e/master.txt
 https://hlszone.com/cdn/hls/1c03d347c02369e6f5cfc3b2c09a69e3/master.txt
 #EXTINF:-1 tvg-name="Women in Blue {tmdb-253983} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9CHpaYUqgFM81e0emaWkfyFyche.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Women in Blue {tmdb-253983} - S00E01
 https://hlszone.com/cdn/hls/d295ebdc2202580e0c3a2addfde6bedb/master.txt
-#EXTINF:-1 tvg-name="Women in Blue {tmdb-253983} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9CHpaYUqgFM81e0emaWkfyFyche.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Women in Blue {tmdb-253983} - S00E02
-https://hlszone.com/cdn/hls/c968898c3dbcb8dfaa16f381202cd654/master.txt
 #EXTINF:-1 tvg-name="Women in Blue {tmdb-253983} - S02E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9CHpaYUqgFM81e0emaWkfyFyche.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Women in Blue {tmdb-253983} - S02E01
 https://hlszone.com/cdn/hls/ed58920a6baa8d926c0e7ed9c470916e/master.txt
 #EXTINF:-1 tvg-name="Women in Blue {tmdb-253983} - S02E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9CHpaYUqgFM81e0emaWkfyFyche.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Women in Blue {tmdb-253983} - S02E02
@@ -41169,10 +41167,10 @@ https://hlszone.com/cdn/hls/f67fe4ea0dacec667bee8bbfe7d77568/master.txt
 https://hlszone.com/cdn/hls/c03d52afefe6a5ce414709354bbf203b/master.txt
 #EXTINF:-1 tvg-name="Women in Blue {tmdb-253983} - S02E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9CHpaYUqgFM81e0emaWkfyFyche.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Women in Blue {tmdb-253983} - S02E05
 https://hlszone.com/cdn/hls/12c77bc4aa066472087c6742609cff79/master.txt
+#EXTINF:-1 tvg-name="Women in Blue {tmdb-253983} - S02E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9CHpaYUqgFM81e0emaWkfyFyche.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Women in Blue {tmdb-253983} - S02E07
+https://hlszone.com/cdn/hls/c968898c3dbcb8dfaa16f381202cd654/master.txt
 #EXTINF:-1 tvg-name="Women in Blue {tmdb-253983} - S02E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/9CHpaYUqgFM81e0emaWkfyFyche.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Women in Blue {tmdb-253983} - S02E08
 https://hlszone.com/cdn/hls/106302fe9cd92eec681e653cc6fc5055/master.txt
-#EXTINF:-1 tvg-name="Wonder Man {tmdb-198178} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Wonder Man {tmdb-198178} - S00E01
-https://hlszone.com/cdn/hls/f9aacd842c9946113b1535dc6b407a9b/master.txt
 #EXTINF:-1 tvg-name="Wonder Man {tmdb-198178} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Wonder Man {tmdb-198178} - S00E02
 https://hlszone.com/cdn/hls/9d30532d2ad0781572010e1b46de09e0/master.txt
 #EXTINF:-1 tvg-name="Wonder Man {tmdb-198178} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Wonder Man {tmdb-198178} - S00E03
@@ -41187,6 +41185,8 @@ https://hlszone.com/cdn/hls/f8ee20662f49c0d4f118506dd36ba36c/master.txt
 https://hlszone.com/cdn/hls/61c0f000bb5a86e6a18c99c5fa150a90/master.txt
 #EXTINF:-1 tvg-name="Wonder Man {tmdb-198178} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Wonder Man {tmdb-198178} - S01E05
 https://hlszone.com/cdn/hls/e1fc66072a179e7167a3447b3c5af285/master.txt
+#EXTINF:-1 tvg-name="Wonder Man {tmdb-198178} - S01E06"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Wonder Man {tmdb-198178} - S01E06
+https://hlszone.com/cdn/hls/f9aacd842c9946113b1535dc6b407a9b/master.txt
 #EXTINF:-1 tvg-name="XO Kitty {tmdb-195670} - S03E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hxvTdKAwv27PUfpXOQp6AwWr6V.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",XO Kitty {tmdb-195670} - S03E01
 https://hlszone.com/cdn/hls/20bd6ca2a105630fc011455e934a0546/master.txt
 #EXTINF:-1 tvg-name="XO Kitty {tmdb-195670} - S03E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hxvTdKAwv27PUfpXOQp6AwWr6V.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",XO Kitty {tmdb-195670} - S03E02
@@ -41203,12 +41203,6 @@ https://hlszone.com/cdn/hls/e1102e95f718f466bd9c8690a8584361/master.txt
 https://hlszone.com/cdn/hls/28c1afbfc6f1fe21708e0301ae9b75fd/master.txt
 #EXTINF:-1 tvg-name="XO Kitty {tmdb-195670} - S03E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/hxvTdKAwv27PUfpXOQp6AwWr6V.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",XO Kitty {tmdb-195670} - S03E08
 https://hlszone.com/cdn/hls/12214f6ac1175f5ac7d0b300be63fa0e/master.txt
-#EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S00E01
-https://hlszone.com/cdn/hls/b4a878cfff4e8fd30629a6c70378e398/master.txt
-#EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S00E02
-https://hlszone.com/cdn/hls/6b67a7722675b08ee5f42a4ed92d498b/master.txt
-#EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S00E03
-https://hlszone.com/cdn/hls/0e17230a785e15413ac8c12280f84eb6/master.txt
 #EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S01E01
 https://hlszone.com/cdn/hls/d7a5a4ee443fc9ee6c2c6daed8d97d21/master.txt
 #EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S01E02
@@ -41241,6 +41235,12 @@ https://hlszone.com/cdn/hls/73131d554b863dbc3d481f7a78ef4850/master.txt
 https://hlszone.com/cdn/hls/19321e7727e09436d93299763e468e68/master.txt
 #EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S02E07"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S02E07
 https://hlszone.com/cdn/hls/759dd6984c6dc078a781cbdf07287212/master.txt
+#EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S02E08"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S02E08
+https://hlszone.com/cdn/hls/b4a878cfff4e8fd30629a6c70378e398/master.txt
+#EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S02E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S02E09
+https://hlszone.com/cdn/hls/0e17230a785e15413ac8c12280f84eb6/master.txt
+#EXTINF:-1 tvg-name="Your Friends & Neighbors {tmdb-241609} - S02E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lcp63INKEsVHUly9eayx7gEEOcG.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Your Friends & Neighbors {tmdb-241609} - S02E10
+https://hlszone.com/cdn/hls/6b67a7722675b08ee5f42a4ed92d498b/master.txt
 #EXTINF:-1 tvg-name="Youth {tmdb-285418} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Youth {tmdb-285418} - S01E01
 https://hlszone.com/cdn/hls/71c0241490c14c56ec065de62dcdacee/master.txt
 #EXTINF:-1 tvg-name="Youth {tmdb-285418} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bk1zbzbu0xaYQuIANv4Pe8HHyAY.jpg"tvg-chno=""tvg-type="series"group-title="Foreign Series":http-referrer="",Youth {tmdb-285418} - S01E02
@@ -41823,8 +41823,6 @@ https://hlszone.com/cdn/hls/c6935f3e52b2ffb28144db1ef8add66e/master.txt
 https://hlszone.com/cdn/hls/21f9975ccb9f09738605424ba1bdd335/master.txt
 #EXTINF:-1 tvg-name="Sold Out on You {tmdb-287011} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bcnneY1DWQzmwfvsuhGGnwv9KYD.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Sold Out on You {tmdb-287011} - S00E02
 https://hlszone.com/cdn/hls/5451dbed60ff75c647f297b6c2943012/master.txt
-#EXTINF:-1 tvg-name="Sold Out on You {tmdb-287011} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bcnneY1DWQzmwfvsuhGGnwv9KYD.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Sold Out on You {tmdb-287011} - S00E03
-https://hlszone.com/cdn/hls/ba36bf096c8b29466b956698be2a0a3f/master.txt
 #EXTINF:-1 tvg-name="Sold Out on You {tmdb-287011} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bcnneY1DWQzmwfvsuhGGnwv9KYD.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Sold Out on You {tmdb-287011} - S01E01
 https://hlszone.com/cdn/hls/d1bfc04728f4c643803d37f64df09fda/master.txt
 #EXTINF:-1 tvg-name="Sold Out on You {tmdb-287011} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bcnneY1DWQzmwfvsuhGGnwv9KYD.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Sold Out on You {tmdb-287011} - S01E02
@@ -41843,6 +41841,8 @@ https://hlszone.com/cdn/hls/e6cd648719f62857ddcd8d024c023c45/master.txt
 https://hlszone.com/cdn/hls/60f25c780d0131bcd6d7eb5bf3b9c91a/master.txt
 #EXTINF:-1 tvg-name="Sold Out on You {tmdb-287011} - S01E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bcnneY1DWQzmwfvsuhGGnwv9KYD.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Sold Out on You {tmdb-287011} - S01E09
 https://hlszone.com/cdn/hls/ff6a114b5c7f9bd75241c08f1fecfc2c/master.txt
+#EXTINF:-1 tvg-name="Sold Out on You {tmdb-287011} - S01E11"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/bcnneY1DWQzmwfvsuhGGnwv9KYD.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Sold Out on You {tmdb-287011} - S01E11
+https://hlszone.com/cdn/hls/ba36bf096c8b29466b956698be2a0a3f/master.txt
 #EXTINF:-1 tvg-name="Spooky in Love {tmdb-298610} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/acVOH8Pr5LEZ7WKZCbzwNuHVr9x.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Spooky in Love {tmdb-298610} - S00E01
 https://hlszone.com/cdn/hls/2cee2eebf93fda1011545cdd755712c7/master.txt
 #EXTINF:-1 tvg-name="Spooky in Love {tmdb-298610} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/acVOH8Pr5LEZ7WKZCbzwNuHVr9x.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",Spooky in Love {tmdb-298610} - S00E02
@@ -42041,8 +42041,6 @@ https://hlszone.com/cdn/hls/dc6841472c9dd7c07fd6c7fb59b0b00e/master.txt
 https://hlszone.com/cdn/hls/e68290a64538afbf052b298c702e4898/master.txt
 #EXTINF:-1 tvg-name="The Perfect Lie {tmdb-307478} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/frvRrn3QclVP76RkBBKEmwcXEaV.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Perfect Lie {tmdb-307478} - S00E01
 https://hlszone.com/cdn/hls/db9fe514b9231e66b8636f8b180c2612/master.txt
-#EXTINF:-1 tvg-name="The Perfect Lie {tmdb-307478} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/frvRrn3QclVP76RkBBKEmwcXEaV.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Perfect Lie {tmdb-307478} - S00E02
-https://hlszone.com/cdn/hls/6b67d40328bd3b146d3ced6b2bf08659/master.txt
 #EXTINF:-1 tvg-name="The Perfect Lie {tmdb-307478} - S00E03"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/frvRrn3QclVP76RkBBKEmwcXEaV.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Perfect Lie {tmdb-307478} - S00E03
 https://hlszone.com/cdn/hls/205e4fec199b305b032c20574cd9e1ae/master.txt
 #EXTINF:-1 tvg-name="The Perfect Lie {tmdb-307478} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/frvRrn3QclVP76RkBBKEmwcXEaV.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Perfect Lie {tmdb-307478} - S01E01
@@ -42053,6 +42051,8 @@ https://hlszone.com/cdn/hls/8192f4810f6cae4e8d55460ed2e03821/master.txt
 https://hlszone.com/cdn/hls/4c40d2264de04863c512ec78b32bb079/master.txt
 #EXTINF:-1 tvg-name="The Perfect Lie {tmdb-307478} - S01E04"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/frvRrn3QclVP76RkBBKEmwcXEaV.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Perfect Lie {tmdb-307478} - S01E04
 https://hlszone.com/cdn/hls/225c53b080ecb7adf7db8a3f06dc5a73/master.txt
+#EXTINF:-1 tvg-name="The Perfect Lie {tmdb-307478} - S01E05"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/frvRrn3QclVP76RkBBKEmwcXEaV.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Perfect Lie {tmdb-307478} - S01E05
+https://hlszone.com/cdn/hls/6b67d40328bd3b146d3ced6b2bf08659/master.txt
 #EXTINF:-1 tvg-name="The Scandal {tmdb-275102} - S00E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4TU0PcHBIl0wPW5B6aVRGExOnHE.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Scandal {tmdb-275102} - S00E01
 https://hlszone.com/cdn/hls/ffbabe424645d65a4a047cd536737fd2/master.txt
 #EXTINF:-1 tvg-name="The Scandal {tmdb-275102} - S00E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/4TU0PcHBIl0wPW5B6aVRGExOnHE.jpg"tvg-chno=""tvg-type="series"group-title="Korean Drama":http-referrer="",The Scandal {tmdb-275102} - S00E02
