@@ -33,7 +33,7 @@ http://line.trxdnscloud.ru:80/live/1naebx0n1p/en1cy28eqj/818054.ts
 #EXTINF:-1 tvg-name="NRT SPORT"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-31-79a2df00-ba4e-478e-8643-b88389879db9.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",NRT SPORT
 https://andam.uk/ytlive/nrtsport/index.m3u8
 #EXTINF:-1 tvg-name="AVA SPORT TV"tvg-id=""tvg-logo="https://cv19.panaccess.com/public/images/10187/ava_sport.png"tvg-chno=""group-title="Kurdish Channels":http-referrer="",AVA SPORT TV
-https://183.giatvcdn.com/giatv/giatv-yusfstoreavasport/yusfstoreavasport/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-yusfstoreavasport/yusfstoreavasport/playlist.m3u8
 #EXTINF:-1 tvg-name="Biner Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-04-4d81d374-c026-49b3-bb7b-64c51b7e08b2.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Biner Sport
 https://lbgo.bozztv.com/ssh101/live/biner-zaxo/chunks.m3u8
 #EXTINF:-1 tvg-name="Gewher Sport"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-01-8d278736-be6b-4a95-8225-a8008307d382.jpg"tvg-chno=""group-title="Kurdish Channels":http-referrer="",Gewher Sport
@@ -406,7 +406,7 @@ https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN
 #EXTINF:-1 tvg-name="beIN SPORTS XTRA en Español"tvg-id="XUMO_99991785"tvg-logo="https://image.xumo.com/v1/channels/channel/99991785/300x300.webp?type=color_onBlack"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",beIN SPORTS XTRA en Español
 https://dbrb49pjoymg4.cloudfront.net/10001/99991785/hls/playlist.m3u8?ads.xumo_channelId=99991785&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=BeInSportsESP&ads.csid=xumo_[PLATFORM]_BeInSportsESP_ssai&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads.genre=[CONTENT_IMDB_GENRE]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=es&ads._fw_content_genre=[content_genre]&ads._fw_content_rating=[content_rating]&ads.xumo_contentId=2642&ads.xumo_contentName=BeInSportsESP&ads.xumo_providerId=2642&ads.xumo_providerName=BeInSportsESP&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.channelId=99991785&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appName=xumo&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]
 #EXTINF:-1 tvg-name="BEIN HDR"tvg-id=""tvg-logo="https://i.postimg.cc/gcSFZKqM/file-0000000017f87246a0e08ec0f3feaffe.png"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",BEIN HDR
-https://live-aburayhan1112.telewebion.net/ek/faratar/live/2160p/index.m3u8
+https://live-aburayhan1112.telewebion.net/ek/faratar/live/playlist.m3u8
 #EXTINF:-1 tvg-name="bein sports türkiye"tvg-id=""tvg-logo="https://cdn.phototourl.com/member/2026-10-10-2a110304-74ab-4e7e-a458-5e29723b508c.jpg"tvg-chno=""group-title="BEIN SPORTS AR":http-referrer="",bein sports türkiye
 https://andam.uk/ytlive/beinsport/index.m3u8
 #EXTINF:-1 tvg-name="BEIN MOVIES 1"tvg-id=""tvg-logo="https://re.andam.uk/api/public/i/d7c7598c3ef4d9ab.jpg"tvg-chno=""group-title="BEIN MOVIES":http-referrer="",BEIN MOVIES 1
@@ -7884,7 +7884,7 @@ https://s.emisoras.tv:8081/penielmusical/index.m3u8
 #EXTINF:-1 tvg-name="4ever Music"tvg-id="4everMusic.ua@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/UJ5oaeU.png"tvg-chno=""group-title="Music":http-referrer="",4ever Music
 http://stream.mcquack.net/257/index.m3u8
 #EXTINF:-1 tvg-name="8XM"tvg-id="8XM.pk@HD"tvg-logo="https://i.ibb.co/Kc0xHyBb/8XM-Logo.png"tvg-chno=""group-title="Music":http-referrer="",8XM
-https://cdn4.mjunoon.tv:8087/streamtest/135M/chunks.m3u8
+https://cdn4.mjunoon.tv:8087/streamtest/135M/playlist.m3u8
 #EXTINF:-1 tvg-name="9X Jalwa"tvg-id="9XJalwa.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9X_JALWA/images/LOGO_HD/image.png"tvg-chno=""group-title="Music":http-referrer="",9X Jalwa
 https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 #EXTINF:-1 tvg-name="9XM"tvg-id="9XM.in@SD"tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_9XM/images/LOGO_HD/image.png"tvg-chno=""group-title="Music":http-referrer="",9XM
@@ -9298,7 +9298,7 @@ https://ktismaservers.in:3466/live/hosannattvhindhilive.m3u8
 #EXTINF:-1 tvg-name="Huda TV"tvg-id="HudaTV.eg@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/1UUjU26.png"tvg-chno=""group-title="Religious":http-referrer="",Huda TV
 https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8
 #EXTINF:-1 tvg-name="I Am Channel"tvg-id="IAmChannel.id@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Gg6OcGT.png"tvg-chno=""group-title="Religious":http-referrer="",I Am Channel
-https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
+https://61146e7ab7a66.streamlock.net:8089/tes/1/playlist.m3u8
 #EXTINF:-1 tvg-name="IBN TV Africa"tvg-id="IBNTVAfrica.tz@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/eKy2ocd.png"tvg-chno=""group-title="Religious":http-referrer="",IBN TV Africa
 http://68.183.41.209:8080/live/5d9a537c64b9c/index.m3u8
 #EXTINF:-1 tvg-name="icnet 1"tvg-id="ICnet1.ca@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/aeS4Sjv.png"tvg-chno=""group-title="Religious":http-referrer="",icnet 1
