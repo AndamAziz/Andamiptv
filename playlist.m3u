@@ -17430,7 +17430,7 @@ https://video.uitzending.tv:19360/zo34/zo34.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT1.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="ATV"tvg-id="ATV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/HyVUwFC.png"tvg-chno=""group-title="Turkey":http-referrer="",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-name="Kanal D"tvg-id="KanalD.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9o1atM6.png"tvg-chno=""group-title="Turkey":http-referrer="",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTINF:-1 tvg-name="Star TV"tvg-id="StarTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9O3DHRB.png"tvg-chno=""group-title="Turkey":http-referrer="",Star TV

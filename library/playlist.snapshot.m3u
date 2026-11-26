@@ -17430,7 +17430,7 @@ https://video.uitzending.tv:19360/zo34/zo34.m3u8
 #EXTINF:-1 tvg-name="TRT 1"tvg-id="TRT1.tr@SD"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png"tvg-chno=""group-title="Turkey":http-referrer="",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="ATV"tvg-id="ATV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/HyVUwFC.png"tvg-chno=""group-title="Turkey":http-referrer="",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-name="Kanal D"tvg-id="KanalD.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9o1atM6.png"tvg-chno=""group-title="Turkey":http-referrer="",Kanal D
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTINF:-1 tvg-name="Star TV"tvg-id="StarTV.tr@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/9O3DHRB.png"tvg-chno=""group-title="Turkey":http-referrer="",Star TV
@@ -19715,9 +19715,9 @@ https://hlszone.com/cdn/hls/156c16b6f472461b0cd96e1c147ea8cd/master.txt
 https://hlszone.com/cdn/hls/bd9c8ed1d7a7d971bd1c7095d2dae911/master.txt
 #EXTINF:-1 group-title="Uncategorized",The Gilded Age 4.Sezon 4.Bölüm izle | canlidizi
 https://hlszone.com/cdn/hls/6ddecf9769ca56403b6bd95c1166a4cd/master.txt
-#EXTINF:-1 group-title="Uncategorized",Obsession izle (2026) | canlidizi
+#EXTINF:-1 group-title="Uncategorized",Obsession izle | canlidizi
 https://hlszone.com/cdn/hls/e1fdf53ae583a63324e0160fed06af32/master.txt
-#EXTINF:-1 group-title="Uncategorized",Resident Evil izle (2026) | canlidizi
+#EXTINF:-1 group-title="Uncategorized",Resident Evil izle | canlidizi
 https://hlszone.com/cdn/hls/b0cb11ee666eec67c430ef09e0248d98/master.txt
 #EXTINF:-1 group-title="Uncategorized",Heart of the Beast izle | canlidizi
 https://hlszone.com/cdn/hls/242b402b888f0549ec28c646e17d6ccf/master.txt
