@@ -105,6 +105,20 @@ matching. `logo-fill-report.txt` lists what was filled and the channels that sti
 `season_fix.py` (run by the auto-heal workflow after every upload / web-form addition) renames a NEW
 episode typed as `S01E24` to its real season/episode from TMDB (`S02E08`), only for series that already use
 seasons (they have S02 or later) and only when that name does not exist yet. Only the name changes.
+An episode newer than TMDB knows (TMDB: 16 + 8, `S01E25` added) continues the last season (`S02E09`),
+only when the episode before it (`S02E08`) is in the playlist.
+
+## Web-form groups
+
+`vod_group_fix.py` (auto-heal, before `categorize_new.py`) gives a NEW movie / episode whose
+group-title is not a real group of the playlist (the form's defaults "Kurdish Drama" / "Movies",
+empty, "KURDI" ...) its right group:
+an episode of an existing series → that series' own group (also when another group was typed);
+a new series → from TMDB (Documentary / Kids / Animation Series, else by language: Turkish, Arabic,
+Korean, Asian Drama, else Foreign Series; a Kurdish name → KURDISH-دۆبلاژ);
+a movie → FARSI / KURDISH-ژێرنوس / KURDISH-دۆبلاژ when the typed group (or a Kurdish name) says so,
+else its first TMDB genre group. Only group-title changes; nothing is removed. Covered by
+`tests/test_vod_group_fix.py`.
 
 ## New entries go to the top of their group
 

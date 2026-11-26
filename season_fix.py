@@ -3,6 +3,9 @@
 season_fix.py - an episode added with its overall number (e.g. from the web form: season left at 1,
 "Yeraltı {tmdb-309328} - S01E24") is renamed to its real season/episode from TMDB ("S02E08").
 
+An episode newer than TMDB knows (TMDB has 16 + 8 episodes, "S01E25" is added) continues the last
+season ("S02E09"), but only when the episode before it (S02E08) is in the playlist.
+
 Only series that already use per-season numbering in the playlist (they have an episode in season 2
 or later) are touched, and only an S01Exx entry whose number is beyond TMDB's season 1. Series that
 use "S01 + overall number" stay as they are. Only the name changes (link, logo, group are kept),
@@ -67,7 +70,7 @@ def fix(text, counts_for=season_counts, log=print, only=None):
         if not m or not any(k[1] >= 2 for k in keys):
             continue
         c, renamed = None, 0
-        for e in eps:
+        for e in sorted(eps, key=lambda e: ss.ep_key(e)[2]):   # lowest number first (continuation check)
             _, s, x = ss.ep_key(e)
             if s != 1 or (only is not None and e[0] not in only):
                 continue
@@ -81,6 +84,10 @@ def fix(text, counts_for=season_counts, log=print, only=None):
                     target = (sn, n)
                     break
                 n -= c[sn]
+            if not target and c:                     # newer than TMDB: continues the last season
+                last = max(c)                        # (only right after an episode that is there)
+                if (show, last, c[last] + n - 1) in names:
+                    target = (last, c[last] + n)
             if not target or (show, *target) in names:
                 continue
             old, new = f"{show} - S01E{x:02d}", f"{show} - S{target[0]:02d}E{target[1]:02d}"
