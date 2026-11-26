@@ -35,6 +35,9 @@ jobs:
           # web-form addition is left exactly as the user made it.
           python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
           if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
+          # New movies/episodes with a group that does not exist (web form: "Kurdish Drama", "Movies")
+          # get their real group (the series' own group, or from TMDB); only group-title changes.
+          python vod_group_fix.py playlist.m3u library/playlist.snapshot.m3u || true
           # Brand-new live channels (e.g. from the web form) get a group; nothing else is touched.
           python categorize_new.py playlist.m3u library/playlist.snapshot.m3u
           # New episodes typed with their overall number (S01E24) get their real season/episode (S02E08).
@@ -50,6 +53,7 @@ jobs:
             git reset --hard origin/main
             python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
             if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
+            python vod_group_fix.py playlist.m3u library/playlist.snapshot.m3u || true
             python categorize_new.py playlist.m3u library/playlist.snapshot.m3u
             python season_fix.py playlist.m3u library/playlist.snapshot.m3u || true
             git checkout -- playlist.m3u.bak playlist.m3u.prelogo.bak 2>/dev/null || true

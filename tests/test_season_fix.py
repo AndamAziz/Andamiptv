@@ -29,6 +29,19 @@ class SeasonFix(unittest.TestCase):
         self.assertEqual(n, 0)                                                         # S02E08 already there
         self.assertEqual(out, text)
 
+    def test_episode_newer_than_tmdb_continues_last_season(self):
+        text = pl(("Yeralti {tmdb-1} - S02E08", "https://x/24.m3u8"), ("Yeralti {tmdb-1} - S01E26", "https://x/26.m3u8"),
+                  ("Yeralti {tmdb-1} - S01E25", "https://x/25.m3u8"))
+        out, n = sf.fix(text, counts_for=lambda tid: {1: 16, 2: 8}, log=lambda s: None)
+        self.assertEqual(n, 2)
+        self.assertIn(",Yeralti {tmdb-1} - S02E09\nhttps://x/25.m3u8", out)
+        self.assertIn(",Yeralti {tmdb-1} - S02E10\nhttps://x/26.m3u8", out)
+
+    def test_newer_than_tmdb_without_previous_episode_is_left(self):
+        text = pl(("Yeralti {tmdb-1} - S02E07", "https://x/23.m3u8"), ("Yeralti {tmdb-1} - S01E30", "https://x/30.m3u8"))
+        out, n = sf.fix(text, counts_for=lambda tid: {1: 16, 2: 8}, log=lambda s: None)
+        self.assertEqual((out, n), (text, 0))
+
 
 if __name__ == "__main__":
     unittest.main()
