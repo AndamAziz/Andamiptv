@@ -1,8 +1,8 @@
-M3U Cleaner report - 2026-11-25 05:43:45
+M3U Cleaner report - 2026-11-26 05:32:51
 Source: playlist.m3u
 Output: playlist.m3u
 
-Total channels kept:  21132
+Total channels kept:  21229
 Blocked (blocklist):  0 (KEPT, needs your OK)
 Duplicate links:      0 (KEPT, needs your OK)
 Malformed links:      0 (KEPT, needs your OK)
@@ -10,7 +10,7 @@ Malformed links:      0 (KEPT, needs your OK)
   Kurdish Channels: 183
   BEIN SPORTS AR: 21
   BEIN MOVIES: 43
-  Sports: 440
+  Sports: 441
   National Geographic: 53
   SKY TV: 19
   Kids & Family: 324
@@ -24,7 +24,7 @@ Malformed links:      0 (KEPT, needs your OK)
   Quran: 512
   Comedy: 216
   Crime & Mystery: 151
-  Reality & Game Shows: 143
+  Reality & Game Shows: 145
   Sci-Fi & Horror: 57
   Classic & Western: 99
   Lifestyle & Travel: 291
@@ -60,17 +60,17 @@ Malformed links:      0 (KEPT, needs your OK)
   Israel: 7
   Nordic Countries: 16
   Free Streaming (FAST): 200
-  Uncategorized: 8
+  Uncategorized: 75
   KURDISH-دۆبلاژ: 195
   KURDISH-ژێرنوس: 8
   FARSI: 6
   Action: 75
-  Adventure: 14
+  Adventure: 15
   Animation: 12
   Crime: 67
-  Drama: 63
+  Drama: 65
   Family: 5
-  Fantasy: 17
+  Fantasy: 18
   History: 11
   Horror: 62
   Mystery: 30
@@ -81,13 +81,13 @@ Malformed links:      0 (KEPT, needs your OK)
   Western: 53
   Free Classics: 35
   Unnamed Films: 4
-  Turkish Drama: 5213
+  Turkish Drama: 5215
   Arabic Drama: 48
   Turkish TV Shows: 814
   Documentary Series: 74
   Classic Cartoons: 49
   Kids Series: 1036
   Animation Series: 288
-  Foreign Series: 2347
-  Korean Drama: 442
+  Foreign Series: 2362
+  Korean Drama: 448
   Asian Drama: 62
