@@ -26,6 +26,8 @@ jobs:
         with:
           python-version: "3.10"
       - name: Repair, build, refresh snapshot
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -35,6 +37,8 @@ jobs:
           if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
           # Brand-new live channels (e.g. from the web form) get a group; nothing else is touched.
           python categorize_new.py playlist.m3u library/playlist.snapshot.m3u
+          # New episodes typed with their overall number (S01E24) get their real season/episode (S02E08).
+          python season_fix.py playlist.m3u library/playlist.snapshot.m3u || true
           python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
           git checkout -- playlist.m3u.bak playlist.m3u.prelogo.bak 2>/dev/null || true
           git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
@@ -47,6 +51,7 @@ jobs:
             python repair_playlist.py playlist.m3u library/playlist.snapshot.m3u
             if ! git diff --quiet playlist.m3u; then python build_playlist.py --overwrite; fi
             python categorize_new.py playlist.m3u library/playlist.snapshot.m3u
+            python season_fix.py playlist.m3u library/playlist.snapshot.m3u || true
             git checkout -- playlist.m3u.bak playlist.m3u.prelogo.bak 2>/dev/null || true
             git add playlist.m3u library/playlist.snapshot.m3u playlist_report.txt
             git commit -m "Auto-heal playlist after upload [skip ci]" || exit 0
