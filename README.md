@@ -100,6 +100,12 @@ Xumo channel id inside its stream URL, an exact (unambiguous) name in `tv-logo/t
 iptv-org channel id equal to its `tvg-id`. Wrong logos are worse than none, so there is no fuzzy
 matching. `logo-fill-report.txt` lists what was filled and the channels that still need a logo link.
 
+## Episodes added with their overall number
+
+`season_fix.py` (run by the auto-heal workflow after every upload / web-form addition) renames a NEW
+episode typed as `S01E24` to its real season/episode from TMDB (`S02E08`), only for series that already use
+seasons (they have S02 or later) and only when that name does not exist yet. Only the name changes.
+
 ## New entries go to the top of their group
 
 When you add a movie, series episode or live channel (web form / upload), `categorize_new.py`
