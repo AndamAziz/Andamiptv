@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
 vod_group_fix.py - a NEW movie / series episode (its link is not in the snapshot yet, e.g. added with
-the web form) whose group-title is not a real group of the playlist ("Kurdish Drama", "Movies", empty,
-"KURDI" ...) gets the right group:
+the web form) gets the group of its TMDB type. Only the two Kurdish groups (KURDISH-دۆبلاژ /
+KURDISH-ژێرنوس) are the owner's choice and always stay; for the rest:
 
   * an episode of a series that is already in the playlist -> the group of that series' episodes
     (also when another group was typed: one series name in two groups splits it in the app);
-  * a brand-new series -> from TMDB: Documentary Series / Kids Series / Animation Series, or by
-    original language Turkish Drama / Arabic Drama / Korean Drama / Asian Drama, else Foreign Series;
-    a name with a Kurdish part ("English _ Kurdish {tmdb-ID}") -> KURDISH-دۆبلاژ;
-  * a movie -> FARSI / KURDISH-ژێرنوس / KURDISH-دۆبلاژ when the typed group says so (or the name has a
-    Kurdish part), else its first TMDB genre (Action, Drama ...) when that group exists.
+  * a brand-new series -> from TMDB: Documentary Series; a cartoon -> Kids / Animation Series (or
+    Classic Cartoons when typed); else by original language Turkish / Arabic / Korean / Asian Drama,
+    else Foreign Series (also when another group was typed). A Kurdish name with no real group typed
+    -> KURDISH-دۆبلاژ;
+  * a movie -> FARSI / KURDISH-ژێرنوس / KURDISH-دۆبلاژ when the typed group says so, FARSI for a
+    Persian film; else the typed genre when it is one of the film's TMDB genres, otherwise its first
+    TMDB genre (Action, Drama ...). With no TMDB genre a real typed group stays.
 
 Only group-title changes (name, link, logo are kept); nothing is ever deleted. When TMDB gives no
 answer the entry is left as it is.
@@ -88,32 +90,55 @@ def name_of(e):
     return e[0].rsplit(",", 1)[-1].strip()
 
 
-def series_group(name, info, groups):
-    if has_kurdish(name) and KURDISH_DUB in groups:
+def series_group(name, typed, info, groups):
+    """Group for a NEW series. KURDISH-دۆبلاژ typed by the owner stays; otherwise the TMDB type decides."""
+    if typed == KURDISH_DUB:
         return KURDISH_DUB
-    if not info:
-        return None
+    if not info or not (info.get("genres") or info.get("lang")):
+        if typed in groups:
+            return typed
+        return KURDISH_DUB if has_kurdish(name) and KURDISH_DUB in groups else None
     g = set(info.get("genres", []))
-    for genre, grp in (("Documentary", "Documentary Series"), ("Kids", "Kids Series"), ("Animation", "Animation Series")):
-        if genre in g and grp in groups:
-            return grp
-    lang = info.get("lang", "")
-    grp = LANG_GROUP.get(lang) or ("Asian Drama" if lang in ASIAN else "Foreign Series")
-    return grp if grp in groups else None
+    if not g and typed in groups:                 # TMDB knows no genre: the typed real group stays
+        return typed
+    if "Documentary" in g:
+        ok, default = {"Documentary Series"}, "Documentary Series"
+    elif "Kids" in g or "Animation" in g:         # cartoons: any of the three cartoon groups is fine
+        ok, default = {"Kids Series", "Animation Series", "Classic Cartoons"}, ("Kids Series" if "Kids" in g else "Animation Series")
+    else:
+        lang = info.get("lang", "")
+        default = LANG_GROUP.get(lang) or ("Asian Drama" if lang in ASIAN else "Foreign Series")
+        ok = {default}
+    if typed in ok and typed in groups:
+        return typed
+    if typed not in groups and has_kurdish(name) and KURDISH_DUB in groups:
+        return KURDISH_DUB
+    return default if default in groups else (typed if typed in groups else None)
 
 
 def movie_group(name, typed, info, groups):
+    """Group for a NEW movie. Kurdish dub/subtitle groups are the owner's choice; FARSI by language;
+    otherwise a TMDB genre (the typed genre stays when it is one of the film's TMDB genres)."""
     t = typed.upper()
+    if typed in (KURDISH_DUB, KURDISH_SUB, "Free Classics") and typed in groups:
+        return typed
     if ("FARSI" in t or "فارسی" in typed) and FARSI in groups:
         return FARSI
     if any(w in typed for w in ("ژێرنوس", "ژیرنوس")) or "SUB" in t:
         return KURDISH_SUB if KURDISH_SUB in groups else None
-    if any(w in typed for w in ("دۆبلاژ", "دوبلاژ", "کوردی")) or "DUB" in t or "KURD" in t or has_kurdish(name):
+    if any(w in typed for w in ("دۆبلاژ", "دوبلاژ", "کوردی")) or "DUB" in t or "KURD" in t:
         return KURDISH_DUB if KURDISH_DUB in groups else None
-    for genre in (info or {}).get("genres", []):
-        if genre in groups:
-            return genre
-    return None
+    info = info or {}
+    if info.get("lang") == "fa" and FARSI in groups:
+        return FARSI
+    genres = [x for x in info.get("genres", []) if x in groups]
+    if typed in genres:
+        return typed
+    if genres:
+        return genres[0]
+    if typed in groups:                           # TMDB knows no genre: the typed real group stays
+        return typed
+    return KURDISH_DUB if has_kurdish(name) and KURDISH_DUB in groups else None
 
 
 def fix(text, known_urls=None, info_for=tmdb_info, log=print):
@@ -138,13 +163,13 @@ def fix(text, known_urls=None, info_for=tmdb_info, log=print):
             show = (k[0] if k else re.sub(r"\s*-\s*S\d+E\d+\s*$", "", name_of(e))).lower()
             if show in show_groups:
                 target = show_groups[show].most_common(1)[0][0]
-            elif typed not in groups["series"]:
+            else:
                 m = TMDB_RE.search(name_of(e))
                 info = cache.setdefault(("tv", m.group(1)), info_for("tv", m.group(1))) if m else {}
-                target = series_group(name_of(e), info, groups["series"])
+                target = series_group(name_of(e), typed, info, groups["series"])
                 if target:   # later episodes of the same new series follow it
                     show_groups[show] = Counter({target: 1})
-        elif typed not in groups["movie"]:
+        else:
             m = TMDB_RE.search(name_of(e))
             info = cache.setdefault(("movie", m.group(1)), info_for("movie", m.group(1))) if m else {}
             target = movie_group(name_of(e), typed, info, groups["movie"])
