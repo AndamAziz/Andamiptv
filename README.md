@@ -110,15 +110,13 @@ only when the episode before it (`S02E08`) is in the playlist.
 
 ## Web-form groups
 
-`vod_group_fix.py` (auto-heal, before `categorize_new.py`) gives a NEW movie / episode whose
-group-title is not a real group of the playlist (the form's defaults "Kurdish Drama" / "Movies",
-empty, "KURDI" ...) its right group:
-an episode of an existing series → that series' own group (also when another group was typed);
-a new series → from TMDB (Documentary / Kids / Animation Series, else by language: Turkish, Arabic,
-Korean, Asian Drama, else Foreign Series; a Kurdish name → KURDISH-دۆبلاژ);
-a movie → FARSI / KURDISH-ژێرنوس / KURDISH-دۆبلاژ when the typed group (or a Kurdish name) says so,
-else its first TMDB genre group. Only group-title changes; nothing is removed. Covered by
-`tests/test_vod_group_fix.py`.
+`vod_group_fix.py` (auto-heal, before `categorize_new.py`) puts every NEW movie / episode in the group
+of its TMDB type. Only the two Kurdish groups (KURDISH-دۆبلاژ / KURDISH-ژێرنوس) are the owner's choice
+and always stay. An episode of an existing series → that series' own group. A new series → Documentary
+Series; a cartoon → Kids / Animation Series (or Classic Cartoons when typed); else by language Turkish,
+Arabic, Korean, Asian Drama, else Foreign Series. A movie → FARSI for a Persian film; the typed genre when
+it is one of the film's TMDB genres, else its first TMDB genre. With no TMDB data a real typed group
+stays. Only group-title changes; nothing is removed. Covered by `tests/test_vod_group_fix.py`.
 
 ## TMDB posters
 
