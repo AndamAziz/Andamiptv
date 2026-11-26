@@ -120,6 +120,13 @@ a movie → FARSI / KURDISH-ژێرنوس / KURDISH-دۆبلاژ when the typed g
 else its first TMDB genre group. Only group-title changes; nothing is removed. Covered by
 `tests/test_vod_group_fix.py`.
 
+## TMDB posters
+
+`tmdb_poster_fill.py` (auto-heal) gives every movie / series episode that has an EMPTY poster and a
+`{tmdb-ID}` in its name the TMDB poster (`https://media.themoviedb.org/t/p/w600_and_h900_face/...`):
+the movie poster, or the series poster for all its episodes. A poster that is already there is never
+changed. Uses the `TMDB_API_KEY` repository secret, or the TMDB web page when it is not set.
+
 ## New entries go to the top of their group
 
 When you add a movie, series episode or live channel (web form / upload), `categorize_new.py`
