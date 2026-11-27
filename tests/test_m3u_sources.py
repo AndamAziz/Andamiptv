@@ -103,6 +103,18 @@ class M3USources(unittest.TestCase):
                            search=lambda k, t, y: None, now=1.0, log=lambda s: None)
         self.assertIn(",Brand New {tmdb-2} - S01E07\nhttps://n/w7.m3u8", out)
 
+    def test_inbox_files_are_sources_with_hint_from_file_name(self):
+        import tempfile, pathlib
+        d = pathlib.Path(tempfile.mkdtemp())
+        (d / "fool night tv=326247.m3u").write_text("#EXTM3U\n", encoding="utf-8")
+        (d / "list.txt").write_text("#EXTM3U\n", encoding="utf-8")
+        (d / "README.md").write_text("notes", encoding="utf-8")
+        src = ms.inbox_sources(str(d))
+        self.assertEqual([s for s, _ in src], [f"inbox:{d / 'fool night tv=326247.m3u'}", f"inbox:{d / 'list.txt'}"])
+        self.assertEqual(src[0][1], {"tv": "326247"})
+        self.assertEqual(ms.read_source(src[1][0]), "#EXTM3U\n")
+        self.assertEqual(ms.inbox_sources(str(d / "missing")), [])
+
 
 if __name__ == "__main__":
     unittest.main()

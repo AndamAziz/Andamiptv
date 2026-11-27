@@ -128,6 +128,10 @@ of a series already in the playlist joins that series). Live channels, token lin
 anything already in the playlist are skipped; nothing is removed. Failed links are kept in
 `library/sources-state.json` and retried after a day (token links never). Covered by `tests/test_m3u_sources.py`.
 
+**Inbox:** an M3U list can also be pasted / uploaded as a file in `library/inbox/` (GitHub: Add file →
+Create new file, name ending in `.m3u`, optional `tv=ID` / `movie=ID` in the name). The `inbox-import`
+workflow runs on every such upload and adds it the same way within minutes.
+
 A new WEBSITE (like Show TV / tabii / TV8) needs its own provider class in `showtv_sync.py`.
 
 ## TMDB posters

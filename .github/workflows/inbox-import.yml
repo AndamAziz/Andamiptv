@@ -1,0 +1,55 @@
+name: Inbox import (M3U files in library/inbox)
+
+# When the owner adds an M3U file to library/inbox/ (pasted or uploaded on GitHub), m3u_sources.py adds
+# its new, playing, token-free episodes / movies with a TMDB id to playlist.m3u in the playlist format
+# (TMDB poster, group of their TMDB type). Live channels, token / dead links and duplicates are skipped;
+# nothing is ever removed. Also runs every 3 hours inside series-sync.
+on:
+  push:
+    branches: [main]
+    paths: ["library/inbox/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: playlist-write
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Import
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: |
+          command -v ffprobe >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; } || true
+          python m3u_sources.py playlist.m3u --apply --report sources-report.txt
+          { echo '### Inbox import'; echo '```'; cat sources-report.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit and push
+        run: |
+          FILES="playlist.m3u library/playlist.snapshot.m3u library/sources-state.json"
+          [ -z "$(git status --porcelain -- $FILES)" ] && { echo "Inbox import: nothing to change."; exit 0; }
+          python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add $FILES
+          git commit -m "Inbox import: new episodes / movies from library/inbox (run ${GITHUB_RUN_ID}) [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
+            git reset --hard origin/main
+            python m3u_sources.py playlist.m3u --apply --report sources-report.txt
+            [ -z "$(git status --porcelain -- $FILES)" ] && exit 0
+            python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
+            git add $FILES
+            git commit -m "Inbox import: new episodes / movies from library/inbox (run ${GITHUB_RUN_ID}) [skip ci]"
+          done
+          exit 1
