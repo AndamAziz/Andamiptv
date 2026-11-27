@@ -1381,6 +1381,8 @@ https://andam.uk/ytlive/riyadiyatv/index.m3u8
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-nova-sport1/live_fullhd
 #EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fc072bd9fa-w.png"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
 http://api.353505.xyz:80/live/123/123/528.ts
+#EXTINF:-1 tvg-name="NAT GEO HD"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fc072bd9fa-w.png"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO HD
+http://190.64.129.98:8080/NATGEO/index.m3u8
 #EXTINF:-1 tvg-name="PBS Nature"tvg-id="PBSNature.us@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Brry7cZ.png"tvg-chno=""group-title="National Geographic":http-referrer="",PBS Nature
 https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
 #EXTINF:-1 tvg-name="Love Nature"tvg-id="700418"tvg-logo="https://canvas-lb.tubitv.com/opts/0iGeAKWjBWGBjg==/1c502e7b-e295-4f49-a248-cbe59b17d0f1/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="National Geographic":http-referrer="",Love Nature
