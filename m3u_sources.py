@@ -17,6 +17,8 @@ For every entry of those lists:
   * the link must play (ffprobe: an episode >= 5 min, a movie >= 40 min);
   * it is added in the playlist format: "Title {tmdb-ID} - S01E01", the TMDB poster, the group of its
     TMDB type (an episode of a series already in the playlist: that series' name and group).
+Every *.m3u / *.txt file in library/inbox/ is read the same way (an M3U list pasted or uploaded on GitHub;
+"tv=ID" / "movie=ID" may be put in its file name). The inbox-import workflow runs on every upload there.
 Nothing is ever deleted or changed in the playlist; removing a line from sources.txt only stops reading it.
 Links that failed are remembered in library/sources-state.json and tried again a day later.
 Usage: python m3u_sources.py playlist.m3u [--apply] [--report file]
@@ -37,6 +39,7 @@ import vod_group_fix as vg        # noqa: E402
 import tmdb_poster_fill as tp     # noqa: E402
 
 SOURCES = "library/sources.txt"
+INBOX = "library/inbox"          # M3U files the owner pastes / uploads (e.g. "Copy as M3U" of his own tool)
 STATE = "library/sources-state.json"
 RETRY = 24 * 3600
 MAX_TESTS = 200                   # links tested per run; the rest wait for the next run
@@ -276,6 +279,28 @@ def run(text, sources, state, fetch=curl, probe=duration, details=tmdb_details, 
     return out, report, state
 
 
+def inbox_sources(folder):
+    """[("inbox:<path>", hint)] for every M3U file in the inbox; tv=ID / movie=ID may be in the file name."""
+    p = Path(folder)
+    if not p.is_dir():
+        return []
+    out = []
+    for f in sorted(p.iterdir()):
+        if f.is_file() and f.suffix.lower() in (".m3u", ".m3u8", ".txt"):
+            hint = {k.lower(): v for k, v in re.findall(r"\b(tv|movie)=(\d+)", f.name, re.I)}
+            out.append((f"inbox:{f}", hint))
+    return out
+
+
+def read_source(src):
+    if src.startswith("inbox:"):
+        try:
+            return Path(src[6:]).read_text(encoding="utf-8-sig", errors="replace")
+        except OSError:
+            return ""
+    return curl(src)
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("playlist", nargs="?", default="playlist.m3u")
@@ -283,8 +308,10 @@ def main(argv=None):
     ap.add_argument("--report")
     ap.add_argument("--sources", default=SOURCES)
     ap.add_argument("--state", default=STATE)
+    ap.add_argument("--inbox", default=INBOX)
     a = ap.parse_args(argv)
     sources = parse_sources(Path(a.sources).read_text(encoding="utf-8")) if Path(a.sources).exists() else []
+    sources += inbox_sources(a.inbox)
     if not sources:
         print("m3u_sources: no sources in", a.sources)
         if a.report:
@@ -293,7 +320,7 @@ def main(argv=None):
     state = json.loads(Path(a.state).read_text(encoding="utf-8")) if Path(a.state).exists() else {}
     path = Path(a.playlist)
     text = path.read_text(encoding="utf-8")
-    out, report, state = run(text, sources, state)
+    out, report, state = run(text, sources, state, fetch=read_source)
     print("\n".join(report))
     if a.report:
         Path(a.report).write_text("\n".join(report) + "\n", encoding="utf-8")
