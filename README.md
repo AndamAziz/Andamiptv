@@ -118,6 +118,18 @@ Arabic, Korean, Asian Drama, else Foreign Series. A movie → FARSI for a Persia
 it is one of the film's TMDB genres, else its first TMDB genre. With no TMDB data a real typed group
 stays. Only group-title changes; nothing is removed. Covered by `tests/test_vod_group_fix.py`.
 
+## Own M3U sources (library/sources.txt)
+
+Put M3U links (one per line, optionally `tv=ID` / `movie=ID`) in `library/sources.txt`. Every 3 hours the
+series-sync workflow runs `m3u_sources.py`: episodes ("Name - S01 E01") and movies of those lists that have
+a TMDB id (from the line, the name, or an exact TMDB title match), play (ffprobe) and carry no token are
+added in the playlist format (`Title {tmdb-ID} - S01E01`, TMDB poster, group of their TMDB type; an episode
+of a series already in the playlist joins that series). Live channels, token links, dead links and
+anything already in the playlist are skipped; nothing is removed. Failed links are kept in
+`library/sources-state.json` and retried after a day (token links never). Covered by `tests/test_m3u_sources.py`.
+
+A new WEBSITE (like Show TV / tabii / TV8) needs its own provider class in `showtv_sync.py`.
+
 ## TMDB posters
 
 `tmdb_poster_fill.py` (auto-heal) gives every movie / series episode that has an EMPTY poster and a

@@ -1,0 +1,14 @@
+# سەرچاوەکانی M3U (series-sync هەر 3 کاتژمێر جارێک دەیانخوێنێتەوە)
+# Owner's M3U sources - read by the series-sync workflow every 3 hours (m3u_sources.py).
+#
+# هەر دێڕێک یەک لینکی M3U ـە. ئەگەر TMDB ID ـت دەزانیت، لە دوای لینکەکە بینووسە:
+# One M3U link per line; optionally the TMDB id of what it holds:
+#
+#   https://example.com/list.m3u
+#   https://example.com/fool-night.m3u   tv=326247
+#   https://example.com/film.m3u         movie=1611767
+#
+# - تەنها ئەڵقە و فیلم زیاد دەکرێن (کەناڵی زیندوو نا)، بە TMDB ID، پۆستەر و گرووپی دروست.
+# - لینکی تۆکندار، لینکی کار نەکردوو و دووبارەکان زیاد ناکرێن. هیچ شتێک لە پلەیلیست ناسڕدرێتەوە.
+# - سڕینەوەی دێڕێک لێرە تەنها خوێندنەوەکەی ڕادەگرێت. دێڕێک بە # دەست پێبکات = ناخوێندرێتەوە.
+# - ئەنجام: Actions -> Series sync -> Summary (sources-report).

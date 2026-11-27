@@ -1,4 +1,4 @@
-name: Series sync (Show TV + TRT tabii + TV8 official links)
+name: Series sync (Show TV + TRT tabii + TV8 official links + own M3U sources)
 
 # Every 3 hours (and on demand):
 #  1. series_discover.py - a NEW drama on Show TV (/diziler), TV8 (/diziler) or tabii (new in its sitemap)
@@ -7,6 +7,8 @@ name: Series sync (Show TV + TRT tabii + TV8 official links)
 #  2. showtv_sync.py - for every Show TV, TRT (tabii) and TV8 series in Turkish Drama, Documentary Series
 #     and Kids Series: new episodes are added and other links are switched to the official one
 #     (ciner MP4 / tabii clear HLS / TV8 MP4) - only when that link plays.
+#  3. m3u_sources.py - the owner's M3U links in library/sources.txt: new, playing, token-free episodes /
+#     movies with a TMDB id are added in the playlist format (poster, group of their TMDB type).
 # Working links without an official replacement stay as they are. Nothing is ever deleted. Changes go
 # straight to main. Kanal D / Star / ATV / NOW are not covered: they give no token-free links.
 on:
@@ -44,13 +46,16 @@ jobs:
           echo "APPLY=$APPLY" >> "$GITHUB_ENV"
           python series_discover.py playlist.m3u $APPLY --report series-discover-report.txt
           python showtv_sync.py playlist.m3u $APPLY --report showtv-sync-report.txt
+          command -v ffprobe >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; } || true
+          python m3u_sources.py playlist.m3u $APPLY --report sources-report.txt || true
           { echo '### New series'; echo '```'; cat series-discover-report.txt; echo '```';
-            echo '### New episodes'; echo '```'; cat showtv-sync-report.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+            echo '### New episodes'; echo '```'; cat showtv-sync-report.txt; echo '```';
+            echo '### Own M3U sources (library/sources.txt)'; echo '```'; cat sources-report.txt 2>/dev/null; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
       - name: Commit and push
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: |
-          FILES="playlist.m3u library/playlist.snapshot.m3u library/tabii-seen.json showtv-series.json tabii-series.json tv8-series.json"
+          FILES="playlist.m3u library/playlist.snapshot.m3u library/tabii-seen.json library/sources-state.json showtv-series.json tabii-series.json tv8-series.json"
           [ -z "$(git status --porcelain -- $FILES)" ] && { echo "Series sync: nothing to change."; exit 0; }
           python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
           git config user.name "github-actions[bot]"
@@ -64,6 +69,7 @@ jobs:
             git reset --hard origin/main
             python series_discover.py playlist.m3u --apply --report series-discover-report.txt
             python showtv_sync.py playlist.m3u --apply --report showtv-sync-report.txt
+            python m3u_sources.py playlist.m3u --apply --report sources-report.txt || true
               [ -z "$(git status --porcelain -- $FILES)" ] && exit 0
             python repair_playlist.py --update-snapshot playlist.m3u library/playlist.snapshot.m3u
             git add $FILES
