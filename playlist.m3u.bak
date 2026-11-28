@@ -1381,6 +1381,8 @@ https://andam.uk/ytlive/riyadiyatv/index.m3u8
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-nova-sport1/live_fullhd
 #EXTINF:-1 tvg-name="NAT GEO"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fc072bd9fa-w.png"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO
 http://api.353505.xyz:80/live/123/123/528.ts
+#EXTINF:-1 tvg-name="NAT GEO HD"tvg-id=""tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/fc072bd9fa-w.png"tvg-chno=""group-title="National Geographic":http-referrer="",NAT GEO HD
+http://190.64.129.98:8080/NATGEO/index.m3u8
 #EXTINF:-1 tvg-name="PBS Nature"tvg-id="PBSNature.us@SD"tvg-logo="https://raw.githubusercontent.com/AndamAziz/Andamiptv/main/logos/Brry7cZ.png"tvg-chno=""group-title="National Geographic":http-referrer="",PBS Nature
 https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
 #EXTINF:-1 tvg-name="Love Nature"tvg-id="700418"tvg-logo="https://canvas-lb.tubitv.com/opts/0iGeAKWjBWGBjg==/1c502e7b-e295-4f49-a248-cbe59b17d0f1/CHgQeDoFMS4xLjlAAQ=="tvg-chno=""group-title="National Geographic":http-referrer="",Love Nature
@@ -19779,6 +19781,8 @@ https://andam.uk/vod/video_efdb94/index.m3u8
 https://andam.uk/vod/video_b9fceb/index.m3u8
 #EXTINF:-1 tvg-name="K.G.F Chapter 2 {tmdb-587412}"tvg-id=""tvg-logo="https://m.media-amazon.com/images/M/MV5BZmQzZjVkZTUtYjI4ZC00ZDJmLWI0ZDUtZTFmMGM1Mzc5ZjIyXkEyXkFqcGc@._V1_FMjpg_UY2408_.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-دۆبلاژ":http-referrer="",K.G.F Chapter 2 {tmdb-587412}
 https://andam.uk/vod/video_de6c9c/index.m3u8
+#EXTINF:-1 tvg-name="The Death of Robin Hood {tmdb-1284465}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/13MmRwmG5NmaMfU8qNrtgGXisiD.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",The Death of Robin Hood {tmdb-1284465}
+http://aqage.goldcamel4k.com/movie/THZHR24/QU1XB6N/1464760.mp4
 #EXTINF:-1 tvg-name="I Am Legend {tmdb-6479}"tvg-id=""tvg-logo="https://image.tmdb.org/t/p/w500/fhbiz5BsGUVEZmzPP72SoPlbMz0.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",I Am Legend {tmdb-6479}
 https://vz-436f3b70-ee3.b-cdn.net/87cadbcb-0744-41da-990c-8b0976d954d3/playlist.m3u8
 #EXTINF:-1 tvg-name="Enemy at the Gates {tmdb-853}"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cHRAbVdsCWFaQrswRsBP7Bn255W.jpg"tvg-chno=""tvg-type="movie"group-title="KURDISH-ژێرنوس":http-referrer="",Enemy at the Gates {tmdb-853}
@@ -24595,6 +24599,8 @@ https://vmcdn.ciner.com.tr/ht/2026/11/09/BB9B97C7A894D6EF64E8B7C772744547_1920x1
 https://vmcdn.ciner.com.tr/ht/2026/11/13/B681699ECAE5DC6AD033948F1DBFEA89_1920x1080.mp4
 #EXTINF:-1 tvg-name="Kızılcık Şerbeti {tmdb-213194} - S05E09"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lSywl799a9yLED1tPJCjobckjxQ.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Kızılcık Şerbeti {tmdb-213194} - S05E09
 https://vmcdn.ciner.com.tr/ht/2026/11/20/98E31E450C6D64BF1D426CBF7F93310B_1920x1080.mp4
+#EXTINF:-1 tvg-name="Kızılcık Şerbeti {tmdb-213194} - S05E10"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/lSywl799a9yLED1tPJCjobckjxQ.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Kızılcık Şerbeti {tmdb-213194} - S05E10
+https://vmcdn.ciner.com.tr/ht/2026/11/27/0C5FEEEBE6E744B99F3AE62701714C6F_1920x1080.mp4
 #EXTINF:-1 tvg-name="Mehmed: Fetihler Sultanı {tmdb-246621} - S01E01"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/A8fHgHmcEQU1UcOcXhW3NXtwwcZ.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Mehmed: Fetihler Sultanı {tmdb-246621} - S01E01
 https://eu1.tabii.com/apigateway/pbr/v1/media/321023/321022.m3u8
 #EXTINF:-1 tvg-name="Mehmed: Fetihler Sultanı {tmdb-246621} - S01E02"tvg-id=""tvg-logo="https://media.themoviedb.org/t/p/w600_and_h900_face/A8fHgHmcEQU1UcOcXhW3NXtwwcZ.jpg"tvg-chno=""tvg-type="series"group-title="Turkish Drama":http-referrer="",Mehmed: Fetihler Sultanı {tmdb-246621} - S01E02
